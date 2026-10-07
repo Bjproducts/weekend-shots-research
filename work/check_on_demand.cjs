@@ -1,0 +1,22 @@
+const {chromium}=require('C:/Users/bjpro/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{const b=await chromium.launch({headless:true,channel:'msedge'});try{
+const p=await b.newPage({viewport:{width:1280,height:900}}),errors=[];p.on('pageerror',e=>errors.push(e.message));
+const base=process.env.ON_DEMAND_URL||'http://127.0.0.1:8766';await p.goto(base);
+await p.getByRole('button',{name:'1. Check cached data'}).click();await p.locator('#results').waitFor({state:'visible'});
+if(await p.locator('#fixtures tr').count()!==15)throw Error('Expected 15 archived target fixtures');
+if(!(await p.locator('#summary').innerText()).includes('0 network requests'))throw Error('Cache check made network requests');
+await p.getByRole('button',{name:'2. Fetch missing shot data'}).click();await p.waitForFunction(()=>!document.querySelector('button').disabled);
+if(!(await p.locator('#summary').innerText()).includes('0 network requests'))throw Error('Duplicate downloads');
+await p.route('**/api/browser/start',r=>r.fulfill({status:202,contentType:'application/json',body:JSON.stringify({id:'test-job'})}));
+await p.route('**/api/job/test-job',r=>r.fulfill({status:200,contentType:'application/json',body:JSON.stringify({status:'completed',result:{status:'observed',fixture:'Charlotte v DC United',home_starters:Array(11).fill('x')}})}));
+await p.getByRole('button',{name:'3. Test one lineup with agent'}).click();await p.waitForFunction(()=>document.querySelector('#jobText').textContent.includes('11 home starters'));
+await p.locator('#week').fill('2026-08-15');await p.getByRole('button',{name:'1. Check cached data'}).click();await p.waitForFunction(()=>!document.querySelector('button').disabled);
+if(await p.locator('#picks tr').count()!==5)throw Error('Existing replay not reused');
+await p.locator('#week').fill('2026-08-23');await p.getByRole('button',{name:'1. Check cached data'}).click();await p.waitForFunction(()=>!document.querySelector('button').disabled);
+if(!(await p.locator('#status').innerText()).includes('Saturday'))throw Error('Date guard');
+await p.locator('#week').fill('2026-08-22');await p.getByRole('button',{name:'1. Check cached data'}).click();await p.waitForFunction(()=>!document.querySelector('button').disabled);
+await p.screenshot({path:'work/on-demand-desktop.png',fullPage:true});await p.setViewportSize({width:390,height:844});
+if(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth))throw Error('Mobile overflow');
+const rejected=await p.request.post(base+'/api/check',{headers:{Origin:'https://example.com'},data:{weekend:'2026-08-22'}});if(rejected.status()!==403)throw Error('Cross-origin write allowed');
+if(errors.length)throw Error(errors.join(';'));console.log('PASS: check, cached collect, browser-job UI, existing replay, invalid date, mobile, origin protection and no JS errors');
+}finally{await b.close();}})().catch(e=>{console.error(e);process.exit(1)});

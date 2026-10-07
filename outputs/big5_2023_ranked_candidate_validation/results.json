@@ -1,0 +1,628 @@
+{
+  "name": "Big-five 2023/24 ranked-environment Plan B replication",
+  "classification": "frozen-before-acquisition historical replication",
+  "plan_sha256": "d093535a15320688757b0292bc0abbaf3adbfec996093c04cd689c41a9de30fe",
+  "provider": "FotMob public match pages/data",
+  "source_matches": 946,
+  "acquisition_failures": 0,
+  "target_fixtures": 166,
+  "ranked_fixtures": 151,
+  "qualifying_top_five_A_or_B_environments": 20,
+  "environment_home_outshot": {
+    "hits": 16,
+    "fixtures": 20,
+    "rate": 80.0
+  },
+  "candidate_samples": 1247,
+  "A": {
+    "hits": 18,
+    "picks": 22,
+    "misses": 4,
+    "rate": 81.8,
+    "wilson95": [
+      61.5,
+      92.7
+    ]
+  },
+  "B": {
+    "hits": 11,
+    "picks": 14,
+    "misses": 3,
+    "rate": 78.6,
+    "wilson95": [
+      52.4,
+      92.4
+    ]
+  },
+  "by_weekend": [
+    {
+      "weekend": "2023-09-16",
+      "A": {
+        "hits": 5,
+        "picks": 5,
+        "misses": 0,
+        "rate": 100.0,
+        "wilson95": [
+          56.6,
+          100.0
+        ]
+      },
+      "B": {
+        "hits": 2,
+        "picks": 2,
+        "misses": 0,
+        "rate": 100.0,
+        "wilson95": [
+          34.2,
+          100.0
+        ]
+      }
+    },
+    {
+      "weekend": "2023-09-23",
+      "A": {
+        "hits": 5,
+        "picks": 6,
+        "misses": 1,
+        "rate": 83.3,
+        "wilson95": [
+          43.6,
+          97.0
+        ]
+      },
+      "B": {
+        "hits": 5,
+        "picks": 6,
+        "misses": 1,
+        "rate": 83.3,
+        "wilson95": [
+          43.6,
+          97.0
+        ]
+      }
+    },
+    {
+      "weekend": "2023-09-30",
+      "A": {
+        "hits": 2,
+        "picks": 3,
+        "misses": 1,
+        "rate": 66.7,
+        "wilson95": [
+          20.8,
+          93.9
+        ]
+      },
+      "B": {
+        "hits": 0,
+        "picks": 1,
+        "misses": 1,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          79.3
+        ]
+      }
+    },
+    {
+      "weekend": "2023-10-07",
+      "A": {
+        "hits": 6,
+        "picks": 8,
+        "misses": 2,
+        "rate": 75.0,
+        "wilson95": [
+          40.9,
+          92.9
+        ]
+      },
+      "B": {
+        "hits": 4,
+        "picks": 5,
+        "misses": 1,
+        "rate": 80.0,
+        "wilson95": [
+          37.6,
+          96.4
+        ]
+      }
+    }
+  ],
+  "by_league": {
+    "Bundesliga": {
+      "A": {
+        "hits": 5,
+        "picks": 6,
+        "misses": 1,
+        "rate": 83.3,
+        "wilson95": [
+          43.6,
+          97.0
+        ]
+      },
+      "B": {
+        "hits": 5,
+        "picks": 6,
+        "misses": 1,
+        "rate": 83.3,
+        "wilson95": [
+          43.6,
+          97.0
+        ]
+      }
+    },
+    "LaLiga": {
+      "A": {
+        "hits": 4,
+        "picks": 5,
+        "misses": 1,
+        "rate": 80.0,
+        "wilson95": [
+          37.6,
+          96.4
+        ]
+      },
+      "B": {
+        "hits": 2,
+        "picks": 2,
+        "misses": 0,
+        "rate": 100.0,
+        "wilson95": [
+          34.2,
+          100.0
+        ]
+      }
+    },
+    "Ligue 1": {
+      "A": {
+        "hits": 1,
+        "picks": 2,
+        "misses": 1,
+        "rate": 50.0,
+        "wilson95": [
+          9.5,
+          90.5
+        ]
+      },
+      "B": {
+        "hits": 0,
+        "picks": 1,
+        "misses": 1,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          79.3
+        ]
+      }
+    },
+    "Premier League": {
+      "A": {
+        "hits": 5,
+        "picks": 6,
+        "misses": 1,
+        "rate": 83.3,
+        "wilson95": [
+          43.6,
+          97.0
+        ]
+      },
+      "B": {
+        "hits": 4,
+        "picks": 5,
+        "misses": 1,
+        "rate": 80.0,
+        "wilson95": [
+          37.6,
+          96.4
+        ]
+      }
+    },
+    "Serie A": {
+      "A": {
+        "hits": 3,
+        "picks": 3,
+        "misses": 0,
+        "rate": 100.0,
+        "wilson95": [
+          43.8,
+          100.0
+        ]
+      },
+      "B": {
+        "hits": 0,
+        "picks": 0,
+        "rate": null,
+        "misses": 0
+      }
+    }
+  },
+  "confidence_counts": {
+    "A": 151,
+    "EXCLUDED": 15
+  },
+  "exclusions": {
+    "outside_top_five_environments": 1013,
+    "fewer_than_four_recent_hits": 1129,
+    "outside_top_two_shooters": 929,
+    "minutes_below_70": 71,
+    "environment_history_excluded": 62
+  },
+  "streaks": {
+    "A": {
+      "formula": "$10 * 1.5^consecutive_wins",
+      "sequence": "WWWWWWWWWLWLWWLWWLWWWW",
+      "cycles": [
+        {
+          "wins": 9,
+          "peak_before_loss": 384.43,
+          "ended_by_loss": true,
+          "legs": [
+            {
+              "date": "2023-09-16T13:00:00Z",
+              "league": "Serie A",
+              "fixture": "Juventus vs Lazio",
+              "player": "Federico Chiesa",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2023-09-16T14:00:00Z",
+              "league": "Premier League",
+              "fixture": "Manchester United vs Brighton & Hove Albion",
+              "player": "Marcus Rashford",
+              "shots": 9,
+              "hit": true
+            },
+            {
+              "date": "2023-09-16T19:00:00Z",
+              "league": "LaLiga",
+              "fixture": "Barcelona vs Real Betis",
+              "player": "Robert Lewandowski",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2023-09-17T14:15:00Z",
+              "league": "LaLiga",
+              "fixture": "Villarreal vs Almer\u00eda",
+              "player": "Gerard Moreno",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2023-09-17T14:15:00Z",
+              "league": "LaLiga",
+              "fixture": "Villarreal vs Almer\u00eda",
+              "player": "\u00c1lex Baena",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2023-09-23T13:30:00Z",
+              "league": "Bundesliga",
+              "fixture": "Bayern M\u00fcnchen vs Bochum",
+              "player": "Leroy San\u00e9",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2023-09-23T14:00:00Z",
+              "league": "Premier League",
+              "fixture": "Manchester City vs Nottingham Forest",
+              "player": "Erling Haaland",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2023-09-23T14:00:00Z",
+              "league": "Premier League",
+              "fixture": "Manchester City vs Nottingham Forest",
+              "player": "Juli\u00e1n \u00c1lvarez",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2023-09-23T16:30:00Z",
+              "league": "LaLiga",
+              "fixture": "Barcelona vs Celta Vigo",
+              "player": "Robert Lewandowski",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2023-09-24T13:00:00Z",
+              "league": "Premier League",
+              "fixture": "Brighton & Hove Albion vs AFC Bournemouth",
+              "player": "Evan Ferguson",
+              "shots": 1,
+              "hit": false
+            }
+          ]
+        },
+        {
+          "wins": 1,
+          "peak_before_loss": 15.0,
+          "ended_by_loss": true,
+          "legs": [
+            {
+              "date": "2023-09-24T13:00:00Z",
+              "league": "Premier League",
+              "fixture": "Liverpool vs West Ham United",
+              "player": "Mohamed Salah",
+              "shots": 5,
+              "hit": true
+            },
+            {
+              "date": "2023-09-30T13:40:00Z",
+              "league": "Bundesliga",
+              "fixture": "Bochum vs Borussia M\u00f6nchengladbach",
+              "player": "Kevin St\u00f6ger",
+              "shots": 1,
+              "hit": false
+            }
+          ]
+        },
+        {
+          "wins": 2,
+          "peak_before_loss": 22.5,
+          "ended_by_loss": true,
+          "legs": [
+            {
+              "date": "2023-09-30T14:00:00Z",
+              "league": "Premier League",
+              "fixture": "West Ham United vs Sheffield United",
+              "player": "Jarrod Bowen",
+              "shots": 6,
+              "hit": true
+            },
+            {
+              "date": "2023-09-30T16:00:00Z",
+              "league": "Serie A",
+              "fixture": "Milan vs Lazio",
+              "player": "Rafael Le\u00e3o",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2023-10-07T14:15:00Z",
+              "league": "LaLiga",
+              "fixture": "Real Madrid vs Osasuna",
+              "player": "Federico Valverde",
+              "shots": 1,
+              "hit": false
+            }
+          ]
+        },
+        {
+          "wins": 2,
+          "peak_before_loss": 22.5,
+          "ended_by_loss": true,
+          "legs": [
+            {
+              "date": "2023-10-08T10:30:00Z",
+              "league": "Serie A",
+              "fixture": "Monza vs Salernitana",
+              "player": "Patrick Ciurria",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2023-10-08T13:00:00Z",
+              "league": "Ligue 1",
+              "fixture": "Brest vs Toulouse",
+              "player": "Steve Mounie",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2023-10-08T13:00:00Z",
+              "league": "Ligue 1",
+              "fixture": "Brest vs Toulouse",
+              "player": "J\u00e9r\u00e9my Le Douaron",
+              "shots": 1,
+              "hit": false
+            }
+          ]
+        },
+        {
+          "wins": 4,
+          "ending_balance": 50.62,
+          "ended_by_loss": false,
+          "legs": [
+            {
+              "date": "2023-10-08T13:30:00Z",
+              "league": "Bundesliga",
+              "fixture": "Bayer Leverkusen vs 1. FC K\u00f6ln",
+              "player": "Victor Okoh Boniface",
+              "shots": 6,
+              "hit": true
+            },
+            {
+              "date": "2023-10-08T13:30:00Z",
+              "league": "Bundesliga",
+              "fixture": "Bayer Leverkusen vs 1. FC K\u00f6ln",
+              "player": "Jonas Hofmann",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2023-10-08T15:30:00Z",
+              "league": "Bundesliga",
+              "fixture": "Bayern M\u00fcnchen vs Freiburg",
+              "player": "Harry Kane",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2023-10-08T15:30:00Z",
+              "league": "Bundesliga",
+              "fixture": "Bayern M\u00fcnchen vs Freiburg",
+              "player": "Leroy San\u00e9",
+              "shots": 3,
+              "hit": true
+            }
+          ]
+        }
+      ],
+      "max_consecutive_wins": 9,
+      "maximum_balance_reached": 384.43,
+      "note": "A loss after an all-in winning streak reduces that cycle to $0; simultaneous picks are ordered only for this mathematical diagnostic."
+    },
+    "B": {
+      "formula": "$10 * 2.0^consecutive_wins",
+      "sequence": "WWWWWWLWLLWWWW",
+      "cycles": [
+        {
+          "wins": 6,
+          "peak_before_loss": 640.0,
+          "ended_by_loss": true,
+          "legs": [
+            {
+              "date": "2023-09-16T14:00:00Z",
+              "league": "Premier League",
+              "fixture": "Manchester United vs Brighton & Hove Albion",
+              "player": "Marcus Rashford",
+              "shots": 9,
+              "hit": true
+            },
+            {
+              "date": "2023-09-16T19:00:00Z",
+              "league": "LaLiga",
+              "fixture": "Barcelona vs Real Betis",
+              "player": "Robert Lewandowski",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2023-09-23T13:30:00Z",
+              "league": "Bundesliga",
+              "fixture": "Bayern M\u00fcnchen vs Bochum",
+              "player": "Leroy San\u00e9",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2023-09-23T14:00:00Z",
+              "league": "Premier League",
+              "fixture": "Manchester City vs Nottingham Forest",
+              "player": "Erling Haaland",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2023-09-23T14:00:00Z",
+              "league": "Premier League",
+              "fixture": "Manchester City vs Nottingham Forest",
+              "player": "Juli\u00e1n \u00c1lvarez",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2023-09-23T16:30:00Z",
+              "league": "LaLiga",
+              "fixture": "Barcelona vs Celta Vigo",
+              "player": "Robert Lewandowski",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2023-09-24T13:00:00Z",
+              "league": "Premier League",
+              "fixture": "Brighton & Hove Albion vs AFC Bournemouth",
+              "player": "Evan Ferguson",
+              "shots": 1,
+              "hit": false
+            }
+          ]
+        },
+        {
+          "wins": 1,
+          "peak_before_loss": 20.0,
+          "ended_by_loss": true,
+          "legs": [
+            {
+              "date": "2023-09-24T13:00:00Z",
+              "league": "Premier League",
+              "fixture": "Liverpool vs West Ham United",
+              "player": "Mohamed Salah",
+              "shots": 5,
+              "hit": true
+            },
+            {
+              "date": "2023-09-30T13:40:00Z",
+              "league": "Bundesliga",
+              "fixture": "Bochum vs Borussia M\u00f6nchengladbach",
+              "player": "Kevin St\u00f6ger",
+              "shots": 1,
+              "hit": false
+            }
+          ]
+        },
+        {
+          "wins": 0,
+          "peak_before_loss": 10.0,
+          "ended_by_loss": true,
+          "legs": [
+            {
+              "date": "2023-10-08T13:00:00Z",
+              "league": "Ligue 1",
+              "fixture": "Brest vs Toulouse",
+              "player": "J\u00e9r\u00e9my Le Douaron",
+              "shots": 1,
+              "hit": false
+            }
+          ]
+        },
+        {
+          "wins": 4,
+          "ending_balance": 160.0,
+          "ended_by_loss": false,
+          "legs": [
+            {
+              "date": "2023-10-08T13:30:00Z",
+              "league": "Bundesliga",
+              "fixture": "Bayer Leverkusen vs 1. FC K\u00f6ln",
+              "player": "Victor Okoh Boniface",
+              "shots": 6,
+              "hit": true
+            },
+            {
+              "date": "2023-10-08T13:30:00Z",
+              "league": "Bundesliga",
+              "fixture": "Bayer Leverkusen vs 1. FC K\u00f6ln",
+              "player": "Jonas Hofmann",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2023-10-08T15:30:00Z",
+              "league": "Bundesliga",
+              "fixture": "Bayern M\u00fcnchen vs Freiburg",
+              "player": "Harry Kane",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2023-10-08T15:30:00Z",
+              "league": "Bundesliga",
+              "fixture": "Bayern M\u00fcnchen vs Freiburg",
+              "player": "Leroy San\u00e9",
+              "shots": 3,
+              "hit": true
+            }
+          ]
+        }
+      ],
+      "max_consecutive_wins": 6,
+      "maximum_balance_reached": 640.0,
+      "note": "A loss after an all-in winning streak reduces that cycle to $0; simultaneous picks are ordered only for this mathematical diagnostic."
+    }
+  },
+  "limits": [
+    "Retrospective historical validation uses actual starting lineups as if known before kickoff.",
+    "FotMob definitions may differ from StatsBomb and must retain provider provenance.",
+    "No historical market odds or profitability claims.",
+    "Multiple players and fixtures within a weekend are correlated.",
+    "The four-week sample cannot by itself establish a future win rate."
+  ]
+}

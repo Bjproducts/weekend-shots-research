@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-09-29T00:00:00Z",
+  "status": "frozen_before_replication_acquisition_and_pick_calculation",
+  "name": "Big-five early-season previous-season carryover replication v1",
+  "purpose": "Untouched replication of the already specified carryover formula on a different season.",
+  "target_weekends": [
+    "2025-09-13/14",
+    "2025-09-20/21",
+    "2025-09-27/28",
+    "2025-10-04/05"
+  ],
+  "leagues": [
+    "Premier League",
+    "LaLiga",
+    "Serie A",
+    "Bundesliga",
+    "Ligue 1"
+  ],
+  "provider": "FotMob public match pages/data",
+  "original_carryover_plan_sha256": "b18f4f494be4d84f252cd35dc65c489d56a7c21d9890fd4b623f4e0f51c8ebf3",
+  "carryover_rule": {
+    "team_history": "Use all earlier current-season results. If fewer than eight, prepend the most recent previous-season results for the same team in the same top-flight league, within 180 days, until eight total are available.",
+    "venue_history": "For last-up-to-five home or away shot histories, use earlier current-season venue matches first and continue backward into the immediately previous same-league season within 180 days.",
+    "player_history": "Use the previous five starts for the same player and same team within 180 days, crossing the season boundary when available.",
+    "promoted_or_transferred": "Do not substitute lower-division team history or a player's different-team history. Missing comparable history remains an exclusion.",
+    "timing": "Only matches ending before the target fixture's greater-than-24-hour cutoff may enter features."
+  },
+  "pattern_A": "Stronger home overall and last five PPG; home venue shots >=12; away venue shots conceded >=12; projected home shots > projected away; confirmed home starter; top two eligible shooters; prior five-start average minutes >=70; at least 4/5 prior 2+ shot hits.",
+  "pattern_B": "Pattern A plus prior five-start average shots >=3 and average minutes >=80.",
+  "betting": {
+    "starting_stake": 10,
+    "decimal_odds_A": 1.5,
+    "decimal_odds_B": 2.0,
+    "rollover": "continuous all-in in chronological selection order; a loss reduces the current balance to zero"
+  },
+  "decision_policy": "No threshold, league, weekend, history rule, odds, exclusion or ordering changes after acquisition. Save every target starter, exclusion, environment and pick.",
+  "limits": [
+    "This replication was selected after the 2026 carryover replay, so it is new data but not a prospective trial.",
+    "FotMob provider definitions require validation and may differ from StatsBomb or SportsAPI.",
+    "Historical market odds are not used; fixed prices are hypothetical.",
+    "Actual historical starting lineups are treated as known at lineup time."
+  ]
+}

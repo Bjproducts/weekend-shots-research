@@ -1,0 +1,21 @@
+{
+  "provider": "FotMob public match pages/data",
+  "retrieved_utc": "2026-09-29T14:21:10.715390+00:00",
+  "scope": "finished top-five-league matches from 2025-03-17 through 2025-10-05 UTC",
+  "league_fixture_counts": {
+    "Premier League 2024/2025": 380,
+    "Premier League 2025/2026": 380,
+    "LaLiga 2024/2025": 380,
+    "LaLiga 2025/2026": 380,
+    "Serie A 2024/2025": 380,
+    "Serie A 2025/2026": 380,
+    "Bundesliga 2024/2025": 306,
+    "Bundesliga 2025/2026": 306,
+    "Ligue 1 2024/2025": 306,
+    "Ligue 1 2025/2026": 306
+  },
+  "selected_match_details": 754,
+  "normalized_matches": 754,
+  "failures": [],
+  "raw_cache": "C:\\Users\\bjpro\\Documents\\Codex\\2026-09-24\\referenced-chatgpt-conversation-this-is-an\\outputs\\big5_2025_carryover_replication\\raw"
+}

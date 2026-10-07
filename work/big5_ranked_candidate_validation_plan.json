@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-09-29T00:00:00Z",
+  "status": "frozen_before_third-season_acquisition_and_outcome_calculation",
+  "name": "Big-five ranked-environment candidate validation v1",
+  "purpose": "Untouched validation of the complete environment-first workflow on a third season.",
+  "target_season": "2024/2025",
+  "history_season": "2023/2024",
+  "target_weekends": ["2024-09-14/15", "2024-09-21/22", "2024-09-28/29", "2024-10-05/06"],
+  "leagues": ["Premier League", "LaLiga", "Serie A", "Bundesliga", "Ligue 1"],
+  "environment_ranking": {
+    "specification": "big5_environment_ranking_spec.json",
+    "overall_ppg_gap_percentile_weight": 0.30,
+    "recent_five_ppg_gap_percentile_weight": 0.30,
+    "projected_home_shots_percentile_weight": 0.25,
+    "projected_shot_gap_percentile_weight": 0.15,
+    "qualifying_rank": "Top five ranked comparable environments within each Saturday/Sunday weekend.",
+    "qualifying_confidence": ["A", "B"],
+    "tier_C": "Rank and save, but do not generate selections.",
+    "excluded": "Do not rank teams lacking at least five comparable matches or two venue-history matches."
+  },
+  "candidate_A": "Confirmed home starter; five previous same-player/same-team starts within 180 days; top two eligible home shooters by average shots; prior average minutes >=70; at least four of five prior starts with 2+ shots.",
+  "candidate_B": "Candidate A plus prior five-start average shots >=3 and average minutes >=80.",
+  "outcome": "Player records at least two total shots in the target match.",
+  "betting": {"starting_stake": 10, "decimal_odds_A": 1.5, "decimal_odds_B": 2.0, "rollover": "continuous all-in mathematical diagnostic"},
+  "decision_policy": "No changes to weekends, weights, rank cutoff, confidence gate, histories, player filters, odds, exclusions or ordering after acquisition.",
+  "limits": [
+    "This is retrospective historical validation using actual starting lineups as if known at lineup time.",
+    "The ranking design was developed using the two later seasons, but the target 2024/25 outcomes have not been used to tune it in this project.",
+    "Fixed odds are hypothetical and not historical market prices.",
+    "Tier C fixtures remain research rankings only."
+  ]
+}

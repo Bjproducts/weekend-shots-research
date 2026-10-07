@@ -1,0 +1,6122 @@
+[
+  {
+    "id": 12499375,
+    "date": "2024-08-23T18:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 3
+  },
+  {
+    "id": 12499386,
+    "date": "2024-08-24T13:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499406,
+    "date": "2024-08-24T13:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 2
+  },
+  {
+    "id": 12499418,
+    "date": "2024-08-24T13:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499430,
+    "date": "2024-08-24T13:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499452,
+    "date": "2024-08-24T13:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499391,
+    "date": "2024-08-24T16:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12583571,
+    "date": "2024-08-25T13:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 3
+  },
+  {
+    "id": 12499462,
+    "date": "2024-08-25T15:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499524,
+    "date": "2024-08-30T18:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499480,
+    "date": "2024-08-31T13:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 3
+  },
+  {
+    "id": 12499498,
+    "date": "2024-08-31T13:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499514,
+    "date": "2024-08-31T13:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499533,
+    "date": "2024-08-31T13:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499540,
+    "date": "2024-08-31T13:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499471,
+    "date": "2024-08-31T16:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 3
+  },
+  {
+    "id": 12499507,
+    "date": "2024-09-01T13:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 0
+  },
+  {
+    "id": 12499488,
+    "date": "2024-09-01T15:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499549,
+    "date": "2024-09-13T18:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 2
+  },
+  {
+    "id": 12499546,
+    "date": "2024-09-14T13:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499552,
+    "date": "2024-09-14T13:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 4
+  },
+  {
+    "id": 12499571,
+    "date": "2024-09-14T13:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499577,
+    "date": "2024-09-14T13:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499585,
+    "date": "2024-09-14T13:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 3
+  },
+  {
+    "id": 12499588,
+    "date": "2024-09-14T16:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 6
+  },
+  {
+    "id": 12499575,
+    "date": "2024-09-15T13:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499581,
+    "date": "2024-09-15T15:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499607,
+    "date": "2024-09-20T18:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 3
+  },
+  {
+    "id": 12499600,
+    "date": "2024-09-21T13:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 3
+  },
+  {
+    "id": 12499604,
+    "date": "2024-09-21T13:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 5
+  },
+  {
+    "id": 12499610,
+    "date": "2024-09-21T13:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499614,
+    "date": "2024-09-21T13:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499598,
+    "date": "2024-09-21T16:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499591,
+    "date": "2024-09-22T13:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 3
+  },
+  {
+    "id": 12499595,
+    "date": "2024-09-22T15:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 5,
+    "away_score": 1
+  },
+  {
+    "id": 12499617,
+    "date": "2024-09-22T17:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499627,
+    "date": "2024-09-27T18:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 2
+  },
+  {
+    "id": 12499624,
+    "date": "2024-09-28T13:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 0
+  },
+  {
+    "id": 12499633,
+    "date": "2024-09-28T13:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 3
+  },
+  {
+    "id": 12499638,
+    "date": "2024-09-28T13:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499642,
+    "date": "2024-09-28T13:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499644,
+    "date": "2024-09-28T13:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499620,
+    "date": "2024-09-28T16:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499648,
+    "date": "2024-09-29T13:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 4
+  },
+  {
+    "id": 12499631,
+    "date": "2024-09-29T15:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 4
+  },
+  {
+    "id": 12499666,
+    "date": "2024-10-04T18:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499652,
+    "date": "2024-10-05T13:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499664,
+    "date": "2024-10-05T13:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499671,
+    "date": "2024-10-05T13:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499674,
+    "date": "2024-10-05T13:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 3
+  },
+  {
+    "id": 12499677,
+    "date": "2024-10-05T16:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 3
+  },
+  {
+    "id": 12499660,
+    "date": "2024-10-06T13:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499656,
+    "date": "2024-10-06T15:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 3
+  },
+  {
+    "id": 12499654,
+    "date": "2024-10-06T17:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499687,
+    "date": "2024-10-18T18:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499681,
+    "date": "2024-10-19T13:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499690,
+    "date": "2024-10-19T13:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499694,
+    "date": "2024-10-19T13:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499703,
+    "date": "2024-10-19T13:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499707,
+    "date": "2024-10-19T13:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 2
+  },
+  {
+    "id": 12499684,
+    "date": "2024-10-19T16:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 0
+  },
+  {
+    "id": 12499710,
+    "date": "2024-10-20T13:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499700,
+    "date": "2024-10-20T15:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 4
+  },
+  {
+    "id": 12499730,
+    "date": "2024-10-25T18:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499713,
+    "date": "2024-10-26T13:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499717,
+    "date": "2024-10-26T13:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499727,
+    "date": "2024-10-26T13:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499740,
+    "date": "2024-10-26T13:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499723,
+    "date": "2024-10-26T16:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499737,
+    "date": "2024-10-27T14:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 5
+  },
+  {
+    "id": 12499734,
+    "date": "2024-10-27T16:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499720,
+    "date": "2024-10-27T18:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499743,
+    "date": "2024-11-01T19:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499746,
+    "date": "2024-11-02T14:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 0
+  },
+  {
+    "id": 12499753,
+    "date": "2024-11-02T14:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 7,
+    "away_score": 2
+  },
+  {
+    "id": 12499757,
+    "date": "2024-11-02T14:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499763,
+    "date": "2024-11-02T14:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499771,
+    "date": "2024-11-02T14:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499750,
+    "date": "2024-11-02T17:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499760,
+    "date": "2024-11-03T14:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499767,
+    "date": "2024-11-03T16:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 1
+  },
+  {
+    "id": 12499794,
+    "date": "2024-11-08T19:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499783,
+    "date": "2024-11-09T14:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499791,
+    "date": "2024-11-09T14:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499797,
+    "date": "2024-11-09T14:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499802,
+    "date": "2024-11-09T14:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499777,
+    "date": "2024-11-09T17:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499788,
+    "date": "2024-11-10T14:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499773,
+    "date": "2024-11-10T16:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 3
+  },
+  {
+    "id": 12499781,
+    "date": "2024-11-10T18:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 3
+  },
+  {
+    "id": 12499812,
+    "date": "2024-11-22T19:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 0
+  },
+  {
+    "id": 12499806,
+    "date": "2024-11-23T14:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 5,
+    "away_score": 2
+  },
+  {
+    "id": 12499808,
+    "date": "2024-11-23T14:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499816,
+    "date": "2024-11-23T14:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 0
+  },
+  {
+    "id": 12499822,
+    "date": "2024-11-23T14:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 3
+  },
+  {
+    "id": 12499826,
+    "date": "2024-11-23T14:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499819,
+    "date": "2024-11-23T17:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499833,
+    "date": "2024-11-24T14:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 3
+  },
+  {
+    "id": 12499829,
+    "date": "2024-11-24T16:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499468,
+    "date": "2024-11-29T19:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499411,
+    "date": "2024-11-30T14:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499424,
+    "date": "2024-11-30T14:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499436,
+    "date": "2024-11-30T14:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499457,
+    "date": "2024-11-30T14:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499836,
+    "date": "2024-11-30T14:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 5
+  },
+  {
+    "id": 12499387,
+    "date": "2024-11-30T17:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499448,
+    "date": "2024-12-01T14:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499399,
+    "date": "2024-12-01T16:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 4
+  },
+  {
+    "id": 12499484,
+    "date": "2024-12-06T19:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 2
+  },
+  {
+    "id": 12499477,
+    "date": "2024-12-07T14:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499495,
+    "date": "2024-12-07T14:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 2
+  },
+  {
+    "id": 12499502,
+    "date": "2024-12-07T14:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499537,
+    "date": "2024-12-07T14:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499545,
+    "date": "2024-12-07T14:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499529,
+    "date": "2024-12-07T17:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499521,
+    "date": "2024-12-08T14:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 3
+  },
+  {
+    "id": 12499511,
+    "date": "2024-12-08T16:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499573,
+    "date": "2024-12-13T19:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 2
+  },
+  {
+    "id": 12499576,
+    "date": "2024-12-14T14:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499580,
+    "date": "2024-12-14T14:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499583,
+    "date": "2024-12-14T14:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 1
+  },
+  {
+    "id": 12499586,
+    "date": "2024-12-14T14:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499590,
+    "date": "2024-12-14T17:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499570,
+    "date": "2024-12-15T14:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 3
+  },
+  {
+    "id": 12499551,
+    "date": "2024-12-15T16:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499548,
+    "date": "2024-12-15T18:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499599,
+    "date": "2024-12-20T19:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 5,
+    "away_score": 1
+  },
+  {
+    "id": 12499596,
+    "date": "2024-12-21T14:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499603,
+    "date": "2024-12-21T14:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 3
+  },
+  {
+    "id": 12499606,
+    "date": "2024-12-21T14:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499609,
+    "date": "2024-12-21T14:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 1
+  },
+  {
+    "id": 12499619,
+    "date": "2024-12-21T14:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 5,
+    "away_score": 1
+  },
+  {
+    "id": 12499593,
+    "date": "2024-12-21T17:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 5,
+    "away_score": 1
+  },
+  {
+    "id": 12499616,
+    "date": "2024-12-22T14:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499613,
+    "date": "2024-12-22T16:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 3
+  },
+  {
+    "id": 12499626,
+    "date": "2025-01-10T19:45:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 3
+  },
+  {
+    "id": 12499629,
+    "date": "2025-01-11T14:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499632,
+    "date": "2025-01-11T14:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499637,
+    "date": "2025-01-11T14:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 2
+  },
+  {
+    "id": 12499643,
+    "date": "2025-01-11T14:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499650,
+    "date": "2025-01-11T14:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499647,
+    "date": "2025-01-11T17:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499622,
+    "date": "2025-01-12T14:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 2
+  },
+  {
+    "id": 12499640,
+    "date": "2025-01-12T16:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499682,
+    "date": "2025-01-14T17:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 2
+  },
+  {
+    "id": 12499653,
+    "date": "2025-01-14T19:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499665,
+    "date": "2025-01-14T19:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 1
+  },
+  {
+    "id": 12499672,
+    "date": "2025-01-14T19:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 5,
+    "away_score": 1
+  },
+  {
+    "id": 12499678,
+    "date": "2025-01-15T17:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499657,
+    "date": "2025-01-15T19:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499661,
+    "date": "2025-01-15T19:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 5,
+    "away_score": 0
+  },
+  {
+    "id": 12499667,
+    "date": "2025-01-15T19:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 3
+  },
+  {
+    "id": 12499675,
+    "date": "2025-01-15T19:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499695,
+    "date": "2025-01-17T19:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499689,
+    "date": "2025-01-18T14:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 0
+  },
+  {
+    "id": 12499691,
+    "date": "2025-01-18T14:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 2
+  },
+  {
+    "id": 12499702,
+    "date": "2025-01-18T14:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499712,
+    "date": "2025-01-18T14:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 3
+  },
+  {
+    "id": 12499715,
+    "date": "2025-01-18T14:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 3
+  },
+  {
+    "id": 12499685,
+    "date": "2025-01-18T17:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499708,
+    "date": "2025-01-19T14:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499704,
+    "date": "2025-01-19T16:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499735,
+    "date": "2025-01-24T19:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499718,
+    "date": "2025-01-25T14:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499722,
+    "date": "2025-01-25T14:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499729,
+    "date": "2025-01-25T14:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499732,
+    "date": "2025-01-25T14:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 1
+  },
+  {
+    "id": 12499739,
+    "date": "2025-01-25T14:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499741,
+    "date": "2025-01-25T17:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 0
+  },
+  {
+    "id": 12499725,
+    "date": "2025-01-26T14:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499745,
+    "date": "2025-01-26T16:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 0
+  },
+  {
+    "id": 12499766,
+    "date": "2025-01-31T19:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499752,
+    "date": "2025-02-01T14:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499755,
+    "date": "2025-02-01T14:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 3
+  },
+  {
+    "id": 12499762,
+    "date": "2025-02-01T14:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499772,
+    "date": "2025-02-01T14:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499776,
+    "date": "2025-02-01T14:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499769,
+    "date": "2025-02-01T17:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499759,
+    "date": "2025-02-02T14:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499749,
+    "date": "2025-02-02T16:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499779,
+    "date": "2025-02-07T19:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 0
+  },
+  {
+    "id": 12499786,
+    "date": "2025-02-08T14:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499790,
+    "date": "2025-02-08T14:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 4
+  },
+  {
+    "id": 12499793,
+    "date": "2025-02-08T14:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499796,
+    "date": "2025-02-08T14:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499801,
+    "date": "2025-02-08T14:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499805,
+    "date": "2025-02-08T17:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499807,
+    "date": "2025-02-09T14:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499782,
+    "date": "2025-02-09T16:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499828,
+    "date": "2025-02-14T19:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499815,
+    "date": "2025-02-15T14:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499832,
+    "date": "2025-02-15T14:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499835,
+    "date": "2025-02-15T14:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499838,
+    "date": "2025-02-15T14:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499811,
+    "date": "2025-02-15T17:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499825,
+    "date": "2025-02-16T14:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 3
+  },
+  {
+    "id": 12499818,
+    "date": "2025-02-16T16:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499821,
+    "date": "2025-02-16T18:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499392,
+    "date": "2025-02-21T19:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 5,
+    "away_score": 0
+  },
+  {
+    "id": 12499394,
+    "date": "2025-02-22T14:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499395,
+    "date": "2025-02-22T14:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499396,
+    "date": "2025-02-22T14:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 3
+  },
+  {
+    "id": 12499398,
+    "date": "2025-02-22T14:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499389,
+    "date": "2025-02-22T17:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 6,
+    "away_score": 0
+  },
+  {
+    "id": 12499845,
+    "date": "2025-02-23T14:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499842,
+    "date": "2025-02-23T16:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 0
+  },
+  {
+    "id": 12499390,
+    "date": "2025-02-23T18:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499400,
+    "date": "2025-02-28T19:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 3
+  },
+  {
+    "id": 12499401,
+    "date": "2025-03-01T14:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499404,
+    "date": "2025-03-01T14:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 3
+  },
+  {
+    "id": 12499405,
+    "date": "2025-03-01T14:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499409,
+    "date": "2025-03-01T14:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499410,
+    "date": "2025-03-01T14:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499402,
+    "date": "2025-03-01T17:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 4
+  },
+  {
+    "id": 12499408,
+    "date": "2025-03-02T14:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499407,
+    "date": "2025-03-02T16:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499423,
+    "date": "2025-03-07T19:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 3
+  },
+  {
+    "id": 12499413,
+    "date": "2025-03-08T14:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499414,
+    "date": "2025-03-08T14:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 3
+  },
+  {
+    "id": 12499416,
+    "date": "2025-03-08T14:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499421,
+    "date": "2025-03-08T14:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499426,
+    "date": "2025-03-08T14:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499420,
+    "date": "2025-03-08T17:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499417,
+    "date": "2025-03-09T14:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499419,
+    "date": "2025-03-09T16:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499439,
+    "date": "2025-03-14T19:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499431,
+    "date": "2025-03-15T14:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 4
+  },
+  {
+    "id": 12499432,
+    "date": "2025-03-15T14:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499433,
+    "date": "2025-03-15T14:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499434,
+    "date": "2025-03-15T14:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499428,
+    "date": "2025-03-15T17:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499437,
+    "date": "2025-03-16T14:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 3
+  },
+  {
+    "id": 12499429,
+    "date": "2025-03-16T16:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499427,
+    "date": "2025-03-16T18:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 4
+  },
+  {
+    "id": 12499441,
+    "date": "2025-03-28T19:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499443,
+    "date": "2025-03-29T14:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 2
+  },
+  {
+    "id": 12499446,
+    "date": "2025-03-29T14:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499450,
+    "date": "2025-03-29T14:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499451,
+    "date": "2025-03-29T14:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499453,
+    "date": "2025-03-29T14:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 3
+  },
+  {
+    "id": 12499445,
+    "date": "2025-03-29T17:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499449,
+    "date": "2025-03-30T13:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499444,
+    "date": "2025-03-30T15:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499461,
+    "date": "2025-04-04T18:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 3
+  },
+  {
+    "id": 12499454,
+    "date": "2025-04-05T13:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 1
+  },
+  {
+    "id": 12499455,
+    "date": "2025-04-05T13:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499460,
+    "date": "2025-04-05T13:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 4
+  },
+  {
+    "id": 12499463,
+    "date": "2025-04-05T13:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499466,
+    "date": "2025-04-05T13:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 4
+  },
+  {
+    "id": 12499458,
+    "date": "2025-04-05T16:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499467,
+    "date": "2025-04-06T13:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499464,
+    "date": "2025-04-06T15:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499476,
+    "date": "2025-04-11T18:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 3
+  },
+  {
+    "id": 12499469,
+    "date": "2025-04-12T13:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499474,
+    "date": "2025-04-12T13:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499478,
+    "date": "2025-04-12T13:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499479,
+    "date": "2025-04-12T13:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499481,
+    "date": "2025-04-12T13:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499472,
+    "date": "2025-04-12T16:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499470,
+    "date": "2025-04-13T13:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499473,
+    "date": "2025-04-13T15:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 0
+  },
+  {
+    "id": 12499482,
+    "date": "2025-04-19T13:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499485,
+    "date": "2025-04-19T13:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 4
+  },
+  {
+    "id": 12499486,
+    "date": "2025-04-19T13:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 0
+  },
+  {
+    "id": 12499487,
+    "date": "2025-04-19T13:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 2
+  },
+  {
+    "id": 12499492,
+    "date": "2025-04-19T13:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499493,
+    "date": "2025-04-19T16:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 4
+  },
+  {
+    "id": 12499490,
+    "date": "2025-04-20T13:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499483,
+    "date": "2025-04-20T15:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 2
+  },
+  {
+    "id": 12499494,
+    "date": "2025-04-20T17:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499497,
+    "date": "2025-04-25T18:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499496,
+    "date": "2025-04-26T13:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499499,
+    "date": "2025-04-26T13:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 0
+  },
+  {
+    "id": 12499501,
+    "date": "2025-04-26T13:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 3
+  },
+  {
+    "id": 12499506,
+    "date": "2025-04-26T13:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499509,
+    "date": "2025-04-26T13:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 3
+  },
+  {
+    "id": 12499500,
+    "date": "2025-04-26T16:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 0
+  },
+  {
+    "id": 12499508,
+    "date": "2025-04-27T13:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499503,
+    "date": "2025-04-27T15:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499513,
+    "date": "2025-05-02T18:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499510,
+    "date": "2025-05-03T13:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 3
+  },
+  {
+    "id": 12499520,
+    "date": "2025-05-03T13:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 4
+  },
+  {
+    "id": 12499522,
+    "date": "2025-05-03T13:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499523,
+    "date": "2025-05-03T13:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499512,
+    "date": "2025-05-03T16:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 0
+  },
+  {
+    "id": 12499517,
+    "date": "2025-05-04T13:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 3
+  },
+  {
+    "id": 12499515,
+    "date": "2025-05-04T15:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499519,
+    "date": "2025-05-04T17:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 1
+  },
+  {
+    "id": 12499534,
+    "date": "2025-05-09T18:30:00+00:00",
+    "home_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499532,
+    "date": "2025-05-10T13:30:00+00:00",
+    "home_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 0
+  },
+  {
+    "id": 12499535,
+    "date": "2025-05-10T13:30:00+00:00",
+    "home_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 3
+  },
+  {
+    "id": 12499536,
+    "date": "2025-05-10T13:30:00+00:00",
+    "home_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 4
+  },
+  {
+    "id": 12499538,
+    "date": "2025-05-10T13:30:00+00:00",
+    "home_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499528,
+    "date": "2025-05-10T16:30:00+00:00",
+    "home_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 0
+  },
+  {
+    "id": 12499525,
+    "date": "2025-05-11T13:30:00+00:00",
+    "home_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 4
+  },
+  {
+    "id": 12499530,
+    "date": "2025-05-11T15:30:00+00:00",
+    "home_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499526,
+    "date": "2025-05-11T17:30:00+00:00",
+    "home_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 4,
+    "away_score": 0
+  },
+  {
+    "id": 12499397,
+    "date": "2025-05-17T13:30:00+00:00",
+    "home_team": {
+      "id": 5885,
+      "name": "1. FC Heidenheim",
+      "short_name": "Heidenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2534,
+      "name": "SV Werder Bremen",
+      "short_name": "Bremen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 4
+  },
+  {
+    "id": 12499412,
+    "date": "2025-05-17T13:30:00+00:00",
+    "home_team": {
+      "id": 2538,
+      "name": "SC Freiburg",
+      "short_name": "Freiburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2674,
+      "name": "Eintracht Frankfurt",
+      "short_name": "Frankfurt",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 3
+  },
+  {
+    "id": 12499425,
+    "date": "2025-05-17T13:30:00+00:00",
+    "home_team": {
+      "id": 2600,
+      "name": "FC Augsburg",
+      "short_name": "Augsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2547,
+      "name": "1. FC Union Berlin",
+      "short_name": "Union Berlin",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 1,
+    "away_score": 2
+  },
+  {
+    "id": 12499435,
+    "date": "2025-05-17T13:30:00+00:00",
+    "home_team": {
+      "id": 2556,
+      "name": "1. FSV Mainz 05",
+      "short_name": "Mainz 05",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2681,
+      "name": "Bayer 04 Leverkusen",
+      "short_name": "Leverkusen",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 2
+  },
+  {
+    "id": 12499447,
+    "date": "2025-05-17T13:30:00+00:00",
+    "home_team": {
+      "id": 2527,
+      "name": "Borussia M'gladbach",
+      "short_name": "M'gladbach",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2524,
+      "name": "VfL Wolfsburg",
+      "short_name": "Wolfsburg",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 1
+  },
+  {
+    "id": 12499456,
+    "date": "2025-05-17T13:30:00+00:00",
+    "home_team": {
+      "id": 2526,
+      "name": "FC St. Pauli",
+      "short_name": "St. Pauli",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2542,
+      "name": "VfL Bochum 1848",
+      "short_name": "Bochum",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 2
+  },
+  {
+    "id": 12499539,
+    "date": "2025-05-17T13:30:00+00:00",
+    "home_team": {
+      "id": 36360,
+      "name": "RB Leipzig",
+      "short_name": "Leipzig",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2677,
+      "name": "VfB Stuttgart",
+      "short_name": "Stuttgart",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 2,
+    "away_score": 3
+  },
+  {
+    "id": 12499542,
+    "date": "2025-05-17T13:30:00+00:00",
+    "home_team": {
+      "id": 2673,
+      "name": "Borussia Dortmund",
+      "short_name": "Dortmund",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2573,
+      "name": "Holstein Kiel",
+      "short_name": "Kiel",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 3,
+    "away_score": 0
+  },
+  {
+    "id": 12499543,
+    "date": "2025-05-17T13:30:00+00:00",
+    "home_team": {
+      "id": 2569,
+      "name": "TSG Hoffenheim",
+      "short_name": "Hoffenheim",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "away_team": {
+      "id": 2672,
+      "name": "FC Bayern M\u00fcnchen",
+      "short_name": "Bayern",
+      "country": "Germany",
+      "logo_url": null
+    },
+    "home_score": 0,
+    "away_score": 4
+  }
+]

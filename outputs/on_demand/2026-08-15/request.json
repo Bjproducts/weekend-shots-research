@@ -1,0 +1,2394 @@
+{
+  "weekend": "2026-08-15",
+  "created_at_utc": "2026-09-28T20:11:45.247670+00:00",
+  "status": "insufficient_data",
+  "scope": "Historical MLS 2026, Saturday/Sunday America/Denver",
+  "catalog_retrieved_at": "2026-09-27T12:03:30.193400+00:00",
+  "catalog_warning": "Archived completed fixtures only; no games in this catalogue is not proof of no fixtures. No automatic season refresh.",
+  "fixtures": [
+    {
+      "game_id": "0Oq6oeLxQ6",
+      "kickoff_utc": "2026-08-15 23:30:00 UTC",
+      "home_team_id": "kRQabn8MKZ",
+      "away_team_id": "19vQ2095K6",
+      "status": "insufficient_data",
+      "cached_player_rows": 30,
+      "season_result_counts": {
+        "kRQabn8MKZ": 18,
+        "19vQ2095K6": 18
+      },
+      "venue_game_ids": [
+        "odMXVzR2qY",
+        "Oa5wP6Vjq1",
+        "gpMOglanMz",
+        "4wM4O8lzQj",
+        "0x5gxzorq7",
+        "Oa5wP6Y8q1",
+        "ljqEdk2E5x",
+        "wvq9kwgZMW",
+        "KXMeXzRPQ6",
+        "zeQZLzXr5K"
+      ],
+      "home_history_newest_first": [
+        "xW5pOJyJMg",
+        "raMyNnrd5d",
+        "0x5gxzLPq7",
+        "ljqEdkV45x",
+        "NPqxLOnXq9",
+        "vzqoYzGJMa",
+        "0x5gxzorq7",
+        "4wM4O8lzQj",
+        "gpMOglanMz",
+        "Oa5wP6Vjq1",
+        "odMXVzR2qY",
+        "vzqoYzrjMa",
+        "gOMnGz6X5w",
+        "e7Mzyo96Qr",
+        "KXMeXzerQ6",
+        "eV5D89mA5K",
+        "jYQJJyDPQG",
+        "KXMeXE0rQ6"
+      ],
+      "blockers": [
+        "Verified target home starting XI missing from model-ready store",
+        "Previous five starts for every eligible home starter require identity mapping and comparable minutes",
+        "Team-shot totals and fixture coverage need reconciliation; cached appearances alone do not prove completeness"
+      ]
+    },
+    {
+      "game_id": "0x5gxzWPq7",
+      "kickoff_utc": "2026-08-15 23:30:00 UTC",
+      "home_team_id": "APk5LGOMOW",
+      "away_team_id": "EKXMeX3Q64",
+      "status": "insufficient_data",
+      "cached_player_rows": 30,
+      "season_result_counts": {
+        "APk5LGOMOW": 18,
+        "EKXMeX3Q64": 18
+      },
+      "venue_game_ids": [
+        "2lqROe2WQr",
+        "wvq9kw3BMW",
+        "ljqEdkV45x",
+        "7vQ7RXBGqD",
+        "zeQZLzXr5K",
+        "kRQalz2gqK",
+        "Xj5YPz60Mb",
+        "4JMA1nd6MK",
+        "N6MmgzlRqE",
+        "gOMnGzll5w"
+      ],
+      "home_history_newest_first": [
+        "zeQZLzXr5K",
+        "7vQ7RXBGqD",
+        "2lqROejJQr",
+        "ljqEdkV45x",
+        "9vQ2Gr9mMK",
+        "wvq9kw3BMW",
+        "2lqROe2WQr",
+        "NWMWkz87Ml",
+        "9Yqdeza9Qv",
+        "eV5D89Va5K",
+        "XVqKw7WRq0",
+        "a35ro3KBqL",
+        "0Oq6oelAQ6",
+        "ljqEdkjz5x",
+        "9YqdezXLQv",
+        "7vQ7RXa2qD",
+        "4wM4O8xpQj",
+        "KPqj3zLRQ6"
+      ],
+      "blockers": [
+        "Verified target home starting XI missing from model-ready store",
+        "Previous five starts for every eligible home starter require identity mapping and comparable minutes",
+        "Team-shot totals and fixture coverage need reconciliation; cached appearances alone do not prove completeness"
+      ]
+    },
+    {
+      "game_id": "7VqGXP3jQv",
+      "kickoff_utc": "2026-08-15 23:30:00 UTC",
+      "home_team_id": "jYQJ8EW5GR",
+      "away_team_id": "NWMWlBK5lz",
+      "status": "insufficient_data",
+      "cached_player_rows": 31,
+      "season_result_counts": {
+        "jYQJ8EW5GR": 18,
+        "NWMWlBK5lz": 18
+      },
+      "venue_game_ids": [
+        "xW5pOJrlMg",
+        "jYQJJyzyQG",
+        "eVq36lpV5W",
+        "EGMPG816Qa",
+        "OlMlWzeDQL",
+        "N6MmgzeRqE",
+        "aDQ0WDjpqE",
+        "p6qbYzX650",
+        "2vQ1g1jO5r",
+        "gjMNWrjD5K"
+      ],
+      "home_history_newest_first": [
+        "BLMvVG7WMx",
+        "OlMlWzeDQL",
+        "Pk5L3DeYMO",
+        "odMXVzPxqY",
+        "EGMPG816Qa",
+        "eVq36lpV5W",
+        "NWMWkz87Ml",
+        "Vj589Jy3q8",
+        "2lqROekWQr",
+        "jYQJJyzyQG",
+        "xW5pOJrlMg",
+        "OlMlWz9gQL",
+        "7VqGXPmeQv",
+        "BLMvVGlOMx",
+        "9YqdezXLQv",
+        "0Oq6oe8AQ6",
+        "NWMWkzEKMl",
+        "OlMlWEw0QL"
+      ],
+      "blockers": [
+        "Verified target home starting XI missing from model-ready store",
+        "Previous five starts for every eligible home starter require identity mapping and comparable minutes",
+        "Team-shot totals and fixture coverage need reconciliation; cached appearances alone do not prove completeness"
+      ]
+    },
+    {
+      "game_id": "KAqBroNBqb",
+      "kickoff_utc": "2026-08-15 23:30:00 UTC",
+      "home_team_id": "KAqBN0Vqbg",
+      "away_team_id": "a2lqRX2Mr0",
+      "status": "insufficient_data",
+      "cached_player_rows": 32,
+      "season_result_counts": {
+        "KAqBN0Vqbg": 18,
+        "a2lqRX2Mr0": 18
+      },
+      "venue_game_ids": [
+        "vzqoYzrkMa",
+        "9vQ2Gr21MK",
+        "ljqEdk2E5x",
+        "9Yqdeza9Qv",
+        "XVqKw7dRq0",
+        "XVqKw7WRq0",
+        "gOMnGzRm5w",
+        "BLMvVGPRMx",
+        "aDQ0WDL3qE",
+        "7VqGXP0jQv"
+      ],
+      "home_history_newest_first": [
+        "XVqKw7e0q0",
+        "eV5D89zn5K",
+        "0Oq6oe3xQ6",
+        "jYQJJyBkQG",
+        "BLMvVGkWMx",
+        "EGMPG816Qa",
+        "XVqKw7dRq0",
+        "9Yqdeza9Qv",
+        "gpMOglanMz",
+        "ljqEdk2E5x",
+        "9vQ2Gr21MK",
+        "gjMNWrRv5K",
+        "vzqoYzrkMa",
+        "XVqKw7YOq0",
+        "2vQ1g1aK5r",
+        "gOMnGzrX5w",
+        "ljqEdkAz5x",
+        "2vQ1g39K5r"
+      ],
+      "blockers": [
+        "Verified target home starting XI missing from model-ready store",
+        "Previous five starts for every eligible home starter require identity mapping and comparable minutes",
+        "Team-shot totals and fixture coverage need reconciliation; cached appearances alone do not prove completeness"
+      ]
+    },
+    {
+      "game_id": "NWMWkzoEMl",
+      "kickoff_utc": "2026-08-15 23:30:00 UTC",
+      "home_team_id": "NPqxKXZ59d",
+      "away_team_id": "mvzqoLZQap",
+      "status": "insufficient_data",
+      "cached_player_rows": 32,
+      "season_result_counts": {
+        "NPqxKXZ59d": 18,
+        "mvzqoLZQap": 18
+      },
+      "venue_game_ids": [
+        "p6qbYzX650",
+        "gpMOgl9nMz",
+        "vzqoYzGJMa",
+        "KXMeXzRPQ6",
+        "0Oq6oe3xQ6",
+        "aDQ0WDPpqE",
+        "KAqBroVJqb",
+        "Oa5wP6O4q1",
+        "Pk5L3D7YMO",
+        "4wM4O8JNQj"
+      ],
+      "home_history_newest_first": [
+        "ljqEdkL45x",
+        "a35ro3y2qL",
+        "0Oq6oe3xQ6",
+        "KXMeXzRPQ6",
+        "vzqoYzGJMa",
+        "gpMOgl9nMz",
+        "p6qbYzX650",
+        "odMXVzJ2qY",
+        "EGMPG8njQa",
+        "jYQJJyzyQG",
+        "KPqj3z7yQ6",
+        "9z5kBzalMA",
+        "2lqROeR0Qr",
+        "p6qbYzeB50",
+        "OlMlWz70QL",
+        "vzqoYz9kMa",
+        "Oa5wP6L8q1",
+        "eV5D816A5K"
+      ],
+      "blockers": [
+        "Verified target home starting XI missing from model-ready store",
+        "Previous five starts for every eligible home starter require identity mapping and comparable minutes",
+        "Team-shot totals and fixture coverage need reconciliation; cached appearances alone do not prove completeness"
+      ]
+    },
+    {
+      "game_id": "gOMnGzYl5w",
+      "kickoff_utc": "2026-08-16 00:30:00 UTC",
+      "home_team_id": "YgOMngl5wN",
+      "away_team_id": "kaDQ0wRqEv",
+      "status": "insufficient_data",
+      "cached_player_rows": 32,
+      "season_result_counts": {
+        "YgOMngl5wN": 18,
+        "kaDQ0wRqEv": 19
+      },
+      "venue_game_ids": [
+        "KAqBro9Jqb",
+        "KPqj3zRyQ6",
+        "raMyNnyd5d",
+        "gOMnGzll5w",
+        "9YqdezoEQv",
+        "e7MzyolXQr",
+        "XVqKw7dRq0",
+        "NWMWkzLEMl",
+        "7vQ7RXJGqD",
+        "KPqj3zKYQ6"
+      ],
+      "home_history_newest_first": [
+        "7VqGXPV6Qv",
+        "e7MzyoJGQr",
+        "9YqdezoEQv",
+        "gOMnGzll5w",
+        "zeQZLzjr5K",
+        "raMyNnyd5d",
+        "0Oq6oeExQ6",
+        "0Oq6oexXQ6",
+        "KPqj3zRyQ6",
+        "9z5kBz7lMA",
+        "KAqBro9Jqb",
+        "xW5pOJrlMg",
+        "eV5D89La5K",
+        "0x5gxzPrq7",
+        "Xj5YPz8AMb",
+        "NPqxLOmmq9",
+        "N6MmgzrZqE",
+        "odMXV0WWqY"
+      ],
+      "blockers": [
+        "Verified target home starting XI missing from model-ready store",
+        "Previous five starts for every eligible home starter require identity mapping and comparable minutes",
+        "Team-shot totals and fixture coverage need reconciliation; cached appearances alone do not prove completeness"
+      ]
+    },
+    {
+      "game_id": "vzqoYzJJMa",
+      "kickoff_utc": "2026-08-16 00:30:00 UTC",
+      "home_team_id": "vzqoOgNqap",
+      "away_team_id": "zeQZkL1MKw",
+      "status": "insufficient_data",
+      "cached_player_rows": 31,
+      "season_result_counts": {
+        "vzqoOgNqap": 18,
+        "zeQZkL1MKw": 18
+      },
+      "venue_game_ids": [
+        "N6MmgzlRqE",
+        "Vj589JwLq8",
+        "xW5pOJdJMg",
+        "jYQJJyBkQG",
+        "2lqROejJQr",
+        "KXMeXzkxQ6",
+        "NWMWkzV7Ml",
+        "0x5gxzorq7",
+        "gOMnGzPm5w",
+        "7vQ7RXBGqD"
+      ],
+      "home_history_newest_first": [
+        "4JMA1no1MK",
+        "OlMlWzeDQL",
+        "2lqROejJQr",
+        "jYQJJyBkQG",
+        "xW5pOJdJMg",
+        "Vj589JwLq8",
+        "jYQJJy8kQG",
+        "N6MmgzlRqE",
+        "NPqxLOygq9",
+        "EGMPG8njQa",
+        "9vQ2Gr21MK",
+        "9z5kBzalMA",
+        "NWMWkzX7Ml",
+        "BLMvVGlOMx",
+        "a35ro3dAqL",
+        "315V9zZ9M9",
+        "e7Mzyop6Qr",
+        "9vQ2GraaMK"
+      ],
+      "blockers": [
+        "Verified target home starting XI missing from model-ready store",
+        "Previous five starts for every eligible home starter require identity mapping and comparable minutes",
+        "Team-shot totals and fixture coverage need reconciliation; cached appearances alone do not prove completeness"
+      ]
+    },
+    {
+      "game_id": "2lqROe7JQr",
+      "kickoff_utc": "2026-08-16 01:30:00 UTC",
+      "home_team_id": "pzeQZ6xQKw",
+      "away_team_id": "Z2vQ1xlqrA",
+      "status": "insufficient_data",
+      "cached_player_rows": 30,
+      "season_result_counts": {
+        "pzeQZ6xQKw": 18,
+        "Z2vQ1xlqrA": 18
+      },
+      "venue_game_ids": [
+        "KXMeXzkxQ6",
+        "Xj5YPzw0Mb",
+        "kRQalzejqK",
+        "wvq9kweBMW",
+        "jYQJJyakQG",
+        "315V9zX6M9",
+        "jYQJJy8yQG",
+        "gjMNWreD5K",
+        "N6MmgzKxqE",
+        "NPqxLOxXq9"
+      ],
+      "home_history_newest_first": [
+        "jYQJJyakQG",
+        "odMXVz7xqY",
+        "wvq9kweBMW",
+        "kRQalzejqK",
+        "eV5D89an5K",
+        "0x5gxz6Pq7",
+        "Xj5YPzw0Mb",
+        "KPqj3zRyQ6",
+        "7vQ7RXYYqD",
+        "0x5gxz2rq7",
+        "KXMeXzkxQ6",
+        "eV5D89La5K",
+        "gOMnGz6X5w",
+        "jYQJJy1PQG",
+        "Vj589JE4q8",
+        "Pk5L3DmOMO",
+        "BLMvVG0OMx",
+        "4JMA1nvkMK"
+      ],
+      "blockers": [
+        "Verified target home starting XI missing from model-ready store",
+        "Previous five starts for every eligible home starter require identity mapping and comparable minutes",
+        "Team-shot totals and fixture coverage need reconciliation; cached appearances alone do not prove completeness"
+      ]
+    },
+    {
+      "game_id": "jYQJJygZQG",
+      "kickoff_utc": "2026-08-16 01:30:00 UTC",
+      "home_team_id": "a2lqR4JMr0",
+      "away_team_id": "kRQand1MKZ",
+      "status": "insufficient_data",
+      "cached_player_rows": 31,
+      "season_result_counts": {
+        "a2lqR4JMr0": 17,
+        "kRQand1MKZ": 18
+      },
+      "venue_game_ids": [
+        "zeQZLz7K5K",
+        "NWMWkzV7Ml",
+        "OlMlWzAgQL",
+        "0Oq6oeExQ6",
+        "eV5D89an5K",
+        "2vQ1g1N45r",
+        "eVq36lj65W",
+        "KXMeXz7xQ6",
+        "9z5kBzOdMA",
+        "vzqoYzdJMa"
+      ],
+      "home_history_newest_first": [
+        "Xj5YPz9RMb",
+        "aDQ0WDN3qE",
+        "315V9zPnM9",
+        "KPqj3z6YQ6",
+        "eV5D89an5K",
+        "0Oq6oeExQ6",
+        "e7MzyomXQr",
+        "OlMlWzAgQL",
+        "2vQ1g1Z45r",
+        "NWMWkzV7Ml",
+        "zeQZLz7K5K",
+        "gpMOglzEMz",
+        "7VqGXPm6Qv",
+        "KPqj3zoRQ6",
+        "gOMnGzrX5w",
+        "p6qbYzLB50",
+        "Vj589ne4q8"
+      ],
+      "blockers": [
+        "Verified target home starting XI missing from model-ready store",
+        "Previous five starts for every eligible home starter require identity mapping and comparable minutes",
+        "Team-shot totals and fixture coverage need reconciliation; cached appearances alone do not prove completeness"
+      ]
+    },
+    {
+      "game_id": "Oa5wP6dDq1",
+      "kickoff_utc": "2026-08-16 02:30:00 UTC",
+      "home_team_id": "eVq3ya6MWO",
+      "away_team_id": "zeQZBOzQKw",
+      "status": "insufficient_data",
+      "cached_player_rows": 31,
+      "season_result_counts": {
+        "eVq3ya6MWO": 19,
+        "zeQZBOzQKw": 18
+      },
+      "venue_game_ids": [
+        "0x5gxz2rq7",
+        "0Oq6oexXQ6",
+        "p6qbYzRw50",
+        "315V9zPnM9",
+        "NPqxLOxXq9",
+        "zeQZLz7K5K",
+        "KAqBro9Jqb",
+        "eVq36lp65W",
+        "wvq9kweBMW",
+        "N6MmgzoxqE"
+      ],
+      "home_history_newest_first": [
+        "p6qbYzow50",
+        "NPqxLOxXq9",
+        "315V9zPnM9",
+        "Oa5wP6n4q1",
+        "p6qbYzRw50",
+        "Vj589JwLq8",
+        "7VqGXPJjQv",
+        "0Oq6oexXQ6",
+        "xW5pOJklMg",
+        "0Oq6oewXQ6",
+        "0x5gxz2rq7",
+        "p6qbYzO650",
+        "wvq9kwpZMW",
+        "7VqGXPmeQv",
+        "N6Mmgz7ZqE",
+        "xW5pOJxdMg",
+        "gjMNWrn05K",
+        "N6MmgzrZqE",
+        "NPqxLO0mq9"
+      ],
+      "blockers": [
+        "Verified target home starting XI missing from model-ready store",
+        "Previous five starts for every eligible home starter require identity mapping and comparable minutes",
+        "Team-shot totals and fixture coverage need reconciliation; cached appearances alone do not prove completeness"
+      ]
+    },
+    {
+      "game_id": "eVq36lyX5W",
+      "kickoff_utc": "2026-08-16 02:30:00 UTC",
+      "home_team_id": "0KPqjA456v",
+      "away_team_id": "wvq9B9wQWn",
+      "status": "insufficient_data",
+      "cached_player_rows": 30,
+      "season_result_counts": {
+        "0KPqjA456v": 18,
+        "wvq9B9wQWn": 18
+      },
+      "venue_game_ids": [
+        "7VqGXPjeQv",
+        "Oa5wP6Ojq1",
+        "a35ro3r2qL",
+        "Pk5L3DeYMO",
+        "KPqj3zKYQ6",
+        "BLMvVGzRMx",
+        "zeQZLz3K5K",
+        "Xj5YPzw0Mb",
+        "2lqROePJQr",
+        "9z5kBzbdMA"
+      ],
+      "home_history_newest_first": [
+        "kRQalzojqK",
+        "KPqj3zKYQ6",
+        "Pk5L3DeYMO",
+        "4JMA1nL1MK",
+        "a35ro3r2qL",
+        "gOMnGz2l5w",
+        "Oa5wP6Ojq1",
+        "4wM4O8lzQj",
+        "Pk5L3DkmMO",
+        "7VqGXPjeQv",
+        "p6qbYzO650",
+        "7vQ7RXrYqD",
+        "gpMOglznMz",
+        "eVq36laD5W",
+        "4wM4O82pQj",
+        "wvq9kwawMW",
+        "ljqEdkAz5x",
+        "xW5pOJ6dMg"
+      ],
+      "blockers": [
+        "Verified target home starting XI missing from model-ready store",
+        "Previous five starts for every eligible home starter require identity mapping and comparable minutes",
+        "Team-shot totals and fixture coverage need reconciliation; cached appearances alone do not prove completeness"
+      ]
+    },
+    {
+      "game_id": "KAqBrokmqb",
+      "kickoff_utc": "2026-08-16 22:00:00 UTC",
+      "home_team_id": "X0Oq66zq6D",
+      "away_team_id": "WBLMvYAQxe",
+      "status": "insufficient_data",
+      "cached_player_rows": 31,
+      "season_result_counts": {
+        "X0Oq66zq6D": 17,
+        "WBLMvYAQxe": 18
+      },
+      "venue_game_ids": [
+        "315V9zX6M9",
+        "aDQ0WDjpqE",
+        "BLMvVGPRMx",
+        "NPqxLOnXq9",
+        "ljqEdkL45x",
+        "gjMNWr1v5K",
+        "OlMlWzAgQL",
+        "2lqROe2WQr",
+        "OlMlWznDQL",
+        "Xj5YPzLRMb"
+      ],
+      "home_history_newest_first": [
+        "ljqEdkL45x",
+        "2vQ1g14O5r",
+        "NWMWkzlEMl",
+        "NPqxLOnXq9",
+        "wvq9kw3BMW",
+        "vzqoYzPjMa",
+        "BLMvVGPRMx",
+        "aDQ0WDjpqE",
+        "315V9zX6M9",
+        "NPqxLOegq9",
+        "gjMNWrRv5K",
+        "NWMWkzX7Ml",
+        "zeQZLzJ15K",
+        "odMXVz4WqY",
+        "2lqROeZ0Qr",
+        "4wM4O8xpQj",
+        "odMXV0WWqY"
+      ],
+      "blockers": [
+        "Verified target home starting XI missing from model-ready store",
+        "Previous five starts for every eligible home starter require identity mapping and comparable minutes",
+        "Team-shot totals and fixture coverage need reconciliation; cached appearances alone do not prove completeness"
+      ]
+    },
+    {
+      "game_id": "NWMWkzoDMl",
+      "kickoff_utc": "2026-08-16 22:00:00 UTC",
+      "home_team_id": "Vj58weDM8n",
+      "away_team_id": "9z5k7Yg5A3",
+      "status": "insufficient_data",
+      "cached_player_rows": 30,
+      "season_result_counts": {
+        "Vj58weDM8n": 18,
+        "9z5k7Yg5A3": 18
+      },
+      "venue_game_ids": [
+        "N6MmgzeRqE",
+        "4JMA1nd6MK",
+        "KAqBroVJqb",
+        "2vQ1g14O5r",
+        "xW5pOJyJMg",
+        "Oa5wP6Vjq1",
+        "vzqoYz7jMa",
+        "ljqEdkDE5x",
+        "eVq36lpV5W",
+        "XVqKw7G0q0"
+      ],
+      "home_history_newest_first": [
+        "xW5pOJyJMg",
+        "2vQ1g14O5r",
+        "KAqBroeBqb",
+        "xW5pOJdJMg",
+        "315V9zknM9",
+        "gpMOgl9nMz",
+        "KAqBroVJqb",
+        "4JMA1nd6MK",
+        "eV5D89Va5K",
+        "N6MmgzeRqE",
+        "KPqj3z7yQ6",
+        "Pk5L3DgmMO",
+        "eVq36la65W",
+        "KAqBroj4qb",
+        "Vj589JE4q8",
+        "0Oq6oe8AQ6",
+        "KAqBroL4qb",
+        "kRQalz6oqK"
+      ],
+      "blockers": [
+        "Verified target home starting XI missing from model-ready store",
+        "Previous five starts for every eligible home starter require identity mapping and comparable minutes",
+        "Team-shot totals and fixture coverage need reconciliation; cached appearances alone do not prove completeness"
+      ]
+    },
+    {
+      "game_id": "gpMOglerMz",
+      "kickoff_utc": "2026-08-17 00:30:00 UTC",
+      "home_team_id": "gpMOLwl5zy",
+      "away_team_id": "mKAqBBmqbg",
+      "status": "insufficient_data",
+      "cached_player_rows": 31,
+      "season_result_counts": {
+        "gpMOLwl5zy": 18,
+        "mKAqBBmqbg": 18
+      },
+      "venue_game_ids": [
+        "2lqROeRWQr",
+        "9z5kBz7lMA",
+        "zeQZLz3K5K",
+        "gjMNWreD5K",
+        "gpMOglorMz",
+        "a35ro3r2qL",
+        "kRQalzejqK",
+        "EGMPG8Z6Qa",
+        "9vQ2GrZmMK",
+        "Oa5wP6A4q1"
+      ],
+      "home_history_newest_first": [
+        "jYQJJyakQG",
+        "9YqdezoEQv",
+        "gpMOglorMz",
+        "9YqdezYEQv",
+        "gjMNWreD5K",
+        "gpMOglrrMz",
+        "7VqGXPNeQv",
+        "zeQZLz3K5K",
+        "9z5kBz7lMA",
+        "7VqGXPjeQv",
+        "odMXVzR2qY",
+        "2lqROeRWQr",
+        "Oa5wP6Yjq1",
+        "N6Mmgz7ZqE",
+        "KPqj3zoRQ6",
+        "vzqoYz9kMa",
+        "eVq36lkD5W",
+        "9YqdeZ2LQv"
+      ],
+      "blockers": [
+        "Verified target home starting XI missing from model-ready store",
+        "Previous five starts for every eligible home starter require identity mapping and comparable minutes",
+        "Team-shot totals and fixture coverage need reconciliation; cached appearances alone do not prove completeness"
+      ]
+    },
+    {
+      "game_id": "0x5gxzWwq7",
+      "kickoff_utc": "2026-08-17 02:30:00 UTC",
+      "home_team_id": "jYQJ19EqGR",
+      "away_team_id": "lgpMOvnQzy",
+      "status": "insufficient_data",
+      "cached_player_rows": 31,
+      "season_result_counts": {
+        "jYQJ19EqGR": 17,
+        "lgpMOvnQzy": 17
+      },
+      "venue_game_ids": [
+        "raMyNnmA5d",
+        "eVq36lp65W",
+        "gOMnGz2l5w",
+        "7vQ7RXJGqD",
+        "Xj5YPzLRMb",
+        "KAqBroVBqb",
+        "raMyNnyd5d",
+        "4wM4O8ZNQj",
+        "eVq36l2V5W",
+        "KXMeXz8PQ6"
+      ],
+      "home_history_newest_first": [
+        "eVq36lxV5W",
+        "Vj589JWLq8",
+        "gpMOglorMz",
+        "Xj5YPzLRMb",
+        "p6qbYzRw50",
+        "7vQ7RXJGqD",
+        "gOMnGz2l5w",
+        "eVq36lp65W",
+        "a35ro3PBqL",
+        "raMyNnmA5d",
+        "BLMvVGzRMx",
+        "0x5gxzPrq7",
+        "NWMWkzXKMl",
+        "4wM4O82pQj",
+        "EGMPG8eVQa",
+        "p6qbYzLB50",
+        "4JMA1nvkMK"
+      ],
+      "blockers": [
+        "Verified target home starting XI missing from model-ready store",
+        "Previous five starts for every eligible home starter require identity mapping and comparable minutes",
+        "Team-shot totals and fixture coverage need reconciliation; cached appearances alone do not prove completeness"
+      ]
+    }
+  ],
+  "shooting_tasks": [
+    {
+      "game_id": "Oa5wP6Y8q1",
+      "utc_date": "2026-03-22",
+      "home_team_id": "wvq9B9wQWn",
+      "away_team_id": "19vQ2095K6",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-03-21_2026-03-27_0.json"
+      ]
+    },
+    {
+      "game_id": "vzqoYzrkMa",
+      "utc_date": "2026-04-04",
+      "home_team_id": "KAqBN0Vqbg",
+      "away_team_id": "mvzqoLZQap",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-04_2026-04-10_0.json"
+      ]
+    },
+    {
+      "game_id": "2lqROeRWQr",
+      "utc_date": "2026-04-11",
+      "home_team_id": "gpMOLwl5zy",
+      "away_team_id": "kaDQ0wRqEv",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-11_2026-04-17_0.json"
+      ]
+    },
+    {
+      "game_id": "2vQ1g1N45r",
+      "utc_date": "2026-04-12",
+      "home_team_id": "zeQZBOzQKw",
+      "away_team_id": "kRQand1MKZ",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-11_2026-04-17_0.json"
+      ]
+    },
+    {
+      "game_id": "odMXVzR2qY",
+      "utc_date": "2026-04-18",
+      "home_team_id": "kRQabn8MKZ",
+      "away_team_id": "gpMOLwl5zy",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "XVqKw7WRq0",
+      "utc_date": "2026-04-18",
+      "home_team_id": "APk5LGOMOW",
+      "away_team_id": "a2lqRX2Mr0",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "KXMeXzkxQ6",
+      "utc_date": "2026-04-18",
+      "home_team_id": "pzeQZ6xQKw",
+      "away_team_id": "zeQZkL1MKw",
+      "state": "cached_unverified",
+      "cached_rows": 29,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "kRQalz2gqK",
+      "utc_date": "2026-04-18",
+      "home_team_id": "9z5k7Yg5A3",
+      "away_team_id": "EKXMeX3Q64",
+      "state": "cached_unverified",
+      "cached_rows": 26,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "xW5pOJrlMg",
+      "utc_date": "2026-04-18",
+      "home_team_id": "jYQJ8EW5GR",
+      "away_team_id": "YgOMngl5wN",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "9vQ2Gr21MK",
+      "utc_date": "2026-04-18",
+      "home_team_id": "KAqBN0Vqbg",
+      "away_team_id": "vzqoOgNqap",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "aDQ0WDPpqE",
+      "utc_date": "2026-04-18",
+      "home_team_id": "19vQ2095K6",
+      "away_team_id": "mvzqoLZQap",
+      "state": "cached_unverified",
+      "cached_rows": 29,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "zeQZLz7K5K",
+      "utc_date": "2026-04-19",
+      "home_team_id": "a2lqR4JMr0",
+      "away_team_id": "zeQZBOzQKw",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "BLMvVGzRMx",
+      "utc_date": "2026-04-19",
+      "home_team_id": "jYQJ19EqGR",
+      "away_team_id": "wvq9B9wQWn",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "Oa5wP6Vjq1",
+      "utc_date": "2026-04-22",
+      "home_team_id": "kRQabn8MKZ",
+      "away_team_id": "9z5k7Yg5A3",
+      "state": "cached_unverified",
+      "cached_rows": 28,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "Xj5YPz60Mb",
+      "utc_date": "2026-04-22",
+      "home_team_id": "a2lqRX2Mr0",
+      "away_team_id": "EKXMeX3Q64",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "jYQJJyzyQG",
+      "utc_date": "2026-04-22",
+      "home_team_id": "jYQJ8EW5GR",
+      "away_team_id": "NPqxKXZ59d",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "N6MmgzeRqE",
+      "utc_date": "2026-04-22",
+      "home_team_id": "Vj58weDM8n",
+      "away_team_id": "NWMWlBK5lz",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "ljqEdk2E5x",
+      "utc_date": "2026-04-22",
+      "home_team_id": "KAqBN0Vqbg",
+      "away_team_id": "19vQ2095K6",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "KAqBro9Jqb",
+      "utc_date": "2026-04-23",
+      "home_team_id": "YgOMngl5wN",
+      "away_team_id": "zeQZBOzQKw",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "eVq36lj65W",
+      "utc_date": "2026-04-23",
+      "home_team_id": "mKAqBBmqbg",
+      "away_team_id": "kRQand1MKZ",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "NWMWkzV7Ml",
+      "utc_date": "2026-04-23",
+      "home_team_id": "a2lqR4JMr0",
+      "away_team_id": "zeQZkL1MKw",
+      "state": "cached_unverified",
+      "cached_rows": 27,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "e7MzyolXQr",
+      "utc_date": "2026-04-23",
+      "home_team_id": "mvzqoLZQap",
+      "away_team_id": "kaDQ0wRqEv",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "0x5gxz2rq7",
+      "utc_date": "2026-04-23",
+      "home_team_id": "eVq3ya6MWO",
+      "away_team_id": "pzeQZ6xQKw",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "7VqGXPjeQv",
+      "utc_date": "2026-04-23",
+      "home_team_id": "0KPqjA456v",
+      "away_team_id": "gpMOLwl5zy",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-18_2026-04-24_0.json"
+      ]
+    },
+    {
+      "game_id": "gpMOglanMz",
+      "utc_date": "2026-04-25",
+      "home_team_id": "kRQabn8MKZ",
+      "away_team_id": "KAqBN0Vqbg",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-25_2026-05-01_0.json"
+      ]
+    },
+    {
+      "game_id": "wvq9kwgZMW",
+      "utc_date": "2026-04-25",
+      "home_team_id": "zeQZkL1MKw",
+      "away_team_id": "19vQ2095K6",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-25_2026-05-01_0.json"
+      ]
+    },
+    {
+      "game_id": "gOMnGzRm5w",
+      "utc_date": "2026-04-25",
+      "home_team_id": "NWMWlBK5lz",
+      "away_team_id": "a2lqRX2Mr0",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-25_2026-05-01_0.json"
+      ]
+    },
+    {
+      "game_id": "vzqoYz7jMa",
+      "utc_date": "2026-04-25",
+      "home_team_id": "mvzqoLZQap",
+      "away_team_id": "9z5k7Yg5A3",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-25_2026-05-01_0.json"
+      ]
+    },
+    {
+      "game_id": "315V9zX6M9",
+      "utc_date": "2026-04-26",
+      "home_team_id": "X0Oq66zq6D",
+      "away_team_id": "Z2vQ1xlqrA",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-25_2026-05-01_0.json"
+      ]
+    },
+    {
+      "game_id": "9z5kBz7lMA",
+      "utc_date": "2026-04-26",
+      "home_team_id": "gpMOLwl5zy",
+      "away_team_id": "YgOMngl5wN",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-25_2026-05-01_0.json"
+      ]
+    },
+    {
+      "game_id": "gjMNWr1v5K",
+      "utc_date": "2026-04-26",
+      "home_team_id": "zeQZBOzQKw",
+      "away_team_id": "WBLMvYAQxe",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-25_2026-05-01_0.json"
+      ]
+    },
+    {
+      "game_id": "raMyNnmA5d",
+      "utc_date": "2026-04-26",
+      "home_team_id": "jYQJ19EqGR",
+      "away_team_id": "mKAqBBmqbg",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-04-25_2026-05-01_0.json"
+      ]
+    },
+    {
+      "game_id": "4wM4O8lzQj",
+      "utc_date": "2026-05-02",
+      "home_team_id": "kRQabn8MKZ",
+      "away_team_id": "0KPqjA456v",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-02_2026-05-08_0.json"
+      ]
+    },
+    {
+      "game_id": "OlMlWzAgQL",
+      "utc_date": "2026-05-02",
+      "home_team_id": "a2lqR4JMr0",
+      "away_team_id": "WBLMvYAQxe",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-02_2026-05-08_0.json"
+      ]
+    },
+    {
+      "game_id": "9Yqdeza9Qv",
+      "utc_date": "2026-05-02",
+      "home_team_id": "KAqBN0Vqbg",
+      "away_team_id": "APk5LGOMOW",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-02_2026-05-08_0.json"
+      ]
+    },
+    {
+      "game_id": "KXMeXz7xQ6",
+      "utc_date": "2026-05-02",
+      "home_team_id": "mvzqoLZQap",
+      "away_team_id": "kRQand1MKZ",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-02_2026-05-08_0.json"
+      ]
+    },
+    {
+      "game_id": "aDQ0WDjpqE",
+      "utc_date": "2026-05-03",
+      "home_team_id": "X0Oq66zq6D",
+      "away_team_id": "NWMWlBK5lz",
+      "state": "cached_unverified",
+      "cached_rows": 29,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-02_2026-05-08_0.json"
+      ]
+    },
+    {
+      "game_id": "KPqj3zRyQ6",
+      "utc_date": "2026-05-03",
+      "home_team_id": "YgOMngl5wN",
+      "away_team_id": "pzeQZ6xQKw",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-02_2026-05-08_0.json"
+      ]
+    },
+    {
+      "game_id": "4JMA1nd6MK",
+      "utc_date": "2026-05-03",
+      "home_team_id": "Vj58weDM8n",
+      "away_team_id": "EKXMeX3Q64",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-02_2026-05-08_0.json"
+      ]
+    },
+    {
+      "game_id": "zeQZLz3K5K",
+      "utc_date": "2026-05-03",
+      "home_team_id": "gpMOLwl5zy",
+      "away_team_id": "wvq9B9wQWn",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-02_2026-05-08_0.json"
+      ]
+    },
+    {
+      "game_id": "0x5gxzorq7",
+      "utc_date": "2026-05-09",
+      "home_team_id": "kRQabn8MKZ",
+      "away_team_id": "zeQZkL1MKw",
+      "state": "cached_unverified",
+      "cached_rows": 29,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "BLMvVGPRMx",
+      "utc_date": "2026-05-09",
+      "home_team_id": "X0Oq66zq6D",
+      "away_team_id": "a2lqRX2Mr0",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "p6qbYzX650",
+      "utc_date": "2026-05-09",
+      "home_team_id": "NPqxKXZ59d",
+      "away_team_id": "NWMWlBK5lz",
+      "state": "cached_unverified",
+      "cached_rows": 29,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "XVqKw7dRq0",
+      "utc_date": "2026-05-09",
+      "home_team_id": "KAqBN0Vqbg",
+      "away_team_id": "kaDQ0wRqEv",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "ljqEdkDE5x",
+      "utc_date": "2026-05-09",
+      "home_team_id": "19vQ2095K6",
+      "away_team_id": "9z5k7Yg5A3",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "N6MmgzlRqE",
+      "utc_date": "2026-05-10",
+      "home_team_id": "vzqoOgNqap",
+      "away_team_id": "EKXMeX3Q64",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "Xj5YPzw0Mb",
+      "utc_date": "2026-05-10",
+      "home_team_id": "pzeQZ6xQKw",
+      "away_team_id": "wvq9B9wQWn",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "jYQJJy8yQG",
+      "utc_date": "2026-05-10",
+      "home_team_id": "WBLMvYAQxe",
+      "away_team_id": "Z2vQ1xlqrA",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "eVq36lp65W",
+      "utc_date": "2026-05-10",
+      "home_team_id": "jYQJ19EqGR",
+      "away_team_id": "zeQZBOzQKw",
+      "state": "cached_unverified",
+      "cached_rows": 28,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "Oa5wP6Ojq1",
+      "utc_date": "2026-05-10",
+      "home_team_id": "0KPqjA456v",
+      "away_team_id": "lgpMOvnQzy",
+      "state": "cached_unverified",
+      "cached_rows": 29,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "KAqBroVJqb",
+      "utc_date": "2026-05-10",
+      "home_team_id": "Vj58weDM8n",
+      "away_team_id": "mvzqoLZQap",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "0Oq6oexXQ6",
+      "utc_date": "2026-05-11",
+      "home_team_id": "eVq3ya6MWO",
+      "away_team_id": "YgOMngl5wN",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "gpMOgl9nMz",
+      "utc_date": "2026-05-13",
+      "home_team_id": "NPqxKXZ59d",
+      "away_team_id": "Vj58weDM8n",
+      "state": "cached_unverified",
+      "cached_rows": 29,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "2lqROe2WQr",
+      "utc_date": "2026-05-13",
+      "home_team_id": "APk5LGOMOW",
+      "away_team_id": "WBLMvYAQxe",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "eVq36lpV5W",
+      "utc_date": "2026-05-13",
+      "home_team_id": "jYQJ8EW5GR",
+      "away_team_id": "9z5k7Yg5A3",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "Oa5wP6O4q1",
+      "utc_date": "2026-05-13",
+      "home_team_id": "a2lqRX2Mr0",
+      "away_team_id": "mvzqoLZQap",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "gOMnGzPm5w",
+      "utc_date": "2026-05-13",
+      "home_team_id": "NWMWlBK5lz",
+      "away_team_id": "zeQZkL1MKw",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "NWMWkzLEMl",
+      "utc_date": "2026-05-14",
+      "home_team_id": "Z2vQ1xlqrA",
+      "away_team_id": "kaDQ0wRqEv",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "KAqBroVBqb",
+      "utc_date": "2026-05-14",
+      "home_team_id": "mKAqBBmqbg",
+      "away_team_id": "lgpMOvnQzy",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "0Oq6oeExQ6",
+      "utc_date": "2026-05-14",
+      "home_team_id": "a2lqR4JMr0",
+      "away_team_id": "YgOMngl5wN",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "gOMnGz2l5w",
+      "utc_date": "2026-05-14",
+      "home_team_id": "jYQJ19EqGR",
+      "away_team_id": "0KPqjA456v",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-09_2026-05-15_0.json"
+      ]
+    },
+    {
+      "game_id": "wvq9kw3BMW",
+      "utc_date": "2026-05-16",
+      "home_team_id": "APk5LGOMOW",
+      "away_team_id": "X0Oq66zq6D",
+      "state": "cached_unverified",
+      "cached_rows": 29,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-16_2026-05-22_0.json"
+      ]
+    },
+    {
+      "game_id": "EGMPG816Qa",
+      "utc_date": "2026-05-16",
+      "home_team_id": "jYQJ8EW5GR",
+      "away_team_id": "KAqBN0Vqbg",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-16_2026-05-22_0.json"
+      ]
+    },
+    {
+      "game_id": "vzqoYzGJMa",
+      "utc_date": "2026-05-16",
+      "home_team_id": "NPqxKXZ59d",
+      "away_team_id": "kRQabn8MKZ",
+      "state": "cached_unverified",
+      "cached_rows": 29,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-16_2026-05-22_0.json"
+      ]
+    },
+    {
+      "game_id": "Pk5L3D7YMO",
+      "utc_date": "2026-05-16",
+      "home_team_id": "9z5k7Yg5A3",
+      "away_team_id": "mvzqoLZQap",
+      "state": "cached_unverified",
+      "cached_rows": 28,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-16_2026-05-22_0.json"
+      ]
+    },
+    {
+      "game_id": "9z5kBzOdMA",
+      "utc_date": "2026-05-16",
+      "home_team_id": "19vQ2095K6",
+      "away_team_id": "kRQand1MKZ",
+      "state": "cached_unverified",
+      "cached_rows": 29,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-16_2026-05-22_0.json"
+      ]
+    },
+    {
+      "game_id": "2lqROePJQr",
+      "utc_date": "2026-05-16",
+      "home_team_id": "EKXMeX3Q64",
+      "away_team_id": "wvq9B9wQWn",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-16_2026-05-22_0.json"
+      ]
+    },
+    {
+      "game_id": "raMyNnyd5d",
+      "utc_date": "2026-05-17",
+      "home_team_id": "YgOMngl5wN",
+      "away_team_id": "lgpMOvnQzy",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-16_2026-05-22_0.json"
+      ]
+    },
+    {
+      "game_id": "gjMNWreD5K",
+      "utc_date": "2026-05-17",
+      "home_team_id": "gpMOLwl5zy",
+      "away_team_id": "Z2vQ1xlqrA",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-16_2026-05-22_0.json"
+      ]
+    },
+    {
+      "game_id": "7vQ7RXJGqD",
+      "utc_date": "2026-05-17",
+      "home_team_id": "jYQJ19EqGR",
+      "away_team_id": "kaDQ0wRqEv",
+      "state": "cached_unverified",
+      "cached_rows": 33,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-16_2026-05-22_0.json"
+      ]
+    },
+    {
+      "game_id": "2vQ1g1jO5r",
+      "utc_date": "2026-05-17",
+      "home_team_id": "zeQZBOzQKw",
+      "away_team_id": "NWMWlBK5lz",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-16_2026-05-22_0.json"
+      ]
+    },
+    {
+      "game_id": "eV5D89an5K",
+      "utc_date": "2026-05-17",
+      "home_team_id": "a2lqR4JMr0",
+      "away_team_id": "pzeQZ6xQKw",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-16_2026-05-22_0.json"
+      ]
+    },
+    {
+      "game_id": "a35ro3r2qL",
+      "utc_date": "2026-05-17",
+      "home_team_id": "0KPqjA456v",
+      "away_team_id": "mKAqBBmqbg",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-16_2026-05-22_0.json"
+      ]
+    },
+    {
+      "game_id": "OlMlWznDQL",
+      "utc_date": "2026-05-17",
+      "home_team_id": "zeQZkL1MKw",
+      "away_team_id": "WBLMvYAQxe",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-16_2026-05-22_0.json"
+      ]
+    },
+    {
+      "game_id": "Vj589JwLq8",
+      "utc_date": "2026-05-18",
+      "home_team_id": "vzqoOgNqap",
+      "away_team_id": "eVq3ya6MWO",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-16_2026-05-22_0.json"
+      ]
+    },
+    {
+      "game_id": "KXMeXzRPQ6",
+      "utc_date": "2026-05-23",
+      "home_team_id": "NPqxKXZ59d",
+      "away_team_id": "19vQ2095K6",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-23_2026-05-29_0.json"
+      ]
+    },
+    {
+      "game_id": "aDQ0WDL3qE",
+      "utc_date": "2026-05-24",
+      "home_team_id": "Z2vQ1xlqrA",
+      "away_team_id": "a2lqRX2Mr0",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-23_2026-05-29_0.json"
+      ]
+    },
+    {
+      "game_id": "xW5pOJdJMg",
+      "utc_date": "2026-05-24",
+      "home_team_id": "vzqoOgNqap",
+      "away_team_id": "Vj58weDM8n",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-23_2026-05-29_0.json"
+      ]
+    },
+    {
+      "game_id": "NPqxLOnXq9",
+      "utc_date": "2026-05-24",
+      "home_team_id": "X0Oq66zq6D",
+      "away_team_id": "kRQabn8MKZ",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-23_2026-05-29_0.json"
+      ]
+    },
+    {
+      "game_id": "kRQalzejqK",
+      "utc_date": "2026-05-24",
+      "home_team_id": "pzeQZ6xQKw",
+      "away_team_id": "mKAqBBmqbg",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-23_2026-05-29_0.json"
+      ]
+    },
+    {
+      "game_id": "4wM4O8ZNQj",
+      "utc_date": "2026-05-24",
+      "home_team_id": "zeQZBOzQKw",
+      "away_team_id": "lgpMOvnQzy",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-23_2026-05-29_0.json"
+      ]
+    },
+    {
+      "game_id": "XVqKw7G0q0",
+      "utc_date": "2026-05-24",
+      "home_team_id": "zeQZkL1MKw",
+      "away_team_id": "9z5k7Yg5A3",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-23_2026-05-29_0.json"
+      ]
+    },
+    {
+      "game_id": "p6qbYzRw50",
+      "utc_date": "2026-05-25",
+      "home_team_id": "eVq3ya6MWO",
+      "away_team_id": "jYQJ19EqGR",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-05-23_2026-05-29_0.json"
+      ]
+    },
+    {
+      "game_id": "ljqEdkV45x",
+      "utc_date": "2026-07-16",
+      "home_team_id": "APk5LGOMOW",
+      "away_team_id": "kRQabn8MKZ",
+      "state": "cached_unverified",
+      "cached_rows": 29,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-11_2026-07-17_0.json"
+      ]
+    },
+    {
+      "game_id": "N6MmgzKxqE",
+      "utc_date": "2026-07-17",
+      "home_team_id": "wvq9B9wQWn",
+      "away_team_id": "Z2vQ1xlqrA",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-11_2026-07-17_0.json"
+      ]
+    },
+    {
+      "game_id": "Xj5YPzLRMb",
+      "utc_date": "2026-07-17",
+      "home_team_id": "jYQJ19EqGR",
+      "away_team_id": "WBLMvYAQxe",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-11_2026-07-17_0.json"
+      ]
+    },
+    {
+      "game_id": "jYQJJyBkQG",
+      "utc_date": "2026-07-18",
+      "home_team_id": "vzqoOgNqap",
+      "away_team_id": "KAqBN0Vqbg",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-18_2026-07-24_0.json"
+      ]
+    },
+    {
+      "game_id": "7VqGXP0jQv",
+      "utc_date": "2026-07-22",
+      "home_team_id": "9z5k7Yg5A3",
+      "away_team_id": "a2lqRX2Mr0",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-18_2026-07-24_0.json"
+      ]
+    },
+    {
+      "game_id": "eVq36l2V5W",
+      "utc_date": "2026-07-22",
+      "home_team_id": "NWMWlBK5lz",
+      "away_team_id": "lgpMOvnQzy",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-18_2026-07-24_0.json"
+      ]
+    },
+    {
+      "game_id": "0Oq6oe3xQ6",
+      "utc_date": "2026-07-23",
+      "home_team_id": "NPqxKXZ59d",
+      "away_team_id": "KAqBN0Vqbg",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-18_2026-07-24_0.json"
+      ]
+    },
+    {
+      "game_id": "gOMnGzll5w",
+      "utc_date": "2026-07-23",
+      "home_team_id": "YgOMngl5wN",
+      "away_team_id": "EKXMeX3Q64",
+      "state": "cached_unverified",
+      "cached_rows": 33,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-18_2026-07-24_0.json"
+      ]
+    },
+    {
+      "game_id": "2lqROejJQr",
+      "utc_date": "2026-07-23",
+      "home_team_id": "vzqoOgNqap",
+      "away_team_id": "APk5LGOMOW",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-18_2026-07-24_0.json"
+      ]
+    },
+    {
+      "game_id": "vzqoYzdJMa",
+      "utc_date": "2026-07-23",
+      "home_team_id": "Z2vQ1xlqrA",
+      "away_team_id": "kRQand1MKZ",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-18_2026-07-24_0.json"
+      ]
+    },
+    {
+      "game_id": "wvq9kweBMW",
+      "utc_date": "2026-07-23",
+      "home_team_id": "pzeQZ6xQKw",
+      "away_team_id": "zeQZBOzQKw",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-18_2026-07-24_0.json"
+      ]
+    },
+    {
+      "game_id": "gpMOglorMz",
+      "utc_date": "2026-07-23",
+      "home_team_id": "gpMOLwl5zy",
+      "away_team_id": "jYQJ19EqGR",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-18_2026-07-24_0.json"
+      ]
+    },
+    {
+      "game_id": "315V9zPnM9",
+      "utc_date": "2026-07-23",
+      "home_team_id": "eVq3ya6MWO",
+      "away_team_id": "a2lqR4JMr0",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-18_2026-07-24_0.json"
+      ]
+    },
+    {
+      "game_id": "Pk5L3DeYMO",
+      "utc_date": "2026-07-23",
+      "home_team_id": "0KPqjA456v",
+      "away_team_id": "jYQJ8EW5GR",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-18_2026-07-24_0.json"
+      ]
+    },
+    {
+      "game_id": "9z5kBzbdMA",
+      "utc_date": "2026-07-23",
+      "home_team_id": "kaDQ0wRqEv",
+      "away_team_id": "wvq9B9wQWn",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-18_2026-07-24_0.json"
+      ]
+    },
+    {
+      "game_id": "EGMPG8Z6Qa",
+      "utc_date": "2026-07-23",
+      "home_team_id": "WBLMvYAQxe",
+      "away_team_id": "mKAqBBmqbg",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-18_2026-07-24_0.json"
+      ]
+    },
+    {
+      "game_id": "gjMNWrjD5K",
+      "utc_date": "2026-07-25",
+      "home_team_id": "mvzqoLZQap",
+      "away_team_id": "NWMWlBK5lz",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-25_2026-07-31_0.json"
+      ]
+    },
+    {
+      "game_id": "7vQ7RXBGqD",
+      "utc_date": "2026-07-25",
+      "home_team_id": "APk5LGOMOW",
+      "away_team_id": "zeQZkL1MKw",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-25_2026-07-31_0.json"
+      ]
+    },
+    {
+      "game_id": "2vQ1g14O5r",
+      "utc_date": "2026-07-25",
+      "home_team_id": "Vj58weDM8n",
+      "away_team_id": "X0Oq66zq6D",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-25_2026-07-31_0.json"
+      ]
+    },
+    {
+      "game_id": "9YqdezoEQv",
+      "utc_date": "2026-07-26",
+      "home_team_id": "YgOMngl5wN",
+      "away_team_id": "gpMOLwl5zy",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-25_2026-07-31_0.json"
+      ]
+    },
+    {
+      "game_id": "KXMeXz8PQ6",
+      "utc_date": "2026-07-26",
+      "home_team_id": "kRQand1MKZ",
+      "away_team_id": "lgpMOvnQzy",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-25_2026-07-31_0.json"
+      ]
+    },
+    {
+      "game_id": "OlMlWzeDQL",
+      "utc_date": "2026-07-26",
+      "home_team_id": "jYQJ8EW5GR",
+      "away_team_id": "vzqoOgNqap",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-25_2026-07-31_0.json"
+      ]
+    },
+    {
+      "game_id": "9vQ2GrZmMK",
+      "utc_date": "2026-07-26",
+      "home_team_id": "zeQZBOzQKw",
+      "away_team_id": "mKAqBBmqbg",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-25_2026-07-31_0.json"
+      ]
+    },
+    {
+      "game_id": "KPqj3zKYQ6",
+      "utc_date": "2026-07-26",
+      "home_team_id": "0KPqjA456v",
+      "away_team_id": "kaDQ0wRqEv",
+      "state": "cached_unverified",
+      "cached_rows": 28,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-25_2026-07-31_0.json"
+      ]
+    },
+    {
+      "game_id": "NPqxLOxXq9",
+      "utc_date": "2026-07-26",
+      "home_team_id": "eVq3ya6MWO",
+      "away_team_id": "Z2vQ1xlqrA",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-25_2026-07-31_0.json"
+      ]
+    },
+    {
+      "game_id": "xW5pOJyJMg",
+      "utc_date": "2026-07-31",
+      "home_team_id": "Vj58weDM8n",
+      "away_team_id": "kRQabn8MKZ",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-07-25_2026-07-31_0.json"
+      ]
+    },
+    {
+      "game_id": "zeQZLzXr5K",
+      "utc_date": "2026-08-01",
+      "home_team_id": "APk5LGOMOW",
+      "away_team_id": "19vQ2095K6",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-01_2026-08-07_0.json"
+      ]
+    },
+    {
+      "game_id": "4wM4O8JNQj",
+      "utc_date": "2026-08-02",
+      "home_team_id": "zeQZkL1MKw",
+      "away_team_id": "mvzqoLZQap",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-01_2026-08-07_0.json"
+      ]
+    },
+    {
+      "game_id": "N6MmgzoxqE",
+      "utc_date": "2026-08-02",
+      "home_team_id": "kRQand1MKZ",
+      "away_team_id": "zeQZBOzQKw",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-01_2026-08-07_0.json"
+      ]
+    },
+    {
+      "game_id": "ljqEdkL45x",
+      "utc_date": "2026-08-02",
+      "home_team_id": "X0Oq66zq6D",
+      "away_team_id": "NPqxKXZ59d",
+      "state": "cached_unverified",
+      "cached_rows": 29,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-01_2026-08-07_0.json"
+      ]
+    },
+    {
+      "game_id": "jYQJJyakQG",
+      "utc_date": "2026-08-02",
+      "home_team_id": "pzeQZ6xQKw",
+      "away_team_id": "gpMOLwl5zy",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-01_2026-08-07_0.json"
+      ]
+    },
+    {
+      "game_id": "Oa5wP6A4q1",
+      "utc_date": "2026-08-02",
+      "home_team_id": "kaDQ0wRqEv",
+      "away_team_id": "mKAqBBmqbg",
+      "state": "cached_unverified",
+      "cached_rows": 29,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-01_2026-08-07_0.json"
+      ]
+    },
+    {
+      "game_id": "0Oq6oeLxQ6",
+      "utc_date": "2026-08-15",
+      "home_team_id": "kRQabn8MKZ",
+      "away_team_id": "19vQ2095K6",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-15_2026-08-21_0.json"
+      ]
+    },
+    {
+      "game_id": "0x5gxzWPq7",
+      "utc_date": "2026-08-15",
+      "home_team_id": "APk5LGOMOW",
+      "away_team_id": "EKXMeX3Q64",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-15_2026-08-21_0.json"
+      ]
+    },
+    {
+      "game_id": "7VqGXP3jQv",
+      "utc_date": "2026-08-15",
+      "home_team_id": "jYQJ8EW5GR",
+      "away_team_id": "NWMWlBK5lz",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-15_2026-08-21_0.json"
+      ]
+    },
+    {
+      "game_id": "KAqBroNBqb",
+      "utc_date": "2026-08-15",
+      "home_team_id": "KAqBN0Vqbg",
+      "away_team_id": "a2lqRX2Mr0",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-15_2026-08-21_0.json"
+      ]
+    },
+    {
+      "game_id": "NWMWkzoEMl",
+      "utc_date": "2026-08-15",
+      "home_team_id": "NPqxKXZ59d",
+      "away_team_id": "mvzqoLZQap",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-15_2026-08-21_0.json"
+      ]
+    },
+    {
+      "game_id": "gOMnGzYl5w",
+      "utc_date": "2026-08-16",
+      "home_team_id": "YgOMngl5wN",
+      "away_team_id": "kaDQ0wRqEv",
+      "state": "cached_unverified",
+      "cached_rows": 32,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-15_2026-08-21_0.json"
+      ]
+    },
+    {
+      "game_id": "vzqoYzJJMa",
+      "utc_date": "2026-08-16",
+      "home_team_id": "vzqoOgNqap",
+      "away_team_id": "zeQZkL1MKw",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-15_2026-08-21_0.json"
+      ]
+    },
+    {
+      "game_id": "2lqROe7JQr",
+      "utc_date": "2026-08-16",
+      "home_team_id": "pzeQZ6xQKw",
+      "away_team_id": "Z2vQ1xlqrA",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-15_2026-08-21_0.json"
+      ]
+    },
+    {
+      "game_id": "jYQJJygZQG",
+      "utc_date": "2026-08-16",
+      "home_team_id": "a2lqR4JMr0",
+      "away_team_id": "kRQand1MKZ",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-15_2026-08-21_0.json"
+      ]
+    },
+    {
+      "game_id": "Oa5wP6dDq1",
+      "utc_date": "2026-08-16",
+      "home_team_id": "eVq3ya6MWO",
+      "away_team_id": "zeQZBOzQKw",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-15_2026-08-21_0.json"
+      ]
+    },
+    {
+      "game_id": "eVq36lyX5W",
+      "utc_date": "2026-08-16",
+      "home_team_id": "0KPqjA456v",
+      "away_team_id": "wvq9B9wQWn",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-15_2026-08-21_0.json"
+      ]
+    },
+    {
+      "game_id": "KAqBrokmqb",
+      "utc_date": "2026-08-16",
+      "home_team_id": "X0Oq66zq6D",
+      "away_team_id": "WBLMvYAQxe",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-15_2026-08-21_0.json"
+      ]
+    },
+    {
+      "game_id": "NWMWkzoDMl",
+      "utc_date": "2026-08-16",
+      "home_team_id": "Vj58weDM8n",
+      "away_team_id": "9z5k7Yg5A3",
+      "state": "cached_unverified",
+      "cached_rows": 30,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-15_2026-08-21_0.json"
+      ]
+    },
+    {
+      "game_id": "gpMOglerMz",
+      "utc_date": "2026-08-17",
+      "home_team_id": "gpMOLwl5zy",
+      "away_team_id": "mKAqBBmqbg",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-15_2026-08-21_0.json"
+      ]
+    },
+    {
+      "game_id": "0x5gxzWwq7",
+      "utc_date": "2026-08-17",
+      "home_team_id": "jYQJ19EqGR",
+      "away_team_id": "lgpMOvnQzy",
+      "state": "cached_unverified",
+      "cached_rows": 31,
+      "source_files": [
+        "outputs\\mls_2026_sources\\asa_players_2026-08-15_2026-08-21_0.json"
+      ]
+    }
+  ],
+  "network_requests": 0,
+  "rules_sha256": "bf9c477997fb2ee2e34568441c352443ee1785b5f0fc9ae20d0a078530bda5b3",
+  "saved_replay": {
+    "label": "Previously studied replay, NOT generated from newly collected ASA/Flashscore data",
+    "picks": [
+      {
+        "fixture_id": 248,
+        "date": "2026-08-16 00:30:00.000000",
+        "competition": "MLS",
+        "fixture": "Houston Dynamo vs LA Galaxy",
+        "stronger": true,
+        "shooting": true,
+        "environment": true,
+        "home_ppg": 1.7777777777777777,
+        "away_ppg": 1.0555555555555556,
+        "home_recent_ppg": 2.2,
+        "away_recent_ppg": 0.6,
+        "home_home_shots": 12.8,
+        "away_away_conceded": 15.4,
+        "projected_home_shots": 14.100000000000001,
+        "projected_away_shots": 9.600000000000001,
+        "actual_home_shots": 9,
+        "actual_away_shots": 9,
+        "home_outshot_away": false,
+        "player": "M. Bogusz",
+        "player_id": 1026,
+        "shots": 1,
+        "prior_fixture_ids": [
+          511,
+          469,
+          485,
+          218,
+          241
+        ],
+        "hit": false,
+        "recent_shots": 3.4,
+        "recent_share": 0.2836263736263736,
+        "recent_minutes": 86.6,
+        "recent_hits": 5,
+        "shooter_rank": 1,
+        "weekend": "2026-08-15",
+        "A": true,
+        "B": true,
+        "provider_fixture_id": 15171644,
+        "local_kickoff": "2026-08-15T18:30:00-06:00"
+      },
+      {
+        "fixture_id": 248,
+        "date": "2026-08-16 00:30:00.000000",
+        "competition": "MLS",
+        "fixture": "Houston Dynamo vs LA Galaxy",
+        "stronger": true,
+        "shooting": true,
+        "environment": true,
+        "home_ppg": 1.7777777777777777,
+        "away_ppg": 1.0555555555555556,
+        "home_recent_ppg": 2.2,
+        "away_recent_ppg": 0.6,
+        "home_home_shots": 12.8,
+        "away_away_conceded": 15.4,
+        "projected_home_shots": 14.100000000000001,
+        "projected_away_shots": 9.600000000000001,
+        "actual_home_shots": 9,
+        "actual_away_shots": 9,
+        "home_outshot_away": false,
+        "player": "Guilherme",
+        "player_id": 866,
+        "shots": 3,
+        "prior_fixture_ids": [
+          469,
+          485,
+          218,
+          233,
+          241
+        ],
+        "hit": true,
+        "recent_shots": 3,
+        "recent_share": 0.2312087912087912,
+        "recent_minutes": 87.4,
+        "recent_hits": 4,
+        "shooter_rank": 2,
+        "weekend": "2026-08-15",
+        "A": true,
+        "B": true,
+        "provider_fixture_id": 15171644,
+        "local_kickoff": "2026-08-15T18:30:00-06:00"
+      },
+      {
+        "fixture_id": 250,
+        "date": "2026-08-16 01:30:00.000000",
+        "competition": "MLS",
+        "fixture": "Colorado Rapids vs Sporting Kansas City",
+        "stronger": true,
+        "shooting": true,
+        "environment": true,
+        "home_ppg": 1.2222222222222223,
+        "away_ppg": 0.7777777777777778,
+        "home_recent_ppg": 1.2,
+        "away_recent_ppg": 0.6,
+        "home_home_shots": 14.6,
+        "away_away_conceded": 13.8,
+        "projected_home_shots": 14.2,
+        "projected_away_shots": 9.2,
+        "actual_home_shots": 28,
+        "actual_away_shots": 6,
+        "home_outshot_away": true,
+        "player": "R. Navarro",
+        "player_id": 773,
+        "shots": 4,
+        "prior_fixture_ids": [
+          513,
+          466,
+          488,
+          219,
+          237
+        ],
+        "hit": true,
+        "recent_shots": 3.4,
+        "recent_share": 0.4023728331912475,
+        "recent_minutes": 90,
+        "recent_hits": 5,
+        "shooter_rank": 1,
+        "weekend": "2026-08-15",
+        "A": true,
+        "B": true,
+        "provider_fixture_id": 15171643,
+        "local_kickoff": "2026-08-15T19:30:00-06:00"
+      },
+      {
+        "fixture_id": 251,
+        "date": "2026-08-16 02:30:00.000000",
+        "competition": "MLS",
+        "fixture": "Los Angeles FC vs San Diego FC",
+        "stronger": true,
+        "shooting": true,
+        "environment": true,
+        "home_ppg": 1.7894736842105263,
+        "away_ppg": 1.1666666666666667,
+        "home_recent_ppg": 2.6,
+        "away_recent_ppg": 1,
+        "home_home_shots": 12.2,
+        "away_away_conceded": 15,
+        "projected_home_shots": 13.6,
+        "projected_away_shots": 11.600000000000001,
+        "actual_home_shots": 15,
+        "actual_away_shots": 9,
+        "home_outshot_away": true,
+        "player": "S. Heung-min",
+        "player_id": 410,
+        "shots": 4,
+        "prior_fixture_ids": [
+          472,
+          478,
+          493,
+          225,
+          231
+        ],
+        "hit": true,
+        "recent_shots": 4.8,
+        "recent_share": 0.46132730015082957,
+        "recent_minutes": 82.6,
+        "recent_hits": 5,
+        "shooter_rank": 1,
+        "weekend": "2026-08-15",
+        "A": true,
+        "B": true,
+        "provider_fixture_id": 15171646,
+        "local_kickoff": "2026-08-15T20:30:00-06:00"
+      },
+      {
+        "fixture_id": 251,
+        "date": "2026-08-16 02:30:00.000000",
+        "competition": "MLS",
+        "fixture": "Los Angeles FC vs San Diego FC",
+        "stronger": true,
+        "shooting": true,
+        "environment": true,
+        "home_ppg": 1.7894736842105263,
+        "away_ppg": 1.1666666666666667,
+        "home_recent_ppg": 2.6,
+        "away_recent_ppg": 1,
+        "home_home_shots": 12.2,
+        "away_away_conceded": 15,
+        "projected_home_shots": 13.6,
+        "projected_away_shots": 11.600000000000001,
+        "actual_home_shots": 15,
+        "actual_away_shots": 9,
+        "home_outshot_away": true,
+        "player": "D. Bouanga",
+        "player_id": 411,
+        "shots": 2,
+        "prior_fixture_ids": [
+          472,
+          478,
+          493,
+          225,
+          231
+        ],
+        "hit": true,
+        "recent_shots": 2,
+        "recent_share": 0.1647812971342383,
+        "recent_minutes": 87.6,
+        "recent_hits": 4,
+        "shooter_rank": 2,
+        "weekend": "2026-08-15",
+        "A": true,
+        "B": false,
+        "provider_fixture_id": 15171646,
+        "local_kickoff": "2026-08-15T20:30:00-06:00"
+      }
+    ]
+  },
+  "automatic_capability": "Fetch absent player-shot records for target and venue-history matches, bounded to four UTC dates per click. Cache reuse; no paid API.",
+  "manual_capability": "Flashscore browser collection is a saved handoff, not an automatically running AI agent.",
+  "unresolved_original_cases": [
+    "Antony",
+    "Denis Bouanga",
+    "Pep Biel"
+  ]
+}

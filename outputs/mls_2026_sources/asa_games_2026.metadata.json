@@ -1,0 +1,8 @@
+{
+  "source_url": "https://app.americansocceranalysis.com/api/v1/mls/games?season_name=2026&status=FullTime&stage_name=Regular+Season",
+  "retrieved_at_utc": "2026-09-27T12:03:30.193400+00:00",
+  "sha256": "a0ac6beaaddbdb48148ae243482eb7c667d4bde2f2bf6c6693c514bf0d0d720d",
+  "records": 401,
+  "source": "American Soccer Analysis documented public API",
+  "raw_unmodified": true
+}

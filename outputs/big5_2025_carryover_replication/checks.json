@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": {
+    "acquisition_no_failures": true,
+    "unique_matches": true,
+    "plan_hash_matches": true,
+    "target_dates_only": true,
+    "target_fixture_count": true,
+    "unique_sample_keys": true,
+    "b_subset_a": true,
+    "pick_count_reconciles": true,
+    "b_count_reconciles": true,
+    "outcomes_reconcile": true,
+    "strict_cutoff_and_180_days": true,
+    "same_team_league_player_identity": true,
+    "no_current_match_in_history": true,
+    "known_pick_outcomes": true
+  },
+  "counts": {
+    "matches": 754,
+    "target_fixtures": 168,
+    "samples": 1848,
+    "A_picks": 13,
+    "B_picks": 5
+  }
+}

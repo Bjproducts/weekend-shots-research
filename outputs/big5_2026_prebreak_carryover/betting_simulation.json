@@ -1,0 +1,199 @@
+{
+  "A": {
+    "formula": "$10 * 1.5^consecutive_wins",
+    "sequence": "WLWWWWWWWWWWLLWW",
+    "cycles": [
+      {
+        "wins": 1,
+        "peak_before_loss": 15.0,
+        "ended_by_loss": true,
+        "legs": [
+          {
+            "date": "2026-08-29T18:45:00Z",
+            "league": "Serie A",
+            "fixture": "Juventus vs Parma",
+            "player": "Francisco Concei\u00e7\u00e3o",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2026-08-30T13:00:00Z",
+            "league": "Premier League",
+            "fixture": "Leeds United vs Brentford",
+            "player": "Dominic Calvert-Lewin",
+            "shots": 1,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "wins": 10,
+        "peak_before_loss": 576.65,
+        "ended_by_loss": true,
+        "legs": [
+          {
+            "date": "2026-09-05T15:15:00Z",
+            "league": "Ligue 1",
+            "fixture": "Lens vs Lorient",
+            "player": "Abdallah Sima",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2026-09-05T18:45:00Z",
+            "league": "Serie A",
+            "fixture": "Roma vs Atalanta",
+            "player": "Donyell Malen",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2026-09-06T15:30:00Z",
+            "league": "Premier League",
+            "fixture": "Arsenal vs Chelsea",
+            "player": "Bukayo Saka",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2026-09-12T13:30:00Z",
+            "league": "Bundesliga",
+            "fixture": "Freiburg vs Borussia M\u00f6nchengladbach",
+            "player": "Derry Scherhant",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2026-09-12T13:30:00Z",
+            "league": "Bundesliga",
+            "fixture": "Mainz 05 vs Eintracht Frankfurt",
+            "player": "Nadiem Amiri",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2026-09-12T13:30:00Z",
+            "league": "Bundesliga",
+            "fixture": "Mainz 05 vs Eintracht Frankfurt",
+            "player": "Phillip Tietz",
+            "shots": 6,
+            "hit": true
+          },
+          {
+            "date": "2026-09-12T14:00:00Z",
+            "league": "Premier League",
+            "fixture": "Liverpool vs Fulham",
+            "player": "Florian Wirtz",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2026-09-12T14:00:00Z",
+            "league": "Premier League",
+            "fixture": "Liverpool vs Fulham",
+            "player": "Dominik Szoboszlai",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2026-09-12T19:00:00Z",
+            "league": "LaLiga",
+            "fixture": "Real Madrid vs Rayo Vallecano",
+            "player": "Kylian Mbapp\u00e9",
+            "shots": 5,
+            "hit": true
+          },
+          {
+            "date": "2026-09-12T19:00:00Z",
+            "league": "LaLiga",
+            "fixture": "Real Madrid vs Rayo Vallecano",
+            "player": "Vin\u00edcius J\u00fanior",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2026-09-19T11:30:00Z",
+            "league": "Premier League",
+            "fixture": "Tottenham Hotspur vs Aston Villa",
+            "player": "Pedro Porro",
+            "shots": 1,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "wins": 0,
+        "peak_before_loss": 10.0,
+        "ended_by_loss": true,
+        "legs": [
+          {
+            "date": "2026-09-20T13:00:00Z",
+            "league": "Premier League",
+            "fixture": "Leeds United vs Crystal Palace",
+            "player": "Dominic Calvert-Lewin",
+            "shots": 1,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "wins": 2,
+        "ending_balance": 22.5,
+        "ended_by_loss": false,
+        "legs": [
+          {
+            "date": "2026-09-20T13:00:00Z",
+            "league": "Premier League",
+            "fixture": "Manchester City vs Sunderland",
+            "player": "Erling Haaland",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2026-09-20T16:00:00Z",
+            "league": "Serie A",
+            "fixture": "Juventus vs Atalanta",
+            "player": "Francisco Concei\u00e7\u00e3o",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      }
+    ],
+    "max_consecutive_wins": 10,
+    "maximum_balance_reached": 576.65,
+    "note": "A loss after an all-in winning streak reduces that cycle to $0; simultaneous picks are ordered only for this mathematical diagnostic."
+  },
+  "B": {
+    "formula": "$10 * 2.0^consecutive_wins",
+    "sequence": "WW",
+    "cycles": [
+      {
+        "wins": 2,
+        "ending_balance": 40.0,
+        "ended_by_loss": false,
+        "legs": [
+          {
+            "date": "2026-09-12T19:00:00Z",
+            "league": "LaLiga",
+            "fixture": "Real Madrid vs Rayo Vallecano",
+            "player": "Kylian Mbapp\u00e9",
+            "shots": 5,
+            "hit": true
+          },
+          {
+            "date": "2026-09-20T13:00:00Z",
+            "league": "Premier League",
+            "fixture": "Manchester City vs Sunderland",
+            "player": "Erling Haaland",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      }
+    ],
+    "max_consecutive_wins": 2,
+    "maximum_balance_reached": 40.0,
+    "note": "A loss after an all-in winning streak reduces that cycle to $0; simultaneous picks are ordered only for this mathematical diagnostic."
+  }
+}

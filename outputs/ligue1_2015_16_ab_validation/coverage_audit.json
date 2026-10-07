@@ -1,0 +1,3587 @@
+[
+  {
+    "fixture_id": 3829413,
+    "round": 1,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Paris Saint-Germain": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829414,
+    "round": 1,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829416,
+    "round": 1,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829419,
+    "round": 1,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829418,
+    "round": 1,
+    "earlier_rounds_absent": {
+      "Nantes": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829417,
+    "round": 1,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "Gaz\u00e9lec Ajaccio": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829415,
+    "round": 1,
+    "earlier_rounds_absent": {
+      "Bastia": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829421,
+    "round": 1,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Saint-\u00c9tienne": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829420,
+    "round": 1,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829422,
+    "round": 1,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Lorient": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829423,
+    "round": 2,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Lille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829424,
+    "round": 2,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829428,
+    "round": 2,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829429,
+    "round": 2,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829427,
+    "round": 2,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829426,
+    "round": 2,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829425,
+    "round": 2,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Nantes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829430,
+    "round": 2,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829431,
+    "round": 2,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Bastia": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829432,
+    "round": 2,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [],
+      "Gaz\u00e9lec Ajaccio": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829433,
+    "round": 3,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Paris Saint-Germain": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829435,
+    "round": 3,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829439,
+    "round": 3,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829438,
+    "round": 3,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829437,
+    "round": 3,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829436,
+    "round": 3,
+    "earlier_rounds_absent": {
+      "Nantes": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829434,
+    "round": 3,
+    "earlier_rounds_absent": {
+      "Bastia": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829442,
+    "round": 3,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829440,
+    "round": 3,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Saint-\u00c9tienne": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829441,
+    "round": 3,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Troyes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829443,
+    "round": 4,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829444,
+    "round": 4,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829445,
+    "round": 4,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829449,
+    "round": 4,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829448,
+    "round": 4,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Lorient": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829447,
+    "round": 4,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Gaz\u00e9lec Ajaccio": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829446,
+    "round": 4,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829451,
+    "round": 4,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [],
+      "Bastia": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829452,
+    "round": 4,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Nantes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829450,
+    "round": 4,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Paris Saint-Germain": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829453,
+    "round": 5,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829454,
+    "round": 5,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Lille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829459,
+    "round": 5,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829458,
+    "round": 5,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829457,
+    "round": 5,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Saint-\u00c9tienne": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829456,
+    "round": 5,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829455,
+    "round": 5,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829462,
+    "round": 5,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829460,
+    "round": 5,
+    "earlier_rounds_absent": {
+      "Nantes": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829461,
+    "round": 5,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Bastia": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829463,
+    "round": 6,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Lille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829465,
+    "round": 6,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Paris Saint-Germain": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829467,
+    "round": 6,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829466,
+    "round": 6,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Troyes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829468,
+    "round": 6,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Gaz\u00e9lec Ajaccio": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829464,
+    "round": 6,
+    "earlier_rounds_absent": {
+      "Bastia": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829471,
+    "round": 6,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829470,
+    "round": 6,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [],
+      "Nantes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829469,
+    "round": 6,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Lorient": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829472,
+    "round": 6,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829474,
+    "round": 7,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829473,
+    "round": 7,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829479,
+    "round": 7,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829478,
+    "round": 7,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829480,
+    "round": 7,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "Saint-\u00c9tienne": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829476,
+    "round": 7,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Bastia": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829475,
+    "round": 7,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829477,
+    "round": 7,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829481,
+    "round": 7,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829482,
+    "round": 8,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Lille": [
+        7
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3829483,
+    "round": 8,
+    "earlier_rounds_absent": {
+      "Nantes": [
+        7
+      ],
+      "Paris Saint-Germain": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3829487,
+    "round": 8,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Gaz\u00e9lec Ajaccio": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829486,
+    "round": 8,
+    "earlier_rounds_absent": {
+      "Bastia": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829485,
+    "round": 8,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Troyes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829484,
+    "round": 8,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829491,
+    "round": 8,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829489,
+    "round": 8,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Lorient": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829488,
+    "round": 8,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829490,
+    "round": 8,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829492,
+    "round": 7,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Nantes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829493,
+    "round": 9,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829495,
+    "round": 9,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829496,
+    "round": 9,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Bastia": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829497,
+    "round": 9,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829494,
+    "round": 9,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829501,
+    "round": 9,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829499,
+    "round": 9,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Saint-\u00c9tienne": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829498,
+    "round": 9,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829500,
+    "round": 9,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829502,
+    "round": 10,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829504,
+    "round": 10,
+    "earlier_rounds_absent": {
+      "Bastia": [],
+      "Paris Saint-Germain": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829508,
+    "round": 10,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829507,
+    "round": 10,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829506,
+    "round": 10,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Lille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829505,
+    "round": 10,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [],
+      "Gaz\u00e9lec Ajaccio": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829503,
+    "round": 10,
+    "earlier_rounds_absent": {
+      "Nantes": [
+        9
+      ],
+      "Troyes": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3829509,
+    "round": 10,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Lorient": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829511,
+    "round": 10,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829510,
+    "round": 10,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "OGC Nice": [
+        9
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3829513,
+    "round": 11,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Nantes": [
+        9
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3829512,
+    "round": 11,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829516,
+    "round": 11,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829514,
+    "round": 11,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829517,
+    "round": 11,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [],
+      "OGC Nice": [
+        9
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3829515,
+    "round": 11,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Bastia": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829520,
+    "round": 11,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829518,
+    "round": 11,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829521,
+    "round": 11,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Troyes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3829519,
+    "round": 11,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [],
+      "Saint-\u00c9tienne": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900490,
+    "round": 12,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Paris Saint-Germain": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900491,
+    "round": 12,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900495,
+    "round": 12,
+    "earlier_rounds_absent": {
+      "Bastia": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900496,
+    "round": 12,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900494,
+    "round": 12,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900493,
+    "round": 12,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900492,
+    "round": 12,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Lorient": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900497,
+    "round": 12,
+    "earlier_rounds_absent": {
+      "OGC Nice": [
+        9
+      ],
+      "Lille": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900498,
+    "round": 12,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900499,
+    "round": 12,
+    "earlier_rounds_absent": {
+      "Nantes": [
+        9
+      ],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3829522,
+    "round": 9,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Nantes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900500,
+    "round": 13,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900501,
+    "round": 13,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900505,
+    "round": 13,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900504,
+    "round": 13,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Nantes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900506,
+    "round": 13,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Gaz\u00e9lec Ajaccio": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900503,
+    "round": 13,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Bastia": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900502,
+    "round": 13,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Troyes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900507,
+    "round": 13,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900509,
+    "round": 13,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Saint-\u00c9tienne": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900508,
+    "round": 13,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900510,
+    "round": 14,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900511,
+    "round": 14,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Paris Saint-Germain": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900514,
+    "round": 14,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900515,
+    "round": 14,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Nantes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900513,
+    "round": 14,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "Lille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900512,
+    "round": 14,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900518,
+    "round": 14,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900519,
+    "round": 14,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900516,
+    "round": 14,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900520,
+    "round": 15,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900521,
+    "round": 15,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [],
+      "Troyes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900522,
+    "round": 15,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900523,
+    "round": 15,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900526,
+    "round": 15,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Lille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900525,
+    "round": 15,
+    "earlier_rounds_absent": {
+      "Nantes": [],
+      "Bastia": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900524,
+    "round": 15,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ],
+      "Lorient": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900529,
+    "round": 15,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900528,
+    "round": 15,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900527,
+    "round": 15,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900532,
+    "round": 16,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Paris Saint-Germain": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900531,
+    "round": 16,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900530,
+    "round": 16,
+    "earlier_rounds_absent": {
+      "Nantes": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900533,
+    "round": 16,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900538,
+    "round": 16,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900537,
+    "round": 16,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900536,
+    "round": 16,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900534,
+    "round": 16,
+    "earlier_rounds_absent": {
+      "Bastia": [
+        14
+      ],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900535,
+    "round": 16,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Saint-\u00c9tienne": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900539,
+    "round": 16,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900540,
+    "round": 17,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Paris Saint-Germain": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900545,
+    "round": 17,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900542,
+    "round": 17,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Lille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900541,
+    "round": 17,
+    "earlier_rounds_absent": {
+      "Bastia": [
+        14
+      ],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900546,
+    "round": 17,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ],
+      "Nantes": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900544,
+    "round": 17,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Lorient": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900543,
+    "round": 17,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Troyes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900547,
+    "round": 17,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900548,
+    "round": 17,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900549,
+    "round": 17,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900550,
+    "round": 18,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900553,
+    "round": 18,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900555,
+    "round": 18,
+    "earlier_rounds_absent": {
+      "Nantes": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900554,
+    "round": 18,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "Bastia": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900552,
+    "round": 18,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900551,
+    "round": 18,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Lorient": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900558,
+    "round": 18,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Saint-\u00c9tienne": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900559,
+    "round": 18,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900556,
+    "round": 18,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900557,
+    "round": 18,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900560,
+    "round": 19,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900562,
+    "round": 19,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Paris Saint-Germain": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900566,
+    "round": 19,
+    "earlier_rounds_absent": {
+      "Bastia": [
+        14
+      ],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900565,
+    "round": 19,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Nantes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900564,
+    "round": 19,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900563,
+    "round": 19,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900561,
+    "round": 19,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Lille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900569,
+    "round": 19,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900568,
+    "round": 19,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ],
+      "Lyon": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900567,
+    "round": 19,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900570,
+    "round": 20,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [],
+      "Bastia": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900574,
+    "round": 20,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Troyes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900573,
+    "round": 20,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900576,
+    "round": 20,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900575,
+    "round": 20,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900572,
+    "round": 20,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900571,
+    "round": 20,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Lorient": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900579,
+    "round": 20,
+    "earlier_rounds_absent": {
+      "Nantes": [],
+      "Saint-\u00c9tienne": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900578,
+    "round": 20,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900577,
+    "round": 20,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900580,
+    "round": 21,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900585,
+    "round": 21,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Paris Saint-Germain": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900586,
+    "round": 21,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Nantes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900584,
+    "round": 21,
+    "earlier_rounds_absent": {
+      "Bastia": [
+        14
+      ],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900582,
+    "round": 21,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900583,
+    "round": 21,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900581,
+    "round": 21,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Lille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900588,
+    "round": 21,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900589,
+    "round": 21,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900587,
+    "round": 21,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900590,
+    "round": 22,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900591,
+    "round": 22,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900592,
+    "round": 22,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900594,
+    "round": 22,
+    "earlier_rounds_absent": {
+      "Nantes": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900596,
+    "round": 22,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Bastia": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900595,
+    "round": 22,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Lorient": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900593,
+    "round": 22,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Troyes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900598,
+    "round": 22,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900599,
+    "round": 22,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Saint-\u00c9tienne": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900597,
+    "round": 22,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900600,
+    "round": 23,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Lille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900604,
+    "round": 23,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900601,
+    "round": 23,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900602,
+    "round": 23,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900605,
+    "round": 23,
+    "earlier_rounds_absent": {
+      "Bastia": [
+        14
+      ],
+      "Lyon": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900603,
+    "round": 23,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900606,
+    "round": 23,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "Nantes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900608,
+    "round": 23,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900609,
+    "round": 23,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900611,
+    "round": 24,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Bastia": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900610,
+    "round": 24,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900614,
+    "round": 24,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900616,
+    "round": 24,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900617,
+    "round": 24,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900615,
+    "round": 24,
+    "earlier_rounds_absent": {
+      "Nantes": [],
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900613,
+    "round": 24,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900612,
+    "round": 24,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Troyes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900618,
+    "round": 24,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [
+        23
+      ],
+      "Lorient": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900619,
+    "round": 24,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Saint-\u00c9tienne": [
+        23
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900625,
+    "round": 25,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900624,
+    "round": 25,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900620,
+    "round": 25,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900626,
+    "round": 25,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900623,
+    "round": 25,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900622,
+    "round": 25,
+    "earlier_rounds_absent": {
+      "Bastia": [
+        14
+      ],
+      "Troyes": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900621,
+    "round": 25,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Nantes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900628,
+    "round": 25,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900627,
+    "round": 25,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Saint-\u00c9tienne": [
+        23
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900629,
+    "round": 25,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Paris Saint-Germain": [
+        23
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900630,
+    "round": 26,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900634,
+    "round": 26,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [
+        23
+      ],
+      "Lille": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900636,
+    "round": 26,
+    "earlier_rounds_absent": {
+      "Nantes": [],
+      "Lorient": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900633,
+    "round": 26,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ],
+      "Troyes": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900635,
+    "round": 26,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Bastia": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900632,
+    "round": 26,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900631,
+    "round": 26,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900638,
+    "round": 26,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3900639,
+    "round": 26,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [
+        23
+      ],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3900637,
+    "round": 26,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901144,
+    "round": 27,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901146,
+    "round": 27,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [
+        23
+      ],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901149,
+    "round": 27,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Troyes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901148,
+    "round": 27,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901147,
+    "round": 27,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901145,
+    "round": 27,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901150,
+    "round": 27,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Saint-\u00c9tienne": [
+        23
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901152,
+    "round": 27,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901151,
+    "round": 27,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901153,
+    "round": 28,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Bastia": [
+        14,
+        27
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901155,
+    "round": 28,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Lille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901158,
+    "round": 28,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901157,
+    "round": 28,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901156,
+    "round": 28,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901154,
+    "round": 28,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "Lorient": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901160,
+    "round": 28,
+    "earlier_rounds_absent": {
+      "Nantes": [
+        27
+      ],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901161,
+    "round": 28,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [
+        23
+      ],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901159,
+    "round": 28,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Paris Saint-Germain": [
+        23
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901162,
+    "round": 29,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901166,
+    "round": 29,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [
+        23
+      ],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901168,
+    "round": 29,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901167,
+    "round": 29,
+    "earlier_rounds_absent": {
+      "Bastia": [
+        14,
+        27
+      ],
+      "Lorient": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901165,
+    "round": 29,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Gaz\u00e9lec Ajaccio": [
+        14,
+        28
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901164,
+    "round": 29,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Saint-\u00c9tienne": [
+        23
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901163,
+    "round": 29,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Troyes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901169,
+    "round": 29,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [
+        28
+      ],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901170,
+    "round": 29,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Nantes": [
+        27
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901171,
+    "round": 29,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901173,
+    "round": 28,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901172,
+    "round": 27,
+    "earlier_rounds_absent": {
+      "Bastia": [
+        14
+      ],
+      "Nantes": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901174,
+    "round": 30,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901178,
+    "round": 30,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901180,
+    "round": 30,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Saint-\u00c9tienne": [
+        23
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901179,
+    "round": 30,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901177,
+    "round": 30,
+    "earlier_rounds_absent": {
+      "Bastia": [
+        14
+      ],
+      "Lille": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901176,
+    "round": 30,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901175,
+    "round": 30,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901183,
+    "round": 30,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "Paris Saint-Germain": [
+        23
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901182,
+    "round": 30,
+    "earlier_rounds_absent": {
+      "Nantes": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901181,
+    "round": 30,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901184,
+    "round": 31,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901188,
+    "round": 31,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [
+        23
+      ],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901190,
+    "round": 31,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Troyes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901189,
+    "round": 31,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901187,
+    "round": 31,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Lorient": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901185,
+    "round": 31,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901186,
+    "round": 31,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Nantes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901192,
+    "round": 31,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Bastia": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901191,
+    "round": 31,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901193,
+    "round": 31,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [
+        23
+      ],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901194,
+    "round": 32,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901196,
+    "round": 32,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [
+        23
+      ],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901199,
+    "round": 32,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901200,
+    "round": 32,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901198,
+    "round": 32,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901197,
+    "round": 32,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901195,
+    "round": 32,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ],
+      "Saint-\u00c9tienne": [
+        23
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901203,
+    "round": 32,
+    "earlier_rounds_absent": {
+      "Nantes": [],
+      "Lille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901201,
+    "round": 32,
+    "earlier_rounds_absent": {
+      "Bastia": [
+        14
+      ],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901202,
+    "round": 32,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901204,
+    "round": 33,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901208,
+    "round": 33,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Paris Saint-Germain": [
+        23
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901205,
+    "round": 33,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Lorient": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901210,
+    "round": 33,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [
+        23
+      ],
+      "Troyes": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901209,
+    "round": 33,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901207,
+    "round": 33,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Nantes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901206,
+    "round": 33,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Bastia": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901212,
+    "round": 33,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901213,
+    "round": 33,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901211,
+    "round": 33,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Bordeaux": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901214,
+    "round": 34,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901216,
+    "round": 34,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [
+        23
+      ],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901220,
+    "round": 34,
+    "earlier_rounds_absent": {
+      "Bastia": [
+        14
+      ],
+      "Saint-\u00c9tienne": [
+        23
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901219,
+    "round": 34,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901218,
+    "round": 34,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901217,
+    "round": 34,
+    "earlier_rounds_absent": {
+      "Troyes": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901215,
+    "round": 34,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ],
+      "Lille": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901222,
+    "round": 34,
+    "earlier_rounds_absent": {
+      "Nantes": [],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901221,
+    "round": 34,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901223,
+    "round": 34,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901224,
+    "round": 35,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901225,
+    "round": 35,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901227,
+    "round": 35,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Nantes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901230,
+    "round": 35,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ],
+      "Bastia": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901229,
+    "round": 35,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901228,
+    "round": 35,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [
+        23
+      ],
+      "Lorient": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901226,
+    "round": 35,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Troyes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901231,
+    "round": 35,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901232,
+    "round": 35,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Angers": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901233,
+    "round": 36,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [
+        23,
+        35
+      ],
+      "Rennes": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901236,
+    "round": 36,
+    "earlier_rounds_absent": {
+      "Nantes": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901241,
+    "round": 36,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Bastia": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901237,
+    "round": 36,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [
+        23
+      ],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901240,
+    "round": 36,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Lille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901238,
+    "round": 36,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901234,
+    "round": 36,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901235,
+    "round": 36,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901242,
+    "round": 36,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901251,
+    "round": 37,
+    "earlier_rounds_absent": {
+      "Olympique de Marseille": [],
+      "Stade de Reims": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901252,
+    "round": 37,
+    "earlier_rounds_absent": {
+      "Lyon": [],
+      "AS Monaco": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901250,
+    "round": 37,
+    "earlier_rounds_absent": {
+      "OGC Nice": [],
+      "Saint-\u00c9tienne": [
+        23
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901249,
+    "round": 37,
+    "earlier_rounds_absent": {
+      "Montpellier": [],
+      "Rennes": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901248,
+    "round": 37,
+    "earlier_rounds_absent": {
+      "Lille": [],
+      "Guingamp": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901247,
+    "round": 37,
+    "earlier_rounds_absent": {
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ],
+      "Paris Saint-Germain": [
+        23,
+        35
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901246,
+    "round": 37,
+    "earlier_rounds_absent": {
+      "Nantes": [],
+      "Stade Malherbe Caen": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901245,
+    "round": 37,
+    "earlier_rounds_absent": {
+      "Bordeaux": [
+        35,
+        36
+      ],
+      "Lorient": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901244,
+    "round": 37,
+    "earlier_rounds_absent": {
+      "Toulouse": [],
+      "Troyes": [
+        36
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901243,
+    "round": 37,
+    "earlier_rounds_absent": {
+      "Bastia": [
+        14
+      ],
+      "Angers": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901253,
+    "round": 35,
+    "earlier_rounds_absent": {
+      "Bordeaux": [],
+      "Paris Saint-Germain": [
+        23
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901259,
+    "round": 38,
+    "earlier_rounds_absent": {
+      "Troyes": [
+        36
+      ],
+      "Olympique de Marseille": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901262,
+    "round": 38,
+    "earlier_rounds_absent": {
+      "Stade Malherbe Caen": [],
+      "Bordeaux": [
+        36
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901260,
+    "round": 38,
+    "earlier_rounds_absent": {
+      "Lorient": [],
+      "Gaz\u00e9lec Ajaccio": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901263,
+    "round": 38,
+    "earlier_rounds_absent": {
+      "Rennes": [],
+      "Bastia": [
+        14
+      ]
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901261,
+    "round": 38,
+    "earlier_rounds_absent": {
+      "Paris Saint-Germain": [
+        23
+      ],
+      "Nantes": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901258,
+    "round": 38,
+    "earlier_rounds_absent": {
+      "Guingamp": [],
+      "OGC Nice": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901257,
+    "round": 38,
+    "earlier_rounds_absent": {
+      "Saint-\u00c9tienne": [
+        23
+      ],
+      "Lille": []
+    },
+    "complete_prior_rounds": false
+  },
+  {
+    "fixture_id": 3901256,
+    "round": 38,
+    "earlier_rounds_absent": {
+      "AS Monaco": [],
+      "Montpellier": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901255,
+    "round": 38,
+    "earlier_rounds_absent": {
+      "Angers": [],
+      "Toulouse": []
+    },
+    "complete_prior_rounds": true
+  },
+  {
+    "fixture_id": 3901254,
+    "round": 38,
+    "earlier_rounds_absent": {
+      "Stade de Reims": [],
+      "Lyon": []
+    },
+    "complete_prior_rounds": true
+  }
+]

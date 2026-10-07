@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": {
+    "acquisition_complete": true,
+    "plan_hash": true,
+    "target_dates": true,
+    "counts": true,
+    "rank_sequences": true,
+    "twenty_qualifying_environments": true,
+    "picks_obey_frozen_rule": true,
+    "b_subset_and_extra_rule": true,
+    "outcomes_reconcile": true,
+    "strict_cutoff_180_days": true,
+    "same_team_league_identity": true,
+    "known_pick_outcomes": true
+  },
+  "counts": {
+    "source_matches": 770,
+    "target_fixtures": 166,
+    "ranked": 144,
+    "selected_environments": 20,
+    "A_picks": 22,
+    "B_picks": 9
+  }
+}

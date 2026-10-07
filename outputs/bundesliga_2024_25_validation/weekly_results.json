@@ -1,0 +1,163 @@
+[
+  {
+    "week_start": "2024-08-19",
+    "full_pattern": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "benchmark": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week_start": "2024-08-26",
+    "full_pattern": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "benchmark": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week_start": "2024-09-09",
+    "full_pattern": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "benchmark": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week_start": "2024-09-16",
+    "full_pattern": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "benchmark": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week_start": "2024-09-23",
+    "full_pattern": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "benchmark": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week_start": "2024-09-30",
+    "full_pattern": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "benchmark": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week_start": "2024-10-14",
+    "full_pattern": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "benchmark": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week_start": "2024-10-21",
+    "full_pattern": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "benchmark": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week_start": "2024-10-28",
+    "full_pattern": {
+      "hits": 2,
+      "n": 2,
+      "rate": 100.0,
+      "missing": 0,
+      "fixtures": 1,
+      "wilson95": [
+        34.2,
+        100.0
+      ]
+    },
+    "benchmark": {
+      "hits": 2,
+      "n": 2,
+      "rate": 100.0,
+      "missing": 0,
+      "fixtures": 1,
+      "wilson95": [
+        34.2,
+        100.0
+      ]
+    }
+  }
+]

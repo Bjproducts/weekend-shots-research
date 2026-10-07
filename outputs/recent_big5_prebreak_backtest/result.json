@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-09-28T22:15:00Z",
+  "target": "Exact frozen Pattern A and Pattern B replay on the four common weekends before the 21 September 2026 international break",
+  "leagues": ["Premier League", "La Liga", "Serie A", "Bundesliga", "Ligue 1"],
+  "weekends": [
+    "2026-08-29/30",
+    "2026-09-05/06",
+    "2026-09-12/13",
+    "2026-09-19/20"
+  ],
+  "frozen_gate": {
+    "team_season_history_min": 8,
+    "meaning": "Both teams must have at least eight earlier results in the same competition and season before any environment or player candidate can qualify."
+  },
+  "result": {
+    "eligible_fixtures": 0,
+    "pattern_A_picks": 0,
+    "pattern_B_picks": 0,
+    "settled_picks": 0,
+    "hits": 0,
+    "misses": 0,
+    "hit_rate": null,
+    "status": "NO BET — insufficient same-season history"
+  },
+  "evidence": {
+    "international_window": "FIFA men's international window: 21 September to 6 October 2026.",
+    "premier_league": "The final pre-break weekend was Matchweek 5, leaving only four earlier league results per club at most.",
+    "la_liga": "The final pre-break weekend was Matchday 7 after a midweek round, leaving only six earlier results per club at most.",
+    "bundesliga": "The final pre-break weekend was Matchday 4, leaving only three earlier results per club at most.",
+    "serie_a_and_ligue_1": "Both were also still in their opening rounds and below eight prior same-season results."
+  },
+  "interpretation": "This is a valid no-action backtest. Calculating candidates or a hit rate would require changing the frozen rule, such as carrying previous-season matches into history. That was not done.",
+  "sources": [
+    "https://ipt.fifa.com/en/tournament-organisation/international-match-calendars",
+    "https://www.premierleague.com/en/news/4714530/match-officials-for-matchweek-5",
+    "https://www.laliga.com/calendar-2026-2027/laliga-easports",
+    "https://www.bundesliga.com/en/bundesliga/news/2026-27-fixture-lists-now-available-38068"
+  ]
+}

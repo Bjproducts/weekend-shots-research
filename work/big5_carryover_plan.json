@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-09-28T22:30:00Z",
+  "status": "frozen_before_player-detail_acquisition_and_pick_calculation",
+  "name": "Big-five early-season previous-season carryover v1",
+  "target_weekends": ["2026-08-29/30", "2026-09-05/06", "2026-09-12/13", "2026-09-19/20"],
+  "leagues": ["Premier League", "LaLiga", "Serie A", "Bundesliga", "Ligue 1"],
+  "provider": "FotMob public match pages/data",
+  "base_rules_sha256": "bf9c477997fb2ee2e34568441c352443ee1785b5f0fc9ae20d0a078530bda5b3",
+  "carryover_rule": {
+    "team_history": "Use all earlier current-season results. If fewer than eight, prepend the most recent previous-season results for the same team in the same top-flight league, within 180 days, until eight total are available.",
+    "venue_history": "For last-up-to-five home or away shot histories, use earlier current-season venue matches first and continue backward into the immediately previous same-league season within 180 days.",
+    "player_history": "Use the previous five starts for the same player and same team within 180 days, crossing the season boundary when available.",
+    "promoted_or_transferred": "Do not substitute lower-division team history or a player's different-team history. Missing comparable history remains an exclusion.",
+    "timing": "Only matches ending before the target fixture's >24-hour cutoff may enter features."
+  },
+  "pattern_A": "All original environment-first thresholds unchanged after applying the carryover histories.",
+  "pattern_B": "Pattern A plus previous-five-start average shots >=3 and average minutes >=80.",
+  "betting": {"starting_stake": 10, "decimal_odds_A": 1.5, "decimal_odds_B": 2.0, "rollover": "continuous all-in in chronological selection order; a loss reduces the current balance to zero"},
+  "decision_policy": "No threshold, league, weekend, history rule, odds, data exclusion or ordering changes after player-detail acquisition. Save every missing fixture/player and every pick.",
+  "limits": [
+    "This is a newly specified early-season variant, not the already validated original formula.",
+    "FotMob is a different provider from StatsBomb and earlier SportsAPI data; definitions require validation.",
+    "Historical market odds are not used; the fixed prices are hypothetical.",
+    "Same-kickoff picks cannot be literally rolled sequentially."
+  ]
+}

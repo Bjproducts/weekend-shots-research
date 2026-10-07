@@ -1,0 +1,208 @@
+{
+  "classification": "retrospective what-if simulation on already inspected backtests; not independent validation",
+  "plan_sha256": "c46b1dcd62923284185f3a82a0141424a933c10ff4530623474970fb50860563",
+  "target": "3+ total shots",
+  "selection": "Top three Plan B candidates per weekend by frozen pre-match ranking",
+  "assumed_decimal_odds": 1.4,
+  "weekends_with_B_candidates": 8,
+  "selected_candidates": 17,
+  "flat_singles": {
+    "hits": 12,
+    "picks": 17,
+    "hit_rate": 70.6,
+    "break_even_hit_rate": 71.4,
+    "staked": 170.0,
+    "returned": 168.0,
+    "profit": -2.0,
+    "roi_percent": -1.2
+  },
+  "exact_three_accumulators": {
+    "eligible_weekends": 4,
+    "clean_weekends": 1,
+    "clean_rate": 25.0,
+    "combined_decimal_odds": 2.744,
+    "staked": 40.0,
+    "returned": 27.44,
+    "profit": -12.56,
+    "roi_percent": -31.4
+  },
+  "weekend_rollover": {
+    "starting_stake_per_cycle": 10.0,
+    "total_deposits": 40.0,
+    "ending_active_balance": 27.44,
+    "net_against_deposits": -12.56,
+    "cycles": [
+      {
+        "season": "2023/24",
+        "weekend": "2023-09-23",
+        "result": "LOSS",
+        "stake": 10.0,
+        "return": 0.0,
+        "consecutive_clean_weekends": 0
+      },
+      {
+        "season": "2023/24",
+        "weekend": "2023-10-07",
+        "result": "LOSS",
+        "stake": 10.0,
+        "return": 0.0,
+        "consecutive_clean_weekends": 0
+      },
+      {
+        "season": "2024/25",
+        "weekend": "2024-09-14",
+        "result": "LOSS",
+        "stake": 10.0,
+        "return": 0.0,
+        "consecutive_clean_weekends": 0
+      },
+      {
+        "season": "2024/25",
+        "weekend": "2024-09-21",
+        "result": "WIN",
+        "stake": 10.0,
+        "return": 27.44,
+        "consecutive_clean_weekends": 1
+      }
+    ],
+    "warning": "Mathematical fixed-odds diagnostic only; historical availability and same-match correlation are not priced."
+  },
+  "weekends": [
+    {
+      "season": "2023/24",
+      "weekend": "2023-09-16",
+      "available_B_candidates": 2,
+      "retained": 2,
+      "selected_players": [
+        "Marcus Rashford",
+        "Robert Lewandowski"
+      ],
+      "three_plus_hits": 2,
+      "exact_three_eligible": false,
+      "clean_three": null,
+      "accumulator_odds": null,
+      "accumulator_return": null,
+      "accumulator_profit": null
+    },
+    {
+      "season": "2023/24",
+      "weekend": "2023-09-23",
+      "available_B_candidates": 6,
+      "retained": 3,
+      "selected_players": [
+        "Erling Haaland",
+        "Robert Lewandowski",
+        "Leroy San\u00e9"
+      ],
+      "three_plus_hits": 2,
+      "exact_three_eligible": true,
+      "clean_three": false,
+      "accumulator_odds": 2.744,
+      "accumulator_return": 0.0,
+      "accumulator_profit": -10.0
+    },
+    {
+      "season": "2023/24",
+      "weekend": "2023-09-30",
+      "available_B_candidates": 1,
+      "retained": 1,
+      "selected_players": [
+        "Kevin St\u00f6ger"
+      ],
+      "three_plus_hits": 0,
+      "exact_three_eligible": false,
+      "clean_three": null,
+      "accumulator_odds": null,
+      "accumulator_return": null,
+      "accumulator_profit": null
+    },
+    {
+      "season": "2023/24",
+      "weekend": "2023-10-07",
+      "available_B_candidates": 5,
+      "retained": 3,
+      "selected_players": [
+        "Victor Okoh Boniface",
+        "J\u00e9r\u00e9my Le Douaron",
+        "Harry Kane"
+      ],
+      "three_plus_hits": 2,
+      "exact_three_eligible": true,
+      "clean_three": false,
+      "accumulator_odds": 2.744,
+      "accumulator_return": 0.0,
+      "accumulator_profit": -10.0
+    },
+    {
+      "season": "2024/25",
+      "weekend": "2024-09-14",
+      "available_B_candidates": 4,
+      "retained": 3,
+      "selected_players": [
+        "Erling Haaland",
+        "Kevin De Bruyne",
+        "Mohamed Salah"
+      ],
+      "three_plus_hits": 2,
+      "exact_three_eligible": true,
+      "clean_three": false,
+      "accumulator_odds": 2.744,
+      "accumulator_return": 0.0,
+      "accumulator_profit": -10.0
+    },
+    {
+      "season": "2024/25",
+      "weekend": "2024-09-21",
+      "available_B_candidates": 3,
+      "retained": 3,
+      "selected_players": [
+        "Kylian Mbapp\u00e9",
+        "Omar Marmoush",
+        "Mohamed Salah"
+      ],
+      "three_plus_hits": 3,
+      "exact_three_eligible": true,
+      "clean_three": true,
+      "accumulator_odds": 2.744,
+      "accumulator_return": 27.44,
+      "accumulator_profit": 17.44
+    },
+    {
+      "season": "2024/25",
+      "weekend": "2024-09-28",
+      "available_B_candidates": 1,
+      "retained": 1,
+      "selected_players": [
+        "Matthis Abline"
+      ],
+      "three_plus_hits": 0,
+      "exact_three_eligible": false,
+      "clean_three": null,
+      "accumulator_odds": null,
+      "accumulator_return": null,
+      "accumulator_profit": null
+    },
+    {
+      "season": "2024/25",
+      "weekend": "2024-10-05",
+      "available_B_candidates": 1,
+      "retained": 1,
+      "selected_players": [
+        "Florian Wirtz"
+      ],
+      "three_plus_hits": 1,
+      "exact_three_eligible": false,
+      "clean_three": null,
+      "accumulator_odds": null,
+      "accumulator_return": null,
+      "accumulator_profit": null
+    }
+  ],
+  "limits": [
+    "Do not use target-match outcomes to rank or select candidates.",
+    "Do not fill a weekend with Plan A-only candidates when fewer than three Plan B candidates exist.",
+    "Do not claim that fixed hypothetical odds were historically available.",
+    "Same-weekend and same-match selections are correlated.",
+    "This test changes the target from 2+ to 3+ shots and does not inherit the 2+ hit rate."
+  ]
+}

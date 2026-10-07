@@ -1,0 +1,1 @@
+{"name":"weekend-research-browser","private":true,"version":"0.1.0","description":"Isolated browser connection for bounded public football research","dependencies":{"@playwright/mcp":"0.0.82"}}

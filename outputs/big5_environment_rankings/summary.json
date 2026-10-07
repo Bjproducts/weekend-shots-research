@@ -1,0 +1,72 @@
+{
+  "specification": {
+    "name": "Big-five environment ranking layer v1",
+    "status": "post-outcome exploratory specification; requires untouched validation",
+    "purpose": "Rank match environments even when teams have not played each other or have little current-season data, while keeping evidence confidence separate from rank.",
+    "history": {
+      "maximum_team_matches": 8,
+      "recent_form_matches": 5,
+      "maximum_age_days": 180,
+      "order": "Current-season matches first; fill backward with the immediately previous same-league season.",
+      "promoted_teams": "Do not invent or substitute lower-division history. Mark insufficient comparable history."
+    },
+    "ranking_components": {
+      "overall_ppg_gap_percentile": 0.3,
+      "recent_five_ppg_gap_percentile": 0.3,
+      "projected_home_shots_percentile": 0.25,
+      "projected_shot_gap_percentile": 0.15
+    },
+    "ranking_method": "Within each weekend, percentile-rank the four pre-match components and calculate a 0-100 weighted score. Rank does not use head-to-head results or the target outcome.",
+    "confidence_tiers": {
+      "A": "Both teams have at least three current-season matches in the eight-match history.",
+      "B": "Both teams have at least one current-season match, but one or both have fewer than three.",
+      "C": "One or both teams have zero current-season matches; ranking is historical-only.",
+      "EXCLUDED": "Either team lacks at least five comparable matches, or the required home/away shooting histories are unavailable."
+    },
+    "candidate_layer": "For each ranked fixture, show confirmed home starters with five same-player/same-team starts within 180 days, ranked by average shots. Mark whether at least two of those starts are current-season.",
+    "interpretation": "Rank and confidence are separate. A high-ranked Tier C match is interesting but not equivalent to a high-confidence selection."
+  },
+  "classification": "post-outcome exploratory design; not untouched validation",
+  "fixtures": 324,
+  "eligible_ranked": 252,
+  "excluded": 72,
+  "confidence_counts": {
+    "B": 60,
+    "EXCLUDED": 72,
+    "C": 5,
+    "A": 187
+  },
+  "environment_diagnostics_by_tier": {
+    "A": {
+      "fixtures": 187,
+      "known": 187,
+      "home_outshot": 117,
+      "rate": 62.6
+    },
+    "B": {
+      "fixtures": 60,
+      "known": 60,
+      "home_outshot": 41,
+      "rate": 68.3
+    },
+    "C": {
+      "fixtures": 5,
+      "known": 5,
+      "home_outshot": 5,
+      "rate": 100.0
+    }
+  },
+  "top_five_environment_diagnostic": {
+    "fixtures": 40,
+    "known": 40,
+    "home_outshot": 30,
+    "rate": 75.0
+  },
+  "top_two_candidate_samples": 504,
+  "limits": [
+    "Outcome columns are diagnostic only and never enter ranks.",
+    "The weights were designed after viewing earlier carryover results.",
+    "Relative percentile scores cannot be compared as absolute probabilities across weekends.",
+    "Rank does not equal bet eligibility; confidence must remain visible."
+  ]
+}

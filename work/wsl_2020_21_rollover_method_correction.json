@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-09-28T21:55:00Z",
+  "reason": "User clarified that rollover means one continuous all-in balance: $10 multiplied by odds for every consecutive win, with the entire accumulated balance lost on the next miss.",
+  "formula": "balance_after_n_consecutive_wins = 10 * decimal_odds^n",
+  "restart_policy": "For season-wide reporting, a new $10 is deposited after each loss to show the next independent streak. Without a new deposit, the first loss ends the simulation at $0.",
+  "status": "post-result accounting clarification; selection rules, odds, picks and outcomes unchanged",
+  "warning": "No profit is realized unless the bettor cashes out. Rolling the full balance into a losing next selection makes that streak's ending balance $0."
+}

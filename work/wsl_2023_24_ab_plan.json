@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-09-28T20:30:00Z",
+  "status": "frozen_before_player_event_acquisition",
+  "dataset": "FA Women's Super League 2023/24",
+  "provider": "StatsBomb Open Data",
+  "competition_id": 37,
+  "season_id": 281,
+  "expected_matches": 132,
+  "expected_teams": 12,
+  "selection_reason": "Modern, complete round-robin league listed in the current open-data catalog and unused by this project; chosen for coverage before qualifying outcomes are calculated.",
+  "scope_label": "external_cross_population_stress_test",
+  "rules_sha256": "bf9c477997fb2ee2e34568441c352443ee1785b5f0fc9ae20d0a078530bda5b3",
+  "pattern_A": "Existing frozen original environment-first 2+ shots rule.",
+  "pattern_B": "Pattern A plus previous-five-start average shots >=3 and average minutes >=80.",
+  "decision_policy": "No threshold changes, exclusions based on results, or dataset substitution after outcomes. Preserve every sample, exclusion and unknown.",
+  "limits": [
+    "Women's football is a different population; this tests portability of the mechanism and is not direct validation of a men's MLS betting rate.",
+    "Historical lineup-time starters are treated as known; publication timing is not reconstructed.",
+    "No odds or profitability calculation."
+  ]
+}

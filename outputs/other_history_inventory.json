@@ -1,0 +1,465 @@
+{
+  "scope": "All located source fixtures/player samples and normalized supporting identity tables. No secrets/provider raw payloads. Copies are not independent samples.",
+  "rule_version": "home-main-shooter-v1 unchanged",
+  "new_independent_qualifying_picks": 0,
+  "cross_provider_identity": "API-Football IDs are not equated to SportsAPI IDs; cross-provider fixture overlap unresolved. All fail history requirements anyway.",
+  "missing": "More contiguous historical results and player/team shots are required, not relaxed thresholds.",
+  "touchline_postgres": "Read-only connection attempted: ECONNREFUSED; live contents not inspected.",
+  "sources": [
+    {
+      "source": "C:\\Users\\bjpro\\OneDrive\\Desktop\\SHOT ON TARGET\\backend\\sot_sportsapi.db",
+      "sha256": "5511ce2dec14d2a70dc5ec559f2534f64c3b493051b3d48a2f0ad6722df1735a",
+      "archive_folder": "01_sot_sportsapi",
+      "status": "audited",
+      "player_samples": 34654,
+      "fixtures": 1501,
+      "providers": {
+        "sportsapipro": 34654
+      },
+      "coverage": {
+        "MLS / MLS 2024": {
+          "fixtures_with_stats": 196,
+          "player_samples": 6047,
+          "finished_fixtures": 269,
+          "eligible_fixtures": 95,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 21,
+          "max_prior_away_results": 21
+        },
+        "MLS / MLS 2025": {
+          "fixtures_with_stats": 540,
+          "player_samples": 16609,
+          "finished_fixtures": 540,
+          "eligible_fixtures": 416,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 39,
+          "max_prior_away_results": 38
+        },
+        "MLS / MLS 2026": {
+          "fixtures_with_stats": 280,
+          "player_samples": 8619,
+          "finished_fixtures": 280,
+          "eligible_fixtures": 154,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 19,
+          "max_prior_away_results": 18
+        },
+        "Bundesliga / Bundesliga 25/26": {
+          "fixtures_with_stats": 16,
+          "player_samples": 505,
+          "finished_fixtures": 30,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 3,
+          "max_prior_away_results": 4
+        },
+        "Trendyol S\u00fcper Lig / Super Lig 25/26": {
+          "fixtures_with_stats": 16,
+          "player_samples": 491,
+          "finished_fixtures": 30,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 3,
+          "max_prior_away_results": 3
+        },
+        "Ligue 1 / Ligue 1 25/26": {
+          "fixtures_with_stats": 16,
+          "player_samples": 495,
+          "finished_fixtures": 29,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 4,
+          "max_prior_away_results": 3
+        },
+        "Serie A / Serie A 25/26": {
+          "fixtures_with_stats": 16,
+          "player_samples": 508,
+          "finished_fixtures": 30,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 2,
+          "max_prior_away_results": 2
+        },
+        "Premier League / Premier League 25/26": {
+          "fixtures_with_stats": 17,
+          "player_samples": 528,
+          "finished_fixtures": 30,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 3,
+          "max_prior_away_results": 2
+        },
+        "LaLiga / LaLiga 25/26": {
+          "fixtures_with_stats": 16,
+          "player_samples": 504,
+          "finished_fixtures": 30,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 2,
+          "max_prior_away_results": 2
+        },
+        "Leagues Cup / Leagues Cup 2026": {
+          "fixtures_with_stats": 11,
+          "player_samples": 348,
+          "finished_fixtures": 12,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        },
+        "Trendyol S\u00fcper Lig / Super Lig 26/27": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 0,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        },
+        "LaLiga / LaLiga 26/27": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 0,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        },
+        "Ligue 1 / Ligue 1 26/27": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 0,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        },
+        "Premier League / Premier League 26/27": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 0,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        },
+        "Bundesliga / Bundesliga 26/27": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 0,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        }
+      },
+      "pending_new_player_samples": 0
+    },
+    {
+      "source": "C:\\Users\\bjpro\\OneDrive\\Desktop\\SHOT ON TARGET\\backend\\sot_sportsapi.pre-rollover-20260813.db",
+      "sha256": "b806cca099781e3ed7a683454d85a223ee9233f8c03e683491f651c09a8f499e",
+      "archive_folder": "02_sot_sportsapi.pre-rollover-20260813",
+      "status": "audited",
+      "player_samples": 2799,
+      "fixtures": 523,
+      "providers": {
+        "sportsapipro": 2799
+      },
+      "coverage": {
+        "MLS / MLS 2025": {
+          "fixtures_with_stats": 2,
+          "player_samples": 61,
+          "finished_fixtures": 30,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 5,
+          "max_prior_away_results": 4
+        },
+        "Bundesliga / Bundesliga 25/26": {
+          "fixtures_with_stats": 2,
+          "player_samples": 64,
+          "finished_fixtures": 30,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 2,
+          "max_prior_away_results": 4
+        },
+        "Trendyol S\u00fcper Lig / Super Lig 25/26": {
+          "fixtures_with_stats": 2,
+          "player_samples": 61,
+          "finished_fixtures": 30,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 2,
+          "max_prior_away_results": 2
+        },
+        "Ligue 1 / Ligue 1 25/26": {
+          "fixtures_with_stats": 2,
+          "player_samples": 63,
+          "finished_fixtures": 29,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 4,
+          "max_prior_away_results": 3
+        },
+        "Serie A / Serie A 25/26": {
+          "fixtures_with_stats": 2,
+          "player_samples": 64,
+          "finished_fixtures": 30,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 2,
+          "max_prior_away_results": 2
+        },
+        "Premier League / Premier League 25/26": {
+          "fixtures_with_stats": 2,
+          "player_samples": 62,
+          "finished_fixtures": 30,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 3,
+          "max_prior_away_results": 2
+        },
+        "LaLiga / LaLiga 25/26": {
+          "fixtures_with_stats": 2,
+          "player_samples": 64,
+          "finished_fixtures": 30,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 2,
+          "max_prior_away_results": 2
+        },
+        "MLS / MLS 2026": {
+          "fixtures_with_stats": 65,
+          "player_samples": 2012,
+          "finished_fixtures": 89,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 6,
+          "max_prior_away_results": 6
+        },
+        "Leagues Cup / Leagues Cup 2026": {
+          "fixtures_with_stats": 11,
+          "player_samples": 348,
+          "finished_fixtures": 12,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        },
+        "Trendyol S\u00fcper Lig / Super Lig 26/27": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 0,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        },
+        "LaLiga / LaLiga 26/27": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 0,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        },
+        "Ligue 1 / Ligue 1 26/27": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 0,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        },
+        "Premier League / Premier League 26/27": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 0,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        },
+        "Bundesliga / Bundesliga 26/27": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 0,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        }
+      },
+      "pending_new_player_samples": 0
+    },
+    {
+      "source": "C:\\Users\\bjpro\\OneDrive\\Desktop\\SHOT ON TARGET\\backend\\sot_live.db",
+      "sha256": "8efe68da66e4415e0321b83b0c987ffcebc289e1ae95352a6157725289a0776a",
+      "archive_folder": "03_sot_live",
+      "status": "audited",
+      "player_samples": 560,
+      "fixtures": 2624,
+      "providers": {
+        "apifootball": 560
+      },
+      "coverage": {
+        "Major League Soccer / 2024": {
+          "fixtures_with_stats": 10,
+          "player_samples": 400,
+          "finished_fixtures": 522,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 10,
+          "max_prior_home_results": 38,
+          "max_prior_away_results": 38
+        },
+        "S\u00fcper Lig / 2024": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 342,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        },
+        "La Liga / 2024": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 380,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        },
+        "Ligue 1 / 2024": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 308,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        },
+        "Premier League / 2024": {
+          "fixtures_with_stats": 4,
+          "player_samples": 160,
+          "finished_fixtures": 380,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 4,
+          "max_prior_home_results": 37,
+          "max_prior_away_results": 37
+        },
+        "Serie A / 2024": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 380,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        },
+        "Bundesliga / 2024": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 308,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        }
+      },
+      "pending_new_player_samples": 0
+    },
+    {
+      "source": "C:\\Users\\bjpro\\Documents\\Codex\\2026-09-14\\files-pasted-by-the-user-build\\work\\legacy-soccer.json",
+      "sha256": "b2cd3e01a68be70dd248abf32fd92bf5f3643f41e2f5660c1844a0cf90f00376",
+      "archive_folder": "04_legacy-soccer",
+      "status": "audited",
+      "player_samples": 28093,
+      "fixtures": 1008,
+      "providers": {
+        "sportsapipro": 28093
+      },
+      "coverage": {
+        "MLS / MLS 2024": {
+          "fixtures_with_stats": 77,
+          "player_samples": 2360,
+          "finished_fixtures": 90,
+          "eligible_fixtures": 1,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 8,
+          "max_prior_away_results": 9
+        },
+        "MLS / MLS 2025": {
+          "fixtures_with_stats": 540,
+          "player_samples": 16609,
+          "finished_fixtures": 540,
+          "eligible_fixtures": 416,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 39,
+          "max_prior_away_results": 38
+        },
+        "MLS / MLS 2026": {
+          "fixtures_with_stats": 280,
+          "player_samples": 8619,
+          "finished_fixtures": 280,
+          "eligible_fixtures": 154,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 19,
+          "max_prior_away_results": 18
+        },
+        "Bundesliga / Bundesliga 25/26": {
+          "fixtures_with_stats": 16,
+          "player_samples": 505,
+          "finished_fixtures": 30,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 3,
+          "max_prior_away_results": 4
+        },
+        "Bundesliga / Bundesliga 26/27": {
+          "fixtures_with_stats": 0,
+          "player_samples": 0,
+          "finished_fixtures": 0,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 0,
+          "max_prior_away_results": 0
+        }
+      },
+      "pending_new_player_samples": 0
+    },
+    {
+      "source": "C:\\Users\\bjpro\\OneDrive\\Desktop\\SHOT ON TARGET\\backend\\sot_demo.db",
+      "sha256": "b8c5c5bc77d60fa8acf228a18ac000bc0fd95a19496b02dd6a752bfe4748e1b3",
+      "archive_folder": "05_sot_demo",
+      "status": "audited",
+      "player_samples": 72,
+      "fixtures": 12,
+      "providers": {
+        "fake": 72
+      },
+      "coverage": {
+        "SOT Demo League / 2025/26": {
+          "fixtures_with_stats": 12,
+          "player_samples": 72,
+          "finished_fixtures": 12,
+          "eligible_fixtures": 0,
+          "new_same_provider_fixtures": 0,
+          "max_prior_home_results": 10,
+          "max_prior_away_results": 11
+        }
+      },
+      "pending_new_player_samples": 0
+    },
+    {
+      "source": "C:\\Users\\bjpro\\OneDrive\\Desktop\\SHOT ON TARGET\\sot_sportsapi.db",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "archive_folder": "06_sot_sportsapi",
+      "status": "no_usable_schema",
+      "error": "no such table: competitions"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-09-28T21:30:00Z",
+  "status": "frozen_before_player_event_acquisition",
+  "dataset": "FA Women's Super League 2020/21",
+  "provider": "StatsBomb Open Data",
+  "competition_id": 37,
+  "season_id": 90,
+  "available_matches": 131,
+  "expected_league_matches": 132,
+  "expected_teams": 12,
+  "selection_reason": "Unused full-season-shaped league dataset selected from coverage before player events; one expected fixture is absent and will remain explicitly missing.",
+  "rules_sha256": "bf9c477997fb2ee2e34568441c352443ee1785b5f0fc9ae20d0a078530bda5b3",
+  "pattern_A": "Existing frozen original environment-first 2+ shots rule.",
+  "pattern_B": "Pattern A plus previous-five-start average shots >=3 and average minutes >=80.",
+  "betting_policy": {
+    "currency": "USD",
+    "starting_stake_per_bet_or_block": 10,
+    "decimal_odds_A": 1.5,
+    "decimal_odds_B": 2.0,
+    "flat_bet": "Stake $10 independently on every selection.",
+    "rollover_lengths": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "rollover_method": "Sort selections by kickoff, fixture ID and player ID; partition into consecutive non-overlapping blocks of the stated length. Start each block with $10 and roll the entire return through every leg. Any loss returns $0. Ignore and count an incomplete final block.",
+    "same_kickoff_warning": "The deterministic ordering can put simultaneous selections in one block, so rollover output is a mathematical selection-order simulation, not a claim that every block was executable live."
+  },
+  "decision_policy": "No threshold, odds, rollover length, ordering or exclusion changes after player-event acquisition. Preserve all samples and losing blocks.",
+  "limits": [
+    "One expected league fixture is absent; missing data will not be invented.",
+    "Women's football and the same StatsBomb provider family do not directly validate men's MLS.",
+    "Fixed odds are user-supplied hypothetical prices, not archived market odds.",
+    "No commission, limits, voids, timing constraints or bookmaker settlement differences are modelled."
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "policy": {
+    "starting_stake": 10,
+    "decimal_odds_A": 1.5,
+    "decimal_odds_B": 2.0,
+    "formula": "balance_after_n_consecutive_wins = 10 * decimal_odds^n",
+    "loss": "The entire balance is staked; a loss reduces the current rollover to $0.",
+    "restart": "Deposit a new $10 after a loss to measure the next streak; also report deposits and ending net balance.",
+    "ordering": "kickoff, fixture ID, player ID"
+  },
+  "A": {
+    "flat": {
+      "bets": 13,
+      "wins": 12,
+      "losses": 1,
+      "stake_per_bet": 10,
+      "total_staked": 130.0,
+      "total_return": 180.0,
+      "profit": 50.0,
+      "roi_pct": 38.5
+    },
+    "continuous_rollover": {
+      "formula": "10 * 1.5^n",
+      "odds": 1.5,
+      "selections": 13,
+      "outcome_sequence": "WWWWWWWLWWWWW",
+      "cycles_started": 2,
+      "total_deposited": 20.0,
+      "losing_cycles": 1,
+      "max_consecutive_wins": 7,
+      "maximum_balance_reached": 170.86,
+      "maximum_balance_later_lost": true,
+      "final_open_streak_wins": 5,
+      "final_bankroll": 75.94,
+      "net_after_restart_deposits": 55.94,
+      "cycles": [
+        {
+          "cycle": 1,
+          "consecutive_wins": 7,
+          "peak_before_loss": 170.86,
+          "ended_by_loss": true,
+          "ending_balance": 0.0,
+          "legs": [
+            {
+              "date": "2018-12-09T15:00:00+00:00",
+              "fixture_id": 19775,
+              "fixture": "Reading WFC vs Liverpool WFC",
+              "player": "Fara Williams",
+              "shots": 11,
+              "hit": true
+            },
+            {
+              "date": "2018-12-09T15:00:00+00:00",
+              "fixture_id": 19775,
+              "fixture": "Reading WFC vs Liverpool WFC",
+              "player": "Brooke Chaplen",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2019-01-06T15:00:00+00:00",
+              "fixture_id": 19783,
+              "fixture": "Chelsea FCW vs Everton LFC",
+              "player": "Ji So-yun",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2019-01-06T15:00:00+00:00",
+              "fixture_id": 19783,
+              "fixture": "Chelsea FCW vs Everton LFC",
+              "player": "Erin Cuthbert",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2019-01-27T15:00:00+00:00",
+              "fixture_id": 19790,
+              "fixture": "Manchester City WFC vs Brighton & Hove Albion WFC",
+              "player": "Nikita Parris",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2019-02-20T20:30:00+00:00",
+              "fixture_id": 19797,
+              "fixture": "Arsenal WFC vs Yeovil Town LFC",
+              "player": "Danielle van de Donk",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2019-02-20T20:30:00+00:00",
+              "fixture_id": 19797,
+              "fixture": "Arsenal WFC vs Yeovil Town LFC",
+              "player": "Vivianne Miedema",
+              "shots": 12,
+              "hit": true
+            },
+            {
+              "date": "2019-03-14T20:30:00+00:00",
+              "fixture_id": 19800,
+              "fixture": "Arsenal WFC vs Bristol City WFC",
+              "player": "Danielle van de Donk",
+              "shots": 1,
+              "hit": false
+            }
+          ]
+        },
+        {
+          "cycle": 2,
+          "consecutive_wins": 5,
+          "peak_before_loss": null,
+          "ended_by_loss": false,
+          "ending_balance": 75.94,
+          "legs": [
+            {
+              "date": "2019-03-14T20:30:00+00:00",
+              "fixture_id": 19800,
+              "fixture": "Arsenal WFC vs Bristol City WFC",
+              "player": "Vivianne Miedema",
+              "shots": 5,
+              "hit": true
+            },
+            {
+              "date": "2019-03-31T15:00:00+00:00",
+              "fixture_id": 19807,
+              "fixture": "Manchester City WFC vs Liverpool WFC",
+              "player": "Nikita Parris",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2019-04-21T13:30:00+00:00",
+              "fixture_id": 19811,
+              "fixture": "Arsenal WFC vs Everton LFC",
+              "player": "Vivianne Miedema",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2019-04-28T15:00:00+00:00",
+              "fixture_id": 19818,
+              "fixture": "Manchester City WFC vs Yeovil Town LFC",
+              "player": "Georgia Stanway",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2019-04-28T15:00:00+00:00",
+              "fixture_id": 19818,
+              "fixture": "Manchester City WFC vs Yeovil Town LFC",
+              "player": "Nikita Parris",
+              "shots": 7,
+              "hit": true
+            }
+          ]
+        }
+      ],
+      "note": "No profit is realized unless cash is removed. A loss after a winning streak reduces the all-in balance to $0."
+    }
+  },
+  "B": {
+    "flat": {
+      "bets": 12,
+      "wins": 11,
+      "losses": 1,
+      "stake_per_bet": 10,
+      "total_staked": 120.0,
+      "total_return": 220.0,
+      "profit": 100.0,
+      "roi_pct": 83.3
+    },
+    "continuous_rollover": {
+      "formula": "10 * 2.0^n",
+      "odds": 2.0,
+      "selections": 12,
+      "outcome_sequence": "WWWWWWLWWWWW",
+      "cycles_started": 2,
+      "total_deposited": 20.0,
+      "losing_cycles": 1,
+      "max_consecutive_wins": 6,
+      "maximum_balance_reached": 640.0,
+      "maximum_balance_later_lost": true,
+      "final_open_streak_wins": 5,
+      "final_bankroll": 320.0,
+      "net_after_restart_deposits": 300.0,
+      "cycles": [
+        {
+          "cycle": 1,
+          "consecutive_wins": 6,
+          "peak_before_loss": 640.0,
+          "ended_by_loss": true,
+          "ending_balance": 0.0,
+          "legs": [
+            {
+              "date": "2018-12-09T15:00:00+00:00",
+              "fixture_id": 19775,
+              "fixture": "Reading WFC vs Liverpool WFC",
+              "player": "Fara Williams",
+              "shots": 11,
+              "hit": true
+            },
+            {
+              "date": "2018-12-09T15:00:00+00:00",
+              "fixture_id": 19775,
+              "fixture": "Reading WFC vs Liverpool WFC",
+              "player": "Brooke Chaplen",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2019-01-06T15:00:00+00:00",
+              "fixture_id": 19783,
+              "fixture": "Chelsea FCW vs Everton LFC",
+              "player": "Ji So-yun",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2019-01-06T15:00:00+00:00",
+              "fixture_id": 19783,
+              "fixture": "Chelsea FCW vs Everton LFC",
+              "player": "Erin Cuthbert",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2019-01-27T15:00:00+00:00",
+              "fixture_id": 19790,
+              "fixture": "Manchester City WFC vs Brighton & Hove Albion WFC",
+              "player": "Nikita Parris",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2019-02-20T20:30:00+00:00",
+              "fixture_id": 19797,
+              "fixture": "Arsenal WFC vs Yeovil Town LFC",
+              "player": "Vivianne Miedema",
+              "shots": 12,
+              "hit": true
+            },
+            {
+              "date": "2019-03-14T20:30:00+00:00",
+              "fixture_id": 19800,
+              "fixture": "Arsenal WFC vs Bristol City WFC",
+              "player": "Danielle van de Donk",
+              "shots": 1,
+              "hit": false
+            }
+          ]
+        },
+        {
+          "cycle": 2,
+          "consecutive_wins": 5,
+          "peak_before_loss": null,
+          "ended_by_loss": false,
+          "ending_balance": 320.0,
+          "legs": [
+            {
+              "date": "2019-03-14T20:30:00+00:00",
+              "fixture_id": 19800,
+              "fixture": "Arsenal WFC vs Bristol City WFC",
+              "player": "Vivianne Miedema",
+              "shots": 5,
+              "hit": true
+            },
+            {
+              "date": "2019-03-31T15:00:00+00:00",
+              "fixture_id": 19807,
+              "fixture": "Manchester City WFC vs Liverpool WFC",
+              "player": "Nikita Parris",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2019-04-21T13:30:00+00:00",
+              "fixture_id": 19811,
+              "fixture": "Arsenal WFC vs Everton LFC",
+              "player": "Vivianne Miedema",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2019-04-28T15:00:00+00:00",
+              "fixture_id": 19818,
+              "fixture": "Manchester City WFC vs Yeovil Town LFC",
+              "player": "Georgia Stanway",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2019-04-28T15:00:00+00:00",
+              "fixture_id": 19818,
+              "fixture": "Manchester City WFC vs Yeovil Town LFC",
+              "player": "Nikita Parris",
+              "shots": 7,
+              "hit": true
+            }
+          ]
+        }
+      ],
+      "note": "No profit is realized unless cash is removed. A loss after a winning streak reduces the all-in balance to $0."
+    }
+  }
+}

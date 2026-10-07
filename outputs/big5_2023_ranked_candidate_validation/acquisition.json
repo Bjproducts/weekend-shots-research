@@ -1,0 +1,21 @@
+{
+  "provider": "FotMob public match pages/data",
+  "retrieved_utc": "2026-10-03T15:43:09.703256+00:00",
+  "scope": "finished top-five-league matches from 2023-03-18 through 2023-10-08 UTC",
+  "league_fixture_counts": {
+    "Premier League 2022/2023": 380,
+    "Premier League 2023/2024": 381,
+    "LaLiga 2022/2023": 380,
+    "LaLiga 2023/2024": 380,
+    "Serie A 2022/2023": 381,
+    "Serie A 2023/2024": 380,
+    "Bundesliga 2022/2023": 306,
+    "Bundesliga 2023/2024": 306,
+    "Ligue 1 2022/2023": 380,
+    "Ligue 1 2023/2024": 307
+  },
+  "selected_match_details": 946,
+  "normalized_matches": 946,
+  "failures": [],
+  "raw_cache": "C:\\Users\\bjpro\\Documents\\Codex\\2026-09-24\\referenced-chatgpt-conversation-this-is-an\\outputs\\big5_2023_ranked_candidate_validation\\raw"
+}

@@ -1,0 +1,17 @@
+{
+  "written_before_new_player_data_analysis": "2026-09-27",
+  "source": "StatsBomb Open Data",
+  "competition": 7,
+  "season": 27,
+  "label": "Ligue 1 2015/16",
+  "available_fixtures": 377,
+  "expected_fixtures": 380,
+  "selection_reason": "Closest-to-complete unused European men's league season in the inspected catalog; not selected by player outcomes.",
+  "A": "Unchanged home-main-shooter-v1 baseline",
+  "B": "A AND prior five-start average shots >=3 AND prior five-start average minutes >=80",
+  "primary_comparison": "All qualifying A and B picks in available records; report discarded A picks and paired match-week clustered bootstrap interval for B-minus-A rate difference.",
+  "coverage_sensitivity": "Repeat both unchanged rules after excluding candidate fixtures when either team's earlier scheduled rounds are absent from downloaded history. Conservatively exclude missing-round history; never fabricate stats.",
+  "research_outputs": ["every player sample", "all A picks and B flags", "weekly counts", "top-player concentration", "coverage gaps", "raw source records"],
+  "interpretation": "New evaluation dataset relative to prior refinement research, but same era/provider and only partial season coverage. No threshold tuning. No automatic rule promotion. No profit claim.",
+  "bootstrap": {"unit": "Monday-start match week", "replicates": 3000, "seed": 27092026, "interval": "2.5th and 97.5th percentiles"}
+}

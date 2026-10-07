@@ -1,0 +1,973 @@
+{
+  "summary": {
+    "rows": 51,
+    "report_references_supported": 51,
+    "verified_dated_match_links": 0,
+    "reason": "Saved raw tickets contain id/status/stake/type; selection rows contain no match date or provider fixture ID. Matching a source reference does not verify a dated match."
+  },
+  "records": [
+    {
+      "fixture_id": "F074",
+      "player": "Ante Budimir",
+      "candidate_date": "2026-08-31",
+      "ticket_references": [
+        "T047",
+        "T048",
+        "T049"
+      ],
+      "source_page": 6,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F114",
+      "player": "Ante Budimir",
+      "candidate_date": "2026-08-24",
+      "ticket_references": [
+        "T109"
+      ],
+      "source_page": 28,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F001",
+      "player": "Antony",
+      "candidate_date": "2026-09-20",
+      "ticket_references": [
+        "T001",
+        "T002",
+        "T003",
+        "T004"
+      ],
+      "source_page": 5,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F093",
+      "player": "Antony",
+      "candidate_date": "2026-08-29",
+      "ticket_references": [
+        "T070",
+        "T074",
+        "T075",
+        "T077",
+        "T078",
+        "T079",
+        "T080"
+      ],
+      "source_page": 25,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F108",
+      "player": "Antony",
+      "candidate_date": "2026-08-25",
+      "ticket_references": [
+        "T101",
+        "T102"
+      ],
+      "source_page": 33,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F087",
+      "player": "Guilherme Augusto",
+      "candidate_date": "2026-08-29",
+      "ticket_references": [
+        "T061",
+        "T063",
+        "T064",
+        "T065",
+        "T066",
+        "T075"
+      ],
+      "source_page": 5,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F175",
+      "player": "Guilherme Augusto",
+      "candidate_date": "2026-08-16",
+      "ticket_references": [
+        "T151",
+        "T153",
+        "T154",
+        "T155",
+        "T156"
+      ],
+      "source_page": 23,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F037",
+      "player": "Joao Pedro",
+      "candidate_date": "2026-09-12",
+      "ticket_references": [
+        "T013",
+        "T014",
+        "T015",
+        "T016"
+      ],
+      "source_page": 9,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F076",
+      "player": "Joao Pedro",
+      "candidate_date": "2026-08-30",
+      "ticket_references": [
+        "T056",
+        "T057",
+        "T058"
+      ],
+      "source_page": 19,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F113",
+      "player": "Joao Pedro",
+      "candidate_date": "2026-08-24",
+      "ticket_references": [
+        "T105",
+        "T111",
+        "T113"
+      ],
+      "source_page": 22,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F132",
+      "player": "Kristoffer Velde",
+      "candidate_date": "2026-08-22",
+      "ticket_references": [
+        "T122"
+      ],
+      "source_page": 11,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F011",
+      "player": "Kristoffer Velde",
+      "candidate_date": "2026-09-20",
+      "ticket_references": [
+        "T005",
+        "T006",
+        "T009",
+        "T010",
+        "T012"
+      ],
+      "source_page": 29,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F089",
+      "player": "Kristoffer Velde",
+      "candidate_date": "2026-08-29",
+      "ticket_references": [
+        "T064",
+        "T065",
+        "T066"
+      ],
+      "source_page": 29,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F158",
+      "player": "Kristoffer Velde",
+      "candidate_date": "2026-08-19",
+      "ticket_references": [
+        "T138",
+        "T139",
+        "T140",
+        "T141"
+      ],
+      "source_page": 30,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F170",
+      "player": "Kristoffer Velde",
+      "candidate_date": "2026-08-16",
+      "ticket_references": [
+        "T147"
+      ],
+      "source_page": 9,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F222",
+      "player": "Lionel Messi",
+      "candidate_date": "2026-07-15",
+      "ticket_references": [
+        "T302"
+      ],
+      "source_page": 10,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F137",
+      "player": "Lionel Messi",
+      "candidate_date": "2026-08-22",
+      "ticket_references": [
+        "T136"
+      ],
+      "source_page": 23,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F179",
+      "player": "Lionel Messi",
+      "candidate_date": "2026-08-15",
+      "ticket_references": [
+        "T151",
+        "T152",
+        "T153",
+        "T157"
+      ],
+      "source_page": 26,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F036",
+      "player": "Omar Marmoush",
+      "candidate_date": "2026-09-12",
+      "ticket_references": [
+        "T013"
+      ],
+      "source_page": 14,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F055",
+      "player": "Omar Marmoush",
+      "candidate_date": "2026-09-05",
+      "ticket_references": [
+        "T019",
+        "T021",
+        "T022",
+        "T023",
+        "T024",
+        "T025"
+      ],
+      "source_page": 27,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F166",
+      "player": "Pep Biel",
+      "candidate_date": "2026-08-19",
+      "ticket_references": [
+        "T141"
+      ],
+      "source_page": 7,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F134",
+      "player": "Pep Biel",
+      "candidate_date": "2026-08-22",
+      "ticket_references": [
+        "T136"
+      ],
+      "source_page": 19,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F180",
+      "player": "Pep Biel",
+      "candidate_date": "2026-08-15",
+      "ticket_references": [
+        "T153",
+        "T154",
+        "T155",
+        "T156"
+      ],
+      "source_page": 19,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F026",
+      "player": "Petar Musa",
+      "candidate_date": "2026-09-19",
+      "ticket_references": [
+        "T010",
+        "T012"
+      ],
+      "source_page": 5,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F160",
+      "player": "Petar Musa",
+      "candidate_date": "2026-08-19",
+      "ticket_references": [
+        "T137",
+        "T138",
+        "T139",
+        "T140",
+        "T141"
+      ],
+      "source_page": 30,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F171",
+      "player": "Petar Musa",
+      "candidate_date": "2026-08-16",
+      "ticket_references": [
+        "T142",
+        "T146",
+        "T147",
+        "T148",
+        "T150"
+      ],
+      "source_page": 16,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F130",
+      "player": "Rafael Navarro",
+      "candidate_date": "2026-08-22",
+      "ticket_references": [
+        "T118",
+        "T124",
+        "T125",
+        "T128",
+        "T129",
+        "T130"
+      ],
+      "source_page": 13,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F013",
+      "player": "Rafael Navarro",
+      "candidate_date": "2026-09-20",
+      "ticket_references": [
+        "T006",
+        "T009",
+        "T011"
+      ],
+      "source_page": 32,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F167",
+      "player": "Simon Becher",
+      "candidate_date": "2026-08-19",
+      "ticket_references": [
+        "T141"
+      ],
+      "source_page": 5,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F013",
+      "player": "Simon Becher",
+      "candidate_date": "2026-09-20",
+      "ticket_references": [
+        "T006",
+        "T009"
+      ],
+      "source_page": 32,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F079",
+      "player": "Simon Becher",
+      "candidate_date": "2026-08-30",
+      "ticket_references": [
+        "T056",
+        "T058"
+      ],
+      "source_page": 32,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F138",
+      "player": "Ademola Lookman",
+      "candidate_date": "2026-08-23",
+      "ticket_references": [
+        "T120"
+      ],
+      "source_page": 8,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F032",
+      "player": "Bradley Barcola",
+      "candidate_date": "2026-09-12",
+      "ticket_references": [
+        "T013",
+        "T014"
+      ],
+      "source_page": 11,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F096",
+      "player": "Cody Gakpo",
+      "candidate_date": "2026-08-29",
+      "ticket_references": [
+        "T074",
+        "T075",
+        "T077",
+        "T078",
+        "T079",
+        "T080"
+      ],
+      "source_page": 11,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F016",
+      "player": "Denis Bouanga",
+      "candidate_date": "2026-09-19",
+      "ticket_references": [
+        "T006",
+        "T010",
+        "T012"
+      ],
+      "source_page": 13,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F101",
+      "player": "Desire Doue",
+      "candidate_date": "2026-08-28",
+      "ticket_references": [
+        "T081"
+      ],
+      "source_page": 6,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F009",
+      "player": "Dominic Calvert-Lewin",
+      "candidate_date": "2026-09-20",
+      "ticket_references": [
+        "T002",
+        "T003"
+      ],
+      "source_page": 11,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F064",
+      "player": "Hakon Arnar Haraldsson",
+      "candidate_date": "2026-09-03",
+      "ticket_references": [
+        "T031"
+      ],
+      "source_page": 7,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F222",
+      "player": "Harry Kane",
+      "candidate_date": "2026-07-15",
+      "ticket_references": [
+        "T302"
+      ],
+      "source_page": 10,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F069",
+      "player": "Joshua Coburn",
+      "candidate_date": "2026-09-02",
+      "ticket_references": [
+        "T040",
+        "T043",
+        "T044"
+      ],
+      "source_page": 6,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F061",
+      "player": "Josue Vergara",
+      "candidate_date": "2026-09-03",
+      "ticket_references": [
+        "T031",
+        "T033"
+      ],
+      "source_page": 5,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F146",
+      "player": "Luis Diaz",
+      "candidate_date": "2026-08-22",
+      "ticket_references": [
+        "T127",
+        "T134"
+      ],
+      "source_page": 8,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F130",
+      "player": "Marcus Ingvartsen",
+      "candidate_date": "2026-08-22",
+      "ticket_references": [
+        "T118",
+        "T124",
+        "T125",
+        "T128",
+        "T129",
+        "T130"
+      ],
+      "source_page": 13,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F038",
+      "player": "Nicolas Jackson",
+      "candidate_date": "2026-09-12",
+      "ticket_references": [
+        "T013"
+      ],
+      "source_page": 4,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F064",
+      "player": "Olivier Giroud",
+      "candidate_date": "2026-09-03",
+      "ticket_references": [
+        "T033"
+      ],
+      "source_page": 7,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F170",
+      "player": "Philip Zinckernagel",
+      "candidate_date": "2026-08-16",
+      "ticket_references": [
+        "T146"
+      ],
+      "source_page": 9,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F141",
+      "player": "Preston Judd",
+      "candidate_date": "2026-08-22",
+      "ticket_references": [
+        "T122",
+        "T123",
+        "T131",
+        "T132",
+        "T133",
+        "T135"
+      ],
+      "source_page": 13,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F145",
+      "player": "Rasmus Hojlund",
+      "candidate_date": "2026-08-22",
+      "ticket_references": [
+        "T127",
+        "T134"
+      ],
+      "source_page": 10,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F169",
+      "player": "Ryan Gauld",
+      "candidate_date": "2026-08-16",
+      "ticket_references": [
+        "T142"
+      ],
+      "source_page": 13,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F176",
+      "player": "Timo Werner",
+      "candidate_date": "2026-08-15",
+      "ticket_references": [
+        "T151",
+        "T153",
+        "T154",
+        "T155",
+        "T156"
+      ],
+      "source_page": 7,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    },
+    {
+      "fixture_id": "F068",
+      "player": "Will Lankshear",
+      "candidate_date": "2026-09-02",
+      "ticket_references": [
+        "T040",
+        "T043",
+        "T044"
+      ],
+      "source_page": 4,
+      "report_references_match_saved_selections": true,
+      "missing_ticket_references": [],
+      "dated_match_link": "unverified",
+      "required_evidence": [
+        "dated original ticket/leg record",
+        "provider fixture ID",
+        "verified original selected player identity"
+      ]
+    }
+  ]
+}

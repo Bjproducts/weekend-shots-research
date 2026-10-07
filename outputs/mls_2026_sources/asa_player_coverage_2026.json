@@ -1,0 +1,242 @@
+{
+  "source": "American Soccer Analysis",
+  "cutoff_date_utc": "2026-09-27",
+  "cutoff_utc": "2026-09-27T12:03:26+00:00",
+  "completed_games": 401,
+  "raw_appearance_rows": 12361,
+  "unique_appearance_keys": 12361,
+  "duplicate_keys": 0,
+  "covered_game_ids": 401,
+  "unmatched_game_ids": [],
+  "missing_game_ids": [],
+  "zero_shot_rows": 6788,
+  "starter_status": "not supplied; unknown",
+  "minutes_semantics": "ASA expanded/stoppage-inclusive; not harmonized with prior nominal-minute rules",
+  "not_eligible_for_exact_ab_replay_yet": true,
+  "files": [
+    {
+      "file": "asa_players_2026-02-21_2026-02-27_0.json",
+      "records": 461,
+      "start": "2026-02-21",
+      "end": "2026-02-27",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-02-28_2026-03-06_0.json",
+      "records": 464,
+      "start": "2026-02-28",
+      "end": "2026-03-06",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-03-07_2026-03-13_0.json",
+      "records": 427,
+      "start": "2026-03-07",
+      "end": "2026-03-13",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-03-14_2026-03-20_0.json",
+      "records": 463,
+      "start": "2026-03-14",
+      "end": "2026-03-20",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-03-21_2026-03-27_0.json",
+      "records": 458,
+      "start": "2026-03-21",
+      "end": "2026-03-27",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-03-28_2026-04-03_0.json",
+      "records": 0,
+      "start": "2026-03-28",
+      "end": "2026-04-03",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-04-04_2026-04-10_0.json",
+      "records": 465,
+      "start": "2026-04-04",
+      "end": "2026-04-10",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-04-11_2026-04-17_0.json",
+      "records": 433,
+      "start": "2026-04-11",
+      "end": "2026-04-17",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-04-18_2026-04-24_0.json",
+      "records": 788,
+      "start": "2026-04-18",
+      "end": "2026-04-24",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-04-25_2026-05-01_0.json",
+      "records": 465,
+      "start": "2026-04-25",
+      "end": "2026-05-01",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-05-02_2026-05-08_0.json",
+      "records": 459,
+      "start": "2026-05-02",
+      "end": "2026-05-08",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-05-09_2026-05-15_0.json",
+      "records": 890,
+      "start": "2026-05-09",
+      "end": "2026-05-15",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-05-16_2026-05-22_0.json",
+      "records": 460,
+      "start": "2026-05-16",
+      "end": "2026-05-22",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-05-23_2026-05-29_0.json",
+      "records": 464,
+      "start": "2026-05-23",
+      "end": "2026-05-29",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-05-30_2026-06-05_0.json",
+      "records": 0,
+      "start": "2026-05-30",
+      "end": "2026-06-05",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-06-06_2026-06-12_0.json",
+      "records": 0,
+      "start": "2026-06-06",
+      "end": "2026-06-12",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-06-13_2026-06-19_0.json",
+      "records": 0,
+      "start": "2026-06-13",
+      "end": "2026-06-19",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-06-20_2026-06-26_0.json",
+      "records": 0,
+      "start": "2026-06-20",
+      "end": "2026-06-26",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-06-27_2026-07-03_0.json",
+      "records": 0,
+      "start": "2026-06-27",
+      "end": "2026-07-03",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-07-04_2026-07-10_0.json",
+      "records": 0,
+      "start": "2026-07-04",
+      "end": "2026-07-10",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-07-11_2026-07-17_0.json",
+      "records": 93,
+      "start": "2026-07-11",
+      "end": "2026-07-17",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-07-18_2026-07-24_0.json",
+      "records": 530,
+      "start": "2026-07-18",
+      "end": "2026-07-24",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-07-25_2026-07-31_0.json",
+      "records": 497,
+      "start": "2026-07-25",
+      "end": "2026-07-31",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-08-01_2026-08-07_0.json",
+      "records": 427,
+      "start": "2026-08-01",
+      "end": "2026-08-07",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-08-08_2026-08-14_0.json",
+      "records": 32,
+      "start": "2026-08-08",
+      "end": "2026-08-14",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-08-15_2026-08-21_0.json",
+      "records": 928,
+      "start": "2026-08-15",
+      "end": "2026-08-21",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-08-22_2026-08-28_0.json",
+      "records": 475,
+      "start": "2026-08-22",
+      "end": "2026-08-28",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-08-29_2026-09-04_0.json",
+      "records": 486,
+      "start": "2026-08-29",
+      "end": "2026-09-04",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-09-05_2026-09-11_0.json",
+      "records": 838,
+      "start": "2026-09-05",
+      "end": "2026-09-11",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-09-12_2026-09-18_0.json",
+      "records": 496,
+      "start": "2026-09-12",
+      "end": "2026-09-18",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-09-19_2026-09-25_0.json",
+      "records": 468,
+      "start": "2026-09-19",
+      "end": "2026-09-25",
+      "offset": 0
+    },
+    {
+      "file": "asa_players_2026-09-26_2026-09-27_0.json",
+      "records": 394,
+      "start": "2026-09-26",
+      "end": "2026-09-27",
+      "offset": 0
+    }
+  ]
+}

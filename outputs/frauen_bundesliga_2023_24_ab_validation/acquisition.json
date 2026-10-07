@@ -1,0 +1,10 @@
+{
+  "source": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/",
+  "competition": 135,
+  "season": 281,
+  "matches": 132,
+  "teams": 12,
+  "player_appearances": 4056,
+  "normalized_sha256": "9a1ef3ca2a09770012f20cb26c895b601118b7bf900b2b2e2a136b8b112372aa",
+  "retrieved_at_utc": "2026-09-28T20:53:15.866374+00:00"
+}

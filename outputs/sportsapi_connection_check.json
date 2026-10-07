@@ -1,0 +1,14 @@
+{
+  "provider": "SportsAPI Pro",
+  "configured": true,
+  "calls_per_minute": 10,
+  "status": "accessible",
+  "season": {
+    "id": 63516,
+    "name": "Bundesliga 24/25",
+    "year": "24/25",
+    "tournamentId": 35
+  },
+  "quota_limit": 100,
+  "quota_remaining": 99
+}

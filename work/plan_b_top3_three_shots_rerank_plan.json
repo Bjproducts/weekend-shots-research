@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-03T16:20:00Z",
+  "classification": "retrospective 3+ ranking refinement on already inspected backtests; not independent validation",
+  "source_runs": [
+    "big5_2023_ranked_candidate_validation",
+    "big5_2024_ranked_candidate_validation"
+  ],
+  "unchanged_gate": "Existing frozen Plan B candidate and ranked-environment qualification, with the recorded historical starting XI treated as confirmed.",
+  "selection_frequency": "Retain at most three Plan B candidates within each historical weekend.",
+  "ranking": [
+    "3+ shot hits across the previous five starts descending",
+    "average player share of team shots across those starts descending",
+    "average player shots across those starts descending",
+    "average minutes across those starts descending",
+    "environment rank ascending",
+    "player id ascending"
+  ],
+  "target": "Player records at least three total shots in the target match.",
+  "assumed_decimal_odds_per_selection": 1.4,
+  "stake": 10,
+  "decision_policy": "The ordering above is frozen before computing the reranked target outcomes. Do not add a newly observed threshold or remove misses.",
+  "limits": [
+    "The underlying match outcomes were previously inspected for other analyses, so this is refinement evidence rather than untouched validation.",
+    "Historical starting lineups are treated as known before kickoff.",
+    "Fixed odds are hypothetical and historical availability is not established.",
+    "Same-match and same-weekend selections are correlated.",
+    "A separate unused or prospective sample is required before promoting this 3+ ranking."
+  ]
+}

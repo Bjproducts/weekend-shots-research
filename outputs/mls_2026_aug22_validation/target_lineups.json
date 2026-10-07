@@ -1,0 +1,12 @@
+{
+  "retrieved_on": "2026-09-28",
+  "method": "Public Flashscore Starting Lineups section read through browser",
+  "scope": "Home starting XIs only for the three environments passing frozen team gates",
+  "identity_mapping": "Not yet reconciled with original provider player IDs; do not merge on abbreviated names alone",
+  "fixtures": [
+    {"home":"Charlotte FC","away":"D.C. United","date_local":"2026-08-22","flashscore_id":"bgmSY65c","source_url":"https://www.flashscore.com/match/football/charlotte-fc-QJF7WTFB/dc-united-O6hjfSXE/summary/lineups/?mid=bgmSY65c","starters":["Kahlina K.","Cleary W.","Agyemang M.","Kessler H.","Schnegg D.","Westwood A.","de la Torre L.","Aloko R.","Biel P.","Saint-Maximin A.","Toklomati I."]},
+    {"home":"Inter Miami CF","away":"Toronto FC","date_local":"2026-08-22","flashscore_id":"nX63kS25","source_url":"https://www.flashscore.com/match/football/inter-miami-0AheRyBg/toronto-fc-zsdfgnmL/summary/lineups/?mid=nX63kS25","starters":["St.Clair D.","Fray I.","Lujan G.","Falcon M.","Reguilon S.","de Paul R.","Casemiro","Segovia T.","Messi L.","Suarez L.","Berterame G."]},
+    {"home":"Atlanta United FC","away":"Sporting Kansas City","date_local":"2026-08-23","flashscore_id":"6ajhd13L","source_url":"https://www.flashscore.com/match/football/atlanta-united-EPngUvhk/sporting-kansas-city-CURGfJWt/summary/lineups/?mid=6ajhd13L","starters":["Hoyos L.","Jacob T.","Diaz P.","Alonso J.","Baez E.","Sanchez C.","Gill A.","Muyumba T.","Miranchuk Al.","Picault F.","Almiron M."]}
+  ],
+  "historical_coverage_check": "Flashscore MLS results page displayed 15 fixtures on August 22-23, matching the archived ASA weekend fixture count and named pairings. Does not independently certify earlier season completeness."
+}

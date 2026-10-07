@@ -1,0 +1,6143 @@
+{
+  "source": "shots_and_shots_on_target_report.pdf",
+  "capture_date": "2026-09-23",
+  "unit": "Displayed player / report fixture pairing; distinct dated match not verified",
+  "method": "Assessed Shots / 2+ only; unique fixture_id + player; void-only and unknown excluded",
+  "observations": [
+    {
+      "fixture_id": "F001",
+      "pairing": "Deportivo A Coruna v Real Betis",
+      "displayed_score": "1-1",
+      "player": "Facundo Bernal",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 0,
+      "result": "MISS",
+      "tickets": [
+        "T001",
+        "T002",
+        "T003",
+        "T004"
+      ],
+      "original_player": "Antony",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 5,
+      "headroom": -2,
+      "replacement_status": "Explicit Sub for note",
+      "failure_category": "Replacement noted / zero shots",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "MISS",
+          "original_player": "Antony",
+          "source_page": 5,
+          "actual_market_statistic": 0
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F003",
+      "pairing": "Fulham v Man Utd",
+      "displayed_score": "1-1",
+      "player": "Bryan Mbeumo",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 5,
+      "result": "HIT",
+      "tickets": [
+        "T001",
+        "T002",
+        "T003",
+        "T004"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 22,
+      "headroom": 3,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 22,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F003",
+      "pairing": "Fulham v Man Utd",
+      "displayed_score": "1-1",
+      "player": "Gonzalo Garcia",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T002"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 22,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F003",
+      "pairing": "Fulham v Man Utd",
+      "displayed_score": "1-1",
+      "player": "Joshua King",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T001",
+        "T003",
+        "T004"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 22,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F005",
+      "pairing": "Bournemouth v Liverpool",
+      "displayed_score": "0-1",
+      "player": "Alexander Isak",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T002",
+        "T003",
+        "T004"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 17,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F005",
+      "pairing": "Bournemouth v Liverpool",
+      "displayed_score": "0-1",
+      "player": "Dominik Szoboszlai",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T002",
+        "T003"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 17,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 17,
+          "actual_market_statistic": 2
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F006",
+      "pairing": "Atletico Madrid v Real Madrid",
+      "displayed_score": "2-1",
+      "player": "Vinicius Jr.",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T002",
+        "T003",
+        "T004"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 8,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F008",
+      "pairing": "Frosinone v Como",
+      "displayed_score": "2-0",
+      "player": "Nicolas Paz",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 10,
+      "result": "HIT",
+      "tickets": [
+        "T002",
+        "T003",
+        "T004"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 21,
+      "headroom": 8,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F009",
+      "pairing": "Leeds v Crystal Palace",
+      "displayed_score": "0-0",
+      "player": "Dominic Calvert-Lewin",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T002",
+        "T003"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 11,
+      "headroom": -1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / one-shot near miss",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 11,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F010",
+      "pairing": "Nashville SC v Chicago Fire",
+      "displayed_score": "3-0",
+      "player": "Hany Mukhtar",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T005"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 26,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 26,
+          "actual_market_statistic": 4
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F010",
+      "pairing": "Nashville SC v Chicago Fire",
+      "displayed_score": "3-0",
+      "player": "Robert Lewandowski",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T005"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 26,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 26,
+          "actual_market_statistic": 3
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F010",
+      "pairing": "Nashville SC v Chicago Fire",
+      "displayed_score": "3-0",
+      "player": "Sam Surridge",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T009"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 26,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 26,
+          "actual_market_statistic": 2
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F011",
+      "pairing": "Portland Timbers v Atlanta Utd",
+      "displayed_score": "0-1",
+      "player": "Kristoffer Velde",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 9,
+      "result": "HIT",
+      "tickets": [
+        "T005",
+        "T006",
+        "T009",
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 29,
+      "headroom": 7,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 29,
+          "actual_market_statistic": 2
+        },
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 29,
+          "actual_market_statistic": 9
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F013",
+      "pairing": "St. Louis City SC v Toronto FC",
+      "displayed_score": "3-1",
+      "player": "Rafael Navarro",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T006",
+        "T009",
+        "T011"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 32,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F013",
+      "pairing": "St. Louis City SC v Toronto FC",
+      "displayed_score": "3-1",
+      "player": "Simon Becher",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T006",
+        "T009"
+      ],
+      "original_player": "",
+      "void_occurrences": 1,
+      "unknown_occurrences": 0,
+      "source_page": 32,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F014",
+      "pairing": "Kansas City v Philadelphia",
+      "displayed_score": "3-4",
+      "player": "Bruno Damiani",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T007",
+        "T009"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 24,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F014",
+      "pairing": "Kansas City v Philadelphia",
+      "displayed_score": "3-4",
+      "player": "Cavan Sullivan",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T006",
+        "T009",
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 24,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 24,
+          "actual_market_statistic": 2
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F014",
+      "pairing": "Kansas City v Philadelphia",
+      "displayed_score": "3-4",
+      "player": "Milan Iloski",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T006",
+        "T007",
+        "T008",
+        "T009",
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 24,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 24,
+          "actual_market_statistic": 2
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F015",
+      "pairing": "Houston Dynamo v FC Cincinnati",
+      "displayed_score": "2-2",
+      "player": "Evander Ferreira",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T006",
+        "T007",
+        "T008",
+        "T009",
+        "T010",
+        "T011",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 11,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "MISS",
+          "original_player": "",
+          "source_page": 11,
+          "actual_market_statistic": 0
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F015",
+      "pairing": "Houston Dynamo v FC Cincinnati",
+      "displayed_score": "2-2",
+      "player": "Mateusz Bogusz",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T006",
+        "T009",
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 11,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F016",
+      "pairing": "San Jose v LAFC",
+      "displayed_score": "2-2",
+      "player": "Heung-Min Son",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T006",
+        "T009",
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 13,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 13,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F016",
+      "pairing": "San Jose v LAFC",
+      "displayed_score": "2-2",
+      "player": "Jacob Shaffelburg",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T006",
+        "T010",
+        "T012"
+      ],
+      "original_player": "Denis Bouanga",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 13,
+      "headroom": -1,
+      "replacement_status": "Explicit Sub for note",
+      "failure_category": "Replacement noted / one-shot near miss",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F017",
+      "pairing": "DC United v Charlotte FC",
+      "displayed_score": "1-2",
+      "player": "Louis Munteanu",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 9,
+      "result": "HIT",
+      "tickets": [
+        "T006"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 9,
+      "headroom": 7,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 9,
+          "actual_market_statistic": 9
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F018",
+      "pairing": "CF Montreal v Columbus Crew",
+      "displayed_score": "0-2",
+      "player": "Prince Osei Owusu",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 5,
+      "result": "HIT",
+      "tickets": [
+        "T006",
+        "T009",
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 18,
+      "headroom": 3,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 18,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F019",
+      "pairing": "Lyon v Rennes",
+      "displayed_score": "4-0",
+      "player": "Esteban Lepaul",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T006",
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 2,
+      "unknown_occurrences": 0,
+      "source_page": 25,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F019",
+      "pairing": "Lyon v Rennes",
+      "displayed_score": "4-0",
+      "player": "Lois Openda",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T006",
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 25,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F020",
+      "pairing": "VfB Stuttgart v Borussia Dortmund",
+      "displayed_score": "0-1",
+      "player": "Serhou Guirassy",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T006",
+        "T009",
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 33,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F021",
+      "pairing": "Roma v Inter Milan",
+      "displayed_score": "2-2",
+      "player": "Lautaro Martinez",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 6,
+      "result": "HIT",
+      "tickets": [
+        "T006",
+        "T009",
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 31,
+      "headroom": 4,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F021",
+      "pairing": "Roma v Inter Milan",
+      "displayed_score": "2-2",
+      "player": "Marcus Thuram",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T006"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 31,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F023",
+      "pairing": "Athletic Club v CD Alaves",
+      "displayed_score": "0-0",
+      "player": "Oihan Sancet",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T006",
+        "T009",
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 16,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F024",
+      "pairing": "Brighton v Arsenal",
+      "displayed_score": "3-0",
+      "player": "Bukayo Saka",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T006",
+        "T009",
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 18,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F026",
+      "pairing": "FC Dallas v Austin FC",
+      "displayed_score": "0-0",
+      "player": "Petar Musa",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 5,
+      "headroom": -1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / one-shot near miss",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "MISS",
+          "original_player": "",
+          "source_page": 5,
+          "actual_market_statistic": 0
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F028",
+      "pairing": "Borussia M'gladbach v Mainz",
+      "displayed_score": "3-4",
+      "player": "Phillip Tietz",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 17,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F029",
+      "pairing": "Trabzonspor v Galatasaray",
+      "displayed_score": "4-0",
+      "player": "Mohamed Salah",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 32,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F031",
+      "pairing": "Borussia Dortmund v Paderborn",
+      "displayed_score": "3-0",
+      "player": "Serhou Guirassy",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T013",
+        "T014",
+        "T015",
+        "T016"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 17,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 17,
+          "actual_market_statistic": 3
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F032",
+      "pairing": "Liverpool v Fulham",
+      "displayed_score": "0-0",
+      "player": "Alexander Isak",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T013",
+        "T014",
+        "T015",
+        "T016"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 11,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F032",
+      "pairing": "Liverpool v Fulham",
+      "displayed_score": "0-0",
+      "player": "Florian Wirtz",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T015",
+        "T016"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 11,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F032",
+      "pairing": "Liverpool v Fulham",
+      "displayed_score": "0-0",
+      "player": "Rio Ngumoha",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T013",
+        "T014"
+      ],
+      "original_player": "Bradley Barcola",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 11,
+      "headroom": -1,
+      "replacement_status": "Explicit Sub for note",
+      "failure_category": "Replacement noted / one-shot near miss",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F034",
+      "pairing": "SC Freiburg v Borussia M'gladbach",
+      "displayed_score": "5-0",
+      "player": "Igor Matanovic",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T013",
+        "T014",
+        "T015",
+        "T016"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 32,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F035",
+      "pairing": "Sunderland v Arsenal",
+      "displayed_score": "0-2",
+      "player": "Bukayo Saka",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T013",
+        "T014",
+        "T015",
+        "T016"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 13,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 13,
+          "actual_market_statistic": 3
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F036",
+      "pairing": "Tottenham v Everton",
+      "displayed_score": "0-0",
+      "player": "James Maddison",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T013"
+      ],
+      "original_player": "Omar Marmoush",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 14,
+      "headroom": -1,
+      "replacement_status": "Explicit Sub for note",
+      "failure_category": "Replacement noted / one-shot near miss",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F037",
+      "pairing": "Chelsea v Hull",
+      "displayed_score": "2-2",
+      "player": "Cole Palmer",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T016"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 9,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "MISS",
+          "original_player": "",
+          "source_page": 9,
+          "actual_market_statistic": 0
+        },
+        {
+          "market": "Shots",
+          "line": "3+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 9,
+          "actual_market_statistic": 3
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F037",
+      "pairing": "Chelsea v Hull",
+      "displayed_score": "2-2",
+      "player": "Joao Pedro",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T013",
+        "T014",
+        "T015",
+        "T016"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 9,
+      "headroom": -1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / one-shot near miss",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 9,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F037",
+      "pairing": "Chelsea v Hull",
+      "displayed_score": "2-2",
+      "player": "Morgan Rogers",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T013",
+        "T014",
+        "T015"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 9,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 9,
+          "actual_market_statistic": 2
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F038",
+      "pairing": "Aston Villa v Nottm Forest",
+      "displayed_score": "1-2",
+      "player": "Tammy Abraham",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 0,
+      "result": "MISS",
+      "tickets": [
+        "T013"
+      ],
+      "original_player": "Nicolas Jackson",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 4,
+      "headroom": -2,
+      "replacement_status": "Explicit Sub for note",
+      "failure_category": "Replacement noted / zero shots",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F039",
+      "pairing": "Philadelphia v CF Montreal",
+      "displayed_score": "2-0",
+      "player": "Milan Iloski",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T018",
+        "T019",
+        "T020",
+        "T021",
+        "T022",
+        "T023",
+        "T024",
+        "T025"
+      ],
+      "original_player": "",
+      "void_occurrences": 4,
+      "unknown_occurrences": 2,
+      "source_page": 29,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 29,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F041",
+      "pairing": "Toronto FC v Chicago Fire",
+      "displayed_score": "4-4",
+      "player": "Robert Lewandowski",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T018",
+        "T020"
+      ],
+      "original_player": "",
+      "void_occurrences": 1,
+      "unknown_occurrences": 0,
+      "source_page": 32,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F043",
+      "pairing": "Orlando City v San Diego FC",
+      "displayed_score": "1-0",
+      "player": "Antoine Griezmann",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T018",
+        "T020"
+      ],
+      "original_player": "",
+      "void_occurrences": 1,
+      "unknown_occurrences": 0,
+      "source_page": 28,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F044",
+      "pairing": "Real Salt Lake v LAFC",
+      "displayed_score": "2-2",
+      "player": "Heung-Min Son",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T018",
+        "T020"
+      ],
+      "original_player": "",
+      "void_occurrences": 1,
+      "unknown_occurrences": 0,
+      "source_page": 30,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F046",
+      "pairing": "Brentford v Sunderland",
+      "displayed_score": "1-1",
+      "player": "Igor Thiago",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T019",
+        "T021",
+        "T022",
+        "T023",
+        "T024",
+        "T025"
+      ],
+      "original_player": "",
+      "void_occurrences": 3,
+      "unknown_occurrences": 2,
+      "source_page": 18,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F047",
+      "pairing": "Fulham v Crystal Palace",
+      "displayed_score": "2-3",
+      "player": "Gonzalo Garcia",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 5,
+      "result": "HIT",
+      "tickets": [
+        "T019",
+        "T021",
+        "T022",
+        "T023",
+        "T024",
+        "T025"
+      ],
+      "original_player": "",
+      "void_occurrences": 3,
+      "unknown_occurrences": 2,
+      "source_page": 22,
+      "headroom": 3,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F049",
+      "pairing": "Athletic Club v Atletico Madrid",
+      "displayed_score": "3-0",
+      "player": "Oihan Sancet",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T019",
+        "T022",
+        "T024",
+        "T025"
+      ],
+      "original_player": "",
+      "void_occurrences": 3,
+      "unknown_occurrences": 0,
+      "source_page": 16,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F050",
+      "pairing": "Villarreal v Deportivo A Coruna",
+      "displayed_score": "2-3",
+      "player": "Nicolas Pepe",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 5,
+      "result": "HIT",
+      "tickets": [
+        "T019",
+        "T021",
+        "T022",
+        "T023",
+        "T024",
+        "T025"
+      ],
+      "original_player": "",
+      "void_occurrences": 3,
+      "unknown_occurrences": 2,
+      "source_page": 34,
+      "headroom": 3,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F052",
+      "pairing": "Werder Bremen v RB Leipzig",
+      "displayed_score": "3-1",
+      "player": "Antonio Nusa",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T019",
+        "T021",
+        "T022",
+        "T023",
+        "T024",
+        "T025"
+      ],
+      "original_player": "",
+      "void_occurrences": 3,
+      "unknown_occurrences": 2,
+      "source_page": 34,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "VOID",
+          "original_player": "",
+          "source_page": 34,
+          "actual_market_statistic": null
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F053",
+      "pairing": "TSG Hoffenheim v Borussia Dortmund",
+      "displayed_score": "2-3",
+      "player": "Serhou Guirassy",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 5,
+      "result": "HIT",
+      "tickets": [
+        "T019",
+        "T021",
+        "T022",
+        "T023",
+        "T024",
+        "T025"
+      ],
+      "original_player": "",
+      "void_occurrences": 3,
+      "unknown_occurrences": 2,
+      "source_page": 32,
+      "headroom": 3,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F054",
+      "pairing": "Borussia M'gladbach v Elversberg",
+      "displayed_score": "3-4",
+      "player": "Hugo Bolin",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 6,
+      "result": "HIT",
+      "tickets": [
+        "T019",
+        "T022"
+      ],
+      "original_player": "",
+      "void_occurrences": 1,
+      "unknown_occurrences": 0,
+      "source_page": 17,
+      "headroom": 4,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F055",
+      "pairing": "Nottm Forest v Tottenham",
+      "displayed_score": "0-0",
+      "player": "Omar Marmoush",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T019",
+        "T021",
+        "T022",
+        "T023",
+        "T024",
+        "T025"
+      ],
+      "original_player": "",
+      "void_occurrences": 3,
+      "unknown_occurrences": 2,
+      "source_page": 27,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F056",
+      "pairing": "Roma v Atalanta",
+      "displayed_score": "2-1",
+      "player": "Donyell Malen",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T019",
+        "T022"
+      ],
+      "original_player": "",
+      "void_occurrences": 1,
+      "unknown_occurrences": 0,
+      "source_page": 31,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 31,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F060",
+      "pairing": "FC Copenhagen v FC Nordsjaelland",
+      "displayed_score": "2-0",
+      "player": "Mohamed Elyounoussi",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T032"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 21,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 21,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F061",
+      "pairing": "Gent v OH Leuven",
+      "displayed_score": "1-0",
+      "player": "Josue Vergara",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 0,
+      "result": "MISS",
+      "tickets": [
+        "T031",
+        "T033"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 5,
+      "headroom": -2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / zero shots",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "MISS",
+          "original_player": "",
+          "source_page": 5,
+          "actual_market_statistic": 0
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F062",
+      "pairing": "Hibernian v Hearts",
+      "displayed_score": "1-3",
+      "player": "Claudio Braga",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 5,
+      "result": "HIT",
+      "tickets": [
+        "T031",
+        "T033"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 22,
+      "headroom": 3,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F064",
+      "pairing": "Toulouse v Lille",
+      "displayed_score": "0-1",
+      "player": "Ayase Ueda",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 0,
+      "result": "MISS",
+      "tickets": [
+        "T033"
+      ],
+      "original_player": "Olivier Giroud",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 7,
+      "headroom": -2,
+      "replacement_status": "Explicit Sub for note",
+      "failure_category": "Replacement noted / zero shots",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "MISS",
+          "original_player": "Olivier Giroud",
+          "source_page": 7,
+          "actual_market_statistic": 0
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F064",
+      "pairing": "Toulouse v Lille",
+      "displayed_score": "0-1",
+      "player": "Hakon Arnar Haraldsson",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 0,
+      "result": "MISS",
+      "tickets": [
+        "T031"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 7,
+      "headroom": -2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / zero shots",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "MISS",
+          "original_player": "",
+          "source_page": 7,
+          "actual_market_statistic": 0
+        },
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "MISS",
+          "original_player": "",
+          "source_page": 7,
+          "actual_market_statistic": 0
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F067",
+      "pairing": "West Brom v Charlton",
+      "displayed_score": "1-1",
+      "player": "Isaac Price",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T040",
+        "T041",
+        "T042",
+        "T043",
+        "T044"
+      ],
+      "original_player": "",
+      "void_occurrences": 3,
+      "unknown_occurrences": 0,
+      "source_page": 34,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 34,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F068",
+      "pairing": "Burnley v Middlesbrough",
+      "displayed_score": "1-1",
+      "player": "Will Lankshear",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T040",
+        "T043",
+        "T044"
+      ],
+      "original_player": "",
+      "void_occurrences": 2,
+      "unknown_occurrences": 0,
+      "source_page": 4,
+      "headroom": -1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / one-shot near miss",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F069",
+      "pairing": "Millwall v Wrexham",
+      "displayed_score": "0-3",
+      "player": "Joshua Coburn",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 0,
+      "result": "MISS",
+      "tickets": [
+        "T040",
+        "T043",
+        "T044"
+      ],
+      "original_player": "",
+      "void_occurrences": 2,
+      "unknown_occurrences": 0,
+      "source_page": 6,
+      "headroom": -2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / zero shots",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F072",
+      "pairing": "Udinese v Venezia",
+      "displayed_score": "2-1",
+      "player": "Keinan Davis",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T045"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 33,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F074",
+      "pairing": "Osasuna v Getafe",
+      "displayed_score": "1-0",
+      "player": "Ante Budimir",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T047",
+        "T048",
+        "T049"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 6,
+      "headroom": -1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / one-shot near miss",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F075",
+      "pairing": "Amed SK v Trabzonspor",
+      "displayed_score": "2-1",
+      "player": "Mohamed Salah",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T047",
+        "T048",
+        "T049"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 15,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F076",
+      "pairing": "Chelsea v Brighton",
+      "displayed_score": "4-3",
+      "player": "Cole Palmer",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T056",
+        "T057",
+        "T058"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 19,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F076",
+      "pairing": "Chelsea v Brighton",
+      "displayed_score": "4-3",
+      "player": "Joao Pedro",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 5,
+      "result": "HIT",
+      "tickets": [
+        "T056",
+        "T057",
+        "T058"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 19,
+      "headroom": 3,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F078",
+      "pairing": "Samsunspor v Fenerbahce",
+      "displayed_score": "0-2",
+      "player": "Mason Greenwood",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T056",
+        "T058"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 31,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F079",
+      "pairing": "St. Louis City SC v FC Dallas",
+      "displayed_score": "3-3",
+      "player": "Simon Becher",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T056",
+        "T058"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 32,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F080",
+      "pairing": "Columbus Crew v New England",
+      "displayed_score": "1-3",
+      "player": "Carles Gil",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T056",
+        "T058"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 20,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F082",
+      "pairing": "Man Utd v Ipswich",
+      "displayed_score": "5-2",
+      "player": "Matheus Cunha",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T057"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 25,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 25,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F084",
+      "pairing": "Minnesota Utd v Orlando City",
+      "displayed_score": "3-3",
+      "player": "Antoine Griezmann",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T061",
+        "T063",
+        "T064",
+        "T065",
+        "T078",
+        "T080"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 26,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 26,
+          "actual_market_statistic": 2
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F085",
+      "pairing": "Nashville SC v FC Cincinnati",
+      "displayed_score": "4-0",
+      "player": "Evander Ferreira",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 5,
+      "result": "HIT",
+      "tickets": [
+        "T061",
+        "T063",
+        "T064",
+        "T065",
+        "T066",
+        "T075",
+        "T077",
+        "T078",
+        "T080"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 26,
+      "headroom": 3,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 26,
+          "actual_market_statistic": 3
+        },
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 26,
+          "actual_market_statistic": 5
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F086",
+      "pairing": "DC United v LAFC",
+      "displayed_score": "0-0",
+      "player": "Louis Munteanu",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T061",
+        "T063",
+        "T064",
+        "T065",
+        "T066"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 10,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F087",
+      "pairing": "Houston Dynamo v San Jose",
+      "displayed_score": "0-0",
+      "player": "Guilherme Augusto",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T061",
+        "T063",
+        "T064",
+        "T065",
+        "T066",
+        "T075"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 5,
+      "headroom": -1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / one-shot near miss",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F088",
+      "pairing": "Kansas City v Vancouver Whitecaps",
+      "displayed_score": "0-3",
+      "player": "Brian White",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T061",
+        "T063",
+        "T064",
+        "T065",
+        "T066"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 24,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F089",
+      "pairing": "Portland Timbers v Austin FC",
+      "displayed_score": "1-2",
+      "player": "Kristoffer Velde",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T064",
+        "T065",
+        "T066"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 29,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 29,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F090",
+      "pairing": "NY Red Bulls v Philadelphia",
+      "displayed_score": "1-3",
+      "player": "Cavan Sullivan",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T061",
+        "T075"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 28,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 28,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F090",
+      "pairing": "NY Red Bulls v Philadelphia",
+      "displayed_score": "1-3",
+      "player": "Milan Iloski",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 7,
+      "result": "HIT",
+      "tickets": [
+        "T061",
+        "T063",
+        "T064",
+        "T065",
+        "T066",
+        "T075",
+        "T077",
+        "T078",
+        "T080"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 28,
+      "headroom": 5,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 28,
+          "actual_market_statistic": 3
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F093",
+      "pairing": "Levante v Real Betis",
+      "displayed_score": "5-2",
+      "player": "Antony",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 6,
+      "result": "HIT",
+      "tickets": [
+        "T070",
+        "T074",
+        "T075",
+        "T077",
+        "T078",
+        "T079",
+        "T080"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 25,
+      "headroom": 4,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F094",
+      "pairing": "Elversberg v Bayer Leverkusen",
+      "displayed_score": "3-2",
+      "player": "Patrik Schick",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 5,
+      "result": "HIT",
+      "tickets": [
+        "T070",
+        "T074",
+        "T079"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 20,
+      "headroom": 3,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F096",
+      "pairing": "Liverpool v Nottm Forest",
+      "displayed_score": "2-2",
+      "player": "Rio Ngumoha",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 0,
+      "result": "MISS",
+      "tickets": [
+        "T074",
+        "T075",
+        "T077",
+        "T078",
+        "T079",
+        "T080"
+      ],
+      "original_player": "Cody Gakpo",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 11,
+      "headroom": -2,
+      "replacement_status": "Explicit Sub for note",
+      "failure_category": "Replacement noted / zero shots",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F101",
+      "pairing": "Lille v PSG",
+      "displayed_score": "2-2",
+      "player": "Khvicha Kvaratskhelia",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T081"
+      ],
+      "original_player": "Desire Doue",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 6,
+      "headroom": -1,
+      "replacement_status": "Explicit Sub for note",
+      "failure_category": "Replacement noted / one-shot near miss",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F103",
+      "pairing": "Barcelona v Athletic Club",
+      "displayed_score": "2-0",
+      "player": "Raphinha",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T087"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 16,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 16,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F106",
+      "pairing": "Lyon v Fenerbahce",
+      "displayed_score": "1-2",
+      "player": "Conceicao Talisca",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T095",
+        "T098",
+        "T099",
+        "T100"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 12,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F106",
+      "pairing": "Lyon v Fenerbahce",
+      "displayed_score": "1-2",
+      "player": "Corentin Tolisso",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T095",
+        "T098"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 12,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "MISS",
+          "original_player": "",
+          "source_page": 12,
+          "actual_market_statistic": 0
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F106",
+      "pairing": "Lyon v Fenerbahce",
+      "displayed_score": "1-2",
+      "player": "Lois Openda",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T099",
+        "T100"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 12,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F108",
+      "pairing": "Valencia v Real Betis",
+      "displayed_score": "0-1",
+      "player": "Antony",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T101",
+        "T102"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 33,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F113",
+      "pairing": "Fulham v Chelsea",
+      "displayed_score": "2-3",
+      "player": "Joao Pedro",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T105",
+        "T111",
+        "T113"
+      ],
+      "original_player": "",
+      "void_occurrences": 2,
+      "unknown_occurrences": 0,
+      "source_page": 22,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 22,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F114",
+      "pairing": "Osasuna v Levante",
+      "displayed_score": "0-0",
+      "player": "Ante Budimir",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T109"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 28,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F117",
+      "pairing": "Al Ittihad Jeddah v Al Hazm",
+      "displayed_score": "3-2",
+      "player": "Youssef En Nesyri",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T109"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 15,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F118",
+      "pairing": "Neom SC v Al Qadisiya Al Khubar",
+      "displayed_score": "0-2",
+      "player": "Tijjani Reijnders",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T109"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 12,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 12,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F120",
+      "pairing": "Atlanta Utd v Kansas City",
+      "displayed_score": "2-1",
+      "player": "Miguel Almiron",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T116"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 16,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F121",
+      "pairing": "Elche v Barcelona",
+      "displayed_score": "0-5",
+      "player": "Lamine Yamal",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T116"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 38,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F122",
+      "pairing": "Rennes v PSG",
+      "displayed_score": "2-2",
+      "player": "Ousmane Dembele",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T116"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 12,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F123",
+      "pairing": "Alanyaspor v Besiktas",
+      "displayed_score": "1-0",
+      "player": "Vaclav Cerny",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T116"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 15,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F130",
+      "pairing": "San Diego FC v Colorado Rapids",
+      "displayed_score": "3-0",
+      "player": "Marcus Ingvartsen",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 0,
+      "result": "MISS",
+      "tickets": [
+        "T118",
+        "T124",
+        "T125",
+        "T128",
+        "T129",
+        "T130"
+      ],
+      "original_player": "",
+      "void_occurrences": 5,
+      "unknown_occurrences": 0,
+      "source_page": 13,
+      "headroom": -2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / zero shots",
+      "other_reported_markets": [
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "VOID",
+          "original_player": "",
+          "source_page": 13,
+          "actual_market_statistic": null
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F130",
+      "pairing": "San Diego FC v Colorado Rapids",
+      "displayed_score": "3-0",
+      "player": "Rafael Navarro",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T118",
+        "T124",
+        "T125",
+        "T128",
+        "T129",
+        "T130"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 13,
+      "headroom": -1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / one-shot near miss",
+      "other_reported_markets": [
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 13,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F131",
+      "pairing": "CF Montreal v LA Galaxy",
+      "displayed_score": "2-2",
+      "player": "Prince Osei Owusu",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T118",
+        "T119",
+        "T124",
+        "T125",
+        "T128",
+        "T129",
+        "T130",
+        "T131",
+        "T132",
+        "T133",
+        "T135",
+        "T136"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 18,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 18,
+          "actual_market_statistic": 2
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F132",
+      "pairing": "LAFC v Portland Timbers",
+      "displayed_score": "1-1",
+      "player": "Heung-Min Son",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 9,
+      "result": "HIT",
+      "tickets": [
+        "T118",
+        "T124",
+        "T125",
+        "T128",
+        "T129",
+        "T130",
+        "T131",
+        "T132",
+        "T133",
+        "T135",
+        "T136"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 11,
+      "headroom": 7,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 11,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F132",
+      "pairing": "LAFC v Portland Timbers",
+      "displayed_score": "1-1",
+      "player": "Omir Fernandez",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T122"
+      ],
+      "original_player": "Kristoffer Velde",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 11,
+      "headroom": -1,
+      "replacement_status": "Explicit Sub for note",
+      "failure_category": "Replacement noted / one-shot near miss",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F133",
+      "pairing": "FC Cincinnati v Seattle Sounders",
+      "displayed_score": "1-1",
+      "player": "Evander Ferreira",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T118",
+        "T124",
+        "T125",
+        "T128",
+        "T129",
+        "T130",
+        "T131",
+        "T132",
+        "T133",
+        "T135",
+        "T136"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 21,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 21,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F134",
+      "pairing": "Charlotte FC v DC United",
+      "displayed_score": "3-1",
+      "player": "Pep Biel",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T136"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 19,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 19,
+          "actual_market_statistic": 1
+        },
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 19,
+          "actual_market_statistic": 2
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F135",
+      "pairing": "Orlando City v Real Salt Lake",
+      "displayed_score": "2-1",
+      "player": "Antoine Griezmann",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 5,
+      "result": "HIT",
+      "tickets": [
+        "T118",
+        "T124",
+        "T125",
+        "T128",
+        "T129",
+        "T130",
+        "T131",
+        "T132",
+        "T133",
+        "T135"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 28,
+      "headroom": 3,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 28,
+          "actual_market_statistic": 5
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F137",
+      "pairing": "Inter Miami v Toronto FC",
+      "displayed_score": "1-2",
+      "player": "Lionel Messi",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T136"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 23,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 23,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F138",
+      "pairing": "Atletico Madrid v Villarreal",
+      "displayed_score": "2-2",
+      "player": "Jose Maria Gimenez",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T120"
+      ],
+      "original_player": "Ademola Lookman",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 8,
+      "headroom": -1,
+      "replacement_status": "Explicit Sub for note",
+      "failure_category": "Replacement noted / one-shot near miss",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F141",
+      "pairing": "San Jose v Minnesota Utd",
+      "displayed_score": "1-5",
+      "player": "Preston Judd",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T122",
+        "T123",
+        "T131",
+        "T132",
+        "T133",
+        "T135"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 13,
+      "headroom": -1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / one-shot near miss",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 13,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F142",
+      "pairing": "Austin FC v Philadelphia",
+      "displayed_score": "1-1",
+      "player": "Milan Iloski",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T131",
+        "T132",
+        "T133",
+        "T135"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 16,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 16,
+          "actual_market_statistic": 2
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F144",
+      "pairing": "Udinese v Como",
+      "displayed_score": "1-1",
+      "player": "Nicolas Paz",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T127",
+        "T134"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 33,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 33,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F145",
+      "pairing": "Genoa v Napoli",
+      "displayed_score": "0-2",
+      "player": "Lorenzo Lucca",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 0,
+      "result": "MISS",
+      "tickets": [
+        "T127",
+        "T134"
+      ],
+      "original_player": "Rasmus Hojlund",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 10,
+      "headroom": -2,
+      "replacement_status": "Explicit Sub for note",
+      "failure_category": "Replacement noted / zero shots",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F146",
+      "pairing": "Borussia Dortmund v Bayern Munich",
+      "displayed_score": "1-2",
+      "player": "Tom Bischof",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T127",
+        "T134"
+      ],
+      "original_player": "Luis Diaz",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 8,
+      "headroom": -1,
+      "replacement_status": "Explicit Sub for note",
+      "failure_category": "Replacement noted / one-shot near miss",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F148",
+      "pairing": "Espanyol v Real Madrid",
+      "displayed_score": "1-2",
+      "player": "Kylian Mbappe",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 10,
+      "result": "HIT",
+      "tickets": [
+        "T128"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 20,
+      "headroom": 8,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 20,
+          "actual_market_statistic": 3
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F151",
+      "pairing": "Fenerbahce v Konyaspor",
+      "displayed_score": "4-2",
+      "player": "Mason Greenwood",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 5,
+      "result": "HIT",
+      "tickets": [
+        "T127"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 21,
+      "headroom": 3,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F152",
+      "pairing": "Athletic Club v Sevilla",
+      "displayed_score": "1-3",
+      "player": "Inaki Williams",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T134"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 38,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F156",
+      "pairing": "Columbus Crew v CF Montreal",
+      "displayed_score": "1-2",
+      "player": "Prince Osei Owusu",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T137",
+        "T138",
+        "T139",
+        "T140"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 19,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F157",
+      "pairing": "FC Cincinnati v New York City",
+      "displayed_score": "2-1",
+      "player": "Evander Ferreira",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 6,
+      "result": "HIT",
+      "tickets": [
+        "T137",
+        "T138",
+        "T139",
+        "T140",
+        "T141"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 10,
+      "headroom": 4,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 10,
+          "actual_market_statistic": 3
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F158",
+      "pairing": "Portland Timbers v San Diego FC",
+      "displayed_score": "3-1",
+      "player": "Kevin Kelsy",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T137"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 30,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F158",
+      "pairing": "Portland Timbers v San Diego FC",
+      "displayed_score": "3-1",
+      "player": "Kristoffer Velde",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T138",
+        "T139",
+        "T140",
+        "T141"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 30,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 30,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F159",
+      "pairing": "DC United v New England",
+      "displayed_score": "0-3",
+      "player": "Louis Munteanu",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T137",
+        "T138",
+        "T139",
+        "T140"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 20,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F160",
+      "pairing": "Real Salt Lake v FC Dallas",
+      "displayed_score": "3-4",
+      "player": "Petar Musa",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T137",
+        "T138",
+        "T139",
+        "T140",
+        "T141"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 30,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F162",
+      "pairing": "Minnesota Utd v Atlanta Utd",
+      "displayed_score": "1-2",
+      "player": "Tomas Chancalay",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T138",
+        "T139",
+        "T140"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 26,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F165",
+      "pairing": "Orlando City v Chicago Fire",
+      "displayed_score": "1-2",
+      "player": "Antoine Griezmann",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 5,
+      "result": "HIT",
+      "tickets": [
+        "T139",
+        "T140",
+        "T141"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 12,
+      "headroom": 3,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F165",
+      "pairing": "Orlando City v Chicago Fire",
+      "displayed_score": "1-2",
+      "player": "Robert Lewandowski",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T141"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 12,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F166",
+      "pairing": "Toronto FC v Charlotte FC",
+      "displayed_score": "3-3",
+      "player": "Luca De La Torre",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T141"
+      ],
+      "original_player": "Pep Biel",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 7,
+      "headroom": -1,
+      "replacement_status": "Explicit Sub for note",
+      "failure_category": "Replacement noted / one-shot near miss",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F167",
+      "pairing": "Kansas City v St. Louis City SC",
+      "displayed_score": "1-1",
+      "player": "Alexandru Matan",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 0,
+      "result": "MISS",
+      "tickets": [
+        "T141"
+      ],
+      "original_player": "Simon Becher",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 5,
+      "headroom": -2,
+      "replacement_status": "Explicit Sub for note",
+      "failure_category": "Replacement noted / zero shots",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F168",
+      "pairing": "Lens v PSG",
+      "displayed_score": "1-0",
+      "player": "Khvicha Kvaratskhelia",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T142",
+        "T146",
+        "T147",
+        "T148",
+        "T150"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 25,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 25,
+          "actual_market_statistic": 2
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F169",
+      "pairing": "Seattle Sounders v Vancouver Whitecaps",
+      "displayed_score": "0-2",
+      "player": "Ryan Gauld",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 0,
+      "result": "MISS",
+      "tickets": [
+        "T142"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 13,
+      "headroom": -2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / zero shots",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F170",
+      "pairing": "Chicago Fire v Portland Timbers",
+      "displayed_score": "2-1",
+      "player": "Kevin Kelsy",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T148"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 9,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 9,
+          "actual_market_statistic": 2
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F170",
+      "pairing": "Chicago Fire v Portland Timbers",
+      "displayed_score": "2-1",
+      "player": "Kristoffer Velde",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T147"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 9,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 9,
+          "actual_market_statistic": 3
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F170",
+      "pairing": "Chicago Fire v Portland Timbers",
+      "displayed_score": "2-1",
+      "player": "Puso Dithejane",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 0,
+      "result": "MISS",
+      "tickets": [
+        "T146"
+      ],
+      "original_player": "Philip Zinckernagel",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 9,
+      "headroom": -2,
+      "replacement_status": "Explicit Sub for note",
+      "failure_category": "Replacement noted / zero shots",
+      "other_reported_markets": [
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "MISS",
+          "original_player": "Philip Zinckernagel",
+          "source_page": 9,
+          "actual_market_statistic": 0
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F170",
+      "pairing": "Chicago Fire v Portland Timbers",
+      "displayed_score": "2-1",
+      "player": "Robert Lewandowski",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T150"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 9,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 9,
+          "actual_market_statistic": 1
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F171",
+      "pairing": "Austin FC v FC Dallas",
+      "displayed_score": "1-2",
+      "player": "Petar Musa",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T142",
+        "T146",
+        "T147",
+        "T148",
+        "T150"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 16,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 16,
+          "actual_market_statistic": 3
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F172",
+      "pairing": "New York City v Philadelphia",
+      "displayed_score": "2-3",
+      "player": "Cavan Sullivan",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 6,
+      "result": "HIT",
+      "tickets": [
+        "T147",
+        "T149"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 39,
+      "headroom": 4,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 39,
+          "actual_market_statistic": 6
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F172",
+      "pairing": "New York City v Philadelphia",
+      "displayed_score": "2-3",
+      "player": "Milan Iloski",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 5,
+      "result": "HIT",
+      "tickets": [
+        "T142",
+        "T146",
+        "T147",
+        "T148",
+        "T149",
+        "T150"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 39,
+      "headroom": 3,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F173",
+      "pairing": "Orlando City v FC Cincinnati",
+      "displayed_score": "1-1",
+      "player": "Evander Ferreira",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 5,
+      "result": "HIT",
+      "tickets": [
+        "T151",
+        "T153",
+        "T154",
+        "T155",
+        "T156"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 28,
+      "headroom": 3,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F174",
+      "pairing": "CF Montreal v DC United",
+      "displayed_score": "1-1",
+      "player": "Hennadii Synchuk",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 7,
+      "result": "HIT",
+      "tickets": [
+        "T151",
+        "T153",
+        "T154",
+        "T155"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 18,
+      "headroom": 5,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "Shots",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 18,
+          "actual_market_statistic": 7
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F174",
+      "pairing": "CF Montreal v DC United",
+      "displayed_score": "1-1",
+      "player": "Prince Osei Owusu",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 5,
+      "result": "HIT",
+      "tickets": [
+        "T156"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 18,
+      "headroom": 3,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 18,
+          "actual_market_statistic": 2
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F175",
+      "pairing": "Houston Dynamo v LA Galaxy",
+      "displayed_score": "1-0",
+      "player": "Guilherme Augusto",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T151",
+        "T153",
+        "T154",
+        "T155",
+        "T156"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 23,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F176",
+      "pairing": "San Jose v St. Louis City SC",
+      "displayed_score": "1-3",
+      "player": "Timo Werner",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 0,
+      "result": "MISS",
+      "tickets": [
+        "T151",
+        "T153",
+        "T154",
+        "T155",
+        "T156"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 7,
+      "headroom": -2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / zero shots",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F178",
+      "pairing": "LAFC v San Diego FC",
+      "displayed_score": "0-1",
+      "player": "Heung-Min Son",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 4,
+      "result": "HIT",
+      "tickets": [
+        "T151",
+        "T153",
+        "T154",
+        "T155",
+        "T156"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 24,
+      "headroom": 2,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F179",
+      "pairing": "Nashville SC v Inter Miami",
+      "displayed_score": "4-1",
+      "player": "Lionel Messi",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 12,
+      "result": "HIT",
+      "tickets": [
+        "T151",
+        "T152",
+        "T153",
+        "T157"
+      ],
+      "original_player": "",
+      "void_occurrences": 1,
+      "unknown_occurrences": 0,
+      "source_page": 26,
+      "headroom": 10,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "HIT",
+          "original_player": "",
+          "source_page": 26,
+          "actual_market_statistic": 3
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F180",
+      "pairing": "Charlotte FC v Columbus Crew",
+      "displayed_score": "3-1",
+      "player": "Pep Biel",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T153",
+        "T154",
+        "T155",
+        "T156"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 19,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F198",
+      "pairing": "Monterrey v Orlando City",
+      "displayed_score": "1-2",
+      "player": "Antoine Griezmann",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 3,
+      "result": "HIT",
+      "tickets": [
+        "T193",
+        "T194"
+      ],
+      "original_player": "",
+      "void_occurrences": 1,
+      "unknown_occurrences": 0,
+      "source_page": 12,
+      "headroom": 1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F218",
+      "pairing": "Nashville SC v CF Montreal",
+      "displayed_score": "1-0",
+      "player": "Hany Mukhtar",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 2,
+      "result": "HIT",
+      "tickets": [
+        "T279",
+        "T280"
+      ],
+      "original_player": "",
+      "void_occurrences": 1,
+      "unknown_occurrences": 0,
+      "source_page": 26,
+      "headroom": 0,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "",
+      "other_reported_markets": [],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F222",
+      "pairing": "England v Argentina",
+      "displayed_score": "1-2",
+      "player": "Harry Kane",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T302"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 10,
+      "headroom": -1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / one-shot near miss",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "MISS",
+          "original_player": "",
+          "source_page": 10,
+          "actual_market_statistic": 0
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    },
+    {
+      "fixture_id": "F222",
+      "pairing": "England v Argentina",
+      "displayed_score": "1-2",
+      "player": "Lionel Messi",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": 1,
+      "result": "MISS",
+      "tickets": [
+        "T302"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 10,
+      "headroom": -1,
+      "replacement_status": "No replacement note; role unverified",
+      "failure_category": "No replacement note / one-shot near miss",
+      "other_reported_markets": [
+        {
+          "market": "SOT",
+          "line": "1+",
+          "result": "MISS",
+          "original_player": "",
+          "source_page": 10,
+          "actual_market_statistic": 0
+        }
+      ],
+      "match_date": null,
+      "league": null,
+      "player_team": null,
+      "player_home_away": null,
+      "started": null,
+      "minutes": null,
+      "tactical_role": null
+    }
+  ],
+  "excluded_groups": [
+    {
+      "fixture_id": "F069",
+      "pairing": "Millwall v Wrexham",
+      "displayed_score": "0-3",
+      "player": "Camiel Neghli",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T043"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 6
+    },
+    {
+      "fixture_id": "F143",
+      "pairing": "Nottm Forest v Leeds",
+      "displayed_score": "0-1",
+      "player": "Chris Wood",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T127",
+        "T134"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 6
+    },
+    {
+      "fixture_id": "F070",
+      "pairing": "Celtic v Aberdeen",
+      "displayed_score": "3-0",
+      "player": "Benjamin Nygren",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T043"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 8
+    },
+    {
+      "fixture_id": "F169",
+      "pairing": "Seattle Sounders v Vancouver Whitecaps",
+      "displayed_score": "0-2",
+      "player": "Brian White",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T146",
+        "T147",
+        "T150"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 13
+    },
+    {
+      "fixture_id": "F161",
+      "pairing": "Colorado Rapids v LAFC",
+      "displayed_score": "1-0",
+      "player": "Heung-Min Son",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T138",
+        "T139",
+        "T140",
+        "T141"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 19
+    },
+    {
+      "fixture_id": "F060",
+      "pairing": "FC Copenhagen v FC Nordsjaelland",
+      "displayed_score": "2-0",
+      "player": "Prince Amoako",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T031",
+        "T033"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 21
+    },
+    {
+      "fixture_id": "F215",
+      "pairing": "LAFC v Real Salt Lake",
+      "displayed_score": "3-1",
+      "player": "Denis Bouanga",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T278"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 24
+    },
+    {
+      "fixture_id": "F215",
+      "pairing": "LAFC v Real Salt Lake",
+      "displayed_score": "3-1",
+      "player": "Heung-Min Son",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T278"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 24
+    },
+    {
+      "fixture_id": "F055",
+      "pairing": "Nottm Forest v Tottenham",
+      "displayed_score": "0-0",
+      "player": "Igor Jesus",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T019",
+        "T022"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 27
+    },
+    {
+      "fixture_id": "F039",
+      "pairing": "Philadelphia v CF Montreal",
+      "displayed_score": "2-0",
+      "player": "Prince Osei Owusu",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T025"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 29
+    },
+    {
+      "fixture_id": "F078",
+      "pairing": "Samsunspor v Fenerbahce",
+      "displayed_score": "0-2",
+      "player": "Conceicao Talisca",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T056",
+        "T058"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 31
+    },
+    {
+      "fixture_id": "F033",
+      "pairing": "Augsburg v Bayer Leverkusen",
+      "displayed_score": "2-2",
+      "player": "Patrik Schick",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T013",
+        "T014",
+        "T015",
+        "T016"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 35
+    },
+    {
+      "fixture_id": "F139",
+      "pairing": "Brighton v Aston Villa",
+      "displayed_score": "4-0",
+      "player": "Ollie Watkins",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T121"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 35
+    },
+    {
+      "fixture_id": "F040",
+      "pairing": "FC Cincinnati v DC United",
+      "displayed_score": "0-0",
+      "player": "Evander Ferreira",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T018",
+        "T019",
+        "T020",
+        "T021",
+        "T022",
+        "T023",
+        "T024",
+        "T025"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 35
+    },
+    {
+      "fixture_id": "F027",
+      "pairing": "Nottm Forest v Coventry",
+      "displayed_score": "0-1",
+      "player": "Igor Jesus",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 36
+    },
+    {
+      "fixture_id": "F212",
+      "pairing": "NY Red Bulls v Charlotte FC",
+      "displayed_score": "0-2",
+      "player": "Pep Biel",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T257"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 36
+    },
+    {
+      "fixture_id": "F211",
+      "pairing": "Orlando City v Nashville SC",
+      "displayed_score": "1-0",
+      "player": "Hany Mukhtar",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T239"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 37
+    },
+    {
+      "fixture_id": "F211",
+      "pairing": "Orlando City v Nashville SC",
+      "displayed_score": "1-0",
+      "player": "Martin Ojeda",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T231",
+        "T232"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 37
+    },
+    {
+      "fixture_id": "F071",
+      "pairing": "QPR v Cardiff",
+      "displayed_score": "2-1",
+      "player": "Ilias Chair",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T044"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 37
+    },
+    {
+      "fixture_id": "F092",
+      "pairing": "Strasbourg v Lens",
+      "displayed_score": "2-1",
+      "player": "Odsonne Edouard",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T070",
+        "T074",
+        "T079"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 37
+    },
+    {
+      "fixture_id": "F002",
+      "pairing": "Villarreal v Levante",
+      "displayed_score": "3-1",
+      "player": "Nicolas Pepe",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T001",
+        "T002",
+        "T003",
+        "T004"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 37
+    },
+    {
+      "fixture_id": "F065",
+      "pairing": "Club America v Monterrey",
+      "displayed_score": "2-2",
+      "player": "Brian Rodriguez",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "UNKNOWN",
+      "tickets": [
+        "T034",
+        "T038",
+        "T039"
+      ],
+      "original_player": "",
+      "void_occurrences": 2,
+      "unknown_occurrences": 1,
+      "source_page": 38
+    },
+    {
+      "fixture_id": "F058",
+      "pairing": "Inter Milan v Napoli",
+      "displayed_score": "3-2",
+      "player": "Pio Esposito",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "UNKNOWN",
+      "tickets": [
+        "T021",
+        "T023",
+        "T024",
+        "T025"
+      ],
+      "original_player": "",
+      "void_occurrences": 2,
+      "unknown_occurrences": 2,
+      "source_page": 38
+    },
+    {
+      "fixture_id": "F025",
+      "pairing": "New England v Orlando City",
+      "displayed_score": "4-2",
+      "player": "Antoine Griezmann",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "UNKNOWN",
+      "tickets": [
+        "T006",
+        "T009",
+        "T010",
+        "T012"
+      ],
+      "original_player": "",
+      "void_occurrences": 3,
+      "unknown_occurrences": 1,
+      "source_page": 39
+    },
+    {
+      "fixture_id": "F172",
+      "pairing": "New York City v Philadelphia",
+      "displayed_score": "2-3",
+      "player": "Nicolas Fernandez Mercau",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T146",
+        "T149",
+        "T150"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 39
+    },
+    {
+      "fixture_id": "F057",
+      "pairing": "Newcastle v Bournemouth",
+      "displayed_score": "2-2",
+      "player": "Yoane Wissa",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "UNKNOWN",
+      "tickets": [
+        "T021",
+        "T023",
+        "T024",
+        "T025"
+      ],
+      "original_player": "",
+      "void_occurrences": 2,
+      "unknown_occurrences": 2,
+      "source_page": 39
+    },
+    {
+      "fixture_id": "F066",
+      "pairing": "Toluca v Leon",
+      "displayed_score": "2-0",
+      "player": "Daniel Arcila",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "VOID",
+      "tickets": [
+        "T038",
+        "T039"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 0,
+      "source_page": 39
+    },
+    {
+      "fixture_id": "F066",
+      "pairing": "Toluca v Leon",
+      "displayed_score": "2-0",
+      "player": "Diber Cambindo",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "UNKNOWN",
+      "tickets": [
+        "T034"
+      ],
+      "original_player": "",
+      "void_occurrences": 0,
+      "unknown_occurrences": 1,
+      "source_page": 39
+    },
+    {
+      "fixture_id": "F066",
+      "pairing": "Toluca v Leon",
+      "displayed_score": "2-0",
+      "player": "Helinho",
+      "market": "Shots",
+      "line": "2+",
+      "actual_shots": null,
+      "result": "UNKNOWN",
+      "tickets": [
+        "T034",
+        "T038",
+        "T039"
+      ],
+      "original_player": "",
+      "void_occurrences": 2,
+      "unknown_occurrences": 1,
+      "source_page": 39
+    }
+  ],
+  "summary": {
+    "n": 150,
+    "fixtures": 119,
+    "players": 95,
+    "distribution": {
+      "0": 13,
+      "1": 18,
+      "2": 32,
+      "3": 36,
+      "4": 23,
+      "5": 15,
+      "6": 5,
+      "7": 2,
+      "9": 3,
+      "10": 2,
+      "12": 1
+    },
+    "failure_categories": {
+      "Replacement noted / zero shots": 7,
+      "No replacement note / one-shot near miss": 10,
+      "Replacement noted / one-shot near miss": 8,
+      "No replacement note / zero shots": 6
+    },
+    "replacement": {
+      "MISS": 15
+    },
+    "no_note": {
+      "HIT": 119,
+      "MISS": 16
+    },
+    "assessed_with_void": 23,
+    "assessed_with_unknown": 7,
+    "ticket_references": 484,
+    "repeat_players": {
+      "Gonzalo Garcia": [
+        [
+          "F003",
+          3
+        ],
+        [
+          "F047",
+          5
+        ]
+      ],
+      "Alexander Isak": [
+        [
+          "F005",
+          3
+        ],
+        [
+          "F032",
+          3
+        ]
+      ],
+      "Nicolas Paz": [
+        [
+          "F008",
+          10
+        ],
+        [
+          "F144",
+          4
+        ]
+      ],
+      "Hany Mukhtar": [
+        [
+          "F010",
+          4
+        ],
+        [
+          "F218",
+          2
+        ]
+      ],
+      "Robert Lewandowski": [
+        [
+          "F010",
+          3
+        ],
+        [
+          "F041",
+          3
+        ],
+        [
+          "F165",
+          4
+        ],
+        [
+          "F170",
+          4
+        ]
+      ],
+      "Kristoffer Velde": [
+        [
+          "F011",
+          9
+        ],
+        [
+          "F089",
+          3
+        ],
+        [
+          "F158",
+          2
+        ],
+        [
+          "F170",
+          3
+        ]
+      ],
+      "Rafael Navarro": [
+        [
+          "F013",
+          2
+        ],
+        [
+          "F130",
+          1
+        ]
+      ],
+      "Simon Becher": [
+        [
+          "F013",
+          4
+        ],
+        [
+          "F079",
+          3
+        ]
+      ],
+      "Cavan Sullivan": [
+        [
+          "F014",
+          2
+        ],
+        [
+          "F090",
+          3
+        ],
+        [
+          "F172",
+          6
+        ]
+      ],
+      "Milan Iloski": [
+        [
+          "F014",
+          2
+        ],
+        [
+          "F039",
+          3
+        ],
+        [
+          "F090",
+          7
+        ],
+        [
+          "F142",
+          2
+        ],
+        [
+          "F172",
+          5
+        ]
+      ],
+      "Evander Ferreira": [
+        [
+          "F015",
+          4
+        ],
+        [
+          "F085",
+          5
+        ],
+        [
+          "F133",
+          3
+        ],
+        [
+          "F157",
+          6
+        ],
+        [
+          "F173",
+          5
+        ]
+      ],
+      "Heung-Min Son": [
+        [
+          "F016",
+          2
+        ],
+        [
+          "F044",
+          4
+        ],
+        [
+          "F132",
+          9
+        ],
+        [
+          "F178",
+          4
+        ]
+      ],
+      "Louis Munteanu": [
+        [
+          "F017",
+          9
+        ],
+        [
+          "F086",
+          4
+        ],
+        [
+          "F159",
+          2
+        ]
+      ],
+      "Prince Osei Owusu": [
+        [
+          "F018",
+          5
+        ],
+        [
+          "F131",
+          4
+        ],
+        [
+          "F156",
+          3
+        ],
+        [
+          "F174",
+          5
+        ]
+      ],
+      "Lois Openda": [
+        [
+          "F019",
+          3
+        ],
+        [
+          "F106",
+          4
+        ]
+      ],
+      "Serhou Guirassy": [
+        [
+          "F020",
+          3
+        ],
+        [
+          "F031",
+          3
+        ],
+        [
+          "F053",
+          5
+        ]
+      ],
+      "Oihan Sancet": [
+        [
+          "F023",
+          2
+        ],
+        [
+          "F049",
+          3
+        ]
+      ],
+      "Bukayo Saka": [
+        [
+          "F024",
+          2
+        ],
+        [
+          "F035",
+          4
+        ]
+      ],
+      "Petar Musa": [
+        [
+          "F026",
+          1
+        ],
+        [
+          "F160",
+          4
+        ],
+        [
+          "F171",
+          3
+        ]
+      ],
+      "Mohamed Salah": [
+        [
+          "F029",
+          4
+        ],
+        [
+          "F075",
+          3
+        ]
+      ],
+      "Rio Ngumoha": [
+        [
+          "F032",
+          1
+        ],
+        [
+          "F096",
+          0
+        ]
+      ],
+      "Cole Palmer": [
+        [
+          "F037",
+          3
+        ],
+        [
+          "F076",
+          4
+        ]
+      ],
+      "Joao Pedro": [
+        [
+          "F037",
+          1
+        ],
+        [
+          "F076",
+          5
+        ],
+        [
+          "F113",
+          4
+        ]
+      ],
+      "Antoine Griezmann": [
+        [
+          "F043",
+          3
+        ],
+        [
+          "F084",
+          2
+        ],
+        [
+          "F135",
+          5
+        ],
+        [
+          "F165",
+          5
+        ],
+        [
+          "F198",
+          3
+        ]
+      ],
+      "Ante Budimir": [
+        [
+          "F074",
+          1
+        ],
+        [
+          "F114",
+          4
+        ]
+      ],
+      "Mason Greenwood": [
+        [
+          "F078",
+          3
+        ],
+        [
+          "F151",
+          5
+        ]
+      ],
+      "Guilherme Augusto": [
+        [
+          "F087",
+          1
+        ],
+        [
+          "F175",
+          3
+        ]
+      ],
+      "Antony": [
+        [
+          "F093",
+          6
+        ],
+        [
+          "F108",
+          4
+        ]
+      ],
+      "Khvicha Kvaratskhelia": [
+        [
+          "F101",
+          1
+        ],
+        [
+          "F168",
+          4
+        ]
+      ],
+      "Pep Biel": [
+        [
+          "F134",
+          2
+        ],
+        [
+          "F180",
+          3
+        ]
+      ],
+      "Lionel Messi": [
+        [
+          "F137",
+          2
+        ],
+        [
+          "F179",
+          12
+        ],
+        [
+          "F222",
+          1
+        ]
+      ],
+      "Kevin Kelsy": [
+        [
+          "F158",
+          3
+        ],
+        [
+          "F170",
+          2
+        ]
+      ]
+    }
+  }
+}

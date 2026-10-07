@@ -1,0 +1,2741 @@
+{
+  "scope": "Saturday/Sunday only, five frozen non-overlapping validation datasets",
+  "datasets": [
+    "Ligue 1 2015/16",
+    "WSL 2023/24",
+    "Frauen-Bundesliga 2023/24",
+    "WSL 2020/21",
+    "WSL 2018/19 random"
+  ],
+  "match_weekends": 124,
+  "A": {
+    "picks": 116,
+    "hits": 98,
+    "hit_rate": 84.5,
+    "active_weekends": 56,
+    "average_picks_per_active_weekend": 2.07,
+    "median_picks_per_active_weekend": 2.0,
+    "pick_count_distribution": {
+      "1": 22,
+      "2": 17,
+      "3": 8,
+      "4": 9
+    },
+    "perfect_weekends": 41,
+    "perfect_weekend_rate": 73.2,
+    "rollover_total_staked": 560,
+    "rollover_total_return": 948.73,
+    "rollover_profit": 388.73,
+    "weekends_with_same_kickoff_picks": 32,
+    "weekends": [
+      {
+        "dataset": "Frauen-Bundesliga 2023/24",
+        "week": "2023-W49",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2023-12-09T13:00:00+00:00",
+            "fixture": "SGS Essen 19/68 vs SC Freiburg",
+            "player": "Ramona Maier",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Frauen-Bundesliga 2023/24",
+        "week": "2024-W04",
+        "picks": 3,
+        "hits": 2,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2024-01-27T13:00:00+00:00",
+            "fixture": "Bayern M\u00fcnchen W vs Hoffenheim W",
+            "player": "Klara B\u00fchl",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2024-01-28T13:00:00+00:00",
+            "fixture": "Eintracht Frankfurt W vs K\u00f6ln",
+            "player": "Nicole Anyomi",
+            "shots": 1,
+            "hit": false
+          },
+          {
+            "date": "2024-01-28T13:00:00+00:00",
+            "fixture": "Eintracht Frankfurt W vs K\u00f6ln",
+            "player": "Laura Freigang",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Frauen-Bundesliga 2023/24",
+        "week": "2024-W11",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2024-03-16T11:00:00+00:00",
+            "fixture": "Bayern M\u00fcnchen W vs RB Leipzig W",
+            "player": "Lea Sch\u00fcller",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Frauen-Bundesliga 2023/24",
+        "week": "2024-W16",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 22.5,
+        "profit": 12.5,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2024-04-20T12:00:00+00:00",
+            "fixture": "Eintracht Frankfurt W vs N\u00fcrnberg W",
+            "player": "Nicole Anyomi",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2024-04-20T12:00:00+00:00",
+            "fixture": "Eintracht Frankfurt W vs N\u00fcrnberg W",
+            "player": "Lara Pra\u0161nikar",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Frauen-Bundesliga 2023/24",
+        "week": "2024-W18",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2024-05-05T19:30:00+00:00",
+            "fixture": "SV Werder Bremen vs Duisburg WFC",
+            "player": "Sophie Weidauer",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Frauen-Bundesliga 2023/24",
+        "week": "2024-W19",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 22.5,
+        "profit": 12.5,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2024-05-12T12:00:00+00:00",
+            "fixture": "Bayern M\u00fcnchen W vs N\u00fcrnberg W",
+            "player": "Pernille Harder",
+            "shots": 5,
+            "hit": true
+          },
+          {
+            "date": "2024-05-12T12:00:00+00:00",
+            "fixture": "Bayern M\u00fcnchen W vs N\u00fcrnberg W",
+            "player": "Klara B\u00fchl",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W40",
+        "picks": 1,
+        "hits": 0,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2015-10-04T21:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Olympique de Marseille",
+            "player": "Edinson Cavani",
+            "shots": 1,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W42",
+        "picks": 2,
+        "hits": 0,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2015-10-17T20:00:00+00:00",
+            "fixture": "Saint-\u00c9tienne vs Gaz\u00e9lec Ajaccio",
+            "player": "Romain Hamouma",
+            "shots": 1,
+            "hit": false
+          },
+          {
+            "date": "2015-10-18T17:00:00+00:00",
+            "fixture": "Bordeaux vs Montpellier",
+            "player": "Wahbi Khazri",
+            "shots": 0,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W43",
+        "picks": 3,
+        "hits": 2,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2015-10-25T17:00:00+00:00",
+            "fixture": "Lille vs Olympique de Marseille",
+            "player": "Sofiane Boufal",
+            "shots": 1,
+            "hit": false
+          },
+          {
+            "date": "2015-10-25T21:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Saint-\u00c9tienne",
+            "player": "Zlatan Ibrahimovi\u0107",
+            "shots": 5,
+            "hit": true
+          },
+          {
+            "date": "2015-10-25T21:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Saint-\u00c9tienne",
+            "player": "Edinson Cavani",
+            "shots": 5,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W44",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2015-10-31T18:00:00+00:00",
+            "fixture": "Saint-\u00c9tienne vs Stade de Reims",
+            "player": "Nolan Roux",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W45",
+        "picks": 3,
+        "hits": 3,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 33.75,
+        "profit": 23.75,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2015-11-07T18:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Toulouse",
+            "player": "\u00c1ngel Di Mar\u00eda",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2015-11-07T18:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Toulouse",
+            "player": "Zlatan Ibrahimovi\u0107",
+            "shots": 5,
+            "hit": true
+          },
+          {
+            "date": "2015-11-07T19:00:00+00:00",
+            "fixture": "Stade Malherbe Caen vs Guingamp",
+            "player": "Andy Delort",
+            "shots": 6,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W47",
+        "picks": 4,
+        "hits": 4,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 50.62,
+        "profit": 40.62,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2015-11-21T21:00:00+00:00",
+            "fixture": "Guingamp vs Toulouse",
+            "player": "Yannis Salibur",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2015-11-21T21:00:00+00:00",
+            "fixture": "Guingamp vs Toulouse",
+            "player": "Jimmy Briand",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2015-11-22T13:00:00+00:00",
+            "fixture": "Stade Malherbe Caen vs Angers",
+            "player": "Ronny Rodelin",
+            "shots": 5,
+            "hit": true
+          },
+          {
+            "date": "2015-11-22T13:00:00+00:00",
+            "fixture": "Stade Malherbe Caen vs Angers",
+            "player": "Andy Delort",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W48",
+        "picks": 3,
+        "hits": 2,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2015-11-28T18:10:00+00:00",
+            "fixture": "Paris Saint-Germain vs Troyes",
+            "player": "\u00c1ngel Di Mar\u00eda",
+            "shots": 1,
+            "hit": false
+          },
+          {
+            "date": "2015-11-28T18:10:00+00:00",
+            "fixture": "Paris Saint-Germain vs Troyes",
+            "player": "Zlatan Ibrahimovi\u0107",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2015-11-28T21:00:00+00:00",
+            "fixture": "Nantes vs Bastia",
+            "player": "Yacine Bammou",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W49",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2015-12-06T22:00:00+00:00",
+            "fixture": "Saint-\u00c9tienne vs Rennes",
+            "player": "Romain Hamouma",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W50",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2015-12-13T15:00:00+00:00",
+            "fixture": "AS Monaco vs Saint-\u00c9tienne",
+            "player": "Thomas Lemar",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W51",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2015-12-19T21:00:00+00:00",
+            "fixture": "Lorient vs Nantes",
+            "player": "Yann Jouffre",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W01",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 22.5,
+        "profit": 12.5,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2016-01-10T20:00:00+00:00",
+            "fixture": "Olympique de Marseille vs Guingamp",
+            "player": "Michy Batshuayi",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2016-01-10T20:00:00+00:00",
+            "fixture": "Olympique de Marseille vs Guingamp",
+            "player": "Georges-Kevin N'Koudou",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W02",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2016-01-16T21:00:00+00:00",
+            "fixture": "Gaz\u00e9lec Ajaccio vs Stade de Reims",
+            "player": "John Tshibumbu",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W03",
+        "picks": 4,
+        "hits": 4,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 50.62,
+        "profit": 40.62,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2016-01-23T18:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Angers",
+            "player": "Zlatan Ibrahimovi\u0107",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2016-01-23T18:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Angers",
+            "player": "Lucas Moura",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2016-01-23T21:00:00+00:00",
+            "fixture": "Lille vs Troyes",
+            "player": "Junior Tallo",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2016-01-23T21:00:00+00:00",
+            "fixture": "Lille vs Troyes",
+            "player": "\u00c9ric Bauth\u00e9ac",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W06",
+        "picks": 2,
+        "hits": 1,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2016-02-13T18:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Lille",
+            "player": "Edinson Cavani",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2016-02-13T21:00:00+00:00",
+            "fixture": "Nantes vs Lorient",
+            "player": "Emiliano Sala",
+            "shots": 1,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W07",
+        "picks": 2,
+        "hits": 1,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2016-02-20T18:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Stade de Reims",
+            "player": "\u00c1ngel Di Mar\u00eda",
+            "shots": 1,
+            "hit": false
+          },
+          {
+            "date": "2016-02-20T18:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Stade de Reims",
+            "player": "Zlatan Ibrahimovi\u0107",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W09",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2016-03-05T21:00:00+00:00",
+            "fixture": "Bordeaux vs Gaz\u00e9lec Ajaccio",
+            "player": "Cheick Diabat\u00e9",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W10",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 22.5,
+        "profit": 12.5,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2016-03-13T18:00:00+00:00",
+            "fixture": "Nantes vs Angers",
+            "player": "Emiliano Sala",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2016-03-13T18:00:00+00:00",
+            "fixture": "Nantes vs Angers",
+            "player": "Alejandro Bedoya",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W11",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 22.5,
+        "profit": 12.5,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2016-03-20T22:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs AS Monaco",
+            "player": "Zlatan Ibrahimovi\u0107",
+            "shots": 8,
+            "hit": true
+          },
+          {
+            "date": "2016-03-20T22:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs AS Monaco",
+            "player": "Edinson Cavani",
+            "shots": 7,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W14",
+        "picks": 4,
+        "hits": 2,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2016-04-09T18:00:00+00:00",
+            "fixture": "Stade Malherbe Caen vs Lorient",
+            "player": "Andy Delort",
+            "shots": 6,
+            "hit": true
+          },
+          {
+            "date": "2016-04-09T20:00:00+00:00",
+            "fixture": "Angers vs Gaz\u00e9lec Ajaccio",
+            "player": "Billy Ketkeophomphone",
+            "shots": 1,
+            "hit": false
+          },
+          {
+            "date": "2016-04-09T20:00:00+00:00",
+            "fixture": "Saint-\u00c9tienne vs Troyes",
+            "player": "Nolan Roux",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2016-04-09T20:00:00+00:00",
+            "fixture": "Saint-\u00c9tienne vs Troyes",
+            "player": "Jean-Christophe Bahebeck",
+            "shots": 0,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W15",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 22.5,
+        "profit": 12.5,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2016-04-16T17:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Stade Malherbe Caen",
+            "player": "Zlatan Ibrahimovi\u0107",
+            "shots": 6,
+            "hit": true
+          },
+          {
+            "date": "2016-04-16T17:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Stade Malherbe Caen",
+            "player": "Edinson Cavani",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W16",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2016-04-24T17:00:00+00:00",
+            "fixture": "Saint-\u00c9tienne vs Lorient",
+            "player": "Nolan Roux",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W18",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2016-05-07T21:00:00+00:00",
+            "fixture": "Bordeaux vs Lorient",
+            "player": "Cheick Diabat\u00e9",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2018/19 random",
+        "week": "2018-W49",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 22.5,
+        "profit": 12.5,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2018-12-09T15:00:00+00:00",
+            "fixture": "Reading WFC vs Liverpool WFC",
+            "player": "Fara Williams",
+            "shots": 11,
+            "hit": true
+          },
+          {
+            "date": "2018-12-09T15:00:00+00:00",
+            "fixture": "Reading WFC vs Liverpool WFC",
+            "player": "Brooke Chaplen",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2018/19 random",
+        "week": "2019-W01",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 22.5,
+        "profit": 12.5,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2019-01-06T15:00:00+00:00",
+            "fixture": "Chelsea FCW vs Everton LFC",
+            "player": "Ji So-yun",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2019-01-06T15:00:00+00:00",
+            "fixture": "Chelsea FCW vs Everton LFC",
+            "player": "Erin Cuthbert",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2018/19 random",
+        "week": "2019-W04",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2019-01-27T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs Brighton & Hove Albion WFC",
+            "player": "Nikita Parris",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2018/19 random",
+        "week": "2019-W13",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2019-03-31T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs Liverpool WFC",
+            "player": "Nikita Parris",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2018/19 random",
+        "week": "2019-W16",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2019-04-21T13:30:00+00:00",
+            "fixture": "Arsenal WFC vs Everton LFC",
+            "player": "Vivianne Miedema",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2018/19 random",
+        "week": "2019-W17",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 22.5,
+        "profit": 12.5,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2019-04-28T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs Yeovil Town LFC",
+            "player": "Georgia Stanway",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2019-04-28T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs Yeovil Town LFC",
+            "player": "Nikita Parris",
+            "shots": 7,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2020-W51",
+        "picks": 3,
+        "hits": 3,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 33.75,
+        "profit": 23.75,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2020-12-20T11:00:00+00:00",
+            "fixture": "Manchester United W vs Bristol City WFC",
+            "player": "Tobin Powell Heath",
+            "shots": 6,
+            "hit": true
+          },
+          {
+            "date": "2020-12-20T11:00:00+00:00",
+            "fixture": "Manchester United W vs Bristol City WFC",
+            "player": "Ella Toone",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2020-12-20T13:30:00+00:00",
+            "fixture": "Arsenal WFC vs Everton LFC",
+            "player": "Caitlin Jade Foord",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W02",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 22.5,
+        "profit": 12.5,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2021-01-17T13:30:00+00:00",
+            "fixture": "Manchester City WFC vs Aston Villa W",
+            "player": "Georgia Stanway",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2021-01-17T13:30:00+00:00",
+            "fixture": "Manchester City WFC vs Aston Villa W",
+            "player": "Chloe Kelly",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W03",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2021-01-24T11:00:00+00:00",
+            "fixture": "Manchester United W vs Birmingham City WFC",
+            "player": "Ella Toone",
+            "shots": 7,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W04",
+        "picks": 4,
+        "hits": 3,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2021-01-31T13:30:00+00:00",
+            "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+            "player": "Francesca Kirby",
+            "shots": 1,
+            "hit": false
+          },
+          {
+            "date": "2021-01-31T13:30:00+00:00",
+            "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+            "player": "Pernille Mosegaard Harder",
+            "shots": 6,
+            "hit": true
+          },
+          {
+            "date": "2021-01-31T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs West Ham United LFC",
+            "player": "Georgia Stanway",
+            "shots": 5,
+            "hit": true
+          },
+          {
+            "date": "2021-01-31T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs West Ham United LFC",
+            "player": "Chloe Kelly",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W05",
+        "picks": 3,
+        "hits": 3,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 33.75,
+        "profit": 23.75,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2021-02-07T11:30:00+00:00",
+            "fixture": "Manchester United W vs Reading WFC",
+            "player": "Ella Toone",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2021-02-07T15:00:00+00:00",
+            "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+            "player": "Samantha May Kerr",
+            "shots": 7,
+            "hit": true
+          },
+          {
+            "date": "2021-02-07T15:00:00+00:00",
+            "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+            "player": "Bethany England",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W09",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 22.5,
+        "profit": 12.5,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2021-03-07T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs Everton LFC",
+            "player": "Samantha June Mewis",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2021-03-07T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs Everton LFC",
+            "player": "Ellen White",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W10",
+        "picks": 1,
+        "hits": 0,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2021-03-14T13:30:00+00:00",
+            "fixture": "Reading WFC vs Tottenham Hotspur Women",
+            "player": "Natasha Harding",
+            "shots": 1,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W12",
+        "picks": 4,
+        "hits": 2,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2021-03-27T10:30:00+00:00",
+            "fixture": "Manchester United W vs West Ham United LFC",
+            "player": "Christen Annemarie Press",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2021-03-27T18:30:00+00:00",
+            "fixture": "Manchester City WFC vs Reading WFC",
+            "player": "Georgia Stanway",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2021-03-27T18:30:00+00:00",
+            "fixture": "Manchester City WFC vs Reading WFC",
+            "player": "Lauren Hemp",
+            "shots": 1,
+            "hit": false
+          },
+          {
+            "date": "2021-03-28T15:30:00+00:00",
+            "fixture": "Chelsea FCW vs Aston Villa W",
+            "player": "Francesca Kirby",
+            "shots": 1,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W13",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2021-04-04T13:30:00+00:00",
+            "fixture": "Chelsea FCW vs Birmingham City WFC",
+            "player": "Pernille Mosegaard Harder",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W16",
+        "picks": 3,
+        "hits": 3,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 33.75,
+        "profit": 23.75,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2021-04-25T11:30:00+00:00",
+            "fixture": "Manchester United W vs Tottenham Hotspur Women",
+            "player": "Christen Annemarie Press",
+            "shots": 7,
+            "hit": true
+          },
+          {
+            "date": "2021-04-25T15:00:00+00:00",
+            "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+            "player": "Jordan Nobbs",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2021-04-25T15:00:00+00:00",
+            "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+            "player": "Vivianne Miedema",
+            "shots": 8,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W17",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2021-05-02T16:00:00+00:00",
+            "fixture": "Manchester City WFC vs Birmingham City WFC",
+            "player": "Ellen White",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W18",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2021-05-09T15:30:00+00:00",
+            "fixture": "Chelsea FCW vs Reading WFC",
+            "player": "Samantha May Kerr",
+            "shots": 5,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2023-W49",
+        "picks": 4,
+        "hits": 3,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2023-12-09T12:00:00+00:00",
+            "fixture": "Manchester City WFC vs Aston Villa W",
+            "player": "Chloe Kelly",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2023-12-09T12:00:00+00:00",
+            "fixture": "Manchester City WFC vs Aston Villa W",
+            "player": "Khadija Shaw",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2023-12-10T16:00:00+00:00",
+            "fixture": "Liverpool WFC vs Bristol City WFC",
+            "player": "Sophie Roman Haug",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2023-12-10T16:00:00+00:00",
+            "fixture": "Liverpool WFC vs Bristol City WFC",
+            "player": "Ceri Holland",
+            "shots": 0,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2024-W03",
+        "picks": 4,
+        "hits": 4,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 50.62,
+        "profit": 40.62,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2024-01-20T16:00:00+00:00",
+            "fixture": "Arsenal WFC vs Everton LFC",
+            "player": "Caitlin Foord",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2024-01-20T16:00:00+00:00",
+            "fixture": "Arsenal WFC vs Everton LFC",
+            "player": "Alessia Russo",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2024-01-21T16:30:00+00:00",
+            "fixture": "Manchester City WFC vs Liverpool WFC",
+            "player": "Chloe Kelly",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2024-01-21T16:30:00+00:00",
+            "fixture": "Manchester City WFC vs Liverpool WFC",
+            "player": "Khadija Shaw",
+            "shots": 7,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2024-W05",
+        "picks": 4,
+        "hits": 3,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2024-02-04T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs Leicester City WFC",
+            "player": "Chloe Kelly",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2024-02-04T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs Leicester City WFC",
+            "player": "Khadija Shaw",
+            "shots": 5,
+            "hit": true
+          },
+          {
+            "date": "2024-02-04T18:45:00+00:00",
+            "fixture": "Chelsea FCW vs Everton LFC",
+            "player": "Erin Cuthbert",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2024-02-04T18:45:00+00:00",
+            "fixture": "Chelsea FCW vs Everton LFC",
+            "player": "Lauren James",
+            "shots": 1,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2024-W09",
+        "picks": 4,
+        "hits": 4,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 50.62,
+        "profit": 40.62,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2024-03-02T14:00:00+00:00",
+            "fixture": "Manchester City WFC vs Everton LFC",
+            "player": "Chloe Kelly",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2024-03-02T14:00:00+00:00",
+            "fixture": "Manchester City WFC vs Everton LFC",
+            "player": "Khadija Shaw",
+            "shots": 6,
+            "hit": true
+          },
+          {
+            "date": "2024-03-03T14:30:00+00:00",
+            "fixture": "Arsenal WFC vs Tottenham Hotspur Women",
+            "player": "Bethany Mead",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2024-03-03T14:30:00+00:00",
+            "fixture": "Arsenal WFC vs Tottenham Hotspur Women",
+            "player": "Alessia Russo",
+            "shots": 5,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2024-W11",
+        "picks": 1,
+        "hits": 0,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2024-03-17T12:00:00+00:00",
+            "fixture": "Manchester United W vs Bristol City WFC",
+            "player": "Nikita Parris",
+            "shots": 1,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2024-W12",
+        "picks": 3,
+        "hits": 3,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 33.75,
+        "profit": 23.75,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2024-03-23T12:30:00+00:00",
+            "fixture": "Manchester City WFC vs Manchester United W",
+            "player": "Laura Coombs",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2024-03-23T12:30:00+00:00",
+            "fixture": "Manchester City WFC vs Manchester United W",
+            "player": "Khadija Shaw",
+            "shots": 5,
+            "hit": true
+          },
+          {
+            "date": "2024-03-24T17:00:00+00:00",
+            "fixture": "Leicester City WFC vs Brighton & Hove Albion WFC",
+            "player": "Jutta Rantala",
+            "shots": 5,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2024-W15",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 22.5,
+        "profit": 12.5,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2024-04-14T19:45:00+00:00",
+            "fixture": "Arsenal WFC vs Bristol City WFC",
+            "player": "Bethany Mead",
+            "shots": 6,
+            "hit": true
+          },
+          {
+            "date": "2024-04-14T19:45:00+00:00",
+            "fixture": "Arsenal WFC vs Bristol City WFC",
+            "player": "Alessia Russo",
+            "shots": 9,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2024-W16",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 22.5,
+        "profit": 12.5,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2024-04-21T15:00:00+00:00",
+            "fixture": "Arsenal WFC vs Leicester City WFC",
+            "player": "Bethany Mead",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2024-04-21T15:00:00+00:00",
+            "fixture": "Arsenal WFC vs Leicester City WFC",
+            "player": "Alessia Russo",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2024-W18",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 15.0,
+        "profit": 5.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2024-05-05T20:45:00+00:00",
+            "fixture": "Chelsea FCW vs Bristol City WFC",
+            "player": "Sjoeke N\u00fcsken",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2024-W20",
+        "picks": 2,
+        "hits": 1,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2024-05-18T17:00:00+00:00",
+            "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+            "player": "Bethany Mead",
+            "shots": 0,
+            "hit": false
+          },
+          {
+            "date": "2024-05-18T17:00:00+00:00",
+            "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+            "player": "Alessia Russo",
+            "shots": 5,
+            "hit": true
+          }
+        ]
+      }
+    ]
+  },
+  "B": {
+    "picks": 61,
+    "hits": 57,
+    "hit_rate": 93.4,
+    "active_weekends": 39,
+    "average_picks_per_active_weekend": 1.56,
+    "median_picks_per_active_weekend": 1,
+    "pick_count_distribution": {
+      "1": 20,
+      "2": 16,
+      "3": 3
+    },
+    "perfect_weekends": 35,
+    "perfect_weekend_rate": 89.7,
+    "rollover_total_staked": 390,
+    "rollover_total_return": 1140.0,
+    "rollover_profit": 750.0,
+    "weekends_with_same_kickoff_picks": 12,
+    "weekends": [
+      {
+        "dataset": "Frauen-Bundesliga 2023/24",
+        "week": "2023-W49",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2023-12-09T13:00:00+00:00",
+            "fixture": "SGS Essen 19/68 vs SC Freiburg",
+            "player": "Ramona Maier",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Frauen-Bundesliga 2023/24",
+        "week": "2024-W19",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2024-05-12T12:00:00+00:00",
+            "fixture": "Bayern M\u00fcnchen W vs N\u00fcrnberg W",
+            "player": "Pernille Harder",
+            "shots": 5,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W40",
+        "picks": 1,
+        "hits": 0,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2015-10-04T21:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Olympique de Marseille",
+            "player": "Edinson Cavani",
+            "shots": 1,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W43",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 40.0,
+        "profit": 30.0,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2015-10-25T21:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Saint-\u00c9tienne",
+            "player": "Zlatan Ibrahimovi\u0107",
+            "shots": 5,
+            "hit": true
+          },
+          {
+            "date": "2015-10-25T21:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Saint-\u00c9tienne",
+            "player": "Edinson Cavani",
+            "shots": 5,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W44",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2015-10-31T18:00:00+00:00",
+            "fixture": "Saint-\u00c9tienne vs Stade de Reims",
+            "player": "Nolan Roux",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W45",
+        "picks": 3,
+        "hits": 3,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 80.0,
+        "profit": 70.0,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2015-11-07T18:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Toulouse",
+            "player": "\u00c1ngel Di Mar\u00eda",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2015-11-07T18:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Toulouse",
+            "player": "Zlatan Ibrahimovi\u0107",
+            "shots": 5,
+            "hit": true
+          },
+          {
+            "date": "2015-11-07T19:00:00+00:00",
+            "fixture": "Stade Malherbe Caen vs Guingamp",
+            "player": "Andy Delort",
+            "shots": 6,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W47",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 40.0,
+        "profit": 30.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2015-11-21T21:00:00+00:00",
+            "fixture": "Guingamp vs Toulouse",
+            "player": "Yannis Salibur",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2015-11-22T13:00:00+00:00",
+            "fixture": "Stade Malherbe Caen vs Angers",
+            "player": "Andy Delort",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W48",
+        "picks": 2,
+        "hits": 1,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2015-11-28T18:10:00+00:00",
+            "fixture": "Paris Saint-Germain vs Troyes",
+            "player": "\u00c1ngel Di Mar\u00eda",
+            "shots": 1,
+            "hit": false
+          },
+          {
+            "date": "2015-11-28T18:10:00+00:00",
+            "fixture": "Paris Saint-Germain vs Troyes",
+            "player": "Zlatan Ibrahimovi\u0107",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2015-W51",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2015-12-19T21:00:00+00:00",
+            "fixture": "Lorient vs Nantes",
+            "player": "Yann Jouffre",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W01",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2016-01-10T20:00:00+00:00",
+            "fixture": "Olympique de Marseille vs Guingamp",
+            "player": "Michy Batshuayi",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W03",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 40.0,
+        "profit": 30.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2016-01-23T18:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Angers",
+            "player": "Zlatan Ibrahimovi\u0107",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2016-01-23T21:00:00+00:00",
+            "fixture": "Lille vs Troyes",
+            "player": "\u00c9ric Bauth\u00e9ac",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W06",
+        "picks": 2,
+        "hits": 1,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2016-02-13T18:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Lille",
+            "player": "Edinson Cavani",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2016-02-13T21:00:00+00:00",
+            "fixture": "Nantes vs Lorient",
+            "player": "Emiliano Sala",
+            "shots": 1,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W07",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2016-02-20T18:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Stade de Reims",
+            "player": "Zlatan Ibrahimovi\u0107",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W09",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2016-03-05T21:00:00+00:00",
+            "fixture": "Bordeaux vs Gaz\u00e9lec Ajaccio",
+            "player": "Cheick Diabat\u00e9",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W11",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2016-03-20T22:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs AS Monaco",
+            "player": "Zlatan Ibrahimovi\u0107",
+            "shots": 8,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W14",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2016-04-09T18:00:00+00:00",
+            "fixture": "Stade Malherbe Caen vs Lorient",
+            "player": "Andy Delort",
+            "shots": 6,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "Ligue 1 2015/16",
+        "week": "2016-W15",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 40.0,
+        "profit": 30.0,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2016-04-16T17:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Stade Malherbe Caen",
+            "player": "Zlatan Ibrahimovi\u0107",
+            "shots": 6,
+            "hit": true
+          },
+          {
+            "date": "2016-04-16T17:00:00+00:00",
+            "fixture": "Paris Saint-Germain vs Stade Malherbe Caen",
+            "player": "Edinson Cavani",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2018/19 random",
+        "week": "2018-W49",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 40.0,
+        "profit": 30.0,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2018-12-09T15:00:00+00:00",
+            "fixture": "Reading WFC vs Liverpool WFC",
+            "player": "Fara Williams",
+            "shots": 11,
+            "hit": true
+          },
+          {
+            "date": "2018-12-09T15:00:00+00:00",
+            "fixture": "Reading WFC vs Liverpool WFC",
+            "player": "Brooke Chaplen",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2018/19 random",
+        "week": "2019-W01",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 40.0,
+        "profit": 30.0,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2019-01-06T15:00:00+00:00",
+            "fixture": "Chelsea FCW vs Everton LFC",
+            "player": "Ji So-yun",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2019-01-06T15:00:00+00:00",
+            "fixture": "Chelsea FCW vs Everton LFC",
+            "player": "Erin Cuthbert",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2018/19 random",
+        "week": "2019-W04",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2019-01-27T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs Brighton & Hove Albion WFC",
+            "player": "Nikita Parris",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2018/19 random",
+        "week": "2019-W13",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2019-03-31T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs Liverpool WFC",
+            "player": "Nikita Parris",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2018/19 random",
+        "week": "2019-W16",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2019-04-21T13:30:00+00:00",
+            "fixture": "Arsenal WFC vs Everton LFC",
+            "player": "Vivianne Miedema",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2018/19 random",
+        "week": "2019-W17",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 40.0,
+        "profit": 30.0,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2019-04-28T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs Yeovil Town LFC",
+            "player": "Georgia Stanway",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2019-04-28T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs Yeovil Town LFC",
+            "player": "Nikita Parris",
+            "shots": 7,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2020-W51",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2020-12-20T11:00:00+00:00",
+            "fixture": "Manchester United W vs Bristol City WFC",
+            "player": "Ella Toone",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W02",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2021-01-17T13:30:00+00:00",
+            "fixture": "Manchester City WFC vs Aston Villa W",
+            "player": "Georgia Stanway",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W03",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2021-01-24T11:00:00+00:00",
+            "fixture": "Manchester United W vs Birmingham City WFC",
+            "player": "Ella Toone",
+            "shots": 7,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W04",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 40.0,
+        "profit": 30.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2021-01-31T13:30:00+00:00",
+            "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+            "player": "Pernille Mosegaard Harder",
+            "shots": 6,
+            "hit": true
+          },
+          {
+            "date": "2021-01-31T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs West Ham United LFC",
+            "player": "Georgia Stanway",
+            "shots": 5,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W05",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 40.0,
+        "profit": 30.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2021-02-07T11:30:00+00:00",
+            "fixture": "Manchester United W vs Reading WFC",
+            "player": "Ella Toone",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2021-02-07T15:00:00+00:00",
+            "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+            "player": "Bethany England",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W09",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2021-03-07T15:00:00+00:00",
+            "fixture": "Manchester City WFC vs Everton LFC",
+            "player": "Ellen White",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W12",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2021-03-27T10:30:00+00:00",
+            "fixture": "Manchester United W vs West Ham United LFC",
+            "player": "Christen Annemarie Press",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W13",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2021-04-04T13:30:00+00:00",
+            "fixture": "Chelsea FCW vs Birmingham City WFC",
+            "player": "Pernille Mosegaard Harder",
+            "shots": 2,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2020/21",
+        "week": "2021-W16",
+        "picks": 3,
+        "hits": 3,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 80.0,
+        "profit": 70.0,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2021-04-25T11:30:00+00:00",
+            "fixture": "Manchester United W vs Tottenham Hotspur Women",
+            "player": "Christen Annemarie Press",
+            "shots": 7,
+            "hit": true
+          },
+          {
+            "date": "2021-04-25T15:00:00+00:00",
+            "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+            "player": "Jordan Nobbs",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2021-04-25T15:00:00+00:00",
+            "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+            "player": "Vivianne Miedema",
+            "shots": 8,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2023-W49",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 40.0,
+        "profit": 30.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2023-12-09T12:00:00+00:00",
+            "fixture": "Manchester City WFC vs Aston Villa W",
+            "player": "Chloe Kelly",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2023-12-10T16:00:00+00:00",
+            "fixture": "Liverpool WFC vs Bristol City WFC",
+            "player": "Sophie Roman Haug",
+            "shots": 3,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2024-W03",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 40.0,
+        "profit": 30.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2024-01-20T16:00:00+00:00",
+            "fixture": "Arsenal WFC vs Everton LFC",
+            "player": "Alessia Russo",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2024-01-21T16:30:00+00:00",
+            "fixture": "Manchester City WFC vs Liverpool WFC",
+            "player": "Chloe Kelly",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2024-W09",
+        "picks": 1,
+        "hits": 1,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 20.0,
+        "profit": 10.0,
+        "same_kickoff": false,
+        "selections": [
+          {
+            "date": "2024-03-03T14:30:00+00:00",
+            "fixture": "Arsenal WFC vs Tottenham Hotspur Women",
+            "player": "Alessia Russo",
+            "shots": 5,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2024-W12",
+        "picks": 3,
+        "hits": 3,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 80.0,
+        "profit": 70.0,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2024-03-23T12:30:00+00:00",
+            "fixture": "Manchester City WFC vs Manchester United W",
+            "player": "Laura Coombs",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2024-03-23T12:30:00+00:00",
+            "fixture": "Manchester City WFC vs Manchester United W",
+            "player": "Khadija Shaw",
+            "shots": 5,
+            "hit": true
+          },
+          {
+            "date": "2024-03-24T17:00:00+00:00",
+            "fixture": "Leicester City WFC vs Brighton & Hove Albion WFC",
+            "player": "Jutta Rantala",
+            "shots": 5,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2024-W15",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 40.0,
+        "profit": 30.0,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2024-04-14T19:45:00+00:00",
+            "fixture": "Arsenal WFC vs Bristol City WFC",
+            "player": "Bethany Mead",
+            "shots": 6,
+            "hit": true
+          },
+          {
+            "date": "2024-04-14T19:45:00+00:00",
+            "fixture": "Arsenal WFC vs Bristol City WFC",
+            "player": "Alessia Russo",
+            "shots": 9,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2024-W16",
+        "picks": 2,
+        "hits": 2,
+        "all_hit": true,
+        "starting_stake": 10,
+        "ending_balance": 40.0,
+        "profit": 30.0,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2024-04-21T15:00:00+00:00",
+            "fixture": "Arsenal WFC vs Leicester City WFC",
+            "player": "Bethany Mead",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2024-04-21T15:00:00+00:00",
+            "fixture": "Arsenal WFC vs Leicester City WFC",
+            "player": "Alessia Russo",
+            "shots": 4,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "dataset": "WSL 2023/24",
+        "week": "2024-W20",
+        "picks": 2,
+        "hits": 1,
+        "all_hit": false,
+        "starting_stake": 10,
+        "ending_balance": 0,
+        "profit": -10,
+        "same_kickoff": true,
+        "selections": [
+          {
+            "date": "2024-05-18T17:00:00+00:00",
+            "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+            "player": "Bethany Mead",
+            "shots": 0,
+            "hit": false
+          },
+          {
+            "date": "2024-05-18T17:00:00+00:00",
+            "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+            "player": "Alessia Russo",
+            "shots": 5,
+            "hit": true
+          }
+        ]
+      }
+    ]
+  },
+  "by_dataset": {
+    "Ligue 1 2015/16": {
+      "match_weekends": 35,
+      "A": {
+        "picks": 44,
+        "hits": 35,
+        "hit_rate": 79.5,
+        "active_weekends": 22,
+        "average_picks_per_active_weekend": 2.0,
+        "median_picks_per_active_weekend": 2.0,
+        "pick_count_distribution": {
+          "1": 9,
+          "2": 7,
+          "3": 3,
+          "4": 3
+        },
+        "perfect_weekends": 15,
+        "perfect_weekend_rate": 68.2,
+        "rollover_total_staked": 220,
+        "rollover_total_return": 344.99,
+        "rollover_profit": 124.99,
+        "weekends_with_same_kickoff_picks": 11
+      },
+      "B": {
+        "picks": 23,
+        "hits": 20,
+        "hit_rate": 87.0,
+        "active_weekends": 15,
+        "average_picks_per_active_weekend": 1.53,
+        "median_picks_per_active_weekend": 1,
+        "pick_count_distribution": {
+          "1": 8,
+          "2": 6,
+          "3": 1
+        },
+        "perfect_weekends": 12,
+        "perfect_weekend_rate": 80.0,
+        "rollover_total_staked": 150,
+        "rollover_total_return": 380.0,
+        "rollover_profit": 230.0,
+        "weekends_with_same_kickoff_picks": 4
+      }
+    },
+    "WSL 2023/24": {
+      "match_weekends": 23,
+      "A": {
+        "picks": 27,
+        "hits": 23,
+        "hit_rate": 85.2,
+        "active_weekends": 10,
+        "average_picks_per_active_weekend": 2.7,
+        "median_picks_per_active_weekend": 2.5,
+        "pick_count_distribution": {
+          "1": 2,
+          "2": 3,
+          "3": 1,
+          "4": 4
+        },
+        "perfect_weekends": 6,
+        "perfect_weekend_rate": 60.0,
+        "rollover_total_staked": 100,
+        "rollover_total_return": 194.99,
+        "rollover_profit": 94.99,
+        "weekends_with_same_kickoff_picks": 8
+      },
+      "B": {
+        "picks": 14,
+        "hits": 13,
+        "hit_rate": 92.9,
+        "active_weekends": 7,
+        "average_picks_per_active_weekend": 2.0,
+        "median_picks_per_active_weekend": 2,
+        "pick_count_distribution": {
+          "1": 1,
+          "2": 5,
+          "3": 1
+        },
+        "perfect_weekends": 6,
+        "perfect_weekend_rate": 85.7,
+        "rollover_total_staked": 70,
+        "rollover_total_return": 260.0,
+        "rollover_profit": 190.0,
+        "weekends_with_same_kickoff_picks": 4
+      }
+    },
+    "Frauen-Bundesliga 2023/24": {
+      "match_weekends": 21,
+      "A": {
+        "picks": 10,
+        "hits": 9,
+        "hit_rate": 90.0,
+        "active_weekends": 6,
+        "average_picks_per_active_weekend": 1.67,
+        "median_picks_per_active_weekend": 1.5,
+        "pick_count_distribution": {
+          "1": 3,
+          "2": 2,
+          "3": 1
+        },
+        "perfect_weekends": 5,
+        "perfect_weekend_rate": 83.3,
+        "rollover_total_staked": 60,
+        "rollover_total_return": 90.0,
+        "rollover_profit": 30.0,
+        "weekends_with_same_kickoff_picks": 3
+      },
+      "B": {
+        "picks": 2,
+        "hits": 2,
+        "hit_rate": 100.0,
+        "active_weekends": 2,
+        "average_picks_per_active_weekend": 1.0,
+        "median_picks_per_active_weekend": 1.0,
+        "pick_count_distribution": {
+          "1": 2
+        },
+        "perfect_weekends": 2,
+        "perfect_weekend_rate": 100.0,
+        "rollover_total_staked": 20,
+        "rollover_total_return": 40.0,
+        "rollover_profit": 20.0,
+        "weekends_with_same_kickoff_picks": 0
+      }
+    },
+    "WSL 2020/21": {
+      "match_weekends": 25,
+      "A": {
+        "picks": 26,
+        "hits": 22,
+        "hit_rate": 84.6,
+        "active_weekends": 12,
+        "average_picks_per_active_weekend": 2.17,
+        "median_picks_per_active_weekend": 2.0,
+        "pick_count_distribution": {
+          "1": 5,
+          "2": 2,
+          "3": 3,
+          "4": 2
+        },
+        "perfect_weekends": 9,
+        "perfect_weekend_rate": 75.0,
+        "rollover_total_staked": 120,
+        "rollover_total_return": 206.25,
+        "rollover_profit": 86.25,
+        "weekends_with_same_kickoff_picks": 7
+      },
+      "B": {
+        "picks": 13,
+        "hits": 13,
+        "hit_rate": 100.0,
+        "active_weekends": 9,
+        "average_picks_per_active_weekend": 1.44,
+        "median_picks_per_active_weekend": 1,
+        "pick_count_distribution": {
+          "1": 6,
+          "2": 2,
+          "3": 1
+        },
+        "perfect_weekends": 9,
+        "perfect_weekend_rate": 100.0,
+        "rollover_total_staked": 90,
+        "rollover_total_return": 280.0,
+        "rollover_profit": 190.0,
+        "weekends_with_same_kickoff_picks": 1
+      }
+    },
+    "WSL 2018/19 random": {
+      "match_weekends": 20,
+      "A": {
+        "picks": 9,
+        "hits": 9,
+        "hit_rate": 100.0,
+        "active_weekends": 6,
+        "average_picks_per_active_weekend": 1.5,
+        "median_picks_per_active_weekend": 1.5,
+        "pick_count_distribution": {
+          "1": 3,
+          "2": 3
+        },
+        "perfect_weekends": 6,
+        "perfect_weekend_rate": 100.0,
+        "rollover_total_staked": 60,
+        "rollover_total_return": 112.5,
+        "rollover_profit": 52.5,
+        "weekends_with_same_kickoff_picks": 3
+      },
+      "B": {
+        "picks": 9,
+        "hits": 9,
+        "hit_rate": 100.0,
+        "active_weekends": 6,
+        "average_picks_per_active_weekend": 1.5,
+        "median_picks_per_active_weekend": 1.5,
+        "pick_count_distribution": {
+          "1": 3,
+          "2": 3
+        },
+        "perfect_weekends": 6,
+        "perfect_weekend_rate": 100.0,
+        "rollover_total_staked": 60,
+        "rollover_total_return": 180.0,
+        "rollover_profit": 120.0,
+        "weekends_with_same_kickoff_picks": 3
+      }
+    }
+  },
+  "assumptions": [
+    "A weekend is ISO Saturday/Sunday using the saved StatsBomb kickoff offset. Friday/Monday and midweek fixtures are excluded.",
+    "Only weekends with at least one qualifying pick require a bet. Match-weekend count is the number of dataset-weeks containing any Saturday/Sunday match.",
+    "Each active weekend starts a fresh $10 all-in rollover. Every qualifying selection that weekend is ordered by kickoff, fixture ID and player ID; all must win.",
+    "Same-kickoff selections can make the rollover impossible to execute literally. Results are hypothetical at fixed odds A=1.50 and B=2.00.",
+    "The five datasets are non-overlapping, but share providers/eras and include women\u2019s leagues; this is not a prospective MLS forecast or market-price test."
+  ]
+}

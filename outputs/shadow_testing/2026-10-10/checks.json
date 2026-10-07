@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": {
+    "hash_matches_manifest": true,
+    "prospective_outcome_free": true,
+    "target_dates_only": true,
+    "rank_sequence": true,
+    "five_selected": true,
+    "history_before_cutoff": true,
+    "manifest_ids_match": true
+  },
+  "counts": {
+    "fixtures": 41,
+    "ranked": 38,
+    "selected": 5
+  }
+}

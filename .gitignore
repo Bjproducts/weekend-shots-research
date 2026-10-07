@@ -1,0 +1,45 @@
+# Local dependencies and caches
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Raw/downloaded data and compressed archives
+**/raw/
+*.zip
+*.gz
+*.tar
+*.7z
+
+# Large reproducible intermediate datasets
+**/normalized_matches.json
+**/all_samples.json
+**/all_player_samples.json
+**/all_candidate_samples.json
+**/player_appearances.json
+**/events.json
+outputs/home_environment_pattern_test.json
+
+# Generated development artifacts
+work/*.png
+work/*.jpg
+work/*.jpeg
+work/browser_worker/test-results/
+work/browser_worker/playwright-report/
+
+# Local Qwen run logs
+outputs/qwen_worker/
+
+# Browser-probe run logs and screenshots
+outputs/on_demand/browser_probe/
+outputs/on_demand/jobs/
+

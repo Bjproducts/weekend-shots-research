@@ -1,0 +1,141 @@
+{
+  "scope": "two non-overlapping replications of the identical frozen ranked Big Five workflow",
+  "seasons": [
+    {
+      "season": "2023/24",
+      "source_matches": 946,
+      "environments": {
+        "hits": 16,
+        "fixtures": 20,
+        "rate": 80.0
+      },
+      "A": {
+        "hits": 18,
+        "picks": 22,
+        "misses": 4,
+        "rate": 81.8,
+        "wilson95": [
+          61.5,
+          92.7
+        ]
+      },
+      "B": {
+        "hits": 11,
+        "picks": 14,
+        "misses": 3,
+        "rate": 78.6,
+        "wilson95": [
+          52.4,
+          92.4
+        ]
+      },
+      "active_B_weekends": 4,
+      "clean_B_weekends": 1,
+      "longest_B_hit_streak": 6
+    },
+    {
+      "season": "2024/25",
+      "source_matches": 770,
+      "environments": {
+        "hits": 16,
+        "fixtures": 20,
+        "rate": 80.0
+      },
+      "A": {
+        "hits": 19,
+        "picks": 22,
+        "misses": 3,
+        "rate": 86.4,
+        "wilson95": [
+          66.7,
+          95.3
+        ]
+      },
+      "B": {
+        "hits": 9,
+        "picks": 9,
+        "misses": 0,
+        "rate": 100.0,
+        "wilson95": [
+          70.1,
+          100.0
+        ]
+      },
+      "active_B_weekends": 4,
+      "clean_B_weekends": 4,
+      "longest_B_hit_streak": 9
+    }
+  ],
+  "combined": {
+    "environment_home_outshot": {
+      "hits": 32,
+      "fixtures": 40,
+      "rate": 80.0
+    },
+    "A": {
+      "hits": 37,
+      "picks": 44,
+      "rate": 84.1,
+      "wilson95": [
+        70.6,
+        92.1
+      ]
+    },
+    "B": {
+      "hits": 20,
+      "picks": 23,
+      "rate": 87.0,
+      "wilson95": [
+        67.9,
+        95.5
+      ]
+    },
+    "B_minus_A_percentage_points": 2.9,
+    "active_B_weekends": 8,
+    "clean_B_weekends": 5,
+    "clean_B_weekend_rate": 62.5,
+    "B_picks_per_active_weekend": 2.88
+  },
+  "B_misses": [
+    {
+      "season": "2023/24",
+      "weekend": "2023-09-23",
+      "league": "Premier League",
+      "fixture": "Brighton & Hove Albion vs AFC Bournemouth",
+      "player": "Evan Ferguson",
+      "avg_shots": 3.6,
+      "avg_minutes": 80.6,
+      "recent_hits": 4,
+      "shots": 1
+    },
+    {
+      "season": "2023/24",
+      "weekend": "2023-09-30",
+      "league": "Bundesliga",
+      "fixture": "Bochum vs Borussia M\u00f6nchengladbach",
+      "player": "Kevin St\u00f6ger",
+      "avg_shots": 3.6,
+      "avg_minutes": 82.8,
+      "recent_hits": 4,
+      "shots": 1
+    },
+    {
+      "season": "2023/24",
+      "weekend": "2023-10-07",
+      "league": "Ligue 1",
+      "fixture": "Brest vs Toulouse",
+      "player": "J\u00e9r\u00e9my Le Douaron",
+      "avg_shots": 3.6,
+      "avg_minutes": 80.6,
+      "recent_hits": 4,
+      "shots": 1
+    }
+  ],
+  "interpretation": [
+    "Plan B remains useful as a stricter primary shortlist, but it was not superior to Plan A in the new 2023/24 replication.",
+    "The pooled difference is descriptive because picks share players, fixtures, leagues and weekends.",
+    "Clean-weekend frequency is more relevant than individual hit rate for an all-picks-must-win weekend approach.",
+    "Historical starting lineups are treated as known; this is not yet prospective proof.",
+    "No historical odds or profit are claimed."
+  ]
+}

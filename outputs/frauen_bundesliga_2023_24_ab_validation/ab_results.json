@@ -1,0 +1,248 @@
+{
+  "dataset": "Frauen-Bundesliga 2023/24",
+  "scope": "external cross-population stress test 2",
+  "provider": "StatsBomb Open Data",
+  "matches": 132,
+  "teams": 12,
+  "player_samples": 4056,
+  "eligible_fixtures": 84,
+  "rules": {
+    "version": "home-main-shooter-v1",
+    "target": "2+ total shots",
+    "main_shooter_rank_max": 2,
+    "prior_starts": 5,
+    "prior_start_lookback_days": 180,
+    "prior_average_minutes_min": 70,
+    "prior_hits_min": 4,
+    "team_season_history_min": 8,
+    "venue_history_min": 3,
+    "venue_history_max": 5,
+    "home_shots_min": 12,
+    "away_conceded_min": 12,
+    "strength": "strictly higher season PPG AND last-five PPG",
+    "shooting": "home/away venue shot proxy favours home",
+    "timing": "recorded starters assumed available at lineup time; history >24h before kickoff",
+    "benchmark_universe": "same home starters and team-history eligibility; no strength/shooting filter"
+  },
+  "plan": {
+    "created_utc": "2026-09-28T21:10:00Z",
+    "status": "frozen_before_player_event_acquisition",
+    "dataset": "Frauen-Bundesliga 2023/24",
+    "provider": "StatsBomb Open Data",
+    "competition_id": 135,
+    "season_id": 281,
+    "expected_matches": 132,
+    "expected_teams": 12,
+    "expected_rounds": 22,
+    "selection_reason": "Modern, complete balanced round-robin league listed in the current open-data catalog and unused by this project; selected from match-level coverage before acquiring player events or calculating qualifying outcomes.",
+    "scope_label": "external_cross_population_stress_test_2",
+    "rules_sha256": "bf9c477997fb2ee2e34568441c352443ee1785b5f0fc9ae20d0a078530bda5b3",
+    "pattern_A": "Existing frozen original environment-first 2+ shots rule.",
+    "pattern_B": "Pattern A plus previous-five-start average shots >=3 and average minutes >=80.",
+    "decision_policy": "No threshold changes, result-based exclusions, or dataset substitution after player-event acquisition. Preserve every sample, exclusion and unknown.",
+    "limits": [
+      "Women's football is a different population; this tests portability and is not direct validation of a men's MLS betting rate.",
+      "The same 2023/24 season and StatsBomb provider family as the WSL stress test may introduce common-era/provider dependence.",
+      "Historical lineup-time starters are treated as known; publication timing is not reconstructed.",
+      "No odds or profitability calculation."
+    ]
+  },
+  "plan_sha256": "87a1a14c8ff7be2d63959113e64c346b68a219bfab7d2018272706157ac97c06",
+  "baseline_rules_sha256": "bf9c477997fb2ee2e34568441c352443ee1785b5f0fc9ae20d0a078530bda5b3",
+  "comparison": {
+    "A": {
+      "hits": 15,
+      "n": 19,
+      "rate": 78.9,
+      "missing": 0,
+      "fixtures": 13,
+      "wilson95": [
+        56.7,
+        91.5
+      ]
+    },
+    "B": {
+      "hits": 3,
+      "n": 5,
+      "rate": 60.0,
+      "missing": 0,
+      "fixtures": 5,
+      "wilson95": [
+        23.1,
+        88.2
+      ]
+    },
+    "excluded": {
+      "hits": 12,
+      "n": 14,
+      "rate": 85.7,
+      "missing": 0,
+      "fixtures": 11,
+      "wilson95": [
+        60.1,
+        96.0
+      ]
+    },
+    "retained_pct": 26.3,
+    "rate_difference_pp": -18.9,
+    "paired_week_bootstrap_interval95": [
+      -62.5,
+      20.0
+    ],
+    "bootstrap_valid_replicates": 4995,
+    "active_weeks": 10
+  },
+  "round_split_descriptive_only": {
+    "rounds_1_to_11": {
+      "A": {
+        "hits": 3,
+        "n": 5,
+        "rate": 60.0,
+        "missing": 0,
+        "fixtures": 4,
+        "wilson95": [
+          23.1,
+          88.2
+        ]
+      },
+      "B": {
+        "hits": 1,
+        "n": 1,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          20.7,
+          100.0
+        ]
+      },
+      "excluded": {
+        "hits": 2,
+        "n": 4,
+        "rate": 50.0,
+        "missing": 0,
+        "fixtures": 3,
+        "wilson95": [
+          15.0,
+          85.0
+        ]
+      },
+      "retained_pct": 20.0,
+      "rate_difference_pp": 40.0,
+      "paired_week_bootstrap_interval95": [
+        0,
+        66.67
+      ],
+      "bootstrap_valid_replicates": 3569,
+      "active_weeks": 3
+    },
+    "rounds_12_to_22": {
+      "A": {
+        "hits": 12,
+        "n": 14,
+        "rate": 85.7,
+        "missing": 0,
+        "fixtures": 9,
+        "wilson95": [
+          60.1,
+          96.0
+        ]
+      },
+      "B": {
+        "hits": 2,
+        "n": 4,
+        "rate": 50.0,
+        "missing": 0,
+        "fixtures": 4,
+        "wilson95": [
+          15.0,
+          85.0
+        ]
+      },
+      "excluded": {
+        "hits": 10,
+        "n": 10,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 8,
+        "wilson95": [
+          72.2,
+          100.0
+        ]
+      },
+      "retained_pct": 28.6,
+      "rate_difference_pp": -35.7,
+      "paired_week_bootstrap_interval95": [
+        -84.62,
+        0
+      ],
+      "bootstrap_valid_replicates": 4989,
+      "active_weeks": 7
+    }
+  },
+  "without_three_most_selected_B_players": {
+    "A": {
+      "hits": 10,
+      "n": 13,
+      "rate": 76.9,
+      "missing": 0,
+      "fixtures": 9,
+      "wilson95": [
+        49.7,
+        91.8
+      ]
+    },
+    "B": {
+      "hits": 1,
+      "n": 2,
+      "rate": 50.0,
+      "missing": 0,
+      "fixtures": 2,
+      "wilson95": [
+        9.5,
+        90.5
+      ]
+    },
+    "excluded": {
+      "hits": 9,
+      "n": 11,
+      "rate": 81.8,
+      "missing": 0,
+      "fixtures": 8,
+      "wilson95": [
+        52.3,
+        94.9
+      ]
+    },
+    "retained_pct": 15.4,
+    "rate_difference_pp": -26.9,
+    "paired_week_bootstrap_interval95": [
+      -83.33,
+      30.0
+    ],
+    "bootstrap_valid_replicates": 4517,
+    "active_weeks": 7
+  },
+  "top_three_B_players": [
+    {
+      "player": "Ramona Maier",
+      "picks": 1
+    },
+    {
+      "player": "Lea Sch\u00fcller",
+      "picks": 1
+    },
+    {
+      "player": "Alexandra Popp",
+      "picks": 1
+    }
+  ],
+  "limits": [
+    "Women's football is a different population; this is not direct proof of a men's MLS betting rate.",
+    "Historical replay, not a prospective trial; actual starters are assumed known at lineup time.",
+    "Same 2023/24 era and StatsBomb provider family as the WSL test, so the two modern stress tests are not fully independent.",
+    "The 132 matches are unused and non-overlapping with all earlier project evaluation matches.",
+    "Historical publication timing and published kickoff timezone are not certified; replay uses the same >24-hour cutoff.",
+    "No odds or profitability test; weekly bootstrap does not remove all player/team dependence; no retuning."
+  ]
+}

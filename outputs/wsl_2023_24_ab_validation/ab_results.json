@@ -1,0 +1,246 @@
+{
+  "dataset": "FA Women's Super League 2023/24",
+  "scope": "external cross-population stress test",
+  "provider": "StatsBomb Open Data",
+  "matches": 132,
+  "teams": 12,
+  "player_samples": 3984,
+  "eligible_fixtures": 84,
+  "rules": {
+    "version": "home-main-shooter-v1",
+    "target": "2+ total shots",
+    "main_shooter_rank_max": 2,
+    "prior_starts": 5,
+    "prior_start_lookback_days": 180,
+    "prior_average_minutes_min": 70,
+    "prior_hits_min": 4,
+    "team_season_history_min": 8,
+    "venue_history_min": 3,
+    "venue_history_max": 5,
+    "home_shots_min": 12,
+    "away_conceded_min": 12,
+    "strength": "strictly higher season PPG AND last-five PPG",
+    "shooting": "home/away venue shot proxy favours home",
+    "timing": "recorded starters assumed available at lineup time; history >24h before kickoff",
+    "benchmark_universe": "same home starters and team-history eligibility; no strength/shooting filter"
+  },
+  "plan": {
+    "created_utc": "2026-09-28T20:30:00Z",
+    "status": "frozen_before_player_event_acquisition",
+    "dataset": "FA Women's Super League 2023/24",
+    "provider": "StatsBomb Open Data",
+    "competition_id": 37,
+    "season_id": 281,
+    "expected_matches": 132,
+    "expected_teams": 12,
+    "selection_reason": "Modern, complete round-robin league listed in the current open-data catalog and unused by this project; chosen for coverage before qualifying outcomes are calculated.",
+    "scope_label": "external_cross_population_stress_test",
+    "rules_sha256": "bf9c477997fb2ee2e34568441c352443ee1785b5f0fc9ae20d0a078530bda5b3",
+    "pattern_A": "Existing frozen original environment-first 2+ shots rule.",
+    "pattern_B": "Pattern A plus previous-five-start average shots >=3 and average minutes >=80.",
+    "decision_policy": "No threshold changes, exclusions based on results, or dataset substitution after outcomes. Preserve every sample, exclusion and unknown.",
+    "limits": [
+      "Women's football is a different population; this tests portability of the mechanism and is not direct validation of a men's MLS betting rate.",
+      "Historical lineup-time starters are treated as known; publication timing is not reconstructed.",
+      "No odds or profitability calculation."
+    ]
+  },
+  "plan_sha256": "3b4101f1ea7c1c6f1ef67fe7f9af392897e8509bb1b7d66f74a608b162e6e0d7",
+  "baseline_rules_sha256": "bf9c477997fb2ee2e34568441c352443ee1785b5f0fc9ae20d0a078530bda5b3",
+  "comparison": {
+    "A": {
+      "hits": 23,
+      "n": 27,
+      "rate": 85.2,
+      "missing": 0,
+      "fixtures": 15,
+      "wilson95": [
+        67.5,
+        94.1
+      ]
+    },
+    "B": {
+      "hits": 13,
+      "n": 14,
+      "rate": 92.9,
+      "missing": 0,
+      "fixtures": 10,
+      "wilson95": [
+        68.5,
+        98.7
+      ]
+    },
+    "excluded": {
+      "hits": 10,
+      "n": 13,
+      "rate": 76.9,
+      "missing": 0,
+      "fixtures": 10,
+      "wilson95": [
+        49.7,
+        91.8
+      ]
+    },
+    "retained_pct": 51.9,
+    "rate_difference_pp": 7.7,
+    "paired_week_bootstrap_interval95": [
+      -3.12,
+      21.43
+    ],
+    "bootstrap_valid_replicates": 5000,
+    "active_weeks": 10
+  },
+  "round_split_descriptive_only": {
+    "rounds_1_to_11": {
+      "A": {
+        "hits": 7,
+        "n": 8,
+        "rate": 87.5,
+        "missing": 0,
+        "fixtures": 4,
+        "wilson95": [
+          52.9,
+          97.8
+        ]
+      },
+      "B": {
+        "hits": 4,
+        "n": 4,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 4,
+        "wilson95": [
+          51.0,
+          100.0
+        ]
+      },
+      "excluded": {
+        "hits": 3,
+        "n": 4,
+        "rate": 75.0,
+        "missing": 0,
+        "fixtures": 4,
+        "wilson95": [
+          30.1,
+          95.4
+        ]
+      },
+      "retained_pct": 50.0,
+      "rate_difference_pp": 12.5,
+      "paired_week_bootstrap_interval95": [
+        0,
+        25.0
+      ],
+      "bootstrap_valid_replicates": 5000,
+      "active_weeks": 2
+    },
+    "rounds_12_to_22": {
+      "A": {
+        "hits": 16,
+        "n": 19,
+        "rate": 84.2,
+        "missing": 0,
+        "fixtures": 11,
+        "wilson95": [
+          62.4,
+          94.5
+        ]
+      },
+      "B": {
+        "hits": 9,
+        "n": 10,
+        "rate": 90.0,
+        "missing": 0,
+        "fixtures": 6,
+        "wilson95": [
+          59.6,
+          98.2
+        ]
+      },
+      "excluded": {
+        "hits": 7,
+        "n": 9,
+        "rate": 77.8,
+        "missing": 0,
+        "fixtures": 6,
+        "wilson95": [
+          45.3,
+          93.7
+        ]
+      },
+      "retained_pct": 52.6,
+      "rate_difference_pp": 5.8,
+      "paired_week_bootstrap_interval95": [
+        -7.61,
+        23.53
+      ],
+      "bootstrap_valid_replicates": 4999,
+      "active_weeks": 8
+    }
+  },
+  "without_three_most_selected_B_players": {
+    "A": {
+      "hits": 11,
+      "n": 14,
+      "rate": 78.6,
+      "missing": 0,
+      "fixtures": 11,
+      "wilson95": [
+        52.4,
+        92.4
+      ]
+    },
+    "B": {
+      "hits": 4,
+      "n": 4,
+      "rate": 100.0,
+      "missing": 0,
+      "fixtures": 3,
+      "wilson95": [
+        51.0,
+        100.0
+      ]
+    },
+    "excluded": {
+      "hits": 7,
+      "n": 10,
+      "rate": 70.0,
+      "missing": 0,
+      "fixtures": 9,
+      "wilson95": [
+        39.7,
+        89.2
+      ]
+    },
+    "retained_pct": 28.6,
+    "rate_difference_pp": 21.4,
+    "paired_week_bootstrap_interval95": [
+      5.88,
+      40.0
+    ],
+    "bootstrap_valid_replicates": 4526,
+    "active_weeks": 7
+  },
+  "top_three_B_players": [
+    {
+      "player": "Alessia Russo",
+      "picks": 5
+    },
+    {
+      "player": "Bethany Mead",
+      "picks": 3
+    },
+    {
+      "player": "Chloe Kelly",
+      "picks": 2
+    }
+  ],
+  "limits": [
+    "This is women's football: it is an external mechanism/portability stress test, not direct proof of a men's MLS betting rate.",
+    "Historical replay, not a prospective trial; actual starters are assumed known at lineup time.",
+    "Same StatsBomb provider as prior European research, although the 132 matches are unused and non-overlapping.",
+    "The >24-hour history buffer is conservative; historical publication timing and kickoff timezone publication are not certified.",
+    "StatsBomb shot and minutes definitions follow the saved adapter; no odds or profitability test was performed.",
+    "The paired-week bootstrap does not remove all persistent player/team dependence. No threshold was changed after outcomes."
+  ]
+}

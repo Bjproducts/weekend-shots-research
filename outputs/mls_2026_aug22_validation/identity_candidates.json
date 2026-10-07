@@ -1,0 +1,4569 @@
+[
+  {
+    "home": "Charlotte FC",
+    "players": [
+      {
+        "identity": {
+          "player_id": "0Oq6712Q6D",
+          "player_name": "Ashley Westwood",
+          "birth_date": "1990-04-01",
+          "height_ft": 5,
+          "height_in": 9,
+          "weight_lb": 176,
+          "nationality": "England",
+          "primary_broad_position": "MF",
+          "primary_general_position": "DM",
+          "season_name": [
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 18,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "wvq9kwXNMW",
+            "shots": 1,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "NWMWkzoEMl",
+            "shots": 0,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-08-02 00:30:00 UTC",
+            "game_id": "ljqEdkL45x",
+            "shots": 0,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-07-25 22:30:00 UTC",
+            "game_id": "a35ro3y2qL",
+            "shots": 1,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 1,
+            "expanded_minutes": 112
+          },
+          {
+            "date": "2026-05-23 23:30:00 UTC",
+            "game_id": "KXMeXzRPQ6",
+            "shots": 1,
+            "expanded_minutes": 98
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "vzqoYzGJMa",
+            "shots": 1,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "p6qbYzX650",
+            "shots": 1,
+            "expanded_minutes": 97
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "odMXVzJ2qY",
+            "shots": 0,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-26 00:30:00 UTC",
+            "game_id": "EGMPG8njQa",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-04-22 23:30:00 UTC",
+            "game_id": "jYQJJyzyQG",
+            "shots": 1,
+            "expanded_minutes": 85
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "KPqj3z7yQ6",
+            "shots": 0,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "9z5kBzalMA",
+            "shots": 0,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "2lqROeR0Qr",
+            "shots": 1,
+            "expanded_minutes": 102
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "p6qbYzeB50",
+            "shots": 1,
+            "expanded_minutes": 98
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 1,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "vzqoYz9kMa",
+            "shots": 0,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-03-01 03:30:00 UTC",
+            "game_id": "Oa5wP6L8q1",
+            "shots": 0,
+            "expanded_minutes": 49
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "0x5g2Z8ZM7",
+          "player_name": "Kristijan Kahlina",
+          "birth_date": "1992-07-24",
+          "nationality": "Croatia",
+          "primary_broad_position": "GK",
+          "primary_general_position": "GK",
+          "season_name": [
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 19,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "wvq9kwXNMW",
+            "shots": 0,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "NWMWkzoEMl",
+            "shots": 0,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-08-02 00:30:00 UTC",
+            "game_id": "ljqEdkL45x",
+            "shots": 0,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-07-25 22:30:00 UTC",
+            "game_id": "a35ro3y2qL",
+            "shots": 0,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 0,
+            "expanded_minutes": 112
+          },
+          {
+            "date": "2026-05-23 23:30:00 UTC",
+            "game_id": "KXMeXzRPQ6",
+            "shots": 0,
+            "expanded_minutes": 98
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "vzqoYzGJMa",
+            "shots": 0,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-05-13 23:15:00 UTC",
+            "game_id": "gpMOgl9nMz",
+            "shots": 0,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "p6qbYzX650",
+            "shots": 0,
+            "expanded_minutes": 97
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "odMXVzJ2qY",
+            "shots": 0,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-26 00:30:00 UTC",
+            "game_id": "EGMPG8njQa",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-04-22 23:30:00 UTC",
+            "game_id": "jYQJJyzyQG",
+            "shots": 0,
+            "expanded_minutes": 102
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "KPqj3z7yQ6",
+            "shots": 0,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "9z5kBzalMA",
+            "shots": 0,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "2lqROeR0Qr",
+            "shots": 0,
+            "expanded_minutes": 102
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "p6qbYzeB50",
+            "shots": 0,
+            "expanded_minutes": 98
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 0,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "vzqoYz9kMa",
+            "shots": 0,
+            "expanded_minutes": 109
+          },
+          {
+            "date": "2026-03-01 03:30:00 UTC",
+            "game_id": "Oa5wP6L8q1",
+            "shots": 0,
+            "expanded_minutes": 99
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "2lqRJVwJqr",
+          "player_name": "Morrison Agyemang",
+          "birth_date": "2004-12-21",
+          "nationality": "Ghana",
+          "primary_broad_position": "DF",
+          "primary_general_position": "CB",
+          "season_name": "2026"
+        },
+        "prior_appearances": 17,
+        "history": [
+          {
+            "date": "2026-08-02 00:30:00 UTC",
+            "game_id": "ljqEdkL45x",
+            "shots": 1,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-07-25 22:30:00 UTC",
+            "game_id": "a35ro3y2qL",
+            "shots": 1,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 1,
+            "expanded_minutes": 112
+          },
+          {
+            "date": "2026-05-23 23:30:00 UTC",
+            "game_id": "KXMeXzRPQ6",
+            "shots": 1,
+            "expanded_minutes": 98
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "vzqoYzGJMa",
+            "shots": 1,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-05-13 23:15:00 UTC",
+            "game_id": "gpMOgl9nMz",
+            "shots": 0,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "p6qbYzX650",
+            "shots": 0,
+            "expanded_minutes": 97
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "odMXVzJ2qY",
+            "shots": 3,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-26 00:30:00 UTC",
+            "game_id": "EGMPG8njQa",
+            "shots": 2,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-04-22 23:30:00 UTC",
+            "game_id": "jYQJJyzyQG",
+            "shots": 2,
+            "expanded_minutes": 102
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "KPqj3z7yQ6",
+            "shots": 0,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "9z5kBzalMA",
+            "shots": 1,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "2lqROeR0Qr",
+            "shots": 0,
+            "expanded_minutes": 102
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "p6qbYzeB50",
+            "shots": 0,
+            "expanded_minutes": 98
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 0,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "vzqoYz9kMa",
+            "shots": 0,
+            "expanded_minutes": 109
+          },
+          {
+            "date": "2026-03-01 03:30:00 UTC",
+            "game_id": "Oa5wP6L8q1",
+            "shots": 0,
+            "expanded_minutes": 49
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "315VX4PEQ9",
+          "player_name": "Luca De La Torre",
+          "birth_date": "1998-05-23",
+          "height_ft": 5,
+          "height_in": 10,
+          "weight_lb": 148,
+          "nationality": "USA",
+          "primary_broad_position": "MF",
+          "primary_general_position": "CM",
+          "season_name": [
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 15,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "wvq9kwXNMW",
+            "shots": 0,
+            "expanded_minutes": 23
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "NWMWkzoEMl",
+            "shots": 0,
+            "expanded_minutes": 52
+          },
+          {
+            "date": "2026-08-02 00:30:00 UTC",
+            "game_id": "ljqEdkL45x",
+            "shots": 1,
+            "expanded_minutes": 89
+          },
+          {
+            "date": "2026-07-25 22:30:00 UTC",
+            "game_id": "a35ro3y2qL",
+            "shots": 0,
+            "expanded_minutes": 75
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 1,
+            "expanded_minutes": 74
+          },
+          {
+            "date": "2026-05-23 23:30:00 UTC",
+            "game_id": "KXMeXzRPQ6",
+            "shots": 0,
+            "expanded_minutes": 6
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "vzqoYzGJMa",
+            "shots": 1,
+            "expanded_minutes": 8
+          },
+          {
+            "date": "2026-05-13 23:15:00 UTC",
+            "game_id": "gpMOgl9nMz",
+            "shots": 0,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-04-22 23:30:00 UTC",
+            "game_id": "jYQJJyzyQG",
+            "shots": 0,
+            "expanded_minutes": 78
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "KPqj3z7yQ6",
+            "shots": 0,
+            "expanded_minutes": 19
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "9z5kBzalMA",
+            "shots": 0,
+            "expanded_minutes": 55
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "2lqROeR0Qr",
+            "shots": 0,
+            "expanded_minutes": 34
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "p6qbYzeB50",
+            "shots": 1,
+            "expanded_minutes": 30
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "vzqoYz9kMa",
+            "shots": 2,
+            "expanded_minutes": 29
+          },
+          {
+            "date": "2026-03-01 03:30:00 UTC",
+            "game_id": "Oa5wP6L8q1",
+            "shots": 0,
+            "expanded_minutes": 50
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "7vQ7ew0z5D",
+          "player_name": "Rodolfo Aloko",
+          "birth_date": "2006-12-26",
+          "height_ft": 5,
+          "height_in": 8,
+          "nationality": "Benin",
+          "primary_broad_position": "MF",
+          "primary_general_position": "W",
+          "season_name": "2026"
+        },
+        "prior_appearances": 10,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "wvq9kwXNMW",
+            "shots": 1,
+            "expanded_minutes": 74
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "NWMWkzoEMl",
+            "shots": 0,
+            "expanded_minutes": 28
+          },
+          {
+            "date": "2026-08-02 00:30:00 UTC",
+            "game_id": "ljqEdkL45x",
+            "shots": 0,
+            "expanded_minutes": 19
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 0,
+            "expanded_minutes": 38
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "vzqoYzGJMa",
+            "shots": 1,
+            "expanded_minutes": 29
+          },
+          {
+            "date": "2026-05-13 23:15:00 UTC",
+            "game_id": "gpMOgl9nMz",
+            "shots": 0,
+            "expanded_minutes": 22
+          },
+          {
+            "date": "2026-04-26 00:30:00 UTC",
+            "game_id": "EGMPG8njQa",
+            "shots": 0,
+            "expanded_minutes": 61
+          },
+          {
+            "date": "2026-04-22 23:30:00 UTC",
+            "game_id": "jYQJJyzyQG",
+            "shots": 4,
+            "expanded_minutes": 78
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "KPqj3z7yQ6",
+            "shots": 1,
+            "expanded_minutes": 72
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "9z5kBzalMA",
+            "shots": 1,
+            "expanded_minutes": 17
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "9vQ248BL5K",
+          "player_name": "Idan Toklomati",
+          "birth_date": "2004-08-09",
+          "height_ft": 6,
+          "height_in": 0,
+          "nationality": "Israel",
+          "primary_broad_position": "FW",
+          "primary_general_position": "ST",
+          "season_name": [
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 19,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "wvq9kwXNMW",
+            "shots": 2,
+            "expanded_minutes": 84
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "NWMWkzoEMl",
+            "shots": 1,
+            "expanded_minutes": 63
+          },
+          {
+            "date": "2026-08-02 00:30:00 UTC",
+            "game_id": "ljqEdkL45x",
+            "shots": 1,
+            "expanded_minutes": 89
+          },
+          {
+            "date": "2026-07-25 22:30:00 UTC",
+            "game_id": "a35ro3y2qL",
+            "shots": 1,
+            "expanded_minutes": 86
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 6,
+            "expanded_minutes": 38
+          },
+          {
+            "date": "2026-05-23 23:30:00 UTC",
+            "game_id": "KXMeXzRPQ6",
+            "shots": 2,
+            "expanded_minutes": 83
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "vzqoYzGJMa",
+            "shots": 0,
+            "expanded_minutes": 83
+          },
+          {
+            "date": "2026-05-13 23:15:00 UTC",
+            "game_id": "gpMOgl9nMz",
+            "shots": 0,
+            "expanded_minutes": 78
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "p6qbYzX650",
+            "shots": 4,
+            "expanded_minutes": 84
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "odMXVzJ2qY",
+            "shots": 2,
+            "expanded_minutes": 92
+          },
+          {
+            "date": "2026-04-26 00:30:00 UTC",
+            "game_id": "EGMPG8njQa",
+            "shots": 0,
+            "expanded_minutes": 40
+          },
+          {
+            "date": "2026-04-22 23:30:00 UTC",
+            "game_id": "jYQJJyzyQG",
+            "shots": 0,
+            "expanded_minutes": 78
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "KPqj3z7yQ6",
+            "shots": 1,
+            "expanded_minutes": 80
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "9z5kBzalMA",
+            "shots": 3,
+            "expanded_minutes": 86
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "2lqROeR0Qr",
+            "shots": 0,
+            "expanded_minutes": 93
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "p6qbYzeB50",
+            "shots": 1,
+            "expanded_minutes": 77
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 1,
+            "expanded_minutes": 91
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "vzqoYz9kMa",
+            "shots": 3,
+            "expanded_minutes": 109
+          },
+          {
+            "date": "2026-03-01 03:30:00 UTC",
+            "game_id": "Oa5wP6L8q1",
+            "shots": 0,
+            "expanded_minutes": 83
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "BLMv7oaB5x",
+          "player_name": "Djibril Diani",
+          "birth_date": "1998-02-11",
+          "height_ft": 6,
+          "height_in": 5,
+          "weight_lb": 165,
+          "nationality": "France",
+          "primary_broad_position": "MF",
+          "primary_general_position": "DM",
+          "secondary_general_position": "CM",
+          "season_name": [
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 17,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "wvq9kwXNMW",
+            "shots": 0,
+            "expanded_minutes": 8
+          },
+          {
+            "date": "2026-08-02 00:30:00 UTC",
+            "game_id": "ljqEdkL45x",
+            "shots": 0,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-07-25 22:30:00 UTC",
+            "game_id": "a35ro3y2qL",
+            "shots": 0,
+            "expanded_minutes": 25
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 1,
+            "expanded_minutes": 38
+          },
+          {
+            "date": "2026-05-23 23:30:00 UTC",
+            "game_id": "KXMeXzRPQ6",
+            "shots": 1,
+            "expanded_minutes": 92
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "vzqoYzGJMa",
+            "shots": 0,
+            "expanded_minutes": 29
+          },
+          {
+            "date": "2026-05-13 23:15:00 UTC",
+            "game_id": "gpMOgl9nMz",
+            "shots": 0,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "p6qbYzX650",
+            "shots": 0,
+            "expanded_minutes": 97
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "odMXVzJ2qY",
+            "shots": 0,
+            "expanded_minutes": 80
+          },
+          {
+            "date": "2026-04-26 00:30:00 UTC",
+            "game_id": "EGMPG8njQa",
+            "shots": 0,
+            "expanded_minutes": 21
+          },
+          {
+            "date": "2026-04-22 23:30:00 UTC",
+            "game_id": "jYQJJyzyQG",
+            "shots": 1,
+            "expanded_minutes": 17
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "KPqj3z7yQ6",
+            "shots": 0,
+            "expanded_minutes": 3
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "9z5kBzalMA",
+            "shots": 0,
+            "expanded_minutes": 48
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "2lqROeR0Qr",
+            "shots": 2,
+            "expanded_minutes": 68
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "p6qbYzeB50",
+            "shots": 1,
+            "expanded_minutes": 68
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 0,
+            "expanded_minutes": 25
+          },
+          {
+            "date": "2026-03-01 03:30:00 UTC",
+            "game_id": "Oa5wP6L8q1",
+            "shots": 1,
+            "expanded_minutes": 50
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "BLMvl1JWqx",
+          "player_name": "Allan Saint-Maximin",
+          "birth_date": "1997-03-12",
+          "height_ft": 5,
+          "height_in": 8,
+          "weight_lb": 148,
+          "nationality": "France",
+          "primary_broad_position": "MF",
+          "primary_general_position": "W",
+          "secondary_broad_position": "FW",
+          "secondary_general_position": "W",
+          "season_name": "2026"
+        },
+        "prior_appearances": 2,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "wvq9kwXNMW",
+            "shots": 4,
+            "expanded_minutes": 33
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "NWMWkzoEMl",
+            "shots": 1,
+            "expanded_minutes": 53
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "KXMegX31q6",
+          "player_name": "Tyger Smalls",
+          "birth_date": "2002-09-18",
+          "nationality": "England",
+          "primary_broad_position": "MF",
+          "primary_general_position": "W",
+          "season_name": [
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 9,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "wvq9kwXNMW",
+            "shots": 1,
+            "expanded_minutes": 33
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "NWMWkzoEMl",
+            "shots": 0,
+            "expanded_minutes": 11
+          },
+          {
+            "date": "2026-07-25 22:30:00 UTC",
+            "game_id": "a35ro3y2qL",
+            "shots": 0,
+            "expanded_minutes": 25
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 1,
+            "expanded_minutes": 16
+          },
+          {
+            "date": "2026-05-13 23:15:00 UTC",
+            "game_id": "gpMOgl9nMz",
+            "shots": 0,
+            "expanded_minutes": 8
+          },
+          {
+            "date": "2026-04-26 00:30:00 UTC",
+            "game_id": "EGMPG8njQa",
+            "shots": 0,
+            "expanded_minutes": 21
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "9z5kBzalMA",
+            "shots": 0,
+            "expanded_minutes": 29
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 0,
+            "expanded_minutes": 14
+          },
+          {
+            "date": "2026-03-01 03:30:00 UTC",
+            "game_id": "Oa5wP6L8q1",
+            "shots": 0,
+            "expanded_minutes": 16
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "N6MmkXx0qE",
+          "player_name": "Will Cleary",
+          "birth_date": "2003-02-17",
+          "height_ft": 6,
+          "height_in": 2,
+          "nationality": "USA",
+          "primary_broad_position": "DF",
+          "primary_general_position": "FB",
+          "season_name": "2026"
+        },
+        "prior_appearances": 6,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "wvq9kwXNMW",
+            "shots": 1,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "NWMWkzoEMl",
+            "shots": 0,
+            "expanded_minutes": 42
+          },
+          {
+            "date": "2026-07-25 22:30:00 UTC",
+            "game_id": "a35ro3y2qL",
+            "shots": 0,
+            "expanded_minutes": 35
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 0,
+            "expanded_minutes": 75
+          },
+          {
+            "date": "2026-05-23 23:30:00 UTC",
+            "game_id": "KXMeXzRPQ6",
+            "shots": 0,
+            "expanded_minutes": 98
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "vzqoYzGJMa",
+            "shots": 0,
+            "expanded_minutes": 20
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "NPqxAP6gQ9",
+          "player_name": "Archie Goodwin",
+          "birth_date": "2004-11-07",
+          "nationality": "Australia",
+          "primary_broad_position": "FW",
+          "primary_general_position": "ST",
+          "season_name": [
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 18,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "wvq9kwXNMW",
+            "shots": 0,
+            "expanded_minutes": 23
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "NWMWkzoEMl",
+            "shots": 1,
+            "expanded_minutes": 42
+          },
+          {
+            "date": "2026-08-02 00:30:00 UTC",
+            "game_id": "ljqEdkL45x",
+            "shots": 0,
+            "expanded_minutes": 10
+          },
+          {
+            "date": "2026-07-25 22:30:00 UTC",
+            "game_id": "a35ro3y2qL",
+            "shots": 0,
+            "expanded_minutes": 14
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 1,
+            "expanded_minutes": 74
+          },
+          {
+            "date": "2026-05-23 23:30:00 UTC",
+            "game_id": "KXMeXzRPQ6",
+            "shots": 0,
+            "expanded_minutes": 6
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "vzqoYzGJMa",
+            "shots": 0,
+            "expanded_minutes": 20
+          },
+          {
+            "date": "2026-05-13 23:15:00 UTC",
+            "game_id": "gpMOgl9nMz",
+            "shots": 0,
+            "expanded_minutes": 22
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "p6qbYzX650",
+            "shots": 1,
+            "expanded_minutes": 13
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "odMXVzJ2qY",
+            "shots": 0,
+            "expanded_minutes": 11
+          },
+          {
+            "date": "2026-04-26 00:30:00 UTC",
+            "game_id": "EGMPG8njQa",
+            "shots": 1,
+            "expanded_minutes": 61
+          },
+          {
+            "date": "2026-04-22 23:30:00 UTC",
+            "game_id": "jYQJJyzyQG",
+            "shots": 1,
+            "expanded_minutes": 24
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "KPqj3z7yQ6",
+            "shots": 2,
+            "expanded_minutes": 19
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "9z5kBzalMA",
+            "shots": 1,
+            "expanded_minutes": 17
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "2lqROeR0Qr",
+            "shots": 0,
+            "expanded_minutes": 9
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "p6qbYzeB50",
+            "shots": 2,
+            "expanded_minutes": 21
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 1,
+            "expanded_minutes": 14
+          },
+          {
+            "date": "2026-03-01 03:30:00 UTC",
+            "game_id": "Oa5wP6L8q1",
+            "shots": 0,
+            "expanded_minutes": 16
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "aDQ0PZY3QE",
+          "player_name": "Pep Biel",
+          "birth_date": "1996-09-05",
+          "height_ft": 5,
+          "height_in": 6,
+          "weight_lb": 137,
+          "nationality": "Spain",
+          "primary_broad_position": "MF",
+          "primary_general_position": "AM",
+          "season_name": [
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 19,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "wvq9kwXNMW",
+            "shots": 1,
+            "expanded_minutes": 84
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "NWMWkzoEMl",
+            "shots": 3,
+            "expanded_minutes": 94
+          },
+          {
+            "date": "2026-08-02 00:30:00 UTC",
+            "game_id": "ljqEdkL45x",
+            "shots": 8,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-07-25 22:30:00 UTC",
+            "game_id": "a35ro3y2qL",
+            "shots": 1,
+            "expanded_minutes": 86
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 2,
+            "expanded_minutes": 112
+          },
+          {
+            "date": "2026-05-23 23:30:00 UTC",
+            "game_id": "KXMeXzRPQ6",
+            "shots": 4,
+            "expanded_minutes": 92
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "vzqoYzGJMa",
+            "shots": 3,
+            "expanded_minutes": 95
+          },
+          {
+            "date": "2026-05-13 23:15:00 UTC",
+            "game_id": "gpMOgl9nMz",
+            "shots": 1,
+            "expanded_minutes": 92
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "p6qbYzX650",
+            "shots": 4,
+            "expanded_minutes": 97
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "odMXVzJ2qY",
+            "shots": 1,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-26 00:30:00 UTC",
+            "game_id": "EGMPG8njQa",
+            "shots": 3,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-04-22 23:30:00 UTC",
+            "game_id": "jYQJJyzyQG",
+            "shots": 2,
+            "expanded_minutes": 102
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "KPqj3z7yQ6",
+            "shots": 1,
+            "expanded_minutes": 96
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "9z5kBzalMA",
+            "shots": 1,
+            "expanded_minutes": 86
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "2lqROeR0Qr",
+            "shots": 2,
+            "expanded_minutes": 93
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "p6qbYzeB50",
+            "shots": 2,
+            "expanded_minutes": 87
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 1,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "vzqoYz9kMa",
+            "shots": 8,
+            "expanded_minutes": 109
+          },
+          {
+            "date": "2026-03-01 03:30:00 UTC",
+            "game_id": "Oa5wP6L8q1",
+            "shots": 0,
+            "expanded_minutes": 83
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "e7MzAxyGQr",
+          "player_name": "Henry Kessler",
+          "birth_date": "1998-06-25",
+          "height_ft": 6,
+          "height_in": 4,
+          "weight_lb": 185,
+          "nationality": "USA",
+          "primary_broad_position": "DF",
+          "primary_general_position": "CB",
+          "season_name": [
+            "2020",
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 4,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "wvq9kwXNMW",
+            "shots": 2,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "NWMWkzoEMl",
+            "shots": 0,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-08-02 00:30:00 UTC",
+            "game_id": "ljqEdkL45x",
+            "shots": 0,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-07-25 22:30:00 UTC",
+            "game_id": "a35ro3y2qL",
+            "shots": 0,
+            "expanded_minutes": 100
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "gOMnlKNeqw",
+          "player_name": "Liel Abada",
+          "birth_date": "2001-10-03",
+          "height_ft": 5,
+          "height_in": 5,
+          "nationality": "Israel",
+          "primary_broad_position": "MF",
+          "primary_general_position": "W",
+          "season_name": [
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 13,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "wvq9kwXNMW",
+            "shots": 2,
+            "expanded_minutes": 74
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "NWMWkzoEMl",
+            "shots": 2,
+            "expanded_minutes": 77
+          },
+          {
+            "date": "2026-08-02 00:30:00 UTC",
+            "game_id": "ljqEdkL45x",
+            "shots": 2,
+            "expanded_minutes": 80
+          },
+          {
+            "date": "2026-07-25 22:30:00 UTC",
+            "game_id": "a35ro3y2qL",
+            "shots": 0,
+            "expanded_minutes": 75
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 3,
+            "expanded_minutes": 74
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "p6qbYzX650",
+            "shots": 0,
+            "expanded_minutes": 18
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "odMXVzJ2qY",
+            "shots": 1,
+            "expanded_minutes": 23
+          },
+          {
+            "date": "2026-04-26 00:30:00 UTC",
+            "game_id": "EGMPG8njQa",
+            "shots": 0,
+            "expanded_minutes": 40
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "9z5kBzalMA",
+            "shots": 0,
+            "expanded_minutes": 48
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "2lqROeR0Qr",
+            "shots": 1,
+            "expanded_minutes": 34
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "p6qbYzeB50",
+            "shots": 2,
+            "expanded_minutes": 30
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 2,
+            "expanded_minutes": 80
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "vzqoYz9kMa",
+            "shots": 2,
+            "expanded_minutes": 80
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "jYQJzpAkQG",
+          "player_name": "Brandt Bronico",
+          "birth_date": "1995-06-20",
+          "height_ft": 5,
+          "height_in": 9,
+          "weight_lb": 154,
+          "nationality": "USA",
+          "primary_broad_position": "MF",
+          "primary_general_position": "DM",
+          "secondary_general_position": "CM",
+          "season_name": [
+            "2017",
+            "2018",
+            "2019",
+            "2020",
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 16,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "wvq9kwXNMW",
+            "shots": 0,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "NWMWkzoEMl",
+            "shots": 1,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-08-02 00:30:00 UTC",
+            "game_id": "ljqEdkL45x",
+            "shots": 0,
+            "expanded_minutes": 10
+          },
+          {
+            "date": "2026-07-25 22:30:00 UTC",
+            "game_id": "a35ro3y2qL",
+            "shots": 0,
+            "expanded_minutes": 14
+          },
+          {
+            "date": "2026-05-23 23:30:00 UTC",
+            "game_id": "KXMeXzRPQ6",
+            "shots": 0,
+            "expanded_minutes": 15
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "vzqoYzGJMa",
+            "shots": 0,
+            "expanded_minutes": 74
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "odMXVzJ2qY",
+            "shots": 0,
+            "expanded_minutes": 23
+          },
+          {
+            "date": "2026-04-26 00:30:00 UTC",
+            "game_id": "EGMPG8njQa",
+            "shots": 0,
+            "expanded_minutes": 80
+          },
+          {
+            "date": "2026-04-22 23:30:00 UTC",
+            "game_id": "jYQJJyzyQG",
+            "shots": 0,
+            "expanded_minutes": 24
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "KPqj3z7yQ6",
+            "shots": 0,
+            "expanded_minutes": 80
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "9z5kBzalMA",
+            "shots": 0,
+            "expanded_minutes": 55
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "2lqROeR0Qr",
+            "shots": 0,
+            "expanded_minutes": 9
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "p6qbYzeB50",
+            "shots": 0,
+            "expanded_minutes": 11
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 0,
+            "expanded_minutes": 80
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "vzqoYz9kMa",
+            "shots": 0,
+            "expanded_minutes": 80
+          },
+          {
+            "date": "2026-03-01 03:30:00 UTC",
+            "game_id": "Oa5wP6L8q1",
+            "shots": 1,
+            "expanded_minutes": 49
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "kRQaopnY5K",
+          "player_name": "David Schnegg",
+          "birth_date": "1998-09-29",
+          "height_ft": 6,
+          "height_in": 1,
+          "weight_lb": 176,
+          "nationality": "Austria",
+          "primary_broad_position": "DF",
+          "primary_general_position": "FB",
+          "season_name": [
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 11,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "wvq9kwXNMW",
+            "shots": 1,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "NWMWkzoEMl",
+            "shots": 0,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-08-02 00:30:00 UTC",
+            "game_id": "ljqEdkL45x",
+            "shots": 0,
+            "expanded_minutes": 27
+          },
+          {
+            "date": "2026-05-23 23:30:00 UTC",
+            "game_id": "KXMeXzRPQ6",
+            "shots": 0,
+            "expanded_minutes": 62
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "vzqoYzGJMa",
+            "shots": 2,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-05-13 23:15:00 UTC",
+            "game_id": "gpMOgl9nMz",
+            "shots": 1,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "p6qbYzX650",
+            "shots": 0,
+            "expanded_minutes": 97
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "odMXVzJ2qY",
+            "shots": 1,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-26 00:30:00 UTC",
+            "game_id": "EGMPG8njQa",
+            "shots": 0,
+            "expanded_minutes": 66
+          },
+          {
+            "date": "2026-04-22 23:30:00 UTC",
+            "game_id": "jYQJJyzyQG",
+            "shots": 0,
+            "expanded_minutes": 17
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "p6qbYzeB50",
+            "shots": 0,
+            "expanded_minutes": 21
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "home": "Inter Miami CF",
+    "players": [
+      {
+        "identity": {
+          "player_id": "0x5g213RM7",
+          "player_name": "Sergio Reguil\u00f3n",
+          "birth_date": "1996-12-16",
+          "height_ft": 5,
+          "height_in": 10,
+          "weight_lb": 150,
+          "nationality": "Spain",
+          "primary_broad_position": "DF",
+          "primary_general_position": "FB",
+          "season_name": "2026"
+        },
+        "prior_appearances": 10,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "2lqROe7aQr",
+            "shots": 0,
+            "expanded_minutes": 78
+          },
+          {
+            "date": "2026-08-16 00:30:00 UTC",
+            "game_id": "vzqoYzJJMa",
+            "shots": 0,
+            "expanded_minutes": 83
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "7vQ7RXBGqD",
+            "shots": 0,
+            "expanded_minutes": 61
+          },
+          {
+            "date": "2026-07-22 23:30:00 UTC",
+            "game_id": "NWMWkzlEMl",
+            "shots": 4,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-05-24 23:00:00 UTC",
+            "game_id": "XVqKw7G0q0",
+            "shots": 0,
+            "expanded_minutes": 81
+          },
+          {
+            "date": "2026-05-17 22:00:00 UTC",
+            "game_id": "OlMlWznDQL",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-13 23:30:00 UTC",
+            "game_id": "gOMnGzPm5w",
+            "shots": 0,
+            "expanded_minutes": 70
+          },
+          {
+            "date": "2026-05-09 17:00:00 UTC",
+            "game_id": "0x5gxzorq7",
+            "shots": 1,
+            "expanded_minutes": 33
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "315V9ze6M9",
+            "shots": 0,
+            "expanded_minutes": 48
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 2,
+            "expanded_minutes": 77
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "2lqRjDAAqr",
+          "player_name": "Ian Fray",
+          "birth_date": "2002-08-31",
+          "height_ft": 6,
+          "height_in": 0,
+          "weight_lb": 161,
+          "nationality": "USA",
+          "primary_broad_position": "DF",
+          "primary_general_position": "FB",
+          "season_name": [
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 14,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "2lqROe7aQr",
+            "shots": 0,
+            "expanded_minutes": 111
+          },
+          {
+            "date": "2026-08-16 00:30:00 UTC",
+            "game_id": "vzqoYzJJMa",
+            "shots": 1,
+            "expanded_minutes": 83
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "7vQ7RXBGqD",
+            "shots": 1,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-07-22 23:30:00 UTC",
+            "game_id": "NWMWkzlEMl",
+            "shots": 0,
+            "expanded_minutes": 90
+          },
+          {
+            "date": "2026-05-24 23:00:00 UTC",
+            "game_id": "XVqKw7G0q0",
+            "shots": 1,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-17 22:00:00 UTC",
+            "game_id": "OlMlWznDQL",
+            "shots": 2,
+            "expanded_minutes": 50
+          },
+          {
+            "date": "2026-05-13 23:30:00 UTC",
+            "game_id": "gOMnGzPm5w",
+            "shots": 0,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-05-02 23:15:00 UTC",
+            "game_id": "Vj589Jy3q8",
+            "shots": 1,
+            "expanded_minutes": 73
+          },
+          {
+            "date": "2026-04-25 23:30:00 UTC",
+            "game_id": "wvq9kwgZMW",
+            "shots": 1,
+            "expanded_minutes": 27
+          },
+          {
+            "date": "2026-04-23 01:30:00 UTC",
+            "game_id": "NWMWkzV7Ml",
+            "shots": 0,
+            "expanded_minutes": 27
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "315V9ze6M9",
+            "shots": 0,
+            "expanded_minutes": 82
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "Oa5wP6Yjq1",
+            "shots": 0,
+            "expanded_minutes": 49
+          },
+          {
+            "date": "2026-03-22 17:00:00 UTC",
+            "game_id": "KAqBroj4qb",
+            "shots": 0,
+            "expanded_minutes": 80
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 1,
+            "expanded_minutes": 105
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "4wM4EmLl5j",
+          "player_name": "Daniel Pinter",
+          "birth_date": "2007-06-06",
+          "nationality": "Hungary",
+          "primary_broad_position": "FW",
+          "primary_general_position": "W",
+          "secondary_broad_position": "MF",
+          "secondary_general_position": "W",
+          "season_name": [
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 10,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "2lqROe7aQr",
+            "shots": 2,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-08-02 00:10:00 UTC",
+            "game_id": "4wM4O8JNQj",
+            "shots": 1,
+            "expanded_minutes": 62
+          },
+          {
+            "date": "2026-07-22 23:30:00 UTC",
+            "game_id": "NWMWkzlEMl",
+            "shots": 0,
+            "expanded_minutes": 25
+          },
+          {
+            "date": "2026-05-17 22:00:00 UTC",
+            "game_id": "OlMlWznDQL",
+            "shots": 2,
+            "expanded_minutes": 30
+          },
+          {
+            "date": "2026-05-09 17:00:00 UTC",
+            "game_id": "0x5gxzorq7",
+            "shots": 0,
+            "expanded_minutes": 23
+          },
+          {
+            "date": "2026-04-18 20:30:00 UTC",
+            "game_id": "KXMeXzkxQ6",
+            "shots": 0,
+            "expanded_minutes": 28
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "315V9ze6M9",
+            "shots": 0,
+            "expanded_minutes": 52
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "Oa5wP6Yjq1",
+            "shots": 1,
+            "expanded_minutes": 9
+          },
+          {
+            "date": "2026-03-22 17:00:00 UTC",
+            "game_id": "KAqBroj4qb",
+            "shots": 1,
+            "expanded_minutes": 34
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 0,
+            "expanded_minutes": 89
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "7VqG08vjQv",
+          "player_name": "David Ayala",
+          "birth_date": "2002-07-26",
+          "height_ft": 5,
+          "height_in": 7,
+          "weight_lb": 137,
+          "nationality": "Argentina",
+          "primary_broad_position": "MF",
+          "primary_general_position": "DM",
+          "secondary_general_position": "CM",
+          "season_name": [
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 8,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "2lqROe7aQr",
+            "shots": 0,
+            "expanded_minutes": 33
+          },
+          {
+            "date": "2026-08-02 00:10:00 UTC",
+            "game_id": "4wM4O8JNQj",
+            "shots": 1,
+            "expanded_minutes": 22
+          },
+          {
+            "date": "2026-05-24 23:00:00 UTC",
+            "game_id": "XVqKw7G0q0",
+            "shots": 0,
+            "expanded_minutes": 31
+          },
+          {
+            "date": "2026-05-17 22:00:00 UTC",
+            "game_id": "OlMlWznDQL",
+            "shots": 0,
+            "expanded_minutes": 14
+          },
+          {
+            "date": "2026-05-09 17:00:00 UTC",
+            "game_id": "0x5gxzorq7",
+            "shots": 0,
+            "expanded_minutes": 23
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "Oa5wP6Yjq1",
+            "shots": 0,
+            "expanded_minutes": 62
+          },
+          {
+            "date": "2026-03-22 17:00:00 UTC",
+            "game_id": "KAqBroj4qb",
+            "shots": 0,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 1,
+            "expanded_minutes": 82
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "7VqGjEpj5v",
+          "player_name": "Germ\u00e1n Berterame",
+          "birth_date": "1998-11-13",
+          "height_ft": 5,
+          "height_in": 8,
+          "weight_lb": 143,
+          "nationality": "Argentina",
+          "primary_broad_position": "FW",
+          "primary_general_position": "ST",
+          "season_name": "2026"
+        },
+        "prior_appearances": 16,
+        "history": [
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "7vQ7RXBGqD",
+            "shots": 2,
+            "expanded_minutes": 82
+          },
+          {
+            "date": "2026-07-22 23:30:00 UTC",
+            "game_id": "NWMWkzlEMl",
+            "shots": 1,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-05-24 23:00:00 UTC",
+            "game_id": "XVqKw7G0q0",
+            "shots": 4,
+            "expanded_minutes": 111
+          },
+          {
+            "date": "2026-05-17 22:00:00 UTC",
+            "game_id": "OlMlWznDQL",
+            "shots": 4,
+            "expanded_minutes": 88
+          },
+          {
+            "date": "2026-05-13 23:30:00 UTC",
+            "game_id": "gOMnGzPm5w",
+            "shots": 1,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-05-09 17:00:00 UTC",
+            "game_id": "0x5gxzorq7",
+            "shots": 0,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-05-02 23:15:00 UTC",
+            "game_id": "Vj589Jy3q8",
+            "shots": 5,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-04-25 23:30:00 UTC",
+            "game_id": "wvq9kwgZMW",
+            "shots": 3,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-04-23 01:30:00 UTC",
+            "game_id": "NWMWkzV7Ml",
+            "shots": 3,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-18 20:30:00 UTC",
+            "game_id": "KXMeXzkxQ6",
+            "shots": 1,
+            "expanded_minutes": 102
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "315V9ze6M9",
+            "shots": 3,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "Oa5wP6Yjq1",
+            "shots": 1,
+            "expanded_minutes": 38
+          },
+          {
+            "date": "2026-03-22 17:00:00 UTC",
+            "game_id": "KAqBroj4qb",
+            "shots": 1,
+            "expanded_minutes": 20
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 1,
+            "expanded_minutes": 23
+          },
+          {
+            "date": "2026-03-07 21:30:00 UTC",
+            "game_id": "gpMOglOEMz",
+            "shots": 1,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-02 00:00:00 UTC",
+            "game_id": "NWMWkzEKMl",
+            "shots": 0,
+            "expanded_minutes": 106
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "9z5kWdVP5A",
+          "player_name": "Lovens Delinois",
+          "birth_date": "2004-10-05",
+          "nationality": "Haiti",
+          "primary_broad_position": "MF",
+          "primary_general_position": "W",
+          "season_name": "2026"
+        },
+        "prior_appearances": 1,
+        "history": [
+          {
+            "date": "2026-08-16 00:30:00 UTC",
+            "game_id": "vzqoYzJJMa",
+            "shots": 1,
+            "expanded_minutes": 14
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "KPqjK4w4Q6",
+          "player_name": "Noah Allen",
+          "birth_date": "2004-04-28",
+          "nationality": "USA",
+          "primary_broad_position": "DF",
+          "primary_general_position": "CB",
+          "secondary_general_position": "FB",
+          "season_name": [
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 16,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "2lqROe7aQr",
+            "shots": 0,
+            "expanded_minutes": 33
+          },
+          {
+            "date": "2026-08-16 00:30:00 UTC",
+            "game_id": "vzqoYzJJMa",
+            "shots": 0,
+            "expanded_minutes": 25
+          },
+          {
+            "date": "2026-08-02 00:10:00 UTC",
+            "game_id": "4wM4O8JNQj",
+            "shots": 1,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "7vQ7RXBGqD",
+            "shots": 0,
+            "expanded_minutes": 46
+          },
+          {
+            "date": "2026-07-22 23:30:00 UTC",
+            "game_id": "NWMWkzlEMl",
+            "shots": 0,
+            "expanded_minutes": 14
+          },
+          {
+            "date": "2026-05-24 23:00:00 UTC",
+            "game_id": "XVqKw7G0q0",
+            "shots": 0,
+            "expanded_minutes": 10
+          },
+          {
+            "date": "2026-05-09 17:00:00 UTC",
+            "game_id": "0x5gxzorq7",
+            "shots": 0,
+            "expanded_minutes": 71
+          },
+          {
+            "date": "2026-05-02 23:15:00 UTC",
+            "game_id": "Vj589Jy3q8",
+            "shots": 0,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-04-25 23:30:00 UTC",
+            "game_id": "wvq9kwgZMW",
+            "shots": 0,
+            "expanded_minutes": 48
+          },
+          {
+            "date": "2026-04-23 01:30:00 UTC",
+            "game_id": "NWMWkzV7Ml",
+            "shots": 0,
+            "expanded_minutes": 76
+          },
+          {
+            "date": "2026-04-18 20:30:00 UTC",
+            "game_id": "KXMeXzkxQ6",
+            "shots": 0,
+            "expanded_minutes": 28
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "Oa5wP6Yjq1",
+            "shots": 0,
+            "expanded_minutes": 62
+          },
+          {
+            "date": "2026-03-22 17:00:00 UTC",
+            "game_id": "KAqBroj4qb",
+            "shots": 0,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 0,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-03-07 21:30:00 UTC",
+            "game_id": "gpMOglOEMz",
+            "shots": 0,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-02 00:00:00 UTC",
+            "game_id": "NWMWkzEKMl",
+            "shots": 0,
+            "expanded_minutes": 49
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "NWMWlYdY5l",
+          "player_name": "Facundo Mura",
+          "birth_date": "1999-03-23",
+          "height_ft": 5,
+          "height_in": 8,
+          "nationality": "Argentina",
+          "primary_broad_position": "DF",
+          "primary_general_position": "FB",
+          "season_name": "2026"
+        },
+        "prior_appearances": 15,
+        "history": [
+          {
+            "date": "2026-08-16 00:30:00 UTC",
+            "game_id": "vzqoYzJJMa",
+            "shots": 0,
+            "expanded_minutes": 33
+          },
+          {
+            "date": "2026-08-02 00:10:00 UTC",
+            "game_id": "4wM4O8JNQj",
+            "shots": 0,
+            "expanded_minutes": 84
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "7vQ7RXBGqD",
+            "shots": 0,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-07-22 23:30:00 UTC",
+            "game_id": "NWMWkzlEMl",
+            "shots": 1,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-05-24 23:00:00 UTC",
+            "game_id": "XVqKw7G0q0",
+            "shots": 0,
+            "expanded_minutes": 30
+          },
+          {
+            "date": "2026-05-17 22:00:00 UTC",
+            "game_id": "OlMlWznDQL",
+            "shots": 0,
+            "expanded_minutes": 51
+          },
+          {
+            "date": "2026-05-13 23:30:00 UTC",
+            "game_id": "gOMnGzPm5w",
+            "shots": 0,
+            "expanded_minutes": 35
+          },
+          {
+            "date": "2026-05-09 17:00:00 UTC",
+            "game_id": "0x5gxzorq7",
+            "shots": 0,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-05-02 23:15:00 UTC",
+            "game_id": "Vj589Jy3q8",
+            "shots": 0,
+            "expanded_minutes": 34
+          },
+          {
+            "date": "2026-04-25 23:30:00 UTC",
+            "game_id": "wvq9kwgZMW",
+            "shots": 1,
+            "expanded_minutes": 79
+          },
+          {
+            "date": "2026-04-23 01:30:00 UTC",
+            "game_id": "NWMWkzV7Ml",
+            "shots": 0,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-18 20:30:00 UTC",
+            "game_id": "KXMeXzkxQ6",
+            "shots": 0,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-03-22 17:00:00 UTC",
+            "game_id": "KAqBroj4qb",
+            "shots": 0,
+            "expanded_minutes": 20
+          },
+          {
+            "date": "2026-03-07 21:30:00 UTC",
+            "game_id": "gpMOglOEMz",
+            "shots": 0,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-02 00:00:00 UTC",
+            "game_id": "NWMWkzEKMl",
+            "shots": 0,
+            "expanded_minutes": 106
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "e7Mz9eaOQr",
+          "player_name": "Rodrigo de Paul",
+          "birth_date": "1994-05-24",
+          "height_ft": 5,
+          "height_in": 11,
+          "weight_lb": 154,
+          "nationality": "Argentina",
+          "primary_broad_position": "MF",
+          "primary_general_position": "CM",
+          "season_name": [
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 14,
+        "history": [
+          {
+            "date": "2026-08-16 00:30:00 UTC",
+            "game_id": "vzqoYzJJMa",
+            "shots": 0,
+            "expanded_minutes": 108
+          },
+          {
+            "date": "2026-08-02 00:10:00 UTC",
+            "game_id": "4wM4O8JNQj",
+            "shots": 0,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-05-24 23:00:00 UTC",
+            "game_id": "XVqKw7G0q0",
+            "shots": 3,
+            "expanded_minutes": 111
+          },
+          {
+            "date": "2026-05-17 22:00:00 UTC",
+            "game_id": "OlMlWznDQL",
+            "shots": 1,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-13 23:30:00 UTC",
+            "game_id": "gOMnGzPm5w",
+            "shots": 1,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-05-09 17:00:00 UTC",
+            "game_id": "0x5gxzorq7",
+            "shots": 2,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-05-02 23:15:00 UTC",
+            "game_id": "Vj589Jy3q8",
+            "shots": 4,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-04-25 23:30:00 UTC",
+            "game_id": "wvq9kwgZMW",
+            "shots": 1,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-04-23 01:30:00 UTC",
+            "game_id": "NWMWkzV7Ml",
+            "shots": 3,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-18 20:30:00 UTC",
+            "game_id": "KXMeXzkxQ6",
+            "shots": 0,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "315V9ze6M9",
+            "shots": 1,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "Oa5wP6Yjq1",
+            "shots": 2,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-07 21:30:00 UTC",
+            "game_id": "gpMOglOEMz",
+            "shots": 4,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-02 00:00:00 UTC",
+            "game_id": "NWMWkzEKMl",
+            "shots": 1,
+            "expanded_minutes": 106
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "gOMnYVweQw",
+          "player_name": "Gonzalo Lujan",
+          "birth_date": "2001-04-07",
+          "nationality": "Argentina",
+          "primary_broad_position": "DF",
+          "primary_general_position": "CB",
+          "season_name": [
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 15,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "2lqROe7aQr",
+            "shots": 0,
+            "expanded_minutes": 111
+          },
+          {
+            "date": "2026-08-16 00:30:00 UTC",
+            "game_id": "vzqoYzJJMa",
+            "shots": 0,
+            "expanded_minutes": 108
+          },
+          {
+            "date": "2026-05-24 23:00:00 UTC",
+            "game_id": "XVqKw7G0q0",
+            "shots": 0,
+            "expanded_minutes": 111
+          },
+          {
+            "date": "2026-05-17 22:00:00 UTC",
+            "game_id": "OlMlWznDQL",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-13 23:30:00 UTC",
+            "game_id": "gOMnGzPm5w",
+            "shots": 1,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-05-09 17:00:00 UTC",
+            "game_id": "0x5gxzorq7",
+            "shots": 0,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-04-25 23:30:00 UTC",
+            "game_id": "wvq9kwgZMW",
+            "shots": 0,
+            "expanded_minutes": 72
+          },
+          {
+            "date": "2026-04-23 01:30:00 UTC",
+            "game_id": "NWMWkzV7Ml",
+            "shots": 1,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-18 20:30:00 UTC",
+            "game_id": "KXMeXzkxQ6",
+            "shots": 0,
+            "expanded_minutes": 76
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "315V9ze6M9",
+            "shots": 0,
+            "expanded_minutes": 29
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "Oa5wP6Yjq1",
+            "shots": 0,
+            "expanded_minutes": 51
+          },
+          {
+            "date": "2026-03-22 17:00:00 UTC",
+            "game_id": "KAqBroj4qb",
+            "shots": 1,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 1,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-03-07 21:30:00 UTC",
+            "game_id": "gpMOglOEMz",
+            "shots": 0,
+            "expanded_minutes": 9
+          },
+          {
+            "date": "2026-03-02 00:00:00 UTC",
+            "game_id": "NWMWkzEKMl",
+            "shots": 0,
+            "expanded_minutes": 10
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "gjMNRxjvMK",
+          "player_name": "Maximiliano Falc\u00f3n",
+          "birth_date": "1997-05-01",
+          "nationality": "Uruguay",
+          "primary_broad_position": "DF",
+          "primary_general_position": "CB",
+          "season_name": [
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 10,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "2lqROe7aQr",
+            "shots": 0,
+            "expanded_minutes": 111
+          },
+          {
+            "date": "2026-08-16 00:30:00 UTC",
+            "game_id": "vzqoYzJJMa",
+            "shots": 0,
+            "expanded_minutes": 75
+          },
+          {
+            "date": "2026-05-02 23:15:00 UTC",
+            "game_id": "Vj589Jy3q8",
+            "shots": 0,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-04-25 23:30:00 UTC",
+            "game_id": "wvq9kwgZMW",
+            "shots": 0,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-04-23 01:30:00 UTC",
+            "game_id": "NWMWkzV7Ml",
+            "shots": 0,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-18 20:30:00 UTC",
+            "game_id": "KXMeXzkxQ6",
+            "shots": 0,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "315V9ze6M9",
+            "shots": 1,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "Oa5wP6Yjq1",
+            "shots": 3,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-07 21:30:00 UTC",
+            "game_id": "gpMOglOEMz",
+            "shots": 0,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-02 00:00:00 UTC",
+            "game_id": "NWMWkzEKMl",
+            "shots": 0,
+            "expanded_minutes": 106
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "gpMOogB1Mz",
+          "player_name": "Telasco Segovia",
+          "birth_date": "2003-04-02",
+          "height_ft": 5,
+          "height_in": 9,
+          "weight_lb": 159,
+          "nationality": "Venezuela",
+          "primary_broad_position": "MF",
+          "primary_general_position": "W",
+          "secondary_general_position": "CM",
+          "season_name": [
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 17,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "2lqROe7aQr",
+            "shots": 0,
+            "expanded_minutes": 78
+          },
+          {
+            "date": "2026-08-16 00:30:00 UTC",
+            "game_id": "vzqoYzJJMa",
+            "shots": 2,
+            "expanded_minutes": 94
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "7vQ7RXBGqD",
+            "shots": 4,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-07-22 23:30:00 UTC",
+            "game_id": "NWMWkzlEMl",
+            "shots": 1,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-05-24 23:00:00 UTC",
+            "game_id": "XVqKw7G0q0",
+            "shots": 0,
+            "expanded_minutes": 80
+          },
+          {
+            "date": "2026-05-17 22:00:00 UTC",
+            "game_id": "OlMlWznDQL",
+            "shots": 3,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-13 23:30:00 UTC",
+            "game_id": "gOMnGzPm5w",
+            "shots": 2,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-05-09 17:00:00 UTC",
+            "game_id": "0x5gxzorq7",
+            "shots": 0,
+            "expanded_minutes": 81
+          },
+          {
+            "date": "2026-05-02 23:15:00 UTC",
+            "game_id": "Vj589Jy3q8",
+            "shots": 4,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-04-23 01:30:00 UTC",
+            "game_id": "NWMWkzV7Ml",
+            "shots": 0,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-18 20:30:00 UTC",
+            "game_id": "KXMeXzkxQ6",
+            "shots": 0,
+            "expanded_minutes": 96
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "315V9ze6M9",
+            "shots": 2,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "Oa5wP6Yjq1",
+            "shots": 0,
+            "expanded_minutes": 77
+          },
+          {
+            "date": "2026-03-22 17:00:00 UTC",
+            "game_id": "KAqBroj4qb",
+            "shots": 4,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 0,
+            "expanded_minutes": 23
+          },
+          {
+            "date": "2026-03-07 21:30:00 UTC",
+            "game_id": "gpMOglOEMz",
+            "shots": 0,
+            "expanded_minutes": 91
+          },
+          {
+            "date": "2026-03-02 00:00:00 UTC",
+            "game_id": "NWMWkzEKMl",
+            "shots": 2,
+            "expanded_minutes": 106
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "kRQa2LebMK",
+          "player_name": "Dayne St. Clair",
+          "birth_date": "1997-05-09",
+          "height_ft": 6,
+          "height_in": 3,
+          "weight_lb": 165,
+          "nationality": "Canada",
+          "primary_broad_position": "GK",
+          "primary_general_position": "GK",
+          "season_name": [
+            "2020",
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 14,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "2lqROe7aQr",
+            "shots": 0,
+            "expanded_minutes": 111
+          },
+          {
+            "date": "2026-05-24 23:00:00 UTC",
+            "game_id": "XVqKw7G0q0",
+            "shots": 0,
+            "expanded_minutes": 111
+          },
+          {
+            "date": "2026-05-17 22:00:00 UTC",
+            "game_id": "OlMlWznDQL",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-13 23:30:00 UTC",
+            "game_id": "gOMnGzPm5w",
+            "shots": 0,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-05-09 17:00:00 UTC",
+            "game_id": "0x5gxzorq7",
+            "shots": 0,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-05-02 23:15:00 UTC",
+            "game_id": "Vj589Jy3q8",
+            "shots": 0,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-04-25 23:30:00 UTC",
+            "game_id": "wvq9kwgZMW",
+            "shots": 0,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-04-23 01:30:00 UTC",
+            "game_id": "NWMWkzV7Ml",
+            "shots": 0,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-18 20:30:00 UTC",
+            "game_id": "KXMeXzkxQ6",
+            "shots": 0,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "315V9ze6M9",
+            "shots": 0,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "Oa5wP6Yjq1",
+            "shots": 0,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-22 17:00:00 UTC",
+            "game_id": "KAqBroj4qb",
+            "shots": 0,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-07 21:30:00 UTC",
+            "game_id": "gpMOglOEMz",
+            "shots": 0,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-02 00:00:00 UTC",
+            "game_id": "NWMWkzEKMl",
+            "shots": 0,
+            "expanded_minutes": 106
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "vzqowm7qap",
+          "player_name": "Lionel Messi",
+          "birth_date": "1987-06-24",
+          "height_ft": 5,
+          "height_in": 7,
+          "weight_lb": 159,
+          "nationality": "Argentina",
+          "primary_broad_position": "FW",
+          "primary_general_position": "ST",
+          "secondary_general_position": "W",
+          "season_name": [
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 16,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "2lqROe7aQr",
+            "shots": 3,
+            "expanded_minutes": 111
+          },
+          {
+            "date": "2026-08-16 00:30:00 UTC",
+            "game_id": "vzqoYzJJMa",
+            "shots": 11,
+            "expanded_minutes": 108
+          },
+          {
+            "date": "2026-08-02 00:10:00 UTC",
+            "game_id": "4wM4O8JNQj",
+            "shots": 4,
+            "expanded_minutes": 44
+          },
+          {
+            "date": "2026-05-24 23:00:00 UTC",
+            "game_id": "XVqKw7G0q0",
+            "shots": 3,
+            "expanded_minutes": 86
+          },
+          {
+            "date": "2026-05-17 22:00:00 UTC",
+            "game_id": "OlMlWznDQL",
+            "shots": 9,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-13 23:30:00 UTC",
+            "game_id": "gOMnGzPm5w",
+            "shots": 6,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-05-09 17:00:00 UTC",
+            "game_id": "0x5gxzorq7",
+            "shots": 5,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-05-02 23:15:00 UTC",
+            "game_id": "Vj589Jy3q8",
+            "shots": 5,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-04-25 23:30:00 UTC",
+            "game_id": "wvq9kwgZMW",
+            "shots": 6,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-04-23 01:30:00 UTC",
+            "game_id": "NWMWkzV7Ml",
+            "shots": 10,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-18 20:30:00 UTC",
+            "game_id": "KXMeXzkxQ6",
+            "shots": 3,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "315V9ze6M9",
+            "shots": 3,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "Oa5wP6Yjq1",
+            "shots": 11,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-22 17:00:00 UTC",
+            "game_id": "KAqBroj4qb",
+            "shots": 9,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-07 21:30:00 UTC",
+            "game_id": "gpMOglOEMz",
+            "shots": 2,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-03-02 00:00:00 UTC",
+            "game_id": "NWMWkzEKMl",
+            "shots": 8,
+            "expanded_minutes": 106
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "wvq9rwBQWn",
+          "player_name": "Casemiro",
+          "birth_date": "1992-02-23",
+          "height_ft": 6,
+          "height_in": 1,
+          "weight_lb": 185,
+          "nationality": "Brazil",
+          "primary_broad_position": "DF",
+          "primary_general_position": "CB",
+          "season_name": "2026"
+        },
+        "prior_appearances": 4,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "2lqROe7aQr",
+            "shots": 0,
+            "expanded_minutes": 111
+          },
+          {
+            "date": "2026-08-16 00:30:00 UTC",
+            "game_id": "vzqoYzJJMa",
+            "shots": 1,
+            "expanded_minutes": 108
+          },
+          {
+            "date": "2026-08-02 00:10:00 UTC",
+            "game_id": "4wM4O8JNQj",
+            "shots": 1,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "7vQ7RXBGqD",
+            "shots": 2,
+            "expanded_minutes": 107
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "zeQZKbYMKw",
+          "player_name": "Luis Su\u00e1rez",
+          "birth_date": "1987-01-24",
+          "height_ft": 6,
+          "height_in": 0,
+          "weight_lb": 190,
+          "nationality": "Uruguay",
+          "primary_broad_position": "FW",
+          "primary_general_position": "ST",
+          "season_name": [
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 15,
+        "history": [
+          {
+            "date": "2026-08-19 23:30:00 UTC",
+            "game_id": "2lqROe7aQr",
+            "shots": 0,
+            "expanded_minutes": 111
+          },
+          {
+            "date": "2026-08-16 00:30:00 UTC",
+            "game_id": "vzqoYzJJMa",
+            "shots": 0,
+            "expanded_minutes": 108
+          },
+          {
+            "date": "2026-08-02 00:10:00 UTC",
+            "game_id": "4wM4O8JNQj",
+            "shots": 2,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "7vQ7RXBGqD",
+            "shots": 3,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-07-22 23:30:00 UTC",
+            "game_id": "NWMWkzlEMl",
+            "shots": 5,
+            "expanded_minutes": 104
+          },
+          {
+            "date": "2026-05-24 23:00:00 UTC",
+            "game_id": "XVqKw7G0q0",
+            "shots": 4,
+            "expanded_minutes": 111
+          },
+          {
+            "date": "2026-05-17 22:00:00 UTC",
+            "game_id": "OlMlWznDQL",
+            "shots": 1,
+            "expanded_minutes": 71
+          },
+          {
+            "date": "2026-05-13 23:30:00 UTC",
+            "game_id": "gOMnGzPm5w",
+            "shots": 2,
+            "expanded_minutes": 82
+          },
+          {
+            "date": "2026-05-09 17:00:00 UTC",
+            "game_id": "0x5gxzorq7",
+            "shots": 3,
+            "expanded_minutes": 81
+          },
+          {
+            "date": "2026-05-02 23:15:00 UTC",
+            "game_id": "Vj589Jy3q8",
+            "shots": 6,
+            "expanded_minutes": 78
+          },
+          {
+            "date": "2026-04-25 23:30:00 UTC",
+            "game_id": "wvq9kwgZMW",
+            "shots": 2,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-04-23 01:30:00 UTC",
+            "game_id": "NWMWkzV7Ml",
+            "shots": 1,
+            "expanded_minutes": 23
+          },
+          {
+            "date": "2026-04-11 23:30:00 UTC",
+            "game_id": "315V9ze6M9",
+            "shots": 1,
+            "expanded_minutes": 18
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "Oa5wP6Yjq1",
+            "shots": 1,
+            "expanded_minutes": 23
+          },
+          {
+            "date": "2026-03-14 23:30:00 UTC",
+            "game_id": "OlMlWz70QL",
+            "shots": 2,
+            "expanded_minutes": 105
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "home": "Atlanta United FC",
+    "players": [
+      {
+        "identity": {
+          "player_id": "9vQ2ZlkaQK",
+          "player_name": "Matthew Edwards",
+          "birth_date": "2003-02-17",
+          "height_ft": 5,
+          "height_in": 10,
+          "weight_lb": 174,
+          "nationality": "USA",
+          "primary_broad_position": "DF",
+          "primary_general_position": "FB",
+          "secondary_general_position": "CB",
+          "season_name": [
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 12,
+        "history": [
+          {
+            "date": "2026-08-20 00:30:00 UTC",
+            "game_id": "9z5kBz3JMA",
+            "shots": 0,
+            "expanded_minutes": 16
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "KAqBroNBqb",
+            "shots": 0,
+            "expanded_minutes": 70
+          },
+          {
+            "date": "2026-08-01 23:30:00 UTC",
+            "game_id": "XVqKw7e0q0",
+            "shots": 0,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "eV5D89zn5K",
+            "shots": 0,
+            "expanded_minutes": 73
+          },
+          {
+            "date": "2026-07-18 00:10:00 UTC",
+            "game_id": "jYQJJyBkQG",
+            "shots": 0,
+            "expanded_minutes": 67
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "EGMPG816Qa",
+            "shots": 0,
+            "expanded_minutes": 29
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "9Yqdeza9Qv",
+            "shots": 0,
+            "expanded_minutes": 26
+          },
+          {
+            "date": "2026-04-25 17:00:00 UTC",
+            "game_id": "gpMOglanMz",
+            "shots": 0,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-04-22 23:45:00 UTC",
+            "game_id": "ljqEdk2E5x",
+            "shots": 0,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "vzqoYzrkMa",
+            "shots": 0,
+            "expanded_minutes": 31
+          },
+          {
+            "date": "2026-03-14 19:15:00 UTC",
+            "game_id": "2vQ1g1aK5r",
+            "shots": 0,
+            "expanded_minutes": 11
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "gOMnGzrX5w",
+            "shots": 1,
+            "expanded_minutes": 18
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "9vQ2d66e5K",
+          "player_name": "Stian Gregersen",
+          "birth_date": "1995-05-17",
+          "height_ft": 6,
+          "height_in": 3,
+          "weight_lb": 183,
+          "nationality": "Norway",
+          "primary_broad_position": "DF",
+          "primary_general_position": "CB",
+          "season_name": [
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 14,
+        "history": [
+          {
+            "date": "2026-08-20 00:30:00 UTC",
+            "game_id": "9z5kBz3JMA",
+            "shots": 1,
+            "expanded_minutes": 97
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "KAqBroNBqb",
+            "shots": 0,
+            "expanded_minutes": 31
+          },
+          {
+            "date": "2026-08-01 23:30:00 UTC",
+            "game_id": "XVqKw7e0q0",
+            "shots": 1,
+            "expanded_minutes": 22
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "eV5D89zn5K",
+            "shots": 0,
+            "expanded_minutes": 83
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 0,
+            "expanded_minutes": 8
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "EGMPG816Qa",
+            "shots": 0,
+            "expanded_minutes": 29
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "XVqKw7dRq0",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "9Yqdeza9Qv",
+            "shots": 1,
+            "expanded_minutes": 80
+          },
+          {
+            "date": "2026-04-25 17:00:00 UTC",
+            "game_id": "gpMOglanMz",
+            "shots": 0,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "9vQ2Gr21MK",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-04-12 00:30:00 UTC",
+            "game_id": "gjMNWrRv5K",
+            "shots": 1,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "vzqoYzrkMa",
+            "shots": 0,
+            "expanded_minutes": 108
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "XVqKw7YOq0",
+            "shots": 0,
+            "expanded_minutes": 95
+          },
+          {
+            "date": "2026-03-14 19:15:00 UTC",
+            "game_id": "2vQ1g1aK5r",
+            "shots": 0,
+            "expanded_minutes": 107
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "9z5kawdYQA",
+          "player_name": "Paulo D\u00edaz",
+          "birth_date": "1994-08-25",
+          "height_ft": 5,
+          "height_in": 9,
+          "weight_lb": 159,
+          "nationality": "Chile",
+          "primary_broad_position": "DF",
+          "primary_general_position": "CB",
+          "season_name": "2026"
+        },
+        "prior_appearances": 1,
+        "history": [
+          {
+            "date": "2026-08-20 00:30:00 UTC",
+            "game_id": "9z5kBz3JMA",
+            "shots": 0,
+            "expanded_minutes": 11
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "9z5kbYGaMA",
+          "player_name": "Adrian Gill",
+          "birth_date": "2006-01-03",
+          "height_ft": 5,
+          "height_in": 10,
+          "nationality": "USA",
+          "primary_broad_position": "MF",
+          "primary_general_position": "DM",
+          "season_name": "2026"
+        },
+        "prior_appearances": 2,
+        "history": [
+          {
+            "date": "2026-08-20 00:30:00 UTC",
+            "game_id": "9z5kBz3JMA",
+            "shots": 0,
+            "expanded_minutes": 86
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "KAqBroNBqb",
+            "shots": 0,
+            "expanded_minutes": 101
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "Vj58lAnw58",
+          "player_name": "Cooper Sanchez",
+          "birth_date": "2008-03-26",
+          "nationality": "USA",
+          "primary_broad_position": "MF",
+          "primary_general_position": "CM",
+          "season_name": [
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 17,
+        "history": [
+          {
+            "date": "2026-08-20 00:30:00 UTC",
+            "game_id": "9z5kBz3JMA",
+            "shots": 1,
+            "expanded_minutes": 66
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "KAqBroNBqb",
+            "shots": 1,
+            "expanded_minutes": 82
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "eV5D89zn5K",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 0,
+            "expanded_minutes": 100
+          },
+          {
+            "date": "2026-07-18 00:10:00 UTC",
+            "game_id": "jYQJJyBkQG",
+            "shots": 0,
+            "expanded_minutes": 88
+          },
+          {
+            "date": "2026-05-24 21:00:00 UTC",
+            "game_id": "BLMvVGkWMx",
+            "shots": 2,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "XVqKw7dRq0",
+            "shots": 1,
+            "expanded_minutes": 87
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "9Yqdeza9Qv",
+            "shots": 0,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-04-25 17:00:00 UTC",
+            "game_id": "gpMOglanMz",
+            "shots": 1,
+            "expanded_minutes": 85
+          },
+          {
+            "date": "2026-04-22 23:45:00 UTC",
+            "game_id": "ljqEdk2E5x",
+            "shots": 2,
+            "expanded_minutes": 88
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "9vQ2Gr21MK",
+            "shots": 2,
+            "expanded_minutes": 72
+          },
+          {
+            "date": "2026-04-12 00:30:00 UTC",
+            "game_id": "gjMNWrRv5K",
+            "shots": 0,
+            "expanded_minutes": 68
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "vzqoYzrkMa",
+            "shots": 1,
+            "expanded_minutes": 47
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "XVqKw7YOq0",
+            "shots": 1,
+            "expanded_minutes": 66
+          },
+          {
+            "date": "2026-03-14 19:15:00 UTC",
+            "game_id": "2vQ1g1aK5r",
+            "shots": 0,
+            "expanded_minutes": 96
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "gOMnGzrX5w",
+            "shots": 0,
+            "expanded_minutes": 65
+          },
+          {
+            "date": "2026-03-01 00:30:00 UTC",
+            "game_id": "ljqEdkAz5x",
+            "shots": 0,
+            "expanded_minutes": 72
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "XVqKWX8Bq0",
+          "player_name": "Steven Alzate",
+          "birth_date": "1998-09-08",
+          "height_ft": 5,
+          "height_in": 11,
+          "weight_lb": 165,
+          "nationality": "Colombia",
+          "primary_broad_position": "MF",
+          "primary_general_position": "CM",
+          "secondary_general_position": "DM",
+          "season_name": [
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 8,
+        "history": [
+          {
+            "date": "2026-08-20 00:30:00 UTC",
+            "game_id": "9z5kBz3JMA",
+            "shots": 0,
+            "expanded_minutes": 31
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "KAqBroNBqb",
+            "shots": 0,
+            "expanded_minutes": 19
+          },
+          {
+            "date": "2026-04-12 00:30:00 UTC",
+            "game_id": "gjMNWrRv5K",
+            "shots": 0,
+            "expanded_minutes": 31
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "vzqoYzrkMa",
+            "shots": 1,
+            "expanded_minutes": 77
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "XVqKw7YOq0",
+            "shots": 0,
+            "expanded_minutes": 29
+          },
+          {
+            "date": "2026-03-14 19:15:00 UTC",
+            "game_id": "2vQ1g1aK5r",
+            "shots": 0,
+            "expanded_minutes": 29
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "gOMnGzrX5w",
+            "shots": 0,
+            "expanded_minutes": 85
+          },
+          {
+            "date": "2026-03-01 00:30:00 UTC",
+            "game_id": "ljqEdkAz5x",
+            "shots": 2,
+            "expanded_minutes": 96
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "a35rB7Do5L",
+          "player_name": "Luke Brennan",
+          "birth_date": "2005-02-24",
+          "height_ft": 5,
+          "height_in": 10,
+          "weight_lb": 150,
+          "nationality": "USA",
+          "primary_broad_position": "MF",
+          "primary_general_position": "W",
+          "season_name": [
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 12,
+        "history": [
+          {
+            "date": "2026-08-20 00:30:00 UTC",
+            "game_id": "9z5kBz3JMA",
+            "shots": 0,
+            "expanded_minutes": 31
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "KAqBroNBqb",
+            "shots": 0,
+            "expanded_minutes": 13
+          },
+          {
+            "date": "2026-08-01 23:30:00 UTC",
+            "game_id": "XVqKw7e0q0",
+            "shots": 0,
+            "expanded_minutes": 22
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "eV5D89zn5K",
+            "shots": 2,
+            "expanded_minutes": 38
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 0,
+            "expanded_minutes": 19
+          },
+          {
+            "date": "2026-07-18 00:10:00 UTC",
+            "game_id": "jYQJJyBkQG",
+            "shots": 2,
+            "expanded_minutes": 88
+          },
+          {
+            "date": "2026-05-24 21:00:00 UTC",
+            "game_id": "BLMvVGkWMx",
+            "shots": 0,
+            "expanded_minutes": 64
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "XVqKw7dRq0",
+            "shots": 0,
+            "expanded_minutes": 26
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "9Yqdeza9Qv",
+            "shots": 2,
+            "expanded_minutes": 22
+          },
+          {
+            "date": "2026-04-25 17:00:00 UTC",
+            "game_id": "gpMOglanMz",
+            "shots": 1,
+            "expanded_minutes": 67
+          },
+          {
+            "date": "2026-04-22 23:45:00 UTC",
+            "game_id": "ljqEdk2E5x",
+            "shots": 1,
+            "expanded_minutes": 15
+          },
+          {
+            "date": "2026-04-12 00:30:00 UTC",
+            "game_id": "gjMNWrRv5K",
+            "shots": 0,
+            "expanded_minutes": 19
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "aDQ0aG9pME",
+          "player_name": "Aleksey Miranchuk",
+          "birth_date": "1995-10-17",
+          "height_ft": 6,
+          "height_in": 0,
+          "weight_lb": 148,
+          "nationality": "Russia",
+          "primary_broad_position": "MF",
+          "primary_general_position": "AM",
+          "season_name": [
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 18,
+        "history": [
+          {
+            "date": "2026-08-20 00:30:00 UTC",
+            "game_id": "9z5kBz3JMA",
+            "shots": 1,
+            "expanded_minutes": 81
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "KAqBroNBqb",
+            "shots": 3,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-08-01 23:30:00 UTC",
+            "game_id": "XVqKw7e0q0",
+            "shots": 0,
+            "expanded_minutes": 84
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "eV5D89zn5K",
+            "shots": 1,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 2,
+            "expanded_minutes": 112
+          },
+          {
+            "date": "2026-07-18 00:10:00 UTC",
+            "game_id": "jYQJJyBkQG",
+            "shots": 1,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-05-24 21:00:00 UTC",
+            "game_id": "BLMvVGkWMx",
+            "shots": 2,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "EGMPG816Qa",
+            "shots": 7,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "XVqKw7dRq0",
+            "shots": 1,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "9Yqdeza9Qv",
+            "shots": 3,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-04-25 17:00:00 UTC",
+            "game_id": "gpMOglanMz",
+            "shots": 2,
+            "expanded_minutes": 85
+          },
+          {
+            "date": "2026-04-22 23:45:00 UTC",
+            "game_id": "ljqEdk2E5x",
+            "shots": 3,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "9vQ2Gr21MK",
+            "shots": 2,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "vzqoYzrkMa",
+            "shots": 1,
+            "expanded_minutes": 108
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "XVqKw7YOq0",
+            "shots": 0,
+            "expanded_minutes": 89
+          },
+          {
+            "date": "2026-03-14 19:15:00 UTC",
+            "game_id": "2vQ1g1aK5r",
+            "shots": 2,
+            "expanded_minutes": 87
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "gOMnGzrX5w",
+            "shots": 3,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-03-01 00:30:00 UTC",
+            "game_id": "ljqEdkAz5x",
+            "shots": 0,
+            "expanded_minutes": 34
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "gOMn6jW8Mw",
+          "player_name": "J\u00fanior Alonso",
+          "birth_date": "1993-02-09",
+          "height_ft": 6,
+          "height_in": 1,
+          "weight_lb": 183,
+          "nationality": "Paraguay",
+          "primary_broad_position": "DF",
+          "primary_general_position": "CB",
+          "season_name": "2026"
+        },
+        "prior_appearances": 5,
+        "history": [
+          {
+            "date": "2026-08-20 00:30:00 UTC",
+            "game_id": "9z5kBz3JMA",
+            "shots": 1,
+            "expanded_minutes": 97
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "KAqBroNBqb",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-08-01 23:30:00 UTC",
+            "game_id": "XVqKw7e0q0",
+            "shots": 0,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "eV5D89zn5K",
+            "shots": 1,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 0,
+            "expanded_minutes": 104
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "gpMOeEzyqz",
+          "player_name": "Tom\u00e1s Jacob",
+          "birth_date": "2004-04-20",
+          "nationality": "Argentina",
+          "primary_broad_position": "DF",
+          "primary_general_position": "FB",
+          "season_name": "2026"
+        },
+        "prior_appearances": 16,
+        "history": [
+          {
+            "date": "2026-08-20 00:30:00 UTC",
+            "game_id": "9z5kBz3JMA",
+            "shots": 1,
+            "expanded_minutes": 97
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "KAqBroNBqb",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-08-01 23:30:00 UTC",
+            "game_id": "XVqKw7e0q0",
+            "shots": 0,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 0,
+            "expanded_minutes": 112
+          },
+          {
+            "date": "2026-07-18 00:10:00 UTC",
+            "game_id": "jYQJJyBkQG",
+            "shots": 0,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-05-24 21:00:00 UTC",
+            "game_id": "BLMvVGkWMx",
+            "shots": 0,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "EGMPG816Qa",
+            "shots": 0,
+            "expanded_minutes": 72
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "XVqKw7dRq0",
+            "shots": 1,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "9Yqdeza9Qv",
+            "shots": 1,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "9vQ2Gr21MK",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-04-12 00:30:00 UTC",
+            "game_id": "gjMNWrRv5K",
+            "shots": 1,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "vzqoYzrkMa",
+            "shots": 0,
+            "expanded_minutes": 77
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "XVqKw7YOq0",
+            "shots": 0,
+            "expanded_minutes": 95
+          },
+          {
+            "date": "2026-03-14 19:15:00 UTC",
+            "game_id": "2vQ1g1aK5r",
+            "shots": 2,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "gOMnGzrX5w",
+            "shots": 0,
+            "expanded_minutes": 85
+          },
+          {
+            "date": "2026-03-01 00:30:00 UTC",
+            "game_id": "ljqEdkAz5x",
+            "shots": 0,
+            "expanded_minutes": 96
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "ljqELGYo5x",
+          "player_name": "William Reilly",
+          "birth_date": "2002-12-03",
+          "height_ft": 5,
+          "height_in": 1,
+          "weight_lb": 154,
+          "nationality": "USA",
+          "primary_broad_position": "MF",
+          "primary_general_position": "DM",
+          "season_name": [
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 8,
+        "history": [
+          {
+            "date": "2026-08-01 23:30:00 UTC",
+            "game_id": "XVqKw7e0q0",
+            "shots": 0,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "eV5D89zn5K",
+            "shots": 1,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 0,
+            "expanded_minutes": 112
+          },
+          {
+            "date": "2026-07-18 00:10:00 UTC",
+            "game_id": "jYQJJyBkQG",
+            "shots": 0,
+            "expanded_minutes": 95
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "EGMPG816Qa",
+            "shots": 0,
+            "expanded_minutes": 63
+          },
+          {
+            "date": "2026-04-25 17:00:00 UTC",
+            "game_id": "gpMOglanMz",
+            "shots": 0,
+            "expanded_minutes": 20
+          },
+          {
+            "date": "2026-04-22 23:45:00 UTC",
+            "game_id": "ljqEdk2E5x",
+            "shots": 0,
+            "expanded_minutes": 97
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "vzqoYzrkMa",
+            "shots": 0,
+            "expanded_minutes": 61
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "raMyAGEBMd",
+          "player_name": "Fafa Picault",
+          "birth_date": "1991-02-23",
+          "height_ft": 5,
+          "height_in": 8,
+          "weight_lb": 139,
+          "nationality": "USA",
+          "primary_broad_position": "MF",
+          "primary_general_position": "W",
+          "season_name": [
+            "2017",
+            "2018",
+            "2019",
+            "2020",
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 13,
+        "history": [
+          {
+            "date": "2026-08-20 00:30:00 UTC",
+            "game_id": "9z5kBz3JMA",
+            "shots": 0,
+            "expanded_minutes": 66
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "KAqBroNBqb",
+            "shots": 2,
+            "expanded_minutes": 88
+          },
+          {
+            "date": "2026-08-01 23:30:00 UTC",
+            "game_id": "XVqKw7e0q0",
+            "shots": 1,
+            "expanded_minutes": 84
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "eV5D89zn5K",
+            "shots": 1,
+            "expanded_minutes": 83
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 2,
+            "expanded_minutes": 93
+          },
+          {
+            "date": "2026-07-18 00:10:00 UTC",
+            "game_id": "jYQJJyBkQG",
+            "shots": 0,
+            "expanded_minutes": 18
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "EGMPG816Qa",
+            "shots": 1,
+            "expanded_minutes": 19
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "9Yqdeza9Qv",
+            "shots": 0,
+            "expanded_minutes": 12
+          },
+          {
+            "date": "2026-04-25 17:00:00 UTC",
+            "game_id": "gpMOglanMz",
+            "shots": 0,
+            "expanded_minutes": 38
+          },
+          {
+            "date": "2026-04-22 23:45:00 UTC",
+            "game_id": "ljqEdk2E5x",
+            "shots": 1,
+            "expanded_minutes": 88
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "9vQ2Gr21MK",
+            "shots": 1,
+            "expanded_minutes": 29
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "XVqKw7YOq0",
+            "shots": 0,
+            "expanded_minutes": 6
+          },
+          {
+            "date": "2026-03-14 19:15:00 UTC",
+            "game_id": "2vQ1g1aK5r",
+            "shots": 0,
+            "expanded_minutes": 29
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "raMyAywlMd",
+          "player_name": "Miguel Almir\u00f3n",
+          "birth_date": "1994-02-10",
+          "height_ft": 5,
+          "height_in": 9,
+          "weight_lb": 154,
+          "nationality": "Paraguay",
+          "primary_broad_position": "MF",
+          "primary_general_position": "AM",
+          "secondary_general_position": "W",
+          "season_name": [
+            "2017",
+            "2018",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 13,
+        "history": [
+          {
+            "date": "2026-08-20 00:30:00 UTC",
+            "game_id": "9z5kBz3JMA",
+            "shots": 2,
+            "expanded_minutes": 97
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "KAqBroNBqb",
+            "shots": 2,
+            "expanded_minutes": 88
+          },
+          {
+            "date": "2026-08-01 23:30:00 UTC",
+            "game_id": "XVqKw7e0q0",
+            "shots": 1,
+            "expanded_minutes": 90
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "eV5D89zn5K",
+            "shots": 7,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 4,
+            "expanded_minutes": 112
+          },
+          {
+            "date": "2026-07-18 00:10:00 UTC",
+            "game_id": "jYQJJyBkQG",
+            "shots": 3,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-05-24 21:00:00 UTC",
+            "game_id": "BLMvVGkWMx",
+            "shots": 1,
+            "expanded_minutes": 35
+          },
+          {
+            "date": "2026-04-12 00:30:00 UTC",
+            "game_id": "gjMNWrRv5K",
+            "shots": 4,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "vzqoYzrkMa",
+            "shots": 3,
+            "expanded_minutes": 108
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "XVqKw7YOq0",
+            "shots": 1,
+            "expanded_minutes": 95
+          },
+          {
+            "date": "2026-03-14 19:15:00 UTC",
+            "game_id": "2vQ1g1aK5r",
+            "shots": 1,
+            "expanded_minutes": 97
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "gOMnGzrX5w",
+            "shots": 5,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-03-01 00:30:00 UTC",
+            "game_id": "ljqEdkAz5x",
+            "shots": 1,
+            "expanded_minutes": 96
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "xW5p7L4KMg",
+          "player_name": "El\u00edas Baez",
+          "birth_date": "2004-10-18",
+          "nationality": "Argentina",
+          "primary_broad_position": "DF",
+          "primary_general_position": "FB",
+          "season_name": "2026"
+        },
+        "prior_appearances": 17,
+        "history": [
+          {
+            "date": "2026-08-20 00:30:00 UTC",
+            "game_id": "9z5kBz3JMA",
+            "shots": 1,
+            "expanded_minutes": 97
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "KAqBroNBqb",
+            "shots": 0,
+            "expanded_minutes": 82
+          },
+          {
+            "date": "2026-08-01 23:30:00 UTC",
+            "game_id": "XVqKw7e0q0",
+            "shots": 0,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "eV5D89zn5K",
+            "shots": 3,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 3,
+            "expanded_minutes": 112
+          },
+          {
+            "date": "2026-07-18 00:10:00 UTC",
+            "game_id": "jYQJJyBkQG",
+            "shots": 0,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-05-24 21:00:00 UTC",
+            "game_id": "BLMvVGkWMx",
+            "shots": 3,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "EGMPG816Qa",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "XVqKw7dRq0",
+            "shots": 1,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-04-25 17:00:00 UTC",
+            "game_id": "gpMOglanMz",
+            "shots": 0,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "9vQ2Gr21MK",
+            "shots": 2,
+            "expanded_minutes": 72
+          },
+          {
+            "date": "2026-04-12 00:30:00 UTC",
+            "game_id": "gjMNWrRv5K",
+            "shots": 3,
+            "expanded_minutes": 80
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "vzqoYzrkMa",
+            "shots": 1,
+            "expanded_minutes": 108
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "XVqKw7YOq0",
+            "shots": 0,
+            "expanded_minutes": 89
+          },
+          {
+            "date": "2026-03-14 19:15:00 UTC",
+            "game_id": "2vQ1g1aK5r",
+            "shots": 1,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "gOMnGzrX5w",
+            "shots": 2,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-03-01 00:30:00 UTC",
+            "game_id": "ljqEdkAz5x",
+            "shots": 0,
+            "expanded_minutes": 96
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "zeQZ7DJzMK",
+          "player_name": "Tristan Muyumba",
+          "birth_date": "1997-03-07",
+          "nationality": "France",
+          "primary_broad_position": "MF",
+          "primary_general_position": "DM",
+          "secondary_general_position": "CM",
+          "season_name": [
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ]
+        },
+        "prior_appearances": 19,
+        "history": [
+          {
+            "date": "2026-08-20 00:30:00 UTC",
+            "game_id": "9z5kBz3JMA",
+            "shots": 2,
+            "expanded_minutes": 86
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "KAqBroNBqb",
+            "shots": 2,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-08-01 23:30:00 UTC",
+            "game_id": "XVqKw7e0q0",
+            "shots": 1,
+            "expanded_minutes": 94
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "eV5D89zn5K",
+            "shots": 1,
+            "expanded_minutes": 63
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 1,
+            "expanded_minutes": 112
+          },
+          {
+            "date": "2026-07-18 00:10:00 UTC",
+            "game_id": "jYQJJyBkQG",
+            "shots": 2,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-05-24 21:00:00 UTC",
+            "game_id": "BLMvVGkWMx",
+            "shots": 1,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "EGMPG816Qa",
+            "shots": 2,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "XVqKw7dRq0",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "9Yqdeza9Qv",
+            "shots": 0,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-04-25 17:00:00 UTC",
+            "game_id": "gpMOglanMz",
+            "shots": 1,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-04-22 23:45:00 UTC",
+            "game_id": "ljqEdk2E5x",
+            "shots": 0,
+            "expanded_minutes": 15
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "9vQ2Gr21MK",
+            "shots": 2,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-04-12 00:30:00 UTC",
+            "game_id": "gjMNWrRv5K",
+            "shots": 1,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "vzqoYzrkMa",
+            "shots": 0,
+            "expanded_minutes": 61
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "XVqKw7YOq0",
+            "shots": 0,
+            "expanded_minutes": 95
+          },
+          {
+            "date": "2026-03-14 19:15:00 UTC",
+            "game_id": "2vQ1g1aK5r",
+            "shots": 1,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "gOMnGzrX5w",
+            "shots": 0,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-03-01 00:30:00 UTC",
+            "game_id": "ljqEdkAz5x",
+            "shots": 0,
+            "expanded_minutes": 34
+          }
+        ]
+      },
+      {
+        "identity": {
+          "player_id": "zeQZJYDZQK",
+          "player_name": "Lucas Hoyos",
+          "birth_date": "1989-04-29",
+          "height_ft": 6,
+          "height_in": 0,
+          "weight_lb": 172,
+          "nationality": "Argentina",
+          "primary_broad_position": "GK",
+          "primary_general_position": "GK",
+          "season_name": "2026"
+        },
+        "prior_appearances": 19,
+        "history": [
+          {
+            "date": "2026-08-20 00:30:00 UTC",
+            "game_id": "9z5kBz3JMA",
+            "shots": 0,
+            "expanded_minutes": 97
+          },
+          {
+            "date": "2026-08-15 23:30:00 UTC",
+            "game_id": "KAqBroNBqb",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-08-01 23:30:00 UTC",
+            "game_id": "XVqKw7e0q0",
+            "shots": 0,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-07-25 23:30:00 UTC",
+            "game_id": "eV5D89zn5K",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-07-23 00:15:00 UTC",
+            "game_id": "0Oq6oe3xQ6",
+            "shots": 0,
+            "expanded_minutes": 112
+          },
+          {
+            "date": "2026-07-18 00:10:00 UTC",
+            "game_id": "jYQJJyBkQG",
+            "shots": 0,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-05-24 21:00:00 UTC",
+            "game_id": "BLMvVGkWMx",
+            "shots": 0,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-05-16 23:30:00 UTC",
+            "game_id": "EGMPG816Qa",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-09 23:30:00 UTC",
+            "game_id": "XVqKw7dRq0",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-05-02 23:30:00 UTC",
+            "game_id": "9Yqdeza9Qv",
+            "shots": 0,
+            "expanded_minutes": 106
+          },
+          {
+            "date": "2026-04-25 17:00:00 UTC",
+            "game_id": "gpMOglanMz",
+            "shots": 0,
+            "expanded_minutes": 105
+          },
+          {
+            "date": "2026-04-22 23:45:00 UTC",
+            "game_id": "ljqEdk2E5x",
+            "shots": 0,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-04-18 23:30:00 UTC",
+            "game_id": "9vQ2Gr21MK",
+            "shots": 0,
+            "expanded_minutes": 101
+          },
+          {
+            "date": "2026-04-12 00:30:00 UTC",
+            "game_id": "gjMNWrRv5K",
+            "shots": 0,
+            "expanded_minutes": 99
+          },
+          {
+            "date": "2026-04-04 23:30:00 UTC",
+            "game_id": "vzqoYzrkMa",
+            "shots": 0,
+            "expanded_minutes": 108
+          },
+          {
+            "date": "2026-03-21 23:30:00 UTC",
+            "game_id": "XVqKw7YOq0",
+            "shots": 0,
+            "expanded_minutes": 95
+          },
+          {
+            "date": "2026-03-14 19:15:00 UTC",
+            "game_id": "2vQ1g1aK5r",
+            "shots": 0,
+            "expanded_minutes": 107
+          },
+          {
+            "date": "2026-03-08 00:30:00 UTC",
+            "game_id": "gOMnGzrX5w",
+            "shots": 0,
+            "expanded_minutes": 103
+          },
+          {
+            "date": "2026-03-01 00:30:00 UTC",
+            "game_id": "ljqEdkAz5x",
+            "shots": 0,
+            "expanded_minutes": 96
+          }
+        ]
+      }
+    ]
+  }
+]

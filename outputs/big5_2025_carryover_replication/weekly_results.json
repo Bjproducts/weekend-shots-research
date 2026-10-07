@@ -1,0 +1,90 @@
+[
+  {
+    "weekend": "2025-09-13",
+    "A": {
+      "hits": 0,
+      "picks": 3,
+      "misses": 3,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        56.2
+      ]
+    },
+    "B": {
+      "hits": 0,
+      "picks": 0,
+      "rate": null,
+      "misses": 0
+    }
+  },
+  {
+    "weekend": "2025-09-20",
+    "A": {
+      "hits": 2,
+      "picks": 3,
+      "misses": 1,
+      "rate": 66.7,
+      "wilson95": [
+        20.8,
+        93.9
+      ]
+    },
+    "B": {
+      "hits": 1,
+      "picks": 2,
+      "misses": 1,
+      "rate": 50.0,
+      "wilson95": [
+        9.5,
+        90.5
+      ]
+    }
+  },
+  {
+    "weekend": "2025-09-27",
+    "A": {
+      "hits": 3,
+      "picks": 4,
+      "misses": 1,
+      "rate": 75.0,
+      "wilson95": [
+        30.1,
+        95.4
+      ]
+    },
+    "B": {
+      "hits": 2,
+      "picks": 2,
+      "misses": 0,
+      "rate": 100.0,
+      "wilson95": [
+        34.2,
+        100.0
+      ]
+    }
+  },
+  {
+    "weekend": "2025-10-04",
+    "A": {
+      "hits": 1,
+      "picks": 3,
+      "misses": 2,
+      "rate": 33.3,
+      "wilson95": [
+        6.1,
+        79.2
+      ]
+    },
+    "B": {
+      "hits": 0,
+      "picks": 1,
+      "misses": 1,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        79.3
+      ]
+    }
+  }
+]

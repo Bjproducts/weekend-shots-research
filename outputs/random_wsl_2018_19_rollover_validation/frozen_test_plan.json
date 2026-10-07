@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-09-28T21:15:00Z",
+  "status": "frozen_before_player_event_acquisition",
+  "random_selection_audit": {
+    "candidate_pool": [
+      "NWSL 2023",
+      "NWSL 2018",
+      "Serie A Women 2023/24",
+      "WSL 2018/19",
+      "WSL 2019/20"
+    ],
+    "first_draw": {
+      "dataset": "NWSL 2018",
+      "drawn_utc": "2026-09-28T21:13:00.790208Z",
+      "rejected": true,
+      "reason": "Only 36 scattered fixtures and unbalanced coverage; rejected before acquiring player events."
+    },
+    "second_draw": {
+      "dataset": "WSL 2018/19",
+      "drawn_utc": "2026-09-28T21:13:18.842937Z",
+      "accepted": true,
+      "reason": "107/110 expected fixtures (97.3%), 11 teams, home/away counts differ by at most one."
+    }
+  },
+  "dataset": "FA Women's Super League 2018/19",
+  "provider": "StatsBomb Open Data",
+  "competition_id": 37,
+  "season_id": 4,
+  "available_matches": 107,
+  "expected_league_matches": 110,
+  "expected_teams": 11,
+  "rules_sha256": "bf9c477997fb2ee2e34568441c352443ee1785b5f0fc9ae20d0a078530bda5b3",
+  "pattern_A": "Existing frozen original environment-first 2+ shots rule.",
+  "pattern_B": "Pattern A plus previous-five-start average shots >=3 and average minutes >=80.",
+  "betting_policy": {
+    "starting_stake": 10,
+    "decimal_odds_A": 1.5,
+    "decimal_odds_B": 2.0,
+    "formula": "balance_after_n_consecutive_wins = 10 * decimal_odds^n",
+    "loss": "The entire balance is staked; a loss reduces the current rollover to $0.",
+    "restart": "Deposit a new $10 after a loss to measure the next streak; also report deposits and ending net balance.",
+    "ordering": "kickoff, fixture ID, player ID"
+  },
+  "decision_policy": "No rule, odds, ordering, coverage exclusion or rollover changes after player-event acquisition. Preserve all samples, missing fixtures, wins and losses.",
+  "limits": [
+    "Three expected fixtures are absent and will not be invented.",
+    "The random selection was among structurally plausible catalog entries; one failed-coverage draw was rejected without player outcomes.",
+    "Fixed odds are hypothetical and the all-in balance is not profit unless cashed out.",
+    "Same-kickoff selections may not be executable as a literal sequential rollover."
+  ]
+}

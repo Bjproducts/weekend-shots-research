@@ -1,0 +1,1798 @@
+{
+  "scope": "Previously studied MLS 2026 Saturday/Sunday selections only; not fresh validation.",
+  "rules_sha256": "bf9c477997fb2ee2e34568441c352443ee1785b5f0fc9ae20d0a078530bda5b3",
+  "latest_saved_match_with_stats": "2026-08-17 02:30:00.000000",
+  "order": "Kickoff UTC, fixture ID, pre-match shooter rank, player ID. Same-kickoff order is arbitrary; pick streaks are descriptive, not a sequence of available reinvestments.",
+  "coverage": "No-pick weekends skipped; missing coverage is not a loss or a verified no-pick weekend. Streaks describe observed selections only, not complete-season streaks.",
+  "rules": {
+    "A": {
+      "picks": {
+        "n": 36,
+        "hits": 30,
+        "longest_hit_run": 11,
+        "longest_miss_run": 2,
+        "hit_run_lengths": {
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "7": 1,
+          "11": 1
+        },
+        "miss_run_lengths": {
+          "1": 4,
+          "2": 1
+        },
+        "ending_run": {
+          "hit": true,
+          "length": 4
+        },
+        "runs": [
+          {
+            "hit": false,
+            "length": 2,
+            "entries": [
+              {
+                "hit": false,
+                "date": "2026-04-25 17:00:00.000000",
+                "weekend": "2026-04-25",
+                "fixture_id": 607,
+                "fixture": "Toronto FC vs Atlanta United",
+                "player": "J. Sargent",
+                "player_id": 988,
+                "shots": 1
+              },
+              {
+                "hit": false,
+                "date": "2026-04-25 17:00:00.000000",
+                "weekend": "2026-04-25",
+                "fixture_id": 607,
+                "fixture": "Toronto FC vs Atlanta United",
+                "player": "D. Sall\u00f3i",
+                "player_id": 989,
+                "shots": 0
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 5,
+            "entries": [
+              {
+                "hit": true,
+                "date": "2026-04-26 00:30:00.000000",
+                "weekend": "2026-04-25",
+                "fixture_id": 560,
+                "fixture": "Chicago Fire vs Sporting Kansas City",
+                "player": "P. Zinckernagel",
+                "player_id": 799,
+                "shots": 5
+              },
+              {
+                "hit": true,
+                "date": "2026-04-26 00:30:00.000000",
+                "weekend": "2026-04-25",
+                "fixture_id": 560,
+                "fixture": "Chicago Fire vs Sporting Kansas City",
+                "player": "H. Cuypers",
+                "player_id": 564,
+                "shots": 5
+              },
+              {
+                "hit": true,
+                "date": "2026-04-26 00:30:00.000000",
+                "weekend": "2026-04-25",
+                "fixture_id": 561,
+                "fixture": "Nashville SC vs Charlotte FC",
+                "player": "H. Mukhtar",
+                "player_id": 1016,
+                "shots": 5
+              },
+              {
+                "hit": true,
+                "date": "2026-05-02 23:15:00.000000",
+                "weekend": "2026-05-02",
+                "fixture_id": 569,
+                "fixture": "Inter Miami CF vs Orlando City SC",
+                "player": "L. Messi",
+                "player_id": 10,
+                "shots": 5
+              },
+              {
+                "hit": true,
+                "date": "2026-05-03 00:30:00.000000",
+                "weekend": "2026-05-02",
+                "fixture_id": 575,
+                "fixture": "Houston Dynamo vs Colorado Rapids",
+                "player": "M. Bogusz",
+                "player_id": 1026,
+                "shots": 2
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "hit": false,
+                "date": "2026-05-03 00:30:00.000000",
+                "weekend": "2026-05-02",
+                "fixture_id": 575,
+                "fixture": "Houston Dynamo vs Colorado Rapids",
+                "player": "Guilherme",
+                "player_id": 866,
+                "shots": 0
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 7,
+            "entries": [
+              {
+                "hit": true,
+                "date": "2026-05-03 00:30:00.000000",
+                "weekend": "2026-05-02",
+                "fixture_id": 576,
+                "fixture": "Chicago Fire vs FC Cincinnati",
+                "player": "H. Cuypers",
+                "player_id": 564,
+                "shots": 9
+              },
+              {
+                "hit": true,
+                "date": "2026-05-03 00:30:00.000000",
+                "weekend": "2026-05-02",
+                "fixture_id": 576,
+                "fixture": "Chicago Fire vs FC Cincinnati",
+                "player": "P. Zinckernagel",
+                "player_id": 799,
+                "shots": 9
+              },
+              {
+                "hit": true,
+                "date": "2026-05-09 18:30:00.000000",
+                "weekend": "2026-05-09",
+                "fixture_id": 583,
+                "fixture": "Chicago Fire vs New York Red Bulls",
+                "player": "P. Zinckernagel",
+                "player_id": 799,
+                "shots": 3
+              },
+              {
+                "hit": true,
+                "date": "2026-05-09 18:30:00.000000",
+                "weekend": "2026-05-09",
+                "fixture_id": 583,
+                "fixture": "Chicago Fire vs New York Red Bulls",
+                "player": "H. Cuypers",
+                "player_id": 564,
+                "shots": 3
+              },
+              {
+                "hit": true,
+                "date": "2026-05-10 23:00:00.000000",
+                "weekend": "2026-05-09",
+                "fixture_id": 547,
+                "fixture": "Minnesota United vs Austin FC",
+                "player": "K. Yeboah",
+                "player_id": 676,
+                "shots": 5
+              },
+              {
+                "hit": true,
+                "date": "2026-05-17 00:30:00.000000",
+                "weekend": "2026-05-16",
+                "fixture_id": 510,
+                "fixture": "Austin FC vs Sporting Kansas City",
+                "player": "M. Uzuni",
+                "player_id": 789,
+                "shots": 2
+              },
+              {
+                "hit": true,
+                "date": "2026-05-17 01:15:00.000000",
+                "weekend": "2026-05-16",
+                "fixture_id": 512,
+                "fixture": "Seattle Sounders FC vs LA Galaxy",
+                "player": "J. Ferreira",
+                "player_id": 454,
+                "shots": 2
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "hit": false,
+                "date": "2026-05-17 01:15:00.000000",
+                "weekend": "2026-05-16",
+                "fixture_id": 512,
+                "fixture": "Seattle Sounders FC vs LA Galaxy",
+                "player": "S. Brunell",
+                "player_id": 452,
+                "shots": 0
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 3,
+            "entries": [
+              {
+                "hit": true,
+                "date": "2026-05-17 01:30:00.000000",
+                "weekend": "2026-05-16",
+                "fixture_id": 513,
+                "fixture": "Real Salt Lake vs Colorado Rapids",
+                "player": "Z. Gozo",
+                "player_id": 1005,
+                "shots": 6
+              },
+              {
+                "hit": true,
+                "date": "2026-05-17 01:30:00.000000",
+                "weekend": "2026-05-16",
+                "fixture_id": 513,
+                "fixture": "Real Salt Lake vs Colorado Rapids",
+                "player": "S. Solans",
+                "player_id": 631,
+                "shots": 5
+              },
+              {
+                "hit": true,
+                "date": "2026-05-17 22:00:00.000000",
+                "weekend": "2026-05-16",
+                "fixture_id": 516,
+                "fixture": "Inter Miami CF vs Portland Timbers",
+                "player": "L. Messi",
+                "player_id": 10,
+                "shots": 9
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "hit": false,
+                "date": "2026-05-17 22:00:00.000000",
+                "weekend": "2026-05-16",
+                "fixture_id": 516,
+                "fixture": "Inter Miami CF vs Portland Timbers",
+                "player": "L. Su\u00e1rez",
+                "player_id": 872,
+                "shots": 1
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 11,
+            "entries": [
+              {
+                "hit": true,
+                "date": "2026-05-23 23:30:00.000000",
+                "weekend": "2026-05-23",
+                "fixture_id": 520,
+                "fixture": "DC United vs CF Montr\u00e9al",
+                "player": "L. Munteanu",
+                "player_id": 1080,
+                "shots": 3
+              },
+              {
+                "hit": true,
+                "date": "2026-05-24 00:30:00.000000",
+                "weekend": "2026-05-23",
+                "fixture_id": 464,
+                "fixture": "Chicago Fire vs Toronto FC",
+                "player": "P. Zinckernagel",
+                "player_id": 799,
+                "shots": 3
+              },
+              {
+                "hit": true,
+                "date": "2026-05-24 00:30:00.000000",
+                "weekend": "2026-05-23",
+                "fixture_id": 464,
+                "fixture": "Chicago Fire vs Toronto FC",
+                "player": "H. Cuypers",
+                "player_id": 564,
+                "shots": 2
+              },
+              {
+                "hit": true,
+                "date": "2026-05-24 00:30:00.000000",
+                "weekend": "2026-05-23",
+                "fixture_id": 465,
+                "fixture": "Nashville SC vs New York City FC",
+                "player": "H. Mukhtar",
+                "player_id": 1016,
+                "shots": 4
+              },
+              {
+                "hit": true,
+                "date": "2026-07-25 23:30:00.000000",
+                "weekend": "2026-07-25",
+                "fixture_id": 213,
+                "fixture": "DC United vs Toronto FC",
+                "player": "L. Munteanu",
+                "player_id": 1080,
+                "shots": 3
+              },
+              {
+                "hit": true,
+                "date": "2026-07-26 00:30:00.000000",
+                "weekend": "2026-07-25",
+                "fixture_id": 218,
+                "fixture": "Houston Dynamo vs Austin FC",
+                "player": "M. Bogusz",
+                "player_id": 1026,
+                "shots": 4
+              },
+              {
+                "hit": true,
+                "date": "2026-07-26 00:30:00.000000",
+                "weekend": "2026-07-25",
+                "fixture_id": 218,
+                "fixture": "Houston Dynamo vs Austin FC",
+                "player": "Guilherme",
+                "player_id": 866,
+                "shots": 3
+              },
+              {
+                "hit": true,
+                "date": "2026-07-26 00:30:00.000000",
+                "weekend": "2026-07-25",
+                "fixture_id": 219,
+                "fixture": "St.Louis City vs Colorado Rapids",
+                "player": "M. Hartel",
+                "player_id": 834,
+                "shots": 2
+              },
+              {
+                "hit": true,
+                "date": "2026-08-01 23:30:00.000000",
+                "weekend": "2026-08-01",
+                "fixture_id": 230,
+                "fixture": "Philadelphia Union vs Atlanta United",
+                "player": "M. Iloski",
+                "player_id": 922,
+                "shots": 7
+              },
+              {
+                "hit": true,
+                "date": "2026-08-01 23:30:00.000000",
+                "weekend": "2026-08-01",
+                "fixture_id": 230,
+                "fixture": "Philadelphia Union vs Atlanta United",
+                "player": "C. Sullivan",
+                "player_id": 917,
+                "shots": 4
+              },
+              {
+                "hit": true,
+                "date": "2026-08-02 01:30:00.000000",
+                "weekend": "2026-08-01",
+                "fixture_id": 237,
+                "fixture": "Colorado Rapids vs Austin FC",
+                "player": "R. Navarro",
+                "player_id": 773,
+                "shots": 7
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "hit": false,
+                "date": "2026-08-16 00:30:00.000000",
+                "weekend": "2026-08-15",
+                "fixture_id": 248,
+                "fixture": "Houston Dynamo vs LA Galaxy",
+                "player": "M. Bogusz",
+                "player_id": 1026,
+                "shots": 1
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 4,
+            "entries": [
+              {
+                "hit": true,
+                "date": "2026-08-16 00:30:00.000000",
+                "weekend": "2026-08-15",
+                "fixture_id": 248,
+                "fixture": "Houston Dynamo vs LA Galaxy",
+                "player": "Guilherme",
+                "player_id": 866,
+                "shots": 3
+              },
+              {
+                "hit": true,
+                "date": "2026-08-16 01:30:00.000000",
+                "weekend": "2026-08-15",
+                "fixture_id": 250,
+                "fixture": "Colorado Rapids vs Sporting Kansas City",
+                "player": "R. Navarro",
+                "player_id": 773,
+                "shots": 4
+              },
+              {
+                "hit": true,
+                "date": "2026-08-16 02:30:00.000000",
+                "weekend": "2026-08-15",
+                "fixture_id": 251,
+                "fixture": "Los Angeles FC vs San Diego FC",
+                "player": "S. Heung-min",
+                "player_id": 410,
+                "shots": 4
+              },
+              {
+                "hit": true,
+                "date": "2026-08-16 02:30:00.000000",
+                "weekend": "2026-08-15",
+                "fixture_id": 251,
+                "fixture": "Los Angeles FC vs San Diego FC",
+                "player": "D. Bouanga",
+                "player_id": 411,
+                "shots": 2
+              }
+            ]
+          }
+        ]
+      },
+      "fixtures": {
+        "n": 23,
+        "hits": 18,
+        "longest_hit_run": 8,
+        "longest_miss_run": 1,
+        "hit_run_lengths": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "8": 1
+        },
+        "miss_run_lengths": {
+          "1": 5
+        },
+        "ending_run": {
+          "hit": true,
+          "length": 2
+        },
+        "runs": [
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-04-25 17:00:00.000000",
+                "fixture": "Toronto FC vs Atlanta United",
+                "hit": false,
+                "hits": 0,
+                "n": 2
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 3,
+            "entries": [
+              {
+                "date": "2026-04-26 00:30:00.000000",
+                "fixture": "Chicago Fire vs Sporting Kansas City",
+                "hit": true,
+                "hits": 2,
+                "n": 2
+              },
+              {
+                "date": "2026-04-26 00:30:00.000000",
+                "fixture": "Nashville SC vs Charlotte FC",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-05-02 23:15:00.000000",
+                "fixture": "Inter Miami CF vs Orlando City SC",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-05-03 00:30:00.000000",
+                "fixture": "Houston Dynamo vs Colorado Rapids",
+                "hit": false,
+                "hits": 1,
+                "n": 2
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 4,
+            "entries": [
+              {
+                "date": "2026-05-03 00:30:00.000000",
+                "fixture": "Chicago Fire vs FC Cincinnati",
+                "hit": true,
+                "hits": 2,
+                "n": 2
+              },
+              {
+                "date": "2026-05-09 18:30:00.000000",
+                "fixture": "Chicago Fire vs New York Red Bulls",
+                "hit": true,
+                "hits": 2,
+                "n": 2
+              },
+              {
+                "date": "2026-05-10 23:00:00.000000",
+                "fixture": "Minnesota United vs Austin FC",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-05-17 00:30:00.000000",
+                "fixture": "Austin FC vs Sporting Kansas City",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-05-17 01:15:00.000000",
+                "fixture": "Seattle Sounders FC vs LA Galaxy",
+                "hit": false,
+                "hits": 1,
+                "n": 2
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-05-17 01:30:00.000000",
+                "fixture": "Real Salt Lake vs Colorado Rapids",
+                "hit": true,
+                "hits": 2,
+                "n": 2
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-05-17 22:00:00.000000",
+                "fixture": "Inter Miami CF vs Portland Timbers",
+                "hit": false,
+                "hits": 1,
+                "n": 2
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 8,
+            "entries": [
+              {
+                "date": "2026-05-23 23:30:00.000000",
+                "fixture": "DC United vs CF Montr\u00e9al",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-05-24 00:30:00.000000",
+                "fixture": "Chicago Fire vs Toronto FC",
+                "hit": true,
+                "hits": 2,
+                "n": 2
+              },
+              {
+                "date": "2026-05-24 00:30:00.000000",
+                "fixture": "Nashville SC vs New York City FC",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-07-25 23:30:00.000000",
+                "fixture": "DC United vs Toronto FC",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-07-26 00:30:00.000000",
+                "fixture": "Houston Dynamo vs Austin FC",
+                "hit": true,
+                "hits": 2,
+                "n": 2
+              },
+              {
+                "date": "2026-07-26 00:30:00.000000",
+                "fixture": "St.Louis City vs Colorado Rapids",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-08-01 23:30:00.000000",
+                "fixture": "Philadelphia Union vs Atlanta United",
+                "hit": true,
+                "hits": 2,
+                "n": 2
+              },
+              {
+                "date": "2026-08-02 01:30:00.000000",
+                "fixture": "Colorado Rapids vs Austin FC",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-08-16 00:30:00.000000",
+                "fixture": "Houston Dynamo vs LA Galaxy",
+                "hit": false,
+                "hits": 1,
+                "n": 2
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 2,
+            "entries": [
+              {
+                "date": "2026-08-16 01:30:00.000000",
+                "fixture": "Colorado Rapids vs Sporting Kansas City",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-08-16 02:30:00.000000",
+                "fixture": "Los Angeles FC vs San Diego FC",
+                "hit": true,
+                "hits": 2,
+                "n": 2
+              }
+            ]
+          }
+        ]
+      },
+      "kickoff_batches": {
+        "n": 19,
+        "hits": 14,
+        "longest_hit_run": 6,
+        "longest_miss_run": 1,
+        "hit_run_lengths": {
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "6": 1
+        },
+        "miss_run_lengths": {
+          "1": 5
+        },
+        "ending_run": {
+          "hit": true,
+          "length": 2
+        },
+        "runs": [
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-04-25 17:00:00.000000",
+                "hit": false,
+                "hits": 0,
+                "n": 2,
+                "fixtures": [
+                  "Toronto FC vs Atlanta United"
+                ]
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 2,
+            "entries": [
+              {
+                "date": "2026-04-26 00:30:00.000000",
+                "hit": true,
+                "hits": 3,
+                "n": 3,
+                "fixtures": [
+                  "Chicago Fire vs Sporting Kansas City",
+                  "Nashville SC vs Charlotte FC"
+                ]
+              },
+              {
+                "date": "2026-05-02 23:15:00.000000",
+                "hit": true,
+                "hits": 1,
+                "n": 1,
+                "fixtures": [
+                  "Inter Miami CF vs Orlando City SC"
+                ]
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-05-03 00:30:00.000000",
+                "hit": false,
+                "hits": 3,
+                "n": 4,
+                "fixtures": [
+                  "Chicago Fire vs FC Cincinnati",
+                  "Houston Dynamo vs Colorado Rapids"
+                ]
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 3,
+            "entries": [
+              {
+                "date": "2026-05-09 18:30:00.000000",
+                "hit": true,
+                "hits": 2,
+                "n": 2,
+                "fixtures": [
+                  "Chicago Fire vs New York Red Bulls"
+                ]
+              },
+              {
+                "date": "2026-05-10 23:00:00.000000",
+                "hit": true,
+                "hits": 1,
+                "n": 1,
+                "fixtures": [
+                  "Minnesota United vs Austin FC"
+                ]
+              },
+              {
+                "date": "2026-05-17 00:30:00.000000",
+                "hit": true,
+                "hits": 1,
+                "n": 1,
+                "fixtures": [
+                  "Austin FC vs Sporting Kansas City"
+                ]
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-05-17 01:15:00.000000",
+                "hit": false,
+                "hits": 1,
+                "n": 2,
+                "fixtures": [
+                  "Seattle Sounders FC vs LA Galaxy"
+                ]
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-05-17 01:30:00.000000",
+                "hit": true,
+                "hits": 2,
+                "n": 2,
+                "fixtures": [
+                  "Real Salt Lake vs Colorado Rapids"
+                ]
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-05-17 22:00:00.000000",
+                "hit": false,
+                "hits": 1,
+                "n": 2,
+                "fixtures": [
+                  "Inter Miami CF vs Portland Timbers"
+                ]
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 6,
+            "entries": [
+              {
+                "date": "2026-05-23 23:30:00.000000",
+                "hit": true,
+                "hits": 1,
+                "n": 1,
+                "fixtures": [
+                  "DC United vs CF Montr\u00e9al"
+                ]
+              },
+              {
+                "date": "2026-05-24 00:30:00.000000",
+                "hit": true,
+                "hits": 3,
+                "n": 3,
+                "fixtures": [
+                  "Chicago Fire vs Toronto FC",
+                  "Nashville SC vs New York City FC"
+                ]
+              },
+              {
+                "date": "2026-07-25 23:30:00.000000",
+                "hit": true,
+                "hits": 1,
+                "n": 1,
+                "fixtures": [
+                  "DC United vs Toronto FC"
+                ]
+              },
+              {
+                "date": "2026-07-26 00:30:00.000000",
+                "hit": true,
+                "hits": 3,
+                "n": 3,
+                "fixtures": [
+                  "Houston Dynamo vs Austin FC",
+                  "St.Louis City vs Colorado Rapids"
+                ]
+              },
+              {
+                "date": "2026-08-01 23:30:00.000000",
+                "hit": true,
+                "hits": 2,
+                "n": 2,
+                "fixtures": [
+                  "Philadelphia Union vs Atlanta United"
+                ]
+              },
+              {
+                "date": "2026-08-02 01:30:00.000000",
+                "hit": true,
+                "hits": 1,
+                "n": 1,
+                "fixtures": [
+                  "Colorado Rapids vs Austin FC"
+                ]
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-08-16 00:30:00.000000",
+                "hit": false,
+                "hits": 1,
+                "n": 2,
+                "fixtures": [
+                  "Houston Dynamo vs LA Galaxy"
+                ]
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 2,
+            "entries": [
+              {
+                "date": "2026-08-16 01:30:00.000000",
+                "hit": true,
+                "hits": 1,
+                "n": 1,
+                "fixtures": [
+                  "Colorado Rapids vs Sporting Kansas City"
+                ]
+              },
+              {
+                "date": "2026-08-16 02:30:00.000000",
+                "hit": true,
+                "hits": 2,
+                "n": 2,
+                "fixtures": [
+                  "Los Angeles FC vs San Diego FC"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "active_weekends": {
+        "n": 8,
+        "hits": 4,
+        "longest_hit_run": 3,
+        "longest_miss_run": 2,
+        "hit_run_lengths": {
+          "1": 1,
+          "3": 1
+        },
+        "miss_run_lengths": {
+          "1": 2,
+          "2": 1
+        },
+        "ending_run": {
+          "hit": false,
+          "length": 1
+        },
+        "runs": [
+          {
+            "hit": false,
+            "length": 2,
+            "entries": [
+              {
+                "date": "2026-04-25",
+                "hit": false,
+                "hits": 3,
+                "n": 5
+              },
+              {
+                "date": "2026-05-02",
+                "hit": false,
+                "hits": 4,
+                "n": 5
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-05-09",
+                "hit": true,
+                "hits": 3,
+                "n": 3
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-05-16",
+                "hit": false,
+                "hits": 5,
+                "n": 7
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 3,
+            "entries": [
+              {
+                "date": "2026-05-23",
+                "hit": true,
+                "hits": 4,
+                "n": 4
+              },
+              {
+                "date": "2026-07-25",
+                "hit": true,
+                "hits": 4,
+                "n": 4
+              },
+              {
+                "date": "2026-08-01",
+                "hit": true,
+                "hits": 3,
+                "n": 3
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-08-15",
+                "hit": false,
+                "hits": 4,
+                "n": 5
+              }
+            ]
+          }
+        ]
+      },
+      "sequence": "MMHHHHHMHHHHHHHMHHHMHHHHHHHHHHHMHHHH"
+    },
+    "B": {
+      "picks": {
+        "n": 23,
+        "hits": 21,
+        "longest_hit_run": 10,
+        "longest_miss_run": 1,
+        "hit_run_lengths": {
+          "3": 1,
+          "8": 1,
+          "10": 1
+        },
+        "miss_run_lengths": {
+          "1": 2
+        },
+        "ending_run": {
+          "hit": true,
+          "length": 3
+        },
+        "runs": [
+          {
+            "hit": true,
+            "length": 10,
+            "entries": [
+              {
+                "hit": true,
+                "date": "2026-04-26 00:30:00.000000",
+                "weekend": "2026-04-25",
+                "fixture_id": 560,
+                "fixture": "Chicago Fire vs Sporting Kansas City",
+                "player": "H. Cuypers",
+                "player_id": 564,
+                "shots": 5
+              },
+              {
+                "hit": true,
+                "date": "2026-04-26 00:30:00.000000",
+                "weekend": "2026-04-25",
+                "fixture_id": 561,
+                "fixture": "Nashville SC vs Charlotte FC",
+                "player": "H. Mukhtar",
+                "player_id": 1016,
+                "shots": 5
+              },
+              {
+                "hit": true,
+                "date": "2026-05-02 23:15:00.000000",
+                "weekend": "2026-05-02",
+                "fixture_id": 569,
+                "fixture": "Inter Miami CF vs Orlando City SC",
+                "player": "L. Messi",
+                "player_id": 10,
+                "shots": 5
+              },
+              {
+                "hit": true,
+                "date": "2026-05-03 00:30:00.000000",
+                "weekend": "2026-05-02",
+                "fixture_id": 575,
+                "fixture": "Houston Dynamo vs Colorado Rapids",
+                "player": "M. Bogusz",
+                "player_id": 1026,
+                "shots": 2
+              },
+              {
+                "hit": true,
+                "date": "2026-05-03 00:30:00.000000",
+                "weekend": "2026-05-02",
+                "fixture_id": 576,
+                "fixture": "Chicago Fire vs FC Cincinnati",
+                "player": "H. Cuypers",
+                "player_id": 564,
+                "shots": 9
+              },
+              {
+                "hit": true,
+                "date": "2026-05-09 18:30:00.000000",
+                "weekend": "2026-05-09",
+                "fixture_id": 583,
+                "fixture": "Chicago Fire vs New York Red Bulls",
+                "player": "P. Zinckernagel",
+                "player_id": 799,
+                "shots": 3
+              },
+              {
+                "hit": true,
+                "date": "2026-05-09 18:30:00.000000",
+                "weekend": "2026-05-09",
+                "fixture_id": 583,
+                "fixture": "Chicago Fire vs New York Red Bulls",
+                "player": "H. Cuypers",
+                "player_id": 564,
+                "shots": 3
+              },
+              {
+                "hit": true,
+                "date": "2026-05-17 00:30:00.000000",
+                "weekend": "2026-05-16",
+                "fixture_id": 510,
+                "fixture": "Austin FC vs Sporting Kansas City",
+                "player": "M. Uzuni",
+                "player_id": 789,
+                "shots": 2
+              },
+              {
+                "hit": true,
+                "date": "2026-05-17 01:30:00.000000",
+                "weekend": "2026-05-16",
+                "fixture_id": 513,
+                "fixture": "Real Salt Lake vs Colorado Rapids",
+                "player": "Z. Gozo",
+                "player_id": 1005,
+                "shots": 6
+              },
+              {
+                "hit": true,
+                "date": "2026-05-17 22:00:00.000000",
+                "weekend": "2026-05-16",
+                "fixture_id": 516,
+                "fixture": "Inter Miami CF vs Portland Timbers",
+                "player": "L. Messi",
+                "player_id": 10,
+                "shots": 9
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "hit": false,
+                "date": "2026-05-17 22:00:00.000000",
+                "weekend": "2026-05-16",
+                "fixture_id": 516,
+                "fixture": "Inter Miami CF vs Portland Timbers",
+                "player": "L. Su\u00e1rez",
+                "player_id": 872,
+                "shots": 1
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 8,
+            "entries": [
+              {
+                "hit": true,
+                "date": "2026-05-23 23:30:00.000000",
+                "weekend": "2026-05-23",
+                "fixture_id": 520,
+                "fixture": "DC United vs CF Montr\u00e9al",
+                "player": "L. Munteanu",
+                "player_id": 1080,
+                "shots": 3
+              },
+              {
+                "hit": true,
+                "date": "2026-05-24 00:30:00.000000",
+                "weekend": "2026-05-23",
+                "fixture_id": 464,
+                "fixture": "Chicago Fire vs Toronto FC",
+                "player": "P. Zinckernagel",
+                "player_id": 799,
+                "shots": 3
+              },
+              {
+                "hit": true,
+                "date": "2026-05-24 00:30:00.000000",
+                "weekend": "2026-05-23",
+                "fixture_id": 464,
+                "fixture": "Chicago Fire vs Toronto FC",
+                "player": "H. Cuypers",
+                "player_id": 564,
+                "shots": 2
+              },
+              {
+                "hit": true,
+                "date": "2026-05-24 00:30:00.000000",
+                "weekend": "2026-05-23",
+                "fixture_id": 465,
+                "fixture": "Nashville SC vs New York City FC",
+                "player": "H. Mukhtar",
+                "player_id": 1016,
+                "shots": 4
+              },
+              {
+                "hit": true,
+                "date": "2026-07-25 23:30:00.000000",
+                "weekend": "2026-07-25",
+                "fixture_id": 213,
+                "fixture": "DC United vs Toronto FC",
+                "player": "L. Munteanu",
+                "player_id": 1080,
+                "shots": 3
+              },
+              {
+                "hit": true,
+                "date": "2026-07-26 00:30:00.000000",
+                "weekend": "2026-07-25",
+                "fixture_id": 218,
+                "fixture": "Houston Dynamo vs Austin FC",
+                "player": "M. Bogusz",
+                "player_id": 1026,
+                "shots": 4
+              },
+              {
+                "hit": true,
+                "date": "2026-07-26 00:30:00.000000",
+                "weekend": "2026-07-25",
+                "fixture_id": 219,
+                "fixture": "St.Louis City vs Colorado Rapids",
+                "player": "M. Hartel",
+                "player_id": 834,
+                "shots": 2
+              },
+              {
+                "hit": true,
+                "date": "2026-08-01 23:30:00.000000",
+                "weekend": "2026-08-01",
+                "fixture_id": 230,
+                "fixture": "Philadelphia Union vs Atlanta United",
+                "player": "M. Iloski",
+                "player_id": 922,
+                "shots": 7
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "hit": false,
+                "date": "2026-08-16 00:30:00.000000",
+                "weekend": "2026-08-15",
+                "fixture_id": 248,
+                "fixture": "Houston Dynamo vs LA Galaxy",
+                "player": "M. Bogusz",
+                "player_id": 1026,
+                "shots": 1
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 3,
+            "entries": [
+              {
+                "hit": true,
+                "date": "2026-08-16 00:30:00.000000",
+                "weekend": "2026-08-15",
+                "fixture_id": 248,
+                "fixture": "Houston Dynamo vs LA Galaxy",
+                "player": "Guilherme",
+                "player_id": 866,
+                "shots": 3
+              },
+              {
+                "hit": true,
+                "date": "2026-08-16 01:30:00.000000",
+                "weekend": "2026-08-15",
+                "fixture_id": 250,
+                "fixture": "Colorado Rapids vs Sporting Kansas City",
+                "player": "R. Navarro",
+                "player_id": 773,
+                "shots": 4
+              },
+              {
+                "hit": true,
+                "date": "2026-08-16 02:30:00.000000",
+                "weekend": "2026-08-15",
+                "fixture_id": 251,
+                "fixture": "Los Angeles FC vs San Diego FC",
+                "player": "S. Heung-min",
+                "player_id": 410,
+                "shots": 4
+              }
+            ]
+          }
+        ]
+      },
+      "fixtures": {
+        "n": 19,
+        "hits": 17,
+        "longest_hit_run": 8,
+        "longest_miss_run": 1,
+        "hit_run_lengths": {
+          "2": 1,
+          "7": 1,
+          "8": 1
+        },
+        "miss_run_lengths": {
+          "1": 2
+        },
+        "ending_run": {
+          "hit": true,
+          "length": 2
+        },
+        "runs": [
+          {
+            "hit": true,
+            "length": 8,
+            "entries": [
+              {
+                "date": "2026-04-26 00:30:00.000000",
+                "fixture": "Chicago Fire vs Sporting Kansas City",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-04-26 00:30:00.000000",
+                "fixture": "Nashville SC vs Charlotte FC",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-05-02 23:15:00.000000",
+                "fixture": "Inter Miami CF vs Orlando City SC",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-05-03 00:30:00.000000",
+                "fixture": "Houston Dynamo vs Colorado Rapids",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-05-03 00:30:00.000000",
+                "fixture": "Chicago Fire vs FC Cincinnati",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-05-09 18:30:00.000000",
+                "fixture": "Chicago Fire vs New York Red Bulls",
+                "hit": true,
+                "hits": 2,
+                "n": 2
+              },
+              {
+                "date": "2026-05-17 00:30:00.000000",
+                "fixture": "Austin FC vs Sporting Kansas City",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-05-17 01:30:00.000000",
+                "fixture": "Real Salt Lake vs Colorado Rapids",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-05-17 22:00:00.000000",
+                "fixture": "Inter Miami CF vs Portland Timbers",
+                "hit": false,
+                "hits": 1,
+                "n": 2
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 7,
+            "entries": [
+              {
+                "date": "2026-05-23 23:30:00.000000",
+                "fixture": "DC United vs CF Montr\u00e9al",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-05-24 00:30:00.000000",
+                "fixture": "Chicago Fire vs Toronto FC",
+                "hit": true,
+                "hits": 2,
+                "n": 2
+              },
+              {
+                "date": "2026-05-24 00:30:00.000000",
+                "fixture": "Nashville SC vs New York City FC",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-07-25 23:30:00.000000",
+                "fixture": "DC United vs Toronto FC",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-07-26 00:30:00.000000",
+                "fixture": "Houston Dynamo vs Austin FC",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-07-26 00:30:00.000000",
+                "fixture": "St.Louis City vs Colorado Rapids",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-08-01 23:30:00.000000",
+                "fixture": "Philadelphia Union vs Atlanta United",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-08-16 00:30:00.000000",
+                "fixture": "Houston Dynamo vs LA Galaxy",
+                "hit": false,
+                "hits": 1,
+                "n": 2
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 2,
+            "entries": [
+              {
+                "date": "2026-08-16 01:30:00.000000",
+                "fixture": "Colorado Rapids vs Sporting Kansas City",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              },
+              {
+                "date": "2026-08-16 02:30:00.000000",
+                "fixture": "Los Angeles FC vs San Diego FC",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              }
+            ]
+          }
+        ]
+      },
+      "kickoff_batches": {
+        "n": 15,
+        "hits": 13,
+        "longest_hit_run": 6,
+        "longest_miss_run": 1,
+        "hit_run_lengths": {
+          "2": 1,
+          "5": 1,
+          "6": 1
+        },
+        "miss_run_lengths": {
+          "1": 2
+        },
+        "ending_run": {
+          "hit": true,
+          "length": 2
+        },
+        "runs": [
+          {
+            "hit": true,
+            "length": 6,
+            "entries": [
+              {
+                "date": "2026-04-26 00:30:00.000000",
+                "hit": true,
+                "hits": 2,
+                "n": 2,
+                "fixtures": [
+                  "Chicago Fire vs Sporting Kansas City",
+                  "Nashville SC vs Charlotte FC"
+                ]
+              },
+              {
+                "date": "2026-05-02 23:15:00.000000",
+                "hit": true,
+                "hits": 1,
+                "n": 1,
+                "fixtures": [
+                  "Inter Miami CF vs Orlando City SC"
+                ]
+              },
+              {
+                "date": "2026-05-03 00:30:00.000000",
+                "hit": true,
+                "hits": 2,
+                "n": 2,
+                "fixtures": [
+                  "Chicago Fire vs FC Cincinnati",
+                  "Houston Dynamo vs Colorado Rapids"
+                ]
+              },
+              {
+                "date": "2026-05-09 18:30:00.000000",
+                "hit": true,
+                "hits": 2,
+                "n": 2,
+                "fixtures": [
+                  "Chicago Fire vs New York Red Bulls"
+                ]
+              },
+              {
+                "date": "2026-05-17 00:30:00.000000",
+                "hit": true,
+                "hits": 1,
+                "n": 1,
+                "fixtures": [
+                  "Austin FC vs Sporting Kansas City"
+                ]
+              },
+              {
+                "date": "2026-05-17 01:30:00.000000",
+                "hit": true,
+                "hits": 1,
+                "n": 1,
+                "fixtures": [
+                  "Real Salt Lake vs Colorado Rapids"
+                ]
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-05-17 22:00:00.000000",
+                "hit": false,
+                "hits": 1,
+                "n": 2,
+                "fixtures": [
+                  "Inter Miami CF vs Portland Timbers"
+                ]
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 5,
+            "entries": [
+              {
+                "date": "2026-05-23 23:30:00.000000",
+                "hit": true,
+                "hits": 1,
+                "n": 1,
+                "fixtures": [
+                  "DC United vs CF Montr\u00e9al"
+                ]
+              },
+              {
+                "date": "2026-05-24 00:30:00.000000",
+                "hit": true,
+                "hits": 3,
+                "n": 3,
+                "fixtures": [
+                  "Chicago Fire vs Toronto FC",
+                  "Nashville SC vs New York City FC"
+                ]
+              },
+              {
+                "date": "2026-07-25 23:30:00.000000",
+                "hit": true,
+                "hits": 1,
+                "n": 1,
+                "fixtures": [
+                  "DC United vs Toronto FC"
+                ]
+              },
+              {
+                "date": "2026-07-26 00:30:00.000000",
+                "hit": true,
+                "hits": 2,
+                "n": 2,
+                "fixtures": [
+                  "Houston Dynamo vs Austin FC",
+                  "St.Louis City vs Colorado Rapids"
+                ]
+              },
+              {
+                "date": "2026-08-01 23:30:00.000000",
+                "hit": true,
+                "hits": 1,
+                "n": 1,
+                "fixtures": [
+                  "Philadelphia Union vs Atlanta United"
+                ]
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-08-16 00:30:00.000000",
+                "hit": false,
+                "hits": 1,
+                "n": 2,
+                "fixtures": [
+                  "Houston Dynamo vs LA Galaxy"
+                ]
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 2,
+            "entries": [
+              {
+                "date": "2026-08-16 01:30:00.000000",
+                "hit": true,
+                "hits": 1,
+                "n": 1,
+                "fixtures": [
+                  "Colorado Rapids vs Sporting Kansas City"
+                ]
+              },
+              {
+                "date": "2026-08-16 02:30:00.000000",
+                "hit": true,
+                "hits": 1,
+                "n": 1,
+                "fixtures": [
+                  "Los Angeles FC vs San Diego FC"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "active_weekends": {
+        "n": 8,
+        "hits": 6,
+        "longest_hit_run": 3,
+        "longest_miss_run": 1,
+        "hit_run_lengths": {
+          "3": 2
+        },
+        "miss_run_lengths": {
+          "1": 2
+        },
+        "ending_run": {
+          "hit": false,
+          "length": 1
+        },
+        "runs": [
+          {
+            "hit": true,
+            "length": 3,
+            "entries": [
+              {
+                "date": "2026-04-25",
+                "hit": true,
+                "hits": 2,
+                "n": 2
+              },
+              {
+                "date": "2026-05-02",
+                "hit": true,
+                "hits": 3,
+                "n": 3
+              },
+              {
+                "date": "2026-05-09",
+                "hit": true,
+                "hits": 2,
+                "n": 2
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-05-16",
+                "hit": false,
+                "hits": 3,
+                "n": 4
+              }
+            ]
+          },
+          {
+            "hit": true,
+            "length": 3,
+            "entries": [
+              {
+                "date": "2026-05-23",
+                "hit": true,
+                "hits": 4,
+                "n": 4
+              },
+              {
+                "date": "2026-07-25",
+                "hit": true,
+                "hits": 3,
+                "n": 3
+              },
+              {
+                "date": "2026-08-01",
+                "hit": true,
+                "hits": 1,
+                "n": 1
+              }
+            ]
+          },
+          {
+            "hit": false,
+            "length": 1,
+            "entries": [
+              {
+                "date": "2026-08-15",
+                "hit": false,
+                "hits": 3,
+                "n": 4
+              }
+            ]
+          }
+        ]
+      },
+      "sequence": "HHHHHHHHHHMHHHHHHHHMHHH"
+    }
+  },
+  "no_new_backtest_results": true
+}

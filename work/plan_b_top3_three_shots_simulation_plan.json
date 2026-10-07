@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-10-03T16:00:00Z",
+  "classification": "retrospective what-if simulation on already inspected backtests; not independent validation",
+  "source_runs": [
+    "big5_2023_ranked_candidate_validation",
+    "big5_2024_ranked_candidate_validation"
+  ],
+  "candidate_gate": "Existing frozen Plan B candidates only.",
+  "selection_frequency": "Within each historical weekend, retain at most three Plan B candidates.",
+  "ranking": [
+    "prior five-start average shots descending",
+    "prior five-start average minutes descending",
+    "environment rank ascending",
+    "player id ascending"
+  ],
+  "target": "Player records at least three total shots in the target match.",
+  "assumed_decimal_odds_per_selection": 1.4,
+  "stake": 10,
+  "simulations": {
+    "flat_singles": "$10 on every retained candidate at decimal 1.40",
+    "exact_three_accumulator": "$10 only when a weekend supplies three retained candidates; all three must hit; combined decimal odds 1.40^3 = 2.744",
+    "weekend_rollover": "Start each cycle at $10 and roll the full return into the next exact-three weekend accumulator; after a losing weekend the cycle reaches $0 and the next eligible weekend restarts with a new $10 deposit."
+  },
+  "rules": [
+    "Do not use target-match outcomes to rank or select candidates.",
+    "Do not fill a weekend with Plan A-only candidates when fewer than three Plan B candidates exist.",
+    "Do not claim that fixed hypothetical odds were historically available.",
+    "Same-weekend and same-match selections are correlated.",
+    "This test changes the target from 2+ to 3+ shots and does not inherit the 2+ hit rate."
+  ]
+}

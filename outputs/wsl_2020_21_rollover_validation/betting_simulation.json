@@ -1,0 +1,2467 @@
+{
+  "policy": {
+    "currency": "USD",
+    "starting_stake_per_bet_or_block": 10,
+    "decimal_odds_A": 1.5,
+    "decimal_odds_B": 2.0,
+    "flat_bet": "Stake $10 independently on every selection.",
+    "rollover_lengths": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "rollover_method": "Sort selections by kickoff, fixture ID and player ID; partition into consecutive non-overlapping blocks of the stated length. Start each block with $10 and roll the entire return through every leg. Any loss returns $0. Ignore and count an incomplete final block.",
+    "same_kickoff_warning": "The deterministic ordering can put simultaneous selections in one block, so rollover output is a mathematical selection-order simulation, not a claim that every block was executable live."
+  },
+  "method_correction": {
+    "created_utc": "2026-09-28T21:55:00Z",
+    "reason": "User clarified that rollover means one continuous all-in balance: $10 multiplied by odds for every consecutive win, with the entire accumulated balance lost on the next miss.",
+    "formula": "balance_after_n_consecutive_wins = 10 * decimal_odds^n",
+    "restart_policy": "For season-wide reporting, a new $10 is deposited after each loss to show the next independent streak. Without a new deposit, the first loss ends the simulation at $0.",
+    "status": "post-result accounting clarification; selection rules, odds, picks and outcomes unchanged",
+    "warning": "No profit is realized unless the bettor cashes out. Rolling the full balance into a losing next selection makes that streak's ending balance $0."
+  },
+  "A": {
+    "flat": {
+      "bets": 28,
+      "wins": 23,
+      "losses": 5,
+      "stake_per_bet": 10,
+      "total_staked": 280.0,
+      "total_return": 345.0,
+      "profit": 65.0,
+      "roi_pct": 23.2
+    },
+    "continuous_rollover": {
+      "formula": "10 * 1.5^n",
+      "odds": 1.5,
+      "selections": 28,
+      "outcome_sequence": "WWWWWWLWWWWWWWWLWWLLWWWWLWWW",
+      "cycles_started": 6,
+      "total_deposited": 60.0,
+      "losing_cycles": 5,
+      "max_consecutive_wins": 8,
+      "maximum_balance_reached": 256.29,
+      "maximum_balance_later_lost": true,
+      "final_open_streak_wins": 3,
+      "final_bankroll": 33.75,
+      "net_after_restart_deposits": -26.25,
+      "cycles": [
+        {
+          "cycle": 1,
+          "consecutive_wins": 6,
+          "peak_before_loss": 113.91,
+          "ended_by_loss": true,
+          "ending_balance": 0.0,
+          "legs": [
+            {
+              "date": "2020-12-20T11:00:00+00:00",
+              "fixture_id": 3775610,
+              "fixture": "Manchester United W vs Bristol City WFC",
+              "player": "Tobin Powell Heath",
+              "shots": 6,
+              "hit": true
+            },
+            {
+              "date": "2020-12-20T11:00:00+00:00",
+              "fixture_id": 3775610,
+              "fixture": "Manchester United W vs Bristol City WFC",
+              "player": "Ella Toone",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2020-12-20T13:30:00+00:00",
+              "fixture_id": 3775559,
+              "fixture": "Arsenal WFC vs Everton LFC",
+              "player": "Caitlin Jade Foord",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2021-01-17T13:30:00+00:00",
+              "fixture_id": 3775626,
+              "fixture": "Manchester City WFC vs Aston Villa W",
+              "player": "Georgia Stanway",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2021-01-17T13:30:00+00:00",
+              "fixture_id": 3775626,
+              "fixture": "Manchester City WFC vs Aston Villa W",
+              "player": "Chloe Kelly",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2021-01-24T11:00:00+00:00",
+              "fixture_id": 3775594,
+              "fixture": "Manchester United W vs Birmingham City WFC",
+              "player": "Ella Toone",
+              "shots": 7,
+              "hit": true
+            },
+            {
+              "date": "2021-01-31T13:30:00+00:00",
+              "fixture_id": 3775605,
+              "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+              "player": "Francesca Kirby",
+              "shots": 1,
+              "hit": false
+            }
+          ]
+        },
+        {
+          "cycle": 2,
+          "consecutive_wins": 8,
+          "peak_before_loss": 256.29,
+          "ended_by_loss": true,
+          "ending_balance": 0.0,
+          "legs": [
+            {
+              "date": "2021-01-31T13:30:00+00:00",
+              "fixture_id": 3775605,
+              "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+              "player": "Pernille Mosegaard Harder",
+              "shots": 6,
+              "hit": true
+            },
+            {
+              "date": "2021-01-31T15:00:00+00:00",
+              "fixture_id": 3775651,
+              "fixture": "Manchester City WFC vs West Ham United LFC",
+              "player": "Georgia Stanway",
+              "shots": 5,
+              "hit": true
+            },
+            {
+              "date": "2021-01-31T15:00:00+00:00",
+              "fixture_id": 3775651,
+              "fixture": "Manchester City WFC vs West Ham United LFC",
+              "player": "Chloe Kelly",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2021-02-07T11:30:00+00:00",
+              "fixture_id": 3775640,
+              "fixture": "Manchester United W vs Reading WFC",
+              "player": "Ella Toone",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2021-02-07T15:00:00+00:00",
+              "fixture_id": 3775652,
+              "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+              "player": "Samantha May Kerr",
+              "shots": 7,
+              "hit": true
+            },
+            {
+              "date": "2021-02-07T15:00:00+00:00",
+              "fixture_id": 3775652,
+              "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+              "player": "Bethany England",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2021-03-07T15:00:00+00:00",
+              "fixture_id": 3775639,
+              "fixture": "Manchester City WFC vs Everton LFC",
+              "player": "Samantha June Mewis",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2021-03-07T15:00:00+00:00",
+              "fixture_id": 3775639,
+              "fixture": "Manchester City WFC vs Everton LFC",
+              "player": "Ellen White",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2021-03-14T13:30:00+00:00",
+              "fixture_id": 3775598,
+              "fixture": "Reading WFC vs Tottenham Hotspur Women",
+              "player": "Natasha Harding",
+              "shots": 1,
+              "hit": false
+            }
+          ]
+        },
+        {
+          "cycle": 3,
+          "consecutive_wins": 2,
+          "peak_before_loss": 22.5,
+          "ended_by_loss": true,
+          "ending_balance": 0.0,
+          "legs": [
+            {
+              "date": "2021-03-27T10:30:00+00:00",
+              "fixture_id": 3775628,
+              "fixture": "Manchester United W vs West Ham United LFC",
+              "player": "Christen Annemarie Press",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2021-03-27T18:30:00+00:00",
+              "fixture_id": 3775564,
+              "fixture": "Manchester City WFC vs Reading WFC",
+              "player": "Georgia Stanway",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2021-03-27T18:30:00+00:00",
+              "fixture_id": 3775564,
+              "fixture": "Manchester City WFC vs Reading WFC",
+              "player": "Lauren Hemp",
+              "shots": 1,
+              "hit": false
+            }
+          ]
+        },
+        {
+          "cycle": 4,
+          "consecutive_wins": 0,
+          "peak_before_loss": 10.0,
+          "ended_by_loss": true,
+          "ending_balance": 0.0,
+          "legs": [
+            {
+              "date": "2021-03-28T15:30:00+00:00",
+              "fixture_id": 3775581,
+              "fixture": "Chelsea FCW vs Aston Villa W",
+              "player": "Francesca Kirby",
+              "shots": 1,
+              "hit": false
+            }
+          ]
+        },
+        {
+          "cycle": 5,
+          "consecutive_wins": 4,
+          "peak_before_loss": 50.63,
+          "ended_by_loss": true,
+          "ending_balance": 0.0,
+          "legs": [
+            {
+              "date": "2021-04-04T13:30:00+00:00",
+              "fixture_id": 3775565,
+              "fixture": "Chelsea FCW vs Birmingham City WFC",
+              "player": "Pernille Mosegaard Harder",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2021-04-25T11:30:00+00:00",
+              "fixture_id": 3775622,
+              "fixture": "Manchester United W vs Tottenham Hotspur Women",
+              "player": "Christen Annemarie Press",
+              "shots": 7,
+              "hit": true
+            },
+            {
+              "date": "2021-04-25T15:00:00+00:00",
+              "fixture_id": 3775557,
+              "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+              "player": "Jordan Nobbs",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2021-04-25T15:00:00+00:00",
+              "fixture_id": 3775557,
+              "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+              "player": "Vivianne Miedema",
+              "shots": 8,
+              "hit": true
+            },
+            {
+              "date": "2021-04-28T20:30:00+00:00",
+              "fixture_id": 3775609,
+              "fixture": "Arsenal WFC vs West Ham United LFC",
+              "player": "Jordan Nobbs",
+              "shots": 0,
+              "hit": false
+            }
+          ]
+        },
+        {
+          "cycle": 6,
+          "consecutive_wins": 3,
+          "peak_before_loss": null,
+          "ended_by_loss": false,
+          "ending_balance": 33.75,
+          "legs": [
+            {
+              "date": "2021-04-28T20:30:00+00:00",
+              "fixture_id": 3775609,
+              "fixture": "Arsenal WFC vs West Ham United LFC",
+              "player": "Vivianne Miedema",
+              "shots": 5,
+              "hit": true
+            },
+            {
+              "date": "2021-05-02T16:00:00+00:00",
+              "fixture_id": 3775574,
+              "fixture": "Manchester City WFC vs Birmingham City WFC",
+              "player": "Ellen White",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2021-05-09T15:30:00+00:00",
+              "fixture_id": 3775593,
+              "fixture": "Chelsea FCW vs Reading WFC",
+              "player": "Samantha May Kerr",
+              "shots": 5,
+              "hit": true
+            }
+          ]
+        }
+      ],
+      "note": "No profit is realized unless cash is removed. A loss after a winning streak reduces the all-in balance to $0."
+    },
+    "fixed_blocks_alternative": {
+      "2": {
+        "length": 2,
+        "odds_per_leg": 1.5,
+        "blocks": 14,
+        "winning_blocks": 10,
+        "losing_blocks": 4,
+        "incomplete_selections_ignored": 0,
+        "blocks_with_same_kickoff": 5,
+        "total_staked": 140.0,
+        "total_return": 225.0,
+        "profit": 85.0,
+        "roi_pct": 60.7,
+        "block_records": [
+          {
+            "block": 1,
+            "won": true,
+            "stake": 10,
+            "return_amount": 22.5,
+            "profit": 12.5,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2020-12-20T11:00:00+00:00",
+                "fixture_id": 3775610,
+                "fixture": "Manchester United W vs Bristol City WFC",
+                "player": "Tobin Powell Heath",
+                "shots": 6,
+                "hit": true
+              },
+              {
+                "date": "2020-12-20T11:00:00+00:00",
+                "fixture_id": 3775610,
+                "fixture": "Manchester United W vs Bristol City WFC",
+                "player": "Ella Toone",
+                "shots": 4,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 2,
+            "won": true,
+            "stake": 10,
+            "return_amount": 22.5,
+            "profit": 12.5,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2020-12-20T13:30:00+00:00",
+                "fixture_id": 3775559,
+                "fixture": "Arsenal WFC vs Everton LFC",
+                "player": "Caitlin Jade Foord",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-01-17T13:30:00+00:00",
+                "fixture_id": 3775626,
+                "fixture": "Manchester City WFC vs Aston Villa W",
+                "player": "Georgia Stanway",
+                "shots": 4,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 3,
+            "won": true,
+            "stake": 10,
+            "return_amount": 22.5,
+            "profit": 12.5,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-01-17T13:30:00+00:00",
+                "fixture_id": 3775626,
+                "fixture": "Manchester City WFC vs Aston Villa W",
+                "player": "Chloe Kelly",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-01-24T11:00:00+00:00",
+                "fixture_id": 3775594,
+                "fixture": "Manchester United W vs Birmingham City WFC",
+                "player": "Ella Toone",
+                "shots": 7,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 4,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-01-31T13:30:00+00:00",
+                "fixture_id": 3775605,
+                "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+                "player": "Francesca Kirby",
+                "shots": 1,
+                "hit": false
+              },
+              {
+                "date": "2021-01-31T13:30:00+00:00",
+                "fixture_id": 3775605,
+                "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 6,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 5,
+            "won": true,
+            "stake": 10,
+            "return_amount": 22.5,
+            "profit": 12.5,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-01-31T15:00:00+00:00",
+                "fixture_id": 3775651,
+                "fixture": "Manchester City WFC vs West Ham United LFC",
+                "player": "Georgia Stanway",
+                "shots": 5,
+                "hit": true
+              },
+              {
+                "date": "2021-01-31T15:00:00+00:00",
+                "fixture_id": 3775651,
+                "fixture": "Manchester City WFC vs West Ham United LFC",
+                "player": "Chloe Kelly",
+                "shots": 2,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 6,
+            "won": true,
+            "stake": 10,
+            "return_amount": 22.5,
+            "profit": 12.5,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-02-07T11:30:00+00:00",
+                "fixture_id": 3775640,
+                "fixture": "Manchester United W vs Reading WFC",
+                "player": "Ella Toone",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-02-07T15:00:00+00:00",
+                "fixture_id": 3775652,
+                "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+                "player": "Samantha May Kerr",
+                "shots": 7,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 7,
+            "won": true,
+            "stake": 10,
+            "return_amount": 22.5,
+            "profit": 12.5,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-02-07T15:00:00+00:00",
+                "fixture_id": 3775652,
+                "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+                "player": "Bethany England",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-03-07T15:00:00+00:00",
+                "fixture_id": 3775639,
+                "fixture": "Manchester City WFC vs Everton LFC",
+                "player": "Samantha June Mewis",
+                "shots": 4,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 8,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-03-07T15:00:00+00:00",
+                "fixture_id": 3775639,
+                "fixture": "Manchester City WFC vs Everton LFC",
+                "player": "Ellen White",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-03-14T13:30:00+00:00",
+                "fixture_id": 3775598,
+                "fixture": "Reading WFC vs Tottenham Hotspur Women",
+                "player": "Natasha Harding",
+                "shots": 1,
+                "hit": false
+              }
+            ]
+          },
+          {
+            "block": 9,
+            "won": true,
+            "stake": 10,
+            "return_amount": 22.5,
+            "profit": 12.5,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-03-27T10:30:00+00:00",
+                "fixture_id": 3775628,
+                "fixture": "Manchester United W vs West Ham United LFC",
+                "player": "Christen Annemarie Press",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-03-27T18:30:00+00:00",
+                "fixture_id": 3775564,
+                "fixture": "Manchester City WFC vs Reading WFC",
+                "player": "Georgia Stanway",
+                "shots": 2,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 10,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-03-27T18:30:00+00:00",
+                "fixture_id": 3775564,
+                "fixture": "Manchester City WFC vs Reading WFC",
+                "player": "Lauren Hemp",
+                "shots": 1,
+                "hit": false
+              },
+              {
+                "date": "2021-03-28T15:30:00+00:00",
+                "fixture_id": 3775581,
+                "fixture": "Chelsea FCW vs Aston Villa W",
+                "player": "Francesca Kirby",
+                "shots": 1,
+                "hit": false
+              }
+            ]
+          },
+          {
+            "block": 11,
+            "won": true,
+            "stake": 10,
+            "return_amount": 22.5,
+            "profit": 12.5,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-04-04T13:30:00+00:00",
+                "fixture_id": 3775565,
+                "fixture": "Chelsea FCW vs Birmingham City WFC",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T11:30:00+00:00",
+                "fixture_id": 3775622,
+                "fixture": "Manchester United W vs Tottenham Hotspur Women",
+                "player": "Christen Annemarie Press",
+                "shots": 7,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 12,
+            "won": true,
+            "stake": 10,
+            "return_amount": 22.5,
+            "profit": 12.5,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-04-25T15:00:00+00:00",
+                "fixture_id": 3775557,
+                "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+                "player": "Jordan Nobbs",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T15:00:00+00:00",
+                "fixture_id": 3775557,
+                "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+                "player": "Vivianne Miedema",
+                "shots": 8,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 13,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-04-28T20:30:00+00:00",
+                "fixture_id": 3775609,
+                "fixture": "Arsenal WFC vs West Ham United LFC",
+                "player": "Jordan Nobbs",
+                "shots": 0,
+                "hit": false
+              },
+              {
+                "date": "2021-04-28T20:30:00+00:00",
+                "fixture_id": 3775609,
+                "fixture": "Arsenal WFC vs West Ham United LFC",
+                "player": "Vivianne Miedema",
+                "shots": 5,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 14,
+            "won": true,
+            "stake": 10,
+            "return_amount": 22.5,
+            "profit": 12.5,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-05-02T16:00:00+00:00",
+                "fixture_id": 3775574,
+                "fixture": "Manchester City WFC vs Birmingham City WFC",
+                "player": "Ellen White",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-05-09T15:30:00+00:00",
+                "fixture_id": 3775593,
+                "fixture": "Chelsea FCW vs Reading WFC",
+                "player": "Samantha May Kerr",
+                "shots": 5,
+                "hit": true
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "length": 3,
+        "odds_per_leg": 1.5,
+        "blocks": 9,
+        "winning_blocks": 5,
+        "losing_blocks": 4,
+        "incomplete_selections_ignored": 1,
+        "blocks_with_same_kickoff": 6,
+        "total_staked": 90.0,
+        "total_return": 168.75,
+        "profit": 78.75,
+        "roi_pct": 87.5,
+        "block_records": [
+          {
+            "block": 1,
+            "won": true,
+            "stake": 10,
+            "return_amount": 33.75,
+            "profit": 23.75,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2020-12-20T11:00:00+00:00",
+                "fixture_id": 3775610,
+                "fixture": "Manchester United W vs Bristol City WFC",
+                "player": "Tobin Powell Heath",
+                "shots": 6,
+                "hit": true
+              },
+              {
+                "date": "2020-12-20T11:00:00+00:00",
+                "fixture_id": 3775610,
+                "fixture": "Manchester United W vs Bristol City WFC",
+                "player": "Ella Toone",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2020-12-20T13:30:00+00:00",
+                "fixture_id": 3775559,
+                "fixture": "Arsenal WFC vs Everton LFC",
+                "player": "Caitlin Jade Foord",
+                "shots": 4,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 2,
+            "won": true,
+            "stake": 10,
+            "return_amount": 33.75,
+            "profit": 23.75,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-01-17T13:30:00+00:00",
+                "fixture_id": 3775626,
+                "fixture": "Manchester City WFC vs Aston Villa W",
+                "player": "Georgia Stanway",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-01-17T13:30:00+00:00",
+                "fixture_id": 3775626,
+                "fixture": "Manchester City WFC vs Aston Villa W",
+                "player": "Chloe Kelly",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-01-24T11:00:00+00:00",
+                "fixture_id": 3775594,
+                "fixture": "Manchester United W vs Birmingham City WFC",
+                "player": "Ella Toone",
+                "shots": 7,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 3,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-01-31T13:30:00+00:00",
+                "fixture_id": 3775605,
+                "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+                "player": "Francesca Kirby",
+                "shots": 1,
+                "hit": false
+              },
+              {
+                "date": "2021-01-31T13:30:00+00:00",
+                "fixture_id": 3775605,
+                "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 6,
+                "hit": true
+              },
+              {
+                "date": "2021-01-31T15:00:00+00:00",
+                "fixture_id": 3775651,
+                "fixture": "Manchester City WFC vs West Ham United LFC",
+                "player": "Georgia Stanway",
+                "shots": 5,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 4,
+            "won": true,
+            "stake": 10,
+            "return_amount": 33.75,
+            "profit": 23.75,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-01-31T15:00:00+00:00",
+                "fixture_id": 3775651,
+                "fixture": "Manchester City WFC vs West Ham United LFC",
+                "player": "Chloe Kelly",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-02-07T11:30:00+00:00",
+                "fixture_id": 3775640,
+                "fixture": "Manchester United W vs Reading WFC",
+                "player": "Ella Toone",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-02-07T15:00:00+00:00",
+                "fixture_id": 3775652,
+                "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+                "player": "Samantha May Kerr",
+                "shots": 7,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 5,
+            "won": true,
+            "stake": 10,
+            "return_amount": 33.75,
+            "profit": 23.75,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-02-07T15:00:00+00:00",
+                "fixture_id": 3775652,
+                "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+                "player": "Bethany England",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-03-07T15:00:00+00:00",
+                "fixture_id": 3775639,
+                "fixture": "Manchester City WFC vs Everton LFC",
+                "player": "Samantha June Mewis",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-03-07T15:00:00+00:00",
+                "fixture_id": 3775639,
+                "fixture": "Manchester City WFC vs Everton LFC",
+                "player": "Ellen White",
+                "shots": 2,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 6,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-03-14T13:30:00+00:00",
+                "fixture_id": 3775598,
+                "fixture": "Reading WFC vs Tottenham Hotspur Women",
+                "player": "Natasha Harding",
+                "shots": 1,
+                "hit": false
+              },
+              {
+                "date": "2021-03-27T10:30:00+00:00",
+                "fixture_id": 3775628,
+                "fixture": "Manchester United W vs West Ham United LFC",
+                "player": "Christen Annemarie Press",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-03-27T18:30:00+00:00",
+                "fixture_id": 3775564,
+                "fixture": "Manchester City WFC vs Reading WFC",
+                "player": "Georgia Stanway",
+                "shots": 2,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 7,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-03-27T18:30:00+00:00",
+                "fixture_id": 3775564,
+                "fixture": "Manchester City WFC vs Reading WFC",
+                "player": "Lauren Hemp",
+                "shots": 1,
+                "hit": false
+              },
+              {
+                "date": "2021-03-28T15:30:00+00:00",
+                "fixture_id": 3775581,
+                "fixture": "Chelsea FCW vs Aston Villa W",
+                "player": "Francesca Kirby",
+                "shots": 1,
+                "hit": false
+              },
+              {
+                "date": "2021-04-04T13:30:00+00:00",
+                "fixture_id": 3775565,
+                "fixture": "Chelsea FCW vs Birmingham City WFC",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 2,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 8,
+            "won": true,
+            "stake": 10,
+            "return_amount": 33.75,
+            "profit": 23.75,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-04-25T11:30:00+00:00",
+                "fixture_id": 3775622,
+                "fixture": "Manchester United W vs Tottenham Hotspur Women",
+                "player": "Christen Annemarie Press",
+                "shots": 7,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T15:00:00+00:00",
+                "fixture_id": 3775557,
+                "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+                "player": "Jordan Nobbs",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T15:00:00+00:00",
+                "fixture_id": 3775557,
+                "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+                "player": "Vivianne Miedema",
+                "shots": 8,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 9,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-04-28T20:30:00+00:00",
+                "fixture_id": 3775609,
+                "fixture": "Arsenal WFC vs West Ham United LFC",
+                "player": "Jordan Nobbs",
+                "shots": 0,
+                "hit": false
+              },
+              {
+                "date": "2021-04-28T20:30:00+00:00",
+                "fixture_id": 3775609,
+                "fixture": "Arsenal WFC vs West Ham United LFC",
+                "player": "Vivianne Miedema",
+                "shots": 5,
+                "hit": true
+              },
+              {
+                "date": "2021-05-02T16:00:00+00:00",
+                "fixture_id": 3775574,
+                "fixture": "Manchester City WFC vs Birmingham City WFC",
+                "player": "Ellen White",
+                "shots": 2,
+                "hit": true
+              }
+            ]
+          }
+        ]
+      },
+      "4": {
+        "length": 4,
+        "odds_per_leg": 1.5,
+        "blocks": 7,
+        "winning_blocks": 3,
+        "losing_blocks": 4,
+        "incomplete_selections_ignored": 0,
+        "blocks_with_same_kickoff": 7,
+        "total_staked": 70.0,
+        "total_return": 151.89,
+        "profit": 81.89,
+        "roi_pct": 117.0,
+        "block_records": [
+          {
+            "block": 1,
+            "won": true,
+            "stake": 10,
+            "return_amount": 50.63,
+            "profit": 40.63,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2020-12-20T11:00:00+00:00",
+                "fixture_id": 3775610,
+                "fixture": "Manchester United W vs Bristol City WFC",
+                "player": "Tobin Powell Heath",
+                "shots": 6,
+                "hit": true
+              },
+              {
+                "date": "2020-12-20T11:00:00+00:00",
+                "fixture_id": 3775610,
+                "fixture": "Manchester United W vs Bristol City WFC",
+                "player": "Ella Toone",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2020-12-20T13:30:00+00:00",
+                "fixture_id": 3775559,
+                "fixture": "Arsenal WFC vs Everton LFC",
+                "player": "Caitlin Jade Foord",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-01-17T13:30:00+00:00",
+                "fixture_id": 3775626,
+                "fixture": "Manchester City WFC vs Aston Villa W",
+                "player": "Georgia Stanway",
+                "shots": 4,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 2,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-01-17T13:30:00+00:00",
+                "fixture_id": 3775626,
+                "fixture": "Manchester City WFC vs Aston Villa W",
+                "player": "Chloe Kelly",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-01-24T11:00:00+00:00",
+                "fixture_id": 3775594,
+                "fixture": "Manchester United W vs Birmingham City WFC",
+                "player": "Ella Toone",
+                "shots": 7,
+                "hit": true
+              },
+              {
+                "date": "2021-01-31T13:30:00+00:00",
+                "fixture_id": 3775605,
+                "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+                "player": "Francesca Kirby",
+                "shots": 1,
+                "hit": false
+              },
+              {
+                "date": "2021-01-31T13:30:00+00:00",
+                "fixture_id": 3775605,
+                "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 6,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 3,
+            "won": true,
+            "stake": 10,
+            "return_amount": 50.63,
+            "profit": 40.63,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-01-31T15:00:00+00:00",
+                "fixture_id": 3775651,
+                "fixture": "Manchester City WFC vs West Ham United LFC",
+                "player": "Georgia Stanway",
+                "shots": 5,
+                "hit": true
+              },
+              {
+                "date": "2021-01-31T15:00:00+00:00",
+                "fixture_id": 3775651,
+                "fixture": "Manchester City WFC vs West Ham United LFC",
+                "player": "Chloe Kelly",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-02-07T11:30:00+00:00",
+                "fixture_id": 3775640,
+                "fixture": "Manchester United W vs Reading WFC",
+                "player": "Ella Toone",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-02-07T15:00:00+00:00",
+                "fixture_id": 3775652,
+                "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+                "player": "Samantha May Kerr",
+                "shots": 7,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 4,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-02-07T15:00:00+00:00",
+                "fixture_id": 3775652,
+                "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+                "player": "Bethany England",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-03-07T15:00:00+00:00",
+                "fixture_id": 3775639,
+                "fixture": "Manchester City WFC vs Everton LFC",
+                "player": "Samantha June Mewis",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-03-07T15:00:00+00:00",
+                "fixture_id": 3775639,
+                "fixture": "Manchester City WFC vs Everton LFC",
+                "player": "Ellen White",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-03-14T13:30:00+00:00",
+                "fixture_id": 3775598,
+                "fixture": "Reading WFC vs Tottenham Hotspur Women",
+                "player": "Natasha Harding",
+                "shots": 1,
+                "hit": false
+              }
+            ]
+          },
+          {
+            "block": 5,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-03-27T10:30:00+00:00",
+                "fixture_id": 3775628,
+                "fixture": "Manchester United W vs West Ham United LFC",
+                "player": "Christen Annemarie Press",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-03-27T18:30:00+00:00",
+                "fixture_id": 3775564,
+                "fixture": "Manchester City WFC vs Reading WFC",
+                "player": "Georgia Stanway",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-03-27T18:30:00+00:00",
+                "fixture_id": 3775564,
+                "fixture": "Manchester City WFC vs Reading WFC",
+                "player": "Lauren Hemp",
+                "shots": 1,
+                "hit": false
+              },
+              {
+                "date": "2021-03-28T15:30:00+00:00",
+                "fixture_id": 3775581,
+                "fixture": "Chelsea FCW vs Aston Villa W",
+                "player": "Francesca Kirby",
+                "shots": 1,
+                "hit": false
+              }
+            ]
+          },
+          {
+            "block": 6,
+            "won": true,
+            "stake": 10,
+            "return_amount": 50.63,
+            "profit": 40.63,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-04-04T13:30:00+00:00",
+                "fixture_id": 3775565,
+                "fixture": "Chelsea FCW vs Birmingham City WFC",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T11:30:00+00:00",
+                "fixture_id": 3775622,
+                "fixture": "Manchester United W vs Tottenham Hotspur Women",
+                "player": "Christen Annemarie Press",
+                "shots": 7,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T15:00:00+00:00",
+                "fixture_id": 3775557,
+                "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+                "player": "Jordan Nobbs",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T15:00:00+00:00",
+                "fixture_id": 3775557,
+                "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+                "player": "Vivianne Miedema",
+                "shots": 8,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 7,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-04-28T20:30:00+00:00",
+                "fixture_id": 3775609,
+                "fixture": "Arsenal WFC vs West Ham United LFC",
+                "player": "Jordan Nobbs",
+                "shots": 0,
+                "hit": false
+              },
+              {
+                "date": "2021-04-28T20:30:00+00:00",
+                "fixture_id": 3775609,
+                "fixture": "Arsenal WFC vs West Ham United LFC",
+                "player": "Vivianne Miedema",
+                "shots": 5,
+                "hit": true
+              },
+              {
+                "date": "2021-05-02T16:00:00+00:00",
+                "fixture_id": 3775574,
+                "fixture": "Manchester City WFC vs Birmingham City WFC",
+                "player": "Ellen White",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-05-09T15:30:00+00:00",
+                "fixture_id": 3775593,
+                "fixture": "Chelsea FCW vs Reading WFC",
+                "player": "Samantha May Kerr",
+                "shots": 5,
+                "hit": true
+              }
+            ]
+          }
+        ]
+      },
+      "5": {
+        "length": 5,
+        "odds_per_leg": 1.5,
+        "blocks": 5,
+        "winning_blocks": 2,
+        "losing_blocks": 3,
+        "incomplete_selections_ignored": 3,
+        "blocks_with_same_kickoff": 5,
+        "total_staked": 50.0,
+        "total_return": 151.88,
+        "profit": 101.88,
+        "roi_pct": 203.8,
+        "block_records": [
+          {
+            "block": 1,
+            "won": true,
+            "stake": 10,
+            "return_amount": 75.94,
+            "profit": 65.94,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2020-12-20T11:00:00+00:00",
+                "fixture_id": 3775610,
+                "fixture": "Manchester United W vs Bristol City WFC",
+                "player": "Tobin Powell Heath",
+                "shots": 6,
+                "hit": true
+              },
+              {
+                "date": "2020-12-20T11:00:00+00:00",
+                "fixture_id": 3775610,
+                "fixture": "Manchester United W vs Bristol City WFC",
+                "player": "Ella Toone",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2020-12-20T13:30:00+00:00",
+                "fixture_id": 3775559,
+                "fixture": "Arsenal WFC vs Everton LFC",
+                "player": "Caitlin Jade Foord",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-01-17T13:30:00+00:00",
+                "fixture_id": 3775626,
+                "fixture": "Manchester City WFC vs Aston Villa W",
+                "player": "Georgia Stanway",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-01-17T13:30:00+00:00",
+                "fixture_id": 3775626,
+                "fixture": "Manchester City WFC vs Aston Villa W",
+                "player": "Chloe Kelly",
+                "shots": 4,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 2,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-01-24T11:00:00+00:00",
+                "fixture_id": 3775594,
+                "fixture": "Manchester United W vs Birmingham City WFC",
+                "player": "Ella Toone",
+                "shots": 7,
+                "hit": true
+              },
+              {
+                "date": "2021-01-31T13:30:00+00:00",
+                "fixture_id": 3775605,
+                "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+                "player": "Francesca Kirby",
+                "shots": 1,
+                "hit": false
+              },
+              {
+                "date": "2021-01-31T13:30:00+00:00",
+                "fixture_id": 3775605,
+                "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 6,
+                "hit": true
+              },
+              {
+                "date": "2021-01-31T15:00:00+00:00",
+                "fixture_id": 3775651,
+                "fixture": "Manchester City WFC vs West Ham United LFC",
+                "player": "Georgia Stanway",
+                "shots": 5,
+                "hit": true
+              },
+              {
+                "date": "2021-01-31T15:00:00+00:00",
+                "fixture_id": 3775651,
+                "fixture": "Manchester City WFC vs West Ham United LFC",
+                "player": "Chloe Kelly",
+                "shots": 2,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 3,
+            "won": true,
+            "stake": 10,
+            "return_amount": 75.94,
+            "profit": 65.94,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-02-07T11:30:00+00:00",
+                "fixture_id": 3775640,
+                "fixture": "Manchester United W vs Reading WFC",
+                "player": "Ella Toone",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-02-07T15:00:00+00:00",
+                "fixture_id": 3775652,
+                "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+                "player": "Samantha May Kerr",
+                "shots": 7,
+                "hit": true
+              },
+              {
+                "date": "2021-02-07T15:00:00+00:00",
+                "fixture_id": 3775652,
+                "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+                "player": "Bethany England",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-03-07T15:00:00+00:00",
+                "fixture_id": 3775639,
+                "fixture": "Manchester City WFC vs Everton LFC",
+                "player": "Samantha June Mewis",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-03-07T15:00:00+00:00",
+                "fixture_id": 3775639,
+                "fixture": "Manchester City WFC vs Everton LFC",
+                "player": "Ellen White",
+                "shots": 2,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 4,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-03-14T13:30:00+00:00",
+                "fixture_id": 3775598,
+                "fixture": "Reading WFC vs Tottenham Hotspur Women",
+                "player": "Natasha Harding",
+                "shots": 1,
+                "hit": false
+              },
+              {
+                "date": "2021-03-27T10:30:00+00:00",
+                "fixture_id": 3775628,
+                "fixture": "Manchester United W vs West Ham United LFC",
+                "player": "Christen Annemarie Press",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-03-27T18:30:00+00:00",
+                "fixture_id": 3775564,
+                "fixture": "Manchester City WFC vs Reading WFC",
+                "player": "Georgia Stanway",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-03-27T18:30:00+00:00",
+                "fixture_id": 3775564,
+                "fixture": "Manchester City WFC vs Reading WFC",
+                "player": "Lauren Hemp",
+                "shots": 1,
+                "hit": false
+              },
+              {
+                "date": "2021-03-28T15:30:00+00:00",
+                "fixture_id": 3775581,
+                "fixture": "Chelsea FCW vs Aston Villa W",
+                "player": "Francesca Kirby",
+                "shots": 1,
+                "hit": false
+              }
+            ]
+          },
+          {
+            "block": 5,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-04-04T13:30:00+00:00",
+                "fixture_id": 3775565,
+                "fixture": "Chelsea FCW vs Birmingham City WFC",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T11:30:00+00:00",
+                "fixture_id": 3775622,
+                "fixture": "Manchester United W vs Tottenham Hotspur Women",
+                "player": "Christen Annemarie Press",
+                "shots": 7,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T15:00:00+00:00",
+                "fixture_id": 3775557,
+                "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+                "player": "Jordan Nobbs",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T15:00:00+00:00",
+                "fixture_id": 3775557,
+                "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+                "player": "Vivianne Miedema",
+                "shots": 8,
+                "hit": true
+              },
+              {
+                "date": "2021-04-28T20:30:00+00:00",
+                "fixture_id": 3775609,
+                "fixture": "Arsenal WFC vs West Ham United LFC",
+                "player": "Jordan Nobbs",
+                "shots": 0,
+                "hit": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "B": {
+    "flat": {
+      "bets": 15,
+      "wins": 14,
+      "losses": 1,
+      "stake_per_bet": 10,
+      "total_staked": 150.0,
+      "total_return": 280.0,
+      "profit": 130.0,
+      "roi_pct": 86.7
+    },
+    "continuous_rollover": {
+      "formula": "10 * 2.0^n",
+      "odds": 2.0,
+      "selections": 15,
+      "outcome_sequence": "WWWWWWWWWWWWWLW",
+      "cycles_started": 2,
+      "total_deposited": 20.0,
+      "losing_cycles": 1,
+      "max_consecutive_wins": 13,
+      "maximum_balance_reached": 81920.0,
+      "maximum_balance_later_lost": true,
+      "final_open_streak_wins": 1,
+      "final_bankroll": 20.0,
+      "net_after_restart_deposits": 0.0,
+      "cycles": [
+        {
+          "cycle": 1,
+          "consecutive_wins": 13,
+          "peak_before_loss": 81920.0,
+          "ended_by_loss": true,
+          "ending_balance": 0.0,
+          "legs": [
+            {
+              "date": "2020-12-20T11:00:00+00:00",
+              "fixture_id": 3775610,
+              "fixture": "Manchester United W vs Bristol City WFC",
+              "player": "Ella Toone",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2021-01-17T13:30:00+00:00",
+              "fixture_id": 3775626,
+              "fixture": "Manchester City WFC vs Aston Villa W",
+              "player": "Georgia Stanway",
+              "shots": 4,
+              "hit": true
+            },
+            {
+              "date": "2021-01-24T11:00:00+00:00",
+              "fixture_id": 3775594,
+              "fixture": "Manchester United W vs Birmingham City WFC",
+              "player": "Ella Toone",
+              "shots": 7,
+              "hit": true
+            },
+            {
+              "date": "2021-01-31T13:30:00+00:00",
+              "fixture_id": 3775605,
+              "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+              "player": "Pernille Mosegaard Harder",
+              "shots": 6,
+              "hit": true
+            },
+            {
+              "date": "2021-01-31T15:00:00+00:00",
+              "fixture_id": 3775651,
+              "fixture": "Manchester City WFC vs West Ham United LFC",
+              "player": "Georgia Stanway",
+              "shots": 5,
+              "hit": true
+            },
+            {
+              "date": "2021-02-07T11:30:00+00:00",
+              "fixture_id": 3775640,
+              "fixture": "Manchester United W vs Reading WFC",
+              "player": "Ella Toone",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2021-02-07T15:00:00+00:00",
+              "fixture_id": 3775652,
+              "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+              "player": "Bethany England",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2021-03-07T15:00:00+00:00",
+              "fixture_id": 3775639,
+              "fixture": "Manchester City WFC vs Everton LFC",
+              "player": "Ellen White",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2021-03-27T10:30:00+00:00",
+              "fixture_id": 3775628,
+              "fixture": "Manchester United W vs West Ham United LFC",
+              "player": "Christen Annemarie Press",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2021-04-04T13:30:00+00:00",
+              "fixture_id": 3775565,
+              "fixture": "Chelsea FCW vs Birmingham City WFC",
+              "player": "Pernille Mosegaard Harder",
+              "shots": 2,
+              "hit": true
+            },
+            {
+              "date": "2021-04-25T11:30:00+00:00",
+              "fixture_id": 3775622,
+              "fixture": "Manchester United W vs Tottenham Hotspur Women",
+              "player": "Christen Annemarie Press",
+              "shots": 7,
+              "hit": true
+            },
+            {
+              "date": "2021-04-25T15:00:00+00:00",
+              "fixture_id": 3775557,
+              "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+              "player": "Jordan Nobbs",
+              "shots": 3,
+              "hit": true
+            },
+            {
+              "date": "2021-04-25T15:00:00+00:00",
+              "fixture_id": 3775557,
+              "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+              "player": "Vivianne Miedema",
+              "shots": 8,
+              "hit": true
+            },
+            {
+              "date": "2021-04-28T20:30:00+00:00",
+              "fixture_id": 3775609,
+              "fixture": "Arsenal WFC vs West Ham United LFC",
+              "player": "Jordan Nobbs",
+              "shots": 0,
+              "hit": false
+            }
+          ]
+        },
+        {
+          "cycle": 2,
+          "consecutive_wins": 1,
+          "peak_before_loss": null,
+          "ended_by_loss": false,
+          "ending_balance": 20.0,
+          "legs": [
+            {
+              "date": "2021-04-28T20:30:00+00:00",
+              "fixture_id": 3775609,
+              "fixture": "Arsenal WFC vs West Ham United LFC",
+              "player": "Vivianne Miedema",
+              "shots": 5,
+              "hit": true
+            }
+          ]
+        }
+      ],
+      "note": "No profit is realized unless cash is removed. A loss after a winning streak reduces the all-in balance to $0."
+    },
+    "fixed_blocks_alternative": {
+      "2": {
+        "length": 2,
+        "odds_per_leg": 2.0,
+        "blocks": 7,
+        "winning_blocks": 6,
+        "losing_blocks": 1,
+        "incomplete_selections_ignored": 1,
+        "blocks_with_same_kickoff": 0,
+        "total_staked": 70.0,
+        "total_return": 240.0,
+        "profit": 170.0,
+        "roi_pct": 242.9,
+        "block_records": [
+          {
+            "block": 1,
+            "won": true,
+            "stake": 10,
+            "return_amount": 40.0,
+            "profit": 30.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2020-12-20T11:00:00+00:00",
+                "fixture_id": 3775610,
+                "fixture": "Manchester United W vs Bristol City WFC",
+                "player": "Ella Toone",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-01-17T13:30:00+00:00",
+                "fixture_id": 3775626,
+                "fixture": "Manchester City WFC vs Aston Villa W",
+                "player": "Georgia Stanway",
+                "shots": 4,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 2,
+            "won": true,
+            "stake": 10,
+            "return_amount": 40.0,
+            "profit": 30.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-01-24T11:00:00+00:00",
+                "fixture_id": 3775594,
+                "fixture": "Manchester United W vs Birmingham City WFC",
+                "player": "Ella Toone",
+                "shots": 7,
+                "hit": true
+              },
+              {
+                "date": "2021-01-31T13:30:00+00:00",
+                "fixture_id": 3775605,
+                "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 6,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 3,
+            "won": true,
+            "stake": 10,
+            "return_amount": 40.0,
+            "profit": 30.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-01-31T15:00:00+00:00",
+                "fixture_id": 3775651,
+                "fixture": "Manchester City WFC vs West Ham United LFC",
+                "player": "Georgia Stanway",
+                "shots": 5,
+                "hit": true
+              },
+              {
+                "date": "2021-02-07T11:30:00+00:00",
+                "fixture_id": 3775640,
+                "fixture": "Manchester United W vs Reading WFC",
+                "player": "Ella Toone",
+                "shots": 2,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 4,
+            "won": true,
+            "stake": 10,
+            "return_amount": 40.0,
+            "profit": 30.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-02-07T15:00:00+00:00",
+                "fixture_id": 3775652,
+                "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+                "player": "Bethany England",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-03-07T15:00:00+00:00",
+                "fixture_id": 3775639,
+                "fixture": "Manchester City WFC vs Everton LFC",
+                "player": "Ellen White",
+                "shots": 2,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 5,
+            "won": true,
+            "stake": 10,
+            "return_amount": 40.0,
+            "profit": 30.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-03-27T10:30:00+00:00",
+                "fixture_id": 3775628,
+                "fixture": "Manchester United W vs West Ham United LFC",
+                "player": "Christen Annemarie Press",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-04-04T13:30:00+00:00",
+                "fixture_id": 3775565,
+                "fixture": "Chelsea FCW vs Birmingham City WFC",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 2,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 6,
+            "won": true,
+            "stake": 10,
+            "return_amount": 40.0,
+            "profit": 30.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-04-25T11:30:00+00:00",
+                "fixture_id": 3775622,
+                "fixture": "Manchester United W vs Tottenham Hotspur Women",
+                "player": "Christen Annemarie Press",
+                "shots": 7,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T15:00:00+00:00",
+                "fixture_id": 3775557,
+                "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+                "player": "Jordan Nobbs",
+                "shots": 3,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 7,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-04-25T15:00:00+00:00",
+                "fixture_id": 3775557,
+                "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+                "player": "Vivianne Miedema",
+                "shots": 8,
+                "hit": true
+              },
+              {
+                "date": "2021-04-28T20:30:00+00:00",
+                "fixture_id": 3775609,
+                "fixture": "Arsenal WFC vs West Ham United LFC",
+                "player": "Jordan Nobbs",
+                "shots": 0,
+                "hit": false
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "length": 3,
+        "odds_per_leg": 2.0,
+        "blocks": 5,
+        "winning_blocks": 4,
+        "losing_blocks": 1,
+        "incomplete_selections_ignored": 0,
+        "blocks_with_same_kickoff": 1,
+        "total_staked": 50.0,
+        "total_return": 320.0,
+        "profit": 270.0,
+        "roi_pct": 540.0,
+        "block_records": [
+          {
+            "block": 1,
+            "won": true,
+            "stake": 10,
+            "return_amount": 80.0,
+            "profit": 70.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2020-12-20T11:00:00+00:00",
+                "fixture_id": 3775610,
+                "fixture": "Manchester United W vs Bristol City WFC",
+                "player": "Ella Toone",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-01-17T13:30:00+00:00",
+                "fixture_id": 3775626,
+                "fixture": "Manchester City WFC vs Aston Villa W",
+                "player": "Georgia Stanway",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-01-24T11:00:00+00:00",
+                "fixture_id": 3775594,
+                "fixture": "Manchester United W vs Birmingham City WFC",
+                "player": "Ella Toone",
+                "shots": 7,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 2,
+            "won": true,
+            "stake": 10,
+            "return_amount": 80.0,
+            "profit": 70.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-01-31T13:30:00+00:00",
+                "fixture_id": 3775605,
+                "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 6,
+                "hit": true
+              },
+              {
+                "date": "2021-01-31T15:00:00+00:00",
+                "fixture_id": 3775651,
+                "fixture": "Manchester City WFC vs West Ham United LFC",
+                "player": "Georgia Stanway",
+                "shots": 5,
+                "hit": true
+              },
+              {
+                "date": "2021-02-07T11:30:00+00:00",
+                "fixture_id": 3775640,
+                "fixture": "Manchester United W vs Reading WFC",
+                "player": "Ella Toone",
+                "shots": 2,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 3,
+            "won": true,
+            "stake": 10,
+            "return_amount": 80.0,
+            "profit": 70.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-02-07T15:00:00+00:00",
+                "fixture_id": 3775652,
+                "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+                "player": "Bethany England",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-03-07T15:00:00+00:00",
+                "fixture_id": 3775639,
+                "fixture": "Manchester City WFC vs Everton LFC",
+                "player": "Ellen White",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-03-27T10:30:00+00:00",
+                "fixture_id": 3775628,
+                "fixture": "Manchester United W vs West Ham United LFC",
+                "player": "Christen Annemarie Press",
+                "shots": 3,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 4,
+            "won": true,
+            "stake": 10,
+            "return_amount": 80.0,
+            "profit": 70.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-04-04T13:30:00+00:00",
+                "fixture_id": 3775565,
+                "fixture": "Chelsea FCW vs Birmingham City WFC",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T11:30:00+00:00",
+                "fixture_id": 3775622,
+                "fixture": "Manchester United W vs Tottenham Hotspur Women",
+                "player": "Christen Annemarie Press",
+                "shots": 7,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T15:00:00+00:00",
+                "fixture_id": 3775557,
+                "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+                "player": "Jordan Nobbs",
+                "shots": 3,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 5,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-04-25T15:00:00+00:00",
+                "fixture_id": 3775557,
+                "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+                "player": "Vivianne Miedema",
+                "shots": 8,
+                "hit": true
+              },
+              {
+                "date": "2021-04-28T20:30:00+00:00",
+                "fixture_id": 3775609,
+                "fixture": "Arsenal WFC vs West Ham United LFC",
+                "player": "Jordan Nobbs",
+                "shots": 0,
+                "hit": false
+              },
+              {
+                "date": "2021-04-28T20:30:00+00:00",
+                "fixture_id": 3775609,
+                "fixture": "Arsenal WFC vs West Ham United LFC",
+                "player": "Vivianne Miedema",
+                "shots": 5,
+                "hit": true
+              }
+            ]
+          }
+        ]
+      },
+      "4": {
+        "length": 4,
+        "odds_per_leg": 2.0,
+        "blocks": 3,
+        "winning_blocks": 3,
+        "losing_blocks": 0,
+        "incomplete_selections_ignored": 3,
+        "blocks_with_same_kickoff": 0,
+        "total_staked": 30.0,
+        "total_return": 480.0,
+        "profit": 450.0,
+        "roi_pct": 1500.0,
+        "block_records": [
+          {
+            "block": 1,
+            "won": true,
+            "stake": 10,
+            "return_amount": 160.0,
+            "profit": 150.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2020-12-20T11:00:00+00:00",
+                "fixture_id": 3775610,
+                "fixture": "Manchester United W vs Bristol City WFC",
+                "player": "Ella Toone",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-01-17T13:30:00+00:00",
+                "fixture_id": 3775626,
+                "fixture": "Manchester City WFC vs Aston Villa W",
+                "player": "Georgia Stanway",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-01-24T11:00:00+00:00",
+                "fixture_id": 3775594,
+                "fixture": "Manchester United W vs Birmingham City WFC",
+                "player": "Ella Toone",
+                "shots": 7,
+                "hit": true
+              },
+              {
+                "date": "2021-01-31T13:30:00+00:00",
+                "fixture_id": 3775605,
+                "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 6,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 2,
+            "won": true,
+            "stake": 10,
+            "return_amount": 160.0,
+            "profit": 150.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-01-31T15:00:00+00:00",
+                "fixture_id": 3775651,
+                "fixture": "Manchester City WFC vs West Ham United LFC",
+                "player": "Georgia Stanway",
+                "shots": 5,
+                "hit": true
+              },
+              {
+                "date": "2021-02-07T11:30:00+00:00",
+                "fixture_id": 3775640,
+                "fixture": "Manchester United W vs Reading WFC",
+                "player": "Ella Toone",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-02-07T15:00:00+00:00",
+                "fixture_id": 3775652,
+                "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+                "player": "Bethany England",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-03-07T15:00:00+00:00",
+                "fixture_id": 3775639,
+                "fixture": "Manchester City WFC vs Everton LFC",
+                "player": "Ellen White",
+                "shots": 2,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 3,
+            "won": true,
+            "stake": 10,
+            "return_amount": 160.0,
+            "profit": 150.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-03-27T10:30:00+00:00",
+                "fixture_id": 3775628,
+                "fixture": "Manchester United W vs West Ham United LFC",
+                "player": "Christen Annemarie Press",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-04-04T13:30:00+00:00",
+                "fixture_id": 3775565,
+                "fixture": "Chelsea FCW vs Birmingham City WFC",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T11:30:00+00:00",
+                "fixture_id": 3775622,
+                "fixture": "Manchester United W vs Tottenham Hotspur Women",
+                "player": "Christen Annemarie Press",
+                "shots": 7,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T15:00:00+00:00",
+                "fixture_id": 3775557,
+                "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+                "player": "Jordan Nobbs",
+                "shots": 3,
+                "hit": true
+              }
+            ]
+          }
+        ]
+      },
+      "5": {
+        "length": 5,
+        "odds_per_leg": 2.0,
+        "blocks": 3,
+        "winning_blocks": 2,
+        "losing_blocks": 1,
+        "incomplete_selections_ignored": 0,
+        "blocks_with_same_kickoff": 1,
+        "total_staked": 30.0,
+        "total_return": 640.0,
+        "profit": 610.0,
+        "roi_pct": 2033.3,
+        "block_records": [
+          {
+            "block": 1,
+            "won": true,
+            "stake": 10,
+            "return_amount": 320.0,
+            "profit": 310.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2020-12-20T11:00:00+00:00",
+                "fixture_id": 3775610,
+                "fixture": "Manchester United W vs Bristol City WFC",
+                "player": "Ella Toone",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-01-17T13:30:00+00:00",
+                "fixture_id": 3775626,
+                "fixture": "Manchester City WFC vs Aston Villa W",
+                "player": "Georgia Stanway",
+                "shots": 4,
+                "hit": true
+              },
+              {
+                "date": "2021-01-24T11:00:00+00:00",
+                "fixture_id": 3775594,
+                "fixture": "Manchester United W vs Birmingham City WFC",
+                "player": "Ella Toone",
+                "shots": 7,
+                "hit": true
+              },
+              {
+                "date": "2021-01-31T13:30:00+00:00",
+                "fixture_id": 3775605,
+                "fixture": "Chelsea FCW vs Tottenham Hotspur Women",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 6,
+                "hit": true
+              },
+              {
+                "date": "2021-01-31T15:00:00+00:00",
+                "fixture_id": 3775651,
+                "fixture": "Manchester City WFC vs West Ham United LFC",
+                "player": "Georgia Stanway",
+                "shots": 5,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 2,
+            "won": true,
+            "stake": 10,
+            "return_amount": 320.0,
+            "profit": 310.0,
+            "contains_same_kickoff": false,
+            "legs": [
+              {
+                "date": "2021-02-07T11:30:00+00:00",
+                "fixture_id": 3775640,
+                "fixture": "Manchester United W vs Reading WFC",
+                "player": "Ella Toone",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-02-07T15:00:00+00:00",
+                "fixture_id": 3775652,
+                "fixture": "Chelsea FCW vs Brighton & Hove Albion WFC",
+                "player": "Bethany England",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-03-07T15:00:00+00:00",
+                "fixture_id": 3775639,
+                "fixture": "Manchester City WFC vs Everton LFC",
+                "player": "Ellen White",
+                "shots": 2,
+                "hit": true
+              },
+              {
+                "date": "2021-03-27T10:30:00+00:00",
+                "fixture_id": 3775628,
+                "fixture": "Manchester United W vs West Ham United LFC",
+                "player": "Christen Annemarie Press",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-04-04T13:30:00+00:00",
+                "fixture_id": 3775565,
+                "fixture": "Chelsea FCW vs Birmingham City WFC",
+                "player": "Pernille Mosegaard Harder",
+                "shots": 2,
+                "hit": true
+              }
+            ]
+          },
+          {
+            "block": 3,
+            "won": false,
+            "stake": 10,
+            "return_amount": 0.0,
+            "profit": -10.0,
+            "contains_same_kickoff": true,
+            "legs": [
+              {
+                "date": "2021-04-25T11:30:00+00:00",
+                "fixture_id": 3775622,
+                "fixture": "Manchester United W vs Tottenham Hotspur Women",
+                "player": "Christen Annemarie Press",
+                "shots": 7,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T15:00:00+00:00",
+                "fixture_id": 3775557,
+                "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+                "player": "Jordan Nobbs",
+                "shots": 3,
+                "hit": true
+              },
+              {
+                "date": "2021-04-25T15:00:00+00:00",
+                "fixture_id": 3775557,
+                "fixture": "Arsenal WFC vs Brighton & Hove Albion WFC",
+                "player": "Vivianne Miedema",
+                "shots": 8,
+                "hit": true
+              },
+              {
+                "date": "2021-04-28T20:30:00+00:00",
+                "fixture_id": 3775609,
+                "fixture": "Arsenal WFC vs West Ham United LFC",
+                "player": "Jordan Nobbs",
+                "shots": 0,
+                "hit": false
+              },
+              {
+                "date": "2021-04-28T20:30:00+00:00",
+                "fixture_id": 3775609,
+                "fixture": "Arsenal WFC vs West Ham United LFC",
+                "player": "Vivianne Miedema",
+                "shots": 5,
+                "hit": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

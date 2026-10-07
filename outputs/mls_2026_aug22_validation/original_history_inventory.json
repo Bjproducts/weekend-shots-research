@@ -1,0 +1,658 @@
+[
+  {
+    "team": {
+      "id": 5,
+      "name": "Inter Miami CF"
+    },
+    "players": [
+      {
+        "player_id": 1,
+        "name": "R. R\u00edos Novo",
+        "appearances": 6,
+        "starts": 6,
+        "latest": "2026-08-16 00:30:00.000000",
+        "earliest": "2026-03-14 23:30:00.000000"
+      },
+      {
+        "player_id": 2,
+        "name": "I. Fray",
+        "appearances": 14,
+        "starts": 12,
+        "latest": "2026-08-16 00:30:00.000000",
+        "earliest": "2026-03-14 23:30:00.000000"
+      },
+      {
+        "player_id": 3,
+        "name": "M. Falc\u00f3n",
+        "appearances": 9,
+        "starts": 8,
+        "latest": "2026-08-16 00:30:00.000000",
+        "earliest": "2026-03-02 00:00:00.000000"
+      },
+      {
+        "player_id": 4,
+        "name": "N. Allen",
+        "appearances": 16,
+        "starts": 11,
+        "latest": "2026-08-16 00:30:00.000000",
+        "earliest": "2026-03-02 00:00:00.000000"
+      },
+      {
+        "player_id": 6,
+        "name": "T. Allende",
+        "appearances": 8,
+        "starts": 4,
+        "latest": "2026-05-02 23:15:00.000000",
+        "earliest": "2026-03-02 00:00:00.000000"
+      },
+      {
+        "player_id": 7,
+        "name": "R. De Paul",
+        "appearances": 15,
+        "starts": 15,
+        "latest": "2026-08-16 00:30:00.000000",
+        "earliest": "2026-03-02 00:00:00.000000"
+      },
+      {
+        "player_id": 10,
+        "name": "L. Messi",
+        "appearances": 16,
+        "starts": 15,
+        "latest": "2026-08-16 00:30:00.000000",
+        "earliest": "2026-03-02 00:00:00.000000"
+      },
+      {
+        "player_id": 11,
+        "name": "M. Silvetti",
+        "appearances": 13,
+        "starts": 9,
+        "latest": "2026-08-05 23:30:00.000000",
+        "earliest": "2026-03-02 00:00:00.000000"
+      },
+      {
+        "player_id": 12,
+        "name": "T. Segovia",
+        "appearances": 17,
+        "starts": 16,
+        "latest": "2026-08-16 00:30:00.000000",
+        "earliest": "2026-03-02 00:00:00.000000"
+      },
+      {
+        "player_id": 13,
+        "name": "Y. Bright",
+        "appearances": 16,
+        "starts": 15,
+        "latest": "2026-08-16 00:30:00.000000",
+        "earliest": "2026-03-02 00:00:00.000000"
+      },
+      {
+        "player_id": 527,
+        "name": "F. Caicedo",
+        "appearances": 2,
+        "starts": 2,
+        "latest": "2026-08-05 23:30:00.000000",
+        "earliest": "2026-08-02 00:10:00.000000"
+      },
+      {
+        "player_id": 528,
+        "name": "Micael",
+        "appearances": 17,
+        "starts": 17,
+        "latest": "2026-08-05 23:30:00.000000",
+        "earliest": "2026-03-02 00:00:00.000000"
+      },
+      {
+        "player_id": 529,
+        "name": "Casemiro",
+        "appearances": 4,
+        "starts": 4,
+        "latest": "2026-08-16 00:30:00.000000",
+        "earliest": "2026-07-25 23:30:00.000000"
+      },
+      {
+        "player_id": 530,
+        "name": "D. Pinter",
+        "appearances": 10,
+        "starts": 3,
+        "latest": "2026-08-05 23:30:00.000000",
+        "earliest": "2026-03-14 23:30:00.000000"
+      },
+      {
+        "player_id": 531,
+        "name": "F. Mura",
+        "appearances": 16,
+        "starts": 10,
+        "latest": "2026-08-16 00:30:00.000000",
+        "earliest": "2026-03-02 00:00:00.000000"
+      },
+      {
+        "player_id": 532,
+        "name": "D. Ru\u00edz",
+        "appearances": 9,
+        "starts": 3,
+        "latest": "2026-08-16 00:30:00.000000",
+        "earliest": "2026-03-14 23:30:00.000000"
+      },
+      {
+        "player_id": 533,
+        "name": "S. Reguil\u00f3n",
+        "appearances": 10,
+        "starts": 8,
+        "latest": "2026-08-16 00:30:00.000000",
+        "earliest": "2026-03-14 23:30:00.000000"
+      },
+      {
+        "player_id": 534,
+        "name": "D. Ayala",
+        "appearances": 8,
+        "starts": 3,
+        "latest": "2026-08-05 23:30:00.000000",
+        "earliest": "2026-03-14 23:30:00.000000"
+      },
+      {
+        "player_id": 872,
+        "name": "L. Su\u00e1rez",
+        "appearances": 14,
+        "starts": 11,
+        "latest": "2026-08-16 00:30:00.000000",
+        "earliest": "2026-03-14 23:30:00.000000"
+      },
+      {
+        "player_id": 873,
+        "name": "P. Plambeck",
+        "appearances": 6,
+        "starts": 0,
+        "latest": "2026-08-02 00:10:00.000000",
+        "earliest": "2026-04-25 23:30:00.000000"
+      },
+      {
+        "player_id": 1046,
+        "name": "G. Berterame",
+        "appearances": 16,
+        "starts": 13,
+        "latest": "2026-07-25 23:30:00.000000",
+        "earliest": "2026-03-02 00:00:00.000000"
+      },
+      {
+        "player_id": 1131,
+        "name": "D. St. Clair",
+        "appearances": 13,
+        "starts": 13,
+        "latest": "2026-05-24 23:00:00.000000",
+        "earliest": "2026-03-02 00:00:00.000000"
+      },
+      {
+        "player_id": 1132,
+        "name": "G. Luj\u00e1n",
+        "appearances": 14,
+        "starts": 10,
+        "latest": "2026-08-16 00:30:00.000000",
+        "earliest": "2026-03-02 00:00:00.000000"
+      },
+      {
+        "player_id": 2975,
+        "name": "L. Delinois",
+        "appearances": 1,
+        "starts": 0,
+        "latest": "2026-08-16 00:30:00.000000",
+        "earliest": "2026-08-16 00:30:00.000000"
+      },
+      {
+        "player_id": 3008,
+        "name": "E. Abadia-Reda",
+        "appearances": 3,
+        "starts": 0,
+        "latest": "2026-04-25 23:30:00.000000",
+        "earliest": "2026-03-14 23:30:00.000000"
+      },
+      {
+        "player_id": 3021,
+        "name": "Shaw",
+        "appearances": 2,
+        "starts": 0,
+        "latest": "2026-04-18 20:30:00.000000",
+        "earliest": "2026-03-14 23:30:00.000000"
+      },
+      {
+        "player_id": 3044,
+        "name": "S. Morales",
+        "appearances": 1,
+        "starts": 1,
+        "latest": "2026-03-14 23:30:00.000000",
+        "earliest": "2026-03-14 23:30:00.000000"
+      }
+    ]
+  },
+  {
+    "team": {
+      "id": 15,
+      "name": "Charlotte FC"
+    },
+    "players": [
+      {
+        "player_id": 42,
+        "name": "L. D. L. Torre",
+        "appearances": 15,
+        "starts": 7,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 635,
+        "name": "T. Miller",
+        "appearances": 1,
+        "starts": 1,
+        "latest": "2026-08-05 01:22:00.000000",
+        "earliest": "2026-08-05 01:22:00.000000"
+      },
+      {
+        "player_id": 636,
+        "name": "W. Cleary",
+        "appearances": 6,
+        "starts": 3,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-05-16 23:30:00.000000"
+      },
+      {
+        "player_id": 637,
+        "name": "H. Kessler",
+        "appearances": 4,
+        "starts": 4,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-07-25 22:30:00.000000"
+      },
+      {
+        "player_id": 638,
+        "name": "T. Ream",
+        "appearances": 12,
+        "starts": 12,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 639,
+        "name": "D. Schnegg",
+        "appearances": 10,
+        "starts": 6,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-21 23:30:00.000000"
+      },
+      {
+        "player_id": 640,
+        "name": "A. Westwood",
+        "appearances": 17,
+        "starts": 16,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 641,
+        "name": "B. Bronico",
+        "appearances": 16,
+        "starts": 7,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 642,
+        "name": "D. Diani",
+        "appearances": 16,
+        "starts": 9,
+        "latest": "2026-08-05 01:22:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 643,
+        "name": "P. Biel",
+        "appearances": 18,
+        "starts": 18,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 644,
+        "name": "A. Goodwin",
+        "appearances": 17,
+        "starts": 3,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 645,
+        "name": "R. Aloko",
+        "appearances": 10,
+        "starts": 4,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-04-11 23:30:00.000000"
+      },
+      {
+        "player_id": 646,
+        "name": "T. Smalls",
+        "appearances": 9,
+        "starts": 0,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 647,
+        "name": "I. Toklomati",
+        "appearances": 18,
+        "starts": 15,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 648,
+        "name": "N. Byrne",
+        "appearances": 17,
+        "starts": 15,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 649,
+        "name": "N. Richmond",
+        "appearances": 1,
+        "starts": 0,
+        "latest": "2026-08-05 01:22:00.000000",
+        "earliest": "2026-08-05 01:22:00.000000"
+      },
+      {
+        "player_id": 808,
+        "name": "K. Kahlina",
+        "appearances": 17,
+        "starts": 17,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 809,
+        "name": "A. Morrison",
+        "appearances": 16,
+        "starts": 15,
+        "latest": "2026-08-02 00:30:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 810,
+        "name": "H. Toffolo",
+        "appearances": 12,
+        "starts": 12,
+        "latest": "2026-08-02 00:30:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 811,
+        "name": "L. Abada",
+        "appearances": 11,
+        "starts": 7,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-08 00:30:00.000000"
+      },
+      {
+        "player_id": 1096,
+        "name": "K. C. Vargas",
+        "appearances": 15,
+        "starts": 11,
+        "latest": "2026-07-25 22:30:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 1164,
+        "name": "W. Zaha",
+        "appearances": 11,
+        "starts": 11,
+        "latest": "2026-05-23 23:30:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 1165,
+        "name": "A. Privett",
+        "appearances": 7,
+        "starts": 5,
+        "latest": "2026-05-23 23:30:00.000000",
+        "earliest": "2026-03-01 03:30:00.000000"
+      },
+      {
+        "player_id": 2332,
+        "name": "A. Saint-Maximin",
+        "appearances": 1,
+        "starts": 0,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-08-15 23:30:00.000000"
+      },
+      {
+        "player_id": 3053,
+        "name": "A. John",
+        "appearances": 1,
+        "starts": 0,
+        "latest": "2026-03-08 00:30:00.000000",
+        "earliest": "2026-03-08 00:30:00.000000"
+      }
+    ]
+  },
+  {
+    "team": {
+      "id": 141,
+      "name": "Atlanta United"
+    },
+    "players": [
+      {
+        "player_id": 627,
+        "name": "S. Lobzhanidze",
+        "appearances": 11,
+        "starts": 6,
+        "latest": "2026-05-24 21:00:00.000000",
+        "earliest": "2026-03-01 00:30:00.000000"
+      },
+      {
+        "player_id": 928,
+        "name": "L. Hoyos",
+        "appearances": 17,
+        "starts": 17,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 00:30:00.000000"
+      },
+      {
+        "player_id": 929,
+        "name": "T. Jacob",
+        "appearances": 14,
+        "starts": 14,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 00:30:00.000000"
+      },
+      {
+        "player_id": 930,
+        "name": "E. Mihaj",
+        "appearances": 15,
+        "starts": 14,
+        "latest": "2026-08-01 23:30:00.000000",
+        "earliest": "2026-03-01 00:30:00.000000"
+      },
+      {
+        "player_id": 931,
+        "name": "J. Alonso",
+        "appearances": 4,
+        "starts": 4,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-07-23 00:15:00.000000"
+      },
+      {
+        "player_id": 932,
+        "name": "M. Edwards",
+        "appearances": 11,
+        "starts": 6,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-08 00:30:00.000000"
+      },
+      {
+        "player_id": 933,
+        "name": "W. Reilly",
+        "appearances": 8,
+        "starts": 6,
+        "latest": "2026-08-01 23:30:00.000000",
+        "earliest": "2026-04-04 23:30:00.000000"
+      },
+      {
+        "player_id": 934,
+        "name": "T. Muyumba",
+        "appearances": 17,
+        "starts": 15,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 00:30:00.000000"
+      },
+      {
+        "player_id": 935,
+        "name": "E. B\u00e1ez",
+        "appearances": 15,
+        "starts": 15,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 00:30:00.000000"
+      },
+      {
+        "player_id": 936,
+        "name": "A. Miranchuk",
+        "appearances": 16,
+        "starts": 15,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 00:30:00.000000"
+      },
+      {
+        "player_id": 937,
+        "name": "F. Picault",
+        "appearances": 12,
+        "starts": 5,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-14 19:15:00.000000"
+      },
+      {
+        "player_id": 938,
+        "name": "M. Almir\u00f3n",
+        "appearances": 12,
+        "starts": 11,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 00:30:00.000000"
+      },
+      {
+        "player_id": 939,
+        "name": "S. Gregersen",
+        "appearances": 12,
+        "starts": 8,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-14 19:15:00.000000"
+      },
+      {
+        "player_id": 940,
+        "name": "L. Brennan",
+        "appearances": 10,
+        "starts": 3,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-04-12 00:30:00.000000"
+      },
+      {
+        "player_id": 941,
+        "name": "A. Kovac",
+        "appearances": 1,
+        "starts": 0,
+        "latest": "2026-08-01 23:30:00.000000",
+        "earliest": "2026-08-01 23:30:00.000000"
+      },
+      {
+        "player_id": 942,
+        "name": "R. Hern\u00e1ndez",
+        "appearances": 5,
+        "starts": 1,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 00:30:00.000000"
+      },
+      {
+        "player_id": 1068,
+        "name": "C. Sanchez",
+        "appearances": 15,
+        "starts": 14,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 00:30:00.000000"
+      },
+      {
+        "player_id": 1069,
+        "name": "C. Togashi",
+        "appearances": 6,
+        "starts": 1,
+        "latest": "2026-07-25 23:30:00.000000",
+        "earliest": "2026-04-12 00:30:00.000000"
+      },
+      {
+        "player_id": 1105,
+        "name": "I. Suarez-Couri",
+        "appearances": 1,
+        "starts": 0,
+        "latest": "2026-07-23 00:15:00.000000",
+        "earliest": "2026-07-23 00:15:00.000000"
+      },
+      {
+        "player_id": 1118,
+        "name": "A. Fortune",
+        "appearances": 9,
+        "starts": 5,
+        "latest": "2026-07-18 00:10:00.000000",
+        "earliest": "2026-04-04 23:30:00.000000"
+      },
+      {
+        "player_id": 1119,
+        "name": "E. Latte Lath",
+        "appearances": 12,
+        "starts": 8,
+        "latest": "2026-07-18 00:10:00.000000",
+        "earliest": "2026-03-01 00:30:00.000000"
+      },
+      {
+        "player_id": 1140,
+        "name": "J. Berrocal",
+        "appearances": 7,
+        "starts": 6,
+        "latest": "2026-05-24 21:00:00.000000",
+        "earliest": "2026-03-01 00:30:00.000000"
+      },
+      {
+        "player_id": 1141,
+        "name": "S. Santos",
+        "appearances": 3,
+        "starts": 0,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-08 00:30:00.000000"
+      },
+      {
+        "player_id": 2928,
+        "name": "M. Galarza",
+        "appearances": 9,
+        "starts": 7,
+        "latest": "2026-05-16 23:30:00.000000",
+        "earliest": "2026-03-08 00:30:00.000000"
+      },
+      {
+        "player_id": 2979,
+        "name": "A. Gill",
+        "appearances": 1,
+        "starts": 1,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-08-15 23:30:00.000000"
+      },
+      {
+        "player_id": 2980,
+        "name": "S. Alzate",
+        "appearances": 7,
+        "starts": 3,
+        "latest": "2026-08-15 23:30:00.000000",
+        "earliest": "2026-03-01 00:30:00.000000"
+      },
+      {
+        "player_id": 2997,
+        "name": "P. Amador",
+        "appearances": 7,
+        "starts": 2,
+        "latest": "2026-05-02 23:30:00.000000",
+        "earliest": "2026-03-01 00:30:00.000000"
+      }
+    ]
+  }
+]

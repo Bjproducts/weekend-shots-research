@@ -1,0 +1,455 @@
+{
+  "created_utc": "2026-09-29T14:54:10.694310+00:00",
+  "date": "2026-09-29",
+  "classification": "same-day provisional/lineup-time shadow scan; not part of validated big-five sample",
+  "fixtures": [
+    {
+      "match_id": "5181851",
+      "date": "2026-09-29T18:45:00.000Z",
+      "division": "A",
+      "fixture": "Czechia vs England",
+      "home": "Czechia",
+      "away": "England",
+      "eligible": true,
+      "confidence_tier": "B",
+      "lineup_source": "enetpulse",
+      "home_starters_count": 11,
+      "candidates": [],
+      "overall_ppg_gap": -0.8333333333333333,
+      "recent_ppg_gap": -1.0,
+      "home_home_shots": 10.666666666666666,
+      "away_away_conceded": 16.25,
+      "away_away_shots": 14,
+      "home_home_conceded": 14.666666666666666,
+      "projected_home_shots": 13.458333333333332,
+      "projected_away_shots": 14.333333333333332,
+      "projected_shot_gap": -0.875,
+      "overall_ppg_gap_percentile": 0.0,
+      "recent_ppg_gap_percentile": 0.0,
+      "projected_home_shots_percentile": 50.0,
+      "projected_shot_gap_percentile": 50.0,
+      "environment_score": 20.0,
+      "rank": 3,
+      "selected_environment": true
+    },
+    {
+      "match_id": "5181852",
+      "date": "2026-09-29T18:45:00.000Z",
+      "division": "A",
+      "fixture": "Spain vs Croatia",
+      "home": "Spain",
+      "away": "Croatia",
+      "eligible": true,
+      "confidence_tier": "B",
+      "lineup_source": "enetpulse",
+      "home_starters_count": 11,
+      "candidates": [
+        {
+          "player_id": "1467236",
+          "player": "Lamine Yamal",
+          "avg_shots": 4,
+          "avg_minutes": 96,
+          "recent_hits": 4,
+          "prior_ids": [
+            "4653844",
+            "4653853",
+            "4653855",
+            "4653858",
+            "5181850"
+          ],
+          "shooter_rank": 1,
+          "A": true,
+          "B": true
+        },
+        {
+          "player_id": "678234",
+          "player": "Mikel Oyarzabal",
+          "avg_shots": 2.4,
+          "avg_minutes": 78.8,
+          "recent_hits": 3,
+          "prior_ids": [
+            "4653708",
+            "4653844",
+            "4653853",
+            "4653855",
+            "4653858"
+          ],
+          "shooter_rank": 2,
+          "A": false,
+          "B": false
+        },
+        {
+          "player_id": "614834",
+          "player": "Dani Olmo",
+          "avg_shots": 1.8,
+          "avg_minutes": 81.2,
+          "recent_hits": 4,
+          "prior_ids": [
+            "4653844",
+            "4653853",
+            "4653855",
+            "4653858",
+            "5181850"
+          ],
+          "shooter_rank": 3,
+          "A": false,
+          "B": false
+        },
+        {
+          "player_id": "942372",
+          "player": "\u00c1lex Baena",
+          "avg_shots": 1.8,
+          "avg_minutes": 72,
+          "recent_hits": 3,
+          "prior_ids": [
+            "4653708",
+            "4653844",
+            "4653853",
+            "4653855",
+            "4653858"
+          ],
+          "shooter_rank": 4,
+          "A": false,
+          "B": false
+        },
+        {
+          "player_id": "1083323",
+          "player": "Pedri",
+          "avg_shots": 0.8,
+          "avg_minutes": 78.8,
+          "recent_hits": 1,
+          "prior_ids": [
+            "4667798",
+            "4667801",
+            "4667802",
+            "4653708",
+            "4653844"
+          ],
+          "shooter_rank": 5,
+          "A": false,
+          "B": false
+        },
+        {
+          "player_id": "675088",
+          "player": "Rodri",
+          "avg_shots": 0.6,
+          "avg_minutes": 91.8,
+          "recent_hits": 0,
+          "prior_ids": [
+            "4653844",
+            "4653853",
+            "4653855",
+            "4653858",
+            "5181850"
+          ],
+          "shooter_rank": 6,
+          "A": false,
+          "B": false
+        },
+        {
+          "player_id": "1532137",
+          "player": "Pau Cubars\u00ed",
+          "avg_shots": 0.4,
+          "avg_minutes": 96,
+          "recent_hits": 0,
+          "prior_ids": [
+            "4653844",
+            "4653853",
+            "4653855",
+            "4653858",
+            "5181850"
+          ],
+          "shooter_rank": 7,
+          "A": false,
+          "B": false
+        },
+        {
+          "player_id": "873289",
+          "player": "Marc Cucurella",
+          "avg_shots": 0.4,
+          "avg_minutes": 96,
+          "recent_hits": 0,
+          "prior_ids": [
+            "4653844",
+            "4653853",
+            "4653855",
+            "4653858",
+            "5181850"
+          ],
+          "shooter_rank": 8,
+          "A": false,
+          "B": false
+        },
+        {
+          "player_id": "411617",
+          "player": "Aymeric Laporte",
+          "avg_shots": 0.2,
+          "avg_minutes": 91.8,
+          "recent_hits": 0,
+          "prior_ids": [
+            "4653844",
+            "4653853",
+            "4653855",
+            "4653858",
+            "5181850"
+          ],
+          "shooter_rank": 9,
+          "A": false,
+          "B": false
+        },
+        {
+          "player_id": "660625",
+          "player": "Unai Sim\u00f3n",
+          "avg_shots": 0,
+          "avg_minutes": 96,
+          "recent_hits": 0,
+          "prior_ids": [
+            "4653844",
+            "4653853",
+            "4653855",
+            "4653858",
+            "5181850"
+          ],
+          "shooter_rank": 10,
+          "A": false,
+          "B": false
+        }
+      ],
+      "overall_ppg_gap": 1.2857142857142858,
+      "recent_ppg_gap": 1.2,
+      "home_home_shots": 20.5,
+      "away_away_conceded": 12.5,
+      "away_away_shots": 11.25,
+      "home_home_conceded": 3.75,
+      "projected_home_shots": 16.5,
+      "projected_away_shots": 7.5,
+      "projected_shot_gap": 9.0,
+      "overall_ppg_gap_percentile": 100.0,
+      "recent_ppg_gap_percentile": 100.0,
+      "projected_home_shots_percentile": 100.0,
+      "projected_shot_gap_percentile": 100.0,
+      "environment_score": 100.0,
+      "rank": 1,
+      "selected_environment": true
+    },
+    {
+      "match_id": "5181778",
+      "date": "2026-09-29T18:45:00.000Z",
+      "division": "B",
+      "fixture": "Scotland vs Switzerland",
+      "home": "Scotland",
+      "away": "Switzerland",
+      "eligible": true,
+      "confidence_tier": "B",
+      "lineup_source": "enetpulse",
+      "home_starters_count": 11,
+      "candidates": [
+        {
+          "player_id": "888921",
+          "player": "Lewis Ferguson",
+          "avg_shots": 0.6,
+          "avg_minutes": 88,
+          "recent_hits": 1,
+          "prior_ids": [
+            "5418303",
+            "4667765",
+            "4667766",
+            "4667768",
+            "5181776"
+          ],
+          "shooter_rank": 1,
+          "A": false,
+          "B": false
+        },
+        {
+          "player_id": "357880",
+          "player": "Andrew Robertson",
+          "avg_shots": 0.4,
+          "avg_minutes": 72,
+          "recent_hits": 0,
+          "prior_ids": [
+            "5418303",
+            "4667765",
+            "4667766",
+            "4667768",
+            "5181776"
+          ],
+          "shooter_rank": 2,
+          "A": false,
+          "B": false
+        },
+        {
+          "player_id": "640642",
+          "player": "Jack Hendry",
+          "avg_shots": 0.2,
+          "avg_minutes": 88,
+          "recent_hits": 0,
+          "prior_ids": [
+            "5418303",
+            "4667765",
+            "4667766",
+            "4667768",
+            "5181776"
+          ],
+          "shooter_rank": 3,
+          "A": false,
+          "B": false
+        },
+        {
+          "player_id": "760746",
+          "player": "Angus Gunn",
+          "avg_shots": 0,
+          "avg_minutes": 90,
+          "recent_hits": 0,
+          "prior_ids": [
+            "5418303",
+            "4667765",
+            "4667766",
+            "4667768",
+            "5181776"
+          ],
+          "shooter_rank": 4,
+          "A": false,
+          "B": false
+        }
+      ],
+      "overall_ppg_gap": -0.20833333333333326,
+      "recent_ppg_gap": -0.6000000000000001,
+      "home_home_shots": 12.666666666666666,
+      "away_away_conceded": 10,
+      "away_away_shots": 20,
+      "home_home_conceded": 14,
+      "projected_home_shots": 11.333333333333332,
+      "projected_away_shots": 17.0,
+      "projected_shot_gap": -5.666666666666668,
+      "overall_ppg_gap_percentile": 50.0,
+      "recent_ppg_gap_percentile": 50.0,
+      "projected_home_shots_percentile": 0.0,
+      "projected_shot_gap_percentile": 0.0,
+      "environment_score": 30.0,
+      "rank": 2,
+      "selected_environment": true
+    },
+    {
+      "match_id": "5181779",
+      "date": "2026-09-29T18:45:00.000Z",
+      "division": "B",
+      "fixture": "Slovenia vs North Macedonia",
+      "home": "Slovenia",
+      "away": "North Macedonia",
+      "eligible": false,
+      "confidence_tier": "EXCLUDED",
+      "lineup_source": "enetpulse",
+      "home_starters_count": 11,
+      "candidates": []
+    },
+    {
+      "match_id": "5181896",
+      "date": "2026-09-29T16:00:00.000Z",
+      "division": "C",
+      "fixture": "Finland vs Belarus",
+      "home": "Finland",
+      "away": "Belarus",
+      "eligible": false,
+      "confidence_tier": "EXCLUDED",
+      "lineup_source": "lastStartingLineups",
+      "home_starters_count": 11,
+      "candidates": []
+    },
+    {
+      "match_id": "5181935",
+      "date": "2026-09-29T16:00:00.000Z",
+      "division": "C",
+      "fixture": "Moldova vs Faroe Islands",
+      "home": "Moldova",
+      "away": "Faroe Islands",
+      "eligible": false,
+      "confidence_tier": "EXCLUDED",
+      "lineup_source": "lastStartingLineups",
+      "home_starters_count": 11,
+      "candidates": []
+    },
+    {
+      "match_id": "5181951",
+      "date": "2026-09-29T18:45:00.000Z",
+      "division": "C",
+      "fixture": "Bulgaria vs Estonia",
+      "home": "Bulgaria",
+      "away": "Estonia",
+      "eligible": false,
+      "confidence_tier": "EXCLUDED",
+      "lineup_source": "lastStartingLineups",
+      "home_starters_count": 11,
+      "candidates": []
+    },
+    {
+      "match_id": "5181952",
+      "date": "2026-09-29T18:45:00.000Z",
+      "division": "C",
+      "fixture": "Luxembourg vs Iceland",
+      "home": "Luxembourg",
+      "away": "Iceland",
+      "eligible": false,
+      "confidence_tier": "EXCLUDED",
+      "lineup_source": "lastStartingLineups",
+      "home_starters_count": 11,
+      "candidates": []
+    },
+    {
+      "match_id": "5181897",
+      "date": "2026-09-29T18:45:00.000Z",
+      "division": "C",
+      "fixture": "San Marino vs Albania",
+      "home": "San Marino",
+      "away": "Albania",
+      "eligible": false,
+      "confidence_tier": "EXCLUDED",
+      "lineup_source": "lastStartingLineups",
+      "home_starters_count": 11,
+      "candidates": []
+    },
+    {
+      "match_id": "5181936",
+      "date": "2026-09-29T18:45:00.000Z",
+      "division": "C",
+      "fixture": "Slovakia vs Kazakhstan",
+      "home": "Slovakia",
+      "away": "Kazakhstan",
+      "eligible": false,
+      "confidence_tier": "EXCLUDED",
+      "lineup_source": "lastStartingLineups",
+      "home_starters_count": 11,
+      "candidates": []
+    }
+  ],
+  "picks": [
+    {
+      "environment_rank": 1,
+      "fixture": "Spain vs Croatia",
+      "division": "A",
+      "confidence_tier": "B",
+      "lineup_source": "enetpulse",
+      "player_id": "1467236",
+      "player": "Lamine Yamal",
+      "avg_shots": 4,
+      "avg_minutes": 96,
+      "recent_hits": 4,
+      "prior_ids": [
+        "4653844",
+        "4653853",
+        "4653855",
+        "4653858",
+        "5181850"
+      ],
+      "shooter_rank": 1,
+      "A": true,
+      "B": true
+    }
+  ],
+  "limits": [
+    "National-team histories mix competitions and are sparser than club histories.",
+    "enetpulse lineups are treated as confirmed; lastStartingLineups are possible lineups and remain provisional.",
+    "Only home-team candidates are considered to preserve the home-environment thesis.",
+    "No odds or outcomes entered the selection calculation."
+  ]
+}

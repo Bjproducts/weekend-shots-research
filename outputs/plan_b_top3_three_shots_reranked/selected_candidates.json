@@ -1,0 +1,1328 @@
+[
+  {
+    "season_label": "2023/24",
+    "dataset": "2023/24",
+    "match_id": "4193504",
+    "date": "2023-09-16T14:00:00Z",
+    "weekend": "2023-09-16",
+    "league": "Premier League",
+    "fixture": "Manchester United vs Brighton & Hove Albion",
+    "environment_rank": 3,
+    "environment_score": 83.7,
+    "confidence_tier": "A",
+    "home_current_matches": 4,
+    "away_current_matches": 4,
+    "player_id": "696365",
+    "player": "Marcus Rashford",
+    "shooter_rank": 1,
+    "avg_shots": 4,
+    "avg_minutes": 86,
+    "recent_hits": 5,
+    "current_season_starts": 4,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "3901310",
+      "4193459",
+      "4193477",
+      "4193487",
+      "4193490"
+    ],
+    "shots": 9,
+    "hit": true,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "3901310",
+        "shots": 6,
+        "minutes": 77,
+        "team_shots": 21,
+        "shot_share": 0.2857142857142857
+      },
+      {
+        "match_id": "4193459",
+        "shots": 4,
+        "minutes": 88,
+        "team_shots": 15,
+        "shot_share": 0.26666666666666666
+      },
+      {
+        "match_id": "4193477",
+        "shots": 3,
+        "minutes": 85,
+        "team_shots": 22,
+        "shot_share": 0.13636363636363635
+      },
+      {
+        "match_id": "4193487",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.1111111111111111
+      },
+      {
+        "match_id": "4193490",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 10,
+        "shot_share": 0.5
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 4,
+    "prior_avg_shot_share": 0.25997113997113996,
+    "verified_avg_shots": 4,
+    "verified_avg_minutes": 86,
+    "reranked_top3_rank": 1,
+    "target_3plus": true
+  },
+  {
+    "season_label": "2023/24",
+    "dataset": "2023/24",
+    "match_id": "4205384",
+    "date": "2023-09-16T19:00:00Z",
+    "weekend": "2023-09-16",
+    "league": "LaLiga",
+    "fixture": "Barcelona vs Real Betis",
+    "environment_rank": 2,
+    "environment_score": 84.0,
+    "confidence_tier": "A",
+    "home_current_matches": 4,
+    "away_current_matches": 4,
+    "player_id": "93447",
+    "player": "Robert Lewandowski",
+    "shooter_rank": 1,
+    "avg_shots": 3.4,
+    "avg_minutes": 89.8,
+    "recent_hits": 5,
+    "current_season_starts": 4,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "3918314",
+      "4205349",
+      "4205354",
+      "4205369",
+      "4205380"
+    ],
+    "shots": 3,
+    "hit": true,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "3918314",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 9,
+        "shot_share": 0.2222222222222222
+      },
+      {
+        "match_id": "4205349",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 14,
+        "shot_share": 0.14285714285714285
+      },
+      {
+        "match_id": "4205354",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 24,
+        "shot_share": 0.20833333333333334
+      },
+      {
+        "match_id": "4205369",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 21,
+        "shot_share": 0.23809523809523808
+      },
+      {
+        "match_id": "4205380",
+        "shots": 3,
+        "minutes": 89,
+        "team_shots": 9,
+        "shot_share": 0.3333333333333333
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 3,
+    "prior_avg_shot_share": 0.22896825396825396,
+    "verified_avg_shots": 3.4,
+    "verified_avg_minutes": 89.8,
+    "reranked_top3_rank": 2,
+    "target_3plus": true
+  },
+  {
+    "season_label": "2023/24",
+    "dataset": "2023/24",
+    "match_id": "4193518",
+    "date": "2023-09-23T14:00:00Z",
+    "weekend": "2023-09-23",
+    "league": "Premier League",
+    "fixture": "Manchester City vs Nottingham Forest",
+    "environment_rank": 5,
+    "environment_score": 77.3,
+    "confidence_tier": "A",
+    "home_current_matches": 5,
+    "away_current_matches": 5,
+    "player_id": "737066",
+    "player": "Erling Haaland",
+    "shooter_rank": 1,
+    "avg_shots": 5.8,
+    "avg_minutes": 87.8,
+    "recent_hits": 5,
+    "current_season_starts": 5,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "4193450",
+      "4193475",
+      "4193489",
+      "4193498",
+      "4193508"
+    ],
+    "shots": 2,
+    "hit": true,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "4193450",
+        "shots": 4,
+        "minutes": 80,
+        "team_shots": 17,
+        "shot_share": 0.23529411764705882
+      },
+      {
+        "match_id": "4193475",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 14,
+        "shot_share": 0.2857142857142857
+      },
+      {
+        "match_id": "4193489",
+        "shots": 8,
+        "minutes": 90,
+        "team_shots": 30,
+        "shot_share": 0.26666666666666666
+      },
+      {
+        "match_id": "4193498",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 7,
+        "shot_share": 0.5714285714285714
+      },
+      {
+        "match_id": "4193508",
+        "shots": 9,
+        "minutes": 89,
+        "team_shots": 29,
+        "shot_share": 0.3103448275862069
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 5,
+    "prior_avg_shot_share": 0.3338896938085579,
+    "verified_avg_shots": 5.8,
+    "verified_avg_minutes": 87.8,
+    "reranked_top3_rank": 1,
+    "target_3plus": false
+  },
+  {
+    "season_label": "2023/24",
+    "dataset": "2023/24",
+    "match_id": "4205395",
+    "date": "2023-09-23T16:30:00Z",
+    "weekend": "2023-09-23",
+    "league": "LaLiga",
+    "fixture": "Barcelona vs Celta Vigo",
+    "environment_rank": 2,
+    "environment_score": 93.5,
+    "confidence_tier": "A",
+    "home_current_matches": 5,
+    "away_current_matches": 5,
+    "player_id": "93447",
+    "player": "Robert Lewandowski",
+    "shooter_rank": 1,
+    "avg_shots": 3.6,
+    "avg_minutes": 89.8,
+    "recent_hits": 5,
+    "current_season_starts": 5,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "4205349",
+      "4205354",
+      "4205369",
+      "4205380",
+      "4205384"
+    ],
+    "shots": 3,
+    "hit": true,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "4205349",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 14,
+        "shot_share": 0.14285714285714285
+      },
+      {
+        "match_id": "4205354",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 24,
+        "shot_share": 0.20833333333333334
+      },
+      {
+        "match_id": "4205369",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 21,
+        "shot_share": 0.23809523809523808
+      },
+      {
+        "match_id": "4205380",
+        "shots": 3,
+        "minutes": 89,
+        "team_shots": 9,
+        "shot_share": 0.3333333333333333
+      },
+      {
+        "match_id": "4205384",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 17,
+        "shot_share": 0.17647058823529413
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 4,
+    "prior_avg_shot_share": 0.21981792717086834,
+    "verified_avg_shots": 3.6,
+    "verified_avg_minutes": 89.8,
+    "reranked_top3_rank": 2,
+    "target_3plus": true
+  },
+  {
+    "season_label": "2023/24",
+    "dataset": "2023/24",
+    "match_id": "4221757",
+    "date": "2023-09-23T13:30:00Z",
+    "weekend": "2023-09-23",
+    "league": "Bundesliga",
+    "fixture": "Bayern M\u00fcnchen vs Bochum",
+    "environment_rank": 3,
+    "environment_score": 88.9,
+    "confidence_tier": "A",
+    "home_current_matches": 4,
+    "away_current_matches": 4,
+    "player_id": "530859",
+    "player": "Leroy San\u00e9",
+    "shooter_rank": 1,
+    "avg_shots": 3.6,
+    "avg_minutes": 86,
+    "recent_hits": 5,
+    "current_season_starts": 4,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "3903844",
+      "4221721",
+      "4221730",
+      "4221743",
+      "4221748"
+    ],
+    "shots": 4,
+    "hit": true,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "3903844",
+        "shots": 6,
+        "minutes": 90,
+        "team_shots": 12,
+        "shot_share": 0.5
+      },
+      {
+        "match_id": "4221721",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 25,
+        "shot_share": 0.12
+      },
+      {
+        "match_id": "4221730",
+        "shots": 3,
+        "minutes": 70,
+        "team_shots": 19,
+        "shot_share": 0.15789473684210525
+      },
+      {
+        "match_id": "4221743",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 25,
+        "shot_share": 0.16
+      },
+      {
+        "match_id": "4221748",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 16,
+        "shot_share": 0.125
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 4,
+    "prior_avg_shot_share": 0.21257894736842106,
+    "verified_avg_shots": 3.6,
+    "verified_avg_minutes": 86,
+    "reranked_top3_rank": 3,
+    "target_3plus": true
+  },
+  {
+    "season_label": "2023/24",
+    "dataset": "2023/24",
+    "match_id": "4221772",
+    "date": "2023-09-30T13:40:00Z",
+    "weekend": "2023-09-30",
+    "league": "Bundesliga",
+    "fixture": "Bochum vs Borussia M\u00f6nchengladbach",
+    "environment_rank": 5,
+    "environment_score": 79.1,
+    "confidence_tier": "A",
+    "home_current_matches": 5,
+    "away_current_matches": 5,
+    "player_id": "276739",
+    "player": "Kevin St\u00f6ger",
+    "shooter_rank": 1,
+    "avg_shots": 3.6,
+    "avg_minutes": 82.8,
+    "recent_hits": 4,
+    "current_season_starts": 5,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "4221729",
+      "4221736",
+      "4221746",
+      "4221754",
+      "4221757"
+    ],
+    "shots": 1,
+    "hit": false,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "4221729",
+        "shots": 0,
+        "minutes": 69,
+        "team_shots": 4,
+        "shot_share": 0.0
+      },
+      {
+        "match_id": "4221736",
+        "shots": 3,
+        "minutes": 81,
+        "team_shots": 20,
+        "shot_share": 0.15
+      },
+      {
+        "match_id": "4221746",
+        "shots": 6,
+        "minutes": 90,
+        "team_shots": 21,
+        "shot_share": 0.2857142857142857
+      },
+      {
+        "match_id": "4221754",
+        "shots": 6,
+        "minutes": 84,
+        "team_shots": 22,
+        "shot_share": 0.2727272727272727
+      },
+      {
+        "match_id": "4221757",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 4,
+        "shot_share": 0.75
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 4,
+    "prior_avg_shot_share": 0.29168831168831166,
+    "verified_avg_shots": 3.6,
+    "verified_avg_minutes": 82.8,
+    "reranked_top3_rank": 1,
+    "target_3plus": false
+  },
+  {
+    "season_label": "2023/24",
+    "dataset": "2023/24",
+    "match_id": "4221778",
+    "date": "2023-10-08T13:30:00Z",
+    "weekend": "2023-10-07",
+    "league": "Bundesliga",
+    "fixture": "Bayer Leverkusen vs 1. FC K\u00f6ln",
+    "environment_rank": 2,
+    "environment_score": 88.2,
+    "confidence_tier": "A",
+    "home_current_matches": 6,
+    "away_current_matches": 6,
+    "player_id": "1035208",
+    "player": "Victor Okoh Boniface",
+    "shooter_rank": 1,
+    "avg_shots": 7.2,
+    "avg_minutes": 86.4,
+    "recent_hits": 4,
+    "current_season_starts": 5,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "4221734",
+      "4221741",
+      "4221748",
+      "4221760",
+      "4221769"
+    ],
+    "shots": 6,
+    "hit": true,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "4221734",
+        "shots": 11,
+        "minutes": 88,
+        "team_shots": 24,
+        "shot_share": 0.4583333333333333
+      },
+      {
+        "match_id": "4221741",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 25,
+        "shot_share": 0.28
+      },
+      {
+        "match_id": "4221748",
+        "shots": 8,
+        "minutes": 90,
+        "team_shots": 13,
+        "shot_share": 0.6153846153846154
+      },
+      {
+        "match_id": "4221760",
+        "shots": 9,
+        "minutes": 85,
+        "team_shots": 21,
+        "shot_share": 0.42857142857142855
+      },
+      {
+        "match_id": "4221769",
+        "shots": 1,
+        "minutes": 79,
+        "team_shots": 6,
+        "shot_share": 0.16666666666666666
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 4,
+    "prior_avg_shot_share": 0.38979120879120877,
+    "verified_avg_shots": 7.2,
+    "verified_avg_minutes": 86.4,
+    "reranked_top3_rank": 1,
+    "target_3plus": true
+  },
+  {
+    "season_label": "2023/24",
+    "dataset": "2023/24",
+    "match_id": "4219327",
+    "date": "2023-10-08T13:00:00Z",
+    "weekend": "2023-10-07",
+    "league": "Ligue 1",
+    "fixture": "Brest vs Toulouse",
+    "environment_rank": 4,
+    "environment_score": 81.8,
+    "confidence_tier": "A",
+    "home_current_matches": 7,
+    "away_current_matches": 7,
+    "player_id": "917808",
+    "player": "J\u00e9r\u00e9my Le Douaron",
+    "shooter_rank": 1,
+    "avg_shots": 3.6,
+    "avg_minutes": 80.6,
+    "recent_hits": 4,
+    "current_season_starts": 5,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "4219277",
+      "4219291",
+      "4219299",
+      "4219309",
+      "4219315"
+    ],
+    "shots": 1,
+    "hit": false,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "4219277",
+        "shots": 4,
+        "minutes": 74,
+        "team_shots": 18,
+        "shot_share": 0.2222222222222222
+      },
+      {
+        "match_id": "4219291",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 13,
+        "shot_share": 0.3076923076923077
+      },
+      {
+        "match_id": "4219299",
+        "shots": 3,
+        "minutes": 66,
+        "team_shots": 18,
+        "shot_share": 0.16666666666666666
+      },
+      {
+        "match_id": "4219309",
+        "shots": 6,
+        "minutes": 84,
+        "team_shots": 27,
+        "shot_share": 0.2222222222222222
+      },
+      {
+        "match_id": "4219315",
+        "shots": 1,
+        "minutes": 89,
+        "team_shots": 7,
+        "shot_share": 0.14285714285714285
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 4,
+    "prior_avg_shot_share": 0.21233211233211233,
+    "verified_avg_shots": 3.6,
+    "verified_avg_minutes": 80.6,
+    "reranked_top3_rank": 2,
+    "target_3plus": false
+  },
+  {
+    "season_label": "2023/24",
+    "dataset": "2023/24",
+    "match_id": "4221775",
+    "date": "2023-10-08T15:30:00Z",
+    "weekend": "2023-10-07",
+    "league": "Bundesliga",
+    "fixture": "Bayern M\u00fcnchen vs Freiburg",
+    "environment_rank": 5,
+    "environment_score": 81.8,
+    "confidence_tier": "A",
+    "home_current_matches": 6,
+    "away_current_matches": 6,
+    "player_id": "530859",
+    "player": "Leroy San\u00e9",
+    "shooter_rank": 2,
+    "avg_shots": 3.4,
+    "avg_minutes": 86,
+    "recent_hits": 5,
+    "current_season_starts": 5,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "4221730",
+      "4221743",
+      "4221748",
+      "4221757",
+      "4221766"
+    ],
+    "shots": 3,
+    "hit": true,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "4221730",
+        "shots": 3,
+        "minutes": 70,
+        "team_shots": 19,
+        "shot_share": 0.15789473684210525
+      },
+      {
+        "match_id": "4221743",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 25,
+        "shot_share": 0.16
+      },
+      {
+        "match_id": "4221748",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 16,
+        "shot_share": 0.125
+      },
+      {
+        "match_id": "4221757",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 26,
+        "shot_share": 0.15384615384615385
+      },
+      {
+        "match_id": "4221766",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.36363636363636365
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 4,
+    "prior_avg_shot_share": 0.19207545086492456,
+    "verified_avg_shots": 3.4,
+    "verified_avg_minutes": 86,
+    "reranked_top3_rank": 3,
+    "target_3plus": true
+  },
+  {
+    "season_label": "2024/25",
+    "dataset": "2024/25",
+    "match_id": "4506298",
+    "date": "2024-09-14T14:00:00Z",
+    "weekend": "2024-09-14",
+    "league": "Premier League",
+    "fixture": "Liverpool vs Nottingham Forest",
+    "environment_rank": 3,
+    "environment_score": 87.7,
+    "confidence_tier": "A",
+    "home_current_matches": 3,
+    "away_current_matches": 3,
+    "player_id": "292462",
+    "player": "Mohamed Salah",
+    "shooter_rank": 1,
+    "avg_shots": 3.6,
+    "avg_minutes": 88.6,
+    "recent_hits": 4,
+    "current_season_starts": 3,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "4193892",
+      "4193907",
+      "4506264",
+      "4506278",
+      "4506289"
+    ],
+    "shots": 3,
+    "hit": true,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "4193892",
+        "shots": 1,
+        "minutes": 90,
+        "team_shots": 14,
+        "shot_share": 0.07142857142857142
+      },
+      {
+        "match_id": "4193907",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 36,
+        "shot_share": 0.19444444444444445
+      },
+      {
+        "match_id": "4506264",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.2222222222222222
+      },
+      {
+        "match_id": "4506278",
+        "shots": 3,
+        "minutes": 83,
+        "team_shots": 19,
+        "shot_share": 0.15789473684210525
+      },
+      {
+        "match_id": "4506289",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.2727272727272727
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 4,
+    "prior_avg_shot_share": 0.1837434495329232,
+    "verified_avg_shots": 3.6,
+    "verified_avg_minutes": 88.6,
+    "reranked_top3_rank": 1,
+    "target_3plus": true
+  },
+  {
+    "season_label": "2024/25",
+    "dataset": "2024/25",
+    "match_id": "4506299",
+    "date": "2024-09-14T14:00:00Z",
+    "weekend": "2024-09-14",
+    "league": "Premier League",
+    "fixture": "Manchester City vs Brentford",
+    "environment_rank": 1,
+    "environment_score": 92.7,
+    "confidence_tier": "A",
+    "home_current_matches": 3,
+    "away_current_matches": 3,
+    "player_id": "737066",
+    "player": "Erling Haaland",
+    "shooter_rank": 1,
+    "avg_shots": 4,
+    "avg_minutes": 89.6,
+    "recent_hits": 5,
+    "current_season_starts": 3,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "4193869",
+      "4193909",
+      "4506271",
+      "4506279",
+      "4506292"
+    ],
+    "shots": 6,
+    "hit": true,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "4193869",
+        "shots": 2,
+        "minutes": 89,
+        "team_shots": 8,
+        "shot_share": 0.25
+      },
+      {
+        "match_id": "4193909",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 28,
+        "shot_share": 0.14285714285714285
+      },
+      {
+        "match_id": "4506271",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.18181818181818182
+      },
+      {
+        "match_id": "4506279",
+        "shots": 7,
+        "minutes": 89,
+        "team_shots": 14,
+        "shot_share": 0.5
+      },
+      {
+        "match_id": "4506292",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 23,
+        "shot_share": 0.21739130434782608
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 3,
+    "prior_avg_shot_share": 0.25841332580463017,
+    "verified_avg_shots": 4,
+    "verified_avg_minutes": 89.6,
+    "reranked_top3_rank": 2,
+    "target_3plus": true
+  },
+  {
+    "season_label": "2024/25",
+    "dataset": "2024/25",
+    "match_id": "4506299",
+    "date": "2024-09-14T14:00:00Z",
+    "weekend": "2024-09-14",
+    "league": "Premier League",
+    "fixture": "Manchester City vs Brentford",
+    "environment_rank": 1,
+    "environment_score": 92.7,
+    "confidence_tier": "A",
+    "home_current_matches": 3,
+    "away_current_matches": 3,
+    "player_id": "169200",
+    "player": "Kevin De Bruyne",
+    "shooter_rank": 2,
+    "avg_shots": 3.8,
+    "avg_minutes": 85.2,
+    "recent_hits": 4,
+    "current_season_starts": 3,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "4193869",
+      "4193909",
+      "4506271",
+      "4506279",
+      "4506292"
+    ],
+    "shots": 2,
+    "hit": true,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "4193869",
+        "shots": 1,
+        "minutes": 69,
+        "team_shots": 8,
+        "shot_share": 0.125
+      },
+      {
+        "match_id": "4193909",
+        "shots": 6,
+        "minutes": 90,
+        "team_shots": 28,
+        "shot_share": 0.21428571428571427
+      },
+      {
+        "match_id": "4506271",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.18181818181818182
+      },
+      {
+        "match_id": "4506279",
+        "shots": 4,
+        "minutes": 89,
+        "team_shots": 14,
+        "shot_share": 0.2857142857142857
+      },
+      {
+        "match_id": "4506292",
+        "shots": 6,
+        "minutes": 88,
+        "team_shots": 23,
+        "shot_share": 0.2608695652173913
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 3,
+    "prior_avg_shot_share": 0.2135375494071146,
+    "verified_avg_shots": 3.8,
+    "verified_avg_minutes": 85.2,
+    "reranked_top3_rank": 3,
+    "target_3plus": false
+  },
+  {
+    "season_label": "2024/25",
+    "dataset": "2024/25",
+    "match_id": "4506806",
+    "date": "2024-09-21T19:00:00Z",
+    "weekend": "2024-09-21",
+    "league": "LaLiga",
+    "fixture": "Real Madrid vs Espanyol",
+    "environment_rank": 5,
+    "environment_score": 83.1,
+    "confidence_tier": "A",
+    "home_current_matches": 5,
+    "away_current_matches": 5,
+    "player_id": "701154",
+    "player": "Kylian Mbapp\u00e9",
+    "shooter_rank": 1,
+    "avg_shots": 5.8,
+    "avg_minutes": 87.8,
+    "recent_hits": 5,
+    "current_season_starts": 5,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "4506747",
+      "4506759",
+      "4506770",
+      "4506783",
+      "4506794"
+    ],
+    "shots": 9,
+    "hit": true,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "4506747",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 13,
+        "shot_share": 0.3076923076923077
+      },
+      {
+        "match_id": "4506759",
+        "shots": 4,
+        "minutes": 86,
+        "team_shots": 17,
+        "shot_share": 0.23529411764705882
+      },
+      {
+        "match_id": "4506770",
+        "shots": 9,
+        "minutes": 90,
+        "team_shots": 25,
+        "shot_share": 0.36
+      },
+      {
+        "match_id": "4506783",
+        "shots": 9,
+        "minutes": 84,
+        "team_shots": 22,
+        "shot_share": 0.4090909090909091
+      },
+      {
+        "match_id": "4506794",
+        "shots": 3,
+        "minutes": 89,
+        "team_shots": 16,
+        "shot_share": 0.1875
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 5,
+    "prior_avg_shot_share": 0.29991546688605514,
+    "verified_avg_shots": 5.8,
+    "verified_avg_minutes": 87.8,
+    "reranked_top3_rank": 1,
+    "target_3plus": true
+  },
+  {
+    "season_label": "2024/25",
+    "dataset": "2024/25",
+    "match_id": "4506308",
+    "date": "2024-09-21T14:00:00Z",
+    "weekend": "2024-09-21",
+    "league": "Premier League",
+    "fixture": "Liverpool vs AFC Bournemouth",
+    "environment_rank": 1,
+    "environment_score": 96.2,
+    "confidence_tier": "A",
+    "home_current_matches": 4,
+    "away_current_matches": 4,
+    "player_id": "292462",
+    "player": "Mohamed Salah",
+    "shooter_rank": 1,
+    "avg_shots": 4,
+    "avg_minutes": 88.6,
+    "recent_hits": 5,
+    "current_season_starts": 4,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "4193907",
+      "4506264",
+      "4506278",
+      "4506289",
+      "4506298"
+    ],
+    "shots": 4,
+    "hit": true,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "4193907",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 36,
+        "shot_share": 0.19444444444444445
+      },
+      {
+        "match_id": "4506264",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.2222222222222222
+      },
+      {
+        "match_id": "4506278",
+        "shots": 3,
+        "minutes": 83,
+        "team_shots": 19,
+        "shot_share": 0.15789473684210525
+      },
+      {
+        "match_id": "4506289",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.2727272727272727
+      },
+      {
+        "match_id": "4506298",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 14,
+        "shot_share": 0.21428571428571427
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 5,
+    "prior_avg_shot_share": 0.2123148781043518,
+    "verified_avg_shots": 4,
+    "verified_avg_minutes": 88.6,
+    "reranked_top3_rank": 2,
+    "target_3plus": true
+  },
+  {
+    "season_label": "2024/25",
+    "dataset": "2024/25",
+    "match_id": "4534569",
+    "date": "2024-09-21T16:30:00Z",
+    "weekend": "2024-09-21",
+    "league": "Bundesliga",
+    "fixture": "Eintracht Frankfurt vs Borussia M\u00f6nchengladbach",
+    "environment_rank": 4,
+    "environment_score": 85.1,
+    "confidence_tier": "A",
+    "home_current_matches": 3,
+    "away_current_matches": 3,
+    "player_id": "839204",
+    "player": "Omar Marmoush",
+    "shooter_rank": 1,
+    "avg_shots": 4.6,
+    "avg_minutes": 83.6,
+    "recent_hits": 4,
+    "current_season_starts": 3,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "4222375",
+      "4222383",
+      "4534541",
+      "4534552",
+      "4534563"
+    ],
+    "shots": 6,
+    "hit": true,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "4222375",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 17,
+        "shot_share": 0.23529411764705882
+      },
+      {
+        "match_id": "4222383",
+        "shots": 6,
+        "minutes": 90,
+        "team_shots": 22,
+        "shot_share": 0.2727272727272727
+      },
+      {
+        "match_id": "4534541",
+        "shots": 1,
+        "minutes": 69,
+        "team_shots": 7,
+        "shot_share": 0.14285714285714285
+      },
+      {
+        "match_id": "4534552",
+        "shots": 5,
+        "minutes": 79,
+        "team_shots": 18,
+        "shot_share": 0.2777777777777778
+      },
+      {
+        "match_id": "4534563",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 14,
+        "shot_share": 0.5
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 4,
+    "prior_avg_shot_share": 0.2857312622018504,
+    "verified_avg_shots": 4.6,
+    "verified_avg_minutes": 83.6,
+    "reranked_top3_rank": 3,
+    "target_3plus": true
+  },
+  {
+    "season_label": "2024/25",
+    "dataset": "2024/25",
+    "match_id": "4513906",
+    "date": "2024-09-29T15:00:00Z",
+    "weekend": "2024-09-28",
+    "league": "Ligue 1",
+    "fixture": "Nantes vs Saint-\u00c9tienne",
+    "environment_rank": 5,
+    "environment_score": 82.5,
+    "confidence_tier": "A",
+    "home_current_matches": 5,
+    "away_current_matches": 5,
+    "player_id": "1250492",
+    "player": "Matthis Abline",
+    "shooter_rank": 1,
+    "avg_shots": 3.4,
+    "avg_minutes": 80.4,
+    "recent_hits": 4,
+    "current_season_starts": 5,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "4513009",
+      "4513868",
+      "4513878",
+      "4513887",
+      "4513897"
+    ],
+    "shots": 2,
+    "hit": true,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "4513009",
+        "shots": 4,
+        "minutes": 89,
+        "team_shots": 10,
+        "shot_share": 0.4
+      },
+      {
+        "match_id": "4513868",
+        "shots": 2,
+        "minutes": 77,
+        "team_shots": 9,
+        "shot_share": 0.2222222222222222
+      },
+      {
+        "match_id": "4513878",
+        "shots": 4,
+        "minutes": 74,
+        "team_shots": 9,
+        "shot_share": 0.4444444444444444
+      },
+      {
+        "match_id": "4513887",
+        "shots": 6,
+        "minutes": 80,
+        "team_shots": 18,
+        "shot_share": 0.3333333333333333
+      },
+      {
+        "match_id": "4513897",
+        "shots": 1,
+        "minutes": 82,
+        "team_shots": 9,
+        "shot_share": 0.1111111111111111
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 3,
+    "prior_avg_shot_share": 0.3022222222222222,
+    "verified_avg_shots": 3.4,
+    "verified_avg_minutes": 80.4,
+    "reranked_top3_rank": 1,
+    "target_3plus": false
+  },
+  {
+    "season_label": "2024/25",
+    "dataset": "2024/25",
+    "match_id": "4534585",
+    "date": "2024-10-05T13:30:00Z",
+    "weekend": "2024-10-05",
+    "league": "Bundesliga",
+    "fixture": "Bayer Leverkusen vs Holstein Kiel",
+    "environment_rank": 1,
+    "environment_score": 97.1,
+    "confidence_tier": "A",
+    "home_current_matches": 5,
+    "away_current_matches": 5,
+    "player_id": "1152455",
+    "player": "Florian Wirtz",
+    "shooter_rank": 2,
+    "avg_shots": 3.2,
+    "avg_minutes": 89.8,
+    "recent_hits": 4,
+    "current_season_starts": 5,
+    "player_confidence": "current-supported",
+    "prior_ids": [
+      "4534540",
+      "4534549",
+      "4534560",
+      "4534567",
+      "4534576"
+    ],
+    "shots": 5,
+    "hit": true,
+    "A": true,
+    "B": true,
+    "exclusion_reasons": [],
+    "prior_feature_rows": [
+      {
+        "match_id": "4534540",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 25,
+        "shot_share": 0.16
+      },
+      {
+        "match_id": "4534549",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 26,
+        "shot_share": 0.2692307692307692
+      },
+      {
+        "match_id": "4534560",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 20,
+        "shot_share": 0.1
+      },
+      {
+        "match_id": "4534567",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 20,
+        "shot_share": 0.15
+      },
+      {
+        "match_id": "4534576",
+        "shots": 0,
+        "minutes": 89,
+        "team_shots": 3,
+        "shot_share": 0.0
+      }
+    ],
+    "prior_features_complete": true,
+    "prior_3plus_hits": 3,
+    "prior_avg_shot_share": 0.13584615384615384,
+    "verified_avg_shots": 3.2,
+    "verified_avg_minutes": 89.8,
+    "reranked_top3_rank": 1,
+    "target_3plus": true
+  }
+]

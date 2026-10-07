@@ -1,0 +1,245 @@
+{
+  "variant": "Big-five early-season previous-season carryover replication v1",
+  "classification": "new early-season carryover variant; separate from original model",
+  "provider": "FotMob public match pages/data",
+  "plan_sha256": "b3f42c63a135806df76051616d7cd7cd40c04ad9a653f30eca90c53e6dea3849",
+  "target_fixtures": 168,
+  "target_starter_samples": 1848,
+  "eligible_environments": 19,
+  "A": {
+    "hits": 6,
+    "picks": 13,
+    "misses": 7,
+    "rate": 46.2,
+    "wilson95": [
+      23.2,
+      70.9
+    ]
+  },
+  "B": {
+    "hits": 3,
+    "picks": 5,
+    "misses": 2,
+    "rate": 60.0,
+    "wilson95": [
+      23.1,
+      88.2
+    ]
+  },
+  "by_weekend": [
+    {
+      "weekend": "2025-09-13",
+      "A": {
+        "hits": 0,
+        "picks": 3,
+        "misses": 3,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          56.2
+        ]
+      },
+      "B": {
+        "hits": 0,
+        "picks": 0,
+        "rate": null,
+        "misses": 0
+      }
+    },
+    {
+      "weekend": "2025-09-20",
+      "A": {
+        "hits": 2,
+        "picks": 3,
+        "misses": 1,
+        "rate": 66.7,
+        "wilson95": [
+          20.8,
+          93.9
+        ]
+      },
+      "B": {
+        "hits": 1,
+        "picks": 2,
+        "misses": 1,
+        "rate": 50.0,
+        "wilson95": [
+          9.5,
+          90.5
+        ]
+      }
+    },
+    {
+      "weekend": "2025-09-27",
+      "A": {
+        "hits": 3,
+        "picks": 4,
+        "misses": 1,
+        "rate": 75.0,
+        "wilson95": [
+          30.1,
+          95.4
+        ]
+      },
+      "B": {
+        "hits": 2,
+        "picks": 2,
+        "misses": 0,
+        "rate": 100.0,
+        "wilson95": [
+          34.2,
+          100.0
+        ]
+      }
+    },
+    {
+      "weekend": "2025-10-04",
+      "A": {
+        "hits": 1,
+        "picks": 3,
+        "misses": 2,
+        "rate": 33.3,
+        "wilson95": [
+          6.1,
+          79.2
+        ]
+      },
+      "B": {
+        "hits": 0,
+        "picks": 1,
+        "misses": 1,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          79.3
+        ]
+      }
+    }
+  ],
+  "by_league": {
+    "Bundesliga": {
+      "A": {
+        "hits": 0,
+        "picks": 2,
+        "misses": 2,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          65.8
+        ]
+      },
+      "B": {
+        "hits": 0,
+        "picks": 2,
+        "misses": 2,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          65.8
+        ]
+      }
+    },
+    "LaLiga": {
+      "A": {
+        "hits": 3,
+        "picks": 3,
+        "misses": 0,
+        "rate": 100.0,
+        "wilson95": [
+          43.8,
+          100.0
+        ]
+      },
+      "B": {
+        "hits": 1,
+        "picks": 1,
+        "misses": 0,
+        "rate": 100.0,
+        "wilson95": [
+          20.7,
+          100.0
+        ]
+      }
+    },
+    "Ligue 1": {
+      "A": {
+        "hits": 1,
+        "picks": 2,
+        "misses": 1,
+        "rate": 50.0,
+        "wilson95": [
+          9.5,
+          90.5
+        ]
+      },
+      "B": {
+        "hits": 1,
+        "picks": 1,
+        "misses": 0,
+        "rate": 100.0,
+        "wilson95": [
+          20.7,
+          100.0
+        ]
+      }
+    },
+    "Premier League": {
+      "A": {
+        "hits": 0,
+        "picks": 2,
+        "misses": 2,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          65.8
+        ]
+      },
+      "B": {
+        "hits": 0,
+        "picks": 0,
+        "rate": null,
+        "misses": 0
+      }
+    },
+    "Serie A": {
+      "A": {
+        "hits": 2,
+        "picks": 4,
+        "misses": 2,
+        "rate": 50.0,
+        "wilson95": [
+          15.0,
+          85.0
+        ]
+      },
+      "B": {
+        "hits": 1,
+        "picks": 1,
+        "misses": 0,
+        "rate": 100.0,
+        "wilson95": [
+          20.7,
+          100.0
+        ]
+      }
+    }
+  },
+  "missing_outcomes_A": 0,
+  "missing_outcomes_B": 0,
+  "exclusions": {
+    "incomplete_five_start_same_team_history": 784,
+    "outside_top_two": 756,
+    "fewer_than_four_recent_hits": 975,
+    "environment_failed": 932,
+    "minutes_below_70": 64
+  },
+  "limits": [
+    "This replication was selected after the 2026 carryover replay, so it is new data but not a prospective trial.",
+    "FotMob provider definitions require validation and may differ from StatsBomb or SportsAPI.",
+    "Historical market odds are not used; fixed prices are hypothetical.",
+    "Actual historical starting lineups are treated as known at lineup time.",
+    "Current lineups are actual historical starters, so this is a retrospective lineup-time replay.",
+    "UTC fixture dates define the weekend buckets.",
+    "Hit rates describe this sample and are not guaranteed future win rates."
+  ]
+}

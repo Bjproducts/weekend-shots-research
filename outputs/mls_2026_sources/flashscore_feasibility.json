@@ -1,0 +1,59 @@
+{
+  "checked_on": "2026-09-27",
+  "method": "Read-only public browser UI; explicit Starting Lineups and Player stats tables",
+  "purpose": "Source feasibility, not selected bets or a backtest",
+  "bulk_coverage_verified": false,
+  "provider_identity_mapping_verified": false,
+  "minutes_semantics": "Displayed Minutes played values retained unchanged. Full-game examples 90; stoppage-time replacements can be 89/1. Not yet reconciled with original provider.",
+  "dash_policy": "Preserve dash as unknown until semantics independently established; never automatically convert to zero.",
+  "samples_are_partial": true,
+  "matches": [
+    {
+      "flashscore_id": "Iw0mgA3t",
+      "local_date": "2026-08-19",
+      "home": "Toronto FC", "away": "Charlotte", "score": "3-3",
+      "source": "https://www.flashscore.com/match/football/charlotte-fc-QJF7WTFB/toronto-fc-zsdfgnmL/?mid=Iw0mgA3t",
+      "pages_checked": ["summary", "summary/lineups", "summary/player-stats", "summary/player-stats/general"],
+      "starting_names_home": ["Gavran L.", "Laryea R.", "Zimmerman W.", "Kuscevic B.", "Gilman J.", "Coello A.", "Dorsch N.", "Corbeanu T.", "Cimermancic M.", "Salloi D.", "Sargent J."],
+      "starting_names_away": ["Kahlina K.", "Cleary W.", "Kessler H.", "Ream T.", "Schnegg D.", "Westwood A.", "Biel P.", "Bronico B.", "Aloko R.", "Toklomati I.", "Abada L."],
+      "player_examples": [
+        {"name":"Dorsch N.","team":"Toronto FC","started":true,"minutes_displayed":89,"shots":4,"substitution_out_clock":"90+5","role":"Midfielder"},
+        {"name":"Coello A.","team":"Toronto FC","started":true,"minutes_displayed":60,"shots":1,"substitution_out_clock":"60","role":"Midfielder"},
+        {"name":"Biel P.","team":"Charlotte","started":true,"minutes_displayed":79,"shots":1,"substitution_out_clock":"79","role":"Midfielder"},
+        {"name":"Saint-Maximin A.","team":"Charlotte","started":false,"minutes_displayed":21,"shots":4,"substitution_in_clock":"69","role":"Forward"},
+        {"name":"Zimmerman W.","team":"Toronto FC","started":true,"minutes_displayed":56,"shots":1,"red_card_clock":"56","role":"Centre back"}
+      ]
+    },
+    {
+      "flashscore_id":"4zzBtyEc", "local_date":"2026-09-19",
+      "home":"St. Louis City", "away":"Toronto FC", "score":"3-1",
+      "source":"https://www.flashscore.com/match/football/st-louis-city-4r4sKQud/toronto-fc-zsdfgnmL/?mid=4zzBtyEc",
+      "date_note":"Header says September 20; displayed local kickoff September 19 18:30. Match by UTC kickoff and teams, not header date alone.",
+      "pages_checked":["summary","summary/lineups","summary/player-stats","summary/player-stats/general"],
+      "starting_names_home":["Burki R.","Orozco J.","Baumgartl T.","Fall F.","Wallem C.","Durkin C.","Matan A.","Totland T.","Jeong S.","Rafael Navarro","Holse C."],
+      "starting_names_away":["Gavran L.","Laryea R.","Zimmerman W.","Kuscevic B.","Matheus Pereira","Coello A.","Dorsch N.","Etienne D.","Cimermancic M.","Salloi D.","Sargent J."],
+      "player_examples":[
+        {"name":"Holse C.","team":"St. Louis City","started":true,"minutes_displayed":89,"shots":4,"substitution_out_clock":"90+1","role":"Attacking midfielder"},
+        {"name":"Matan A.","team":"St. Louis City","started":true,"minutes_displayed":78,"shots":2,"substitution_out_clock":"78","role":"Midfielder"},
+        {"name":"Becher S.","team":"St. Louis City","started":false,"minutes_displayed":45,"shots":4,"substitution_in_clock":"46","role":"Forward"},
+        {"name":"Rafael Navarro","team":"St. Louis City","started":true,"minutes_displayed":83,"shots":3,"substitution_out_clock":"83","role":"Striker"}
+      ]
+    },
+    {
+      "flashscore_id":"GGYZvOxg", "local_date":"2026-09-12",
+      "home":"Orlando City", "away":"Toronto FC", "score":"3-0",
+      "source":"https://www.flashscore.com/match/football/orlando-city-rsHkUNCo/toronto-fc-zsdfgnmL/?mid=GGYZvOxg",
+      "pages_checked":["summary","summary/lineups","summary/player-stats","summary/player-stats/general"],
+      "starting_names_home":["Crepeau M.","Taifi Z.","Brekalo D.","Iago Teodoro","Angulo I.","Luis Otavio","Gerbet J.","Pasalic M.","Ojeda M.","Spicer T.","Griezmann A."],
+      "starting_names_away":["Gavran L.","Laryea R.","Zimmerman W.","Kuscevic B.","Matheus Pereira","Dorsch N.","Cimermancic M.","Corbeanu T.","Salloi D.","Etienne D.","Sargent J."],
+      "player_examples":[
+        {"name":"Angulo I.","team":"Orlando City","started":true,"minutes_displayed":90,"shots":2,"role":"Fullback"},
+        {"name":"Pasalic M.","team":"Orlando City","started":true,"minutes_displayed":80,"shots":1,"role":"Winger"},
+        {"name":"Griezmann A.","team":"Orlando City","started":true,"minutes_displayed":70,"shots":2,"role":"Striker"},
+        {"name":"Ellis J.","team":"Orlando City","started":false,"minutes_displayed":20,"shots":1,"role":"Forward"}
+      ]
+    }
+  ],
+  "confidence":"Directly observed UI values; independent provider reconciliation pending",
+  "original_reconciliation":"This dated Pep Biel example does not identify or resolve the undated original replacement case. Antony, Denis Bouanga and Pep Biel remain unresolved. Preserve 12/15 provisional original-player totals."
+}

@@ -1,0 +1,648 @@
+[
+  {
+    "week": "2023-09-25",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2023-10-02",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2023-10-09",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2023-10-16",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2023-10-23",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2023-10-30",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2023-11-06",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2023-11-13",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2023-11-20",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2023-11-27",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2023-12-04",
+    "A": {
+      "hits": 3,
+      "n": 4,
+      "rate": 75.0,
+      "missing": 0,
+      "fixtures": 2,
+      "wilson95": [
+        30.1,
+        95.4
+      ]
+    },
+    "B": {
+      "hits": 2,
+      "n": 2,
+      "rate": 100.0,
+      "missing": 0,
+      "fixtures": 2,
+      "wilson95": [
+        34.2,
+        100.0
+      ]
+    }
+  },
+  {
+    "week": "2023-12-11",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2023-12-18",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2023-12-25",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2024-01-01",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2024-01-08",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2024-01-15",
+    "A": {
+      "hits": 4,
+      "n": 4,
+      "rate": 100.0,
+      "missing": 0,
+      "fixtures": 2,
+      "wilson95": [
+        51.0,
+        100.0
+      ]
+    },
+    "B": {
+      "hits": 2,
+      "n": 2,
+      "rate": 100.0,
+      "missing": 0,
+      "fixtures": 2,
+      "wilson95": [
+        34.2,
+        100.0
+      ]
+    }
+  },
+  {
+    "week": "2024-01-22",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2024-01-29",
+    "A": {
+      "hits": 3,
+      "n": 4,
+      "rate": 75.0,
+      "missing": 0,
+      "fixtures": 2,
+      "wilson95": [
+        30.1,
+        95.4
+      ]
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2024-02-05",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2024-02-12",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2024-02-19",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2024-02-26",
+    "A": {
+      "hits": 4,
+      "n": 4,
+      "rate": 100.0,
+      "missing": 0,
+      "fixtures": 2,
+      "wilson95": [
+        51.0,
+        100.0
+      ]
+    },
+    "B": {
+      "hits": 1,
+      "n": 1,
+      "rate": 100.0,
+      "missing": 0,
+      "fixtures": 1,
+      "wilson95": [
+        20.7,
+        100.0
+      ]
+    }
+  },
+  {
+    "week": "2024-03-04",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2024-03-11",
+    "A": {
+      "hits": 0,
+      "n": 1,
+      "rate": 0.0,
+      "missing": 0,
+      "fixtures": 1,
+      "wilson95": [
+        0.0,
+        79.3
+      ]
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2024-03-18",
+    "A": {
+      "hits": 3,
+      "n": 3,
+      "rate": 100.0,
+      "missing": 0,
+      "fixtures": 2,
+      "wilson95": [
+        43.8,
+        100.0
+      ]
+    },
+    "B": {
+      "hits": 3,
+      "n": 3,
+      "rate": 100.0,
+      "missing": 0,
+      "fixtures": 2,
+      "wilson95": [
+        43.8,
+        100.0
+      ]
+    }
+  },
+  {
+    "week": "2024-03-25",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2024-04-01",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2024-04-08",
+    "A": {
+      "hits": 2,
+      "n": 2,
+      "rate": 100.0,
+      "missing": 0,
+      "fixtures": 1,
+      "wilson95": [
+        34.2,
+        100.0
+      ]
+    },
+    "B": {
+      "hits": 2,
+      "n": 2,
+      "rate": 100.0,
+      "missing": 0,
+      "fixtures": 1,
+      "wilson95": [
+        34.2,
+        100.0
+      ]
+    }
+  },
+  {
+    "week": "2024-04-15",
+    "A": {
+      "hits": 2,
+      "n": 2,
+      "rate": 100.0,
+      "missing": 0,
+      "fixtures": 1,
+      "wilson95": [
+        34.2,
+        100.0
+      ]
+    },
+    "B": {
+      "hits": 2,
+      "n": 2,
+      "rate": 100.0,
+      "missing": 0,
+      "fixtures": 1,
+      "wilson95": [
+        34.2,
+        100.0
+      ]
+    }
+  },
+  {
+    "week": "2024-04-22",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2024-04-29",
+    "A": {
+      "hits": 1,
+      "n": 1,
+      "rate": 100.0,
+      "missing": 0,
+      "fixtures": 1,
+      "wilson95": [
+        20.7,
+        100.0
+      ]
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2024-05-06",
+    "A": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    },
+    "B": {
+      "hits": 0,
+      "n": 0,
+      "rate": null,
+      "missing": 0,
+      "fixtures": 0
+    }
+  },
+  {
+    "week": "2024-05-13",
+    "A": {
+      "hits": 1,
+      "n": 2,
+      "rate": 50.0,
+      "missing": 0,
+      "fixtures": 1,
+      "wilson95": [
+        9.5,
+        90.5
+      ]
+    },
+    "B": {
+      "hits": 1,
+      "n": 2,
+      "rate": 50.0,
+      "missing": 0,
+      "fixtures": 1,
+      "wilson95": [
+        9.5,
+        90.5
+      ]
+    }
+  }
+]

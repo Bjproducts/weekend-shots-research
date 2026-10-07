@@ -1,0 +1,688 @@
+{
+  "source": "C:\\Users\\bjpro\\OneDrive\\Desktop\\SHOT ON TARGET\\backend\\sot_sportsapi.db",
+  "target": "2+ total shots",
+  "split_date": "2024-11-01",
+  "source_fixtures": 73,
+  "eligible_fixtures": 1,
+  "conflicting_team_totals": 0,
+  "rules": {
+    "All eligible home starters": {
+      "all": {
+        "hits": 6,
+        "n": 10,
+        "rate": 60.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          31.3,
+          83.2
+        ]
+      },
+      "earlier": {
+        "hits": 0,
+        "n": 0,
+        "rate": null,
+        "missing": 0,
+        "fixtures": 0
+      },
+      "later": {
+        "hits": 6,
+        "n": 10,
+        "rate": 60.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          31.3,
+          83.2
+        ]
+      }
+    },
+    "Top 2 home shooters (baseline)": {
+      "all": {
+        "hits": 2,
+        "n": 2,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          34.2,
+          100.0
+        ]
+      },
+      "earlier": {
+        "hits": 0,
+        "n": 0,
+        "rate": null,
+        "missing": 0,
+        "fixtures": 0
+      },
+      "later": {
+        "hits": 2,
+        "n": 2,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          34.2,
+          100.0
+        ]
+      }
+    },
+    "Top 2 + stronger home team": {
+      "all": {
+        "hits": 2,
+        "n": 2,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          34.2,
+          100.0
+        ]
+      },
+      "earlier": {
+        "hits": 0,
+        "n": 0,
+        "rate": null,
+        "missing": 0,
+        "fixtures": 0
+      },
+      "later": {
+        "hits": 2,
+        "n": 2,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          34.2,
+          100.0
+        ]
+      }
+    },
+    "Top 2 + full home environment": {
+      "all": {
+        "hits": 2,
+        "n": 2,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          34.2,
+          100.0
+        ]
+      },
+      "earlier": {
+        "hits": 0,
+        "n": 0,
+        "rate": null,
+        "missing": 0,
+        "fixtures": 0
+      },
+      "later": {
+        "hits": 2,
+        "n": 2,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          34.2,
+          100.0
+        ]
+      }
+    },
+    "Full environment + recent minutes >=70": {
+      "all": {
+        "hits": 2,
+        "n": 2,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          34.2,
+          100.0
+        ]
+      },
+      "earlier": {
+        "hits": 0,
+        "n": 0,
+        "rate": null,
+        "missing": 0,
+        "fixtures": 0
+      },
+      "later": {
+        "hits": 2,
+        "n": 2,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          34.2,
+          100.0
+        ]
+      }
+    },
+    "Full environment + minutes >=70 + 4/5 recent hits": {
+      "all": {
+        "hits": 2,
+        "n": 2,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          34.2,
+          100.0
+        ]
+      },
+      "earlier": {
+        "hits": 0,
+        "n": 0,
+        "rate": null,
+        "missing": 0,
+        "fixtures": 0
+      },
+      "later": {
+        "hits": 2,
+        "n": 2,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          34.2,
+          100.0
+        ]
+      }
+    },
+    "Top 2 + minutes >=70 + 4/5 hits WITHOUT environment filter": {
+      "all": {
+        "hits": 2,
+        "n": 2,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          34.2,
+          100.0
+        ]
+      },
+      "earlier": {
+        "hits": 0,
+        "n": 0,
+        "rate": null,
+        "missing": 0,
+        "fixtures": 0
+      },
+      "later": {
+        "hits": 2,
+        "n": 2,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          34.2,
+          100.0
+        ]
+      }
+    }
+  },
+  "environment_check": {
+    "all_eligible": {
+      "all": {
+        "hits": 1,
+        "n": 1,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          20.7,
+          100.0
+        ]
+      },
+      "later": {
+        "hits": 1,
+        "n": 1,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          20.7,
+          100.0
+        ]
+      }
+    },
+    "stronger": {
+      "all": {
+        "hits": 1,
+        "n": 1,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          20.7,
+          100.0
+        ]
+      },
+      "later": {
+        "hits": 1,
+        "n": 1,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          20.7,
+          100.0
+        ]
+      }
+    },
+    "full_environment": {
+      "all": {
+        "hits": 1,
+        "n": 1,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          20.7,
+          100.0
+        ]
+      },
+      "later": {
+        "hits": 1,
+        "n": 1,
+        "rate": 100.0,
+        "missing": 0,
+        "fixtures": 1,
+        "wilson95": [
+          20.7,
+          100.0
+        ]
+      }
+    }
+  },
+  "league_counts": {
+    "Bundesliga": 1
+  },
+  "environments": [
+    {
+      "fixture_id": 12499743,
+      "date": "2024-11-01T19:30:00+00:00",
+      "competition": "Bundesliga",
+      "fixture": "Bayer 04 Leverkusen vs VfB Stuttgart",
+      "stronger": true,
+      "shooting": true,
+      "environment": true,
+      "home_ppg": 1.875,
+      "away_ppg": 1.5,
+      "home_recent_ppg": 1.8,
+      "away_recent_ppg": 1.6,
+      "home_home_shots": 24,
+      "away_away_conceded": 14.5,
+      "projected_home_shots": 19.25,
+      "projected_away_shots": 9.625,
+      "actual_home_shots": 19,
+      "actual_away_shots": 4,
+      "home_outshot_away": true
+    }
+  ],
+  "rows": [
+    {
+      "fixture_id": 12499743,
+      "date": "2024-11-01T19:30:00+00:00",
+      "competition": "Bundesliga",
+      "fixture": "Bayer 04 Leverkusen vs VfB Stuttgart",
+      "stronger": true,
+      "shooting": true,
+      "environment": true,
+      "home_ppg": 1.875,
+      "away_ppg": 1.5,
+      "home_recent_ppg": 1.8,
+      "away_recent_ppg": 1.6,
+      "home_home_shots": 24,
+      "away_away_conceded": 14.5,
+      "projected_home_shots": 19.25,
+      "projected_away_shots": 9.625,
+      "actual_home_shots": 19,
+      "actual_away_shots": 4,
+      "home_outshot_away": true,
+      "player": "V. O. Boniface",
+      "player_id": 978521,
+      "shots": 4,
+      "prior_fixture_ids": [
+        12499552,
+        12499620,
+        12499652,
+        12499681,
+        12499723
+      ],
+      "hit": true,
+      "recent_shots": 4.6,
+      "recent_share": 0.27227743271221533,
+      "recent_minutes": 76.8,
+      "recent_hits": 4,
+      "shooter_rank": 1
+    },
+    {
+      "fixture_id": 12499743,
+      "date": "2024-11-01T19:30:00+00:00",
+      "competition": "Bundesliga",
+      "fixture": "Bayer 04 Leverkusen vs VfB Stuttgart",
+      "stronger": true,
+      "shooting": true,
+      "environment": true,
+      "home_ppg": 1.875,
+      "away_ppg": 1.5,
+      "home_recent_ppg": 1.8,
+      "away_recent_ppg": 1.6,
+      "home_home_shots": 24,
+      "away_away_conceded": 14.5,
+      "projected_home_shots": 19.25,
+      "projected_away_shots": 9.625,
+      "actual_home_shots": 19,
+      "actual_away_shots": 4,
+      "home_outshot_away": true,
+      "player": "F. Wirtz",
+      "player_id": 1019322,
+      "shots": 4,
+      "prior_fixture_ids": [
+        12499552,
+        12499591,
+        12499620,
+        12499652,
+        12499723
+      ],
+      "hit": true,
+      "recent_shots": 2.6,
+      "recent_share": 0.13633540372670808,
+      "recent_minutes": 89.8,
+      "recent_hits": 4,
+      "shooter_rank": 2
+    },
+    {
+      "fixture_id": 12499743,
+      "date": "2024-11-01T19:30:00+00:00",
+      "competition": "Bundesliga",
+      "fixture": "Bayer 04 Leverkusen vs VfB Stuttgart",
+      "stronger": true,
+      "shooting": true,
+      "environment": true,
+      "home_ppg": 1.875,
+      "away_ppg": 1.5,
+      "home_recent_ppg": 1.8,
+      "away_recent_ppg": 1.6,
+      "home_home_shots": 24,
+      "away_away_conceded": 14.5,
+      "projected_home_shots": 19.25,
+      "projected_away_shots": 9.625,
+      "actual_home_shots": 19,
+      "actual_away_shots": 4,
+      "home_outshot_away": true,
+      "player": "R. Andrich",
+      "player_id": 168903,
+      "shots": 2,
+      "prior_fixture_ids": [
+        12499552,
+        12499620,
+        12499652,
+        12499681,
+        12499723
+      ],
+      "hit": true,
+      "recent_shots": 2.2,
+      "recent_share": 0.1609707844490453,
+      "recent_minutes": 84.0,
+      "recent_hits": 3,
+      "shooter_rank": 3
+    },
+    {
+      "fixture_id": 12499743,
+      "date": "2024-11-01T19:30:00+00:00",
+      "competition": "Bundesliga",
+      "fixture": "Bayer 04 Leverkusen vs VfB Stuttgart",
+      "stronger": true,
+      "shooting": true,
+      "environment": true,
+      "home_ppg": 1.875,
+      "away_ppg": 1.5,
+      "home_recent_ppg": 1.8,
+      "away_recent_ppg": 1.6,
+      "home_home_shots": 24,
+      "away_away_conceded": 14.5,
+      "projected_home_shots": 19.25,
+      "projected_away_shots": 9.625,
+      "actual_home_shots": 19,
+      "actual_away_shots": 4,
+      "home_outshot_away": true,
+      "player": "A. Grimaldo",
+      "player_id": 177177,
+      "shots": 2,
+      "prior_fixture_ids": [
+        12499591,
+        12499620,
+        12499652,
+        12499681,
+        12499723
+      ],
+      "hit": true,
+      "recent_shots": 1.6,
+      "recent_share": 0.07388313779618128,
+      "recent_minutes": 89.8,
+      "recent_hits": 2,
+      "shooter_rank": 4
+    },
+    {
+      "fixture_id": 12499743,
+      "date": "2024-11-01T19:30:00+00:00",
+      "competition": "Bundesliga",
+      "fixture": "Bayer 04 Leverkusen vs VfB Stuttgart",
+      "stronger": true,
+      "shooting": true,
+      "environment": true,
+      "home_ppg": 1.875,
+      "away_ppg": 1.5,
+      "home_recent_ppg": 1.8,
+      "away_recent_ppg": 1.6,
+      "home_home_shots": 24,
+      "away_away_conceded": 14.5,
+      "projected_home_shots": 19.25,
+      "projected_away_shots": 9.625,
+      "actual_home_shots": 19,
+      "actual_away_shots": 4,
+      "home_outshot_away": true,
+      "player": "J. Tah",
+      "player_id": 227672,
+      "shots": 1,
+      "prior_fixture_ids": [
+        12499591,
+        12499620,
+        12499652,
+        12499681,
+        12499723
+      ],
+      "hit": false,
+      "recent_shots": 1.4,
+      "recent_share": 0.07596273291925465,
+      "recent_minutes": 90.0,
+      "recent_hits": 3,
+      "shooter_rank": 5
+    },
+    {
+      "fixture_id": 12499743,
+      "date": "2024-11-01T19:30:00+00:00",
+      "competition": "Bundesliga",
+      "fixture": "Bayer 04 Leverkusen vs VfB Stuttgart",
+      "stronger": true,
+      "shooting": true,
+      "environment": true,
+      "home_ppg": 1.875,
+      "away_ppg": 1.5,
+      "home_recent_ppg": 1.8,
+      "away_recent_ppg": 1.6,
+      "home_home_shots": 24,
+      "away_away_conceded": 14.5,
+      "projected_home_shots": 19.25,
+      "projected_away_shots": 9.625,
+      "actual_home_shots": 19,
+      "actual_away_shots": 4,
+      "home_outshot_away": true,
+      "player": "G. Xhaka",
+      "player_id": 117777,
+      "shots": 0,
+      "prior_fixture_ids": [
+        12499591,
+        12499620,
+        12499652,
+        12499681,
+        12499723
+      ],
+      "hit": false,
+      "recent_shots": 1,
+      "recent_share": 0.04091787439613526,
+      "recent_minutes": 90.0,
+      "recent_hits": 1,
+      "shooter_rank": 6
+    },
+    {
+      "fixture_id": 12499743,
+      "date": "2024-11-01T19:30:00+00:00",
+      "competition": "Bundesliga",
+      "fixture": "Bayer 04 Leverkusen vs VfB Stuttgart",
+      "stronger": true,
+      "shooting": true,
+      "environment": true,
+      "home_ppg": 1.875,
+      "away_ppg": 1.5,
+      "home_recent_ppg": 1.8,
+      "away_recent_ppg": 1.6,
+      "home_home_shots": 24,
+      "away_away_conceded": 14.5,
+      "projected_home_shots": 19.25,
+      "projected_away_shots": 9.625,
+      "actual_home_shots": 19,
+      "actual_away_shots": 4,
+      "home_outshot_away": true,
+      "player": "P. Hincapi\u00e9",
+      "player_id": 1002837,
+      "shots": 0,
+      "prior_fixture_ids": [
+        12499471,
+        12499552,
+        12499620,
+        12499681,
+        12499723
+      ],
+      "hit": false,
+      "recent_shots": 0.4,
+      "recent_share": 0.0150997150997151,
+      "recent_minutes": 89.2,
+      "recent_hits": 0,
+      "shooter_rank": 7
+    },
+    {
+      "fixture_id": 12499743,
+      "date": "2024-11-01T19:30:00+00:00",
+      "competition": "Bundesliga",
+      "fixture": "Bayer 04 Leverkusen vs VfB Stuttgart",
+      "stronger": true,
+      "shooting": true,
+      "environment": true,
+      "home_ppg": 1.875,
+      "away_ppg": 1.5,
+      "home_recent_ppg": 1.8,
+      "away_recent_ppg": 1.6,
+      "home_home_shots": 24,
+      "away_away_conceded": 14.5,
+      "projected_home_shots": 19.25,
+      "projected_away_shots": 9.625,
+      "actual_home_shots": 19,
+      "actual_away_shots": 4,
+      "home_outshot_away": true,
+      "player": "E. Tapsoba",
+      "player_id": 883262,
+      "shots": 3,
+      "prior_fixture_ids": [
+        12499591,
+        12499620,
+        12499652,
+        12499681,
+        12499723
+      ],
+      "hit": true,
+      "recent_shots": 0.2,
+      "recent_share": 0.008695652173913044,
+      "recent_minutes": 90.0,
+      "recent_hits": 0,
+      "shooter_rank": 8
+    },
+    {
+      "fixture_id": 12499743,
+      "date": "2024-11-01T19:30:00+00:00",
+      "competition": "Bundesliga",
+      "fixture": "Bayer 04 Leverkusen vs VfB Stuttgart",
+      "stronger": true,
+      "shooting": true,
+      "environment": true,
+      "home_ppg": 1.875,
+      "away_ppg": 1.5,
+      "home_recent_ppg": 1.8,
+      "away_recent_ppg": 1.6,
+      "home_home_shots": 24,
+      "away_away_conceded": 14.5,
+      "projected_home_shots": 19.25,
+      "projected_away_shots": 9.625,
+      "actual_home_shots": 19,
+      "actual_away_shots": 4,
+      "home_outshot_away": true,
+      "player": "J. Frimpong",
+      "player_id": 970361,
+      "shots": 2,
+      "prior_fixture_ids": [
+        12499471,
+        12499620,
+        12499652,
+        12499681,
+        12499723
+      ],
+      "hit": true,
+      "recent_shots": 0.2,
+      "recent_share": 0.007692307692307693,
+      "recent_minutes": 82.8,
+      "recent_hits": 0,
+      "shooter_rank": 9
+    },
+    {
+      "fixture_id": 12499743,
+      "date": "2024-11-01T19:30:00+00:00",
+      "competition": "Bundesliga",
+      "fixture": "Bayer 04 Leverkusen vs VfB Stuttgart",
+      "stronger": true,
+      "shooting": true,
+      "environment": true,
+      "home_ppg": 1.875,
+      "away_ppg": 1.5,
+      "home_recent_ppg": 1.8,
+      "away_recent_ppg": 1.6,
+      "home_home_shots": 24,
+      "away_away_conceded": 14.5,
+      "projected_home_shots": 19.25,
+      "projected_away_shots": 9.625,
+      "actual_home_shots": 19,
+      "actual_away_shots": 4,
+      "home_outshot_away": true,
+      "player": "L. Hr\u00e1deck\u00fd",
+      "player_id": 15219,
+      "shots": 0,
+      "prior_fixture_ids": [
+        12499591,
+        12499620,
+        12499652,
+        12499681,
+        12499723
+      ],
+      "hit": false,
+      "recent_shots": 0,
+      "recent_share": 0.0,
+      "recent_minutes": 90.0,
+      "recent_hits": 0,
+      "shooter_rank": 10
+    }
+  ]
+}

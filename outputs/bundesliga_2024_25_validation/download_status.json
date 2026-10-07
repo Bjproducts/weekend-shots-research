@@ -1,0 +1,18 @@
+{
+  "season": "Bundesliga 2024/25",
+  "provider": "SportsAPI Pro",
+  "competition_id": 35,
+  "season_id": 63516,
+  "selection_order": "chronological from season start, not chosen by outcomes",
+  "catalog_matches": 306,
+  "downloaded_matches": 73,
+  "player_samples": 2289,
+  "expected_season_matches": 306,
+  "pending_matches": 233,
+  "calls_this_run": 72,
+  "reserve": 10,
+  "quota_remaining": 10,
+  "stop_reason": "quota_reserve_or_run_cap",
+  "errors": [],
+  "resume": "Run the same download script after quota reset; cached requests are reused. No automation scheduled."
+}

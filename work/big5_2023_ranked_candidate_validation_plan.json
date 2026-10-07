@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-10-03T15:45:00Z",
+  "status": "frozen_before_acquisition_and_outcome_calculation",
+  "name": "Big-five 2023/24 ranked-environment Plan B replication",
+  "purpose": "Independent historical replication of the frozen weekend workflow, with Plan B as the primary candidate track.",
+  "target_season": "2023/2024",
+  "history_season": "2022/2023",
+  "target_weekends": [
+    "2023-09-16/17",
+    "2023-09-23/24",
+    "2023-09-30/2023-10-01",
+    "2023-10-07/08"
+  ],
+  "leagues": [
+    "Premier League",
+    "LaLiga",
+    "Serie A",
+    "Bundesliga",
+    "Ligue 1"
+  ],
+  "environment_ranking": {
+    "specification": "big5_environment_ranking_spec.json",
+    "overall_ppg_gap_percentile_weight": 0.30,
+    "recent_five_ppg_gap_percentile_weight": 0.30,
+    "projected_home_shots_percentile_weight": 0.25,
+    "projected_shot_gap_percentile_weight": 0.15,
+    "qualifying_rank": "Top five ranked comparable environments within each Saturday/Sunday weekend.",
+    "qualifying_confidence": ["A", "B"],
+    "tier_C": "Rank and save, but do not generate selections.",
+    "excluded": "Do not rank teams lacking at least five comparable matches or two venue-history matches."
+  },
+  "candidate_A": "Confirmed home starter; five previous same-player/same-team starts within 180 days; top two eligible home shooters by average shots; prior average minutes >=70; at least four of five prior starts with 2+ shots.",
+  "candidate_B": "Candidate A plus prior five-start average shots >=3 and average minutes >=80.",
+  "primary_result": "Candidate B 2+ total-shots hit rate, sample size, weekend consistency and streaks.",
+  "secondary_result": "Candidate A comparison only; no threshold changes.",
+  "outcome": "Player records at least two total shots in the target match.",
+  "decision_policy": "No changes to dates, leagues, weights, rank cutoff, confidence gate, histories, player filters, exclusions or ordering after acquisition.",
+  "limits": [
+    "Retrospective historical validation uses actual starting lineups as if known before kickoff.",
+    "FotMob definitions may differ from StatsBomb and must retain provider provenance.",
+    "No historical market odds or profitability claims.",
+    "Multiple players and fixtures within a weekend are correlated.",
+    "The four-week sample cannot by itself establish a future win rate."
+  ]
+}

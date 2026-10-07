@@ -1,0 +1,661 @@
+{
+  "purpose": "Frozen-rule validation plus exploratory robustness research, not threshold optimization",
+  "datasets": [
+    {
+      "league": "Premier League 2015/16",
+      "slug": "epl_2015_16_validation",
+      "quality": {
+        "accepted": 10469
+      },
+      "full": {
+        "hits": 73,
+        "n": 90,
+        "rate": 81.1,
+        "missing": 0,
+        "fixtures": 63,
+        "wilson95": [
+          71.8,
+          87.9
+        ]
+      },
+      "benchmark": {
+        "hits": 222,
+        "n": 297,
+        "rate": 74.7,
+        "missing": 0,
+        "fixtures": 217,
+        "wilson95": [
+          69.5,
+          79.4
+        ]
+      },
+      "benchmark_only": {
+        "hits": 149,
+        "n": 207,
+        "rate": 72.0,
+        "missing": 0,
+        "fixtures": 154,
+        "wilson95": [
+          65.5,
+          77.7
+        ]
+      },
+      "top_three_player_share_pct": 24.4,
+      "without_three_most_selected_players": {
+        "hits": 53,
+        "n": 68,
+        "rate": 77.9,
+        "missing": 0,
+        "fixtures": 52,
+        "wilson95": [
+          66.7,
+          86.2
+        ]
+      },
+      "unique_players": 37,
+      "leading_players": [
+        {
+          "player": "Harry Kane",
+          "picks": 10,
+          "hits": 10
+        },
+        {
+          "player": "Jamie Vardy",
+          "picks": 6,
+          "hits": 4
+        },
+        {
+          "player": "Alexis S\u00e1nchez",
+          "picks": 6,
+          "hits": 6
+        },
+        {
+          "player": "Riyad Mahrez",
+          "picks": 4,
+          "hits": 2
+        },
+        {
+          "player": "Dimitri Payet",
+          "picks": 4,
+          "hits": 3
+        },
+        {
+          "player": "Philippe Coutinho",
+          "picks": 4,
+          "hits": 4
+        },
+        {
+          "player": "Sergio Ag\u00fcero",
+          "picks": 4,
+          "hits": 3
+        },
+        {
+          "player": "Yaya Tour\u00e9",
+          "picks": 3,
+          "hits": 2
+        },
+        {
+          "player": "Romelu Lukaku",
+          "picks": 3,
+          "hits": 3
+        },
+        {
+          "player": "Ross Barkley",
+          "picks": 3,
+          "hits": 3
+        }
+      ],
+      "months": {
+        "2015-10": {
+          "hits": 6,
+          "n": 9,
+          "rate": 66.7,
+          "missing": 0,
+          "fixtures": 6,
+          "wilson95": [
+            35.4,
+            87.9
+          ]
+        },
+        "2015-11": {
+          "hits": 14,
+          "n": 18,
+          "rate": 77.8,
+          "missing": 0,
+          "fixtures": 11,
+          "wilson95": [
+            54.8,
+            91.0
+          ]
+        },
+        "2015-12": {
+          "hits": 10,
+          "n": 12,
+          "rate": 83.3,
+          "missing": 0,
+          "fixtures": 8,
+          "wilson95": [
+            55.2,
+            95.3
+          ]
+        },
+        "2016-01": {
+          "hits": 5,
+          "n": 6,
+          "rate": 83.3,
+          "missing": 0,
+          "fixtures": 4,
+          "wilson95": [
+            43.6,
+            97.0
+          ]
+        },
+        "2016-02": {
+          "hits": 8,
+          "n": 8,
+          "rate": 100.0,
+          "missing": 0,
+          "fixtures": 5,
+          "wilson95": [
+            67.6,
+            100.0
+          ]
+        },
+        "2016-03": {
+          "hits": 10,
+          "n": 12,
+          "rate": 83.3,
+          "missing": 0,
+          "fixtures": 8,
+          "wilson95": [
+            55.2,
+            95.3
+          ]
+        },
+        "2016-04": {
+          "hits": 12,
+          "n": 16,
+          "rate": 75.0,
+          "missing": 0,
+          "fixtures": 15,
+          "wilson95": [
+            50.5,
+            89.8
+          ]
+        },
+        "2016-05": {
+          "hits": 8,
+          "n": 9,
+          "rate": 88.9,
+          "missing": 0,
+          "fixtures": 6,
+          "wilson95": [
+            56.5,
+            98.0
+          ]
+        }
+      },
+      "autumn": {
+        "hits": 30,
+        "n": 39,
+        "rate": 76.9,
+        "missing": 0,
+        "fixtures": 25,
+        "wilson95": [
+          61.7,
+          87.4
+        ]
+      },
+      "spring": {
+        "hits": 43,
+        "n": 51,
+        "rate": 84.3,
+        "missing": 0,
+        "fixtures": 38,
+        "wilson95": [
+          72.0,
+          91.8
+        ]
+      }
+    },
+    {
+      "league": "La Liga 2015/16",
+      "slug": "laliga_2015_16_validation",
+      "quality": {
+        "accepted": 10550
+      },
+      "full": {
+        "hits": 59,
+        "n": 70,
+        "rate": 84.3,
+        "missing": 0,
+        "fixtures": 46,
+        "wilson95": [
+          74.0,
+          91.0
+        ]
+      },
+      "benchmark": {
+        "hits": 206,
+        "n": 273,
+        "rate": 75.5,
+        "missing": 0,
+        "fixtures": 197,
+        "wilson95": [
+          70.0,
+          80.2
+        ]
+      },
+      "benchmark_only": {
+        "hits": 147,
+        "n": 203,
+        "rate": 72.4,
+        "missing": 0,
+        "fixtures": 151,
+        "wilson95": [
+          65.9,
+          78.1
+        ]
+      },
+      "top_three_player_share_pct": 32.9,
+      "without_three_most_selected_players": {
+        "hits": 36,
+        "n": 47,
+        "rate": 76.6,
+        "missing": 0,
+        "fixtures": 36,
+        "wilson95": [
+          62.8,
+          86.4
+        ]
+      },
+      "unique_players": 27,
+      "leading_players": [
+        {
+          "player": "Cristiano Ronaldo",
+          "picks": 11,
+          "hits": 11
+        },
+        {
+          "player": "Karim Benzema",
+          "picks": 7,
+          "hits": 7
+        },
+        {
+          "player": "Neymar",
+          "picks": 5,
+          "hits": 5
+        },
+        {
+          "player": "Luis Su\u00e1rez",
+          "picks": 5,
+          "hits": 5
+        },
+        {
+          "player": "Antoine Griezmann",
+          "picks": 5,
+          "hits": 5
+        },
+        {
+          "player": "Aritz Aduriz",
+          "picks": 4,
+          "hits": 2
+        },
+        {
+          "player": "Lionel Messi",
+          "picks": 4,
+          "hits": 4
+        },
+        {
+          "player": "Ra\u00fal Garc\u00eda",
+          "picks": 3,
+          "hits": 2
+        },
+        {
+          "player": "Nolito",
+          "picks": 3,
+          "hits": 3
+        },
+        {
+          "player": "Paco Alc\u00e1cer",
+          "picks": 2,
+          "hits": 2
+        }
+      ],
+      "months": {
+        "2015-10": {
+          "hits": 3,
+          "n": 3,
+          "rate": 100.0,
+          "missing": 0,
+          "fixtures": 2,
+          "wilson95": [
+            43.8,
+            100.0
+          ]
+        },
+        "2015-11": {
+          "hits": 8,
+          "n": 10,
+          "rate": 80.0,
+          "missing": 0,
+          "fixtures": 7,
+          "wilson95": [
+            49.0,
+            94.3
+          ]
+        },
+        "2015-12": {
+          "hits": 11,
+          "n": 14,
+          "rate": 78.6,
+          "missing": 0,
+          "fixtures": 9,
+          "wilson95": [
+            52.4,
+            92.4
+          ]
+        },
+        "2016-01": {
+          "hits": 8,
+          "n": 8,
+          "rate": 100.0,
+          "missing": 0,
+          "fixtures": 5,
+          "wilson95": [
+            67.6,
+            100.0
+          ]
+        },
+        "2016-02": {
+          "hits": 7,
+          "n": 9,
+          "rate": 77.8,
+          "missing": 0,
+          "fixtures": 6,
+          "wilson95": [
+            45.3,
+            93.7
+          ]
+        },
+        "2016-03": {
+          "hits": 9,
+          "n": 10,
+          "rate": 90.0,
+          "missing": 0,
+          "fixtures": 7,
+          "wilson95": [
+            59.6,
+            98.2
+          ]
+        },
+        "2016-04": {
+          "hits": 7,
+          "n": 9,
+          "rate": 77.8,
+          "missing": 0,
+          "fixtures": 6,
+          "wilson95": [
+            45.3,
+            93.7
+          ]
+        },
+        "2016-05": {
+          "hits": 6,
+          "n": 7,
+          "rate": 85.7,
+          "missing": 0,
+          "fixtures": 4,
+          "wilson95": [
+            48.7,
+            97.4
+          ]
+        }
+      },
+      "autumn": {
+        "hits": 22,
+        "n": 27,
+        "rate": 81.5,
+        "missing": 0,
+        "fixtures": 18,
+        "wilson95": [
+          63.3,
+          91.8
+        ]
+      },
+      "spring": {
+        "hits": 37,
+        "n": 43,
+        "rate": 86.0,
+        "missing": 0,
+        "fixtures": 28,
+        "wilson95": [
+          72.7,
+          93.4
+        ]
+      }
+    },
+    {
+      "league": "Serie A 2015/16",
+      "slug": "seriea_2015_16_validation",
+      "quality": {
+        "accepted": 10598
+      },
+      "full": {
+        "hits": 71,
+        "n": 86,
+        "rate": 82.6,
+        "missing": 0,
+        "fixtures": 60,
+        "wilson95": [
+          73.2,
+          89.1
+        ]
+      },
+      "benchmark": {
+        "hits": 220,
+        "n": 290,
+        "rate": 75.9,
+        "missing": 0,
+        "fixtures": 213,
+        "wilson95": [
+          70.6,
+          80.4
+        ]
+      },
+      "benchmark_only": {
+        "hits": 149,
+        "n": 204,
+        "rate": 73.0,
+        "missing": 0,
+        "fixtures": 153,
+        "wilson95": [
+          66.6,
+          78.7
+        ]
+      },
+      "top_three_player_share_pct": 27.9,
+      "without_three_most_selected_players": {
+        "hits": 49,
+        "n": 62,
+        "rate": 79.0,
+        "missing": 0,
+        "fixtures": 47,
+        "wilson95": [
+          67.4,
+          87.3
+        ]
+      },
+      "unique_players": 38,
+      "leading_players": [
+        {
+          "player": "Gonzalo Higua\u00edn",
+          "picks": 10,
+          "hits": 9
+        },
+        {
+          "player": "Lorenzo Insigne",
+          "picks": 7,
+          "hits": 7
+        },
+        {
+          "player": "Paul Pogba",
+          "picks": 7,
+          "hits": 6
+        },
+        {
+          "player": "Giacomo Bonaventura",
+          "picks": 6,
+          "hits": 6
+        },
+        {
+          "player": "Edin D\u017eeko",
+          "picks": 5,
+          "hits": 5
+        },
+        {
+          "player": "Paulo Dybala",
+          "picks": 5,
+          "hits": 5
+        },
+        {
+          "player": "Domenico Berardi",
+          "picks": 4,
+          "hits": 3
+        },
+        {
+          "player": "Andrea Belotti",
+          "picks": 3,
+          "hits": 2
+        },
+        {
+          "player": "Ivan Peri\u0161i\u0107",
+          "picks": 3,
+          "hits": 2
+        },
+        {
+          "player": "Stephan El Shaarawy",
+          "picks": 3,
+          "hits": 3
+        }
+      ],
+      "months": {
+        "2015-10": {
+          "hits": 4,
+          "n": 4,
+          "rate": 100.0,
+          "missing": 0,
+          "fixtures": 4,
+          "wilson95": [
+            51.0,
+            100.0
+          ]
+        },
+        "2015-11": {
+          "hits": 6,
+          "n": 7,
+          "rate": 85.7,
+          "missing": 0,
+          "fixtures": 5,
+          "wilson95": [
+            48.7,
+            97.4
+          ]
+        },
+        "2015-12": {
+          "hits": 7,
+          "n": 10,
+          "rate": 70.0,
+          "missing": 0,
+          "fixtures": 7,
+          "wilson95": [
+            39.7,
+            89.2
+          ]
+        },
+        "2016-01": {
+          "hits": 17,
+          "n": 18,
+          "rate": 94.4,
+          "missing": 0,
+          "fixtures": 11,
+          "wilson95": [
+            74.2,
+            99.0
+          ]
+        },
+        "2016-02": {
+          "hits": 12,
+          "n": 19,
+          "rate": 63.2,
+          "missing": 0,
+          "fixtures": 12,
+          "wilson95": [
+            41.0,
+            80.9
+          ]
+        },
+        "2016-03": {
+          "hits": 4,
+          "n": 5,
+          "rate": 80.0,
+          "missing": 0,
+          "fixtures": 3,
+          "wilson95": [
+            37.6,
+            96.4
+          ]
+        },
+        "2016-04": {
+          "hits": 12,
+          "n": 14,
+          "rate": 85.7,
+          "missing": 0,
+          "fixtures": 10,
+          "wilson95": [
+            60.1,
+            96.0
+          ]
+        },
+        "2016-05": {
+          "hits": 9,
+          "n": 9,
+          "rate": 100.0,
+          "missing": 0,
+          "fixtures": 8,
+          "wilson95": [
+            70.1,
+            100.0
+          ]
+        }
+      },
+      "autumn": {
+        "hits": 17,
+        "n": 21,
+        "rate": 81.0,
+        "missing": 0,
+        "fixtures": 16,
+        "wilson95": [
+          60.0,
+          92.3
+        ]
+      },
+      "spring": {
+        "hits": 54,
+        "n": 65,
+        "rate": 83.1,
+        "missing": 0,
+        "fixtures": 44,
+        "wilson95": [
+          72.2,
+          90.3
+        ]
+      }
+    }
+  ],
+  "total_clean_samples": 31617,
+  "quarantined_samples": 0,
+  "timing": "Each selection uses only lagged history; calendar split already specified. Outcome research does not change rules.",
+  "cleaning": "Raw records unchanged. Provider+fixture+player deduplication, numeric bounds, unknown preservation, team total/SOT and starting-XI checks. Invalid records quarantined, never silently repaired.",
+  "limits": "All three European datasets are 2015/16 StatsBomb, so era/provider effects remain. Leave-top-three-out is exploratory, chosen by selection count, not success. Multiple picks are correlated; no statistical superiority or profitability claim."
+}

@@ -1,0 +1,513 @@
+[
+  {
+    "fixture_id": 12499375,
+    "date": "2024-08-23T18:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 30
+  },
+  {
+    "fixture_id": 12499386,
+    "date": "2024-08-24T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499406,
+    "date": "2024-08-24T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499418,
+    "date": "2024-08-24T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499430,
+    "date": "2024-08-24T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499452,
+    "date": "2024-08-24T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499391,
+    "date": "2024-08-24T16:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12583571,
+    "date": "2024-08-25T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 28
+  },
+  {
+    "fixture_id": 12499462,
+    "date": "2024-08-25T15:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499524,
+    "date": "2024-08-30T18:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499480,
+    "date": "2024-08-31T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499498,
+    "date": "2024-08-31T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499514,
+    "date": "2024-08-31T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 28
+  },
+  {
+    "fixture_id": 12499533,
+    "date": "2024-08-31T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499540,
+    "date": "2024-08-31T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499471,
+    "date": "2024-08-31T16:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499507,
+    "date": "2024-09-01T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499488,
+    "date": "2024-09-01T15:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499549,
+    "date": "2024-09-13T18:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499546,
+    "date": "2024-09-14T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499552,
+    "date": "2024-09-14T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499571,
+    "date": "2024-09-14T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499577,
+    "date": "2024-09-14T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499585,
+    "date": "2024-09-14T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499588,
+    "date": "2024-09-14T16:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499575,
+    "date": "2024-09-15T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499581,
+    "date": "2024-09-15T15:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499607,
+    "date": "2024-09-20T18:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499600,
+    "date": "2024-09-21T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499604,
+    "date": "2024-09-21T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499610,
+    "date": "2024-09-21T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499614,
+    "date": "2024-09-21T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499598,
+    "date": "2024-09-21T16:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499591,
+    "date": "2024-09-22T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499595,
+    "date": "2024-09-22T15:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499617,
+    "date": "2024-09-22T17:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499627,
+    "date": "2024-09-27T18:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499624,
+    "date": "2024-09-28T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499633,
+    "date": "2024-09-28T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499638,
+    "date": "2024-09-28T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499642,
+    "date": "2024-09-28T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499644,
+    "date": "2024-09-28T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499620,
+    "date": "2024-09-28T16:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 30
+  },
+  {
+    "fixture_id": 12499648,
+    "date": "2024-09-29T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499631,
+    "date": "2024-09-29T15:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499666,
+    "date": "2024-10-04T18:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499652,
+    "date": "2024-10-05T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499664,
+    "date": "2024-10-05T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499671,
+    "date": "2024-10-05T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499674,
+    "date": "2024-10-05T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499677,
+    "date": "2024-10-05T16:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 30
+  },
+  {
+    "fixture_id": 12499660,
+    "date": "2024-10-06T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499656,
+    "date": "2024-10-06T15:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499654,
+    "date": "2024-10-06T17:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499687,
+    "date": "2024-10-18T18:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 30
+  },
+  {
+    "fixture_id": 12499681,
+    "date": "2024-10-19T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499690,
+    "date": "2024-10-19T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499694,
+    "date": "2024-10-19T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499703,
+    "date": "2024-10-19T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499707,
+    "date": "2024-10-19T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499684,
+    "date": "2024-10-19T16:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499710,
+    "date": "2024-10-20T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499700,
+    "date": "2024-10-20T15:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  },
+  {
+    "fixture_id": 12499730,
+    "date": "2024-10-25T18:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 30
+  },
+  {
+    "fixture_id": 12499713,
+    "date": "2024-10-26T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499717,
+    "date": "2024-10-26T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499727,
+    "date": "2024-10-26T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499740,
+    "date": "2024-10-26T13:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 28
+  },
+  {
+    "fixture_id": 12499723,
+    "date": "2024-10-26T16:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 29
+  },
+  {
+    "fixture_id": 12499737,
+    "date": "2024-10-27T14:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499734,
+    "date": "2024-10-27T16:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 32
+  },
+  {
+    "fixture_id": 12499720,
+    "date": "2024-10-27T18:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 30
+  },
+  {
+    "fixture_id": 12499743,
+    "date": "2024-11-01T19:30:00+00:00",
+    "accepted": true,
+    "reasons": [],
+    "player_samples": 31
+  }
+]

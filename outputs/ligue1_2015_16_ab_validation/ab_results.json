@@ -1,0 +1,222 @@
+{
+  "dataset": "Ligue 1 2015/16",
+  "provider": "StatsBomb Open Data",
+  "matches": 377,
+  "expected": 380,
+  "player_samples": 10479,
+  "eligible_fixtures": 297,
+  "missing_fixture_pairs": [
+    {
+      "home": "Troyes",
+      "away": "Bordeaux"
+    },
+    {
+      "home": "Bastia",
+      "away": "Gaz\u00e9lec Ajaccio"
+    },
+    {
+      "home": "Saint-\u00c9tienne",
+      "away": "Paris Saint-Germain"
+    }
+  ],
+  "rules": {
+    "version": "home-main-shooter-v1",
+    "target": "2+ total shots",
+    "main_shooter_rank_max": 2,
+    "prior_starts": 5,
+    "prior_start_lookback_days": 180,
+    "prior_average_minutes_min": 70,
+    "prior_hits_min": 4,
+    "team_season_history_min": 8,
+    "venue_history_min": 3,
+    "venue_history_max": 5,
+    "home_shots_min": 12,
+    "away_conceded_min": 12,
+    "strength": "strictly higher season PPG AND last-five PPG",
+    "shooting": "home/away venue shot proxy favours home",
+    "timing": "recorded starters assumed available at lineup time; history >24h before kickoff",
+    "benchmark_universe": "same home starters and team-history eligibility; no strength/shooting filter"
+  },
+  "plan": {
+    "written_before_new_player_data_analysis": "2026-09-27",
+    "source": "StatsBomb Open Data",
+    "competition": 7,
+    "season": 27,
+    "label": "Ligue 1 2015/16",
+    "available_fixtures": 377,
+    "expected_fixtures": 380,
+    "selection_reason": "Closest-to-complete unused European men's league season in the inspected catalog; not selected by player outcomes.",
+    "A": "Unchanged home-main-shooter-v1 baseline",
+    "B": "A AND prior five-start average shots >=3 AND prior five-start average minutes >=80",
+    "primary_comparison": "All qualifying A and B picks in available records; report discarded A picks and paired match-week clustered bootstrap interval for B-minus-A rate difference.",
+    "coverage_sensitivity": "Repeat both unchanged rules after excluding candidate fixtures when either team's earlier scheduled rounds are absent from downloaded history. Conservatively exclude missing-round history; never fabricate stats.",
+    "research_outputs": [
+      "every player sample",
+      "all A picks and B flags",
+      "weekly counts",
+      "top-player concentration",
+      "coverage gaps",
+      "raw source records"
+    ],
+    "interpretation": "New evaluation dataset relative to prior refinement research, but same era/provider and only partial season coverage. No threshold tuning. No automatic rule promotion. No profit claim.",
+    "bootstrap": {
+      "unit": "Monday-start match week",
+      "replicates": 3000,
+      "seed": 27092026,
+      "interval": "2.5th and 97.5th percentiles"
+    }
+  },
+  "plan_sha256": "fe4c454a027b988d4fd41b00893ae60d9238038e511f64acfb2c6e168fd1e850",
+  "baseline_rules_sha256": "bf9c477997fb2ee2e34568441c352443ee1785b5f0fc9ae20d0a078530bda5b3",
+  "comparison": {
+    "A": {
+      "hits": 44,
+      "n": 55,
+      "rate": 80.0,
+      "missing": 0,
+      "fixtures": 38,
+      "wilson95": [
+        67.6,
+        88.4
+      ]
+    },
+    "B": {
+      "hits": 26,
+      "n": 29,
+      "rate": 89.7,
+      "missing": 0,
+      "fixtures": 23,
+      "wilson95": [
+        73.6,
+        96.4
+      ]
+    },
+    "excluded": {
+      "hits": 18,
+      "n": 26,
+      "rate": 69.2,
+      "missing": 0,
+      "fixtures": 23,
+      "wilson95": [
+        50.0,
+        83.5
+      ]
+    },
+    "retained_pct": 52.7,
+    "rate_difference_pp": 9.66,
+    "paired_week_bootstrap_interval95": [
+      -1.33,
+      21.3
+    ],
+    "bootstrap_valid_replicates": 3000,
+    "active_weeks": 24
+  },
+  "complete_prior_rounds_sensitivity": {
+    "A": {
+      "hits": 24,
+      "n": 32,
+      "rate": 75.0,
+      "missing": 0,
+      "fixtures": 22,
+      "wilson95": [
+        57.9,
+        86.7
+      ]
+    },
+    "B": {
+      "hits": 14,
+      "n": 17,
+      "rate": 82.4,
+      "missing": 0,
+      "fixtures": 14,
+      "wilson95": [
+        59.0,
+        93.8
+      ]
+    },
+    "excluded": {
+      "hits": 10,
+      "n": 15,
+      "rate": 66.7,
+      "missing": 0,
+      "fixtures": 13,
+      "wilson95": [
+        41.7,
+        84.8
+      ]
+    },
+    "retained_pct": 53.1,
+    "rate_difference_pp": 7.35,
+    "paired_week_bootstrap_interval95": [
+      -6.43,
+      22.92
+    ],
+    "bootstrap_valid_replicates": 3000,
+    "active_weeks": 15
+  },
+  "without_three_most_selected_B_players": {
+    "A": {
+      "hits": 24,
+      "n": 34,
+      "rate": 70.6,
+      "missing": 0,
+      "fixtures": 28,
+      "wilson95": [
+        53.8,
+        83.2
+      ]
+    },
+    "B": {
+      "hits": 7,
+      "n": 9,
+      "rate": 77.8,
+      "missing": 0,
+      "fixtures": 9,
+      "wilson95": [
+        45.3,
+        93.7
+      ]
+    },
+    "excluded": {
+      "hits": 17,
+      "n": 25,
+      "rate": 68.0,
+      "missing": 0,
+      "fixtures": 22,
+      "wilson95": [
+        48.4,
+        82.8
+      ]
+    },
+    "retained_pct": 26.5,
+    "rate_difference_pp": 7.19,
+    "paired_week_bootstrap_interval95": [
+      -17.78,
+      34.15
+    ],
+    "bootstrap_valid_replicates": 2999,
+    "active_weeks": 20
+  },
+  "top_three_B_players": [
+    {
+      "player": "Zlatan Ibrahimovi\u0107",
+      "picks": 10
+    },
+    {
+      "player": "Edinson Cavani",
+      "picks": 6
+    },
+    {
+      "player": "Andy Delort",
+      "picks": 4
+    }
+  ],
+  "limits": [
+    "Partial coverage: three expected fixture pairings absent. Missing match dates/stats are not invented.",
+    "Prior-round sensitivity is conservative: it also removes picks before postponed earlier rounds were played.",
+    "Independent of refinement discovery matches, but same provider and 2015/16 era as other European tests.",
+    "Paired weekly bootstrap accounts for within-week dependence, not all persistent player/team dependence. Interval is approximate.",
+    "Actual starter assumed known; StatsBomb published clock has no timezone offset; history buffer >24h. Historical publication availability not verified.",
+    "Minutes and shots follow the existing StatsBomb adapter. No odds or profit test. No rule promotion or retuning."
+  ]
+}

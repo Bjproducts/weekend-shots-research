@@ -1,0 +1,8 @@
+{
+  "source_url": "https://app.americansocceranalysis.com/api/v1/mls/players/xgoals?start_date=2026-04-11&end_date=2026-04-17&split_by_games=true&split_by_teams=true&minimum_minutes=0&minimum_shots=0&minimum_key_passes=0&stage_name=Regular+Season",
+  "retrieved_at_utc": "2026-09-27T12:03:43.206035+00:00",
+  "sha256": "4196c037812572937bbaf6b3aa3c3ea801d4cfde5fd010542530842ddda24392",
+  "records": 433,
+  "source": "American Soccer Analysis documented public API",
+  "raw_unmodified": true
+}

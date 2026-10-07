@@ -1,0 +1,7 @@
+Continue the existing weekend shots project for MLS weekend 2026-08-08 in America/Denver.
+Read outputs/on_demand/2026-08-08/request.json and outputs/README.md. Do not restart or retune A/B.
+This is a data collection request, not a list of selections. There are 1 archived target fixtures.
+For each target fixture, verify fixture identity, UTC kickoff and its home starting XI from public Flashscore pages. Preserve source URLs, retrieval date and displayed names/IDs. Do not infer starts from minutes.
+Use home_history_newest_first as a discovery list, not an instruction to download everything. Work backwards for each eligible home starter until five verified same-team starts within 180 days and strictly more than 24 hours before kickoff are established, or exhaustion is documented. ASA shot data already cached must be reused; fill only missing records. Verify venue team-shot totals separately.
+Preserve Flashscore displayed minutes and ASA expanded minutes separately. Reconcile IDs, minute semantics and shot counts with overlapping original records before using mixed-source data. Dashes are unknown. Do not pick shooters using target-match outcomes. No paid APIs, access bypass, mass season downloads or automation.
+Return sourced records and blockers to this folder. Do not mark the request complete or run fresh A/B until the required histories and fixture coverage have been validated. Original 12/15 provisional replacement correction and three unresolved cases remain unchanged.

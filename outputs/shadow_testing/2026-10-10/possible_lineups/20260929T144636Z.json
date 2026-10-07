@@ -1,0 +1,1017 @@
+{
+  "status": "provisional_possible_lineups_not_official_picks",
+  "created_utc": "2026-09-29T14:46:36.257864+00:00",
+  "weekend": "2026-10-10",
+  "method": "Deterministic recent-start XI. Recompute when desired; confirmed lineup locks remain the official prospective selections.",
+  "forecasts": [
+    {
+      "match_id": "5749694",
+      "date": "2026-10-10T16:00:00Z",
+      "league": "Serie A",
+      "fixture": "Inter vs Parma",
+      "environment_rank": 1,
+      "confidence_tier": "A",
+      "method": "Top 11 by starts, recency and starting minutes across the team\u2019s last five matches; not an externally published or confirmed lineup.",
+      "recent_team_matches": [
+        "5749645",
+        "5749652",
+        "5749666",
+        "5749673",
+        "5749681"
+      ],
+      "possible_XI": [
+        {
+          "player_id": "541820",
+          "player": "Nicol\u00f2 Barella",
+          "position_id": 84,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749673",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "772168",
+          "player": "Josep Mart\u00ednez",
+          "position_id": 11,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749673",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "521318",
+          "player": "Manuel Akanji",
+          "position_id": 35,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 82.6,
+          "source_match_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749673",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "805451",
+          "player": "Alessandro Bastoni",
+          "position_id": 37,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 78.4,
+          "source_match_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749673",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "1254297",
+          "player": "Andy Diouf",
+          "position_id": 82,
+          "starts_in_last_five": 4,
+          "recency_score": 13,
+          "average_start_minutes": 86.2,
+          "source_match_ids": [
+            "5749645",
+            "5749666",
+            "5749673",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "362212",
+          "player": "Piotr Zieli\u0144ski",
+          "position_id": 65,
+          "starts_in_last_five": 4,
+          "recency_score": 13,
+          "average_start_minutes": 81.8,
+          "source_match_ids": [
+            "5749645",
+            "5749666",
+            "5749673",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "690230",
+          "player": "Lautaro Mart\u00ednez",
+          "position_id": 104,
+          "starts_in_last_five": 4,
+          "recency_score": 11,
+          "average_start_minutes": 80.8,
+          "source_match_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "605224",
+          "player": "Federico Dimarco",
+          "position_id": 88,
+          "starts_in_last_five": 4,
+          "recency_score": 11,
+          "average_start_minutes": 74,
+          "source_match_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "1367618",
+          "player": "Francesco Pio Esposito",
+          "position_id": 106,
+          "starts_in_last_five": 4,
+          "recency_score": 10,
+          "average_start_minutes": 72.5,
+          "source_match_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749673"
+          ]
+        },
+        {
+          "player_id": "889535",
+          "player": "Yann Aurel Bisseck",
+          "position_id": 33,
+          "starts_in_last_five": 3,
+          "recency_score": 9,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5749645",
+            "5749666",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "621562",
+          "player": "Marcus Thuram",
+          "position_id": 106,
+          "starts_in_last_five": 2,
+          "recency_score": 9,
+          "average_start_minutes": 79.5,
+          "source_match_ids": [
+            "5749673",
+            "5749681"
+          ]
+        }
+      ],
+      "provisional_picks": [
+        {
+          "player_id": "621562",
+          "player": "Marcus Thuram",
+          "avg_shots": 3.2,
+          "avg_minutes": 72.2,
+          "recent_hits": 5,
+          "current_season_starts": 2,
+          "prior_ids": [
+            "4803376",
+            "4803382",
+            "4803392",
+            "5749673",
+            "5749681"
+          ],
+          "shooter_rank_within_possible_XI": 2,
+          "A": true,
+          "B": false
+        }
+      ]
+    },
+    {
+      "match_id": "5868084",
+      "date": "2026-10-10T16:30:00Z",
+      "league": "LaLiga",
+      "fixture": "Barcelona vs Getafe",
+      "environment_rank": 2,
+      "confidence_tier": "A",
+      "method": "Top 11 by starts, recency and starting minutes across the team\u2019s last five matches; not an externally published or confirmed lineup.",
+      "recent_team_matches": [
+        "5868034",
+        "5868049",
+        "5868054",
+        "5868066",
+        "5868078"
+      ],
+      "possible_XI": [
+        {
+          "player_id": "1467236",
+          "player": "Lamine Yamal",
+          "position_id": 83,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 85.2,
+          "source_match_ids": [
+            "5868034",
+            "5868049",
+            "5868054",
+            "5868066",
+            "5868078"
+          ]
+        },
+        {
+          "player_id": "696679",
+          "player": "Raphinha",
+          "position_id": 115,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 82.4,
+          "source_match_ids": [
+            "5868034",
+            "5868049",
+            "5868054",
+            "5868066",
+            "5868078"
+          ]
+        },
+        {
+          "player_id": "1083323",
+          "player": "Pedri",
+          "position_id": 66,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 74.2,
+          "source_match_ids": [
+            "5868034",
+            "5868049",
+            "5868054",
+            "5868066",
+            "5868078"
+          ]
+        },
+        {
+          "player_id": "675088",
+          "player": "Rodri",
+          "position_id": 64,
+          "starts_in_last_five": 4,
+          "recency_score": 14,
+          "average_start_minutes": 75.8,
+          "source_match_ids": [
+            "5868049",
+            "5868054",
+            "5868066",
+            "5868078"
+          ]
+        },
+        {
+          "player_id": "940573",
+          "player": "Eric Garc\u00eda",
+          "position_id": 32,
+          "starts_in_last_five": 4,
+          "recency_score": 14,
+          "average_start_minutes": 74.8,
+          "source_match_ids": [
+            "5868049",
+            "5868054",
+            "5868066",
+            "5868078"
+          ]
+        },
+        {
+          "player_id": "1532137",
+          "player": "Pau Cubars\u00ed",
+          "position_id": 34,
+          "starts_in_last_five": 4,
+          "recency_score": 11,
+          "average_start_minutes": 83,
+          "source_match_ids": [
+            "5868034",
+            "5868049",
+            "5868054",
+            "5868078"
+          ]
+        },
+        {
+          "player_id": "906937",
+          "player": "Anthony Gordon",
+          "position_id": 87,
+          "starts_in_last_five": 4,
+          "recency_score": 11,
+          "average_start_minutes": 73,
+          "source_match_ids": [
+            "5868034",
+            "5868049",
+            "5868054",
+            "5868078"
+          ]
+        },
+        {
+          "player_id": "1167220",
+          "player": "Joan Garc\u00eda",
+          "position_id": 11,
+          "starts_in_last_five": 4,
+          "recency_score": 10,
+          "average_start_minutes": 78.8,
+          "source_match_ids": [
+            "5868034",
+            "5868049",
+            "5868054",
+            "5868066"
+          ]
+        },
+        {
+          "player_id": "1404415",
+          "player": "Ferm\u00edn L\u00f3pez",
+          "position_id": 85,
+          "starts_in_last_five": 3,
+          "recency_score": 10,
+          "average_start_minutes": 80.3,
+          "source_match_ids": [
+            "5868049",
+            "5868054",
+            "5868078"
+          ]
+        },
+        {
+          "player_id": "449232",
+          "player": "Andreas Christensen",
+          "position_id": 36,
+          "starts_in_last_five": 3,
+          "recency_score": 10,
+          "average_start_minutes": 79.7,
+          "source_match_ids": [
+            "5868034",
+            "5868066",
+            "5868078"
+          ]
+        },
+        {
+          "player_id": "1598982",
+          "player": "Gerard Mart\u00edn",
+          "position_id": 36,
+          "starts_in_last_five": 3,
+          "recency_score": 9,
+          "average_start_minutes": 75,
+          "source_match_ids": [
+            "5868049",
+            "5868054",
+            "5868066"
+          ]
+        }
+      ],
+      "provisional_picks": [
+        {
+          "player_id": "1467236",
+          "player": "Lamine Yamal",
+          "avg_shots": 5.8,
+          "avg_minutes": 85.2,
+          "recent_hits": 5,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5868034",
+            "5868049",
+            "5868054",
+            "5868066",
+            "5868078"
+          ],
+          "shooter_rank_within_possible_XI": 1,
+          "A": true,
+          "B": true
+        },
+        {
+          "player_id": "696679",
+          "player": "Raphinha",
+          "avg_shots": 3.8,
+          "avg_minutes": 82.4,
+          "recent_hits": 5,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5868034",
+            "5868049",
+            "5868054",
+            "5868066",
+            "5868078"
+          ],
+          "shooter_rank_within_possible_XI": 2,
+          "A": true,
+          "B": true
+        }
+      ]
+    },
+    {
+      "match_id": "5795473",
+      "date": "2026-10-10T16:30:00Z",
+      "league": "Premier League",
+      "fixture": "Manchester United vs Tottenham Hotspur",
+      "environment_rank": 3,
+      "confidence_tier": "A",
+      "method": "Top 11 by starts, recency and starting minutes across the team\u2019s last five matches; not an externally published or confirmed lineup.",
+      "recent_team_matches": [
+        "5795364",
+        "5795432",
+        "5795438",
+        "5795452",
+        "5795459"
+      ],
+      "possible_XI": [
+        {
+          "player_id": "1178602",
+          "player": "Senne Lammens",
+          "position_id": 11,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "255610",
+          "player": "Harry Maguire",
+          "position_id": 34,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "422685",
+          "player": "Bruno Fernandes",
+          "position_id": 85,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "923312",
+          "player": "Bryan Mbeumo",
+          "position_id": 83,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "863098",
+          "player": "Matheus Cunha",
+          "position_id": 115,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 82,
+          "source_match_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "465960",
+          "player": "Youri Tielemans",
+          "position_id": 64,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 80.8,
+          "source_match_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "847983",
+          "player": "Lisandro Mart\u00ednez",
+          "position_id": 36,
+          "starts_in_last_five": 4,
+          "recency_score": 14,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "751550",
+          "player": "Diogo Dalot",
+          "position_id": 32,
+          "starts_in_last_five": 4,
+          "recency_score": 14,
+          "average_start_minutes": 84.5,
+          "source_match_ids": [
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "1292810",
+          "player": "Kobbie Mainoo",
+          "position_id": 66,
+          "starts_in_last_five": 4,
+          "recency_score": 14,
+          "average_start_minutes": 83.5,
+          "source_match_ids": [
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "696365",
+          "player": "Marcus Rashford",
+          "position_id": 87,
+          "starts_in_last_five": 4,
+          "recency_score": 14,
+          "average_start_minutes": 77.5,
+          "source_match_ids": [
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "362694",
+          "player": "Luke Shaw",
+          "position_id": 38,
+          "starts_in_last_five": 4,
+          "recency_score": 11,
+          "average_start_minutes": 84,
+          "source_match_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795459"
+          ]
+        }
+      ],
+      "provisional_picks": [
+        {
+          "player_id": "422685",
+          "player": "Bruno Fernandes",
+          "avg_shots": 3.8,
+          "avg_minutes": 90,
+          "recent_hits": 4,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ],
+          "shooter_rank_within_possible_XI": 1,
+          "A": true,
+          "B": true
+        },
+        {
+          "player_id": "923312",
+          "player": "Bryan Mbeumo",
+          "avg_shots": 3.8,
+          "avg_minutes": 90,
+          "recent_hits": 5,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ],
+          "shooter_rank_within_possible_XI": 2,
+          "A": true,
+          "B": true
+        }
+      ]
+    },
+    {
+      "match_id": "5802948",
+      "date": "2026-10-10T15:15:00Z",
+      "league": "Ligue 1",
+      "fixture": "Lille vs Le Havre",
+      "environment_rank": 4,
+      "confidence_tier": "A",
+      "method": "Top 11 by starts, recency and starting minutes across the team\u2019s last five matches; not an externally published or confirmed lineup.",
+      "recent_team_matches": [
+        "5802901",
+        "5802918",
+        "5802926",
+        "5802932",
+        "5802942"
+      ],
+      "possible_XI": [
+        {
+          "player_id": "1186553",
+          "player": "Alexsandro Ribeiro",
+          "position_id": 36,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5802901",
+            "5802918",
+            "5802926",
+            "5802932",
+            "5802942"
+          ]
+        },
+        {
+          "player_id": "1252070",
+          "player": "Nathan Ngoy",
+          "position_id": 34,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5802901",
+            "5802918",
+            "5802926",
+            "5802932",
+            "5802942"
+          ]
+        },
+        {
+          "player_id": "1397857",
+          "player": "Tiago Santos",
+          "position_id": 32,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5802901",
+            "5802918",
+            "5802926",
+            "5802932",
+            "5802942"
+          ]
+        },
+        {
+          "player_id": "815912",
+          "player": "Berke \u00d6zer",
+          "position_id": 11,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5802901",
+            "5802918",
+            "5802926",
+            "5802932",
+            "5802942"
+          ]
+        },
+        {
+          "player_id": "500520",
+          "player": "Nabil Bentaleb",
+          "position_id": 66,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 83.6,
+          "source_match_ids": [
+            "5802901",
+            "5802918",
+            "5802926",
+            "5802932",
+            "5802942"
+          ]
+        },
+        {
+          "player_id": "1044470",
+          "player": "H\u00e1kon Arnar Haraldsson",
+          "position_id": 85,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 74.2,
+          "source_match_ids": [
+            "5802901",
+            "5802918",
+            "5802926",
+            "5802932",
+            "5802942"
+          ]
+        },
+        {
+          "player_id": "815465",
+          "player": "Romain Perraud",
+          "position_id": 38,
+          "starts_in_last_five": 4,
+          "recency_score": 12,
+          "average_start_minutes": 86.5,
+          "source_match_ids": [
+            "5802901",
+            "5802918",
+            "5802932",
+            "5802942"
+          ]
+        },
+        {
+          "player_id": "1426809",
+          "player": "Ethan Mbapp\u00e9",
+          "position_id": 83,
+          "starts_in_last_five": 4,
+          "recency_score": 11,
+          "average_start_minutes": 61,
+          "source_match_ids": [
+            "5802901",
+            "5802918",
+            "5802926",
+            "5802942"
+          ]
+        },
+        {
+          "player_id": "148830",
+          "player": "Benjamin Andr\u00e9",
+          "position_id": 64,
+          "starts_in_last_five": 3,
+          "recency_score": 10,
+          "average_start_minutes": 71.7,
+          "source_match_ids": [
+            "5802918",
+            "5802926",
+            "5802942"
+          ]
+        },
+        {
+          "player_id": "1347229",
+          "player": "Ba\u015far \u00d6nal",
+          "position_id": 87,
+          "starts_in_last_five": 3,
+          "recency_score": 10,
+          "average_start_minutes": 64,
+          "source_match_ids": [
+            "5802901",
+            "5802932",
+            "5802942"
+          ]
+        },
+        {
+          "player_id": "46469",
+          "player": "Olivier Giroud",
+          "position_id": 115,
+          "starts_in_last_five": 3,
+          "recency_score": 6,
+          "average_start_minutes": 70,
+          "source_match_ids": [
+            "5802901",
+            "5802918",
+            "5802926"
+          ]
+        }
+      ],
+      "provisional_picks": [
+        {
+          "player_id": "1397857",
+          "player": "Tiago Santos",
+          "avg_shots": 1.8,
+          "avg_minutes": 90,
+          "recent_hits": 4,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5802901",
+            "5802918",
+            "5802926",
+            "5802932",
+            "5802942"
+          ],
+          "shooter_rank_within_possible_XI": 1,
+          "A": true,
+          "B": false
+        }
+      ]
+    },
+    {
+      "match_id": "5802952",
+      "date": "2026-10-10T18:45:00Z",
+      "league": "Ligue 1",
+      "fixture": "Paris Saint-Germain vs Le Mans",
+      "environment_rank": 5,
+      "confidence_tier": "A",
+      "method": "Top 11 by starts, recency and starting minutes across the team\u2019s last five matches; not an externally published or confirmed lineup.",
+      "recent_team_matches": [
+        "5803105",
+        "5802918",
+        "5802925",
+        "5802929",
+        "5802945"
+      ],
+      "possible_XI": [
+        {
+          "player_id": "1137670",
+          "player": "Willian Pacho",
+          "position_id": 36,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5803105",
+            "5802918",
+            "5802925",
+            "5802929",
+            "5802945"
+          ]
+        },
+        {
+          "player_id": "267365",
+          "player": "Marquinhos",
+          "position_id": 34,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5803105",
+            "5802918",
+            "5802925",
+            "5802929",
+            "5802945"
+          ]
+        },
+        {
+          "player_id": "800880",
+          "player": "Matvey Safonov",
+          "position_id": 11,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5803105",
+            "5802918",
+            "5802925",
+            "5802929",
+            "5802945"
+          ]
+        },
+        {
+          "player_id": "1061249",
+          "player": "V\u00edtinha",
+          "position_id": 75,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 85.8,
+          "source_match_ids": [
+            "5803105",
+            "5802918",
+            "5802925",
+            "5802929",
+            "5802945"
+          ]
+        },
+        {
+          "player_id": "1367615",
+          "player": "Warren Za\u00efre-Emery",
+          "position_id": 32,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 76.2,
+          "source_match_ids": [
+            "5803105",
+            "5802918",
+            "5802925",
+            "5802929",
+            "5802945"
+          ]
+        },
+        {
+          "player_id": "1342757",
+          "player": "Jo\u00e3o Neves",
+          "position_id": 73,
+          "starts_in_last_five": 4,
+          "recency_score": 13,
+          "average_start_minutes": 82.5,
+          "source_match_ids": [
+            "5803105",
+            "5802925",
+            "5802929",
+            "5802945"
+          ]
+        },
+        {
+          "player_id": "900433",
+          "player": "Khvicha Kvaratskhelia",
+          "position_id": 107,
+          "starts_in_last_five": 4,
+          "recency_score": 13,
+          "average_start_minutes": 59.5,
+          "source_match_ids": [
+            "5803105",
+            "5802925",
+            "5802929",
+            "5802945"
+          ]
+        },
+        {
+          "player_id": "1339208",
+          "player": "D\u00e9sir\u00e9 Dou\u00e9",
+          "position_id": 103,
+          "starts_in_last_five": 4,
+          "recency_score": 11,
+          "average_start_minutes": 69.2,
+          "source_match_ids": [
+            "5803105",
+            "5802918",
+            "5802925",
+            "5802945"
+          ]
+        },
+        {
+          "player_id": "770881",
+          "player": "Achraf Hakimi",
+          "position_id": 32,
+          "starts_in_last_five": 4,
+          "recency_score": 10,
+          "average_start_minutes": 77.2,
+          "source_match_ids": [
+            "5803105",
+            "5802918",
+            "5802925",
+            "5802929"
+          ]
+        },
+        {
+          "player_id": "605654",
+          "player": "Fabi\u00e1n Ruiz",
+          "position_id": 77,
+          "starts_in_last_five": 3,
+          "recency_score": 10,
+          "average_start_minutes": 71,
+          "source_match_ids": [
+            "5802918",
+            "5802925",
+            "5802945"
+          ]
+        },
+        {
+          "player_id": "692984",
+          "player": "Ousmane Demb\u00e9l\u00e9",
+          "position_id": 105,
+          "starts_in_last_five": 3,
+          "recency_score": 10,
+          "average_start_minutes": 63.3,
+          "source_match_ids": [
+            "5803105",
+            "5802929",
+            "5802945"
+          ]
+        }
+      ],
+      "provisional_picks": [
+        {
+          "player_id": "1339208",
+          "player": "D\u00e9sir\u00e9 Dou\u00e9",
+          "avg_shots": 3,
+          "avg_minutes": 73.4,
+          "recent_hits": 4,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4830712",
+            "5803105",
+            "5802918",
+            "5802925",
+            "5802945"
+          ],
+          "shooter_rank_within_possible_XI": 2,
+          "A": true,
+          "B": false
+        }
+      ]
+    }
+  ]
+}

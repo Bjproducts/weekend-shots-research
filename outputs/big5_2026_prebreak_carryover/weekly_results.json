@@ -1,0 +1,86 @@
+[
+  {
+    "weekend": "2026-08-29",
+    "A": {
+      "hits": 1,
+      "picks": 2,
+      "misses": 1,
+      "rate": 50.0,
+      "wilson95": [
+        9.5,
+        90.5
+      ]
+    },
+    "B": {
+      "hits": 0,
+      "picks": 0,
+      "rate": null,
+      "misses": 0
+    }
+  },
+  {
+    "weekend": "2026-09-05",
+    "A": {
+      "hits": 3,
+      "picks": 3,
+      "misses": 0,
+      "rate": 100.0,
+      "wilson95": [
+        43.8,
+        100.0
+      ]
+    },
+    "B": {
+      "hits": 0,
+      "picks": 0,
+      "rate": null,
+      "misses": 0
+    }
+  },
+  {
+    "weekend": "2026-09-12",
+    "A": {
+      "hits": 7,
+      "picks": 7,
+      "misses": 0,
+      "rate": 100.0,
+      "wilson95": [
+        64.6,
+        100.0
+      ]
+    },
+    "B": {
+      "hits": 1,
+      "picks": 1,
+      "misses": 0,
+      "rate": 100.0,
+      "wilson95": [
+        20.7,
+        100.0
+      ]
+    }
+  },
+  {
+    "weekend": "2026-09-19",
+    "A": {
+      "hits": 2,
+      "picks": 4,
+      "misses": 2,
+      "rate": 50.0,
+      "wilson95": [
+        15.0,
+        85.0
+      ]
+    },
+    "B": {
+      "hits": 1,
+      "picks": 1,
+      "misses": 0,
+      "rate": 100.0,
+      "wilson95": [
+        20.7,
+        100.0
+      ]
+    }
+  }
+]

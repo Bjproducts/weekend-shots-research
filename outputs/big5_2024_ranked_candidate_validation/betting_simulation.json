@@ -1,0 +1,303 @@
+{
+  "A": {
+    "formula": "$10 * 1.5^consecutive_wins",
+    "sequence": "WLWWWWWWWWWWWWWWLWWWLW",
+    "cycles": [
+      {
+        "wins": 1,
+        "peak_before_loss": 15.0,
+        "ended_by_loss": true,
+        "legs": [
+          {
+            "date": "2024-09-14T14:00:00Z",
+            "league": "Premier League",
+            "fixture": "Liverpool vs Nottingham Forest",
+            "player": "Mohamed Salah",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2024-09-14T14:00:00Z",
+            "league": "Premier League",
+            "fixture": "Liverpool vs Nottingham Forest",
+            "player": "Luis D\u00edaz",
+            "shots": 1,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "wins": 14,
+        "peak_before_loss": 2919.29,
+        "ended_by_loss": true,
+        "legs": [
+          {
+            "date": "2024-09-14T14:00:00Z",
+            "league": "Premier League",
+            "fixture": "Manchester City vs Brentford",
+            "player": "Kevin De Bruyne",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2024-09-14T14:00:00Z",
+            "league": "Premier League",
+            "fixture": "Manchester City vs Brentford",
+            "player": "Erling Haaland",
+            "shots": 6,
+            "hit": true
+          },
+          {
+            "date": "2024-09-15T13:00:00Z",
+            "league": "Ligue 1",
+            "fixture": "Rennes vs Montpellier",
+            "player": "Arnaud Kalimuendo-Muinga",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2024-09-21T14:00:00Z",
+            "league": "Premier League",
+            "fixture": "Liverpool vs AFC Bournemouth",
+            "player": "Mohamed Salah",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2024-09-21T14:00:00Z",
+            "league": "Premier League",
+            "fixture": "Liverpool vs AFC Bournemouth",
+            "player": "Darwin N\u00fa\u00f1ez",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2024-09-21T16:30:00Z",
+            "league": "Bundesliga",
+            "fixture": "Eintracht Frankfurt vs Borussia M\u00f6nchengladbach",
+            "player": "Hugo Ekitike",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2024-09-21T16:30:00Z",
+            "league": "Bundesliga",
+            "fixture": "Eintracht Frankfurt vs Borussia M\u00f6nchengladbach",
+            "player": "Omar Marmoush",
+            "shots": 6,
+            "hit": true
+          },
+          {
+            "date": "2024-09-21T19:00:00Z",
+            "league": "LaLiga",
+            "fixture": "Real Madrid vs Espanyol",
+            "player": "Arda G\u00fcler",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2024-09-21T19:00:00Z",
+            "league": "LaLiga",
+            "fixture": "Real Madrid vs Espanyol",
+            "player": "Kylian Mbapp\u00e9",
+            "shots": 9,
+            "hit": true
+          },
+          {
+            "date": "2024-09-28T13:30:00Z",
+            "league": "Bundesliga",
+            "fixture": "RB Leipzig vs Augsburg",
+            "player": "Ikoma Lois Openda",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2024-09-28T19:00:00Z",
+            "league": "Ligue 1",
+            "fixture": "Monaco vs Montpellier",
+            "player": "Eliesse Ben Seghir",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2024-09-28T19:00:00Z",
+            "league": "Ligue 1",
+            "fixture": "Monaco vs Montpellier",
+            "player": "Folarin Balogun",
+            "shots": 7,
+            "hit": true
+          },
+          {
+            "date": "2024-09-29T15:00:00Z",
+            "league": "Ligue 1",
+            "fixture": "Nantes vs Saint-\u00c9tienne",
+            "player": "Matthis Abline",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2024-09-29T15:00:00Z",
+            "league": "Ligue 1",
+            "fixture": "Nantes vs Saint-\u00c9tienne",
+            "player": "Moses Simon",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2024-09-29T18:45:00Z",
+            "league": "Serie A",
+            "fixture": "Napoli vs Monza",
+            "player": "Matteo Politano",
+            "shots": 1,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "wins": 3,
+        "peak_before_loss": 33.75,
+        "ended_by_loss": true,
+        "legs": [
+          {
+            "date": "2024-09-29T18:45:00Z",
+            "league": "Serie A",
+            "fixture": "Napoli vs Monza",
+            "player": "Khvicha Kvaratskhelia",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2024-10-05T13:30:00Z",
+            "league": "Bundesliga",
+            "fixture": "Bayer Leverkusen vs Holstein Kiel",
+            "player": "Victor Okoh Boniface",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2024-10-05T13:30:00Z",
+            "league": "Bundesliga",
+            "fixture": "Bayer Leverkusen vs Holstein Kiel",
+            "player": "Florian Wirtz",
+            "shots": 5,
+            "hit": true
+          },
+          {
+            "date": "2024-10-06T15:00:00Z",
+            "league": "Ligue 1",
+            "fixture": "Reims vs Montpellier",
+            "player": "Keito Nakamura",
+            "shots": 1,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "wins": 1,
+        "ending_balance": 15.0,
+        "ended_by_loss": false,
+        "legs": [
+          {
+            "date": "2024-10-06T17:30:00Z",
+            "league": "Bundesliga",
+            "fixture": "VfB Stuttgart vs Hoffenheim",
+            "player": "Deniz Undav",
+            "shots": 5,
+            "hit": true
+          }
+        ]
+      }
+    ],
+    "max_consecutive_wins": 14,
+    "maximum_balance_reached": 2919.29,
+    "note": "A loss after an all-in winning streak reduces that cycle to $0; simultaneous picks are ordered only for this mathematical diagnostic."
+  },
+  "B": {
+    "formula": "$10 * 2.0^consecutive_wins",
+    "sequence": "WWWWWWWWW",
+    "cycles": [
+      {
+        "wins": 9,
+        "ending_balance": 5120.0,
+        "ended_by_loss": false,
+        "legs": [
+          {
+            "date": "2024-09-14T14:00:00Z",
+            "league": "Premier League",
+            "fixture": "Liverpool vs Nottingham Forest",
+            "player": "Mohamed Salah",
+            "shots": 3,
+            "hit": true
+          },
+          {
+            "date": "2024-09-14T14:00:00Z",
+            "league": "Premier League",
+            "fixture": "Manchester City vs Brentford",
+            "player": "Kevin De Bruyne",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2024-09-14T14:00:00Z",
+            "league": "Premier League",
+            "fixture": "Manchester City vs Brentford",
+            "player": "Erling Haaland",
+            "shots": 6,
+            "hit": true
+          },
+          {
+            "date": "2024-09-15T13:00:00Z",
+            "league": "Ligue 1",
+            "fixture": "Rennes vs Montpellier",
+            "player": "Arnaud Kalimuendo-Muinga",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2024-09-21T14:00:00Z",
+            "league": "Premier League",
+            "fixture": "Liverpool vs AFC Bournemouth",
+            "player": "Mohamed Salah",
+            "shots": 4,
+            "hit": true
+          },
+          {
+            "date": "2024-09-21T16:30:00Z",
+            "league": "Bundesliga",
+            "fixture": "Eintracht Frankfurt vs Borussia M\u00f6nchengladbach",
+            "player": "Omar Marmoush",
+            "shots": 6,
+            "hit": true
+          },
+          {
+            "date": "2024-09-21T19:00:00Z",
+            "league": "LaLiga",
+            "fixture": "Real Madrid vs Espanyol",
+            "player": "Kylian Mbapp\u00e9",
+            "shots": 9,
+            "hit": true
+          },
+          {
+            "date": "2024-09-29T15:00:00Z",
+            "league": "Ligue 1",
+            "fixture": "Nantes vs Saint-\u00c9tienne",
+            "player": "Matthis Abline",
+            "shots": 2,
+            "hit": true
+          },
+          {
+            "date": "2024-10-05T13:30:00Z",
+            "league": "Bundesliga",
+            "fixture": "Bayer Leverkusen vs Holstein Kiel",
+            "player": "Florian Wirtz",
+            "shots": 5,
+            "hit": true
+          }
+        ]
+      }
+    ],
+    "max_consecutive_wins": 9,
+    "maximum_balance_reached": 5120.0,
+    "note": "A loss after an all-in winning streak reduces that cycle to $0; simultaneous picks are ordered only for this mathematical diagnostic."
+  }
+}
