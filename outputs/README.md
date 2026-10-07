@@ -1,6 +1,14 @@
 # Weekend Shots Research — Progress and Current State
 
-Updated: 28 September 2026.
+Updated: 7 October 2026.
+
+## Live four-league Plan B 3+ scanner
+
+The current operational focus is now a prospective Saturday/Sunday scanner for **MLS, Premier League, Serie A and Bundesliga**. It acquires data before applying the frozen formula, ranks the top five Tier A/B environments, builds deterministic possible lineups and freezes no more than three Plan B candidates ranked for the 3+ shots target.
+
+The first live board is saved in `live_plan_b3/2026-10-10/`. Its bounded FotMob acquisition contains **606 normalized historical matches with zero failures**. The scanner evaluated **40 weekend fixtures**, selected five environments and froze three provisional candidates. All **21/21 integrity checks pass**. Predicted or last-used lineups are explicitly rejected by the confirmation gate; only a `standard` lineup before kickoff can turn a frozen provisional candidate into an official pick. No official picks are locked yet.
+
+This is an operating trial, not evidence of a new win rate. The prior retrospective 3+ simulation remains 12/17 and did not clear the 71.4% break-even hit rate at hypothetical 1.40 odds. Future official picks must be settled prospectively without changing the frozen rule.
 
 August 22–23 fresh-weekend work is underway: 15 fixtures checked; five pass home strength and three pass both environment gates (Charlotte–D.C., Miami–Toronto, Atlanta–Sporting Kansas City). All three home XIs are saved (33 starters). Full-name/time-proximity diagnostics found 543 matching historical player-shot values, zero shot conflicts and 58 unmatched appearances across 47 proposed identities; these are not approved merges or final required-download counts. Previous-five-start/minute reconciliation and the new A/B settlement remain incomplete. See `mls_2026_aug22_validation/report.md`, `target_lineups.json` and `overlap_diagnostic.json`. No new win rate claimed.
 

@@ -1,0 +1,20 @@
+{
+  "provider": "FotMob public match pages/data",
+  "retrieved_utc": "2026-10-07T23:53:35.313657+00:00",
+  "weekend": "2026-10-10",
+  "history_start_utc": "2026-04-13T00:00:00+00:00",
+  "history_end_exclusive_utc": "2026-10-09T00:00:00+00:00",
+  "league_fixture_counts": {
+    "Premier League 2025/2026": 380,
+    "Premier League 2026/2027": 380,
+    "Serie A 2025/2026": 380,
+    "Serie A 2026/2027": 380,
+    "Bundesliga 2025/2026": 306,
+    "Bundesliga 2026/2027": 306,
+    "MLS 2026": 510
+  },
+  "selected_match_details": 606,
+  "normalized_matches": 606,
+  "failures": [],
+  "raw_cache": "C:\\Users\\bjpro\\Documents\\Codex\\2026-09-24\\referenced-chatgpt-conversation-this-is-an\\outputs\\live_plan_b3\\2026-10-10\\history_raw"
+}

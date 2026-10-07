@@ -1,0 +1,4422 @@
+{
+  "status": "possible_lineups_only_not_official_picks",
+  "created_utc": "2026-10-07T23:55:10.763835+00:00",
+  "weekend": "2026-10-10",
+  "environment_snapshot_sha256": "f479e42efdf9d5fb8ea386ef34f0919702b69aeed4f1d15da86d5f32e29c9e11",
+  "forecasts": [
+    {
+      "match_id": "5749694",
+      "date": "2026-10-10T16:00:00Z",
+      "league": "Serie A",
+      "fixture": "Inter vs Parma",
+      "environment_rank": 1,
+      "confidence_tier": "A",
+      "method": "Top 11 by starts, recency and starting minutes across the team's last five matches; not a published or confirmed lineup.",
+      "recent_team_matches": [
+        "5749645",
+        "5749652",
+        "5749666",
+        "5749673",
+        "5749681"
+      ],
+      "possible_XI": [
+        {
+          "player_id": "541820",
+          "player": "Nicol\u00f2 Barella",
+          "position_id": 84,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749673",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "772168",
+          "player": "Josep Mart\u00ednez",
+          "position_id": 11,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749673",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "521318",
+          "player": "Manuel Akanji",
+          "position_id": 35,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 82.6,
+          "source_match_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749673",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "805451",
+          "player": "Alessandro Bastoni",
+          "position_id": 37,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 78.4,
+          "source_match_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749673",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "1254297",
+          "player": "Andy Diouf",
+          "position_id": 82,
+          "starts_in_last_five": 4,
+          "recency_score": 13,
+          "average_start_minutes": 86.2,
+          "source_match_ids": [
+            "5749645",
+            "5749666",
+            "5749673",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "362212",
+          "player": "Piotr Zieli\u0144ski",
+          "position_id": 65,
+          "starts_in_last_five": 4,
+          "recency_score": 13,
+          "average_start_minutes": 81.8,
+          "source_match_ids": [
+            "5749645",
+            "5749666",
+            "5749673",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "690230",
+          "player": "Lautaro Mart\u00ednez",
+          "position_id": 104,
+          "starts_in_last_five": 4,
+          "recency_score": 11,
+          "average_start_minutes": 80.8,
+          "source_match_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "605224",
+          "player": "Federico Dimarco",
+          "position_id": 88,
+          "starts_in_last_five": 4,
+          "recency_score": 11,
+          "average_start_minutes": 74,
+          "source_match_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "1367618",
+          "player": "Francesco Pio Esposito",
+          "position_id": 106,
+          "starts_in_last_five": 4,
+          "recency_score": 10,
+          "average_start_minutes": 72.5,
+          "source_match_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749673"
+          ]
+        },
+        {
+          "player_id": "889535",
+          "player": "Yann Aurel Bisseck",
+          "position_id": 33,
+          "starts_in_last_five": 3,
+          "recency_score": 9,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5749645",
+            "5749666",
+            "5749681"
+          ]
+        },
+        {
+          "player_id": "621562",
+          "player": "Marcus Thuram",
+          "position_id": 106,
+          "starts_in_last_five": 2,
+          "recency_score": 9,
+          "average_start_minutes": 79.5,
+          "source_match_ids": [
+            "5749673",
+            "5749681"
+          ]
+        }
+      ],
+      "evaluated_candidates": [
+        {
+          "player_id": "690230",
+          "player": "Lautaro Mart\u00ednez",
+          "position_id": 104,
+          "avg_shots": 4.4,
+          "avg_minutes": 75.4,
+          "hits_2plus": 3,
+          "hits_3plus": 3,
+          "avg_shot_share": 0.1809,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4803408",
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749681"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4803408",
+              "date": "2026-05-23T16:00:00+00:00",
+              "shots": 0,
+              "minutes": 54,
+              "team_shots": 11,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5749645",
+              "date": "2026-08-22T16:30:00+00:00",
+              "shots": 0,
+              "minutes": 54,
+              "team_shots": 13,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5749652",
+              "date": "2026-08-30T18:45:00+00:00",
+              "shots": 10,
+              "minutes": 90,
+              "team_shots": 31,
+              "shot_share": 0.32258
+            },
+            {
+              "match_id": "5749666",
+              "date": "2026-09-05T16:00:00+00:00",
+              "shots": 6,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.2069
+            },
+            {
+              "match_id": "5749681",
+              "date": "2026-09-19T16:00:00+00:00",
+              "shots": 6,
+              "minutes": 89,
+              "team_shots": 16,
+              "shot_share": 0.375
+            }
+          ],
+          "shooter_rank_within_possible_XI": 1,
+          "plan_B": false
+        },
+        {
+          "player_id": "621562",
+          "player": "Marcus Thuram",
+          "position_id": 106,
+          "avg_shots": 3.2,
+          "avg_minutes": 72.2,
+          "hits_2plus": 5,
+          "hits_3plus": 4,
+          "avg_shot_share": 0.20284,
+          "current_season_starts": 2,
+          "prior_ids": [
+            "4803376",
+            "4803382",
+            "4803392",
+            "5749673",
+            "5749681"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4803376",
+              "date": "2026-04-26T16:00:00+00:00",
+              "shots": 4,
+              "minutes": 90,
+              "team_shots": 14,
+              "shot_share": 0.28571
+            },
+            {
+              "match_id": "4803382",
+              "date": "2026-05-03T18:45:00+00:00",
+              "shots": 3,
+              "minutes": 67,
+              "team_shots": 12,
+              "shot_share": 0.25
+            },
+            {
+              "match_id": "4803392",
+              "date": "2026-05-09T16:00:00+00:00",
+              "shots": 2,
+              "minutes": 45,
+              "team_shots": 14,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5749673",
+              "date": "2026-09-14T18:45:00+00:00",
+              "shots": 4,
+              "minutes": 70,
+              "team_shots": 27,
+              "shot_share": 0.14815
+            },
+            {
+              "match_id": "5749681",
+              "date": "2026-09-19T16:00:00+00:00",
+              "shots": 3,
+              "minutes": 89,
+              "team_shots": 16,
+              "shot_share": 0.1875
+            }
+          ],
+          "shooter_rank_within_possible_XI": 2,
+          "plan_B": false
+        },
+        {
+          "player_id": "1367618",
+          "player": "Francesco Pio Esposito",
+          "position_id": 106,
+          "avg_shots": 3,
+          "avg_minutes": 76,
+          "hits_2plus": 5,
+          "hits_3plus": 2,
+          "avg_shot_share": 0.1677,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4803408",
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749673"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4803408",
+              "date": "2026-05-23T16:00:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.18182
+            },
+            {
+              "match_id": "5749645",
+              "date": "2026-08-22T16:30:00+00:00",
+              "shots": 5,
+              "minutes": 90,
+              "team_shots": 13,
+              "shot_share": 0.38462
+            },
+            {
+              "match_id": "5749652",
+              "date": "2026-08-30T18:45:00+00:00",
+              "shots": 4,
+              "minutes": 65,
+              "team_shots": 31,
+              "shot_share": 0.12903
+            },
+            {
+              "match_id": "5749666",
+              "date": "2026-09-05T16:00:00+00:00",
+              "shots": 2,
+              "minutes": 45,
+              "team_shots": 29,
+              "shot_share": 0.06897
+            },
+            {
+              "match_id": "5749673",
+              "date": "2026-09-14T18:45:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 27,
+              "shot_share": 0.07407
+            }
+          ],
+          "shooter_rank_within_possible_XI": 3,
+          "plan_B": false
+        },
+        {
+          "player_id": "362212",
+          "player": "Piotr Zieli\u0144ski",
+          "position_id": 65,
+          "avg_shots": 2,
+          "avg_minutes": 83.4,
+          "hits_2plus": 2,
+          "hits_3plus": 2,
+          "avg_shot_share": 0.09587,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4803408",
+            "5749645",
+            "5749666",
+            "5749673",
+            "5749681"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4803408",
+              "date": "2026-05-23T16:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.09091
+            },
+            {
+              "match_id": "5749645",
+              "date": "2026-08-22T16:30:00+00:00",
+              "shots": 1,
+              "minutes": 83,
+              "team_shots": 13,
+              "shot_share": 0.07692
+            },
+            {
+              "match_id": "5749666",
+              "date": "2026-09-05T16:00:00+00:00",
+              "shots": 4,
+              "minutes": 72,
+              "team_shots": 29,
+              "shot_share": 0.13793
+            },
+            {
+              "match_id": "5749673",
+              "date": "2026-09-14T18:45:00+00:00",
+              "shots": 3,
+              "minutes": 82,
+              "team_shots": 27,
+              "shot_share": 0.11111
+            },
+            {
+              "match_id": "5749681",
+              "date": "2026-09-19T16:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.0625
+            }
+          ],
+          "shooter_rank_within_possible_XI": 4,
+          "plan_B": false
+        },
+        {
+          "player_id": "605224",
+          "player": "Federico Dimarco",
+          "position_id": 88,
+          "avg_shots": 1.8,
+          "avg_minutes": 70,
+          "hits_2plus": 3,
+          "hits_3plus": 1,
+          "avg_shot_share": 0.09224,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4803408",
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749681"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4803408",
+              "date": "2026-05-23T16:00:00+00:00",
+              "shots": 2,
+              "minutes": 54,
+              "team_shots": 11,
+              "shot_share": 0.18182
+            },
+            {
+              "match_id": "5749645",
+              "date": "2026-08-22T16:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 13,
+              "shot_share": 0.07692
+            },
+            {
+              "match_id": "5749652",
+              "date": "2026-08-30T18:45:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 31,
+              "shot_share": 0.06452
+            },
+            {
+              "match_id": "5749666",
+              "date": "2026-09-05T16:00:00+00:00",
+              "shots": 4,
+              "minutes": 62,
+              "team_shots": 29,
+              "shot_share": 0.13793
+            },
+            {
+              "match_id": "5749681",
+              "date": "2026-09-19T16:00:00+00:00",
+              "shots": 0,
+              "minutes": 54,
+              "team_shots": 16,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 5,
+          "plan_B": false
+        },
+        {
+          "player_id": "541820",
+          "player": "Nicol\u00f2 Barella",
+          "position_id": 84,
+          "avg_shots": 1.6,
+          "avg_minutes": 90,
+          "hits_2plus": 3,
+          "hits_3plus": 1,
+          "avg_shot_share": 0.07279,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749673",
+            "5749681"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5749645",
+              "date": "2026-08-22T16:30:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 13,
+              "shot_share": 0.15385
+            },
+            {
+              "match_id": "5749652",
+              "date": "2026-08-30T18:45:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 31,
+              "shot_share": 0.06452
+            },
+            {
+              "match_id": "5749666",
+              "date": "2026-09-05T16:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.03448
+            },
+            {
+              "match_id": "5749673",
+              "date": "2026-09-14T18:45:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 27,
+              "shot_share": 0.11111
+            },
+            {
+              "match_id": "5749681",
+              "date": "2026-09-19T16:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 6,
+          "plan_B": false
+        },
+        {
+          "player_id": "1254297",
+          "player": "Andy Diouf",
+          "position_id": 82,
+          "avg_shots": 1.4,
+          "avg_minutes": 87,
+          "hits_2plus": 2,
+          "hits_3plus": 1,
+          "avg_shot_share": 0.08825,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4803408",
+            "5749645",
+            "5749666",
+            "5749673",
+            "5749681"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4803408",
+              "date": "2026-05-23T16:00:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.27273
+            },
+            {
+              "match_id": "5749645",
+              "date": "2026-08-22T16:30:00+00:00",
+              "shots": 0,
+              "minutes": 75,
+              "team_shots": 13,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5749666",
+              "date": "2026-09-05T16:00:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.06897
+            },
+            {
+              "match_id": "5749673",
+              "date": "2026-09-14T18:45:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 27,
+              "shot_share": 0.03704
+            },
+            {
+              "match_id": "5749681",
+              "date": "2026-09-19T16:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.0625
+            }
+          ],
+          "shooter_rank_within_possible_XI": 7,
+          "plan_B": false
+        },
+        {
+          "player_id": "521318",
+          "player": "Manuel Akanji",
+          "position_id": 35,
+          "avg_shots": 1.4,
+          "avg_minutes": 82.6,
+          "hits_2plus": 2,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.06294,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749673",
+            "5749681"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5749645",
+              "date": "2026-08-22T16:30:00+00:00",
+              "shots": 1,
+              "minutes": 75,
+              "team_shots": 13,
+              "shot_share": 0.07692
+            },
+            {
+              "match_id": "5749652",
+              "date": "2026-08-30T18:45:00+00:00",
+              "shots": 1,
+              "minutes": 68,
+              "team_shots": 31,
+              "shot_share": 0.03226
+            },
+            {
+              "match_id": "5749666",
+              "date": "2026-09-05T16:00:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.06897
+            },
+            {
+              "match_id": "5749673",
+              "date": "2026-09-14T18:45:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 27,
+              "shot_share": 0.07407
+            },
+            {
+              "match_id": "5749681",
+              "date": "2026-09-19T16:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.0625
+            }
+          ],
+          "shooter_rank_within_possible_XI": 8,
+          "plan_B": false
+        },
+        {
+          "player_id": "889535",
+          "player": "Yann Aurel Bisseck",
+          "position_id": 33,
+          "avg_shots": 1.2,
+          "avg_minutes": 90,
+          "hits_2plus": 2,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.06846,
+          "current_season_starts": 3,
+          "prior_ids": [
+            "4803392",
+            "4803408",
+            "5749645",
+            "5749666",
+            "5749681"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4803392",
+              "date": "2026-05-09T16:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 14,
+              "shot_share": 0.07143
+            },
+            {
+              "match_id": "4803408",
+              "date": "2026-05-23T16:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5749645",
+              "date": "2026-08-22T16:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 13,
+              "shot_share": 0.07692
+            },
+            {
+              "match_id": "5749666",
+              "date": "2026-09-05T16:00:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.06897
+            },
+            {
+              "match_id": "5749681",
+              "date": "2026-09-19T16:00:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.125
+            }
+          ],
+          "shooter_rank_within_possible_XI": 9,
+          "plan_B": false
+        },
+        {
+          "player_id": "805451",
+          "player": "Alessandro Bastoni",
+          "position_id": 37,
+          "avg_shots": 0.6,
+          "avg_minutes": 78.4,
+          "hits_2plus": 1,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.0254,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749673",
+            "5749681"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5749645",
+              "date": "2026-08-22T16:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 13,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5749652",
+              "date": "2026-08-30T18:45:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 31,
+              "shot_share": 0.06452
+            },
+            {
+              "match_id": "5749666",
+              "date": "2026-09-05T16:00:00+00:00",
+              "shots": 0,
+              "minutes": 79,
+              "team_shots": 29,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5749673",
+              "date": "2026-09-14T18:45:00+00:00",
+              "shots": 0,
+              "minutes": 70,
+              "team_shots": 27,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5749681",
+              "date": "2026-09-19T16:00:00+00:00",
+              "shots": 1,
+              "minutes": 63,
+              "team_shots": 16,
+              "shot_share": 0.0625
+            }
+          ],
+          "shooter_rank_within_possible_XI": 10,
+          "plan_B": false
+        },
+        {
+          "player_id": "772168",
+          "player": "Josep Mart\u00ednez",
+          "position_id": 11,
+          "avg_shots": 0,
+          "avg_minutes": 90,
+          "hits_2plus": 0,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.0,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5749645",
+            "5749652",
+            "5749666",
+            "5749673",
+            "5749681"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5749645",
+              "date": "2026-08-22T16:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 13,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5749652",
+              "date": "2026-08-30T18:45:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 31,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5749666",
+              "date": "2026-09-05T16:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5749673",
+              "date": "2026-09-14T18:45:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 27,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5749681",
+              "date": "2026-09-19T16:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 11,
+          "plan_B": false
+        }
+      ]
+    },
+    {
+      "match_id": "5071403",
+      "date": "2026-10-10T23:30:00Z",
+      "league": "MLS",
+      "fixture": "Philadelphia Union vs Real Salt Lake",
+      "environment_rank": 2,
+      "confidence_tier": "A",
+      "method": "Top 11 by starts, recency and starting minutes across the team's last five matches; not a published or confirmed lineup.",
+      "recent_team_matches": [
+        "5071327",
+        "5071340",
+        "5071365",
+        "5071374",
+        "5071385"
+      ],
+      "possible_XI": [
+        {
+          "player_id": "1078071",
+          "player": "Nathan Harriel",
+          "position_id": 36,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374",
+            "5071385"
+          ]
+        },
+        {
+          "player_id": "862284",
+          "player": "Kai Wagner",
+          "position_id": 38,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374",
+            "5071385"
+          ]
+        },
+        {
+          "player_id": "1441866",
+          "player": "Bruno Damiani",
+          "position_id": 106,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 83,
+          "source_match_ids": [
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374",
+            "5071385"
+          ]
+        },
+        {
+          "player_id": "1257540",
+          "player": "Jovan Luki\u0107",
+          "position_id": 76,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 79.2,
+          "source_match_ids": [
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374",
+            "5071385"
+          ]
+        },
+        {
+          "player_id": "1136311",
+          "player": "Milan Iloski",
+          "position_id": 104,
+          "starts_in_last_five": 4,
+          "recency_score": 13,
+          "average_start_minutes": 82,
+          "source_match_ids": [
+            "5071327",
+            "5071365",
+            "5071374",
+            "5071385"
+          ]
+        },
+        {
+          "player_id": "1101144",
+          "player": "Indiana Vassilev",
+          "position_id": 78,
+          "starts_in_last_five": 4,
+          "recency_score": 13,
+          "average_start_minutes": 67.5,
+          "source_match_ids": [
+            "5071327",
+            "5071365",
+            "5071374",
+            "5071385"
+          ]
+        },
+        {
+          "player_id": "1329461",
+          "player": "Danley Jean Jacques",
+          "position_id": 74,
+          "starts_in_last_five": 4,
+          "recency_score": 10,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374"
+          ]
+        },
+        {
+          "player_id": "1474341",
+          "player": "Francis Westfield",
+          "position_id": 32,
+          "starts_in_last_five": 4,
+          "recency_score": 10,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374"
+          ]
+        },
+        {
+          "player_id": "525631",
+          "player": "Andre Blake",
+          "position_id": 11,
+          "starts_in_last_five": 4,
+          "recency_score": 10,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374"
+          ]
+        },
+        {
+          "player_id": "1517896",
+          "player": "Neil Pierre",
+          "position_id": 34,
+          "starts_in_last_five": 4,
+          "recency_score": 10,
+          "average_start_minutes": 89,
+          "source_match_ids": [
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374"
+          ]
+        },
+        {
+          "player_id": "1630736",
+          "player": "Cavan Sullivan",
+          "position_id": 72,
+          "starts_in_last_five": 4,
+          "recency_score": 10,
+          "average_start_minutes": 79,
+          "source_match_ids": [
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374"
+          ]
+        }
+      ],
+      "evaluated_candidates": [
+        {
+          "player_id": "1136311",
+          "player": "Milan Iloski",
+          "position_id": 104,
+          "avg_shots": 4.4,
+          "avg_minutes": 83.6,
+          "hits_2plus": 5,
+          "hits_3plus": 4,
+          "avg_shot_share": 0.24079,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5071310",
+            "5071327",
+            "5071365",
+            "5071374",
+            "5071385"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5071310",
+              "date": "2026-08-29T23:30:00+00:00",
+              "shots": 7,
+              "minutes": 90,
+              "team_shots": 18,
+              "shot_share": 0.38889
+            },
+            {
+              "match_id": "5071327",
+              "date": "2026-09-05T23:30:00+00:00",
+              "shots": 3,
+              "minutes": 82,
+              "team_shots": 19,
+              "shot_share": 0.15789
+            },
+            {
+              "match_id": "5071365",
+              "date": "2026-09-14T01:00:00+00:00",
+              "shots": 4,
+              "minutes": 86,
+              "team_shots": 21,
+              "shot_share": 0.19048
+            },
+            {
+              "match_id": "5071374",
+              "date": "2026-09-20T00:30:00+00:00",
+              "shots": 2,
+              "minutes": 82,
+              "team_shots": 12,
+              "shot_share": 0.16667
+            },
+            {
+              "match_id": "5071385",
+              "date": "2026-09-26T23:30:00+00:00",
+              "shots": 6,
+              "minutes": 78,
+              "team_shots": 20,
+              "shot_share": 0.3
+            }
+          ],
+          "shooter_rank_within_possible_XI": 1,
+          "plan_B": true
+        },
+        {
+          "player_id": "1441866",
+          "player": "Bruno Damiani",
+          "position_id": 106,
+          "avg_shots": 2.8,
+          "avg_minutes": 83,
+          "hits_2plus": 4,
+          "hits_3plus": 3,
+          "avg_shot_share": 0.15348,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374",
+            "5071385"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5071327",
+              "date": "2026-09-05T23:30:00+00:00",
+              "shots": 3,
+              "minutes": 89,
+              "team_shots": 19,
+              "shot_share": 0.15789
+            },
+            {
+              "match_id": "5071340",
+              "date": "2026-09-09T23:45:00+00:00",
+              "shots": 5,
+              "minutes": 75,
+              "team_shots": 20,
+              "shot_share": 0.25
+            },
+            {
+              "match_id": "5071365",
+              "date": "2026-09-14T01:00:00+00:00",
+              "shots": 3,
+              "minutes": 77,
+              "team_shots": 21,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5071374",
+              "date": "2026-09-20T00:30:00+00:00",
+              "shots": 2,
+              "minutes": 89,
+              "team_shots": 12,
+              "shot_share": 0.16667
+            },
+            {
+              "match_id": "5071385",
+              "date": "2026-09-26T23:30:00+00:00",
+              "shots": 1,
+              "minutes": 85,
+              "team_shots": 20,
+              "shot_share": 0.05
+            }
+          ],
+          "shooter_rank_within_possible_XI": 2,
+          "plan_B": false
+        },
+        {
+          "player_id": "1630736",
+          "player": "Cavan Sullivan",
+          "position_id": 72,
+          "avg_shots": 2.8,
+          "avg_minutes": 79.2,
+          "hits_2plus": 5,
+          "hits_3plus": 4,
+          "avg_shot_share": 0.15682,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5071310",
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5071310",
+              "date": "2026-08-29T23:30:00+00:00",
+              "shots": 3,
+              "minutes": 80,
+              "team_shots": 18,
+              "shot_share": 0.16667
+            },
+            {
+              "match_id": "5071327",
+              "date": "2026-09-05T23:30:00+00:00",
+              "shots": 3,
+              "minutes": 82,
+              "team_shots": 19,
+              "shot_share": 0.15789
+            },
+            {
+              "match_id": "5071340",
+              "date": "2026-09-09T23:45:00+00:00",
+              "shots": 3,
+              "minutes": 75,
+              "team_shots": 20,
+              "shot_share": 0.15
+            },
+            {
+              "match_id": "5071365",
+              "date": "2026-09-14T01:00:00+00:00",
+              "shots": 3,
+              "minutes": 77,
+              "team_shots": 21,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5071374",
+              "date": "2026-09-20T00:30:00+00:00",
+              "shots": 2,
+              "minutes": 82,
+              "team_shots": 12,
+              "shot_share": 0.16667
+            }
+          ],
+          "shooter_rank_within_possible_XI": 3,
+          "plan_B": false
+        },
+        {
+          "player_id": "1329461",
+          "player": "Danley Jean Jacques",
+          "position_id": 74,
+          "avg_shots": 1.6,
+          "avg_minutes": 88.8,
+          "hits_2plus": 2,
+          "hits_3plus": 2,
+          "avg_shot_share": 0.08126,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5071310",
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5071310",
+              "date": "2026-08-29T23:30:00+00:00",
+              "shots": 1,
+              "minutes": 84,
+              "team_shots": 18,
+              "shot_share": 0.05556
+            },
+            {
+              "match_id": "5071327",
+              "date": "2026-09-05T23:30:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.15789
+            },
+            {
+              "match_id": "5071340",
+              "date": "2026-09-09T23:45:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 20,
+              "shot_share": 0.05
+            },
+            {
+              "match_id": "5071365",
+              "date": "2026-09-14T01:00:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 21,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5071374",
+              "date": "2026-09-20T00:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 12,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 4,
+          "plan_B": false
+        },
+        {
+          "player_id": "1101144",
+          "player": "Indiana Vassilev",
+          "position_id": 78,
+          "avg_shots": 1.4,
+          "avg_minutes": 66.8,
+          "hits_2plus": 2,
+          "hits_3plus": 1,
+          "avg_shot_share": 0.07841,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5071310",
+            "5071327",
+            "5071365",
+            "5071374",
+            "5071385"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5071310",
+              "date": "2026-08-29T23:30:00+00:00",
+              "shots": 2,
+              "minutes": 64,
+              "team_shots": 18,
+              "shot_share": 0.11111
+            },
+            {
+              "match_id": "5071327",
+              "date": "2026-09-05T23:30:00+00:00",
+              "shots": 0,
+              "minutes": 69,
+              "team_shots": 19,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071365",
+              "date": "2026-09-14T01:00:00+00:00",
+              "shots": 1,
+              "minutes": 70,
+              "team_shots": 21,
+              "shot_share": 0.04762
+            },
+            {
+              "match_id": "5071374",
+              "date": "2026-09-20T00:30:00+00:00",
+              "shots": 1,
+              "minutes": 45,
+              "team_shots": 12,
+              "shot_share": 0.08333
+            },
+            {
+              "match_id": "5071385",
+              "date": "2026-09-26T23:30:00+00:00",
+              "shots": 3,
+              "minutes": 86,
+              "team_shots": 20,
+              "shot_share": 0.15
+            }
+          ],
+          "shooter_rank_within_possible_XI": 5,
+          "plan_B": false
+        },
+        {
+          "player_id": "1474341",
+          "player": "Francis Westfield",
+          "position_id": 32,
+          "avg_shots": 0.8,
+          "avg_minutes": 90,
+          "hits_2plus": 1,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.04772,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5071310",
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5071310",
+              "date": "2026-08-29T23:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 18,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071327",
+              "date": "2026-09-05T23:30:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.10526
+            },
+            {
+              "match_id": "5071340",
+              "date": "2026-09-09T23:45:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 20,
+              "shot_share": 0.05
+            },
+            {
+              "match_id": "5071365",
+              "date": "2026-09-14T01:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 21,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071374",
+              "date": "2026-09-20T00:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 12,
+              "shot_share": 0.08333
+            }
+          ],
+          "shooter_rank_within_possible_XI": 6,
+          "plan_B": false
+        },
+        {
+          "player_id": "862284",
+          "player": "Kai Wagner",
+          "position_id": 38,
+          "avg_shots": 0.8,
+          "avg_minutes": 90,
+          "hits_2plus": 1,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.04724,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374",
+            "5071385"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5071327",
+              "date": "2026-09-05T23:30:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.10526
+            },
+            {
+              "match_id": "5071340",
+              "date": "2026-09-09T23:45:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 20,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071365",
+              "date": "2026-09-14T01:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 21,
+              "shot_share": 0.04762
+            },
+            {
+              "match_id": "5071374",
+              "date": "2026-09-20T00:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 12,
+              "shot_share": 0.08333
+            },
+            {
+              "match_id": "5071385",
+              "date": "2026-09-26T23:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 20,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 7,
+          "plan_B": false
+        },
+        {
+          "player_id": "1517896",
+          "player": "Neil Pierre",
+          "position_id": 34,
+          "avg_shots": 0.6,
+          "avg_minutes": 89.2,
+          "hits_2plus": 1,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.03016,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5071310",
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5071310",
+              "date": "2026-08-29T23:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 18,
+              "shot_share": 0.05556
+            },
+            {
+              "match_id": "5071327",
+              "date": "2026-09-05T23:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071340",
+              "date": "2026-09-09T23:45:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 20,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071365",
+              "date": "2026-09-14T01:00:00+00:00",
+              "shots": 2,
+              "minutes": 86,
+              "team_shots": 21,
+              "shot_share": 0.09524
+            },
+            {
+              "match_id": "5071374",
+              "date": "2026-09-20T00:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 12,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 8,
+          "plan_B": false
+        },
+        {
+          "player_id": "1257540",
+          "player": "Jovan Luki\u0107",
+          "position_id": 76,
+          "avg_shots": 0.4,
+          "avg_minutes": 79.2,
+          "hits_2plus": 0,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.02667,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374",
+            "5071385"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5071327",
+              "date": "2026-09-05T23:30:00+00:00",
+              "shots": 0,
+              "minutes": 69,
+              "team_shots": 19,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071340",
+              "date": "2026-09-09T23:45:00+00:00",
+              "shots": 0,
+              "minutes": 65,
+              "team_shots": 20,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071365",
+              "date": "2026-09-14T01:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 21,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071374",
+              "date": "2026-09-20T00:30:00+00:00",
+              "shots": 1,
+              "minutes": 82,
+              "team_shots": 12,
+              "shot_share": 0.08333
+            },
+            {
+              "match_id": "5071385",
+              "date": "2026-09-26T23:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 20,
+              "shot_share": 0.05
+            }
+          ],
+          "shooter_rank_within_possible_XI": 9,
+          "plan_B": false
+        },
+        {
+          "player_id": "1078071",
+          "player": "Nathan Harriel",
+          "position_id": 36,
+          "avg_shots": 0.2,
+          "avg_minutes": 90,
+          "hits_2plus": 0,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.01,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374",
+            "5071385"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5071327",
+              "date": "2026-09-05T23:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071340",
+              "date": "2026-09-09T23:45:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 20,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071365",
+              "date": "2026-09-14T01:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 21,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071374",
+              "date": "2026-09-20T00:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 12,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071385",
+              "date": "2026-09-26T23:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 20,
+              "shot_share": 0.05
+            }
+          ],
+          "shooter_rank_within_possible_XI": 10,
+          "plan_B": false
+        },
+        {
+          "player_id": "525631",
+          "player": "Andre Blake",
+          "position_id": 11,
+          "avg_shots": 0,
+          "avg_minutes": 90,
+          "hits_2plus": 0,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.0,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5071310",
+            "5071327",
+            "5071340",
+            "5071365",
+            "5071374"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5071310",
+              "date": "2026-08-29T23:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 18,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071327",
+              "date": "2026-09-05T23:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071340",
+              "date": "2026-09-09T23:45:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 20,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071365",
+              "date": "2026-09-14T01:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 21,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5071374",
+              "date": "2026-09-20T00:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 12,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 11,
+          "plan_B": false
+        }
+      ]
+    },
+    {
+      "match_id": "5795473",
+      "date": "2026-10-10T16:30:00Z",
+      "league": "Premier League",
+      "fixture": "Manchester United vs Tottenham Hotspur",
+      "environment_rank": 3,
+      "confidence_tier": "A",
+      "method": "Top 11 by starts, recency and starting minutes across the team's last five matches; not a published or confirmed lineup.",
+      "recent_team_matches": [
+        "5795364",
+        "5795432",
+        "5795438",
+        "5795452",
+        "5795459"
+      ],
+      "possible_XI": [
+        {
+          "player_id": "1178602",
+          "player": "Senne Lammens",
+          "position_id": 11,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "255610",
+          "player": "Harry Maguire",
+          "position_id": 34,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "422685",
+          "player": "Bruno Fernandes",
+          "position_id": 85,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "923312",
+          "player": "Bryan Mbeumo",
+          "position_id": 83,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "863098",
+          "player": "Matheus Cunha",
+          "position_id": 115,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 82,
+          "source_match_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "465960",
+          "player": "Youri Tielemans",
+          "position_id": 64,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 80.8,
+          "source_match_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "847983",
+          "player": "Lisandro Mart\u00ednez",
+          "position_id": 36,
+          "starts_in_last_five": 4,
+          "recency_score": 14,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "751550",
+          "player": "Diogo Dalot",
+          "position_id": 32,
+          "starts_in_last_five": 4,
+          "recency_score": 14,
+          "average_start_minutes": 84.5,
+          "source_match_ids": [
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "1292810",
+          "player": "Kobbie Mainoo",
+          "position_id": 66,
+          "starts_in_last_five": 4,
+          "recency_score": 14,
+          "average_start_minutes": 83.5,
+          "source_match_ids": [
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "696365",
+          "player": "Marcus Rashford",
+          "position_id": 87,
+          "starts_in_last_five": 4,
+          "recency_score": 14,
+          "average_start_minutes": 77.5,
+          "source_match_ids": [
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ]
+        },
+        {
+          "player_id": "362694",
+          "player": "Luke Shaw",
+          "position_id": 38,
+          "starts_in_last_five": 4,
+          "recency_score": 11,
+          "average_start_minutes": 84,
+          "source_match_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795459"
+          ]
+        }
+      ],
+      "evaluated_candidates": [
+        {
+          "player_id": "422685",
+          "player": "Bruno Fernandes",
+          "position_id": 85,
+          "avg_shots": 3.8,
+          "avg_minutes": 90,
+          "hits_2plus": 4,
+          "hits_3plus": 4,
+          "avg_shot_share": 0.16739,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795364",
+              "date": "2026-08-22T11:30:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 21,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5795432",
+              "date": "2026-08-30T15:30:00+00:00",
+              "shots": 8,
+              "minutes": 90,
+              "team_shots": 33,
+              "shot_share": 0.24242
+            },
+            {
+              "match_id": "5795438",
+              "date": "2026-09-06T13:00:00+00:00",
+              "shots": 4,
+              "minutes": 90,
+              "team_shots": 14,
+              "shot_share": 0.28571
+            },
+            {
+              "match_id": "5795452",
+              "date": "2026-09-13T15:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.0625
+            },
+            {
+              "match_id": "5795459",
+              "date": "2026-09-20T15:30:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.10345
+            }
+          ],
+          "shooter_rank_within_possible_XI": 1,
+          "plan_B": true
+        },
+        {
+          "player_id": "923312",
+          "player": "Bryan Mbeumo",
+          "position_id": 83,
+          "avg_shots": 3.8,
+          "avg_minutes": 90,
+          "hits_2plus": 5,
+          "hits_3plus": 4,
+          "avg_shot_share": 0.16895,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795364",
+              "date": "2026-08-22T11:30:00+00:00",
+              "shots": 4,
+              "minutes": 90,
+              "team_shots": 21,
+              "shot_share": 0.19048
+            },
+            {
+              "match_id": "5795432",
+              "date": "2026-08-30T15:30:00+00:00",
+              "shots": 5,
+              "minutes": 90,
+              "team_shots": 33,
+              "shot_share": 0.15152
+            },
+            {
+              "match_id": "5795438",
+              "date": "2026-09-06T13:00:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 14,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5795452",
+              "date": "2026-09-13T15:30:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.1875
+            },
+            {
+              "match_id": "5795459",
+              "date": "2026-09-20T15:30:00+00:00",
+              "shots": 5,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.17241
+            }
+          ],
+          "shooter_rank_within_possible_XI": 2,
+          "plan_B": true
+        },
+        {
+          "player_id": "863098",
+          "player": "Matheus Cunha",
+          "position_id": 115,
+          "avg_shots": 2.6,
+          "avg_minutes": 82,
+          "hits_2plus": 5,
+          "hits_3plus": 3,
+          "avg_shot_share": 0.12745,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795364",
+              "date": "2026-08-22T11:30:00+00:00",
+              "shots": 3,
+              "minutes": 80,
+              "team_shots": 21,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5795432",
+              "date": "2026-08-30T15:30:00+00:00",
+              "shots": 2,
+              "minutes": 80,
+              "team_shots": 33,
+              "shot_share": 0.06061
+            },
+            {
+              "match_id": "5795438",
+              "date": "2026-09-06T13:00:00+00:00",
+              "shots": 2,
+              "minutes": 70,
+              "team_shots": 14,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5795452",
+              "date": "2026-09-13T15:30:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.1875
+            },
+            {
+              "match_id": "5795459",
+              "date": "2026-09-20T15:30:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.10345
+            }
+          ],
+          "shooter_rank_within_possible_XI": 3,
+          "plan_B": false
+        },
+        {
+          "player_id": "751550",
+          "player": "Diogo Dalot",
+          "position_id": 32,
+          "avg_shots": 1.8,
+          "avg_minutes": 85.6,
+          "hits_2plus": 2,
+          "hits_3plus": 1,
+          "avg_shot_share": 0.07172,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4813742",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4813742",
+              "date": "2026-05-17T11:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.03448
+            },
+            {
+              "match_id": "5795432",
+              "date": "2026-08-30T15:30:00+00:00",
+              "shots": 4,
+              "minutes": 74,
+              "team_shots": 33,
+              "shot_share": 0.12121
+            },
+            {
+              "match_id": "5795438",
+              "date": "2026-09-06T13:00:00+00:00",
+              "shots": 1,
+              "minutes": 84,
+              "team_shots": 14,
+              "shot_share": 0.07143
+            },
+            {
+              "match_id": "5795452",
+              "date": "2026-09-13T15:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.0625
+            },
+            {
+              "match_id": "5795459",
+              "date": "2026-09-20T15:30:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.06897
+            }
+          ],
+          "shooter_rank_within_possible_XI": 4,
+          "plan_B": false
+        },
+        {
+          "player_id": "1292810",
+          "player": "Kobbie Mainoo",
+          "position_id": 66,
+          "avg_shots": 1.4,
+          "avg_minutes": 84.8,
+          "hits_2plus": 2,
+          "hits_3plus": 1,
+          "avg_shot_share": 0.07394,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4813745",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4813745",
+              "date": "2026-05-24T15:00:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.18182
+            },
+            {
+              "match_id": "5795432",
+              "date": "2026-08-30T15:30:00+00:00",
+              "shots": 3,
+              "minutes": 80,
+              "team_shots": 33,
+              "shot_share": 0.09091
+            },
+            {
+              "match_id": "5795438",
+              "date": "2026-09-06T13:00:00+00:00",
+              "shots": 0,
+              "minutes": 84,
+              "team_shots": 14,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795452",
+              "date": "2026-09-13T15:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.0625
+            },
+            {
+              "match_id": "5795459",
+              "date": "2026-09-20T15:30:00+00:00",
+              "shots": 1,
+              "minutes": 80,
+              "team_shots": 29,
+              "shot_share": 0.03448
+            }
+          ],
+          "shooter_rank_within_possible_XI": 5,
+          "plan_B": false
+        },
+        {
+          "player_id": "465960",
+          "player": "Youri Tielemans",
+          "position_id": 64,
+          "avg_shots": 1.4,
+          "avg_minutes": 80.8,
+          "hits_2plus": 2,
+          "hits_3plus": 1,
+          "avg_shot_share": 0.06317,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795364",
+              "date": "2026-08-22T11:30:00+00:00",
+              "shots": 1,
+              "minutes": 67,
+              "team_shots": 21,
+              "shot_share": 0.04762
+            },
+            {
+              "match_id": "5795432",
+              "date": "2026-08-30T15:30:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 33,
+              "shot_share": 0.09091
+            },
+            {
+              "match_id": "5795438",
+              "date": "2026-09-06T13:00:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 14,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5795452",
+              "date": "2026-09-13T15:30:00+00:00",
+              "shots": 0,
+              "minutes": 67,
+              "team_shots": 16,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795459",
+              "date": "2026-09-20T15:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.03448
+            }
+          ],
+          "shooter_rank_within_possible_XI": 6,
+          "plan_B": false
+        },
+        {
+          "player_id": "255610",
+          "player": "Harry Maguire",
+          "position_id": 34,
+          "avg_shots": 1.2,
+          "avg_minutes": 90,
+          "hits_2plus": 2,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.057,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795364",
+              "date": "2026-08-22T11:30:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 21,
+              "shot_share": 0.09524
+            },
+            {
+              "match_id": "5795432",
+              "date": "2026-08-30T15:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 33,
+              "shot_share": 0.0303
+            },
+            {
+              "match_id": "5795438",
+              "date": "2026-09-06T13:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 14,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795452",
+              "date": "2026-09-13T15:30:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.125
+            },
+            {
+              "match_id": "5795459",
+              "date": "2026-09-20T15:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.03448
+            }
+          ],
+          "shooter_rank_within_possible_XI": 7,
+          "plan_B": false
+        },
+        {
+          "player_id": "847983",
+          "player": "Lisandro Mart\u00ednez",
+          "position_id": 36,
+          "avg_shots": 1.2,
+          "avg_minutes": 90,
+          "hits_2plus": 1,
+          "hits_3plus": 1,
+          "avg_shot_share": 0.04615,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4813745",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4813745",
+              "date": "2026-05-24T15:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795432",
+              "date": "2026-08-30T15:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 33,
+              "shot_share": 0.0303
+            },
+            {
+              "match_id": "5795438",
+              "date": "2026-09-06T13:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 14,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795452",
+              "date": "2026-09-13T15:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.0625
+            },
+            {
+              "match_id": "5795459",
+              "date": "2026-09-20T15:30:00+00:00",
+              "shots": 4,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.13793
+            }
+          ],
+          "shooter_rank_within_possible_XI": 8,
+          "plan_B": false
+        },
+        {
+          "player_id": "362694",
+          "player": "Luke Shaw",
+          "position_id": 38,
+          "avg_shots": 0.6,
+          "avg_minutes": 83.6,
+          "hits_2plus": 0,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.03936,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4813745",
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795459"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4813745",
+              "date": "2026-05-24T15:00:00+00:00",
+              "shots": 1,
+              "minutes": 82,
+              "team_shots": 11,
+              "shot_share": 0.09091
+            },
+            {
+              "match_id": "5795364",
+              "date": "2026-08-22T11:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 21,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795432",
+              "date": "2026-08-30T15:30:00+00:00",
+              "shots": 0,
+              "minutes": 73,
+              "team_shots": 33,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795438",
+              "date": "2026-09-06T13:00:00+00:00",
+              "shots": 1,
+              "minutes": 89,
+              "team_shots": 14,
+              "shot_share": 0.07143
+            },
+            {
+              "match_id": "5795459",
+              "date": "2026-09-20T15:30:00+00:00",
+              "shots": 1,
+              "minutes": 84,
+              "team_shots": 29,
+              "shot_share": 0.03448
+            }
+          ],
+          "shooter_rank_within_possible_XI": 9,
+          "plan_B": false
+        },
+        {
+          "player_id": "1178602",
+          "player": "Senne Lammens",
+          "position_id": 11,
+          "avg_shots": 0,
+          "avg_minutes": 90,
+          "hits_2plus": 0,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.0,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795364",
+              "date": "2026-08-22T11:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 21,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795432",
+              "date": "2026-08-30T15:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 33,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795438",
+              "date": "2026-09-06T13:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 14,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795452",
+              "date": "2026-09-13T15:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795459",
+              "date": "2026-09-20T15:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 10,
+          "plan_B": false
+        }
+      ]
+    },
+    {
+      "match_id": "5795465",
+      "date": "2026-10-10T11:30:00Z",
+      "league": "Premier League",
+      "fixture": "Arsenal vs Leeds United",
+      "environment_rank": 4,
+      "confidence_tier": "A",
+      "method": "Top 11 by starts, recency and starting minutes across the team's last five matches; not a published or confirmed lineup.",
+      "recent_team_matches": [
+        "5795363",
+        "5795426",
+        "5795435",
+        "5795453",
+        "5795457"
+      ],
+      "possible_XI": [
+        {
+          "player_id": "562727",
+          "player": "David Raya",
+          "position_id": 11,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ]
+        },
+        {
+          "player_id": "795179",
+          "player": "Gabriel",
+          "position_id": 36,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ]
+        },
+        {
+          "player_id": "749736",
+          "player": "Kai Havertz",
+          "position_id": 115,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 87.6,
+          "source_match_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ]
+        },
+        {
+          "player_id": "1105912",
+          "player": "Riccardo Calafiori",
+          "position_id": 38,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 83.6,
+          "source_match_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ]
+        },
+        {
+          "player_id": "961995",
+          "player": "Bukayo Saka",
+          "position_id": 83,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 83.6,
+          "source_match_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ]
+        },
+        {
+          "player_id": "654096",
+          "player": "Declan Rice",
+          "position_id": 64,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 82.8,
+          "source_match_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ]
+        },
+        {
+          "player_id": "534670",
+          "player": "Martin \u00d8degaard",
+          "position_id": 85,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 76.4,
+          "source_match_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ]
+        },
+        {
+          "player_id": "1157237",
+          "player": "Christos Tzolis",
+          "position_id": 87,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 73,
+          "source_match_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ]
+        },
+        {
+          "player_id": "776151",
+          "player": "Ben White",
+          "position_id": 32,
+          "starts_in_last_five": 4,
+          "recency_score": 10,
+          "average_start_minutes": 78.8,
+          "source_match_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453"
+          ]
+        },
+        {
+          "player_id": "1406436",
+          "player": "Myles Lewis-Skelly",
+          "position_id": 66,
+          "starts_in_last_five": 4,
+          "recency_score": 10,
+          "average_start_minutes": 68.2,
+          "source_match_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453"
+          ]
+        },
+        {
+          "player_id": "710159",
+          "player": "Ezri Konsa",
+          "position_id": 34,
+          "starts_in_last_five": 3,
+          "recency_score": 12,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5795435",
+            "5795453",
+            "5795457"
+          ]
+        }
+      ],
+      "evaluated_candidates": [
+        {
+          "player_id": "961995",
+          "player": "Bukayo Saka",
+          "position_id": 83,
+          "avg_shots": 3,
+          "avg_minutes": 83.6,
+          "hits_2plus": 5,
+          "hits_3plus": 3,
+          "avg_shot_share": 0.24623,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795363",
+              "date": "2026-08-21T19:00:00+00:00",
+              "shots": 3,
+              "minutes": 68,
+              "team_shots": 20,
+              "shot_share": 0.15
+            },
+            {
+              "match_id": "5795426",
+              "date": "2026-08-31T19:00:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 7,
+              "shot_share": 0.28571
+            },
+            {
+              "match_id": "5795435",
+              "date": "2026-09-06T15:30:00+00:00",
+              "shots": 4,
+              "minutes": 89,
+              "team_shots": 16,
+              "shot_share": 0.25
+            },
+            {
+              "match_id": "5795453",
+              "date": "2026-09-12T19:00:00+00:00",
+              "shots": 4,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.36364
+            },
+            {
+              "match_id": "5795457",
+              "date": "2026-09-19T14:00:00+00:00",
+              "shots": 2,
+              "minutes": 81,
+              "team_shots": 11,
+              "shot_share": 0.18182
+            }
+          ],
+          "shooter_rank_within_possible_XI": 1,
+          "plan_B": true
+        },
+        {
+          "player_id": "749736",
+          "player": "Kai Havertz",
+          "position_id": 115,
+          "avg_shots": 2,
+          "avg_minutes": 87.6,
+          "hits_2plus": 3,
+          "hits_3plus": 2,
+          "avg_shot_share": 0.16698,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795363",
+              "date": "2026-08-21T19:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 20,
+              "shot_share": 0.05
+            },
+            {
+              "match_id": "5795426",
+              "date": "2026-08-31T19:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 7,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5795435",
+              "date": "2026-09-06T15:30:00+00:00",
+              "shots": 3,
+              "minutes": 78,
+              "team_shots": 16,
+              "shot_share": 0.1875
+            },
+            {
+              "match_id": "5795453",
+              "date": "2026-09-12T19:00:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.27273
+            },
+            {
+              "match_id": "5795457",
+              "date": "2026-09-19T14:00:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.18182
+            }
+          ],
+          "shooter_rank_within_possible_XI": 2,
+          "plan_B": false
+        },
+        {
+          "player_id": "1105912",
+          "player": "Riccardo Calafiori",
+          "position_id": 38,
+          "avg_shots": 1.4,
+          "avg_minutes": 83.6,
+          "hits_2plus": 2,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.11812,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795363",
+              "date": "2026-08-21T19:00:00+00:00",
+              "shots": 1,
+              "minutes": 81,
+              "team_shots": 20,
+              "shot_share": 0.05
+            },
+            {
+              "match_id": "5795426",
+              "date": "2026-08-31T19:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 7,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5795435",
+              "date": "2026-09-06T15:30:00+00:00",
+              "shots": 2,
+              "minutes": 67,
+              "team_shots": 16,
+              "shot_share": 0.125
+            },
+            {
+              "match_id": "5795453",
+              "date": "2026-09-12T19:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.09091
+            },
+            {
+              "match_id": "5795457",
+              "date": "2026-09-19T14:00:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.18182
+            }
+          ],
+          "shooter_rank_within_possible_XI": 3,
+          "plan_B": false
+        },
+        {
+          "player_id": "534670",
+          "player": "Martin \u00d8degaard",
+          "position_id": 85,
+          "avg_shots": 1.4,
+          "avg_minutes": 76.4,
+          "hits_2plus": 2,
+          "hits_3plus": 1,
+          "avg_shot_share": 0.10175,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795363",
+              "date": "2026-08-21T19:00:00+00:00",
+              "shots": 3,
+              "minutes": 76,
+              "team_shots": 20,
+              "shot_share": 0.15
+            },
+            {
+              "match_id": "5795426",
+              "date": "2026-08-31T19:00:00+00:00",
+              "shots": 1,
+              "minutes": 71,
+              "team_shots": 7,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5795435",
+              "date": "2026-09-06T15:30:00+00:00",
+              "shots": 2,
+              "minutes": 77,
+              "team_shots": 16,
+              "shot_share": 0.125
+            },
+            {
+              "match_id": "5795453",
+              "date": "2026-09-12T19:00:00+00:00",
+              "shots": 0,
+              "minutes": 85,
+              "team_shots": 11,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795457",
+              "date": "2026-09-19T14:00:00+00:00",
+              "shots": 1,
+              "minutes": 73,
+              "team_shots": 11,
+              "shot_share": 0.09091
+            }
+          ],
+          "shooter_rank_within_possible_XI": 4,
+          "plan_B": false
+        },
+        {
+          "player_id": "795179",
+          "player": "Gabriel",
+          "position_id": 36,
+          "avg_shots": 1,
+          "avg_minutes": 90,
+          "hits_2plus": 1,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.08175,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795363",
+              "date": "2026-08-21T19:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 20,
+              "shot_share": 0.05
+            },
+            {
+              "match_id": "5795426",
+              "date": "2026-08-31T19:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 7,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5795435",
+              "date": "2026-09-06T15:30:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.125
+            },
+            {
+              "match_id": "5795453",
+              "date": "2026-09-12T19:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.09091
+            },
+            {
+              "match_id": "5795457",
+              "date": "2026-09-19T14:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 5,
+          "plan_B": false
+        },
+        {
+          "player_id": "654096",
+          "player": "Declan Rice",
+          "position_id": 64,
+          "avg_shots": 0.8,
+          "avg_minutes": 82.8,
+          "hits_2plus": 1,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.05068,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795363",
+              "date": "2026-08-21T19:00:00+00:00",
+              "shots": 2,
+              "minutes": 68,
+              "team_shots": 20,
+              "shot_share": 0.1
+            },
+            {
+              "match_id": "5795426",
+              "date": "2026-08-31T19:00:00+00:00",
+              "shots": 0,
+              "minutes": 85,
+              "team_shots": 7,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795435",
+              "date": "2026-09-06T15:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.0625
+            },
+            {
+              "match_id": "5795453",
+              "date": "2026-09-12T19:00:00+00:00",
+              "shots": 0,
+              "minutes": 81,
+              "team_shots": 11,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795457",
+              "date": "2026-09-19T14:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.09091
+            }
+          ],
+          "shooter_rank_within_possible_XI": 6,
+          "plan_B": false
+        },
+        {
+          "player_id": "1157237",
+          "player": "Christos Tzolis",
+          "position_id": 87,
+          "avg_shots": 0.8,
+          "avg_minutes": 73,
+          "hits_2plus": 1,
+          "hits_3plus": 1,
+          "avg_shot_share": 0.04,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795363",
+              "date": "2026-08-21T19:00:00+00:00",
+              "shots": 4,
+              "minutes": 76,
+              "team_shots": 20,
+              "shot_share": 0.2
+            },
+            {
+              "match_id": "5795426",
+              "date": "2026-08-31T19:00:00+00:00",
+              "shots": 0,
+              "minutes": 45,
+              "team_shots": 7,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795435",
+              "date": "2026-09-06T15:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795453",
+              "date": "2026-09-12T19:00:00+00:00",
+              "shots": 0,
+              "minutes": 81,
+              "team_shots": 11,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795457",
+              "date": "2026-09-19T14:00:00+00:00",
+              "shots": 0,
+              "minutes": 73,
+              "team_shots": 11,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 7,
+          "plan_B": false
+        },
+        {
+          "player_id": "1406436",
+          "player": "Myles Lewis-Skelly",
+          "position_id": 66,
+          "avg_shots": 0.6,
+          "avg_minutes": 72.6,
+          "hits_2plus": 0,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.05107,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4813747",
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4813747",
+              "date": "2026-05-24T15:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 17,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795363",
+              "date": "2026-08-21T19:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 20,
+              "shot_share": 0.05
+            },
+            {
+              "match_id": "5795426",
+              "date": "2026-08-31T19:00:00+00:00",
+              "shots": 1,
+              "minutes": 71,
+              "team_shots": 7,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5795435",
+              "date": "2026-09-06T15:30:00+00:00",
+              "shots": 1,
+              "minutes": 67,
+              "team_shots": 16,
+              "shot_share": 0.0625
+            },
+            {
+              "match_id": "5795453",
+              "date": "2026-09-12T19:00:00+00:00",
+              "shots": 0,
+              "minutes": 45,
+              "team_shots": 11,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 8,
+          "plan_B": false
+        },
+        {
+          "player_id": "776151",
+          "player": "Ben White",
+          "position_id": 32,
+          "avg_shots": 0.2,
+          "avg_minutes": 68.6,
+          "hits_2plus": 0,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.01,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4813734",
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4813734",
+              "date": "2026-05-10T15:30:00+00:00",
+              "shots": 0,
+              "minutes": 28,
+              "team_shots": 15,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795363",
+              "date": "2026-08-21T19:00:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 20,
+              "shot_share": 0.05
+            },
+            {
+              "match_id": "5795426",
+              "date": "2026-08-31T19:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 7,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795435",
+              "date": "2026-09-06T15:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795453",
+              "date": "2026-09-12T19:00:00+00:00",
+              "shots": 0,
+              "minutes": 45,
+              "team_shots": 11,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 9,
+          "plan_B": false
+        },
+        {
+          "player_id": "562727",
+          "player": "David Raya",
+          "position_id": 11,
+          "avg_shots": 0,
+          "avg_minutes": 90,
+          "hits_2plus": 0,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.0,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795363",
+              "date": "2026-08-21T19:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 20,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795426",
+              "date": "2026-08-31T19:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 7,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795435",
+              "date": "2026-09-06T15:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795453",
+              "date": "2026-09-12T19:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5795457",
+              "date": "2026-09-19T14:00:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 10,
+          "plan_B": false
+        }
+      ]
+    },
+    {
+      "match_id": "5881186",
+      "date": "2026-10-10T16:30:00Z",
+      "league": "Bundesliga",
+      "fixture": "RB Leipzig vs Eintracht Frankfurt",
+      "environment_rank": 5,
+      "confidence_tier": "A",
+      "method": "Top 11 by starts, recency and starting minutes across the team's last five matches; not a published or confirmed lineup.",
+      "recent_team_matches": [
+        "4829616",
+        "5881150",
+        "5881160",
+        "5881168",
+        "5881170"
+      ],
+      "possible_XI": [
+        {
+          "player_id": "278856",
+          "player": "Willi Orb\u00e1n",
+          "position_id": 34,
+          "starts_in_last_five": 5,
+          "recency_score": 15,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "4829616",
+            "5881150",
+            "5881160",
+            "5881168",
+            "5881170"
+          ]
+        },
+        {
+          "player_id": "806669",
+          "player": "David Raum",
+          "position_id": 38,
+          "starts_in_last_five": 4,
+          "recency_score": 14,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5881150",
+            "5881160",
+            "5881168",
+            "5881170"
+          ]
+        },
+        {
+          "player_id": "972200",
+          "player": "Maarten Vandevoordt",
+          "position_id": 11,
+          "starts_in_last_five": 4,
+          "recency_score": 14,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5881150",
+            "5881160",
+            "5881168",
+            "5881170"
+          ]
+        },
+        {
+          "player_id": "1248482",
+          "player": "Antonio Nusa",
+          "position_id": 87,
+          "starts_in_last_five": 4,
+          "recency_score": 14,
+          "average_start_minutes": 85.5,
+          "source_match_ids": [
+            "5881150",
+            "5881160",
+            "5881168",
+            "5881170"
+          ]
+        },
+        {
+          "player_id": "1310001",
+          "player": "Ezechiel Banzuzi",
+          "position_id": 64,
+          "starts_in_last_five": 4,
+          "recency_score": 14,
+          "average_start_minutes": 82.5,
+          "source_match_ids": [
+            "5881150",
+            "5881160",
+            "5881168",
+            "5881170"
+          ]
+        },
+        {
+          "player_id": "1430151",
+          "player": "Brajan Gruda",
+          "position_id": 83,
+          "starts_in_last_five": 4,
+          "recency_score": 12,
+          "average_start_minutes": 63,
+          "source_match_ids": [
+            "4829616",
+            "5881150",
+            "5881168",
+            "5881170"
+          ]
+        },
+        {
+          "player_id": "1274060",
+          "player": "Neil El Aynaoui",
+          "position_id": 66,
+          "starts_in_last_five": 3,
+          "recency_score": 12,
+          "average_start_minutes": 85,
+          "source_match_ids": [
+            "5881160",
+            "5881168",
+            "5881170"
+          ]
+        },
+        {
+          "player_id": "883087",
+          "player": "Ridle Baku",
+          "position_id": 32,
+          "starts_in_last_five": 3,
+          "recency_score": 10,
+          "average_start_minutes": 82.3,
+          "source_match_ids": [
+            "5881150",
+            "5881160",
+            "5881170"
+          ]
+        },
+        {
+          "player_id": "1253852",
+          "player": "Castello Lukeba",
+          "position_id": 36,
+          "starts_in_last_five": 3,
+          "recency_score": 7,
+          "average_start_minutes": 84.3,
+          "source_match_ids": [
+            "4829616",
+            "5881150",
+            "5881168"
+          ]
+        },
+        {
+          "player_id": "1024672",
+          "player": "Nicolas Seiwald",
+          "position_id": 75,
+          "starts_in_last_five": 3,
+          "recency_score": 6,
+          "average_start_minutes": 84.3,
+          "source_match_ids": [
+            "4829616",
+            "5881150",
+            "5881160"
+          ]
+        },
+        {
+          "player_id": "1250443",
+          "player": "Maxime Est\u00e8ve",
+          "position_id": 36,
+          "starts_in_last_five": 2,
+          "recency_score": 8,
+          "average_start_minutes": 90,
+          "source_match_ids": [
+            "5881160",
+            "5881170"
+          ]
+        }
+      ],
+      "evaluated_candidates": [
+        {
+          "player_id": "1248482",
+          "player": "Antonio Nusa",
+          "position_id": 87,
+          "avg_shots": 2.2,
+          "avg_minutes": 77.4,
+          "hits_2plus": 4,
+          "hits_3plus": 1,
+          "avg_shot_share": 0.12172,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4829594",
+            "5881150",
+            "5881160",
+            "5881168",
+            "5881170"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4829594",
+              "date": "2026-05-02T16:30:00+00:00",
+              "shots": 1,
+              "minutes": 45,
+              "team_shots": 14,
+              "shot_share": 0.07143
+            },
+            {
+              "match_id": "5881150",
+              "date": "2026-08-29T13:30:00+00:00",
+              "shots": 4,
+              "minutes": 90,
+              "team_shots": 25,
+              "shot_share": 0.16
+            },
+            {
+              "match_id": "5881160",
+              "date": "2026-09-05T13:30:00+00:00",
+              "shots": 2,
+              "minutes": 84,
+              "team_shots": 19,
+              "shot_share": 0.10526
+            },
+            {
+              "match_id": "5881168",
+              "date": "2026-09-13T13:30:00+00:00",
+              "shots": 2,
+              "minutes": 78,
+              "team_shots": 19,
+              "shot_share": 0.10526
+            },
+            {
+              "match_id": "5881170",
+              "date": "2026-09-20T13:30:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 12,
+              "shot_share": 0.16667
+            }
+          ],
+          "shooter_rank_within_possible_XI": 1,
+          "plan_B": false
+        },
+        {
+          "player_id": "1430151",
+          "player": "Brajan Gruda",
+          "position_id": 83,
+          "avg_shots": 1.8,
+          "avg_minutes": 66.2,
+          "hits_2plus": 3,
+          "hits_3plus": 1,
+          "avg_shot_share": 0.11416,
+          "current_season_starts": 3,
+          "prior_ids": [
+            "4829609",
+            "4829616",
+            "5881150",
+            "5881168",
+            "5881170"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4829609",
+              "date": "2026-05-09T13:30:00+00:00",
+              "shots": 3,
+              "minutes": 79,
+              "team_shots": 13,
+              "shot_share": 0.23077
+            },
+            {
+              "match_id": "4829616",
+              "date": "2026-05-16T13:30:00+00:00",
+              "shots": 1,
+              "minutes": 63,
+              "team_shots": 14,
+              "shot_share": 0.07143
+            },
+            {
+              "match_id": "5881150",
+              "date": "2026-08-29T13:30:00+00:00",
+              "shots": 2,
+              "minutes": 73,
+              "team_shots": 25,
+              "shot_share": 0.08
+            },
+            {
+              "match_id": "5881168",
+              "date": "2026-09-13T13:30:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.10526
+            },
+            {
+              "match_id": "5881170",
+              "date": "2026-09-20T13:30:00+00:00",
+              "shots": 1,
+              "minutes": 26,
+              "team_shots": 12,
+              "shot_share": 0.08333
+            }
+          ],
+          "shooter_rank_within_possible_XI": 2,
+          "plan_B": false
+        },
+        {
+          "player_id": "278856",
+          "player": "Willi Orb\u00e1n",
+          "position_id": 34,
+          "avg_shots": 1.6,
+          "avg_minutes": 90,
+          "hits_2plus": 3,
+          "hits_3plus": 1,
+          "avg_shot_share": 0.0853,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4829616",
+            "5881150",
+            "5881160",
+            "5881168",
+            "5881170"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4829616",
+              "date": "2026-05-16T13:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 14,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5881150",
+              "date": "2026-08-29T13:30:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 25,
+              "shot_share": 0.08
+            },
+            {
+              "match_id": "5881160",
+              "date": "2026-09-05T13:30:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.10526
+            },
+            {
+              "match_id": "5881168",
+              "date": "2026-09-13T13:30:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.15789
+            },
+            {
+              "match_id": "5881170",
+              "date": "2026-09-20T13:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 12,
+              "shot_share": 0.08333
+            }
+          ],
+          "shooter_rank_within_possible_XI": 3,
+          "plan_B": false
+        },
+        {
+          "player_id": "883087",
+          "player": "Ridle Baku",
+          "position_id": 32,
+          "avg_shots": 1.2,
+          "avg_minutes": 85.2,
+          "hits_2plus": 2,
+          "hits_3plus": 1,
+          "avg_shot_share": 0.06186,
+          "current_season_starts": 3,
+          "prior_ids": [
+            "4829594",
+            "4829609",
+            "5881150",
+            "5881160",
+            "5881170"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4829594",
+              "date": "2026-05-02T16:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 14,
+              "shot_share": 0.07143
+            },
+            {
+              "match_id": "4829609",
+              "date": "2026-05-09T13:30:00+00:00",
+              "shots": 0,
+              "minutes": 89,
+              "team_shots": 13,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5881150",
+              "date": "2026-08-29T13:30:00+00:00",
+              "shots": 2,
+              "minutes": 73,
+              "team_shots": 25,
+              "shot_share": 0.08
+            },
+            {
+              "match_id": "5881160",
+              "date": "2026-09-05T13:30:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.15789
+            },
+            {
+              "match_id": "5881170",
+              "date": "2026-09-20T13:30:00+00:00",
+              "shots": 0,
+              "minutes": 84,
+              "team_shots": 12,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 4,
+          "plan_B": false
+        },
+        {
+          "player_id": "806669",
+          "player": "David Raum",
+          "position_id": 38,
+          "avg_shots": 0.6,
+          "avg_minutes": 85.8,
+          "hits_2plus": 0,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.02905,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4829609",
+            "5881150",
+            "5881160",
+            "5881168",
+            "5881170"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4829609",
+              "date": "2026-05-09T13:30:00+00:00",
+              "shots": 0,
+              "minutes": 69,
+              "team_shots": 13,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5881150",
+              "date": "2026-08-29T13:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 25,
+              "shot_share": 0.04
+            },
+            {
+              "match_id": "5881160",
+              "date": "2026-09-05T13:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.05263
+            },
+            {
+              "match_id": "5881168",
+              "date": "2026-09-13T13:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.05263
+            },
+            {
+              "match_id": "5881170",
+              "date": "2026-09-20T13:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 12,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 5,
+          "plan_B": false
+        },
+        {
+          "player_id": "1024672",
+          "player": "Nicolas Seiwald",
+          "position_id": 75,
+          "avg_shots": 0.6,
+          "avg_minutes": 81.6,
+          "hits_2plus": 1,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.03534,
+          "current_season_starts": 2,
+          "prior_ids": [
+            "4829579",
+            "4829594",
+            "4829616",
+            "5881150",
+            "5881160"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4829579",
+              "date": "2026-04-18T16:30:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.10526
+            },
+            {
+              "match_id": "4829594",
+              "date": "2026-05-02T16:30:00+00:00",
+              "shots": 1,
+              "minutes": 65,
+              "team_shots": 14,
+              "shot_share": 0.07143
+            },
+            {
+              "match_id": "4829616",
+              "date": "2026-05-16T13:30:00+00:00",
+              "shots": 0,
+              "minutes": 73,
+              "team_shots": 14,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5881150",
+              "date": "2026-08-29T13:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 25,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5881160",
+              "date": "2026-09-05T13:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 6,
+          "plan_B": false
+        },
+        {
+          "player_id": "972200",
+          "player": "Maarten Vandevoordt",
+          "position_id": 11,
+          "avg_shots": 0,
+          "avg_minutes": 90,
+          "hits_2plus": 0,
+          "hits_3plus": 0,
+          "avg_shot_share": 0.0,
+          "current_season_starts": 4,
+          "prior_ids": [
+            "4829609",
+            "5881150",
+            "5881160",
+            "5881168",
+            "5881170"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "4829609",
+              "date": "2026-05-09T13:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 13,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5881150",
+              "date": "2026-08-29T13:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 25,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5881160",
+              "date": "2026-09-05T13:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5881168",
+              "date": "2026-09-13T13:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 19,
+              "shot_share": 0.0
+            },
+            {
+              "match_id": "5881170",
+              "date": "2026-09-20T13:30:00+00:00",
+              "shots": 0,
+              "minutes": 90,
+              "team_shots": 12,
+              "shot_share": 0.0
+            }
+          ],
+          "shooter_rank_within_possible_XI": 7,
+          "plan_B": false
+        }
+      ]
+    }
+  ],
+  "all_provisional_plan_B_candidates": [
+    {
+      "player_id": "1136311",
+      "player": "Milan Iloski",
+      "position_id": 104,
+      "avg_shots": 4.4,
+      "avg_minutes": 83.6,
+      "hits_2plus": 5,
+      "hits_3plus": 4,
+      "avg_shot_share": 0.24079,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5071310",
+        "5071327",
+        "5071365",
+        "5071374",
+        "5071385"
+      ],
+      "prior_rows": [
+        {
+          "match_id": "5071310",
+          "date": "2026-08-29T23:30:00+00:00",
+          "shots": 7,
+          "minutes": 90,
+          "team_shots": 18,
+          "shot_share": 0.38889
+        },
+        {
+          "match_id": "5071327",
+          "date": "2026-09-05T23:30:00+00:00",
+          "shots": 3,
+          "minutes": 82,
+          "team_shots": 19,
+          "shot_share": 0.15789
+        },
+        {
+          "match_id": "5071365",
+          "date": "2026-09-14T01:00:00+00:00",
+          "shots": 4,
+          "minutes": 86,
+          "team_shots": 21,
+          "shot_share": 0.19048
+        },
+        {
+          "match_id": "5071374",
+          "date": "2026-09-20T00:30:00+00:00",
+          "shots": 2,
+          "minutes": 82,
+          "team_shots": 12,
+          "shot_share": 0.16667
+        },
+        {
+          "match_id": "5071385",
+          "date": "2026-09-26T23:30:00+00:00",
+          "shots": 6,
+          "minutes": 78,
+          "team_shots": 20,
+          "shot_share": 0.3
+        }
+      ],
+      "shooter_rank_within_possible_XI": 1,
+      "plan_B": true,
+      "match_id": "5071403",
+      "date": "2026-10-10T23:30:00Z",
+      "league": "MLS",
+      "fixture": "Philadelphia Union vs Real Salt Lake",
+      "home_team_id": "191716",
+      "environment_rank": 2,
+      "environment_score": 89.4
+    },
+    {
+      "player_id": "923312",
+      "player": "Bryan Mbeumo",
+      "position_id": 83,
+      "avg_shots": 3.8,
+      "avg_minutes": 90,
+      "hits_2plus": 5,
+      "hits_3plus": 4,
+      "avg_shot_share": 0.16895,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5795364",
+        "5795432",
+        "5795438",
+        "5795452",
+        "5795459"
+      ],
+      "prior_rows": [
+        {
+          "match_id": "5795364",
+          "date": "2026-08-22T11:30:00+00:00",
+          "shots": 4,
+          "minutes": 90,
+          "team_shots": 21,
+          "shot_share": 0.19048
+        },
+        {
+          "match_id": "5795432",
+          "date": "2026-08-30T15:30:00+00:00",
+          "shots": 5,
+          "minutes": 90,
+          "team_shots": 33,
+          "shot_share": 0.15152
+        },
+        {
+          "match_id": "5795438",
+          "date": "2026-09-06T13:00:00+00:00",
+          "shots": 2,
+          "minutes": 90,
+          "team_shots": 14,
+          "shot_share": 0.14286
+        },
+        {
+          "match_id": "5795452",
+          "date": "2026-09-13T15:30:00+00:00",
+          "shots": 3,
+          "minutes": 90,
+          "team_shots": 16,
+          "shot_share": 0.1875
+        },
+        {
+          "match_id": "5795459",
+          "date": "2026-09-20T15:30:00+00:00",
+          "shots": 5,
+          "minutes": 90,
+          "team_shots": 29,
+          "shot_share": 0.17241
+        }
+      ],
+      "shooter_rank_within_possible_XI": 2,
+      "plan_B": true,
+      "match_id": "5795473",
+      "date": "2026-10-10T16:30:00Z",
+      "league": "Premier League",
+      "fixture": "Manchester United vs Tottenham Hotspur",
+      "home_team_id": "10260",
+      "environment_rank": 3,
+      "environment_score": 88.0
+    },
+    {
+      "player_id": "422685",
+      "player": "Bruno Fernandes",
+      "position_id": 85,
+      "avg_shots": 3.8,
+      "avg_minutes": 90,
+      "hits_2plus": 4,
+      "hits_3plus": 4,
+      "avg_shot_share": 0.16739,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5795364",
+        "5795432",
+        "5795438",
+        "5795452",
+        "5795459"
+      ],
+      "prior_rows": [
+        {
+          "match_id": "5795364",
+          "date": "2026-08-22T11:30:00+00:00",
+          "shots": 3,
+          "minutes": 90,
+          "team_shots": 21,
+          "shot_share": 0.14286
+        },
+        {
+          "match_id": "5795432",
+          "date": "2026-08-30T15:30:00+00:00",
+          "shots": 8,
+          "minutes": 90,
+          "team_shots": 33,
+          "shot_share": 0.24242
+        },
+        {
+          "match_id": "5795438",
+          "date": "2026-09-06T13:00:00+00:00",
+          "shots": 4,
+          "minutes": 90,
+          "team_shots": 14,
+          "shot_share": 0.28571
+        },
+        {
+          "match_id": "5795452",
+          "date": "2026-09-13T15:30:00+00:00",
+          "shots": 1,
+          "minutes": 90,
+          "team_shots": 16,
+          "shot_share": 0.0625
+        },
+        {
+          "match_id": "5795459",
+          "date": "2026-09-20T15:30:00+00:00",
+          "shots": 3,
+          "minutes": 90,
+          "team_shots": 29,
+          "shot_share": 0.10345
+        }
+      ],
+      "shooter_rank_within_possible_XI": 1,
+      "plan_B": true,
+      "match_id": "5795473",
+      "date": "2026-10-10T16:30:00Z",
+      "league": "Premier League",
+      "fixture": "Manchester United vs Tottenham Hotspur",
+      "home_team_id": "10260",
+      "environment_rank": 3,
+      "environment_score": 88.0
+    },
+    {
+      "player_id": "961995",
+      "player": "Bukayo Saka",
+      "position_id": 83,
+      "avg_shots": 3,
+      "avg_minutes": 83.6,
+      "hits_2plus": 5,
+      "hits_3plus": 3,
+      "avg_shot_share": 0.24623,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5795363",
+        "5795426",
+        "5795435",
+        "5795453",
+        "5795457"
+      ],
+      "prior_rows": [
+        {
+          "match_id": "5795363",
+          "date": "2026-08-21T19:00:00+00:00",
+          "shots": 3,
+          "minutes": 68,
+          "team_shots": 20,
+          "shot_share": 0.15
+        },
+        {
+          "match_id": "5795426",
+          "date": "2026-08-31T19:00:00+00:00",
+          "shots": 2,
+          "minutes": 90,
+          "team_shots": 7,
+          "shot_share": 0.28571
+        },
+        {
+          "match_id": "5795435",
+          "date": "2026-09-06T15:30:00+00:00",
+          "shots": 4,
+          "minutes": 89,
+          "team_shots": 16,
+          "shot_share": 0.25
+        },
+        {
+          "match_id": "5795453",
+          "date": "2026-09-12T19:00:00+00:00",
+          "shots": 4,
+          "minutes": 90,
+          "team_shots": 11,
+          "shot_share": 0.36364
+        },
+        {
+          "match_id": "5795457",
+          "date": "2026-09-19T14:00:00+00:00",
+          "shots": 2,
+          "minutes": 81,
+          "team_shots": 11,
+          "shot_share": 0.18182
+        }
+      ],
+      "shooter_rank_within_possible_XI": 1,
+      "plan_B": true,
+      "match_id": "5795465",
+      "date": "2026-10-10T11:30:00Z",
+      "league": "Premier League",
+      "fixture": "Arsenal vs Leeds United",
+      "home_team_id": "9825",
+      "environment_rank": 4,
+      "environment_score": 81.7
+    }
+  ],
+  "provisional_top3": [
+    {
+      "player_id": "1136311",
+      "player": "Milan Iloski",
+      "position_id": 104,
+      "avg_shots": 4.4,
+      "avg_minutes": 83.6,
+      "hits_2plus": 5,
+      "hits_3plus": 4,
+      "avg_shot_share": 0.24079,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5071310",
+        "5071327",
+        "5071365",
+        "5071374",
+        "5071385"
+      ],
+      "prior_rows": [
+        {
+          "match_id": "5071310",
+          "date": "2026-08-29T23:30:00+00:00",
+          "shots": 7,
+          "minutes": 90,
+          "team_shots": 18,
+          "shot_share": 0.38889
+        },
+        {
+          "match_id": "5071327",
+          "date": "2026-09-05T23:30:00+00:00",
+          "shots": 3,
+          "minutes": 82,
+          "team_shots": 19,
+          "shot_share": 0.15789
+        },
+        {
+          "match_id": "5071365",
+          "date": "2026-09-14T01:00:00+00:00",
+          "shots": 4,
+          "minutes": 86,
+          "team_shots": 21,
+          "shot_share": 0.19048
+        },
+        {
+          "match_id": "5071374",
+          "date": "2026-09-20T00:30:00+00:00",
+          "shots": 2,
+          "minutes": 82,
+          "team_shots": 12,
+          "shot_share": 0.16667
+        },
+        {
+          "match_id": "5071385",
+          "date": "2026-09-26T23:30:00+00:00",
+          "shots": 6,
+          "minutes": 78,
+          "team_shots": 20,
+          "shot_share": 0.3
+        }
+      ],
+      "shooter_rank_within_possible_XI": 1,
+      "plan_B": true,
+      "match_id": "5071403",
+      "date": "2026-10-10T23:30:00Z",
+      "league": "MLS",
+      "fixture": "Philadelphia Union vs Real Salt Lake",
+      "home_team_id": "191716",
+      "environment_rank": 2,
+      "environment_score": 89.4,
+      "provisional_rank": 1,
+      "status": "provisional_awaiting_confirmed_lineup"
+    },
+    {
+      "player_id": "923312",
+      "player": "Bryan Mbeumo",
+      "position_id": 83,
+      "avg_shots": 3.8,
+      "avg_minutes": 90,
+      "hits_2plus": 5,
+      "hits_3plus": 4,
+      "avg_shot_share": 0.16895,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5795364",
+        "5795432",
+        "5795438",
+        "5795452",
+        "5795459"
+      ],
+      "prior_rows": [
+        {
+          "match_id": "5795364",
+          "date": "2026-08-22T11:30:00+00:00",
+          "shots": 4,
+          "minutes": 90,
+          "team_shots": 21,
+          "shot_share": 0.19048
+        },
+        {
+          "match_id": "5795432",
+          "date": "2026-08-30T15:30:00+00:00",
+          "shots": 5,
+          "minutes": 90,
+          "team_shots": 33,
+          "shot_share": 0.15152
+        },
+        {
+          "match_id": "5795438",
+          "date": "2026-09-06T13:00:00+00:00",
+          "shots": 2,
+          "minutes": 90,
+          "team_shots": 14,
+          "shot_share": 0.14286
+        },
+        {
+          "match_id": "5795452",
+          "date": "2026-09-13T15:30:00+00:00",
+          "shots": 3,
+          "minutes": 90,
+          "team_shots": 16,
+          "shot_share": 0.1875
+        },
+        {
+          "match_id": "5795459",
+          "date": "2026-09-20T15:30:00+00:00",
+          "shots": 5,
+          "minutes": 90,
+          "team_shots": 29,
+          "shot_share": 0.17241
+        }
+      ],
+      "shooter_rank_within_possible_XI": 2,
+      "plan_B": true,
+      "match_id": "5795473",
+      "date": "2026-10-10T16:30:00Z",
+      "league": "Premier League",
+      "fixture": "Manchester United vs Tottenham Hotspur",
+      "home_team_id": "10260",
+      "environment_rank": 3,
+      "environment_score": 88.0,
+      "provisional_rank": 2,
+      "status": "provisional_awaiting_confirmed_lineup"
+    },
+    {
+      "player_id": "422685",
+      "player": "Bruno Fernandes",
+      "position_id": 85,
+      "avg_shots": 3.8,
+      "avg_minutes": 90,
+      "hits_2plus": 4,
+      "hits_3plus": 4,
+      "avg_shot_share": 0.16739,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5795364",
+        "5795432",
+        "5795438",
+        "5795452",
+        "5795459"
+      ],
+      "prior_rows": [
+        {
+          "match_id": "5795364",
+          "date": "2026-08-22T11:30:00+00:00",
+          "shots": 3,
+          "minutes": 90,
+          "team_shots": 21,
+          "shot_share": 0.14286
+        },
+        {
+          "match_id": "5795432",
+          "date": "2026-08-30T15:30:00+00:00",
+          "shots": 8,
+          "minutes": 90,
+          "team_shots": 33,
+          "shot_share": 0.24242
+        },
+        {
+          "match_id": "5795438",
+          "date": "2026-09-06T13:00:00+00:00",
+          "shots": 4,
+          "minutes": 90,
+          "team_shots": 14,
+          "shot_share": 0.28571
+        },
+        {
+          "match_id": "5795452",
+          "date": "2026-09-13T15:30:00+00:00",
+          "shots": 1,
+          "minutes": 90,
+          "team_shots": 16,
+          "shot_share": 0.0625
+        },
+        {
+          "match_id": "5795459",
+          "date": "2026-09-20T15:30:00+00:00",
+          "shots": 3,
+          "minutes": 90,
+          "team_shots": 29,
+          "shot_share": 0.10345
+        }
+      ],
+      "shooter_rank_within_possible_XI": 1,
+      "plan_B": true,
+      "match_id": "5795473",
+      "date": "2026-10-10T16:30:00Z",
+      "league": "Premier League",
+      "fixture": "Manchester United vs Tottenham Hotspur",
+      "home_team_id": "10260",
+      "environment_rank": 3,
+      "environment_score": 88.0,
+      "provisional_rank": 3,
+      "status": "provisional_awaiting_confirmed_lineup"
+    }
+  ]
+}

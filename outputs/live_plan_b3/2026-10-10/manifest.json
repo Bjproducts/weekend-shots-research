@@ -1,0 +1,12 @@
+{
+  "environment_snapshot_sha256": "f479e42efdf9d5fb8ea386ef34f0919702b69aeed4f1d15da86d5f32e29c9e11",
+  "spec_sha256": "4b6833dd910746dfa65d56efa64208107cf7c784c1e360861f0876036aed74a7",
+  "selected_environment_ids": [
+    "5749694",
+    "5071403",
+    "5795473",
+    "5795465",
+    "5881186"
+  ],
+  "outcome_accessed": false
+}

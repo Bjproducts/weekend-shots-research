@@ -43,3 +43,6 @@ outputs/qwen_worker/
 outputs/on_demand/browser_probe/
 outputs/on_demand/jobs/
 
+# Reproducible live Plan B acquisition cache and normalized history
+outputs/live_plan_b3/**/history_raw/
+outputs/live_plan_b3/**/history_matches.json

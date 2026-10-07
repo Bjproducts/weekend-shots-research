@@ -1,0 +1,56 @@
+{
+  "version": "live-plan-b3-v1",
+  "created_date": "2026-10-07",
+  "status": "frozen_before_2026-10-10_candidate_outcomes",
+  "leagues": {
+    "Premier League": {"fotmob_id": 47, "country": "ENG", "current_season": "2026/2027", "history_seasons": ["2025/2026", "2026/2027"]},
+    "Serie A": {"fotmob_id": 55, "country": "ITA", "current_season": "2026/2027", "history_seasons": ["2025/2026", "2026/2027"]},
+    "Bundesliga": {"fotmob_id": 54, "country": "GER", "current_season": "2026/2027", "history_seasons": ["2025/2026", "2026/2027"]},
+    "MLS": {"fotmob_id": 130, "country": "USA", "current_season": "2026", "history_seasons": ["2026"]}
+  },
+  "environment": {
+    "minimum_team_matches": 5,
+    "maximum_team_matches": 8,
+    "minimum_venue_matches": 2,
+    "weights": {
+      "overall_ppg_gap_percentile": 0.30,
+      "recent_five_ppg_gap_percentile": 0.30,
+      "projected_home_shots_percentile": 0.25,
+      "projected_shot_gap_percentile": 0.15
+    },
+    "selection": "Top five ranked Tier A/B environments across all four leagues for the Saturday/Sunday weekend.",
+    "tier_A": "Both teams have at least three current-season matches in the selected history.",
+    "tier_B": "Both teams have at least one current-season match in the selected history.",
+    "tier_C": "Informational only; never produces a pick."
+  },
+  "candidate_plan_B": {
+    "target": "3+ total shots",
+    "confirmed_home_starter_required": true,
+    "previous_same_player_same_team_starts": 5,
+    "lookback_days": 180,
+    "home_shooter_rank_max": 2,
+    "previous_2plus_hits_min": 4,
+    "previous_average_shots_min": 3.0,
+    "previous_average_minutes_min": 80.0
+  },
+  "three_plus_ranking": [
+    "previous-five 3+ shot hits descending",
+    "previous-five average player share of team shots descending",
+    "previous-five average shots descending",
+    "previous-five average minutes descending",
+    "environment rank ascending",
+    "player id ascending"
+  ],
+  "weekend_board": {
+    "provisional_top_n": 3,
+    "method": "Build a possible-XI board before matchday. A provisional name becomes official only after that same player is confirmed in the home starting XI before kickoff.",
+    "replacement_policy": "Do not silently replace a failed provisional top-three name with a lower-ranked player after outcomes or kickoff. Fewer than three official picks is acceptable."
+  },
+  "integrity": [
+    "Every historical feature must use records strictly before the fixture cutoff.",
+    "Environment snapshots, manifests, frozen boards, official locks and settlements are immutable once written.",
+    "Possible lineups and provisional candidates are never counted as official picks.",
+    "Missing fields remain missing; never invent shots, minutes or starters.",
+    "The 3+ workflow is separate from the frozen 2+ Plan A/Plan B research."
+  ]
+}
