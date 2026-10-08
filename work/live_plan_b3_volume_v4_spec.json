@@ -1,0 +1,18 @@
+{
+  "version": "live-plan-b3-volume-v4",
+  "created_date": "2026-10-08",
+  "status": "prospective_challenger_frozen_before_2026-10-10_outcomes",
+  "control": "live-plan-b3-league-balanced-v3",
+  "inherits": "v3 environment selection, Plan B gates, home-only rule and consistency-v2 ordering",
+  "candidate_selection": "Keep the strongest qualifying candidate from each fixture, rank fixture champions globally, allow at most two candidates per league, then take at most three.",
+  "maximum_candidates": 3,
+  "maximum_candidates_per_league": 2,
+  "maximum_candidates_per_fixture": 1,
+  "ranking_mode": "similar_average_then_consistency",
+  "consistency_rule": {
+    "similar_average_shots_max_difference": 0.5
+  },
+  "replacement_policy": "Never promote a lower-ranked replacement after the challenger board is frozen.",
+  "prospective_control_unchanged": true,
+  "automatic_betting": false
+}

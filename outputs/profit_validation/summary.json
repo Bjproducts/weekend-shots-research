@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-08T12:34:53.164752+00:00",
+  "generated_utc": "2026-10-08T13:01:21.401143+00:00",
   "version": "profit-validation-v1-frozen-v3",
   "paper_only": true,
   "odds_api_configured": true,
@@ -28,7 +28,8 @@
     "peak_bankroll": 100.0,
     "maximum_drawdown": 0.0,
     "outstanding_exposure": 0,
-    "insolvent": false
+    "insolvent": false,
+    "staking_track": "stress_90"
   },
   "active_weekends": 0,
   "leagues": {},

@@ -1,6 +1,14 @@
 # Weekend Shots Research — Progress and Current State
 
-Updated: 7 October 2026.
+Updated: 8 October 2026.
+
+## Higher-volume v4 challenger
+
+League-balanced v3 remains the frozen control. Volume v4 is a separate challenger that keeps the same quality gates but permits up to two candidates from one league, never more than one from a fixture, and three total. Its 2026-10-10 board is frozen separately and currently contains Milan Iloski, Bryan Mbeumo and Bukayo Saka; these are provisional until a complete `standard` home starting lineup is confirmed.
+
+The historical structural replay returned **33/38 3+ hits (86.8%)**, but the assumed-1.50 kickoff-window replay still formed only one two-leg combination. The fixed-10 track ended at 112.50 and the 90% stress track at 212.50. Those are hypothetical mechanics from one ticket, not captured-price profit evidence, and they do not enter the prospective gate.
+
+Prospective v4 evidence is stored separately in `profit_challenger/`; it starts at zero official legs. The fixed 10% track is the primary benchmark, the 90% track is a stress test, and shared physical quote snapshots are referenced by both v3 and v4 to avoid duplicate collection. No automatic betting is implemented.
 
 ## Live four-league Plan B 3+ scanner
 

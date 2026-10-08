@@ -16,6 +16,8 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "outputs/season_to_date_plan_b3"
 SOURCE = OUT
 SPEC_PATH = ROOT / "work/season_to_date_plan_b3_spec.json"
+SPEC_OVERLAY = {}
+EFFECTIVE_SPEC_PATH = None
 
 
 def load(path: Path):
@@ -249,6 +251,7 @@ def make_environment(
 
 def main() -> None:
     spec = load(SPEC_PATH)
+    spec.update(SPEC_OVERLAY)
     acquisition = load(SOURCE / "acquisition.json")
     if acquisition["failures"]:
         raise SystemExit("Acquisition failures must be resolved before replay.")
@@ -407,6 +410,23 @@ def main() -> None:
                     league_balanced.append(item)
                     used_leagues.add(item["league"])
             plan_b_candidates = league_balanced
+        elif spec.get("board_mode") == "max_two_per_league_one_per_fixture":
+            fixture_champions = []
+            used_fixtures = set()
+            for item in plan_b_candidates:
+                if item["match_id"] not in used_fixtures:
+                    fixture_champions.append(item)
+                    used_fixtures.add(item["match_id"])
+            volume_board = []
+            league_counts = Counter()
+            for item in fixture_champions:
+                if league_counts[item["league"]] >= 2:
+                    continue
+                volume_board.append(item)
+                league_counts[item["league"]] += 1
+                if len(volume_board) >= 3:
+                    break
+            plan_b_candidates = volume_board
         provisional = [
             {**item, "provisional_rank": rank}
             for rank, item in enumerate(plan_b_candidates[:3], 1)
@@ -540,7 +560,7 @@ def main() -> None:
         "status": "retrospective_season_to_date_replay_complete",
         "created_utc": datetime.now(timezone.utc).isoformat(),
         "spec_version": spec["version"],
-        "spec_sha256": digest(SPEC_PATH),
+        "spec_sha256": digest(EFFECTIVE_SPEC_PATH or SPEC_PATH),
         "source_retrieved_utc": acquisition["retrieved_utc"],
         "source_matches": len(matches),
         "target_weekend_fixtures": len(fixtures),

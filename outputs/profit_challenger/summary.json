@@ -1,0 +1,83 @@
+{
+  "generated_utc": "2026-10-08T13:05:44.677231+00:00",
+  "version": "profit-validation-volume-v4",
+  "strategy_id": "volume_v4",
+  "control_strategy": "league_balanced_v3",
+  "paper_only": true,
+  "historical_assumed_prices_included": false,
+  "official_legs": 0,
+  "graded_official_legs": 0,
+  "selection_hits": 0,
+  "selection_hit_rate": null,
+  "combination_tickets": 0,
+  "active_weekends": 0,
+  "leagues": {},
+  "staking_tracks": {
+    "fixed_10": {
+      "stake_fraction": 0.1,
+      "ticket_records": 0,
+      "combination_tickets": 0,
+      "executable_tickets": 0,
+      "settled_tickets": 0,
+      "wins": 0,
+      "staked": 0,
+      "net_profit": 0,
+      "roi": null,
+      "executable_staked": 0,
+      "executable_net_profit": 0,
+      "executable_roi": null,
+      "average_clv": null,
+      "median_clv": null,
+      "tickets_beating_close_share": null,
+      "bankroll": {
+        "bankroll": 100.0,
+        "peak_bankroll": 100.0,
+        "maximum_drawdown": 0.0,
+        "outstanding_exposure": 0,
+        "insolvent": false,
+        "staking_track": "fixed_10"
+      }
+    },
+    "stress_90": {
+      "stake_fraction": 0.9,
+      "ticket_records": 0,
+      "combination_tickets": 0,
+      "executable_tickets": 0,
+      "settled_tickets": 0,
+      "wins": 0,
+      "staked": 0,
+      "net_profit": 0,
+      "roi": null,
+      "executable_staked": 0,
+      "executable_net_profit": 0,
+      "executable_roi": null,
+      "average_clv": null,
+      "median_clv": null,
+      "tickets_beating_close_share": null,
+      "bankroll": {
+        "bankroll": 100.0,
+        "peak_bankroll": 100.0,
+        "maximum_drawdown": 0.0,
+        "outstanding_exposure": 0,
+        "insolvent": false,
+        "staking_track": "stress_90"
+      }
+    }
+  },
+  "missing_market_records": 0,
+  "unresolved_discrepancies": [],
+  "promotion_checks": {
+    "official_legs": false,
+    "executable_tickets": false,
+    "active_weekends": false,
+    "league_representation": false,
+    "league_concentration": false,
+    "positive_real_price_roi": false,
+    "positive_average_clv": false,
+    "ticket_clv_beat_share": false,
+    "maximum_drawdown": true,
+    "zero_unresolved_discrepancies": true
+  },
+  "promotion_gate_passed": false,
+  "promotion_effect": "manual strategy review only; never automatic betting"
+}

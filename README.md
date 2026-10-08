@@ -13,6 +13,8 @@ The repository contains the analysis code, frozen test plans, compact result fil
 Start with [the complete project state](outputs/README.md). Useful dashboards include:
 
 - [Prospective captured-price and profit validation](outputs/profit_validation/index.html)
+- [Higher-volume v4 prospective profit challenger](outputs/profit_challenger/index.html)
+- [Volume-v4 historical assumed-price mechanics replay](outputs/hypothetical_volume_v4_combo_1_5/index.html)
 - [Hypothetical v3 combination replay at assumed 1.50](outputs/hypothetical_v3_combo_1_5/index.html)
 - [Live four-league Plan B 3+ board for 10 October 2026](outputs/live_plan_b3/2026-10-10/index.html)
 - [Combined ranked Plan B backtest](outputs/ranked_plan_b_combined_backtest/index.html)
@@ -103,3 +105,20 @@ Real-money use is not considered until the dashboard gate has all of: 100 prospe
 ### Separate assumed-odds scenario
 
 A mechanics-only replay applies an assumed 1.50 price to every historical 3+ shots leg while preserving the combo-only, five-minute freeze and 90% paper-stake rules. Historical lineup availability is explicitly assumed at 60 minutes before kickoff because publication timestamps are unavailable. Across 23 v3 official selections, 21 were isolated `no_combo` records and only one two-leg ticket formed. Both legs hit: the assumed 2.25 product changed 100 paper units to 212.50. This one-ticket result is not historical price evidence, cannot measure closing-line value and never enters the prospective activation gate. See the [assumed-odds replay](outputs/hypothetical_v3_combo_1_5/index.html).
+
+## Higher-volume profitability challenger (v4)
+
+Frozen league-balanced v3 remains the unchanged control. The separate v4 challenger keeps the same Tier A/B environments, home-only Plan B gates and consistency ordering, but retains the strongest candidate from each fixture before allowing up to two candidates per league and three in total. Its board is frozen before lineups; failed lineup checks never trigger replacements.
+
+The retrospective structural replay produced **33/38 3+ hits (86.8%)** across 22 active weekends. It is post-result descriptive evidence. Under the same assumed 1.50 and lineup-timing mechanics, only **one two-leg combination** formed; 36 legs were isolated as `no_combo`. That combination won, moving the hypothetical 10% track from 100 to 112.50 and the non-recommended 90% stress track from 100 to 212.50. A one-ticket hypothetical sample is not profitability evidence.
+
+Prospectively, v3 and v4 run in parallel using real captured prices. Each strategy has a separate append-only ledger. A shared immutable quote store prevents the same physical player quote from being collected twice when both strategies select that player. V4 maintains independent 100-unit tracks: fixed 10% is the primary benchmark and 90% remains a stress test. Open stakes are not reserved; excess aggregate exposure is flagged `non_executable_overlap` and excluded from promotion metrics.
+
+The challenger cannot replace v3 until its real-price fixed-10 track has 100 official legs, 30 executable combinations, 12 active weekends, adequate league representation, positive ROI and CLV, more than half of tickets beating the close, maximum drawdown no higher than 25%, and no unresolved discrepancies. Passing only triggers manual review.
+
+```powershell
+python work/check_plan_b3_volume_v4.py
+python work/check_hypothetical_volume_v4_combo_1_5.py
+python work/test_profit_challenger.py -v
+python work/profit_challenger.py dashboard
+```

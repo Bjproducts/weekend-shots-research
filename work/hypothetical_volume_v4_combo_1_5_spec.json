@@ -1,0 +1,20 @@
+{
+  "version": "hypothetical-volume-v4-combo-1.5-v1",
+  "source_selection_version": "season-to-date-plan-b3-volume-v4",
+  "price_source": "assumed_not_observed",
+  "assumed_decimal_price_per_leg": 1.5,
+  "starting_bankroll_units": 100.0,
+  "staking_tracks": {
+    "fixed_10": 0.1,
+    "stress_90": 0.9
+  },
+  "minimum_combo_legs": 2,
+  "maximum_combo_legs": 3,
+  "freeze_minutes_before_earliest_kickoff": 5,
+  "assumed_lineup_available_minutes_before_kickoff": 60,
+  "assumed_settlement_minutes_after_latest_kickoff": 120,
+  "singles_policy": "no_combo",
+  "open_stake_reservation": false,
+  "prospective_gate_eligible": false,
+  "profit_claim_permitted": false
+}

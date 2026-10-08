@@ -1,0 +1,257 @@
+{
+  "status": "retrospective_season_to_date_replay_complete",
+  "created_utc": "2026-10-08T12:56:25.734506+00:00",
+  "spec_version": "season-to-date-plan-b3-volume-v4",
+  "spec_sha256": "2ab348a309a192dfc34c6bf138b4728cdd3d1a8db3b7b36e815485611215a200",
+  "source_retrieved_utc": "2026-10-08T00:03:04.607467+00:00",
+  "source_matches": 996,
+  "target_weekend_fixtures": 428,
+  "calendar_weekends": 24,
+  "selected_environments": 108,
+  "provisional_candidates": 43,
+  "official_picks": 38,
+  "hits_3plus": 33,
+  "misses_3plus": 5,
+  "hit_rate_3plus": 86.8,
+  "wilson_95_3plus": [
+    72.7,
+    94.2
+  ],
+  "hits_2plus": 36,
+  "hit_rate_2plus": 94.7,
+  "active_pick_weekends": 22,
+  "clean_3plus_weekends": 17,
+  "clean_3plus_weekend_rate": 77.3,
+  "average_picks_per_active_weekend": 1.73,
+  "weekends_with_three_official_picks": 0,
+  "clean_three_pick_weekends": 0,
+  "clean_three_pick_weekend_rate": null,
+  "longest_individual_hit_streak_3plus": 11,
+  "longest_individual_miss_streak_3plus": 2,
+  "lineup_data_gaps": 0,
+  "rejection_reasons": {
+    "not_in_confirmed_home_starting_XI": 5,
+    "outside_top_two_confirmed_home_shooters": 5
+  },
+  "shots_distribution": {
+    "1": 2,
+    "2": 3,
+    "3": 12,
+    "4": 11,
+    "5": 4,
+    "6": 3,
+    "9": 2,
+    "11": 1
+  },
+  "by_league": [
+    {
+      "league": "Premier League",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0,
+      "wilson_95": [
+        20.7,
+        100.0
+      ]
+    },
+    {
+      "league": "Serie A",
+      "picks": 0,
+      "hits_3plus": 0,
+      "hit_rate_3plus": null,
+      "wilson_95": [
+        null,
+        null
+      ]
+    },
+    {
+      "league": "Bundesliga",
+      "picks": 2,
+      "hits_3plus": 2,
+      "hit_rate_3plus": 100.0,
+      "wilson_95": [
+        34.2,
+        100.0
+      ]
+    },
+    {
+      "league": "MLS",
+      "picks": 35,
+      "hits_3plus": 30,
+      "hit_rate_3plus": 85.7,
+      "wilson_95": [
+        70.6,
+        93.7
+      ]
+    }
+  ],
+  "by_player": [
+    {
+      "player_id": "30981",
+      "player": "Lionel Messi",
+      "picks": 6,
+      "hits_3plus": 6,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "664962",
+      "player": "Denis Bouanga",
+      "picks": 3,
+      "hits_3plus": 3,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "933760",
+      "player": "Brian White",
+      "picks": 2,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 50.0
+    },
+    {
+      "player_id": "787351",
+      "player": "Evander Ferreira",
+      "picks": 2,
+      "hits_3plus": 2,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "394462",
+      "player": "Hany Mukhtar",
+      "picks": 2,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 50.0
+    },
+    {
+      "player_id": "212867",
+      "player": "Heung-Min Son",
+      "picks": 2,
+      "hits_3plus": 2,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "737974",
+      "player": "Hugo Cuypers",
+      "picks": 2,
+      "hits_3plus": 2,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "954194",
+      "player": "Mateusz Bogusz",
+      "picks": 2,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 50.0
+    },
+    {
+      "player_id": "1136311",
+      "player": "Milan Iloski",
+      "picks": 2,
+      "hits_3plus": 2,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "1251793",
+      "player": "Preston Judd",
+      "picks": 2,
+      "hits_3plus": 2,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "641344",
+      "player": "Anders Dreyer",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "184138",
+      "player": "Antoine Griezmann",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "737066",
+      "player": "Erling Haaland",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "1090238",
+      "player": "Gabriel Pec",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "763151",
+      "player": "Guilherme Augusto",
+      "picks": 1,
+      "hits_3plus": 0,
+      "hit_rate_3plus": 0.0
+    },
+    {
+      "player_id": "1457626",
+      "player": "Ibrahim Maza",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "726692",
+      "player": "Marcel Hartel",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "540097",
+      "player": "Patrik Schick",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "709796",
+      "player": "Petar Musa",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "1473789",
+      "player": "Peyton Miller",
+      "picks": 1,
+      "hits_3plus": 0,
+      "hit_rate_3plus": 0.0
+    },
+    {
+      "player_id": "1173474",
+      "player": "Rafael Navarro",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "796747",
+      "player": "Sam Surridge",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "1455818",
+      "player": "Zavier Gozo",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    }
+  ],
+  "interpretation": [
+    "This challenger changes only candidate concentration and frequency; it does not weaken Plan B thresholds.",
+    "The strongest qualifying candidate from each fixture is retained before applying a two-per-league and three-total cap.",
+    "The rule was designed after earlier results were inspected, so this replay is descriptive rather than independent evidence.",
+    "Historical starting-XI knowledge is conditional and assumed available before kickoff; missing values are never invented."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "season-to-date-plan-b3-volume-v4",
+  "created_date": "2026-10-08",
+  "status": "post-result_structural_frequency_challenger_not_independent_validation",
+  "inherits": "season-to-date-plan-b3-league-balanced-v3 environments, information boundary, Plan B gates and consistency ordering",
+  "board_mode": "max_two_per_league_one_per_fixture",
+  "maximum_candidates": 3,
+  "maximum_candidates_per_league": 2,
+  "maximum_candidates_per_fixture": 1,
+  "interpretation": [
+    "This challenger changes only candidate concentration and frequency; it does not weaken Plan B thresholds.",
+    "The strongest qualifying candidate from each fixture is retained before applying a two-per-league and three-total cap.",
+    "The rule was designed after earlier results were inspected, so this replay is descriptive rather than independent evidence.",
+    "Historical starting-XI knowledge is conditional and assumed available before kickoff; missing values are never invented."
+  ]
+}

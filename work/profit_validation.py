@@ -25,6 +25,7 @@ from the_odds_api import (
     match_event,
     parse_time,
 )
+import shared_quote_store
 
 ROOT = Path(__file__).resolve().parents[1]
 LIVE_BASE = ROOT / "outputs" / "live_plan_b3"
@@ -43,6 +44,13 @@ def load_json(path: Path) -> Any:
 
 def config() -> dict:
     return load_json(CONFIG_PATH)
+
+
+def staking_tracks(cfg: dict | None = None) -> dict[str, float]:
+    cfg = cfg or config()
+    if "staking_tracks" in cfg:
+        return {str(key): float(value) for key, value in cfg["staking_tracks"].items()}
+    return {str(cfg.get("primary_staking_track", "stress_90")): float(cfg["stake_fraction"])}
 
 
 def canonical(value: Any) -> str:
@@ -144,7 +152,7 @@ def sync_official_selections(weekend: str) -> dict:
     """Import only immutable confirmed-lineup decisions from active v3 weekends."""
     cfg = config()
     folder = LIVE_BASE / weekend
-    board_path = folder / "frozen_board_league_balanced_v3.json"
+    board_path = folder / cfg.get("board_filename", "frozen_board_league_balanced_v3.json")
     if not board_path.exists():
         return {"weekend": weekend, "imported": 0, "rejected": 0, "status": "no_frozen_v3_board"}
     board = load_json(board_path)
@@ -152,9 +160,20 @@ def sync_official_selections(weekend: str) -> dict:
         raise RuntimeError("Active board is not the frozen league-balanced v3 version")
     board_players = {(str(row["match_id"]), str(row["player_id"])) for row in board.get("candidates", [])}
     imported = rejected = 0
-    leagues_seen: set[str] = set()
-    accepted_count = 0
-    decisions_dir = folder / "lineup_decisions"
+    existing_records = read_ledger()
+    prior_locked = [
+        row["payload"] for row in existing_records
+        if row["event_type"] == "selection_locked" and row["payload"].get("weekend") == weekend
+    ]
+    league_counts: Counter = Counter(row["league"] for row in prior_locked)
+    fixtures_seen: set[str] = {str(row["match_id"]) for row in prior_locked}
+    accepted_count = len(prior_locked)
+    processed_selection_ids = {
+        row["payload"].get("selection_id") for row in existing_records
+        if row["event_type"] in {"selection_locked", "selection_rejected"}
+        and row["payload"].get("weekend") == weekend
+    }
+    decisions_dir = folder / cfg.get("lineup_decisions_dir", "lineup_decisions")
     for path in sorted(decisions_dir.glob("*.json")) if decisions_dir.exists() else []:
         decision = load_json(path)
         base_reasons = []
@@ -165,6 +184,9 @@ def sync_official_selections(weekend: str) -> dict:
         for pick in decision.get("official_picks", []):
             reasons = list(base_reasons)
             key = (str(decision["match_id"]), str(pick["player_id"]))
+            current_selection_id = selection_id(weekend, str(decision["match_id"]), str(pick["player_id"]))
+            if current_selection_id in processed_selection_ids:
+                continue
             if key not in board_players:
                 reasons.append("not_on_frozen_v3_candidate_board")
             if pick.get("candidate_side") != "home":
@@ -173,13 +195,17 @@ def sync_official_selections(weekend: str) -> dict:
                 reasons.append("not_plan_b_qualified")
             if str(pick["player_id"]) not in {str(x) for x in decision.get("confirmed_home_starter_ids", [])}:
                 reasons.append("not_confirmed_home_starter")
-            if decision["league"] in leagues_seen:
-                reasons.append("second_candidate_from_same_league")
+            if league_counts[decision["league"]] >= cfg.get("maximum_candidates_per_league", 1):
+                reasons.append("above_maximum_candidates_for_league")
+            if str(decision["match_id"]) in fixtures_seen:
+                reasons.append("second_candidate_from_same_fixture")
             if accepted_count >= cfg["maximum_candidates"]:
                 reasons.append("above_maximum_three_official_candidates")
             payload = {
+                "strategy_id": cfg.get("strategy_id", "league_balanced_v3"),
                 "weekend": weekend,
-                "selection_id": selection_id(weekend, str(decision["match_id"]), str(pick["player_id"])),
+                "selection_id": current_selection_id,
+                "quote_subject_id": shared_quote_store.subject_id(weekend, str(decision["match_id"]), str(pick["player_id"])),
                 "ranking_version": board["ranking_version"],
                 "board_sha256": hashlib.sha256(board_path.read_bytes()).hexdigest(),
                 "decision_sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
@@ -201,11 +227,13 @@ def sync_official_selections(weekend: str) -> dict:
                 rejected += 1
             else:
                 append_event("selection_locked", payload, f"selection-locked:{payload['selection_id']}")
-                leagues_seen.add(decision["league"])
+                league_counts[decision["league"]] += 1
+                fixtures_seen.add(str(decision["match_id"]))
                 accepted_count += 1
                 imported += 1
         for pick in decision.get("rejected_provisional_candidates", []):
             payload = {
+                "strategy_id": cfg.get("strategy_id", "league_balanced_v3"),
                 "weekend": weekend,
                 "match_id": str(decision["match_id"]),
                 "league": decision["league"],
@@ -234,17 +262,20 @@ def provisional_market_subjects(weekend: str) -> list[dict]:
     These rows are never appended as official selections and never count toward
     the validation gate.  Their stable identity joins to a later official lock.
     """
-    path = LIVE_BASE / weekend / "frozen_board_league_balanced_v3.json"
+    cfg = config()
+    path = LIVE_BASE / weekend / cfg.get("board_filename", "frozen_board_league_balanced_v3.json")
     if not path.exists():
         return []
     board = load_json(path)
-    if board.get("ranking_version") != config()["selection_version"]:
+    if board.get("ranking_version") != cfg["selection_version"]:
         return []
     return sorted(
         [
             {
+                "strategy_id": cfg.get("strategy_id", "league_balanced_v3"),
                 "weekend": weekend,
                 "selection_id": selection_id(weekend, str(row["match_id"]), str(row["player_id"])),
+                "quote_subject_id": shared_quote_store.subject_id(weekend, str(row["match_id"]), str(row["player_id"])),
                 "match_id": str(row["match_id"]),
                 "kickoff": row["date"],
                 "league": row["league"],
@@ -319,25 +350,23 @@ def collect_quotes(weekend: str, stage: str, observed: datetime | None = None, a
             if sport_key not in events_cache:
                 response = api.events(sport_key)
                 events_cache[sport_key] = response.payload
-            home, away = split_fixture(selection["fixture"])
-            matched = match_event(events_cache[sport_key], home, away, selection["kickoff"])
-            response = api.event_player_shots(sport_key, str(matched["id"]), cfg["allowed_bookmakers"])
-            raw = {
-                "provider": "the_odds_api",
-                "fetched_utc": response.fetched_utc,
-                "sport_key": sport_key,
-                "event_id": str(matched["id"]),
-                "selection_id": selection["selection_id"],
-                "payload": response.payload,
-            }
-            raw_path = BASE / weekend / "raw_odds" / f"{timestamp_slug(observed)}_{selection['match_id']}_{selection['player_id']}_{stage}.json"
-            write_once(raw_path, raw)
-            quotes, rejections = extract_exact_quotes(
-                response.payload, selection["player"], cfg["allowed_bookmakers"], observed, cfg["quote_stale_seconds"]
+            shared = shared_quote_store.capture(
+                weekend=weekend,
+                selection=selection,
+                stage=stage,
+                observed=observed,
+                sport_key=sport_key,
+                allowed_bookmakers=cfg["allowed_bookmakers"],
+                stale_seconds=cfg["quote_stale_seconds"],
+                api=api,
+                events=events_cache[sport_key],
             )
+            shared = shared_quote_store.materialize_reference(shared)
             payload = {
+                "strategy_id": cfg.get("strategy_id", "league_balanced_v3"),
                 "weekend": weekend,
                 "selection_id": selection["selection_id"],
+                "quote_subject_id": selection["quote_subject_id"],
                 "match_id": selection["match_id"],
                 "league": selection["league"],
                 "fixture": selection["fixture"],
@@ -345,23 +374,24 @@ def collect_quotes(weekend: str, stage: str, observed: datetime | None = None, a
                 "player_id": selection["player_id"],
                 "player": selection["player"],
                 "provider": "the_odds_api",
-                "provider_event_id": str(matched["id"]),
+                "provider_event_id": shared["provider_event_id"],
                 "stage": stage,
                 "observed_utc": observed.isoformat(),
-                "raw_sha256": hashlib.sha256(raw_path.read_bytes()).hexdigest(),
-                "quotes": quotes,
-                "rejections": rejections,
-                "quota_remaining": response.quota_remaining,
-                "quota_used": response.quota_used,
+                "raw_sha256": shared["raw_sha256"],
+                "shared_snapshot_path": shared["shared_snapshot_path"],
+                "shared_snapshot_sha256": shared["shared_snapshot_sha256"],
+                "observation_id": shared["observation_id"],
+                "quotes": shared["quotes"],
+                "rejections": shared["rejections"],
+                "quota_remaining": shared.get("quota_remaining"),
+                "quota_used": shared.get("quota_used"),
+                "shared_cache_hit": shared.get("cache_hit", False),
             }
-            snapshot_path = BASE / weekend / "quote_snapshots" / f"{timestamp_slug(observed)}_{selection['match_id']}_{selection['player_id']}_{stage}.json"
-            write_once(snapshot_path, payload)
-            payload["snapshot_sha256"] = hashlib.sha256(snapshot_path.read_bytes()).hexdigest()
             append_event("quote_snapshot", payload, f"quote:{weekend}:{selection['selection_id']}:{stage}:{timestamp_slug(observed)}", observed)
-            if not quotes:
+            if not shared["quotes"]:
                 append_event(
                     "missing_market",
-                    {"weekend": weekend, "selection_id": selection["selection_id"], "stage": stage, "reasons": rejections},
+                    {"strategy_id": cfg.get("strategy_id", "league_balanced_v3"), "weekend": weekend, "selection_id": selection["selection_id"], "quote_subject_id": selection["quote_subject_id"], "stage": stage, "reasons": shared["rejections"]},
                     f"missing-market:{weekend}:{selection['selection_id']}:{stage}:{timestamp_slug(observed)}",
                     observed,
                 )
@@ -371,8 +401,10 @@ def collect_quotes(weekend: str, stage: str, observed: datetime | None = None, a
             append_event(
                 "collector_error",
                 {
+                    "strategy_id": cfg.get("strategy_id", "league_balanced_v3"),
                     "weekend": weekend,
                     "selection_id": selection["selection_id"],
+                    "quote_subject_id": selection.get("quote_subject_id"),
                     "stage": stage,
                     "error_type": type(exc).__name__,
                     "message": str(exc),
@@ -423,19 +455,24 @@ def settlement_events(records: list[dict] | None = None) -> list[dict]:
     return [row["payload"] for row in records if row["event_type"] == "ticket_settled"]
 
 
-def bankroll_state(records: list[dict] | None = None) -> dict:
+def bankroll_state(records: list[dict] | None = None, staking_track: str | None = None) -> dict:
     cfg = config()
     records = read_ledger() if records is None else records
+    staking_track = staking_track or cfg.get("primary_staking_track", next(iter(staking_tracks(cfg))))
     bankroll = float(cfg["starting_bankroll_units"])
     peak = bankroll
     maximum_drawdown = 0.0
     settled_ids = set()
-    for settlement in settlement_events(records):
+    track_settlements = [row for row in settlement_events(records) if row.get("staking_track", staking_track) == staking_track]
+    for settlement in track_settlements:
         bankroll = float(settlement["bankroll_after"])
         peak = max(peak, bankroll)
         maximum_drawdown = max(maximum_drawdown, (peak - bankroll) / peak if peak > 0 else 0)
         settled_ids.add(settlement["ticket_id"])
-    outstanding = [ticket for ticket in ticket_events(records) if ticket["ticket_id"] not in settled_ids]
+    outstanding = [
+        ticket for ticket in ticket_events(records)
+        if ticket["ticket_id"] not in settled_ids and ticket.get("staking_track", staking_track) == staking_track
+    ]
     exposure = sum(float(ticket["stake"]) for ticket in outstanding)
     return {
         "bankroll": bankroll,
@@ -443,6 +480,7 @@ def bankroll_state(records: list[dict] | None = None) -> dict:
         "maximum_drawdown": maximum_drawdown,
         "outstanding_exposure": exposure,
         "insolvent": bankroll <= 0,
+        "staking_track": staking_track,
     }
 
 
@@ -481,11 +519,17 @@ def freeze_due_tickets(weekend: str, observed: datetime | None = None) -> dict:
     eligible = [row for row in unused if snapshots[row["selection_id"]] is not None]
     # Defensive enforcement even though frozen v3 already applies these limits.
     unique = []
-    seen_leagues = set()
+    league_counts: Counter = Counter()
+    seen_fixtures = set()
     for row in eligible:
-        if row["league"] not in seen_leagues and len(unique) < cfg["maximum_candidates"]:
+        if (
+            league_counts[row["league"]] < cfg.get("maximum_candidates_per_league", 1)
+            and row["match_id"] not in seen_fixtures
+            and len(unique) < cfg["maximum_candidates"]
+        ):
             unique.append(row)
-            seen_leagues.add(row["league"])
+            league_counts[row["league"]] += 1
+            seen_fixtures.add(row["match_id"])
     earliest_id = unused[0]["selection_id"]
     if len(unique) < cfg["minimum_combo_legs"] or earliest_id not in {row["selection_id"] for row in unique}:
         append_event(
@@ -503,40 +547,60 @@ def freeze_due_tickets(weekend: str, observed: datetime | None = None) -> dict:
         )
         return {"status": "no_common_book", "created": 0, "no_combo": 1}
 
-    state = bankroll_state(records)
-    if state["insolvent"]:
+    combo_id = f"{weekend}:{timestamp_slug(observed)}:{digest([row['selection_id'] for row in unique])[:12]}"
+    created_tickets = []
+    for track, fraction in staking_tracks(cfg).items():
+        current_records = read_ledger()
+        state = bankroll_state(current_records, track)
+        if state["insolvent"]:
+            continue
+        stake = round(state["bankroll"] * fraction, 2)
+        overlap = state["outstanding_exposure"] + stake > state["bankroll"] + 1e-9
+        ticket_id = f"{combo_id}:{track}"
+        legs = [
+            {
+                **leg,
+                "strategy_id": cfg.get("strategy_id", "league_balanced_v3"),
+                "quote_subject_id": leg.get("quote_subject_id") or shared_quote_store.subject_id(weekend, str(leg["match_id"]), str(leg["player_id"])),
+            }
+            for leg in choice["legs"]
+        ]
+        payload = {
+            "strategy_id": cfg.get("strategy_id", "league_balanced_v3"),
+            "staking_track": track,
+            "weekend": weekend,
+            "combo_id": combo_id,
+            "ticket_id": ticket_id,
+            "created_utc": observed.isoformat(),
+            "freeze_for_earliest_kickoff": earliest.isoformat(),
+            "bookmaker": choice["bookmaker"],
+            "price_type": "derived_product_price",
+            "derived_product_price": round(choice["derived_product_price"], 6),
+            "implied_break_even_probability": round(1 / choice["derived_product_price"], 8),
+            "legs": legs,
+            "bankroll_snapshot": state["bankroll"],
+            "stake_fraction": fraction,
+            "stake": stake,
+            "outstanding_exposure_before": round(state["outstanding_exposure"], 2),
+            "cumulative_exposure_after": round(state["outstanding_exposure"] + stake, 2),
+            "executability": "non_executable_overlap" if overlap else "executable",
+            "paper_only": True,
+            "actual_parlay_quote": False,
+        }
+        path = BASE / weekend / "tickets" / f"{timestamp_slug(observed)}_{track}_{digest(ticket_id)[:12]}.json"
+        write_once(path, payload)
+        payload["ticket_sha256"] = hashlib.sha256(path.read_bytes()).hexdigest()
+        append_event("ticket_created", payload, f"ticket-created:{ticket_id}", observed)
+        created_tickets.append(payload)
+    if not created_tickets:
         return {"status": "insolvent", "created": 0, "no_combo": 0}
-    stake = round(state["bankroll"] * cfg["stake_fraction"], 2)
-    overlap = state["outstanding_exposure"] + stake > state["bankroll"] + 1e-9
-    ticket_id = f"{weekend}:{timestamp_slug(observed)}:{digest([row['selection_id'] for row in unique])[:12]}"
-    payload = {
-        "weekend": weekend,
-        "ticket_id": ticket_id,
-        "created_utc": observed.isoformat(),
-        "freeze_for_earliest_kickoff": earliest.isoformat(),
-        "bookmaker": choice["bookmaker"],
-        "price_type": "derived_product_price",
-        "derived_product_price": round(choice["derived_product_price"], 6),
-        "implied_break_even_probability": round(1 / choice["derived_product_price"], 8),
-        "legs": choice["legs"],
-        "bankroll_snapshot": state["bankroll"],
-        "stake_fraction": cfg["stake_fraction"],
-        "stake": stake,
-        "outstanding_exposure_before": round(state["outstanding_exposure"], 2),
-        "cumulative_exposure_after": round(state["outstanding_exposure"] + stake, 2),
-        "executability": "non_executable_overlap" if overlap else "executable",
-        "paper_only": True,
-        "actual_parlay_quote": False,
-    }
-    path = BASE / weekend / "tickets" / f"{timestamp_slug(observed)}_{ticket_id.split(':')[-1]}.json"
-    write_once(path, payload)
-    payload["ticket_sha256"] = hashlib.sha256(path.read_bytes()).hexdigest()
-    append_event("ticket_created", payload, f"ticket-created:{ticket_id}", observed)
-    return {"status": "created", "created": 1, "no_combo": 0, "ticket": payload}
+    primary = cfg.get("primary_staking_track", next(iter(staking_tracks(cfg))))
+    primary_ticket = next((row for row in created_tickets if row["staking_track"] == primary), created_tickets[0])
+    return {"status": "created", "created": len(created_tickets), "combinations_created": 1, "no_combo": 0, "ticket": primary_ticket, "tickets": created_tickets}
 
 
 def _settled_pick_map(weekend: str) -> dict[str, dict]:
-    folder = LIVE_BASE / weekend / "settled"
+    folder = LIVE_BASE / weekend / config().get("settled_dir", "settled")
     result = {}
     for path in sorted(folder.glob("*.json")) if folder.exists() else []:
         payload = load_json(path)
@@ -595,13 +659,17 @@ def settle_tickets(weekend: str, observed: datetime | None = None) -> dict:
             repriced = math.prod(leg["price"] for leg in active)
             result = "loss" if any(leg["result"] == "loss" for leg in active) else "win"
             returned = float(ticket["stake"]) * repriced if result == "win" else 0.0
-        before = bankroll_state(records)["bankroll"]
+        track = ticket.get("staking_track", config().get("primary_staking_track", "stress_90"))
+        before = bankroll_state(records, track)["bankroll"]
         after = round(before - float(ticket["stake"]) + returned, 2)
         closing_prices = [leg["closing_price"] for leg in active]
         combo_closing = math.prod(closing_prices) if active and all(value is not None for value in closing_prices) else None
         combo_clv = repriced / combo_closing - 1 if repriced and combo_closing else None
         payload = {
+            "strategy_id": ticket.get("strategy_id", config().get("strategy_id", "league_balanced_v3")),
+            "staking_track": track,
             "weekend": weekend,
+            "combo_id": ticket.get("combo_id", ticket["ticket_id"]),
             "ticket_id": ticket["ticket_id"],
             "settled_utc": observed.isoformat(),
             "bookmaker": ticket["bookmaker"],
@@ -624,6 +692,8 @@ def settle_tickets(weekend: str, observed: datetime | None = None) -> dict:
             append_event(
                 "leg_settled",
                 {
+                    "strategy_id": ticket.get("strategy_id", config().get("strategy_id", "league_balanced_v3")),
+                    "staking_track": track,
                     "weekend": weekend,
                     "ticket_id": ticket["ticket_id"],
                     "selection_id": leg["selection_id"],

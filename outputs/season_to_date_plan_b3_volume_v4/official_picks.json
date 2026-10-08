@@ -1,0 +1,3042 @@
+[
+  {
+    "player_id": "1090238",
+    "player": "Gabriel Pec",
+    "position_id": 83,
+    "avg_shots": 4.8,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.32986,
+    "shot_floor": 2,
+    "shot_stddev": 2.92575,
+    "candidate_side": "home",
+    "home_team_id": "6637",
+    "current_season_starts": 1,
+    "prior_ids": [
+      "4694706",
+      "4694721",
+      "4694672",
+      "4694750",
+      "5071003"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "4694706",
+        "date": "2025-09-21T02:30:00+00:00",
+        "shots": 10,
+        "minutes": 90,
+        "team_shots": 23,
+        "shot_share": 0.43478
+      },
+      {
+        "match_id": "4694721",
+        "date": "2025-09-28T02:30:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 19,
+        "shot_share": 0.10526
+      },
+      {
+        "match_id": "4694672",
+        "date": "2025-10-12T02:30:00+00:00",
+        "shots": 6,
+        "minutes": 90,
+        "team_shots": 13,
+        "shot_share": 0.46154
+      },
+      {
+        "match_id": "4694750",
+        "date": "2025-10-19T01:00:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.27273
+      },
+      {
+        "match_id": "5071003",
+        "date": "2026-02-23T00:00:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 8,
+        "shot_share": 0.375
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-02-28",
+    "match_id": "5071013",
+    "date": "2026-03-01T03:30:00Z",
+    "league": "MLS",
+    "fixture": "LA Galaxy vs Charlotte FC",
+    "environment_rank": 2,
+    "environment_score": 79.2,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 82,
+    "actual_shots": 5,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "664962",
+    "player": "Denis Bouanga",
+    "position_id": 87,
+    "avg_shots": 6.4,
+    "avg_minutes": 93.8,
+    "hits_2plus": 5,
+    "hits_3plus": 5,
+    "avg_shot_share": 0.34311,
+    "shot_floor": 4,
+    "shot_stddev": 1.74356,
+    "candidate_side": "home",
+    "home_team_id": "867280",
+    "current_season_starts": 2,
+    "prior_ids": [
+      "5020548",
+      "5020549",
+      "5025523",
+      "5070996",
+      "5071011"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5020548",
+        "date": "2025-10-30T02:30:00+00:00",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.38889
+      },
+      {
+        "match_id": "5020549",
+        "date": "2025-11-03T01:45:00+00:00",
+        "shots": 5,
+        "minutes": 79,
+        "team_shots": 18,
+        "shot_share": 0.27778
+      },
+      {
+        "match_id": "5025523",
+        "date": "2025-11-23T02:30:00+00:00",
+        "shots": 9,
+        "minutes": 120,
+        "team_shots": 25,
+        "shot_share": 0.36
+      },
+      {
+        "match_id": "5070996",
+        "date": "2026-02-22T02:30:00+00:00",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 15,
+        "shot_share": 0.46667
+      },
+      {
+        "match_id": "5071011",
+        "date": "2026-03-01T01:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.22222
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-03-07",
+    "match_id": "5071029",
+    "date": "2026-03-08T03:30:00Z",
+    "league": "MLS",
+    "fixture": "Los Angeles FC vs FC Dallas",
+    "environment_rank": 1,
+    "environment_score": 89.6,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 89,
+    "actual_shots": 3,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "664962",
+    "player": "Denis Bouanga",
+    "position_id": 87,
+    "avg_shots": 5.6,
+    "avg_minutes": 93.6,
+    "hits_2plus": 5,
+    "hits_3plus": 5,
+    "avg_shot_share": 0.34033,
+    "shot_floor": 3,
+    "shot_stddev": 2.15407,
+    "candidate_side": "home",
+    "home_team_id": "867280",
+    "current_season_starts": 3,
+    "prior_ids": [
+      "5020549",
+      "5025523",
+      "5070996",
+      "5071011",
+      "5071029"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5020549",
+        "date": "2025-11-03T01:45:00+00:00",
+        "shots": 5,
+        "minutes": 79,
+        "team_shots": 18,
+        "shot_share": 0.27778
+      },
+      {
+        "match_id": "5025523",
+        "date": "2025-11-23T02:30:00+00:00",
+        "shots": 9,
+        "minutes": 120,
+        "team_shots": 25,
+        "shot_share": 0.36
+      },
+      {
+        "match_id": "5070996",
+        "date": "2026-02-22T02:30:00+00:00",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 15,
+        "shot_share": 0.46667
+      },
+      {
+        "match_id": "5071011",
+        "date": "2026-03-01T01:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.22222
+      },
+      {
+        "match_id": "5071029",
+        "date": "2026-03-08T03:30:00+00:00",
+        "shots": 3,
+        "minutes": 89,
+        "team_shots": 8,
+        "shot_share": 0.375
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-03-14",
+    "match_id": "5071045",
+    "date": "2026-03-15T02:30:00Z",
+    "league": "MLS",
+    "fixture": "Los Angeles FC vs St. Louis City",
+    "environment_rank": 4,
+    "environment_score": 72.1,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 86,
+    "actual_shots": 4,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "726692",
+    "player": "Marcel Hartel",
+    "position_id": 84,
+    "avg_shots": 4.6,
+    "avg_minutes": 89.8,
+    "hits_2plus": 5,
+    "hits_3plus": 5,
+    "avg_shot_share": 0.22429,
+    "shot_floor": 3,
+    "shot_stddev": 1.35647,
+    "candidate_side": "home",
+    "home_team_id": "1427963",
+    "current_season_starts": 3,
+    "prior_ids": [
+      "4694732",
+      "4694753",
+      "5070991",
+      "5071032",
+      "5071045"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "4694732",
+        "date": "2025-10-05T00:30:00+00:00",
+        "shots": 5,
+        "minutes": 89,
+        "team_shots": 23,
+        "shot_share": 0.21739
+      },
+      {
+        "match_id": "4694753",
+        "date": "2025-10-19T01:00:00+00:00",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 28,
+        "shot_share": 0.25
+      },
+      {
+        "match_id": "5070991",
+        "date": "2026-02-21T19:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 22,
+        "shot_share": 0.18182
+      },
+      {
+        "match_id": "5071032",
+        "date": "2026-03-08T01:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 12,
+        "shot_share": 0.25
+      },
+      {
+        "match_id": "5071045",
+        "date": "2026-03-15T02:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.22222
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-03-21",
+    "match_id": "5071059",
+    "date": "2026-03-22T00:30:00Z",
+    "league": "MLS",
+    "fixture": "St. Louis City vs New England Revolution",
+    "environment_rank": 5,
+    "environment_score": 61.4,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 3,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "641344",
+    "player": "Anders Dreyer",
+    "position_id": 103,
+    "avg_shots": 3.4,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 2,
+    "avg_shot_share": 0.30081,
+    "shot_floor": 2,
+    "shot_stddev": 1.74356,
+    "candidate_side": "home",
+    "home_team_id": "1701119",
+    "current_season_starts": 3,
+    "prior_ids": [
+      "5025522",
+      "5025526",
+      "5071000",
+      "5071019",
+      "5071028"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5025522",
+        "date": "2025-11-25T03:00:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 9,
+        "shot_share": 0.22222
+      },
+      {
+        "match_id": "5025526",
+        "date": "2025-11-30T02:00:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.18182
+      },
+      {
+        "match_id": "5071000",
+        "date": "2026-02-22T03:30:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 10,
+        "shot_share": 0.5
+      },
+      {
+        "match_id": "5071019",
+        "date": "2026-03-02T02:15:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 10,
+        "shot_share": 0.2
+      },
+      {
+        "match_id": "5071028",
+        "date": "2026-03-08T01:30:00+00:00",
+        "shots": 6,
+        "minutes": 90,
+        "team_shots": 15,
+        "shot_share": 0.4
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-03-21",
+    "match_id": "5071064",
+    "date": "2026-03-22T23:00:00Z",
+    "league": "MLS",
+    "fixture": "San Diego FC vs Real Salt Lake",
+    "environment_rank": 2,
+    "environment_score": 76.3,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 4,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "30981",
+    "player": "Lionel Messi",
+    "position_id": 85,
+    "avg_shots": 5.2,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.38729,
+    "shot_floor": 2,
+    "shot_stddev": 2.78568,
+    "candidate_side": "home",
+    "home_team_id": "960720",
+    "current_season_starts": 4,
+    "prior_ids": [
+      "5025528",
+      "5070996",
+      "5071018",
+      "5071020",
+      "5071062"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5025528",
+        "date": "2025-12-06T19:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 8,
+        "shot_share": 0.375
+      },
+      {
+        "match_id": "5070996",
+        "date": "2026-02-22T02:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 12,
+        "shot_share": 0.33333
+      },
+      {
+        "match_id": "5071018",
+        "date": "2026-03-02T00:00:00+00:00",
+        "shots": 8,
+        "minutes": 90,
+        "team_shots": 15,
+        "shot_share": 0.53333
+      },
+      {
+        "match_id": "5071020",
+        "date": "2026-03-07T21:30:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 7,
+        "shot_share": 0.28571
+      },
+      {
+        "match_id": "5071062",
+        "date": "2026-03-22T17:00:00+00:00",
+        "shots": 9,
+        "minutes": 90,
+        "team_shots": 22,
+        "shot_share": 0.40909
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-04-04",
+    "match_id": "5071068",
+    "date": "2026-04-05T00:00:00Z",
+    "league": "MLS",
+    "fixture": "Inter Miami CF vs Austin FC",
+    "environment_rank": 2,
+    "environment_score": 85.4,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 11,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "664962",
+    "player": "Denis Bouanga",
+    "position_id": 107,
+    "avg_shots": 4.4,
+    "avg_minutes": 89,
+    "hits_2plus": 5,
+    "hits_3plus": 5,
+    "avg_shot_share": 0.32944,
+    "shot_floor": 3,
+    "shot_stddev": 1.35647,
+    "candidate_side": "home",
+    "home_team_id": "867280",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5070996",
+      "5071011",
+      "5071029",
+      "5071045",
+      "5071056"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5070996",
+        "date": "2026-02-22T02:30:00+00:00",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 15,
+        "shot_share": 0.46667
+      },
+      {
+        "match_id": "5071011",
+        "date": "2026-03-01T01:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.22222
+      },
+      {
+        "match_id": "5071029",
+        "date": "2026-03-08T03:30:00+00:00",
+        "shots": 3,
+        "minutes": 89,
+        "team_shots": 8,
+        "shot_share": 0.375
+      },
+      {
+        "match_id": "5071045",
+        "date": "2026-03-15T02:30:00+00:00",
+        "shots": 4,
+        "minutes": 86,
+        "team_shots": 16,
+        "shot_share": 0.25
+      },
+      {
+        "match_id": "5071056",
+        "date": "2026-03-22T00:45:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 12,
+        "shot_share": 0.33333
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-04-04",
+    "match_id": "5071077",
+    "date": "2026-04-05T01:30:00Z",
+    "league": "MLS",
+    "fixture": "Los Angeles FC vs Orlando City",
+    "environment_rank": 1,
+    "environment_score": 87.9,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 58,
+    "actual_shots": 3,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "30981",
+    "player": "Lionel Messi",
+    "position_id": 85,
+    "avg_shots": 6.8,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.39087,
+    "shot_floor": 2,
+    "shot_stddev": 3.31059,
+    "candidate_side": "home",
+    "home_team_id": "960720",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5070996",
+      "5071018",
+      "5071020",
+      "5071062",
+      "5071068"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5070996",
+        "date": "2026-02-22T02:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 12,
+        "shot_share": 0.33333
+      },
+      {
+        "match_id": "5071018",
+        "date": "2026-03-02T00:00:00+00:00",
+        "shots": 8,
+        "minutes": 90,
+        "team_shots": 15,
+        "shot_share": 0.53333
+      },
+      {
+        "match_id": "5071020",
+        "date": "2026-03-07T21:30:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 7,
+        "shot_share": 0.28571
+      },
+      {
+        "match_id": "5071062",
+        "date": "2026-03-22T17:00:00+00:00",
+        "shots": 9,
+        "minutes": 90,
+        "team_shots": 22,
+        "shot_share": 0.40909
+      },
+      {
+        "match_id": "5071068",
+        "date": "2026-04-05T00:00:00+00:00",
+        "shots": 11,
+        "minutes": 90,
+        "team_shots": 28,
+        "shot_share": 0.39286
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-04-11",
+    "match_id": "5071082",
+    "date": "2026-04-11T23:30:00Z",
+    "league": "MLS",
+    "fixture": "Inter Miami CF vs Red Bull New York",
+    "environment_rank": 1,
+    "environment_score": 86.7,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 3,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "709796",
+    "player": "Petar Musa",
+    "position_id": 104,
+    "avg_shots": 4.6,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 5,
+    "avg_shot_share": 0.35385,
+    "shot_floor": 3,
+    "shot_stddev": 1.2,
+    "candidate_side": "home",
+    "home_team_id": "6399",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5070993",
+      "5071010",
+      "5071029",
+      "5071042",
+      "5071067"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5070993",
+        "date": "2026-02-22T01:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 13,
+        "shot_share": 0.30769
+      },
+      {
+        "match_id": "5071010",
+        "date": "2026-03-01T01:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 9,
+        "shot_share": 0.33333
+      },
+      {
+        "match_id": "5071029",
+        "date": "2026-03-08T03:30:00+00:00",
+        "shots": 6,
+        "minutes": 90,
+        "team_shots": 15,
+        "shot_share": 0.4
+      },
+      {
+        "match_id": "5071042",
+        "date": "2026-03-15T00:30:00+00:00",
+        "shots": 6,
+        "minutes": 90,
+        "team_shots": 13,
+        "shot_share": 0.46154
+      },
+      {
+        "match_id": "5071067",
+        "date": "2026-04-04T23:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 15,
+        "shot_share": 0.26667
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-04-11",
+    "match_id": "5071091",
+    "date": "2026-04-12T00:30:00Z",
+    "league": "MLS",
+    "fixture": "FC Dallas vs St. Louis City",
+    "environment_rank": 5,
+    "environment_score": 67.7,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 3,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "933760",
+    "player": "Brian White",
+    "position_id": 115,
+    "avg_shots": 4.8,
+    "avg_minutes": 87.2,
+    "hits_2plus": 5,
+    "hits_3plus": 3,
+    "avg_shot_share": 0.26348,
+    "shot_floor": 2,
+    "shot_stddev": 3.76298,
+    "candidate_side": "home",
+    "home_team_id": "307691",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071034",
+      "5071047",
+      "5071060",
+      "5071079",
+      "5071087"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071034",
+        "date": "2026-03-08T03:30:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 17,
+        "shot_share": 0.11765
+      },
+      {
+        "match_id": "5071047",
+        "date": "2026-03-15T20:30:00+00:00",
+        "shots": 2,
+        "minutes": 77,
+        "team_shots": 16,
+        "shot_share": 0.125
+      },
+      {
+        "match_id": "5071060",
+        "date": "2026-03-22T02:30:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 12,
+        "shot_share": 0.41667
+      },
+      {
+        "match_id": "5071079",
+        "date": "2026-04-05T02:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 22,
+        "shot_share": 0.13636
+      },
+      {
+        "match_id": "5071087",
+        "date": "2026-04-11T23:30:00+00:00",
+        "shots": 12,
+        "minutes": 89,
+        "team_shots": 23,
+        "shot_share": 0.52174
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-04-18",
+    "match_id": "5071095",
+    "date": "2026-04-18T02:30:00Z",
+    "league": "MLS",
+    "fixture": "Vancouver Whitecaps vs Sporting Kansas City",
+    "environment_rank": 1,
+    "environment_score": 95.8,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 74,
+    "actual_shots": 2,
+    "hit_2plus": true,
+    "hit_3plus": false
+  },
+  {
+    "player_id": "1455818",
+    "player": "Zavier Gozo",
+    "position_id": 72,
+    "avg_shots": 3.4,
+    "avg_minutes": 89.8,
+    "hits_2plus": 4,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.18123,
+    "shot_floor": 1,
+    "shot_stddev": 1.35647,
+    "candidate_side": "home",
+    "home_team_id": "6606",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071014",
+      "5071023",
+      "5071046",
+      "5071064",
+      "5071072"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071014",
+        "date": "2026-03-01T00:30:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 16,
+        "shot_share": 0.3125
+      },
+      {
+        "match_id": "5071023",
+        "date": "2026-03-08T00:30:00+00:00",
+        "shots": 1,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.09091
+      },
+      {
+        "match_id": "5071046",
+        "date": "2026-03-15T01:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 23,
+        "shot_share": 0.13043
+      },
+      {
+        "match_id": "5071064",
+        "date": "2026-03-22T23:00:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 21,
+        "shot_share": 0.19048
+      },
+      {
+        "match_id": "5071072",
+        "date": "2026-04-04T20:30:00+00:00",
+        "shots": 4,
+        "minutes": 89,
+        "team_shots": 22,
+        "shot_share": 0.18182
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-04-18",
+    "match_id": "5071107",
+    "date": "2026-04-19T01:30:00Z",
+    "league": "MLS",
+    "fixture": "Real Salt Lake vs San Diego FC",
+    "environment_rank": 3,
+    "environment_score": 76.5,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 3,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "30981",
+    "player": "Lionel Messi",
+    "position_id": 105,
+    "avg_shots": 7.2,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 5,
+    "avg_shot_share": 0.42315,
+    "shot_floor": 3,
+    "shot_stddev": 3.48712,
+    "candidate_side": "home",
+    "home_team_id": "960720",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071062",
+      "5071068",
+      "5071082",
+      "5071098",
+      "5071119"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071062",
+        "date": "2026-03-22T17:00:00+00:00",
+        "shots": 9,
+        "minutes": 90,
+        "team_shots": 22,
+        "shot_share": 0.40909
+      },
+      {
+        "match_id": "5071068",
+        "date": "2026-04-05T00:00:00+00:00",
+        "shots": 11,
+        "minutes": 90,
+        "team_shots": 28,
+        "shot_share": 0.39286
+      },
+      {
+        "match_id": "5071082",
+        "date": "2026-04-11T23:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 16,
+        "shot_share": 0.1875
+      },
+      {
+        "match_id": "5071098",
+        "date": "2026-04-18T20:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 5,
+        "shot_share": 0.6
+      },
+      {
+        "match_id": "5071119",
+        "date": "2026-04-23T01:30:00+00:00",
+        "shots": 10,
+        "minutes": 90,
+        "team_shots": 19,
+        "shot_share": 0.52632
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-04-25",
+    "match_id": "5071124",
+    "date": "2026-04-25T23:30:00Z",
+    "league": "MLS",
+    "fixture": "Inter Miami CF vs New England Revolution",
+    "environment_rank": 5,
+    "environment_score": 67.8,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 6,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "933760",
+    "player": "Brian White",
+    "position_id": 115,
+    "avg_shots": 4.8,
+    "avg_minutes": 84,
+    "hits_2plus": 5,
+    "hits_3plus": 3,
+    "avg_shot_share": 0.25595,
+    "shot_floor": 2,
+    "shot_stddev": 3.76298,
+    "candidate_side": "home",
+    "home_team_id": "307691",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071047",
+      "5071060",
+      "5071079",
+      "5071087",
+      "5071095"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071047",
+        "date": "2026-03-15T20:30:00+00:00",
+        "shots": 2,
+        "minutes": 77,
+        "team_shots": 16,
+        "shot_share": 0.125
+      },
+      {
+        "match_id": "5071060",
+        "date": "2026-03-22T02:30:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 12,
+        "shot_share": 0.41667
+      },
+      {
+        "match_id": "5071079",
+        "date": "2026-04-05T02:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 22,
+        "shot_share": 0.13636
+      },
+      {
+        "match_id": "5071087",
+        "date": "2026-04-11T23:30:00+00:00",
+        "shots": 12,
+        "minutes": 89,
+        "team_shots": 23,
+        "shot_share": 0.52174
+      },
+      {
+        "match_id": "5071095",
+        "date": "2026-04-18T02:30:00+00:00",
+        "shots": 2,
+        "minutes": 74,
+        "team_shots": 25,
+        "shot_share": 0.08
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-04-25",
+    "match_id": "5071134",
+    "date": "2026-04-26T02:30:00Z",
+    "league": "MLS",
+    "fixture": "Vancouver Whitecaps vs Colorado Rapids",
+    "environment_rank": 2,
+    "environment_score": 77.1,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 89,
+    "actual_shots": 6,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "30981",
+    "player": "Lionel Messi",
+    "position_id": 103,
+    "avg_shots": 6.6,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 5,
+    "avg_shot_share": 0.408,
+    "shot_floor": 3,
+    "shot_stddev": 3.38231,
+    "candidate_side": "home",
+    "home_team_id": "960720",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071068",
+      "5071082",
+      "5071098",
+      "5071119",
+      "5071124"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071068",
+        "date": "2026-04-05T00:00:00+00:00",
+        "shots": 11,
+        "minutes": 90,
+        "team_shots": 28,
+        "shot_share": 0.39286
+      },
+      {
+        "match_id": "5071082",
+        "date": "2026-04-11T23:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 16,
+        "shot_share": 0.1875
+      },
+      {
+        "match_id": "5071098",
+        "date": "2026-04-18T20:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 5,
+        "shot_share": 0.6
+      },
+      {
+        "match_id": "5071119",
+        "date": "2026-04-23T01:30:00+00:00",
+        "shots": 10,
+        "minutes": 90,
+        "team_shots": 19,
+        "shot_share": 0.52632
+      },
+      {
+        "match_id": "5071124",
+        "date": "2026-04-25T23:30:00+00:00",
+        "shots": 6,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.33333
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-05-02",
+    "match_id": "5071139",
+    "date": "2026-05-02T23:15:00Z",
+    "league": "MLS",
+    "fixture": "Inter Miami CF vs Orlando City",
+    "environment_rank": 1,
+    "environment_score": 94.2,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 5,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "737974",
+    "player": "Hugo Cuypers",
+    "position_id": 115,
+    "avg_shots": 3.8,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 5,
+    "avg_shot_share": 0.24487,
+    "shot_floor": 3,
+    "shot_stddev": 0.74833,
+    "candidate_side": "home",
+    "home_team_id": "6397",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071005",
+      "5071041",
+      "5071054",
+      "5071097",
+      "5071129"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071005",
+        "date": "2026-02-28T19:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 17,
+        "shot_share": 0.23529
+      },
+      {
+        "match_id": "5071041",
+        "date": "2026-03-15T00:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 15,
+        "shot_share": 0.2
+      },
+      {
+        "match_id": "5071054",
+        "date": "2026-03-21T20:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.27273
+      },
+      {
+        "match_id": "5071097",
+        "date": "2026-04-18T23:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.22222
+      },
+      {
+        "match_id": "5071129",
+        "date": "2026-04-26T00:30:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 17,
+        "shot_share": 0.29412
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-05-02",
+    "match_id": "5071145",
+    "date": "2026-05-03T00:30:00Z",
+    "league": "MLS",
+    "fixture": "Chicago Fire FC vs FC Cincinnati",
+    "environment_rank": 2,
+    "environment_score": 85.8,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 9,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "737974",
+    "player": "Hugo Cuypers",
+    "position_id": 105,
+    "avg_shots": 4.8,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 5,
+    "avg_shot_share": 0.25236,
+    "shot_floor": 3,
+    "shot_stddev": 2.22711,
+    "candidate_side": "home",
+    "home_team_id": "6397",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071041",
+      "5071054",
+      "5071097",
+      "5071129",
+      "5071145"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071041",
+        "date": "2026-03-15T00:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 15,
+        "shot_share": 0.2
+      },
+      {
+        "match_id": "5071054",
+        "date": "2026-03-21T20:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.27273
+      },
+      {
+        "match_id": "5071097",
+        "date": "2026-04-18T23:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.22222
+      },
+      {
+        "match_id": "5071129",
+        "date": "2026-04-26T00:30:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 17,
+        "shot_share": 0.29412
+      },
+      {
+        "match_id": "5071145",
+        "date": "2026-05-03T00:30:00+00:00",
+        "shots": 9,
+        "minutes": 90,
+        "team_shots": 33,
+        "shot_share": 0.27273
+      }
+    ],
+    "shooter_rank_within_possible_XI": 2,
+    "plan_B": true,
+    "weekend": "2026-05-09",
+    "match_id": "5071153",
+    "date": "2026-05-09T18:30:00Z",
+    "league": "MLS",
+    "fixture": "Chicago Fire FC vs Red Bull New York",
+    "environment_rank": 1,
+    "environment_score": 84.6,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 2,
+    "actual_minutes": 90,
+    "actual_shots": 3,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "1251793",
+    "player": "Preston Judd",
+    "position_id": 115,
+    "avg_shots": 3.6,
+    "avg_minutes": 83.8,
+    "hits_2plus": 4,
+    "hits_3plus": 3,
+    "avg_shot_share": 0.23547,
+    "shot_floor": 1,
+    "shot_stddev": 2.41661,
+    "candidate_side": "home",
+    "home_team_id": "6603",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071092",
+      "5071109",
+      "5071120",
+      "5071133",
+      "5071144"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071092",
+        "date": "2026-04-12T00:30:00+00:00",
+        "shots": 2,
+        "minutes": 87,
+        "team_shots": 10,
+        "shot_share": 0.2
+      },
+      {
+        "match_id": "5071109",
+        "date": "2026-04-19T23:00:00+00:00",
+        "shots": 3,
+        "minutes": 86,
+        "team_shots": 12,
+        "shot_share": 0.25
+      },
+      {
+        "match_id": "5071120",
+        "date": "2026-04-23T02:30:00+00:00",
+        "shots": 8,
+        "minutes": 90,
+        "team_shots": 37,
+        "shot_share": 0.21622
+      },
+      {
+        "match_id": "5071133",
+        "date": "2026-04-26T00:40:00+00:00",
+        "shots": 1,
+        "minutes": 90,
+        "team_shots": 9,
+        "shot_share": 0.11111
+      },
+      {
+        "match_id": "5071144",
+        "date": "2026-05-02T17:00:00+00:00",
+        "shots": 4,
+        "minutes": 66,
+        "team_shots": 10,
+        "shot_share": 0.4
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-05-09",
+    "match_id": "5071161",
+    "date": "2026-05-10T02:30:00Z",
+    "league": "MLS",
+    "fixture": "San Jose Earthquakes vs Vancouver Whitecaps",
+    "environment_rank": 4,
+    "environment_score": 62.3,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 89,
+    "actual_shots": 3,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "1251793",
+    "player": "Preston Judd",
+    "position_id": 115,
+    "avg_shots": 3.8,
+    "avg_minutes": 84.2,
+    "hits_2plus": 4,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.28118,
+    "shot_floor": 1,
+    "shot_stddev": 2.31517,
+    "candidate_side": "home",
+    "home_team_id": "6603",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071109",
+      "5071120",
+      "5071133",
+      "5071144",
+      "5071161"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071109",
+        "date": "2026-04-19T23:00:00+00:00",
+        "shots": 3,
+        "minutes": 86,
+        "team_shots": 12,
+        "shot_share": 0.25
+      },
+      {
+        "match_id": "5071120",
+        "date": "2026-04-23T02:30:00+00:00",
+        "shots": 8,
+        "minutes": 90,
+        "team_shots": 37,
+        "shot_share": 0.21622
+      },
+      {
+        "match_id": "5071133",
+        "date": "2026-04-26T00:40:00+00:00",
+        "shots": 1,
+        "minutes": 90,
+        "team_shots": 9,
+        "shot_share": 0.11111
+      },
+      {
+        "match_id": "5071144",
+        "date": "2026-05-02T17:00:00+00:00",
+        "shots": 4,
+        "minutes": 66,
+        "team_shots": 10,
+        "shot_share": 0.4
+      },
+      {
+        "match_id": "5071161",
+        "date": "2026-05-10T02:30:00+00:00",
+        "shots": 3,
+        "minutes": 89,
+        "team_shots": 7,
+        "shot_share": 0.42857
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-05-16",
+    "match_id": "5071192",
+    "date": "2026-05-17T02:30:00Z",
+    "league": "MLS",
+    "fixture": "San Jose Earthquakes vs FC Dallas",
+    "environment_rank": 4,
+    "environment_score": 73.3,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 4,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "30981",
+    "player": "Lionel Messi",
+    "position_id": 103,
+    "avg_shots": 6.4,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 5,
+    "avg_shot_share": 0.37189,
+    "shot_floor": 5,
+    "shot_stddev": 1.85472,
+    "candidate_side": "home",
+    "home_team_id": "960720",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071119",
+      "5071124",
+      "5071139",
+      "5071156",
+      "5071167"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071119",
+        "date": "2026-04-23T01:30:00+00:00",
+        "shots": 10,
+        "minutes": 90,
+        "team_shots": 19,
+        "shot_share": 0.52632
+      },
+      {
+        "match_id": "5071124",
+        "date": "2026-04-25T23:30:00+00:00",
+        "shots": 6,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.33333
+      },
+      {
+        "match_id": "5071139",
+        "date": "2026-05-02T23:15:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 26,
+        "shot_share": 0.19231
+      },
+      {
+        "match_id": "5071156",
+        "date": "2026-05-09T17:00:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.45455
+      },
+      {
+        "match_id": "5071167",
+        "date": "2026-05-13T23:30:00+00:00",
+        "shots": 6,
+        "minutes": 90,
+        "team_shots": 17,
+        "shot_share": 0.35294
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-05-16",
+    "match_id": "5071189",
+    "date": "2026-05-17T22:00:00Z",
+    "league": "MLS",
+    "fixture": "Inter Miami CF vs Portland Timbers",
+    "environment_rank": 2,
+    "environment_score": 83.8,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 9,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "394462",
+    "player": "Hany Mukhtar",
+    "position_id": 105,
+    "avg_shots": 4,
+    "avg_minutes": 89.2,
+    "hits_2plus": 5,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.35003,
+    "shot_floor": 2,
+    "shot_stddev": 1.09545,
+    "candidate_side": "home",
+    "home_team_id": "915807",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071096",
+      "5071130",
+      "5071159",
+      "5071170",
+      "5071194"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071096",
+        "date": "2026-04-18T23:30:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 17,
+        "shot_share": 0.29412
+      },
+      {
+        "match_id": "5071130",
+        "date": "2026-04-26T00:40:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 13,
+        "shot_share": 0.38462
+      },
+      {
+        "match_id": "5071159",
+        "date": "2026-05-10T01:15:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 16,
+        "shot_share": 0.25
+      },
+      {
+        "match_id": "5071170",
+        "date": "2026-05-13T23:30:00+00:00",
+        "shots": 2,
+        "minutes": 86,
+        "team_shots": 8,
+        "shot_share": 0.25
+      },
+      {
+        "match_id": "5071194",
+        "date": "2026-05-18T00:00:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 7,
+        "shot_share": 0.57143
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-05-23",
+    "match_id": "5071204",
+    "date": "2026-05-24T00:30:00Z",
+    "league": "MLS",
+    "fixture": "Nashville SC vs New York City FC",
+    "environment_rank": 4,
+    "environment_score": 64.6,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 4,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "30981",
+    "player": "Lionel Messi",
+    "position_id": 103,
+    "avg_shots": 6.2,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 5,
+    "avg_shot_share": 0.34844,
+    "shot_floor": 5,
+    "shot_stddev": 1.46969,
+    "candidate_side": "home",
+    "home_team_id": "960720",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071124",
+      "5071139",
+      "5071156",
+      "5071167",
+      "5071189"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071124",
+        "date": "2026-04-25T23:30:00+00:00",
+        "shots": 6,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.33333
+      },
+      {
+        "match_id": "5071139",
+        "date": "2026-05-02T23:15:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 26,
+        "shot_share": 0.19231
+      },
+      {
+        "match_id": "5071156",
+        "date": "2026-05-09T17:00:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.45455
+      },
+      {
+        "match_id": "5071167",
+        "date": "2026-05-13T23:30:00+00:00",
+        "shots": 6,
+        "minutes": 90,
+        "team_shots": 17,
+        "shot_share": 0.35294
+      },
+      {
+        "match_id": "5071189",
+        "date": "2026-05-17T22:00:00+00:00",
+        "shots": 9,
+        "minutes": 90,
+        "team_shots": 22,
+        "shot_share": 0.40909
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-05-23",
+    "match_id": "5071208",
+    "date": "2026-05-24T23:00:00Z",
+    "league": "MLS",
+    "fixture": "Inter Miami CF vs Philadelphia Union",
+    "environment_rank": 1,
+    "environment_score": 85.4,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 73,
+    "actual_shots": 3,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "394462",
+    "player": "Hany Mukhtar",
+    "position_id": 105,
+    "avg_shots": 3.8,
+    "avg_minutes": 89.2,
+    "hits_2plus": 5,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.35788,
+    "shot_floor": 2,
+    "shot_stddev": 0.9798,
+    "candidate_side": "home",
+    "home_team_id": "915807",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071130",
+      "5071159",
+      "5071170",
+      "5071194",
+      "5071204"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071130",
+        "date": "2026-04-26T00:40:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 13,
+        "shot_share": 0.38462
+      },
+      {
+        "match_id": "5071159",
+        "date": "2026-05-10T01:15:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 16,
+        "shot_share": 0.25
+      },
+      {
+        "match_id": "5071170",
+        "date": "2026-05-13T23:30:00+00:00",
+        "shots": 2,
+        "minutes": 86,
+        "team_shots": 8,
+        "shot_share": 0.25
+      },
+      {
+        "match_id": "5071194",
+        "date": "2026-05-18T00:00:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 7,
+        "shot_share": 0.57143
+      },
+      {
+        "match_id": "5071204",
+        "date": "2026-05-24T00:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 12,
+        "shot_share": 0.33333
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-07-18",
+    "match_id": "5071215",
+    "date": "2026-07-18T00:10:00Z",
+    "league": "MLS",
+    "fixture": "Nashville SC vs Atlanta United",
+    "environment_rank": 1,
+    "environment_score": 60.0,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 2,
+    "hit_2plus": true,
+    "hit_3plus": false
+  },
+  {
+    "player_id": "954194",
+    "player": "Mateusz Bogusz",
+    "position_id": 82,
+    "avg_shots": 3.6,
+    "avg_minutes": 87.8,
+    "hits_2plus": 5,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.30063,
+    "shot_floor": 2,
+    "shot_stddev": 1.2,
+    "candidate_side": "home",
+    "home_team_id": "8259",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071146",
+      "5071165",
+      "5071188",
+      "5071202",
+      "5071224"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071146",
+        "date": "2026-05-03T00:30:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 9,
+        "shot_share": 0.22222
+      },
+      {
+        "match_id": "5071165",
+        "date": "2026-05-11T01:00:00+00:00",
+        "shots": 5,
+        "minutes": 87,
+        "team_shots": 12,
+        "shot_share": 0.41667
+      },
+      {
+        "match_id": "5071188",
+        "date": "2026-05-17T00:30:00+00:00",
+        "shots": 3,
+        "minutes": 84,
+        "team_shots": 14,
+        "shot_share": 0.21429
+      },
+      {
+        "match_id": "5071202",
+        "date": "2026-05-24T02:30:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 10,
+        "shot_share": 0.5
+      },
+      {
+        "match_id": "5071224",
+        "date": "2026-07-23T00:30:00+00:00",
+        "shots": 3,
+        "minutes": 88,
+        "team_shots": 20,
+        "shot_share": 0.15
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-07-25",
+    "match_id": "5071239",
+    "date": "2026-07-26T00:30:00Z",
+    "league": "MLS",
+    "fixture": "Houston Dynamo FC vs Austin FC",
+    "environment_rank": 1,
+    "environment_score": 89.3,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 4,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "212867",
+    "player": "Heung-Min Son",
+    "position_id": 105,
+    "avg_shots": 4.6,
+    "avg_minutes": 83.6,
+    "hits_2plus": 5,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.30442,
+    "shot_floor": 2,
+    "shot_stddev": 1.74356,
+    "candidate_side": "home",
+    "home_team_id": "867280",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071179",
+      "5071194",
+      "5071209",
+      "5071214",
+      "5071227"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071179",
+        "date": "2026-05-14T00:30:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 16,
+        "shot_share": 0.125
+      },
+      {
+        "match_id": "5071194",
+        "date": "2026-05-18T00:00:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 21,
+        "shot_share": 0.19048
+      },
+      {
+        "match_id": "5071209",
+        "date": "2026-05-25T01:15:00+00:00",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 17,
+        "shot_share": 0.41176
+      },
+      {
+        "match_id": "5071214",
+        "date": "2026-07-18T02:25:00+00:00",
+        "shots": 6,
+        "minutes": 76,
+        "team_shots": 13,
+        "shot_share": 0.46154
+      },
+      {
+        "match_id": "5071227",
+        "date": "2026-07-23T02:30:00+00:00",
+        "shots": 4,
+        "minutes": 72,
+        "team_shots": 12,
+        "shot_share": 0.33333
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-07-25",
+    "match_id": "5071240",
+    "date": "2026-07-26T02:30:00Z",
+    "league": "MLS",
+    "fixture": "Los Angeles FC vs Sporting Kansas City",
+    "environment_rank": 5,
+    "environment_score": 61.1,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 85,
+    "actual_shots": 4,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "787351",
+    "player": "Evander Ferreira",
+    "position_id": 107,
+    "avg_shots": 3.4,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.29476,
+    "shot_floor": 2,
+    "shot_stddev": 0.8,
+    "candidate_side": "home",
+    "home_team_id": "722265",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071167",
+      "5071191",
+      "5071196",
+      "5071216",
+      "5071231"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071167",
+        "date": "2026-05-13T23:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 10,
+        "shot_share": 0.3
+      },
+      {
+        "match_id": "5071191",
+        "date": "2026-05-17T01:30:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 8,
+        "shot_share": 0.25
+      },
+      {
+        "match_id": "5071196",
+        "date": "2026-05-23T23:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 21,
+        "shot_share": 0.19048
+      },
+      {
+        "match_id": "5071216",
+        "date": "2026-07-22T23:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 10,
+        "shot_share": 0.4
+      },
+      {
+        "match_id": "5071231",
+        "date": "2026-07-25T23:25:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 12,
+        "shot_share": 0.33333
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-08-01",
+    "match_id": "5071247",
+    "date": "2026-08-02T01:46:00Z",
+    "league": "MLS",
+    "fixture": "FC Cincinnati vs San Jose Earthquakes",
+    "environment_rank": 5,
+    "environment_score": 59.2,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 3,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "1473789",
+    "player": "Peyton Miller",
+    "position_id": 83,
+    "avg_shots": 3,
+    "avg_minutes": 84.8,
+    "hits_2plus": 5,
+    "hits_3plus": 3,
+    "avg_shot_share": 0.2297,
+    "shot_floor": 2,
+    "shot_stddev": 0.89443,
+    "candidate_side": "home",
+    "home_team_id": "6580",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071183",
+      "5071195",
+      "5071219",
+      "5071234",
+      "5071250"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071183",
+        "date": "2026-05-16T23:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.36364
+      },
+      {
+        "match_id": "5071195",
+        "date": "2026-05-23T23:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 13,
+        "shot_share": 0.23077
+      },
+      {
+        "match_id": "5071219",
+        "date": "2026-07-22T23:30:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.18182
+      },
+      {
+        "match_id": "5071234",
+        "date": "2026-07-25T23:30:00+00:00",
+        "shots": 2,
+        "minutes": 68,
+        "team_shots": 11,
+        "shot_share": 0.18182
+      },
+      {
+        "match_id": "5071250",
+        "date": "2026-08-01T23:30:00+00:00",
+        "shots": 4,
+        "minutes": 86,
+        "team_shots": 21,
+        "shot_share": 0.19048
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-08-08",
+    "match_id": "5071021",
+    "date": "2026-08-08T20:30:00Z",
+    "league": "MLS",
+    "fixture": "New England Revolution vs Houston Dynamo FC",
+    "environment_rank": 1,
+    "environment_score": 50.0,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 79,
+    "actual_shots": 2,
+    "hit_2plus": true,
+    "hit_3plus": false
+  },
+  {
+    "player_id": "954194",
+    "player": "Mateusz Bogusz",
+    "position_id": 83,
+    "avg_shots": 3.4,
+    "avg_minutes": 86.6,
+    "hits_2plus": 5,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.28363,
+    "shot_floor": 2,
+    "shot_stddev": 1.0198,
+    "candidate_side": "home",
+    "home_team_id": "8259",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071188",
+      "5071202",
+      "5071224",
+      "5071239",
+      "5071021"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071188",
+        "date": "2026-05-17T00:30:00+00:00",
+        "shots": 3,
+        "minutes": 84,
+        "team_shots": 14,
+        "shot_share": 0.21429
+      },
+      {
+        "match_id": "5071202",
+        "date": "2026-05-24T02:30:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 10,
+        "shot_share": 0.5
+      },
+      {
+        "match_id": "5071224",
+        "date": "2026-07-23T00:30:00+00:00",
+        "shots": 3,
+        "minutes": 88,
+        "team_shots": 20,
+        "shot_share": 0.15
+      },
+      {
+        "match_id": "5071239",
+        "date": "2026-07-26T00:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 10,
+        "shot_share": 0.4
+      },
+      {
+        "match_id": "5071021",
+        "date": "2026-08-08T20:30:00+00:00",
+        "shots": 2,
+        "minutes": 81,
+        "team_shots": 13,
+        "shot_share": 0.15385
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-08-15",
+    "match_id": "5071268",
+    "date": "2026-08-16T00:30:00Z",
+    "league": "MLS",
+    "fixture": "Houston Dynamo FC vs LA Galaxy",
+    "environment_rank": 1,
+    "environment_score": 92.1,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 89,
+    "actual_shots": 1,
+    "hit_2plus": false,
+    "hit_3plus": false
+  },
+  {
+    "player_id": "212867",
+    "player": "Heung-Min Son",
+    "position_id": 105,
+    "avg_shots": 4.8,
+    "avg_minutes": 82.6,
+    "hits_2plus": 5,
+    "hits_3plus": 5,
+    "avg_shot_share": 0.46133,
+    "shot_floor": 3,
+    "shot_stddev": 1.46969,
+    "candidate_side": "home",
+    "home_team_id": "867280",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071209",
+      "5071214",
+      "5071227",
+      "5071240",
+      "5071253"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071209",
+        "date": "2026-05-25T01:15:00+00:00",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 17,
+        "shot_share": 0.41176
+      },
+      {
+        "match_id": "5071214",
+        "date": "2026-07-18T02:25:00+00:00",
+        "shots": 6,
+        "minutes": 76,
+        "team_shots": 13,
+        "shot_share": 0.46154
+      },
+      {
+        "match_id": "5071227",
+        "date": "2026-07-23T02:30:00+00:00",
+        "shots": 4,
+        "minutes": 72,
+        "team_shots": 12,
+        "shot_share": 0.33333
+      },
+      {
+        "match_id": "5071240",
+        "date": "2026-07-26T02:30:00+00:00",
+        "shots": 4,
+        "minutes": 85,
+        "team_shots": 8,
+        "shot_share": 0.5
+      },
+      {
+        "match_id": "5071253",
+        "date": "2026-08-01T23:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 5,
+        "shot_share": 0.6
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-08-15",
+    "match_id": "5071269",
+    "date": "2026-08-16T02:30:00Z",
+    "league": "MLS",
+    "fixture": "Los Angeles FC vs San Diego FC",
+    "environment_rank": 2,
+    "environment_score": 80.0,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 4,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "787351",
+    "player": "Evander Ferreira",
+    "position_id": 106,
+    "avg_shots": 4.2,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 5,
+    "avg_shot_share": 0.33509,
+    "shot_floor": 3,
+    "shot_stddev": 0.74833,
+    "candidate_side": "home",
+    "home_team_id": "722265",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071216",
+      "5071231",
+      "5071247",
+      "5071264",
+      "5071276"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071216",
+        "date": "2026-07-22T23:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 10,
+        "shot_share": 0.4
+      },
+      {
+        "match_id": "5071231",
+        "date": "2026-07-25T23:25:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 12,
+        "shot_share": 0.33333
+      },
+      {
+        "match_id": "5071247",
+        "date": "2026-08-02T01:46:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 23,
+        "shot_share": 0.13043
+      },
+      {
+        "match_id": "5071264",
+        "date": "2026-08-15T23:30:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.45455
+      },
+      {
+        "match_id": "5071276",
+        "date": "2026-08-19T23:30:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 14,
+        "shot_share": 0.35714
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-08-22",
+    "match_id": "5071292",
+    "date": "2026-08-22T23:30:00Z",
+    "league": "MLS",
+    "fixture": "FC Cincinnati vs Seattle Sounders FC",
+    "environment_rank": 2,
+    "environment_score": 81.4,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 3,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "184138",
+    "player": "Antoine Griezmann",
+    "position_id": 106,
+    "avg_shots": 3.2,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.2,
+    "shot_floor": 2,
+    "shot_stddev": 0.74833,
+    "candidate_side": "home",
+    "home_team_id": "267810",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071230",
+      "5071237",
+      "5071251",
+      "5071264",
+      "5071280"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071230",
+        "date": "2026-07-23T02:30:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 15,
+        "shot_share": 0.13333
+      },
+      {
+        "match_id": "5071237",
+        "date": "2026-07-26T00:45:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 12,
+        "shot_share": 0.25
+      },
+      {
+        "match_id": "5071251",
+        "date": "2026-08-01T23:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 20,
+        "shot_share": 0.2
+      },
+      {
+        "match_id": "5071264",
+        "date": "2026-08-15T23:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.16667
+      },
+      {
+        "match_id": "5071280",
+        "date": "2026-08-19T23:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 16,
+        "shot_share": 0.25
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-08-22",
+    "match_id": "5071296",
+    "date": "2026-08-22T23:30:00Z",
+    "league": "MLS",
+    "fixture": "Orlando City vs Real Salt Lake",
+    "environment_rank": 4,
+    "environment_score": 70.5,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 5,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "763151",
+    "player": "Guilherme Augusto",
+    "position_id": 87,
+    "avg_shots": 3,
+    "avg_minutes": 84.4,
+    "hits_2plus": 4,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.28454,
+    "shot_floor": 1,
+    "shot_stddev": 1.26491,
+    "candidate_side": "home",
+    "home_team_id": "8259",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071239",
+      "5071256",
+      "5071021",
+      "5071268",
+      "5071290"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071239",
+        "date": "2026-07-26T00:30:00+00:00",
+        "shots": 3,
+        "minutes": 84,
+        "team_shots": 10,
+        "shot_share": 0.3
+      },
+      {
+        "match_id": "5071256",
+        "date": "2026-08-02T00:30:00+00:00",
+        "shots": 1,
+        "minutes": 89,
+        "team_shots": 14,
+        "shot_share": 0.07143
+      },
+      {
+        "match_id": "5071021",
+        "date": "2026-08-08T20:30:00+00:00",
+        "shots": 5,
+        "minutes": 89,
+        "team_shots": 13,
+        "shot_share": 0.38462
+      },
+      {
+        "match_id": "5071268",
+        "date": "2026-08-16T00:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 9,
+        "shot_share": 0.33333
+      },
+      {
+        "match_id": "5071290",
+        "date": "2026-08-20T02:30:00+00:00",
+        "shots": 3,
+        "minutes": 70,
+        "team_shots": 9,
+        "shot_share": 0.33333
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-08-29",
+    "match_id": "5071314",
+    "date": "2026-08-30T00:30:00Z",
+    "league": "MLS",
+    "fixture": "Houston Dynamo FC vs San Jose Earthquakes",
+    "environment_rank": 5,
+    "environment_score": 75.0,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 1,
+    "hit_2plus": false,
+    "hit_3plus": false
+  },
+  {
+    "player_id": "1173474",
+    "player": "Rafael Navarro",
+    "position_id": 105,
+    "avg_shots": 3.8,
+    "avg_minutes": 90,
+    "hits_2plus": 4,
+    "hits_3plus": 3,
+    "avg_shot_share": 0.38859,
+    "shot_floor": 1,
+    "shot_stddev": 2.13542,
+    "candidate_side": "home",
+    "home_team_id": "8314",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071245",
+      "5071255",
+      "5071267",
+      "5071283",
+      "5071300"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071245",
+        "date": "2026-07-26T00:30:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 2,
+        "shot_share": 1.0
+      },
+      {
+        "match_id": "5071255",
+        "date": "2026-08-02T01:30:00+00:00",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 23,
+        "shot_share": 0.30435
+      },
+      {
+        "match_id": "5071267",
+        "date": "2026-08-16T01:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 28,
+        "shot_share": 0.14286
+      },
+      {
+        "match_id": "5071283",
+        "date": "2026-08-20T01:30:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 13,
+        "shot_share": 0.38462
+      },
+      {
+        "match_id": "5071300",
+        "date": "2026-08-23T02:30:00+00:00",
+        "shots": 1,
+        "minutes": 90,
+        "team_shots": 9,
+        "shot_share": 0.11111
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-08-29",
+    "match_id": "5071313",
+    "date": "2026-08-30T01:30:00Z",
+    "league": "MLS",
+    "fixture": "Colorado Rapids vs Real Salt Lake",
+    "environment_rank": 2,
+    "environment_score": 84.5,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 89,
+    "actual_shots": 4,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "540097",
+    "player": "Patrik Schick",
+    "position_id": 115,
+    "avg_shots": 4.2,
+    "avg_minutes": 89.8,
+    "hits_2plus": 4,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.23165,
+    "shot_floor": 0,
+    "shot_stddev": 2.92575,
+    "candidate_side": "home",
+    "home_team_id": "8178",
+    "current_season_starts": 1,
+    "prior_ids": [
+      "4829587",
+      "4829594",
+      "4829610",
+      "4829612",
+      "5881146"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "4829587",
+        "date": "2026-04-25T13:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 8,
+        "shot_share": 0.375
+      },
+      {
+        "match_id": "4829594",
+        "date": "2026-05-02T16:30:00+00:00",
+        "shots": 9,
+        "minutes": 89,
+        "team_shots": 23,
+        "shot_share": 0.3913
+      },
+      {
+        "match_id": "4829610",
+        "date": "2026-05-09T13:30:00+00:00",
+        "shots": 0,
+        "minutes": 90,
+        "team_shots": 6,
+        "shot_share": 0.0
+      },
+      {
+        "match_id": "4829612",
+        "date": "2026-05-16T13:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 26,
+        "shot_share": 0.15385
+      },
+      {
+        "match_id": "5881146",
+        "date": "2026-08-29T13:30:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 21,
+        "shot_share": 0.2381
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-09-05",
+    "match_id": "5881152",
+    "date": "2026-09-05T13:30:00Z",
+    "league": "Bundesliga",
+    "fixture": "Bayer Leverkusen vs Union Berlin",
+    "environment_rank": 5,
+    "environment_score": 74.3,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 67,
+    "actual_shots": 4,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "1136311",
+    "player": "Milan Iloski",
+    "position_id": 104,
+    "avg_shots": 4.8,
+    "avg_minutes": 89.8,
+    "hits_2plus": 5,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.26301,
+    "shot_floor": 2,
+    "shot_stddev": 2.03961,
+    "candidate_side": "home",
+    "home_team_id": "191716",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071252",
+      "5071274",
+      "5071281",
+      "5071297",
+      "5071310"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071252",
+        "date": "2026-08-01T23:30:00+00:00",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 30,
+        "shot_share": 0.23333
+      },
+      {
+        "match_id": "5071274",
+        "date": "2026-08-16T22:00:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 17,
+        "shot_share": 0.29412
+      },
+      {
+        "match_id": "5071281",
+        "date": "2026-08-19T23:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 17,
+        "shot_share": 0.17647
+      },
+      {
+        "match_id": "5071297",
+        "date": "2026-08-23T01:00:00+00:00",
+        "shots": 2,
+        "minutes": 89,
+        "team_shots": 9,
+        "shot_share": 0.22222
+      },
+      {
+        "match_id": "5071310",
+        "date": "2026-08-29T23:30:00+00:00",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.38889
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-09-05",
+    "match_id": "5071327",
+    "date": "2026-09-05T23:30:00Z",
+    "league": "MLS",
+    "fixture": "Philadelphia Union vs CF Montr\u00e9al",
+    "environment_rank": 1,
+    "environment_score": 94.6,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 82,
+    "actual_shots": 3,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "737066",
+    "player": "Erling Haaland",
+    "position_id": 115,
+    "avg_shots": 3.6,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 3,
+    "avg_shot_share": 0.28105,
+    "shot_floor": 2,
+    "shot_stddev": 1.35647,
+    "candidate_side": "home",
+    "home_team_id": "8456",
+    "current_season_starts": 4,
+    "prior_ids": [
+      "4813735",
+      "5795370",
+      "5795429",
+      "5795442",
+      "5795452"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "4813735",
+        "date": "2026-05-19T18:30:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 14,
+        "shot_share": 0.14286
+      },
+      {
+        "match_id": "5795370",
+        "date": "2026-08-23T13:00:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 13,
+        "shot_share": 0.38462
+      },
+      {
+        "match_id": "5795429",
+        "date": "2026-08-28T19:00:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.27778
+      },
+      {
+        "match_id": "5795442",
+        "date": "2026-09-05T14:00:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 15,
+        "shot_share": 0.26667
+      },
+      {
+        "match_id": "5795452",
+        "date": "2026-09-13T15:30:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 6,
+        "shot_share": 0.33333
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-09-19",
+    "match_id": "5795461",
+    "date": "2026-09-20T13:00:00Z",
+    "league": "Premier League",
+    "fixture": "Manchester City vs Sunderland",
+    "environment_rank": 2,
+    "environment_score": 81.7,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 4,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "1457626",
+    "player": "Ibrahim Maza",
+    "position_id": 85,
+    "avg_shots": 4.2,
+    "avg_minutes": 90,
+    "hits_2plus": 4,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.1967,
+    "shot_floor": 1,
+    "shot_stddev": 2.03961,
+    "candidate_side": "home",
+    "home_team_id": "8178",
+    "current_season_starts": 3,
+    "prior_ids": [
+      "4829610",
+      "4829612",
+      "5881146",
+      "5881152",
+      "5881161"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "4829610",
+        "date": "2026-05-09T13:30:00+00:00",
+        "shots": 1,
+        "minutes": 90,
+        "team_shots": 6,
+        "shot_share": 0.16667
+      },
+      {
+        "match_id": "4829612",
+        "date": "2026-05-16T13:30:00+00:00",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 26,
+        "shot_share": 0.26923
+      },
+      {
+        "match_id": "5881146",
+        "date": "2026-08-29T13:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 21,
+        "shot_share": 0.14286
+      },
+      {
+        "match_id": "5881152",
+        "date": "2026-09-05T13:30:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 21,
+        "shot_share": 0.2381
+      },
+      {
+        "match_id": "5881161",
+        "date": "2026-09-12T13:30:00+00:00",
+        "shots": 5,
+        "minutes": 90,
+        "team_shots": 30,
+        "shot_share": 0.16667
+      }
+    ],
+    "shooter_rank_within_possible_XI": 2,
+    "plan_B": true,
+    "weekend": "2026-09-19",
+    "match_id": "5881170",
+    "date": "2026-09-20T13:30:00Z",
+    "league": "Bundesliga",
+    "fixture": "Bayer Leverkusen vs RB Leipzig",
+    "environment_rank": 5,
+    "environment_score": 56.6,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 2,
+    "actual_minutes": 90,
+    "actual_shots": 4,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "1136311",
+    "player": "Milan Iloski",
+    "position_id": 104,
+    "avg_shots": 3.6,
+    "avg_minutes": 85.8,
+    "hits_2plus": 5,
+    "hits_3plus": 3,
+    "avg_shot_share": 0.22523,
+    "shot_floor": 2,
+    "shot_stddev": 1.85472,
+    "candidate_side": "home",
+    "home_team_id": "191716",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071297",
+      "5071310",
+      "5071327",
+      "5071365",
+      "5071374"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071297",
+        "date": "2026-08-23T01:00:00+00:00",
+        "shots": 2,
+        "minutes": 89,
+        "team_shots": 9,
+        "shot_share": 0.22222
+      },
+      {
+        "match_id": "5071310",
+        "date": "2026-08-29T23:30:00+00:00",
+        "shots": 7,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.38889
+      },
+      {
+        "match_id": "5071327",
+        "date": "2026-09-05T23:30:00+00:00",
+        "shots": 3,
+        "minutes": 82,
+        "team_shots": 19,
+        "shot_share": 0.15789
+      },
+      {
+        "match_id": "5071365",
+        "date": "2026-09-14T01:00:00+00:00",
+        "shots": 4,
+        "minutes": 86,
+        "team_shots": 21,
+        "shot_share": 0.19048
+      },
+      {
+        "match_id": "5071374",
+        "date": "2026-09-20T00:30:00+00:00",
+        "shots": 2,
+        "minutes": 82,
+        "team_shots": 12,
+        "shot_share": 0.16667
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-09-26",
+    "match_id": "5071385",
+    "date": "2026-09-26T23:30:00Z",
+    "league": "MLS",
+    "fixture": "Philadelphia Union vs Orlando City",
+    "environment_rank": 1,
+    "environment_score": 79.2,
+    "provisional_rank": 2,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 78,
+    "actual_shots": 6,
+    "hit_2plus": true,
+    "hit_3plus": true
+  },
+  {
+    "player_id": "796747",
+    "player": "Sam Surridge",
+    "position_id": 115,
+    "avg_shots": 3.6,
+    "avg_minutes": 90,
+    "hits_2plus": 5,
+    "hits_3plus": 4,
+    "avg_shot_share": 0.24996,
+    "shot_floor": 2,
+    "shot_stddev": 1.35647,
+    "candidate_side": "home",
+    "home_team_id": "915807",
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5071317",
+      "5071321",
+      "5071341",
+      "5071354",
+      "5071376"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5071317",
+        "date": "2026-08-30T00:30:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 19,
+        "shot_share": 0.10526
+      },
+      {
+        "match_id": "5071321",
+        "date": "2026-09-04T23:30:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 13,
+        "shot_share": 0.30769
+      },
+      {
+        "match_id": "5071341",
+        "date": "2026-09-09T23:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.27273
+      },
+      {
+        "match_id": "5071354",
+        "date": "2026-09-12T23:30:00+00:00",
+        "shots": 6,
+        "minutes": 90,
+        "team_shots": 18,
+        "shot_share": 0.33333
+      },
+      {
+        "match_id": "5071376",
+        "date": "2026-09-20T01:30:00+00:00",
+        "shots": 3,
+        "minutes": 90,
+        "team_shots": 13,
+        "shot_share": 0.23077
+      }
+    ],
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "weekend": "2026-09-26",
+    "match_id": "5071391",
+    "date": "2026-09-27T00:30:00Z",
+    "league": "MLS",
+    "fixture": "Nashville SC vs Toronto FC",
+    "environment_rank": 5,
+    "environment_score": 55.8,
+    "provisional_rank": 1,
+    "decision": "official_pick",
+    "confirmed_shooter_rank": 1,
+    "actual_minutes": 90,
+    "actual_shots": 5,
+    "hit_2plus": true,
+    "hit_3plus": true
+  }
+]

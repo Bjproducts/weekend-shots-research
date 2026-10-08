@@ -1,24 +1,23 @@
 {
-  "version": "profit-validation-v1-frozen-v3",
-  "strategy_id": "league_balanced_v3",
-  "selection_version": "live-plan-b3-league-balanced-v3",
-  "board_filename": "frozen_board_league_balanced_v3.json",
-  "lineup_decisions_dir": "lineup_decisions",
-  "settled_dir": "settled",
-  "primary_staking_track": "stress_90",
+  "version": "profit-validation-volume-v4",
+  "strategy_id": "volume_v4",
+  "selection_version": "live-plan-b3-volume-v4",
+  "board_filename": "frozen_board_volume_v4.json",
+  "lineup_decisions_dir": "lineup_decisions_volume_v4",
+  "settled_dir": "settled_volume_v4",
   "paper_only": true,
   "starting_bankroll_units": 100.0,
-  "stake_fraction": 0.9,
+  "staking_tracks": {
+    "fixed_10": 0.1,
+    "stress_90": 0.9
+  },
+  "primary_staking_track": "fixed_10",
   "market": "player_shots",
   "outcome_name": "Over",
   "line": 2.5,
   "regions": "us",
   "odds_format": "decimal",
-  "allowed_bookmakers": [
-    "draftkings",
-    "fanduel",
-    "betmgm"
-  ],
+  "allowed_bookmakers": ["draftkings", "fanduel", "betmgm"],
   "sport_keys": {
     "Premier League": "soccer_epl",
     "Serie A": "soccer_italy_serie_a",
@@ -30,7 +29,7 @@
   "freeze_minutes_before_kickoff": 5,
   "minimum_combo_legs": 2,
   "maximum_candidates": 3,
-  "maximum_candidates_per_league": 1,
+  "maximum_candidates_per_league": 2,
   "maximum_candidates_per_fixture": 1,
   "activation_gate": {
     "official_legs": 100,
@@ -41,6 +40,7 @@
     "require_positive_paper_roi": true,
     "require_positive_average_clv": true,
     "minimum_ticket_clv_beat_share": 0.5,
+    "maximum_drawdown": 0.25,
     "require_zero_unresolved_discrepancies": true
   }
 }
