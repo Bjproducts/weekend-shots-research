@@ -10,6 +10,20 @@ The first live board is saved in `live_plan_b3/2026-10-10/`. Its bounded FotMob 
 
 This is an operating trial, not evidence of a new win rate. The prior retrospective 3+ simulation remains 12/17 and did not clear the 71.4% break-even hit rate at hypothetical 1.40 odds. Future official picks must be settled prospectively without changing the frozen rule.
 
+### Season-to-date engine replay
+
+The four-league engine has also been retrospectively simulated from each current season's opening weekend through 7 October 2026. The acquisition contains **996 matches with zero failures** and supplies **428 completed Saturday/Sunday target fixtures across 24 weekends**. All information used for a weekend was cut off at Friday 00:00 UTC, so Saturday outcomes could not affect Sunday selections.
+
+- Official simulated Plan B selections: **51**.
+- 3+ shots results: **40/51 — 78.4%**; 95% Wilson interval **65.4–87.5%**.
+- Active selection weekends: **22**; completely clean weekends: **11/22 — 50.0%**.
+- Weekends with three official picks: **9**; all three hit on **6/9 — 66.7%**.
+- Longest individual 3+ hit streak: **10**; longest miss streak: **2**.
+- MLS: **38/49 — 77.6%**. Premier League: **1/1**. Serie A: **1/1**. Bundesliga: **0 picks**.
+- The integrity checker passes **19/19 checks**, including Friday cutoffs, environment ranks, top-three ranking, lineup confirmation and outcome reconciliation.
+
+The result is dominated by MLS because its 2026 season has far more completed weekends; the European seasons have only reached roughly five matchweeks. It must not be presented as 51 independent cross-league observations or as a guaranteed future rate. Historical odds were not collected. Full records are in `season_to_date_plan_b3/`.
+
 August 22–23 fresh-weekend work is underway: 15 fixtures checked; five pass home strength and three pass both environment gates (Charlotte–D.C., Miami–Toronto, Atlanta–Sporting Kansas City). All three home XIs are saved (33 starters). Full-name/time-proximity diagnostics found 543 matching historical player-shot values, zero shot conflicts and 58 unmatched appearances across 47 proposed identities; these are not approved merges or final required-download counts. Previous-five-start/minute reconciliation and the new A/B settlement remain incomplete. See `mls_2026_aug22_validation/report.md`, `target_lineups.json` and `overlap_diagnostic.json`. No new win rate claimed.
 
 On-demand local prototype: run `python work/on_demand.py` and open `http://127.0.0.1:8766`. It checks the historical MLS cache, fetches bounded missing ASA shot records and saves a specific browser-agent handoff. Flashscore collection is not autonomously dispatched from the page; new-source A/B remains blocked pending reconciliation. See `on_demand/README.md` for exact capabilities and limits. No paid requests or scheduled jobs.

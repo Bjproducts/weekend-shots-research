@@ -1,0 +1,27 @@
+{
+  "passed": 20,
+  "total": 20,
+  "failures": [],
+  "checks": {
+    "zero_acquisition_failures": true,
+    "source_count_reconciles": true,
+    "target_count_reconciles": true,
+    "spec_hash_reconciles": true,
+    "only_requested_leagues": true,
+    "all_targets_are_finished_source_matches": true,
+    "all_targets_are_saturday_or_sunday": true,
+    "target_seasons_are_current": true,
+    "weekends_sorted_and_unique": true,
+    "weekend_count_reconciles": true,
+    "all_selection_features_precede_friday_cutoff": true,
+    "environment_ranking_and_top_five_valid": true,
+    "candidate_histories_and_plan_B_gates_valid": true,
+    "provisional_top_three_ranking_valid": true,
+    "lineup_decisions_only_use_frozen_board": true,
+    "official_picks_reconcile_to_actual_starters_and_shots": true,
+    "official_pick_file_matches_weekend_decisions": true,
+    "headline_totals_reconcile": true,
+    "league_pick_counts_reconcile": true,
+    "three_pick_weekend_totals_reconcile": true
+  }
+}
