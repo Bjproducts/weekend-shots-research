@@ -1,6 +1,6 @@
 {
   "status": "complete_hypothetical_challenger_not_price_evidence",
-  "created_utc": "2026-10-08T12:57:45.594637+00:00",
+  "created_utc": "2026-10-08T13:10:43.661538+00:00",
   "spec": {
     "version": "hypothetical-volume-v4-combo-1.5-v1",
     "source_selection_version": "season-to-date-plan-b3-volume-v4",
@@ -9,8 +9,10 @@
     "starting_bankroll_units": 100.0,
     "staking_tracks": {
       "fixed_10": 0.1,
-      "stress_90": 0.9
+      "stress_90": 0.9,
+      "full_rollover_100": 1.0
     },
+    "full_rollover_formula": "bankroll_after_n_winning_legs = 100 * 1.5^n; a losing combination reduces the active balance to zero",
     "minimum_combo_legs": 2,
     "maximum_combo_legs": 3,
     "freeze_minutes_before_earliest_kickoff": 5,
@@ -21,7 +23,7 @@
     "prospective_gate_eligible": false,
     "profit_claim_permitted": false
   },
-  "spec_sha256": "47fb6603d1b5f55f5170a645afd42018b3d07f846907abbbb4e113f5312aa9b3",
+  "spec_sha256": "6bbe0e300015fb1a74235fc7000d6c7297f198b1758e11028293e41f638f8038",
   "source_sha256": "5b9043f7a58d59dced5c35a8308f54e5a4a23104f0c7e9959a80f143a2148209",
   "source_summary_sha256": "ecb17202c9bad255f791b2c73578d48f11c37759512eb81be1463b87835eac1f",
   "source_official_picks": 38,
@@ -88,7 +90,8 @@
         "maximum_drawdown": 0.0,
         "insolvent": false,
         "cumulative_exposure": 10.0
-      }
+      },
+      "rollover_formula": null
     },
     "stress_90": {
       "staking_track": "stress_90",
@@ -148,7 +151,69 @@
         "maximum_drawdown": 0.0,
         "insolvent": false,
         "cumulative_exposure": 90.0
-      }
+      },
+      "rollover_formula": null
+    },
+    "full_rollover_100": {
+      "staking_track": "full_rollover_100",
+      "stake_fraction": 1.0,
+      "tickets": [
+        {
+          "ticket_id": "2026-09-19-1",
+          "weekend": "2026-09-19",
+          "created_utc": "2026-09-20T12:55:00+00:00",
+          "assumed_settled_utc": "2026-09-20T15:30:00+00:00",
+          "legs": [
+            {
+              "selection_id": "2026-09-19:5795461:737066",
+              "kickoff": "2026-09-20T13:00:00Z",
+              "league": "Premier League",
+              "fixture": "Manchester City vs Sunderland",
+              "player": "Erling Haaland",
+              "actual_shots": 4,
+              "hit_3plus": true,
+              "assumed_decimal_price": 1.5
+            },
+            {
+              "selection_id": "2026-09-19:5881170:1457626",
+              "kickoff": "2026-09-20T13:30:00Z",
+              "league": "Bundesliga",
+              "fixture": "Bayer Leverkusen vs RB Leipzig",
+              "player": "Ibrahim Maza",
+              "actual_shots": 4,
+              "hit_3plus": true,
+              "assumed_decimal_price": 1.5
+            }
+          ],
+          "derived_assumed_odds": 2.25,
+          "result": "win",
+          "bankroll_snapshot": 100.0,
+          "stake": 100.0,
+          "open_exposure_before": 0,
+          "cumulative_exposure_after": 100.0,
+          "executability": "executable",
+          "status": "created_hypothetical",
+          "bankroll_before_settlement": 100.0,
+          "returned": 225.0,
+          "hypothetical_net": 125.0,
+          "bankroll_after_settlement": 225.0,
+          "insolvent": false
+        }
+      ],
+      "ticket_count": 1,
+      "wins": 1,
+      "ticket_hit_rate": 100.0,
+      "total_staked": 100.0,
+      "hypothetical_net": 125.0,
+      "hypothetical_roi": 125.0,
+      "bankroll": {
+        "ending_bankroll": 225.0,
+        "peak_bankroll": 225.0,
+        "maximum_drawdown": 0.0,
+        "insolvent": false,
+        "cumulative_exposure": 100.0
+      },
+      "rollover_formula": "bankroll_after_n_winning_legs = 100 * 1.5^n; a losing combination reduces the active balance to zero"
     }
   },
   "no_combo": [
@@ -589,6 +654,7 @@
     "All 1.50 prices and lineup-release times are assumptions.",
     "This retrospective structural challenger was designed after prior results were inspected.",
     "Neither track enters the captured-price ledger or prospective promotion gate.",
-    "The 90% track is a stress test and is not recommended staking."
+    "The 90% track is a stress test and is not recommended staking.",
+    "The full-rollover track stakes the entire active paper balance and a loss reduces it to zero."
   ]
 }

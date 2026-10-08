@@ -31,6 +31,13 @@ def main() -> None:
     assert len(fixed_ids) == len(set(fixed_ids))
     assert data["tracks"]["fixed_10"]["stake_fraction"] == 0.1
     assert data["tracks"]["stress_90"]["stake_fraction"] == 0.9
+    assert data["tracks"]["full_rollover_100"]["stake_fraction"] == 1.0
+    rollover = data["tracks"]["full_rollover_100"]
+    assert rollover["rollover_formula"] == data["spec"]["full_rollover_formula"]
+    if rollover["tickets"]:
+        first = rollover["tickets"][0]
+        expected = round(100 * 1.5 ** len(first["legs"]), 2) if first["result"] == "win" else 0.0
+        assert first["bankroll_after_settlement"] == expected
     print(json.dumps({"status": "ok", "source_legs": data["source_official_picks"], "combinations": data["combination_opportunities"], "tracks": list(data["tracks"])}, indent=2))
 
 
