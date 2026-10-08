@@ -141,13 +141,15 @@ def main() -> None:
         if not weekend:
             print(json.dumps({"status": "idle_no_active_frozen_weekend"}, indent=2))
             return
-        # Import any outcomes already produced by the frozen live workflow.
-        settlement = settle_tickets(weekend)
-        build_dashboard()
         observed = parse_time(args.now) if args.now else now_utc()
         if not in_horizon(weekend, observed):
-            print(json.dumps({"status": "idle_no_candidate_within_two_hours", "settlement": settlement}, indent=2))
+            print(json.dumps({"status": "idle_no_candidate_within_two_hours"}, indent=2))
             return
+        # Settlement normally comes from the heartbeat after matches finish.
+        # During an active collection window, reconcile any outcomes that the
+        # immutable live workflow has already produced.
+        settle_tickets(weekend)
+        build_dashboard()
         load_local_env(ROOT)
         if not os.getenv("THE_ODDS_API_KEY"):
             print(json.dumps({"status": "configuration_required", "missing": "THE_ODDS_API_KEY"}, indent=2))

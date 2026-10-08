@@ -1,0 +1,18 @@
+{
+  "version": "hypothetical-v3-combo-1.5-v1",
+  "source_selection_version": "season-to-date-plan-b3-league-balanced-v3",
+  "price_source": "assumed_not_observed",
+  "assumed_decimal_price_per_leg": 1.5,
+  "starting_bankroll_units": 100.0,
+  "stake_fraction": 0.9,
+  "minimum_combo_legs": 2,
+  "maximum_combo_legs": 3,
+  "freeze_minutes_before_earliest_kickoff": 5,
+  "assumed_lineup_available_minutes_before_kickoff": 60,
+  "assumed_settlement_minutes_after_latest_kickoff": 120,
+  "singles_policy": "no_combo",
+  "overlap_policy": "do_not_reserve_funds_and_flag_non_executable_overlap",
+  "void_policy": "remove_void_leg_and_void_ticket_if_fewer_than_two_legs_remain",
+  "prospective_gate_eligible": false,
+  "profit_claim_permitted": false
+}

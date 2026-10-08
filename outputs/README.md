@@ -356,6 +356,7 @@ All links below are relative to this README in the existing `outputs` folder.
 | Artifact | Purpose |
 |---|---|
 | [Prospective profit validation](profit_validation/index.html) | Frozen-v3 progress to 100 official legs, captured same-book prices, combination tickets, CLV, paper ROI, drawdown, overlap and activation gates |
+| [Hypothetical v3 combo replay](hypothetical_v3_combo_1_5/index.html) | Separate mechanics-only replay using assumed 1.50 per leg; one historical combo, 21 no-combo selections and no prospective-gate credit |
 | [Project dashboard](project_site/dist/index.html) | Progress and links to every research stage |
 | [MLS 2026 historical weekend scanner](mls_2026_weekends/index.html) | Weekend selector, ranked environments, A/B candidates, outcomes and explicit coverage gaps |
 | [MLS internet-source investigation](mls_2026_source_research.md) | Research-agent findings, current fixture/stat sources and exact-replay blockers |
@@ -412,6 +413,7 @@ The current scripts live under `work/`:
 - `shadow_weekend.py`, `build_possible_lineups.py`, `build_shadow_dashboard.py` and `check_shadow_weekend.py`: prospective environment locking, versioned recent-start possible XIs, confirmed-lineup selection locking, settlement and integrity checks. Possible-XI names remain provisional and are never counted as official picks.
 - `profit_validation.py`, `the_odds_api.py`, `run_profit_collector.py` and `register_profit_collector.ps1`: exact Over 2.5 price capture, immutable/hash-chained prospective ledger, same-book kickoff-window ticket simulation, closing-line value, 90% paper stress accounting and local ten-minute execution.
 - `test_profit_validation.py`: offline synthetic verification of exact market matching, starter/home gates, ticket uniqueness, common-book grouping, no look-ahead, overlap, voids, settlement, quota handling and secret redaction.
+- `hypothetical_v3_combo_1_5_spec.json`, `simulate_hypothetical_v3_combo_1_5.py` and `check_hypothetical_v3_combo_1_5.py`: isolated assumed-price historical combo scenario and its reconciliation checks.
 - `download_recent_bundesliga.py`: cached SportsAPI acquisition; **do not run under the current StatsBomb-only preference**.
 - `check_*.py` / `check_*.cjs`: data, rule, chronology, link and layout checks.
 

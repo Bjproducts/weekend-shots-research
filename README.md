@@ -13,6 +13,7 @@ The repository contains the analysis code, frozen test plans, compact result fil
 Start with [the complete project state](outputs/README.md). Useful dashboards include:
 
 - [Prospective captured-price and profit validation](outputs/profit_validation/index.html)
+- [Hypothetical v3 combination replay at assumed 1.50](outputs/hypothetical_v3_combo_1_5/index.html)
 - [Live four-league Plan B 3+ board for 10 October 2026](outputs/live_plan_b3/2026-10-10/index.html)
 - [Combined ranked Plan B backtest](outputs/ranked_plan_b_combined_backtest/index.html)
 - [Plan B 3+ reranking experiment](outputs/plan_b_top3_three_shots_reranked/index.html)
@@ -98,3 +99,7 @@ powershell -ExecutionPolicy Bypass -File work/register_profit_collector.ps1
 The scheduled runner automatically selects the nearest active frozen v3 weekend. It exits immediately unless a frozen candidate is within two hours of kickoff. Watch mode polls at ten-minute intervals and wakes at the exact five-minute freeze boundary. Raw and normalized observations are immutable; the global JSONL ledger is hash-chained and append-only.
 
 Real-money use is not considered until the dashboard gate has all of: 100 prospective official legs, 30 executable combinations, 12 active weekends, at least three represented leagues with no league above 60%, positive executable captured-price paper ROI, positive average closing-line value, more than half of tickets beating the close, and zero unresolved discrepancies. Passing the gate starts a separate safer-staking decision; it never activates betting.
+
+### Separate assumed-odds scenario
+
+A mechanics-only replay applies an assumed 1.50 price to every historical 3+ shots leg while preserving the combo-only, five-minute freeze and 90% paper-stake rules. Historical lineup availability is explicitly assumed at 60 minutes before kickoff because publication timestamps are unavailable. Across 23 v3 official selections, 21 were isolated `no_combo` records and only one two-leg ticket formed. Both legs hit: the assumed 2.25 product changed 100 paper units to 212.50. This one-ticket result is not historical price evidence, cannot measure closing-line value and never enters the prospective activation gate. See the [assumed-odds replay](outputs/hypothetical_v3_combo_1_5/index.html).
