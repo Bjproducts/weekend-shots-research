@@ -48,3 +48,5 @@ outputs/live_plan_b3/**/history_raw/
 outputs/live_plan_b3/**/history_matches.json
 outputs/season_to_date_plan_b3/raw/
 outputs/season_to_date_plan_b3/matches.json
+outputs/profit_validation/**/raw_odds/
+outputs/profit_validation/collector.lock

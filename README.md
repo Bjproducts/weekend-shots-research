@@ -12,6 +12,7 @@ The repository contains the analysis code, frozen test plans, compact result fil
 
 Start with [the complete project state](outputs/README.md). Useful dashboards include:
 
+- [Prospective captured-price and profit validation](outputs/profit_validation/index.html)
 - [Live four-league Plan B 3+ board for 10 October 2026](outputs/live_plan_b3/2026-10-10/index.html)
 - [Combined ranked Plan B backtest](outputs/ranked_plan_b_combined_backtest/index.html)
 - [Plan B 3+ reranking experiment](outputs/plan_b_top3_three_shots_reranked/index.html)
@@ -66,3 +67,34 @@ This v2 rule changed two selections in the season-to-date replay but left the he
 The live engine now gives every active league equal first access: it selects the strongest eligible environment from each league before filling any remaining environment slots. It then ranks the home-only consistency candidates, retains only the strongest candidate from each league, and takes at most three. It never forces a candidate from a league that fails Plan B.
 
 The exploratory season-to-date v3 replay returned **20/23 — 87.0%**, with **18/21 clean active weekends**, but averaged only **1.1 official picks per active weekend** and produced no three-pick weekends. MLS still supplied 20 of 23 picks because it was the only active league for most of the saved period. The higher rate is based on a much smaller, post-result-selected sample and is not independent validation. See the [league-balanced v3 dashboard](outputs/season_to_date_plan_b3_league_balanced_v3/index.html).
+
+## Prospective price-and-profit validation
+
+League-balanced v3 is now frozen for a separate prospective experiment. Historical replays do not count toward it. Official legs enter only from an immutable `standard` confirmed home starting-XI decision. Prices must be exact **Over 2.5 total shots** quotes captured through The Odds API from DraftKings, FanDuel or BetMGM; there is no assumed 1.40 fallback.
+
+Tickets are paper-only kickoff-window combinations. Every leg must be offered by one common bookmaker, and the displayed combination price is the mathematical product of captured leg prices (`derived_product_price`), not a bookmaker parlay quote. The requested 90% bankroll exposure is retained strictly as a stress test. Overlapping paper exposure is flagged non-executable, insolvency is permitted, and nothing in this repository can place a wager.
+
+Initial setup:
+
+```powershell
+Copy-Item .env.example .env
+# Add THE_ODDS_API_KEY to the local .env; this file is ignored by Git.
+python work/profit_validation.py dashboard
+python work/test_profit_validation.py -v
+```
+
+Run a deterministic cycle for the active weekend:
+
+```powershell
+python work/run_profit_collector.py --weekend 2026-10-10
+```
+
+After the key is configured, register the local ten-minute watch task if desired:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File work/register_profit_collector.ps1
+```
+
+The scheduled runner automatically selects the nearest active frozen v3 weekend. It exits immediately unless a frozen candidate is within two hours of kickoff. Watch mode polls at ten-minute intervals and wakes at the exact five-minute freeze boundary. Raw and normalized observations are immutable; the global JSONL ledger is hash-chained and append-only.
+
+Real-money use is not considered until the dashboard gate has all of: 100 prospective official legs, 30 executable combinations, 12 active weekends, at least three represented leagues with no league above 60%, positive executable captured-price paper ROI, positive average closing-line value, more than half of tickets beating the close, and zero unresolved discrepancies. Passing the gate starts a separate safer-staking decision; it never activates betting.

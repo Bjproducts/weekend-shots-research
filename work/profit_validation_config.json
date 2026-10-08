@@ -1,0 +1,40 @@
+{
+  "version": "profit-validation-v1-frozen-v3",
+  "selection_version": "live-plan-b3-league-balanced-v3",
+  "paper_only": true,
+  "starting_bankroll_units": 100.0,
+  "stake_fraction": 0.9,
+  "market": "player_shots",
+  "outcome_name": "Over",
+  "line": 2.5,
+  "regions": "us",
+  "odds_format": "decimal",
+  "allowed_bookmakers": [
+    "draftkings",
+    "fanduel",
+    "betmgm"
+  ],
+  "sport_keys": {
+    "Premier League": "soccer_epl",
+    "Serie A": "soccer_italy_serie_a",
+    "Bundesliga": "soccer_germany_bundesliga",
+    "MLS": "soccer_usa_mls"
+  },
+  "quote_stale_seconds": 600,
+  "collector_horizon_minutes": 120,
+  "freeze_minutes_before_kickoff": 5,
+  "minimum_combo_legs": 2,
+  "maximum_candidates": 3,
+  "maximum_candidates_per_league": 1,
+  "activation_gate": {
+    "official_legs": 100,
+    "executable_tickets": 30,
+    "active_weekends": 12,
+    "minimum_leagues": 3,
+    "maximum_league_share": 0.6,
+    "require_positive_paper_roi": true,
+    "require_positive_average_clv": true,
+    "minimum_ticket_clv_beat_share": 0.5,
+    "require_zero_unresolved_discrepancies": true
+  }
+}
