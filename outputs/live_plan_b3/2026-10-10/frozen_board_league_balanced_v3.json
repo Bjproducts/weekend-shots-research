@@ -1,0 +1,758 @@
+{
+  "status": "frozen_provisional_home_only_league_balanced_v3",
+  "created_utc": "2026-10-08T00:18:40.928957+00:00",
+  "weekend": "2026-10-10",
+  "ranking_version": "live-plan-b3-league-balanced-v3",
+  "ranking_spec_sha256": "542aa9b491b0ecafe4d4c995f482ab6cc09b3d4b825ffa324b2d09bc3f721166",
+  "environment_snapshot_sha256": "f479e42efdf9d5fb8ea386ef34f0919702b69aeed4f1d15da86d5f32e29c9e11",
+  "selected_environments": [
+    {
+      "match_id": "5749694",
+      "date": "2026-10-10T16:00:00Z",
+      "league": "Serie A",
+      "fixture": "Inter vs Parma",
+      "environment_rank": 1,
+      "environment_score": 97.9,
+      "confidence_tier": "A",
+      "projected_home_shots": 22.916666666666664,
+      "projected_shot_gap": 14.541666666666664,
+      "recent_team_match_ids": [
+        "5749645",
+        "5749652",
+        "5749666",
+        "5749673",
+        "5749681"
+      ],
+      "possible_XI_ids": [
+        "1254297",
+        "1367618",
+        "362212",
+        "521318",
+        "541820",
+        "605224",
+        "621562",
+        "690230",
+        "772168",
+        "805451",
+        "889535"
+      ],
+      "plan_B_candidates": []
+    },
+    {
+      "match_id": "5071403",
+      "date": "2026-10-10T23:30:00Z",
+      "league": "MLS",
+      "fixture": "Philadelphia Union vs Real Salt Lake",
+      "environment_rank": 2,
+      "environment_score": 89.4,
+      "confidence_tier": "A",
+      "projected_home_shots": 15.5,
+      "projected_shot_gap": 8.625,
+      "recent_team_match_ids": [
+        "5071327",
+        "5071340",
+        "5071365",
+        "5071374",
+        "5071385"
+      ],
+      "possible_XI_ids": [
+        "1078071",
+        "1101144",
+        "1136311",
+        "1257540",
+        "1329461",
+        "1441866",
+        "1474341",
+        "1517896",
+        "1630736",
+        "525631",
+        "862284"
+      ],
+      "plan_B_candidates": [
+        {
+          "player_id": "1136311",
+          "player": "Milan Iloski",
+          "position_id": 104,
+          "avg_shots": 4.4,
+          "avg_minutes": 83.6,
+          "hits_2plus": 5,
+          "hits_3plus": 4,
+          "avg_shot_share": 0.24079,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5071310",
+            "5071327",
+            "5071365",
+            "5071374",
+            "5071385"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5071310",
+              "date": "2026-08-29T23:30:00+00:00",
+              "shots": 7,
+              "minutes": 90,
+              "team_shots": 18,
+              "shot_share": 0.38889
+            },
+            {
+              "match_id": "5071327",
+              "date": "2026-09-05T23:30:00+00:00",
+              "shots": 3,
+              "minutes": 82,
+              "team_shots": 19,
+              "shot_share": 0.15789
+            },
+            {
+              "match_id": "5071365",
+              "date": "2026-09-14T01:00:00+00:00",
+              "shots": 4,
+              "minutes": 86,
+              "team_shots": 21,
+              "shot_share": 0.19048
+            },
+            {
+              "match_id": "5071374",
+              "date": "2026-09-20T00:30:00+00:00",
+              "shots": 2,
+              "minutes": 82,
+              "team_shots": 12,
+              "shot_share": 0.16667
+            },
+            {
+              "match_id": "5071385",
+              "date": "2026-09-26T23:30:00+00:00",
+              "shots": 6,
+              "minutes": 78,
+              "team_shots": 20,
+              "shot_share": 0.3
+            }
+          ],
+          "candidate_side": "home",
+          "home_team_id": "191716",
+          "shooter_rank_within_possible_XI": 1,
+          "plan_B": true,
+          "shot_floor": 2,
+          "shot_stddev": 1.85472,
+          "match_id": "5071403",
+          "date": "2026-10-10T23:30:00Z",
+          "league": "MLS",
+          "fixture": "Philadelphia Union vs Real Salt Lake",
+          "environment_rank": 2,
+          "environment_score": 89.4
+        }
+      ]
+    },
+    {
+      "match_id": "5795473",
+      "date": "2026-10-10T16:30:00Z",
+      "league": "Premier League",
+      "fixture": "Manchester United vs Tottenham Hotspur",
+      "environment_rank": 3,
+      "environment_score": 88.0,
+      "confidence_tier": "A",
+      "projected_home_shots": 20.833333333333332,
+      "projected_shot_gap": 11.666666666666666,
+      "recent_team_match_ids": [
+        "5795364",
+        "5795432",
+        "5795438",
+        "5795452",
+        "5795459"
+      ],
+      "possible_XI_ids": [
+        "1178602",
+        "1292810",
+        "255610",
+        "362694",
+        "422685",
+        "465960",
+        "696365",
+        "751550",
+        "847983",
+        "863098",
+        "923312"
+      ],
+      "plan_B_candidates": [
+        {
+          "player_id": "422685",
+          "player": "Bruno Fernandes",
+          "position_id": 85,
+          "avg_shots": 3.8,
+          "avg_minutes": 90,
+          "hits_2plus": 4,
+          "hits_3plus": 4,
+          "avg_shot_share": 0.16739,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795364",
+              "date": "2026-08-22T11:30:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 21,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5795432",
+              "date": "2026-08-30T15:30:00+00:00",
+              "shots": 8,
+              "minutes": 90,
+              "team_shots": 33,
+              "shot_share": 0.24242
+            },
+            {
+              "match_id": "5795438",
+              "date": "2026-09-06T13:00:00+00:00",
+              "shots": 4,
+              "minutes": 90,
+              "team_shots": 14,
+              "shot_share": 0.28571
+            },
+            {
+              "match_id": "5795452",
+              "date": "2026-09-13T15:30:00+00:00",
+              "shots": 1,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.0625
+            },
+            {
+              "match_id": "5795459",
+              "date": "2026-09-20T15:30:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.10345
+            }
+          ],
+          "candidate_side": "home",
+          "home_team_id": "10260",
+          "shooter_rank_within_possible_XI": 1,
+          "plan_B": true,
+          "shot_floor": 1,
+          "shot_stddev": 2.31517,
+          "match_id": "5795473",
+          "date": "2026-10-10T16:30:00Z",
+          "league": "Premier League",
+          "fixture": "Manchester United vs Tottenham Hotspur",
+          "environment_rank": 3,
+          "environment_score": 88.0
+        },
+        {
+          "player_id": "923312",
+          "player": "Bryan Mbeumo",
+          "position_id": 83,
+          "avg_shots": 3.8,
+          "avg_minutes": 90,
+          "hits_2plus": 5,
+          "hits_3plus": 4,
+          "avg_shot_share": 0.16895,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795364",
+            "5795432",
+            "5795438",
+            "5795452",
+            "5795459"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795364",
+              "date": "2026-08-22T11:30:00+00:00",
+              "shots": 4,
+              "minutes": 90,
+              "team_shots": 21,
+              "shot_share": 0.19048
+            },
+            {
+              "match_id": "5795432",
+              "date": "2026-08-30T15:30:00+00:00",
+              "shots": 5,
+              "minutes": 90,
+              "team_shots": 33,
+              "shot_share": 0.15152
+            },
+            {
+              "match_id": "5795438",
+              "date": "2026-09-06T13:00:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 14,
+              "shot_share": 0.14286
+            },
+            {
+              "match_id": "5795452",
+              "date": "2026-09-13T15:30:00+00:00",
+              "shots": 3,
+              "minutes": 90,
+              "team_shots": 16,
+              "shot_share": 0.1875
+            },
+            {
+              "match_id": "5795459",
+              "date": "2026-09-20T15:30:00+00:00",
+              "shots": 5,
+              "minutes": 90,
+              "team_shots": 29,
+              "shot_share": 0.17241
+            }
+          ],
+          "candidate_side": "home",
+          "home_team_id": "10260",
+          "shooter_rank_within_possible_XI": 2,
+          "plan_B": true,
+          "shot_floor": 2,
+          "shot_stddev": 1.16619,
+          "match_id": "5795473",
+          "date": "2026-10-10T16:30:00Z",
+          "league": "Premier League",
+          "fixture": "Manchester United vs Tottenham Hotspur",
+          "environment_rank": 3,
+          "environment_score": 88.0
+        }
+      ]
+    },
+    {
+      "match_id": "5795465",
+      "date": "2026-10-10T11:30:00Z",
+      "league": "Premier League",
+      "fixture": "Arsenal vs Leeds United",
+      "environment_rank": 4,
+      "environment_score": 81.7,
+      "confidence_tier": "A",
+      "projected_home_shots": 16.166666666666664,
+      "projected_shot_gap": 6.874999999999998,
+      "recent_team_match_ids": [
+        "5795363",
+        "5795426",
+        "5795435",
+        "5795453",
+        "5795457"
+      ],
+      "possible_XI_ids": [
+        "1105912",
+        "1157237",
+        "1406436",
+        "534670",
+        "562727",
+        "654096",
+        "710159",
+        "749736",
+        "776151",
+        "795179",
+        "961995"
+      ],
+      "plan_B_candidates": [
+        {
+          "player_id": "961995",
+          "player": "Bukayo Saka",
+          "position_id": 83,
+          "avg_shots": 3,
+          "avg_minutes": 83.6,
+          "hits_2plus": 5,
+          "hits_3plus": 3,
+          "avg_shot_share": 0.24623,
+          "current_season_starts": 5,
+          "prior_ids": [
+            "5795363",
+            "5795426",
+            "5795435",
+            "5795453",
+            "5795457"
+          ],
+          "prior_rows": [
+            {
+              "match_id": "5795363",
+              "date": "2026-08-21T19:00:00+00:00",
+              "shots": 3,
+              "minutes": 68,
+              "team_shots": 20,
+              "shot_share": 0.15
+            },
+            {
+              "match_id": "5795426",
+              "date": "2026-08-31T19:00:00+00:00",
+              "shots": 2,
+              "minutes": 90,
+              "team_shots": 7,
+              "shot_share": 0.28571
+            },
+            {
+              "match_id": "5795435",
+              "date": "2026-09-06T15:30:00+00:00",
+              "shots": 4,
+              "minutes": 89,
+              "team_shots": 16,
+              "shot_share": 0.25
+            },
+            {
+              "match_id": "5795453",
+              "date": "2026-09-12T19:00:00+00:00",
+              "shots": 4,
+              "minutes": 90,
+              "team_shots": 11,
+              "shot_share": 0.36364
+            },
+            {
+              "match_id": "5795457",
+              "date": "2026-09-19T14:00:00+00:00",
+              "shots": 2,
+              "minutes": 81,
+              "team_shots": 11,
+              "shot_share": 0.18182
+            }
+          ],
+          "candidate_side": "home",
+          "home_team_id": "9825",
+          "shooter_rank_within_possible_XI": 1,
+          "plan_B": true,
+          "shot_floor": 2,
+          "shot_stddev": 0.89443,
+          "match_id": "5795465",
+          "date": "2026-10-10T11:30:00Z",
+          "league": "Premier League",
+          "fixture": "Arsenal vs Leeds United",
+          "environment_rank": 4,
+          "environment_score": 81.7
+        }
+      ]
+    },
+    {
+      "match_id": "5881186",
+      "date": "2026-10-10T16:30:00Z",
+      "league": "Bundesliga",
+      "fixture": "RB Leipzig vs Eintracht Frankfurt",
+      "environment_rank": 5,
+      "environment_score": 75.7,
+      "confidence_tier": "A",
+      "projected_home_shots": 17.875,
+      "projected_shot_gap": 6.75,
+      "recent_team_match_ids": [
+        "4829616",
+        "5881150",
+        "5881160",
+        "5881168",
+        "5881170"
+      ],
+      "possible_XI_ids": [
+        "1024672",
+        "1248482",
+        "1250443",
+        "1253852",
+        "1274060",
+        "1310001",
+        "1430151",
+        "278856",
+        "806669",
+        "883087",
+        "972200"
+      ],
+      "plan_B_candidates": []
+    }
+  ],
+  "league_champions_before_top3": [
+    {
+      "player_id": "1136311",
+      "player": "Milan Iloski",
+      "position_id": 104,
+      "avg_shots": 4.4,
+      "avg_minutes": 83.6,
+      "hits_2plus": 5,
+      "hits_3plus": 4,
+      "avg_shot_share": 0.24079,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5071310",
+        "5071327",
+        "5071365",
+        "5071374",
+        "5071385"
+      ],
+      "prior_rows": [
+        {
+          "match_id": "5071310",
+          "date": "2026-08-29T23:30:00+00:00",
+          "shots": 7,
+          "minutes": 90,
+          "team_shots": 18,
+          "shot_share": 0.38889
+        },
+        {
+          "match_id": "5071327",
+          "date": "2026-09-05T23:30:00+00:00",
+          "shots": 3,
+          "minutes": 82,
+          "team_shots": 19,
+          "shot_share": 0.15789
+        },
+        {
+          "match_id": "5071365",
+          "date": "2026-09-14T01:00:00+00:00",
+          "shots": 4,
+          "minutes": 86,
+          "team_shots": 21,
+          "shot_share": 0.19048
+        },
+        {
+          "match_id": "5071374",
+          "date": "2026-09-20T00:30:00+00:00",
+          "shots": 2,
+          "minutes": 82,
+          "team_shots": 12,
+          "shot_share": 0.16667
+        },
+        {
+          "match_id": "5071385",
+          "date": "2026-09-26T23:30:00+00:00",
+          "shots": 6,
+          "minutes": 78,
+          "team_shots": 20,
+          "shot_share": 0.3
+        }
+      ],
+      "candidate_side": "home",
+      "home_team_id": "191716",
+      "shooter_rank_within_possible_XI": 1,
+      "plan_B": true,
+      "shot_floor": 2,
+      "shot_stddev": 1.85472,
+      "match_id": "5071403",
+      "date": "2026-10-10T23:30:00Z",
+      "league": "MLS",
+      "fixture": "Philadelphia Union vs Real Salt Lake",
+      "environment_rank": 2,
+      "environment_score": 89.4
+    },
+    {
+      "player_id": "923312",
+      "player": "Bryan Mbeumo",
+      "position_id": 83,
+      "avg_shots": 3.8,
+      "avg_minutes": 90,
+      "hits_2plus": 5,
+      "hits_3plus": 4,
+      "avg_shot_share": 0.16895,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5795364",
+        "5795432",
+        "5795438",
+        "5795452",
+        "5795459"
+      ],
+      "prior_rows": [
+        {
+          "match_id": "5795364",
+          "date": "2026-08-22T11:30:00+00:00",
+          "shots": 4,
+          "minutes": 90,
+          "team_shots": 21,
+          "shot_share": 0.19048
+        },
+        {
+          "match_id": "5795432",
+          "date": "2026-08-30T15:30:00+00:00",
+          "shots": 5,
+          "minutes": 90,
+          "team_shots": 33,
+          "shot_share": 0.15152
+        },
+        {
+          "match_id": "5795438",
+          "date": "2026-09-06T13:00:00+00:00",
+          "shots": 2,
+          "minutes": 90,
+          "team_shots": 14,
+          "shot_share": 0.14286
+        },
+        {
+          "match_id": "5795452",
+          "date": "2026-09-13T15:30:00+00:00",
+          "shots": 3,
+          "minutes": 90,
+          "team_shots": 16,
+          "shot_share": 0.1875
+        },
+        {
+          "match_id": "5795459",
+          "date": "2026-09-20T15:30:00+00:00",
+          "shots": 5,
+          "minutes": 90,
+          "team_shots": 29,
+          "shot_share": 0.17241
+        }
+      ],
+      "candidate_side": "home",
+      "home_team_id": "10260",
+      "shooter_rank_within_possible_XI": 2,
+      "plan_B": true,
+      "shot_floor": 2,
+      "shot_stddev": 1.16619,
+      "match_id": "5795473",
+      "date": "2026-10-10T16:30:00Z",
+      "league": "Premier League",
+      "fixture": "Manchester United vs Tottenham Hotspur",
+      "environment_rank": 3,
+      "environment_score": 88.0
+    }
+  ],
+  "candidates": [
+    {
+      "player_id": "1136311",
+      "player": "Milan Iloski",
+      "position_id": 104,
+      "avg_shots": 4.4,
+      "avg_minutes": 83.6,
+      "hits_2plus": 5,
+      "hits_3plus": 4,
+      "avg_shot_share": 0.24079,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5071310",
+        "5071327",
+        "5071365",
+        "5071374",
+        "5071385"
+      ],
+      "prior_rows": [
+        {
+          "match_id": "5071310",
+          "date": "2026-08-29T23:30:00+00:00",
+          "shots": 7,
+          "minutes": 90,
+          "team_shots": 18,
+          "shot_share": 0.38889
+        },
+        {
+          "match_id": "5071327",
+          "date": "2026-09-05T23:30:00+00:00",
+          "shots": 3,
+          "minutes": 82,
+          "team_shots": 19,
+          "shot_share": 0.15789
+        },
+        {
+          "match_id": "5071365",
+          "date": "2026-09-14T01:00:00+00:00",
+          "shots": 4,
+          "minutes": 86,
+          "team_shots": 21,
+          "shot_share": 0.19048
+        },
+        {
+          "match_id": "5071374",
+          "date": "2026-09-20T00:30:00+00:00",
+          "shots": 2,
+          "minutes": 82,
+          "team_shots": 12,
+          "shot_share": 0.16667
+        },
+        {
+          "match_id": "5071385",
+          "date": "2026-09-26T23:30:00+00:00",
+          "shots": 6,
+          "minutes": 78,
+          "team_shots": 20,
+          "shot_share": 0.3
+        }
+      ],
+      "candidate_side": "home",
+      "home_team_id": "191716",
+      "shooter_rank_within_possible_XI": 1,
+      "plan_B": true,
+      "shot_floor": 2,
+      "shot_stddev": 1.85472,
+      "match_id": "5071403",
+      "date": "2026-10-10T23:30:00Z",
+      "league": "MLS",
+      "fixture": "Philadelphia Union vs Real Salt Lake",
+      "environment_rank": 2,
+      "environment_score": 89.4,
+      "provisional_rank": 1,
+      "status": "provisional_awaiting_confirmed_home_lineup"
+    },
+    {
+      "player_id": "923312",
+      "player": "Bryan Mbeumo",
+      "position_id": 83,
+      "avg_shots": 3.8,
+      "avg_minutes": 90,
+      "hits_2plus": 5,
+      "hits_3plus": 4,
+      "avg_shot_share": 0.16895,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5795364",
+        "5795432",
+        "5795438",
+        "5795452",
+        "5795459"
+      ],
+      "prior_rows": [
+        {
+          "match_id": "5795364",
+          "date": "2026-08-22T11:30:00+00:00",
+          "shots": 4,
+          "minutes": 90,
+          "team_shots": 21,
+          "shot_share": 0.19048
+        },
+        {
+          "match_id": "5795432",
+          "date": "2026-08-30T15:30:00+00:00",
+          "shots": 5,
+          "minutes": 90,
+          "team_shots": 33,
+          "shot_share": 0.15152
+        },
+        {
+          "match_id": "5795438",
+          "date": "2026-09-06T13:00:00+00:00",
+          "shots": 2,
+          "minutes": 90,
+          "team_shots": 14,
+          "shot_share": 0.14286
+        },
+        {
+          "match_id": "5795452",
+          "date": "2026-09-13T15:30:00+00:00",
+          "shots": 3,
+          "minutes": 90,
+          "team_shots": 16,
+          "shot_share": 0.1875
+        },
+        {
+          "match_id": "5795459",
+          "date": "2026-09-20T15:30:00+00:00",
+          "shots": 5,
+          "minutes": 90,
+          "team_shots": 29,
+          "shot_share": 0.17241
+        }
+      ],
+      "candidate_side": "home",
+      "home_team_id": "10260",
+      "shooter_rank_within_possible_XI": 2,
+      "plan_B": true,
+      "shot_floor": 2,
+      "shot_stddev": 1.16619,
+      "match_id": "5795473",
+      "date": "2026-10-10T16:30:00Z",
+      "league": "Premier League",
+      "fixture": "Manchester United vs Tottenham Hotspur",
+      "environment_rank": 3,
+      "environment_score": 88.0,
+      "provisional_rank": 2,
+      "status": "provisional_awaiting_confirmed_home_lineup"
+    }
+  ],
+  "outcome_accessed": false
+}

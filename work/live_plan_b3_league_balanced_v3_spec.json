@@ -1,0 +1,31 @@
+{
+  "version": "live-plan-b3-league-balanced-v3",
+  "created_date": "2026-10-07",
+  "status": "active_candidate_ranking_before_2026-10-10_outcomes",
+  "inherits": "live-plan-b3-v1 environment scores, Plan B gates, and consistency-v2 candidate ordering",
+  "environment_selection": "Take the strongest Tier A/B environment from every active league first, then fill the remaining environment slots up to five by score.",
+  "candidate_selection": "Rank home-only Plan B candidates using consistency v2, retain only the best candidate from each league, then keep at most three.",
+  "maximum_environments": 5,
+  "maximum_candidates": 3,
+  "one_candidate_per_league": true,
+  "ranking_mode": "similar_average_then_consistency",
+  "consistency_rule": {
+    "similar_average_shots_max_difference": 0.5,
+    "within_similar_group_order": [
+      "previous-five 3+ hits descending",
+      "minimum shots across previous five starts descending",
+      "population standard deviation of shots across previous five starts ascending",
+      "previous-five 2+ hits descending",
+      "average player share of team shots descending",
+      "average shots descending",
+      "average minutes descending",
+      "balanced environment rank ascending",
+      "player id ascending"
+    ]
+  },
+  "integrity": [
+    "Never force a candidate from a league when nobody passes every Plan B requirement.",
+    "Every candidate must represent the home team and later be confirmed in the home starting XI.",
+    "Never promote a lower-ranked replacement after the board is frozen."
+  ]
+}

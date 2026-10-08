@@ -1,0 +1,18 @@
+{
+  "passed": 11,
+  "total": 11,
+  "failures": [],
+  "checks": {
+    "historical_spec_hash_matches": true,
+    "historical_environment_quota_valid": true,
+    "historical_board_has_at_most_one_per_league": true,
+    "historical_candidates_are_home_only": true,
+    "historical_outcomes_reconcile": true,
+    "historical_headline_reconciles": true,
+    "live_spec_hash_matches": true,
+    "live_environment_quota_valid": true,
+    "live_board_has_at_most_one_per_league": true,
+    "live_board_is_home_only": true,
+    "live_board_has_no_outcome_access": true
+  }
+}

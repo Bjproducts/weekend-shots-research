@@ -43,7 +43,10 @@ def sha256(path: Path) -> str:
 
 
 def active_board_path(out: Path) -> Path:
+    balanced = out / "frozen_board_league_balanced_v3.json"
     consistency = out / "frozen_board_consistency_v2.json"
+    if balanced.exists():
+        return balanced
     return consistency if consistency.exists() else out / "frozen_board.json"
 
 
@@ -686,9 +689,13 @@ def dashboard(weekend: str) -> None:
     snapshot = load_json(out / "environment_snapshot.json")
     board_file = active_board_path(out)
     board = load_json(board_file) if board_file.exists() else {"candidates": []}
-    environments = sorted(
-        (row for row in snapshot["fixtures"] if row["selected_environment"]),
-        key=lambda row: row["environment_rank"],
+    environments = (
+        sorted(board["selected_environments"], key=lambda row: row["environment_rank"])
+        if board.get("selected_environments")
+        else sorted(
+            (row for row in snapshot["fixtures"] if row["selected_environment"]),
+            key=lambda row: row["environment_rank"],
+        )
     )
     decisions = [load_json(path) for path in sorted((out / "lineup_decisions").glob("*.json"))] if (out / "lineup_decisions").exists() else []
     settlements = [load_json(path) for path in sorted((out / "settled").glob("*.json"))] if (out / "settled").exists() else []

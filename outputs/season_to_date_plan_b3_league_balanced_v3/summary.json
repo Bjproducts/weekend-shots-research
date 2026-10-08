@@ -1,0 +1,207 @@
+{
+  "status": "retrospective_season_to_date_replay_complete",
+  "created_utc": "2026-10-08T00:18:06.032084+00:00",
+  "spec_version": "season-to-date-plan-b3-league-balanced-v3",
+  "spec_sha256": "1960620a7a0972a56f8f6827786c6136b4cf223e89753e6e3b6dfe23b7b498e7",
+  "source_retrieved_utc": "2026-10-08T00:03:04.607467+00:00",
+  "source_matches": 996,
+  "target_weekend_fixtures": 428,
+  "calendar_weekends": 24,
+  "selected_environments": 108,
+  "provisional_candidates": 25,
+  "official_picks": 23,
+  "hits_3plus": 20,
+  "misses_3plus": 3,
+  "hit_rate_3plus": 87.0,
+  "wilson_95_3plus": [
+    67.9,
+    95.5
+  ],
+  "hits_2plus": 23,
+  "hit_rate_2plus": 100.0,
+  "active_pick_weekends": 21,
+  "clean_3plus_weekends": 18,
+  "clean_3plus_weekend_rate": 85.7,
+  "average_picks_per_active_weekend": 1.1,
+  "weekends_with_three_official_picks": 0,
+  "clean_three_pick_weekends": 0,
+  "clean_three_pick_weekend_rate": null,
+  "longest_individual_hit_streak_3plus": 8,
+  "longest_individual_miss_streak_3plus": 1,
+  "lineup_data_gaps": 0,
+  "rejection_reasons": {
+    "not_in_confirmed_home_starting_XI": 2,
+    "outside_top_two_confirmed_home_shooters": 2
+  },
+  "shots_distribution": {
+    "2": 3,
+    "3": 7,
+    "4": 7,
+    "5": 3,
+    "6": 1,
+    "9": 1,
+    "11": 1
+  },
+  "by_league": [
+    {
+      "league": "Premier League",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0,
+      "wilson_95": [
+        20.7,
+        100.0
+      ]
+    },
+    {
+      "league": "Serie A",
+      "picks": 0,
+      "hits_3plus": 0,
+      "hit_rate_3plus": null,
+      "wilson_95": [
+        null,
+        null
+      ]
+    },
+    {
+      "league": "Bundesliga",
+      "picks": 2,
+      "hits_3plus": 2,
+      "hit_rate_3plus": 100.0,
+      "wilson_95": [
+        34.2,
+        100.0
+      ]
+    },
+    {
+      "league": "MLS",
+      "picks": 20,
+      "hits_3plus": 17,
+      "hit_rate_3plus": 85.0,
+      "wilson_95": [
+        64.0,
+        94.8
+      ]
+    }
+  ],
+  "by_player": [
+    {
+      "player_id": "30981",
+      "player": "Lionel Messi",
+      "picks": 6,
+      "hits_3plus": 6,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "664962",
+      "player": "Denis Bouanga",
+      "picks": 2,
+      "hits_3plus": 2,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "212867",
+      "player": "Heung-Min Son",
+      "picks": 2,
+      "hits_3plus": 2,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "933760",
+      "player": "Brian White",
+      "picks": 1,
+      "hits_3plus": 0,
+      "hit_rate_3plus": 0.0
+    },
+    {
+      "player_id": "737066",
+      "player": "Erling Haaland",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "787351",
+      "player": "Evander Ferreira",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "1090238",
+      "player": "Gabriel Pec",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "394462",
+      "player": "Hany Mukhtar",
+      "picks": 1,
+      "hits_3plus": 0,
+      "hit_rate_3plus": 0.0
+    },
+    {
+      "player_id": "737974",
+      "player": "Hugo Cuypers",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "1457626",
+      "player": "Ibrahim Maza",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "726692",
+      "player": "Marcel Hartel",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "1136311",
+      "player": "Milan Iloski",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "540097",
+      "player": "Patrik Schick",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "1473789",
+      "player": "Peyton Miller",
+      "picks": 1,
+      "hits_3plus": 0,
+      "hit_rate_3plus": 0.0
+    },
+    {
+      "player_id": "1173474",
+      "player": "Rafael Navarro",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    },
+    {
+      "player_id": "796747",
+      "player": "Sam Surridge",
+      "picks": 1,
+      "hits_3plus": 1,
+      "hit_rate_3plus": 100.0
+    }
+  ],
+  "interpretation": [
+    "Equal league treatment means equal first access to an environment and at most one final candidate per league; it never forces a candidate that fails Plan B.",
+    "This v3 rule was requested after v1 and v2 results were inspected, so its replay is exploratory rather than independent validation.",
+    "Candidates must represent the home team and later be confirmed home starters.",
+    "Missing data is never invented."
+  ]
+}

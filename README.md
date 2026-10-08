@@ -60,3 +60,9 @@ See the [season-to-date replay dashboard](outputs/season_to_date_plan_b3/index.h
 Candidates are now explicitly restricted to the **home team**. When the highest remaining candidate and other candidates are within **0.5 prior average shots**, the engine prefers the more consistent record: more previous-five 3+ hits, higher five-start shot floor, lower shot standard deviation, more 2+ hits, then shot share and the existing tie-breakers.
 
 This v2 rule changed two selections in the season-to-date replay but left the headline performance unchanged at **40/51 — 78.4%**, with **6/9 clean three-pick weekends**. One historical miss replaced another miss and one hit replaced another hit. Because the rule was requested after inspecting v1, this is an exploratory refinement rather than independent validation. See the [v2 consistency dashboard](outputs/season_to_date_plan_b3_consistency_v2/index.html).
+
+### Active equal-league ranking (v3)
+
+The live engine now gives every active league equal first access: it selects the strongest eligible environment from each league before filling any remaining environment slots. It then ranks the home-only consistency candidates, retains only the strongest candidate from each league, and takes at most three. It never forces a candidate from a league that fails Plan B.
+
+The exploratory season-to-date v3 replay returned **20/23 — 87.0%**, with **18/21 clean active weekends**, but averaged only **1.1 official picks per active weekend** and produced no three-pick weekends. MLS still supplied 20 of 23 picks because it was the only active league for most of the saved period. The higher rate is based on a much smaller, post-result-selected sample and is not independent validation. See the [league-balanced v3 dashboard](outputs/season_to_date_plan_b3_league_balanced_v3/index.html).

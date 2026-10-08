@@ -297,16 +297,38 @@ def main() -> None:
                 1,
             )
         ranked = sorted(eligible, key=lambda item: (-item["environment_score"], item["match_id"]))
-        selectable_rank = 0
         for overall_rank, environment in enumerate(ranked, 1):
             environment["overall_environment_rank"] = overall_rank
-            if environment["confidence_tier"] in ("A", "B"):
+        selectable = [item for item in ranked if item["confidence_tier"] in ("A", "B")]
+        if spec.get("environment_selection_mode") == "league_champion_then_fill":
+            champions = []
+            for league in spec["scope"]["leagues"]:
+                league_rows = [item for item in selectable if item["league"] == league]
+                if league_rows:
+                    champions.append(league_rows[0])
+            selected_pool = list(champions)
+            selected_ids = {item["match_id"] for item in selected_pool}
+            for item in selectable:
+                if len(selected_pool) >= 5:
+                    break
+                if item["match_id"] not in selected_ids:
+                    selected_pool.append(item)
+                    selected_ids.add(item["match_id"])
+            selected_pool.sort(key=lambda item: (-item["environment_score"], item["match_id"]))
+            rank_by_id = {item["match_id"]: rank for rank, item in enumerate(selected_pool, 1)}
+            for environment in ranked:
+                environment["environment_rank"] = rank_by_id.get(environment["match_id"])
+                environment["selected_environment"] = environment["match_id"] in rank_by_id
+        else:
+            selectable_rank = 0
+            for environment in ranked:
+                if environment["confidence_tier"] not in ("A", "B"):
+                    environment["environment_rank"] = None
+                    environment["selected_environment"] = False
+                    continue
                 selectable_rank += 1
                 environment["environment_rank"] = selectable_rank
                 environment["selected_environment"] = selectable_rank <= 5
-            else:
-                environment["environment_rank"] = None
-                environment["selected_environment"] = False
         for environment in environments:
             if not environment["eligible"]:
                 environment["environment_rank"] = None
@@ -377,6 +399,14 @@ def main() -> None:
                 }
             )
         plan_b_candidates = rank_plan_b_candidates(plan_b_candidates, spec)
+        if spec.get("board_mode") == "one_candidate_per_league":
+            league_balanced = []
+            used_leagues = set()
+            for item in plan_b_candidates:
+                if item["league"] not in used_leagues:
+                    league_balanced.append(item)
+                    used_leagues.add(item["league"])
+            plan_b_candidates = league_balanced
         provisional = [
             {**item, "provisional_rank": rank}
             for rank, item in enumerate(plan_b_candidates[:3], 1)
