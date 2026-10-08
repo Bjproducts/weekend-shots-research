@@ -31,13 +31,16 @@ def main() -> None:
     assert len(fixed_ids) == len(set(fixed_ids))
     assert data["tracks"]["fixed_10"]["stake_fraction"] == 0.1
     assert data["tracks"]["stress_90"]["stake_fraction"] == 0.9
-    assert data["tracks"]["full_rollover_100"]["stake_fraction"] == 1.0
-    rollover = data["tracks"]["full_rollover_100"]
-    assert rollover["rollover_formula"] == data["spec"]["full_rollover_formula"]
-    if rollover["tickets"]:
-        first = rollover["tickets"][0]
-        expected = round(100 * 1.5 ** len(first["legs"]), 2) if first["result"] == "win" else 0.0
-        assert first["bankroll_after_settlement"] == expected
+    rollover = data["selection_rollover_100"]
+    assert rollover["selections"] == data["source_official_picks"] == 38
+    assert rollover["hits"] == data["source_hits_3plus"] == 33
+    assert rollover["misses"] == 5
+    assert rollover["hit_runs"] == [9, 11, 3, 0, 3, 7]
+    assert rollover["peak_active_balance"] == round(100 * 1.5**11, 2)
+    assert rollover["ending_active_balance"] == round(100 * 1.5**7, 2)
+    assert rollover["total_deposits"] == 600.0
+    assert rollover["assumed_settlement_overlap_conflicts"] == 7
+    assert rollover["all_hits_ignoring_losses_counterfactual"] == round(100 * 1.5**33, 2)
     print(json.dumps({"status": "ok", "source_legs": data["source_official_picks"], "combinations": data["combination_opportunities"], "tracks": list(data["tracks"])}, indent=2))
 
 

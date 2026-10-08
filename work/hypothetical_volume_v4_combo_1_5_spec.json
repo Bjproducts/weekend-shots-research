@@ -6,10 +6,15 @@
   "starting_bankroll_units": 100.0,
   "staking_tracks": {
     "fixed_10": 0.1,
-    "stress_90": 0.9,
-    "full_rollover_100": 1.0
+    "stress_90": 0.9
   },
-  "full_rollover_formula": "bankroll_after_n_winning_legs = 100 * 1.5^n; a losing combination reduces the active balance to zero",
+  "selection_rollover": {
+    "starting_units": 100.0,
+    "decimal_price_per_selection": 1.5,
+    "restart_units_after_loss": 100.0,
+    "assumed_settlement_minutes_after_selection": 120,
+    "formula": "active_balance_after_n_consecutive_wins = 100 * 1.5^n; each loss wipes the active balance to zero; the next selection starts a new 100-unit cycle"
+  },
   "minimum_combo_legs": 2,
   "maximum_combo_legs": 3,
   "freeze_minutes_before_earliest_kickoff": 5,
