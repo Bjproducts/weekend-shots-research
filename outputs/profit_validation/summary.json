@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-08T12:23:10.037759+00:00",
+  "generated_utc": "2026-10-08T12:34:53.164752+00:00",
   "version": "profit-validation-v1-frozen-v3",
   "paper_only": true,
-  "odds_api_configured": false,
+  "odds_api_configured": true,
   "official_legs": 0,
   "official_leg_target": 100,
   "graded_official_legs": 0,

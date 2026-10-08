@@ -15,7 +15,10 @@ if (-not ($HasProcessKey -or $HasFileKey)) {
     throw "THE_ODDS_API_KEY is not configured. Copy .env.example to .env and add the key before registering the task."
 }
 
-$Python = (Get-Command python -ErrorAction Stop).Source
+$Python = (& python -c "import sys; print(sys.executable)").Trim()
+if (-not (Test-Path -LiteralPath $Python)) {
+    throw "Could not resolve the real Python executable for the scheduled task."
+}
 $Runner = Join-Path $PSScriptRoot "run_profit_collector.py"
 $Arguments = if ([string]::IsNullOrWhiteSpace($Weekend)) {
     ('"{0}" --watch' -f $Runner)
