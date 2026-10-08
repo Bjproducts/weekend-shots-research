@@ -42,6 +42,11 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def active_board_path(out: Path) -> Path:
+    consistency = out / "frozen_board_consistency_v2.json"
+    return consistency if consistency.exists() else out / "frozen_board.json"
+
+
 def average(rows: list[dict], key: str):
     values = [row[key] for row in rows if row.get(key) is not None]
     return mean(values) if values else None
@@ -518,7 +523,7 @@ def possible(weekend: str) -> None:
 
 def lineups(weekend: str) -> None:
     out = BASE / weekend
-    board_path = out / "frozen_board.json"
+    board_path = active_board_path(out)
     snapshot_path = out / "environment_snapshot.json"
     if not board_path.exists():
         raise SystemExit("Build and freeze the provisional board first.")
@@ -679,7 +684,8 @@ def settle(weekend: str) -> None:
 def dashboard(weekend: str) -> None:
     out = BASE / weekend
     snapshot = load_json(out / "environment_snapshot.json")
-    board = load_json(out / "frozen_board.json") if (out / "frozen_board.json").exists() else {"candidates": []}
+    board_file = active_board_path(out)
+    board = load_json(board_file) if board_file.exists() else {"candidates": []}
     environments = sorted(
         (row for row in snapshot["fixtures"] if row["selected_environment"]),
         key=lambda row: row["environment_rank"],
@@ -733,7 +739,7 @@ table{{width:100%;border-collapse:collapse;background:#101c2f;margin:12px 0 28px
 <div class="grid"><div class="card"><strong>{len(snapshot['fixtures'])}</strong><br>weekend fixtures scanned</div><div class="card"><strong>{len(environments)}</strong><br>top environments</div><div class="card"><strong>{len(board['candidates'])}</strong><br>frozen provisional candidates</div><div class="card"><strong>{sum(len(item['official_picks']) for item in decisions)}</strong><br>official confirmed picks</div></div>
 <h2>Environment ranking</h2><table><thead><tr><th>Rank</th><th>League</th><th>Fixture</th><th>Score</th><th>Tier</th><th>Projected home shots</th><th>Shot gap</th></tr></thead><tbody>{environment_rows}</tbody></table>
 <h2>Frozen Plan B top three</h2><table><thead><tr><th>Rank</th><th>League</th><th>Fixture</th><th>Player</th><th>Prior 3+</th><th>Prior 2+</th><th>Avg shots</th><th>Shot share</th><th>Status</th></tr></thead><tbody>{candidate_rows or '<tr><td colspan="9">No candidate passed every Plan B gate.</td></tr>'}</tbody></table>
-<p class="muted">Formula version <code>{escape(snapshot['spec_version'])}</code>. Environment and candidate board files are immutable. This workflow has not yet established an independently validated profit rate for 3+ shots.</p>
+<p class="muted">Environment version <code>{escape(snapshot['spec_version'])}</code> · active candidate ranking <code>{escape(board.get('ranking_version', snapshot['spec_version']))}</code>. Environment and candidate board files are immutable. This workflow has not yet established an independently validated profit rate for 3+ shots.</p>
 </main></body></html>"""
     (out / "index.html").write_text(html, encoding="utf-8")
     print(json.dumps({"dashboard": str(out / "index.html"), "environments": len(environments), "provisional": len(board["candidates"]), "official": sum(len(item["official_picks"]) for item in decisions)}, indent=2))

@@ -1,0 +1,32 @@
+{
+  "version": "live-plan-b3-consistency-v2",
+  "created_date": "2026-10-07",
+  "status": "active_candidate_ranking_before_2026-10-10_outcomes",
+  "inherits": "live-plan-b3-v1 environment ranking and Plan B qualification gates",
+  "hard_requirements": [
+    "Candidate represents the home team.",
+    "Candidate appears in the possible home XI for the provisional board.",
+    "Candidate must later appear in the confirmed home starting XI before kickoff.",
+    "Candidate remains one of the top two eligible confirmed home shooters.",
+    "Candidate has at least four 2+ shot hits in the previous five starts.",
+    "Candidate averages at least 3.0 shots and 80 minutes across the previous five starts."
+  ],
+  "ranking_mode": "similar_average_then_consistency",
+  "consistency_rule": {
+    "similar_average_shots_max_difference": 0.5,
+    "procedure": "Start with the highest remaining average-shots candidate and group all remaining candidates within 0.5 shots of that anchor.",
+    "within_similar_group_order": [
+      "previous-five 3+ hits descending",
+      "minimum shots across previous five starts descending",
+      "population standard deviation of shots across previous five starts ascending",
+      "previous-five 2+ hits descending",
+      "average player share of team shots descending",
+      "average shots descending",
+      "average minutes descending",
+      "environment rank ascending",
+      "player id ascending"
+    ]
+  },
+  "maximum_provisional_candidates": 3,
+  "replacement_policy": "Never promote a lower-ranked replacement after the provisional board is frozen."
+}

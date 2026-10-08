@@ -1,0 +1,16 @@
+{
+  "passed": 9,
+  "total": 9,
+  "failures": [],
+  "checks": {
+    "historical_spec_hash_matches": true,
+    "every_historical_candidate_is_home": true,
+    "every_historical_board_obeys_consistency_order": true,
+    "historical_official_picks_are_confirmed_home_starters": true,
+    "historical_totals_reconcile": true,
+    "live_spec_hash_matches": true,
+    "live_board_is_home_only": true,
+    "live_board_obeys_consistency_order": true,
+    "live_board_has_no_outcome_access": true
+  }
+}

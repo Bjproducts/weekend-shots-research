@@ -8,12 +8,13 @@ from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 from html import escape
 from pathlib import Path
-from statistics import mean
+from statistics import mean, pstdev
 
 from live_plan_b3 import average, bounded_team_history, build_indexes, dt, percentile
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "outputs/season_to_date_plan_b3"
+SOURCE = OUT
 SPEC_PATH = ROOT / "work/season_to_date_plan_b3_spec.json"
 
 
@@ -68,6 +69,7 @@ def candidate_pool(
             None not in (item["shots"], item["minutes"], item["shot_share"]) for item in prior
         ):
             continue
+        shot_values = [item["shots"] for item in prior]
         pool.append(
             {
                 "player_id": player_id,
@@ -78,6 +80,10 @@ def candidate_pool(
                 "hits_2plus": sum(item["shots"] >= 2 for item in prior),
                 "hits_3plus": sum(item["shots"] >= 3 for item in prior),
                 "avg_shot_share": round(average(prior, "shot_share"), 5),
+                "shot_floor": min(shot_values),
+                "shot_stddev": round(pstdev(shot_values), 5),
+                "candidate_side": "home",
+                "home_team_id": home_id,
                 "current_season_starts": sum(item["season"] == current_season for item in prior),
                 "prior_ids": [item["match_id"] for item in prior],
                 "prior_rows": [
@@ -94,6 +100,47 @@ def candidate_pool(
             }
         )
     return pool
+
+
+def rank_plan_b_candidates(candidates: list[dict], spec: dict) -> list[dict]:
+    """Rank candidates, optionally applying the v2 similarity/consistency rule."""
+    if spec.get("ranking_mode") != "similar_average_then_consistency":
+        return sorted(
+            candidates,
+            key=lambda item: (
+                -item["hits_3plus"],
+                -item["avg_shot_share"],
+                -item["avg_shots"],
+                -item["avg_minutes"],
+                item["environment_rank"],
+                item["player_id"],
+            ),
+        )
+    similarity = spec["consistency_rule"]["similar_average_shots_max_difference"]
+    remaining = sorted(candidates, key=lambda item: (-item["avg_shots"], item["player_id"]))
+    ranked = []
+    while remaining:
+        anchor = remaining[0]["avg_shots"]
+        group = [item for item in remaining if anchor - item["avg_shots"] <= similarity]
+        group_ids = {(item["match_id"], item["player_id"]) for item in group}
+        remaining = [
+            item for item in remaining if (item["match_id"], item["player_id"]) not in group_ids
+        ]
+        group.sort(
+            key=lambda item: (
+                -item["hits_3plus"],
+                -item["shot_floor"],
+                item["shot_stddev"],
+                -item["hits_2plus"],
+                -item["avg_shot_share"],
+                -item["avg_shots"],
+                -item["avg_minutes"],
+                item["environment_rank"],
+                item["player_id"],
+            )
+        )
+        ranked.extend(group)
+    return ranked
 
 
 def possible_xi(home_id: str, league: str, cutoff: datetime, target: datetime, team_matches: dict) -> tuple[list[dict], list[str]]:
@@ -202,11 +249,12 @@ def make_environment(
 
 def main() -> None:
     spec = load(SPEC_PATH)
-    acquisition = load(OUT / "acquisition.json")
+    acquisition = load(SOURCE / "acquisition.json")
     if acquisition["failures"]:
         raise SystemExit("Acquisition failures must be resolved before replay.")
-    matches = load(OUT / "matches.json")
-    fixtures = load(OUT / "target_fixtures.json")
+    matches = load(SOURCE / "matches.json")
+    fixtures = load(SOURCE / "target_fixtures.json")
+    OUT.mkdir(parents=True, exist_ok=True)
     match_by_id = {match["match_id"]: match for match in matches}
     missing_targets = [fixture["match_id"] for fixture in fixtures if fixture["match_id"] not in match_by_id]
     if missing_targets:
@@ -328,16 +376,7 @@ def main() -> None:
                     "plan_B_candidates": [item for item in evaluated if item["plan_B"]],
                 }
             )
-        plan_b_candidates.sort(
-            key=lambda item: (
-                -item["hits_3plus"],
-                -item["avg_shot_share"],
-                -item["avg_shots"],
-                -item["avg_minutes"],
-                item["environment_rank"],
-                item["player_id"],
-            )
-        )
+        plan_b_candidates = rank_plan_b_candidates(plan_b_candidates, spec)
         provisional = [
             {**item, "provisional_rank": rank}
             for rank, item in enumerate(plan_b_candidates[:3], 1)

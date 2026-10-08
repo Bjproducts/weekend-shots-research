@@ -54,3 +54,9 @@ The exact weekend engine was retrospectively replayed across every completed cur
 Result: **40/51 3+ shots hits (78.4%)**, with a 95% Wilson interval of **65.4–87.5%**. It produced picks on 22 weekends; **11/22 weekends were completely clean**. The engine produced three official picks on nine weekends and all three hit on **6/9 — 66.7%** of them. The longest individual hit run was 10. The evidence is highly concentrated: MLS supplied 49 of 51 picks, while the young European seasons supplied only two total picks. This is useful retrospective evidence, not a reliable cross-league future rate or proof of profit.
 
 See the [season-to-date replay dashboard](outputs/season_to_date_plan_b3/index.html) and reproduce it with `python work/simulate_season_to_date_plan_b3.py` followed by `python work/check_season_to_date_plan_b3.py`.
+
+### Active consistency ranking (v2)
+
+Candidates are now explicitly restricted to the **home team**. When the highest remaining candidate and other candidates are within **0.5 prior average shots**, the engine prefers the more consistent record: more previous-five 3+ hits, higher five-start shot floor, lower shot standard deviation, more 2+ hits, then shot share and the existing tie-breakers.
+
+This v2 rule changed two selections in the season-to-date replay but left the headline performance unchanged at **40/51 — 78.4%**, with **6/9 clean three-pick weekends**. One historical miss replaced another miss and one hit replaced another hit. Because the rule was requested after inspecting v1, this is an exploratory refinement rather than independent validation. See the [v2 consistency dashboard](outputs/season_to_date_plan_b3_consistency_v2/index.html).
