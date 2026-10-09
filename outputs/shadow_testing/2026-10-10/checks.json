@@ -7,11 +7,15 @@
     "rank_sequence": true,
     "five_selected": true,
     "history_before_cutoff": true,
-    "manifest_ids_match": true
+    "manifest_ids_match": true,
+    "confirmed_locks_are_standard_complete_and_outcome_free": true,
+    "confirmed_lock_ids_belong_to_snapshot": true
   },
   "counts": {
     "fixtures": 41,
     "ranked": 38,
-    "selected": 5
+    "selected": 5,
+    "confirmed_standard_lineup_locks": 0,
+    "quarantined_nonstandard_legacy_locks": 5
   }
 }

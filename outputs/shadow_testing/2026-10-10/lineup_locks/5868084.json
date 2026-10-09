@@ -1,0 +1,62 @@
+{
+  "status": "locked_before_kickoff",
+  "locked_utc": "2026-10-09T02:42:42.875509+00:00",
+  "match_id": "5868084",
+  "date": "2026-10-10T16:30:00Z",
+  "league": "LaLiga",
+  "fixture": "Barcelona vs Getafe",
+  "environment_rank": 2,
+  "confidence_tier": "A",
+  "confirmed_home_starter_ids": [
+    "1083323",
+    "1404415",
+    "1467236",
+    "1532137",
+    "1598982",
+    "361757",
+    "383971",
+    "576165",
+    "675088",
+    "705450",
+    "906937"
+  ],
+  "picks": [
+    {
+      "player_id": "1467236",
+      "player": "Lamine Yamal",
+      "avg_shots": 5.8,
+      "avg_minutes": 85.2,
+      "recent_hits": 5,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5868034",
+        "5868049",
+        "5868054",
+        "5868066",
+        "5868078"
+      ],
+      "shooter_rank": 1,
+      "A": true,
+      "B": true
+    },
+    {
+      "player_id": "906937",
+      "player": "Anthony Gordon",
+      "avg_shots": 2.2,
+      "avg_minutes": 74.4,
+      "recent_hits": 4,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5868016",
+        "5868034",
+        "5868049",
+        "5868054",
+        "5868078"
+      ],
+      "shooter_rank": 2,
+      "A": true,
+      "B": false
+    }
+  ],
+  "outcome_accessed": false
+}

@@ -70,24 +70,25 @@ def prepare(weekend):
 def lineup_lock(weekend):
     out=BASE/weekend;snapshot=out/'environment_snapshot.json'
     if not snapshot.exists():raise SystemExit('Prepare the environment snapshot first.')
-    obj=json.loads(snapshot.read_text(encoding='utf-8'));lockdir=out/'lineup_locks';lockdir.mkdir(exist_ok=True);created=[];waiting=[];refused=[]
+    obj=json.loads(snapshot.read_text(encoding='utf-8'));lockdir=out/'confirmed_lineup_locks';lockdir.mkdir(exist_ok=True);created=[];waiting=[];refused=[]
     for env in [r for r in obj['fixtures'] if r['selected_environment']]:
         path=lockdir/f"{env['match_id']}.json"
         if path.exists():continue
         d=get_json('https://www.fotmob.com/api/data/matchDetails?'+urllib.parse.urlencode({'matchId':env['match_id']}));general=d.get('general') or {};lineup=(d.get('content') or {}).get('lineup') or {};home=lineup.get('homeTeam') or {};starters={str(p['id']) for p in home.get('starters') or [] if p.get('id') is not None}
         if general.get('started') or general.get('finished'):refused.append({'match_id':env['match_id'],'reason':'already_started_or_finished'});continue
-        if len(starters)<11:waiting.append(env['match_id']);continue
+        if lineup.get('lineupType')!='standard' or len(starters)<11:waiting.append({'match_id':env['match_id'],'lineup_type':lineup.get('lineupType'),'home_starters':len(starters)});continue
         ranked=[p for p in env['candidate_pool'] if p['player_id'] in starters];ranked.sort(key=lambda p:(-p['avg_shots'],-p['avg_minutes'],p['player_id']))
         picks=[]
         for rank,p in enumerate(ranked,1):
             a=rank<=2 and p['avg_minutes']>=70 and p['recent_hits']>=4;b=a and p['avg_shots']>=3 and p['avg_minutes']>=80
             if a:picks.append({**p,'shooter_rank':rank,'A':True,'B':b})
-        lock={'status':'locked_before_kickoff','locked_utc':datetime.now(timezone.utc).isoformat(),'match_id':env['match_id'],'date':env['date'],'league':env['league'],'fixture':env['fixture'],'environment_rank':env['weekend_rank'],'confidence_tier':env['confidence_tier'],'confirmed_home_starter_ids':sorted(starters),'picks':picks,'outcome_accessed':False};path.write_text(json.dumps(lock,indent=2),encoding='utf-8');created.append({'match_id':env['match_id'],'fixture':env['fixture'],'picks':len(picks),'A':[p['player'] for p in picks],'B':[p['player'] for p in picks if p['B']]})
+        lock={'status':'confirmed_standard_lineup_locked_before_kickoff','locked_utc':datetime.now(timezone.utc).isoformat(),'match_id':env['match_id'],'date':env['date'],'league':env['league'],'fixture':env['fixture'],'environment_rank':env['weekend_rank'],'confidence_tier':env['confidence_tier'],'lineup_type':lineup.get('lineupType'),'lineup_source':lineup.get('source'),'confirmed_home_starter_ids':sorted(starters),'picks':picks,'outcome_accessed':False};path.write_text(json.dumps(lock,indent=2),encoding='utf-8');created.append({'match_id':env['match_id'],'fixture':env['fixture'],'picks':len(picks),'A':[p['player'] for p in picks],'B':[p['player'] for p in picks if p['B']]})
     print(json.dumps({'created':created,'waiting_for_lineups':waiting,'refused_after_start':refused},indent=2))
 def settle(weekend):
-    out=BASE/weekend;lockdir=out/'lineup_locks';settledir=out/'settled';settledir.mkdir(exist_ok=True);new=[];waiting=[]
+    out=BASE/weekend;lockdir=out/'confirmed_lineup_locks';settledir=out/'settled';settledir.mkdir(exist_ok=True);new=[];waiting=[]
     for path in sorted(lockdir.glob('*.json')) if lockdir.exists() else []:
         lock=json.loads(path.read_text(encoding='utf-8'));dest=settledir/path.name
+        if lock.get('lineup_type')!='standard':continue
         if dest.exists():continue
         d=get_json('https://www.fotmob.com/api/data/matchDetails?'+urllib.parse.urlencode({'matchId':lock['match_id']}));general=d.get('general') or {}
         if not general.get('finished'):waiting.append(lock['match_id']);continue

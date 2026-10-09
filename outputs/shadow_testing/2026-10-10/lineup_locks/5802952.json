@@ -1,0 +1,44 @@
+{
+  "status": "locked_before_kickoff",
+  "locked_utc": "2026-10-09T02:42:44.896967+00:00",
+  "match_id": "5802952",
+  "date": "2026-10-10T18:45:00Z",
+  "league": "Ligue 1",
+  "fixture": "Paris Saint-Germain vs Le Mans",
+  "environment_rank": 5,
+  "confidence_tier": "A",
+  "confirmed_home_starter_ids": [
+    "1061249",
+    "1137670",
+    "1158945",
+    "1339208",
+    "1342757",
+    "1574189",
+    "267365",
+    "605654",
+    "692984",
+    "800880",
+    "900433"
+  ],
+  "picks": [
+    {
+      "player_id": "1339208",
+      "player": "D\u00e9sir\u00e9 Dou\u00e9",
+      "avg_shots": 3,
+      "avg_minutes": 73.4,
+      "recent_hits": 4,
+      "current_season_starts": 4,
+      "prior_ids": [
+        "4830712",
+        "5803105",
+        "5802918",
+        "5802925",
+        "5802945"
+      ],
+      "shooter_rank": 2,
+      "A": true,
+      "B": false
+    }
+  ],
+  "outcome_accessed": false
+}

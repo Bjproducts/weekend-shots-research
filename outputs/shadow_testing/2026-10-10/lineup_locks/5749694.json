@@ -1,0 +1,44 @@
+{
+  "status": "locked_before_kickoff",
+  "locked_utc": "2026-10-09T02:42:43.079963+00:00",
+  "match_id": "5749694",
+  "date": "2026-10-10T16:00:00Z",
+  "league": "Serie A",
+  "fixture": "Inter vs Parma",
+  "environment_rank": 1,
+  "confidence_tier": "A",
+  "confirmed_home_starter_ids": [
+    "1254297",
+    "362212",
+    "521318",
+    "541820",
+    "621562",
+    "690230",
+    "772168",
+    "805451",
+    "889535",
+    "933768",
+    "940829"
+  ],
+  "picks": [
+    {
+      "player_id": "621562",
+      "player": "Marcus Thuram",
+      "avg_shots": 3.2,
+      "avg_minutes": 72.2,
+      "recent_hits": 5,
+      "current_season_starts": 2,
+      "prior_ids": [
+        "4803376",
+        "4803382",
+        "4803392",
+        "5749673",
+        "5749681"
+      ],
+      "shooter_rank": 2,
+      "A": true,
+      "B": false
+    }
+  ],
+  "outcome_accessed": false
+}

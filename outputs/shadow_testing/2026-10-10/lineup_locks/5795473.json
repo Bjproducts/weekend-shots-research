@@ -1,0 +1,62 @@
+{
+  "status": "locked_before_kickoff",
+  "locked_utc": "2026-10-09T02:42:42.291824+00:00",
+  "match_id": "5795473",
+  "date": "2026-10-10T16:30:00Z",
+  "league": "Premier League",
+  "fixture": "Manchester United vs Tottenham Hotspur",
+  "environment_rank": 3,
+  "confidence_tier": "A",
+  "confirmed_home_starter_ids": [
+    "1178602",
+    "1526560",
+    "255610",
+    "362694",
+    "422685",
+    "465960",
+    "750032",
+    "751550",
+    "847983",
+    "863098",
+    "923312"
+  ],
+  "picks": [
+    {
+      "player_id": "422685",
+      "player": "Bruno Fernandes",
+      "avg_shots": 3.8,
+      "avg_minutes": 90,
+      "recent_hits": 4,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5795364",
+        "5795432",
+        "5795438",
+        "5795452",
+        "5795459"
+      ],
+      "shooter_rank": 1,
+      "A": true,
+      "B": true
+    },
+    {
+      "player_id": "923312",
+      "player": "Bryan Mbeumo",
+      "avg_shots": 3.8,
+      "avg_minutes": 90,
+      "recent_hits": 5,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5795364",
+        "5795432",
+        "5795438",
+        "5795452",
+        "5795459"
+      ],
+      "shooter_rank": 2,
+      "A": true,
+      "B": true
+    }
+  ],
+  "outcome_accessed": false
+}

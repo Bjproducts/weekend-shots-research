@@ -1,0 +1,16 @@
+{
+  "status": "quarantined_nonstandard_lineup_records",
+  "detected_utc": "2026-10-09T02:42:44Z",
+  "reason": "The legacy shadow lineup function accepted 11 predicted starters without requiring FotMob lineupType=standard.",
+  "official_selection_eligible": false,
+  "settlement_eligible": false,
+  "records_preserved_not_overwritten": true,
+  "affected_matches": [
+    {"match_id": "5749694", "fixture": "Inter vs Parma", "lineup_type": "predicted", "source": "enetpulse"},
+    {"match_id": "5795473", "fixture": "Manchester United vs Tottenham Hotspur", "lineup_type": "predicted", "source": "enetpulse"},
+    {"match_id": "5802948", "fixture": "Lille vs Le Havre", "lineup_type": "predicted", "source": "enetpulse"},
+    {"match_id": "5802952", "fixture": "Paris Saint-Germain vs Le Mans", "lineup_type": "predicted", "source": "enetpulse"},
+    {"match_id": "5868084", "fixture": "Barcelona vs Getafe", "lineup_type": "predicted", "source": "enetpulse"}
+  ],
+  "corrective_action": "New locks are written only to confirmed_lineup_locks after a complete FotMob standard lineup is available. Settlement and dashboards ignore these quarantined legacy records."
+}
