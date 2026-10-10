@@ -36,16 +36,35 @@ def lineups(weekend: str) -> dict:
     board = load(board_path)
     environments = {str(row["match_id"]): row for row in board["selected_environments"]}
     decisions = folder / "lineup_decisions_volume_v4"
+    refusals = folder / "lineup_refusals_volume_v4"
     created, waiting, refused = [], [], []
     for candidate in board["candidates"]:
         match_id = str(candidate["match_id"])
         destination = decisions / f"{match_id}.json"
-        if destination.exists():
+        refusal_path = refusals / f"{match_id}.json"
+        if destination.exists() or refusal_path.exists():
             continue
         detail = get_json("https://www.fotmob.com/api/data/matchDetails?" + urllib.parse.urlencode({"matchId": match_id}))
         general = detail.get("general") or {}
         if general.get("started") or general.get("finished"):
-            refused.append({"match_id": match_id, "reason": "already_started_or_finished"})
+            environment = environments[match_id]
+            reason = "kickoff_window_missed_already_started_or_finished"
+            payload = {
+                "status": "volume_v4_prospective_lineup_lock_refused",
+                "strategy_id": "volume_v4",
+                "refused_utc": datetime.now(timezone.utc).isoformat(),
+                "match_id": match_id,
+                "date": environment["date"],
+                "league": environment["league"],
+                "fixture": environment["fixture"],
+                "candidate": candidate,
+                "reason": reason,
+                "official_selection_eligible": False,
+                "replacement_policy": "No promotion after the frozen challenger board.",
+                "outcome_accessed": False,
+            }
+            write_once(refusal_path, payload)
+            refused.append({"match_id": match_id, "player": candidate["player"], "reason": reason})
             continue
         lineup = (detail.get("content") or {}).get("lineup") or {}
         home = lineup.get("homeTeam") or {}
@@ -128,9 +147,11 @@ def dashboard(weekend: str) -> dict:
     folder = BASE / weekend
     board = load(folder / "frozen_board_volume_v4.json")
     decisions = [load(path) for path in sorted((folder / "lineup_decisions_volume_v4").glob("*.json"))] if (folder / "lineup_decisions_volume_v4").exists() else []
+    refusals = [load(path) for path in sorted((folder / "lineup_refusals_volume_v4").glob("*.json"))] if (folder / "lineup_refusals_volume_v4").exists() else []
     settlements = [load(path) for path in sorted((folder / "settled_volume_v4").glob("*.json"))] if (folder / "settled_volume_v4").exists() else []
     official = {str(row["player_id"]) for item in decisions for row in item["official_picks"]}
     rejected = {str(row["player_id"]): row["reasons"] for item in decisions for row in item["rejected_provisional_candidates"]}
+    refused = {str(item["candidate"]["player_id"]): item["reason"] for item in refusals}
     outcomes = {str(row["player_id"]): row for item in settlements for row in item["official_picks"]}
     rows = ""
     for candidate in board["candidates"]:
@@ -141,13 +162,15 @@ def dashboard(weekend: str) -> dict:
             status = "Official challenger leg"
         elif key in rejected:
             status = "Rejected: " + ", ".join(rejected[key]).replace("_", " ")
+        elif key in refused:
+            status = "Prospective lock missed — excluded: " + refused[key].replace("_", " ")
         else:
             status = "Provisional — awaiting confirmed lineup"
         rows += f"<tr><td>{candidate['provisional_rank']}</td><td>{escape(candidate['league'])}</td><td>{escape(candidate['fixture'])}</td><td>{escape(candidate['player'])}</td><td>{candidate['hits_3plus']}/5</td><td>{candidate['avg_shots']:.1f}</td><td>{escape(status)}</td></tr>"
     html = f"""<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>Volume v4 Challenger</title><style>body{{font:16px Inter,Segoe UI,sans-serif;background:#07111f;color:#edf3fc;margin:0;padding:28px}}main{{max-width:1100px;margin:auto}}.note{{background:#17243a;border-left:4px solid #ffb84d;padding:15px;margin:20px 0}}table{{width:100%;border-collapse:collapse;background:#101d31}}th,td{{padding:11px;text-align:left;border-bottom:1px solid #293e5e}}th{{color:#8bc4ff}}.muted{{color:#9badc4}}</style></head><body><main><h1>Higher-volume Plan B challenger</h1><p class=muted>Weekend {escape(weekend)} · separate from frozen v3 control</p><div class=note><strong>Prospective paper research only.</strong> Maximum three candidates, maximum two per league and one per fixture. No rejected player is replaced.</div><table><thead><tr><th>Rank</th><th>League</th><th>Fixture</th><th>Player</th><th>Prior 3+</th><th>Avg shots</th><th>Status</th></tr></thead><tbody>{rows or '<tr><td colspan=7>No challenger candidates.</td></tr>'}</tbody></table><p class=muted>Board hash: <code>{sha(folder / 'frozen_board_volume_v4.json')}</code></p></main></body></html>"""
     destination = folder / "volume_v4.html"
     destination.write_text(html, encoding="utf-8")
-    result = {"dashboard": str(destination), "provisional": len(board["candidates"]), "official": len(official), "settled": len(outcomes)}
+    result = {"dashboard": str(destination), "provisional": len(board["candidates"]), "official": len(official), "refused": len(refused), "settled": len(outcomes)}
     print(json.dumps(result, indent=2))
     return result
 

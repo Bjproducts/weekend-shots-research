@@ -72,6 +72,51 @@ class FakeAPI:
 
 
 class ChallengerTests(unittest.TestCase):
+    def test_started_fixture_refusal_is_immutable_and_enters_ledger(self):
+        with isolated() as root:
+            previous = live_v4.BASE
+            live_v4.BASE = pv.LIVE_BASE
+            try:
+                weekend = "2026-10-10"
+                folder = live_v4.BASE / weekend
+                folder.mkdir(parents=True)
+                candidate = {
+                    "match_id": "m1", "player_id": "p1", "player": "Frozen",
+                    "candidate_side": "home", "plan_B": True, "avg_shots": 4.0,
+                    "avg_minutes": 90, "league": "MLS", "date": at(12).isoformat(),
+                }
+                board = {
+                    "ranking_version": "live-plan-b3-volume-v4",
+                    "candidates": [candidate],
+                    "selected_environments": [{
+                        "match_id": "m1", "date": at(12).isoformat(), "league": "MLS",
+                        "fixture": "Home vs Away", "plan_B_candidates": [candidate],
+                    }],
+                }
+                (folder / "frozen_board_volume_v4.json").write_text(json.dumps(board), encoding="utf-8")
+                started = {"general": {"started": True, "finished": False}, "content": {}}
+                with patch.object(live_v4, "get_json", return_value=started):
+                    result = live_v4.lineups(weekend)
+                refusal_path = folder / "lineup_refusals_volume_v4/m1.json"
+                original = refusal_path.read_bytes()
+                self.assertEqual(result["refused_after_start"][0]["player"], "Frozen")
+                self.assertFalse(json.loads(original)["official_selection_eligible"])
+                self.assertFalse(json.loads(original)["outcome_accessed"])
+
+                with patch.object(live_v4, "get_json", side_effect=AssertionError("immutable refusal must skip refetch")):
+                    live_v4.lineups(weekend)
+                self.assertEqual(refusal_path.read_bytes(), original)
+
+                sync = pc.sync_official_selections(weekend)
+                self.assertEqual(sync["imported"], 0)
+                self.assertEqual(sync["rejected"], 1)
+                records = pc.read_ledger()
+                rejection = next(row for row in records if row["event_type"] == "selection_rejected")
+                self.assertEqual(rejection["payload"]["reasons"], ["kickoff_window_missed_already_started_or_finished"])
+                self.assertFalse(rejection["payload"]["official_selection_eligible"])
+            finally:
+                live_v4.BASE = previous
+
     def test_rejected_frozen_candidate_is_never_replaced(self):
         with tempfile.TemporaryDirectory() as directory:
             previous = live_v4.BASE

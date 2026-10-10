@@ -1,0 +1,87 @@
+{
+  "status": "volume_v4_prospective_lineup_lock_refused",
+  "strategy_id": "volume_v4",
+  "refused_utc": "2026-10-10T12:15:34.096185+00:00",
+  "match_id": "5795465",
+  "date": "2026-10-10T11:30:00Z",
+  "league": "Premier League",
+  "fixture": "Arsenal vs Leeds United",
+  "candidate": {
+    "player_id": "961995",
+    "player": "Bukayo Saka",
+    "position_id": 83,
+    "avg_shots": 3,
+    "avg_minutes": 83.6,
+    "hits_2plus": 5,
+    "hits_3plus": 3,
+    "avg_shot_share": 0.24623,
+    "current_season_starts": 5,
+    "prior_ids": [
+      "5795363",
+      "5795426",
+      "5795435",
+      "5795453",
+      "5795457"
+    ],
+    "prior_rows": [
+      {
+        "match_id": "5795363",
+        "date": "2026-08-21T19:00:00+00:00",
+        "shots": 3,
+        "minutes": 68,
+        "team_shots": 20,
+        "shot_share": 0.15
+      },
+      {
+        "match_id": "5795426",
+        "date": "2026-08-31T19:00:00+00:00",
+        "shots": 2,
+        "minutes": 90,
+        "team_shots": 7,
+        "shot_share": 0.28571
+      },
+      {
+        "match_id": "5795435",
+        "date": "2026-09-06T15:30:00+00:00",
+        "shots": 4,
+        "minutes": 89,
+        "team_shots": 16,
+        "shot_share": 0.25
+      },
+      {
+        "match_id": "5795453",
+        "date": "2026-09-12T19:00:00+00:00",
+        "shots": 4,
+        "minutes": 90,
+        "team_shots": 11,
+        "shot_share": 0.36364
+      },
+      {
+        "match_id": "5795457",
+        "date": "2026-09-19T14:00:00+00:00",
+        "shots": 2,
+        "minutes": 81,
+        "team_shots": 11,
+        "shot_share": 0.18182
+      }
+    ],
+    "candidate_side": "home",
+    "home_team_id": "9825",
+    "shooter_rank_within_possible_XI": 1,
+    "plan_B": true,
+    "shot_floor": 2,
+    "shot_stddev": 0.89443,
+    "match_id": "5795465",
+    "date": "2026-10-10T11:30:00Z",
+    "league": "Premier League",
+    "fixture": "Arsenal vs Leeds United",
+    "environment_rank": 4,
+    "environment_score": 81.7,
+    "provisional_rank": 3,
+    "status": "challenger_provisional_awaiting_confirmed_home_lineup"
+  },
+  "reason": "kickoff_window_missed_already_started_or_finished",
+  "official_selection_eligible": false,
+  "replacement_policy": "No promotion after the frozen challenger board.",
+  "outcome_accessed": false
+}

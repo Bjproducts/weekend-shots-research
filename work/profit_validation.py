@@ -245,6 +245,44 @@ def sync_official_selections(weekend: str) -> dict:
             event_id = f"provisional-rejected:{weekend}:{decision['match_id']}:{pick['player_id']}"
             append_event("provisional_rejected", payload, event_id)
             rejected += 1
+
+    refusals_name = cfg.get("lineup_refusals_dir")
+    refusals_dir = folder / refusals_name if refusals_name else None
+    for path in sorted(refusals_dir.glob("*.json")) if refusals_dir and refusals_dir.exists() else []:
+        refusal = load_json(path)
+        pick = refusal.get("candidate") or {}
+        if not pick.get("player_id"):
+            continue
+        current_selection_id = selection_id(weekend, str(refusal["match_id"]), str(pick["player_id"]))
+        if current_selection_id in processed_selection_ids:
+            continue
+        key = (str(refusal["match_id"]), str(pick["player_id"]))
+        reasons = [refusal.get("reason") or "prospective_lineup_lock_refused"]
+        if key not in board_players:
+            reasons.append("not_on_frozen_candidate_board")
+        payload = {
+            "strategy_id": cfg.get("strategy_id", "league_balanced_v3"),
+            "weekend": weekend,
+            "selection_id": current_selection_id,
+            "quote_subject_id": shared_quote_store.subject_id(weekend, str(refusal["match_id"]), str(pick["player_id"])),
+            "ranking_version": board["ranking_version"],
+            "board_sha256": hashlib.sha256(board_path.read_bytes()).hexdigest(),
+            "refusal_sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
+            "match_id": str(refusal["match_id"]),
+            "kickoff": refusal["date"],
+            "league": refusal["league"],
+            "fixture": refusal["fixture"],
+            "player_id": str(pick["player_id"]),
+            "player": pick["player"],
+            "home_only": pick.get("candidate_side") == "home",
+            "plan_b": bool(pick.get("plan_B")),
+            "target": "Over 2.5 total shots",
+            "official_selection_eligible": False,
+            "reasons": reasons,
+        }
+        append_event("selection_rejected", payload, f"selection-rejected:{current_selection_id}")
+        processed_selection_ids.add(current_selection_id)
+        rejected += 1
     return {"weekend": weekend, "imported": imported, "rejected": rejected, "status": "ok"}
 
 

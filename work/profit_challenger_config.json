@@ -4,6 +4,7 @@
   "selection_version": "live-plan-b3-volume-v4",
   "board_filename": "frozen_board_volume_v4.json",
   "lineup_decisions_dir": "lineup_decisions_volume_v4",
+  "lineup_refusals_dir": "lineup_refusals_volume_v4",
   "settled_dir": "settled_volume_v4",
   "paper_only": true,
   "starting_bankroll_units": 100.0,
