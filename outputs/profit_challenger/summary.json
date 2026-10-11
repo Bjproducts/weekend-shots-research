@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-11T00:46:53.857987+00:00",
+  "generated_utc": "2026-10-11T04:37:58.784749+00:00",
   "version": "profit-validation-volume-v4",
   "strategy_id": "volume_v4",
   "control_strategy": "league_balanced_v3",
   "paper_only": true,
   "historical_assumed_prices_included": false,
   "official_legs": 2,
-  "graded_official_legs": 1,
-  "selection_hits": 0,
-  "selection_hit_rate": 0.0,
+  "graded_official_legs": 2,
+  "selection_hits": 1,
+  "selection_hit_rate": 0.5,
   "combination_tickets": 0,
   "active_weekends": 1,
   "leagues": {

@@ -9,18 +9,6 @@
     "hits": 2,
     "picks": 3
   },
-  "newly_settled": [
-    {
-      "match_id": "5802952",
-      "fixture": "Paris Saint-Germain vs Le Mans",
-      "picks": [
-        [
-          "Jo\u00e3o Neves",
-          1,
-          false
-        ]
-      ]
-    }
-  ],
+  "newly_settled": [],
   "waiting": []
 }

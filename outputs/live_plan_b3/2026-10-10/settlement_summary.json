@@ -1,11 +1,21 @@
 {
   "weekend": "2026-10-10",
-  "settled_matches": 1,
-  "official_picks_graded": 1,
-  "hits": 0,
-  "hit_rate": 0.0,
-  "newly_settled": [],
-  "waiting": [
-    "5071403"
-  ]
+  "settled_matches": 2,
+  "official_picks_graded": 2,
+  "hits": 1,
+  "hit_rate": 50.0,
+  "newly_settled": [
+    {
+      "match_id": "5071403",
+      "fixture": "Philadelphia Union vs Real Salt Lake",
+      "picks": [
+        [
+          "Milan Iloski",
+          3,
+          true
+        ]
+      ]
+    }
+  ],
+  "waiting": []
 }
