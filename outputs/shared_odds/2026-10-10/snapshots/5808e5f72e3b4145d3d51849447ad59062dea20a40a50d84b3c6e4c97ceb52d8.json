@@ -1,0 +1,28 @@
+{
+  "provider": "the_odds_api",
+  "provider_event_id": "9ea179b94f97b5ab62469564ac823b7c",
+  "quote_subject_id": "2026-10-10:5071403:1136311",
+  "observation_id": "5808e5f72e3b4145d3d51849447ad59062dea20a40a50d84b3c6e4c97ceb52d8",
+  "stage": "poll",
+  "observed_utc": "2026-10-10T22:50:15.744432+00:00",
+  "sport_key": "soccer_usa_mls",
+  "raw_path": "outputs/shared_odds/2026-10-10/raw/5808e5f72e3b4145d3d51849447ad59062dea20a40a50d84b3c6e4c97ceb52d8.json",
+  "raw_sha256": "22dc75d9b3e6f43283ccf697530736ad869baa6141a64f5903a1f5bf48cd5e6a",
+  "quotes": [
+    {
+      "bookmaker": "fanduel",
+      "bookmaker_title": "FanDuel",
+      "market": "player_shots",
+      "outcome": "Over",
+      "line": 2.5,
+      "price": 1.05,
+      "player_provider_name": "Milan Iloski",
+      "last_update": "2026-10-10T22:49:26Z",
+      "age_seconds": 49.744
+    }
+  ],
+  "rejections": [],
+  "quota_remaining": "485",
+  "quota_used": "15",
+  "cache_hit": false
+}

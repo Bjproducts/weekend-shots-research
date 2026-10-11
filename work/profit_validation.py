@@ -535,24 +535,22 @@ def freeze_due_tickets(weekend: str, observed: datetime | None = None) -> dict:
         for row in records
         if row["event_type"] == "no_combo"
     }
-    unused = [row for row in selections if row["selection_id"] not in assigned and parse_time(row["kickoff"]) > observed]
+    unassigned = [row for row in selections if row["selection_id"] not in assigned]
+    overdue = [row for row in unassigned if parse_time(row["kickoff"]) <= observed]
+    for row in overdue:
+        append_event(
+            "no_combo",
+            {"weekend": weekend, "selection_id": row["selection_id"], "reason": "freeze_window_missed"},
+            f"no-combo:{row['selection_id']}", observed,
+        )
+    unused = [row for row in unassigned if parse_time(row["kickoff"]) > observed]
     if not unused:
-        return {"status": "nothing_due", "created": 0, "no_combo": 0}
+        return {"status": "missed_freeze" if overdue else "nothing_due", "created": 0, "no_combo": len(overdue)}
     unused.sort(key=lambda row: (row["kickoff"], row["selection_id"]))
     earliest = parse_time(unused[0]["kickoff"])
     freeze = earliest - timedelta(minutes=cfg["freeze_minutes_before_kickoff"])
     if observed < freeze:
         return {"status": "waiting_for_freeze", "freeze_utc": freeze.isoformat(), "created": 0, "no_combo": 0}
-    if observed >= earliest:
-        due = [row for row in unused if parse_time(row["kickoff"]) <= observed]
-        for row in due:
-            append_event(
-                "no_combo",
-                {"weekend": weekend, "selection_id": row["selection_id"], "reason": "freeze_window_missed"},
-                f"no-combo:{row['selection_id']}", observed,
-            )
-        return {"status": "missed_freeze", "created": 0, "no_combo": len(due)}
-
     snapshots = {row["selection_id"]: latest_usable_quote(row, observed, records) for row in unused}
     eligible = [row for row in unused if snapshots[row["selection_id"]] is not None]
     # Defensive enforcement even though frozen v3 already applies these limits.

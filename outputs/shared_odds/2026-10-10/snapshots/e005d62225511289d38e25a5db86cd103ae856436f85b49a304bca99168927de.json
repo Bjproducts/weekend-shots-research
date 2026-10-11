@@ -1,0 +1,28 @@
+{
+  "provider": "the_odds_api",
+  "provider_event_id": "22c9b2c43cbe1334381269550dab78e6",
+  "quote_subject_id": "2026-10-10:5795473:923312",
+  "observation_id": "e005d62225511289d38e25a5db86cd103ae856436f85b49a304bca99168927de",
+  "stage": "lineup_lock",
+  "observed_utc": "2026-10-10T15:30:19.447666+00:00",
+  "sport_key": "soccer_epl",
+  "raw_path": "outputs/shared_odds/2026-10-10/raw/e005d62225511289d38e25a5db86cd103ae856436f85b49a304bca99168927de.json",
+  "raw_sha256": "72b8946ecf88d0694dfca8e9c9825830cafba861b7780c13349364e961d47730",
+  "quotes": [
+    {
+      "bookmaker": "fanduel",
+      "bookmaker_title": "FanDuel",
+      "market": "player_shots",
+      "outcome": "Over",
+      "line": 2.5,
+      "price": 1.59,
+      "player_provider_name": "Bryan Mbeumo",
+      "last_update": "2026-10-10T15:27:01Z",
+      "age_seconds": 198.448
+    }
+  ],
+  "rejections": [],
+  "quota_remaining": "497",
+  "quota_used": "3",
+  "cache_hit": false
+}

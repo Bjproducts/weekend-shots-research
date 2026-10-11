@@ -237,6 +237,19 @@ class TicketTests(unittest.TestCase):
             self.assertEqual(result["status"], "no_common_book")
             self.assertEqual(len(pv.ticket_events()), 0)
 
+    def test_unassigned_selection_after_kickoff_records_missed_freeze(self):
+        with isolated_project():
+            selection = locked("w:m1:p1", "MLS", at(12), "m1")
+            pv.append_event("selection_locked", selection, "s:m1", at(11))
+            result = pv.freeze_due_tickets("2026-10-10", at(12, 1))
+            self.assertEqual(result, {"status": "missed_freeze", "created": 0, "no_combo": 1})
+            missed = [row for row in pv.read_ledger() if row["event_type"] == "no_combo"]
+            self.assertEqual(len(missed), 1)
+            self.assertEqual(missed[0]["payload"]["reason"], "freeze_window_missed")
+            again = pv.freeze_due_tickets("2026-10-10", at(12, 2))
+            self.assertEqual(again["status"], "nothing_due")
+            self.assertEqual(len([row for row in pv.read_ledger() if row["event_type"] == "no_combo"]), 1)
+
     def test_overlapping_90_percent_exposure_is_flagged(self):
         with isolated_project():
             first = {

@@ -1,0 +1,49 @@
+{
+  "status": "settled",
+  "locked_utc": "2026-10-10T18:09:54.946030+00:00",
+  "match_id": "5802952",
+  "date": "2026-10-10T18:45:00Z",
+  "league": "Ligue 1",
+  "fixture": "Paris Saint-Germain vs Le Mans",
+  "environment_rank": 5,
+  "confidence_tier": "A",
+  "lineup_type": "standard",
+  "lineup_source": "enetpulse",
+  "confirmed_home_starter_ids": [
+    "1140003",
+    "1255209",
+    "1305618",
+    "1342757",
+    "1396372",
+    "1682313",
+    "210111",
+    "504606",
+    "770881",
+    "800880",
+    "881771"
+  ],
+  "picks": [
+    {
+      "player_id": "1342757",
+      "player": "Jo\u00e3o Neves",
+      "avg_shots": 2.2,
+      "avg_minutes": 81.2,
+      "recent_hits": 4,
+      "current_season_starts": 4,
+      "prior_ids": [
+        "4830712",
+        "5803105",
+        "5802925",
+        "5802929",
+        "5802945"
+      ],
+      "shooter_rank": 1,
+      "A": true,
+      "B": false,
+      "shots": 1,
+      "hit": false
+    }
+  ],
+  "outcome_accessed": false,
+  "settled_utc": "2026-10-10T22:18:27.710453+00:00"
+}

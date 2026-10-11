@@ -37,6 +37,31 @@ import profit_challenger as challenger
 LOCK = BASE / "collector.lock"
 
 
+def process_is_running(pid: int) -> bool:
+    if pid <= 0:
+        return False
+    if os.name == "nt":
+        import ctypes
+
+        query_limited_information = 0x1000
+        still_active = 259
+        handle = ctypes.windll.kernel32.OpenProcess(query_limited_information, False, pid)
+        if not handle:
+            return False
+        try:
+            exit_code = ctypes.c_ulong()
+            if not ctypes.windll.kernel32.GetExitCodeProcess(handle, ctypes.byref(exit_code)):
+                return False
+            return exit_code.value == still_active
+        finally:
+            ctypes.windll.kernel32.CloseHandle(handle)
+    try:
+        os.kill(pid, 0)
+    except (OSError, ProcessLookupError):
+        return False
+    return True
+
+
 def run_live(mode: str, weekend: str) -> dict:
     command = [sys.executable, str(ROOT / "work" / "live_plan_b3.py"), mode, "--weekend", weekend]
     result = subprocess.run(command, cwd=ROOT, capture_output=True, text=True, timeout=90)
@@ -70,11 +95,14 @@ def acquire_lock() -> int:
     try:
         descriptor = os.open(LOCK, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
     except FileExistsError:
+        owner_running = False
         try:
+            owner = json.loads(LOCK.read_text(encoding="utf-8"))
+            owner_running = process_is_running(int(owner.get("pid", 0)))
             age = now_utc().timestamp() - LOCK.stat().st_mtime
-        except OSError:
+        except (OSError, ValueError, TypeError, json.JSONDecodeError):
             age = 0
-        if age <= 4 * 60 * 60:
+        if owner_running or age <= 0:
             raise SystemExit("collector_already_running")
         LOCK.unlink(missing_ok=True)
         descriptor = os.open(LOCK, os.O_CREAT | os.O_EXCL | os.O_WRONLY)

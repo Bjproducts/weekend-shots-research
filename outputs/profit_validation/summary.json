@@ -1,13 +1,13 @@
 {
-  "generated_utc": "2026-10-08T13:01:21.401143+00:00",
+  "generated_utc": "2026-10-11T00:46:53.102632+00:00",
   "version": "profit-validation-v1-frozen-v3",
   "paper_only": true,
   "odds_api_configured": true,
-  "official_legs": 0,
+  "official_legs": 2,
   "official_leg_target": 100,
-  "graded_official_legs": 0,
+  "graded_official_legs": 1,
   "selection_hits": 0,
-  "selection_hit_rate": null,
+  "selection_hit_rate": 0.0,
   "tickets": 0,
   "executable_tickets": 0,
   "settled_tickets": 0,
@@ -31,9 +31,25 @@
     "insolvent": false,
     "staking_track": "stress_90"
   },
-  "active_weekends": 0,
-  "leagues": {},
-  "selection_results_by_league": {},
+  "active_weekends": 1,
+  "leagues": {
+    "MLS": 1,
+    "Premier League": 1
+  },
+  "selection_results_by_league": {
+    "MLS": {
+      "official_legs": 1,
+      "graded": 0,
+      "hits": 0,
+      "hit_rate": null
+    },
+    "Premier League": {
+      "official_legs": 1,
+      "graded": 1,
+      "hits": 0,
+      "hit_rate": 0.0
+    }
+  },
   "bookmakers": {},
   "ticket_results_by_bookmaker": {},
   "kickoff_windows": {},
@@ -47,7 +63,7 @@
     "executable_tickets": false,
     "active_weekends": false,
     "league_representation": false,
-    "league_concentration": false,
+    "league_concentration": true,
     "positive_paper_roi": false,
     "positive_average_clv": false,
     "ticket_clv_beat_share": false,

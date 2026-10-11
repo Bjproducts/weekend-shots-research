@@ -1,17 +1,20 @@
 {
-  "generated_utc": "2026-10-10T12:16:46.145063+00:00",
+  "generated_utc": "2026-10-11T00:46:53.857987+00:00",
   "version": "profit-validation-volume-v4",
   "strategy_id": "volume_v4",
   "control_strategy": "league_balanced_v3",
   "paper_only": true,
   "historical_assumed_prices_included": false,
-  "official_legs": 0,
-  "graded_official_legs": 0,
+  "official_legs": 2,
+  "graded_official_legs": 1,
   "selection_hits": 0,
-  "selection_hit_rate": null,
+  "selection_hit_rate": 0.0,
   "combination_tickets": 0,
-  "active_weekends": 0,
-  "leagues": {},
+  "active_weekends": 1,
+  "leagues": {
+    "MLS": 1,
+    "Premier League": 1
+  },
   "staking_tracks": {
     "fixed_10": {
       "stake_fraction": 0.1,
@@ -71,7 +74,7 @@
     "executable_tickets": false,
     "active_weekends": false,
     "league_representation": false,
-    "league_concentration": false,
+    "league_concentration": true,
     "positive_real_price_roi": false,
     "positive_average_clv": false,
     "ticket_clv_beat_share": false,

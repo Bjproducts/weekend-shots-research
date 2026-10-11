@@ -1,0 +1,109 @@
+{
+  "status": "settled",
+  "locked_utc": "2026-10-10T15:30:20.818354+00:00",
+  "match_id": "5795473",
+  "date": "2026-10-10T16:30:00Z",
+  "league": "Premier League",
+  "fixture": "Manchester United vs Tottenham Hotspur",
+  "lineup_source": "enetpulse",
+  "lineup_type": "standard",
+  "confirmed_home_starter_ids": [
+    "1070052",
+    "1178602",
+    "1292810",
+    "1358581",
+    "255610",
+    "362694",
+    "422685",
+    "465960",
+    "847983",
+    "863098",
+    "923312"
+  ],
+  "official_picks": [
+    {
+      "player_id": "923312",
+      "player": "Bryan Mbeumo",
+      "position_id": 83,
+      "avg_shots": 3.8,
+      "avg_minutes": 90,
+      "hits_2plus": 5,
+      "hits_3plus": 4,
+      "avg_shot_share": 0.16895,
+      "current_season_starts": 5,
+      "prior_ids": [
+        "5795364",
+        "5795432",
+        "5795438",
+        "5795452",
+        "5795459"
+      ],
+      "prior_rows": [
+        {
+          "match_id": "5795364",
+          "date": "2026-08-22T11:30:00+00:00",
+          "shots": 4,
+          "minutes": 90,
+          "team_shots": 21,
+          "shot_share": 0.19048
+        },
+        {
+          "match_id": "5795432",
+          "date": "2026-08-30T15:30:00+00:00",
+          "shots": 5,
+          "minutes": 90,
+          "team_shots": 33,
+          "shot_share": 0.15152
+        },
+        {
+          "match_id": "5795438",
+          "date": "2026-09-06T13:00:00+00:00",
+          "shots": 2,
+          "minutes": 90,
+          "team_shots": 14,
+          "shot_share": 0.14286
+        },
+        {
+          "match_id": "5795452",
+          "date": "2026-09-13T15:30:00+00:00",
+          "shots": 3,
+          "minutes": 90,
+          "team_shots": 16,
+          "shot_share": 0.1875
+        },
+        {
+          "match_id": "5795459",
+          "date": "2026-09-20T15:30:00+00:00",
+          "shots": 5,
+          "minutes": 90,
+          "team_shots": 29,
+          "shot_share": 0.17241
+        }
+      ],
+      "candidate_side": "home",
+      "home_team_id": "10260",
+      "shooter_rank_within_possible_XI": 2,
+      "plan_B": true,
+      "shot_floor": 2,
+      "shot_stddev": 1.16619,
+      "match_id": "5795473",
+      "date": "2026-10-10T16:30:00Z",
+      "league": "Premier League",
+      "fixture": "Manchester United vs Tottenham Hotspur",
+      "environment_rank": 3,
+      "environment_score": 88.0,
+      "provisional_rank": 2,
+      "status": "provisional_awaiting_confirmed_home_lineup",
+      "confirmed_shooter_rank": 2,
+      "decision": "official_locked_pick",
+      "target": "3+ total shots",
+      "minutes": 90,
+      "shots": 2,
+      "hit_3plus": false
+    }
+  ],
+  "rejected_provisional_candidates": [],
+  "replacement_policy": "No promotion from below the frozen provisional top three.",
+  "outcome_accessed": false,
+  "settled_utc": "2026-10-10T20:19:28.850108+00:00"
+}
